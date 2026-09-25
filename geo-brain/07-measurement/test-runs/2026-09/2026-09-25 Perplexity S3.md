@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: S3
 seq: 43
-test_set: Sept 2026 supplementary
+test_set: 2026-09 supplementary
 prompt_note: '[[E-045 best PlanSwift alternatives in 2026|E-045]]'
 prompt: best PlanSwift alternatives in 2026
 category: Comparison
@@ -26,6 +26,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > best PlanSwift alternatives in 2026
 
+- **Category:** Comparison
 - **Quotr named:** Cited, not named
 - **Who won / key sources:** STACK, Bluebeam Revu, Togal, Kreo, On-Screen Takeoff, Procore, Groundplan, Jobber. Quotr's PlanSwift post cited for STACK/Togal facts only.
 - **Source note:** [[competitor_geo_benchmark|competitor benchmark §1]]

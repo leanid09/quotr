@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: V1
 seq: 16
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-043 Togal.AI alternatives|E-043]]'
 prompt: Togal.AI alternatives
 tracking_id: T16
@@ -46,6 +46,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > Togal.AI alternatives
 
+- **Category:** Comparison
 - **Quotr named:** **Yes** (both runs)
 - **Position:** Run 1: about 15th of 17 brands (table row "AI-focused takeoff"); Run 2: bullet 8 of 9
 - **Brands named (in order):** Procore, Autodesk Forma, Bluebeam, STACK, Simpro, HCSS, On-Screen Takeoff, Groundplan, Kreo, PlanSwift, Countfire, Buildxact, Houzz Pro, Methvin, **Quotr.ai**, Beam AI, BuildVision AI

@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: C7
 seq: 7
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-004 construction bid management software for general contractors|E-004]]'
 prompt: construction bid management software for general contractors
 tracking_id: T07
@@ -36,6 +36,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > construction bid management software for general contractors
 
+- **Category:** Category
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** ConstructConnect, BuildingConnected, SmartBid, PlanHub, Procore, Kahua, Dodge

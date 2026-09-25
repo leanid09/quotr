@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: C8
 seq: 8
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-005 software for multifamily developers to estimate construction costs|E-005]]'
 prompt: software for multifamily developers to estimate construction costs
 tracking_id: T08
@@ -38,6 +38,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > software for multifamily developers to estimate construction costs
 
+- **Category:** Category
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** ConstructionOnline, RSMeans, Autodesk Forma Estimate, Procore, STACK, RIB CostX, Trimble WinEst/Quest, Houzz Pro, Buildertrend

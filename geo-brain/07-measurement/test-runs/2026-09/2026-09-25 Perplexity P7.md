@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: P7
 seq: 32
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[L-006 how long does a construction estimate take|L-006]]'
 prompt: how long does a construction estimate take
 tracking_id: T32
@@ -38,6 +38,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > how long does a construction estimate take
 
+- **Category:** How-to
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** None

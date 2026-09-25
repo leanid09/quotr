@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: S9
 seq: 49
-test_set: Sept 2026 supplementary
+test_set: 2026-09 supplementary
 prompt_note: '[[E-074 how much does it cost to outsource a quantity takeoff|E-074]]'
 prompt: how much does it cost to outsource a quantity takeoff
 tracking_id: T44
@@ -23,6 +23,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > how much does it cost to outsource a quantity takeoff
 
+- **Category:** How-to (cost)
 - **Quotr named:** Cited
 - **Who won / key sources:** [quotr.ai/blog/quantity-takeoff-services](https://quotr.ai/blog/quantity-takeoff-services/) cited for $0.03–$0.10/sq ft and $250–$2,500 per estimate, next to constructem, powerkh, takeoffmonkey and a Bobyard page ("$39 per billed sheet"). Whether Quotr was named was not recorded.
 - **Source note:** [[competitor_geo_benchmark|competitor benchmark §3]]

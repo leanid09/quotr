@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: V7
 seq: 22
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-054 cheapest AI takeoff software|E-054]]'
 prompt: cheapest AI takeoff software
 tracking_id: T22
@@ -40,6 +40,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > cheapest AI takeoff software
 
+- **Category:** Comparison
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** Kreo (~$35/user/mo), Easy Takeoffs ($39/mo), Pilars ($100/trade/plan), QuoteIQ ($29.99/mo)

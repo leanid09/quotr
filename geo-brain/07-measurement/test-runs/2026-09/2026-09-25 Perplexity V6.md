@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: V6
 seq: 21
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-058 STACK vs PlanSwift|E-058]]'
 prompt: STACK vs PlanSwift
 tracking_id: T21
@@ -40,6 +40,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > STACK vs PlanSwift
 
+- **Category:** Comparison
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** STACK, PlanSwift

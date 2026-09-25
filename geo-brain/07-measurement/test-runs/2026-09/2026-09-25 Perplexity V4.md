@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: V4
 seq: 19
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-046 Bluebeam alternatives for takeoff|E-046]]'
 prompt: Bluebeam alternatives for takeoff
 tracking_id: T19
@@ -42,6 +42,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > Bluebeam alternatives for takeoff
 
+- **Category:** Comparison
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** PlanSwift, STACK, On-Screen Takeoff, Togal.AI, Easy Takeoffs, Buildxact, Adobe Acrobat Pro

@@ -138,7 +138,7 @@ The steps below are a simplified picture that fits what Google, Microsoft, OpenA
 
 ## 2. Crawlers and user-agents: who fetches Quotr's pages, and what blocking does
 
-**Quotr today:** robots.txt is `User-agent: *` / `Allow: /` with no named-bot rules, so **every crawler below is allowed**. Cloudflare's "AI Labyrinth" bot trap is on (it only traps bots that ignore crawl rules). Whether Cloudflare's separate "Block AI bots" setting is off is **TO CONFIRM with Quotr** ([[Website audit|website-audit.md §1]]).
+**Quotr today:** robots.txt is `User-agent: *` / `Allow: /` with no named-bot rules, so **every crawler below is allowed**. Cloudflare's "AI Labyrinth" bot trap is on (it only traps bots that ignore crawl rules). Whether Cloudflare's separate "Block AI bots" setting is off is **TO CONFIRM with Quotr** ([[Website audit|Website audit §1]]).
 
 | Company / engine | User-agent (name in logs and robots.txt) | What it does | Follows robots.txt? | What blocking it does | Recommendation for Quotr |
 |---|---|---|---|---|---|
@@ -173,7 +173,7 @@ Sources for the table: OpenAI ([Publishers FAQ](https://help.openai.com/en/artic
 
 ## 3. Engine by engine
 
-Each section has: **at a glance**, **what is officially known**, **what studies show**, and **what it means for Quotr**. Quotr's own tests covered **Perplexity only**; everything about the other engines is general evidence, not a measurement of Quotr ([[AI visibility baseline|ai-visibility-baseline.md §10–11]]).
+Each section has: **at a glance**, **what is officially known**, **what studies show**, and **what it means for Quotr**. Quotr's own tests covered **Perplexity only**; everything about the other engines is general evidence, not a measurement of Quotr ([[AI visibility baseline|AI visibility baseline §10–11]]).
 
 ### 3.1 ChatGPT search (OpenAI)
 

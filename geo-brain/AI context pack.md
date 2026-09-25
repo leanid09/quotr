@@ -98,7 +98,7 @@ GEO is mostly good SEO plus other people talking about you. Google's May 2026 gu
 ## 10. Where to find more
 
 - Facts and contradictions: [[Entity fact sheet]]
-- Writing rules and a drafting prompt: [[GEO writing style guide]]; templates in [[FAQ block template]]
+- Writing rules and a drafting prompt: [[GEO writing style guide]]; templates in [[Page templates]]
 - Test results: [[AI visibility baseline]]; monthly prompts: [[Tracking set]]
 - Competitors: [[Competitor landscape]]; openings: [[White space]]
 - Plan: [[30-60-90 plan]]; roadmap: [[Content roadmap]]

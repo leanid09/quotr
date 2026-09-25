@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: S10
 seq: 50
-test_set: Sept 2026 supplementary
+test_set: 2026-09 supplementary
 prompt_note: '[[L-130 cost per sq ft to build multifamily 2026, material breakdown|L-130]]'
 prompt: cost per sq ft to build multifamily 2026, material breakdown
 tracking_id: T45
@@ -20,6 +20,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > cost per sq ft to build multifamily 2026, material breakdown
 
+- **Category:** How-to (cost)
 - **Quotr named:** No
 - **Who won / key sources:** Meltplan and Exayard (small vendors) cited next to RSMeans, latestcost, buildmatinsight, BDC Network
 - **Source note:** [[competitor_geo_benchmark|competitor benchmark §3]]

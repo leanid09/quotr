@@ -104,6 +104,12 @@ Nothing found. None of the pages above mention Quotr. Perplexity's own descripti
 - Whether Field Materials AI or any procurement software has added factory-direct sourcing.
 - **TO CONFIRM with Quotr:** product categories, order minimums, lead times, QC process, certifications and whether "DDP" is standard on every order.
 
+## AI answers that named this competitor
+
+The September 2026 Perplexity tests where this competitor (or one of the companies on this page) was named. Each new test run adds rows here automatically.
+
+![[Test runs.base#For this competitor]]
+
 ---
 
 ## Related pages

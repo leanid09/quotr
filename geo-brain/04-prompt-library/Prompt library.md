@@ -3,6 +3,8 @@ type: hub
 description: The master list of 282 buyer prompts by funnel stage, persona and trade, each matched to a Quotr page.
 last_verified: 2026-09-25
 verify_every_days: 90
+cssclasses:
+- wide
 ---
 # Quotr GEO Prompt Library
 

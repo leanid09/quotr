@@ -133,6 +133,12 @@ What Quotr says about STACK: [stack-alternative](https://quotr.ai/blog/stack-alt
 - Whether FloorPlan AI is still priced at $899/user.
 - **TO CONFIRM with Quotr:** whether any customers switched from STACK, and why. A switcher case study would be strong evidence.
 
+## AI answers that named this competitor
+
+The September 2026 Perplexity tests where this competitor (or one of the companies on this page) was named. Each new test run adds rows here automatically.
+
+![[Test runs.base#For this competitor]]
+
 ---
 
 ## Related pages

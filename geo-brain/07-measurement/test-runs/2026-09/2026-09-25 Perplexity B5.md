@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: B5
 seq: 38
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[D-003 Quotr app|D-003]]'
 prompt: Quotr app
 tracking_id: T38
@@ -31,6 +31,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > Quotr app
 
+- **Category:** Brand (namesake test)
 - **Quotr named:** Yes, **3rd of 4 "Quotr" apps**
 - **Position:** 3rd
 - **Brands named (in order):** QUOTR Devis & Facture, QUOTR Daily Motivation, Quotr Pro; also quotrhq.com, getquotr.com

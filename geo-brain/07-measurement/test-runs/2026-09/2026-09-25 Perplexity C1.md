@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: C1
 seq: 1
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-001 best AI takeoff software for subcontractors 2026|E-001]]'
 prompt: best AI takeoff software for subcontractors 2026
 tracking_id: T01
@@ -44,6 +44,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > best AI takeoff software for subcontractors 2026
 
+- **Category:** Category
 - **Quotr named:** No (both runs)
 - **Position:** —
 - **Brands named (in order):** Togal.AI, STACK, PlanSwift, Beam AI

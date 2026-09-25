@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: C10
 seq: 10
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-081 buy construction materials direct from factories overseas platform|E-081]]'
 prompt: buy construction materials direct from factories overseas platform
 tracking_id: T10
@@ -39,6 +39,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > buy construction materials direct from factories overseas platform
 
+- **Category:** Category
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** Alibaba, Global Trade Plaza, Port2Site, AGTS, Marteu, BRKZ, ZeroGap, Commervia

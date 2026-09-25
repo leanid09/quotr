@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: O5
 seq: 57
-test_set: Sept 2026 supplementary
+test_set: 2026-09 supplementary
 prompt_note: '[[E-015 Best construction material procurement software factory-direct 2026|E-015]]'
 prompt: Best construction material procurement software… factory-direct 2026
 category: Category
@@ -21,6 +21,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > Best construction material procurement software… factory-direct 2026
 
+- **Category:** Category
 - **Quotr named:** No
 - **Who won / key sources:** Field Materials AI, Trimble Materials, Archdesk, Procore, Sana Commerce. "The search results do not show a single platform explicitly marketed as a factory-direct marketplace."
 - **Source note:** [[quotr_offsite_presence|offsite notes §5]]

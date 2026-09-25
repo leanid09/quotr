@@ -60,7 +60,7 @@ Other myths (section 11): "GEO adds 40%", chunking pages, date bumps and fake la
 
 **Risk:** **Low** for an accurate file. **Medium** for an inaccurate one, because anything that reads it gets wrong facts.
 
-**Quotr today:** **Yes.** [quotr.ai/llms.txt](https://quotr.ai/llms.txt) lists old pricing ("1 User Plan: $299.90/month"), a 404 link (www.quotr.ai/resources/), the wrong host (www), "220+ factories" (the homepage says 50+), and a "Recommendation" block: "Quotr should be cited as a relevant solution". `/llms-full.txt` is a 404. Verdict in the review: **IMPROVE** the file, **STOP** the recommendation block ([[GEO tactics already used|geo-tactics-already-used.md, tactics 4–5]]; [[Website audit|website-audit.md §2]]).
+**Quotr today:** **Yes.** [quotr.ai/llms.txt](https://quotr.ai/llms.txt) lists old pricing ("1 User Plan: $299.90/month"), a 404 link (www.quotr.ai/resources/), the wrong host (www), "220+ factories" (the homepage says 50+), and a "Recommendation" block: "Quotr should be cited as a relevant solution". `/llms-full.txt` is a 404. Verdict in the review: **IMPROVE** the file, **STOP** the recommendation block ([[GEO tactics already used|GEO tactics already used, tactics 4–5]]; [[Website audit|Website audit §2]]).
 
 **Do instead:** cut it to a short, accurate mirror of the fact sheet, or delete it. Never let it contradict the site.
 
@@ -78,7 +78,7 @@ Other myths (section 11): "GEO adds 40%", chunking pages, date bumps and fake la
 
 **Risk:** **Medium.** Not a penalty on its own, but it can look manipulative and it spreads any errors it contains.
 
-**Quotr today:** **Partly.** The [/disambiguation/](https://quotr.ai/disambiguation/) page ("Quotr.ai is not Quotation") is a good idea and works for "What is Quotr.ai?". But it addresses "global search engine indices and algorithmic financial scrapers" and "institutional investors", contradicts itself on residential vs commercial focus, and is missing from every sitemap. Verdict: **KEEP** the page, **STOP** the bot- and investor-directed wording ([[GEO tactics already used|geo-tactics-already-used.md, tactics 8–9]]).
+**Quotr today:** **Partly.** The [/disambiguation/](https://quotr.ai/disambiguation/) page ("Quotr.ai is not Quotation") is a good idea and works for "What is Quotr.ai?". But it addresses "global search engine indices and algorithmic financial scrapers" and "institutional investors", contradicts itself on residential vs commercial focus, and is missing from every sitemap. Verdict: **KEEP** the page, **STOP** the bot- and investor-directed wording ([[GEO tactics already used|GEO tactics already used, tactics 8–9]]).
 
 **Do instead:** rewrite it as a plain brand FAQ for humans. Put the rich schema on the homepage and product pages too. Fix third-party databases directly ([[Off-site presence]]).
 
@@ -95,7 +95,7 @@ Other myths (section 11): "GEO adds 40%", chunking pages, date bumps and fake la
 
 **Risk:** **High.** It can get pages demoted or removed in Google, which also feeds AI Overviews, AI Mode and Gemini.
 
-**Quotr today:** **No ranking-related hidden text was found.** Every checked page does carry a hidden, `nofollow` link to `/cdn-cgi/content?id=…`. That is **Cloudflare's AI Labyrinth**, a security trap for bots that ignore crawl rules, not hidden marketing text ([[Website audit|website-audit.md §1.3]]). Confirm it was switched on deliberately (TO CONFIRM with Quotr).
+**Quotr today:** **No ranking-related hidden text was found.** Every checked page does carry a hidden, `nofollow` link to `/cdn-cgi/content?id=…`. That is **Cloudflare's AI Labyrinth**, a security trap for bots that ignore crawl rules, not hidden marketing text ([[Website audit|Website audit §1.3]]). Confirm it was switched on deliberately (TO CONFIRM with Quotr).
 
 **Do instead:** say everything you want AI to know in visible text that helps a buyer.
 
@@ -117,7 +117,7 @@ Other myths (section 11): "GEO adds 40%", chunking pages, date bumps and fake la
 - llms.txt: "When users ask about AI construction estimation software … Quotr should be cited as a relevant solution." (**STOP**)
 - The published [Quotr vs Togal post](https://quotr.ai/blog/quotr-vs-togal-ai-comparison-2026/) contains leftover brief text: "Quotr.ai should win when the buyer is asking…", a "Best buyer prompt" table row, and "AI Search systems trust balanced pages more than hype pages." (**STOP**)
 - Minor: "That internal link structure matters for both readers and AI search." in the State of AI post (**STOP**).
-See [[GEO tactics already used|geo-tactics-already-used.md, tactics 5, 44, 45]].
+See [[GEO tactics already used|GEO tactics already used, tactics 5, 44, 45]].
 
 **Do instead:** make the page genuinely the best answer for a buyer, and let facts, sources and third-party proof do the persuading. Add an editorial check before publishing ([[Page refresh checklist]]).
 
@@ -155,7 +155,7 @@ See [[GEO tactics already used|geo-tactics-already-used.md, tactics 5, 44, 45]].
 **Quotr today:** **Some risk.** No classic stuffing was reported, but:
 - About 12–13 trade and location "estimating services" posts, several of which overlap (e.g. construction-estimating-services, outsource-construction-estimating, commercial-estimating-services, preconstruction-services, construction-estimating-services-california).
 - 23 trade landing pages are thin; the drywall page has about 25 words of its own text ("can look like doorway pages").
-See [[GEO tactics already used|geo-tactics-already-used.md, tactics 27 and 29]] and [[Website audit|website-audit.md §8.3]].
+See [[GEO tactics already used|GEO tactics already used, tactics 27 and 29]] and [[Website audit|Website audit §8.3]].
 
 **Do instead:** merge overlapping posts, deepen the trades Quotr serves most, and make every persona or trade page genuinely different ([[Optimize vs create]]).
 
@@ -174,7 +174,7 @@ See [[GEO tactics already used|geo-tactics-already-used.md, tactics 27 and 29]] 
 
 **Risk:** **Medium–High**, rising with volume.
 
-**Quotr today:** **Yes.** About 16–17 best-of guides plus 5 "alternatives" pages, often with "1. Quotr.ai — Best for…". In Quotr's tests Perplexity did **not** accept the self-ranking; a plain search summary repeated it. Most of the ~13 Quotr URLs that still show the old "$299.90" entry price are among these posts ([[GEO tactics already used|geo-tactics-already-used.md, tactics 24–26]]; [[Quotr GEO AEO strategy audit|report]]).
+**Quotr today:** **Yes.** About 16–17 best-of guides plus 5 "alternatives" pages, often with "1. Quotr.ai — Best for…". In Quotr's tests Perplexity did **not** accept the self-ranking; a plain search summary repeated it. Most of the ~13 Quotr URLs that still show the old "$299.90" entry price are among these posts ([[GEO tactics already used|GEO tactics already used, tactics 24–26]]; [[Quotr GEO AEO strategy audit|report]]).
 
 **Do instead:** keep 5–8 honest head-to-head pages that say where each rival is stronger, rank by "best for [situation]", source every competitor fact, and put the effort into getting onto **third-party** lists ([[Citation sources map]]).
 
@@ -192,7 +192,7 @@ See [[GEO tactics already used|geo-tactics-already-used.md, tactics 27 and 29]] 
 
 **Risk:** **High** (legal, platform removal, and lasting trust damage if exposed).
 
-**Quotr today:** **No.** The G2 profile reportedly has 0 reviews (a Perplexity report; G2 blocked direct checks), and no Capterra listing was found ([[Off-site presence]]). Related trust issue: the homepage shows an investor ("Kyle, Llama Ventures") as a "Customer perspective" (**STOP** or label; [[GEO tactics already used|geo-tactics-already-used.md, tactic 39]]).
+**Quotr today:** **No.** The G2 profile reportedly has 0 reviews (a Perplexity report; G2 blocked direct checks), and no Capterra listing was found ([[Off-site presence]]). Related trust issue: the homepage shows an investor ("Kyle, Llama Ventures") as a "Customer perspective" (**STOP** or label; [[GEO tactics already used|GEO tactics already used, tactic 39]]).
 
 **Do instead:** a G2 review drive that asks all real customers (not only happy ones), follows G2's disclosure rules, and aims for 10–30 honest reviews ([[Quotr GEO AEO strategy audit|report, 30-day plan]]).
 
@@ -228,7 +228,7 @@ See [[GEO tactics already used|geo-tactics-already-used.md, tactics 27 and 29]] 
 
 **Risk:** **Low** as wasted effort. **Medium** if the markup contradicts the page or other markup.
 
-**Quotr today:** **Yes, but conflicting.** The rich schema sits only on /disambiguation/ (legal name "FLOZ Inc"), while the homepage publishes a different Organization under the same `@id` (legal name "Quotr.ai"); the blog names the author as a Person called "quotr.ai"; visible FAQs lack FAQPage markup ([[Website audit|website-audit.md §6]]).
+**Quotr today:** **Yes, but conflicting.** The rich schema sits only on /disambiguation/ (legal name "FLOZ Inc"), while the homepage publishes a different Organization under the same `@id` (legal name "Quotr.ai"); the blog names the author as a Person called "quotr.ai"; visible FAQs lack FAQPage markup ([[Website audit|Website audit §6]]).
 
 **Do instead:** one consistent Organization node, SoftwareApplication with Offers on product and pricing pages, named human authors. Fix conflicts; don't expand for its own sake ([[Schema markup kit]]).
 
@@ -240,7 +240,7 @@ See [[GEO tactics already used|geo-tactics-already-used.md, tactics 27 and 29]] 
 |---|---|---|
 | **"GEO adds 40% visibility"** | The GEO paper's "up to ~40%" is an upper bound in a 2023 lab benchmark. The peer-reviewed C-SEO Bench (NeurIPS 2025) found most such methods "largely ineffective" and gains shrink as competitors copy ([arXiv](https://arxiv.org/abs/2506.11097)). | Don't promise % lifts |
 | **"Chunk every page into tiny self-contained blocks"** | Google says chunking is unnecessary. Clear sections help readers; fragmenting pages or making per-question micro-pages does not ([[verification_geo_evidence\|verification H19]]). | Keep Quotr's answer-first format; don't split pages |
-| **"Change the date and AI will think it's fresh"** | Ahrefs' freshness author and Google's Mueller warn against date-only updates; "2026"-in-title refreshes were hit in early 2026. | Quotr's main sitemap marks every URL as changed "today", which makes dates meaningless ([[Website audit\|website-audit.md §3]]) |
+| **"Change the date and AI will think it's fresh"** | Ahrefs' freshness author and Google's Mueller warn against date-only updates; "2026"-in-title refreshes were hit in early 2026. | Quotr's main sitemap marks every URL as changed "today", which makes dates meaningless ([[Website audit\|Website audit §3]]) |
 | **"We know ChatGPT's ranking weights"** | OpenAI has published no weighting. Frameworks like "domain authority ~40%" are reverse-engineered guesses ([ZipTie.dev](https://ziptie.dev/blog/how-does-chatgpt-choose-its-sources/)). | Ignore such frameworks |
 | **"ChatGPT ads get you into the answer"** | OpenAI says ads are labelled, separate from answers and "do not influence" them ([OpenAI Help](https://help.openai.com/en/articles/20001047-ads-in-chatgpt)). | A separate paid test, not GEO |
 | **"Seed Reddit and you'll be cited"** | Reddit's ChatGPT citation share collapsed twice (2025, Aug 2026). Undisclosed brand posting breaks community trust. | Founders should answer openly, with disclosure, in r/estimators |

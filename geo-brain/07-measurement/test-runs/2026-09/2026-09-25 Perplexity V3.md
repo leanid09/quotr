@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: V3
 seq: 18
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-044 PlanSwift alternatives 2026|E-044]]'
 prompt: PlanSwift alternatives 2026
 tracking_id: T18
@@ -48,6 +48,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > PlanSwift alternatives 2026
 
+- **Category:** Comparison
 - **Quotr named:** No (both runs)
 - **Position:** — (Quotr blog used only as a fact source)
 - **Brands named (in order):** STACK, Bluebeam, Procore, Autodesk Takeoff/Forma, ProEst, Groundplan, Kreo, Togal.AI, eTakeoff, On-Screen Takeoff, Easy Takeoffs, Contractor Foreman

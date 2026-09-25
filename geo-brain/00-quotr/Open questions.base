@@ -1,6 +1,7 @@
 filters:
   and:
   - type == "question"
+  - '!file.inFolder("geo-brain/_meta/note-templates")'
 formulas:
   ID: file.asLink(id)
 properties:
@@ -40,6 +41,22 @@ views:
   columnSize: &id001
     note.question: 420
     note.answer: 260
+- type: table
+  name: Open questions for Quotr (short)
+  filters:
+    and:
+    - ask == "Quotr"
+    - status != "answered"
+  order:
+  - formula.ID
+  - note.question
+  - note.topic
+  sort:
+  - property: note.id
+    direction: ASC
+  limit: 8
+  rowHeight: medium
+  columnSize: *id001
 - type: table
   name: To check ourselves
   filters:

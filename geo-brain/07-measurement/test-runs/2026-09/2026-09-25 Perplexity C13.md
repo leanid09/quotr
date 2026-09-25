@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: C13
 seq: 13
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-008 AI estimating software for residential general contractors that goes from plans to|E-008]]'
 prompt: AI estimating software for residential general contractors that goes from plans to proposal
 tracking_id: T13
@@ -39,6 +39,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > AI estimating software for residential general contractors that goes from plans to proposal
 
+- **Category:** Category
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** Handoff, BuildVision AI, Houzz Pro, Buildxact, Beam (trybeam)

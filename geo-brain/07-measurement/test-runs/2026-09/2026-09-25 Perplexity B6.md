@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: B6
 seq: 39
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[D-004 Quotr construction software funding founders|D-004]]'
 prompt: Quotr construction software funding founders
 tracking_id: T39
@@ -35,6 +35,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > Quotr construction software funding founders
 
+- **Category:** Brand
 - **Quotr named:** Yes (**funding conflict flagged**)
 - **Position:** Subject
 - **Brands named (in order):** —

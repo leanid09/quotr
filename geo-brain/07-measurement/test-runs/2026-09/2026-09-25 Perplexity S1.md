@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: S1
 seq: 41
-test_set: Sept 2026 supplementary
+test_set: 2026-09 supplementary
 prompt_note: '[[E-010 best AI construction takeoff and estimating software in 2026 for residential|E-010]]'
 prompt: best AI construction takeoff and estimating software in 2026 for residential subcontractors and general contractors
 category: Category
@@ -24,6 +24,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > best AI construction takeoff and estimating software in 2026 for residential subcontractors and general contractors
 
+- **Category:** Category
 - **Quotr named:** No
 - **Who won / key sources:** Handoff (residential subs/remodelers), Handoff or Buildxact (small GC), STACK (GC all-in-one), Togal.AI (speed). First citation: Handoff's own listicle.
 - **Source note:** [[competitor_geo_benchmark|competitor benchmark §1]]

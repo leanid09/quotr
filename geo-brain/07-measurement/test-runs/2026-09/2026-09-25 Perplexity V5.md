@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: V5
 seq: 20
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-057 Kreo vs Togal|E-057]]'
 prompt: Kreo vs Togal
 tracking_id: T20
@@ -42,6 +42,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > Kreo vs Togal
 
+- **Category:** Comparison
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** Kreo, Togal.AI

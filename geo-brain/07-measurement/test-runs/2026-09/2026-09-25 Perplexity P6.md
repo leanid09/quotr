@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: P6
 seq: 31
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[L-036 can AI read construction drawings|L-036]]'
 prompt: can AI read construction drawings
 tracking_id: T31
@@ -35,6 +35,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > can AI read construction drawings
 
+- **Category:** How-to
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** None

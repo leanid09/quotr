@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: V2
 seq: 17
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[D-021 Togal vs Quotr|D-021]]'
 prompt: Togal vs Quotr
 tracking_id: T17
@@ -35,6 +35,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > Togal vs Quotr
 
+- **Category:** Comparison (brand in prompt; scored as brand)
 - **Quotr named:** Yes
 - **Position:** Co-subject (2nd)
 - **Brands named (in order):** Togal

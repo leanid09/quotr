@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: C14
 seq: 14
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-082 where can US contractors buy cabinets, windows and flooring factory direct at wholesale|E-082]]'
 prompt: where can US contractors buy cabinets, windows and flooring factory direct at wholesale prices
 tracking_id: T14
@@ -35,6 +35,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > where can US contractors buy cabinets, windows and flooring factory direct at wholesale prices
 
+- **Category:** Category (procurement)
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** Build Source, Platinum Direct, Floor Daddy Depot, Shop At Home Cabinets, SD Wood, Floor Kitchen Resource, Universal Factory Direct, Northeast Factory Direct

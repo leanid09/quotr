@@ -134,6 +134,12 @@ Quotr has **no Handoff comparison page** either (onsite audit: no head-to-head p
 - What Handoff's AI takeoff actually outputs for plans over 5,000 sq ft (not tested).
 - **TO CONFIRM with Quotr:** whether Quotr's residential customers are more like Handoff's (remodelers) or like production builders and developers. This decides how directly to compete.
 
+## AI answers that named this competitor
+
+The September 2026 Perplexity tests where this competitor (or one of the companies on this page) was named. Each new test run adds rows here automatically.
+
+![[Test runs.base#For this competitor]]
+
 ---
 
 ## Related pages

@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: S12
 seq: 52
-test_set: Sept 2026 supplementary
+test_set: 2026-09 supplementary
 prompt_note: '[[L-134 how much does it cost to rebuild a house after the LA fires per square foot 2026|L-134]]'
 prompt: how much does it cost to rebuild a house after the LA fires per square foot 2026
 tracking_id: T47
@@ -20,6 +20,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > how much does it cost to rebuild a house after the LA fires per square foot 2026
 
+- **Category:** How-to (cost)
 - **Quotr named:** No
 - **Who won / key sources:** $400–$800+/sq ft from Bloomberg and local GCs (Benson Construction, Amerbuild, UBIC, Vaisman). Quotr sells a "Fast Cost Estimation (Residential LA Fire Rebuilding)" sample but was absent.
 - **Source note:** [[verification_quotr_and_competitors|verification]]

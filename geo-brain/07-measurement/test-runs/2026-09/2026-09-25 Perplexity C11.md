@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: C11
 seq: 11
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-007 best AI construction estimating software 2026|E-007]]'
 prompt: best AI construction estimating software 2026
 tracking_id: T11
@@ -46,6 +46,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > best AI construction estimating software 2026
 
+- **Category:** Category
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** Togal.AI, Handoff, Buildxact, Procore AI, Bluebeam VisualSearch

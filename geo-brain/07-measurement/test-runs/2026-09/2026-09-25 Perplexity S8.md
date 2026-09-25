@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: S8
 seq: 48
-test_set: Sept 2026 supplementary
+test_set: 2026-09 supplementary
 prompt_note: '[[L-032 how do I do a quantity takeoff from PDF plans - what is AI takeoff|L-032]]'
 prompt: how do I do a quantity takeoff from PDF plans / what is AI takeoff
 category: How-to
@@ -23,6 +23,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > how do I do a quantity takeoff from PDF plans / what is AI takeoff
 
+- **Category:** How-to
 - **Quotr named:** No
 - **Who won / key sources:** Bluebeam, Buildxact, BuildVision AI, Houzz Pro, Autodesk, ruh.ai, openconstructionerp. Quotr's [dictionary/ai-takeoff](https://quotr.ai/dictionary/ai-takeoff/) and [how-to-do-construction-takeoff-pdf-blueprint](https://quotr.ai/blog/how-to-do-construction-takeoff-pdf-blueprint/) exist and rank in web search, but were not cited.
 - **Source note:** [[competitor_geo_benchmark|competitor benchmark §3]]

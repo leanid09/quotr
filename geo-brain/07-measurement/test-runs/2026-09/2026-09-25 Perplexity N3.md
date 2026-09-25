@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: N3
 seq: 61
-test_set: Sept 2026 extra runs
+test_set: 2026-09 extra runs
 prompt_note: '[[E-030 best HVAC estimating software 2026|E-030]]'
 prompt: best HVAC estimating software 2026
 tracking_id: T50
@@ -21,6 +21,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > best HVAC estimating software 2026
 
+- **Category:** Category
 - **Result:** Absent (Quotr's HVAC guide not retrieved)
 - **Named in the answer or cited:** QuoteIQ, ServiceTitan, FieldPulse, WenDuct
 

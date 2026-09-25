@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: N1
 seq: 59
-test_set: Sept 2026 extra runs
+test_set: 2026-09 extra runs
 prompt_note: '[[L-114 what tariffs apply to kitchen cabinets and vanities imported from China in 2026|L-114]]'
 prompt: what tariffs apply to kitchen cabinets and vanities imported from China in 2026
 tracking_id: T48
@@ -21,6 +21,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > what tariffs apply to kitchen cabinets and vanities imported from China in 2026
 
+- **Category:** How-to
 - **Result:** Absent; no vendor named
 - **Named in the answer or cited:** White House, CNN, C.H. Robinson, Clark Hill, STR, Allyn cited
 

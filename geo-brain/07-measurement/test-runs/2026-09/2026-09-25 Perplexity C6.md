@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: C6
 seq: 6
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-028 best takeoff software for electrical contractors|E-028]]'
 prompt: best takeoff software for electrical contractors
 tracking_id: T06
@@ -42,6 +42,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > best takeoff software for electrical contractors
 
+- **Category:** Category
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** ConEst IntelliBid, Countfire, PlanSwift, Trimble AccuBid, McCormick

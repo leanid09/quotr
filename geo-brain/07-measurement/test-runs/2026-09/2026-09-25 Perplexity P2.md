@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: P2
 seq: 27
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[L-047 how to estimate drywall for a house|L-047]]'
 prompt: how to estimate drywall for a house
 tracking_id: T27
@@ -36,6 +36,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > how to estimate drywall for a house
 
+- **Category:** How-to
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** None

@@ -6,6 +6,8 @@ aliases:
 - Quotr facts
 last_verified: 2026-09-25
 verify_every_days: 30
+cssclasses:
+- wide
 ---
 # Quotr.ai Entity Fact Sheet
 

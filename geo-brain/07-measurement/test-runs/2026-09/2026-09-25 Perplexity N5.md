@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: N5
 seq: 63
-test_set: Sept 2026 extra runs
+test_set: 2026-09 extra runs
 prompt_note: '[[E-051 Handoff alternatives for residential contractors|E-051]]'
 prompt: Handoff alternatives for residential contractors
 tracking_id: T52
@@ -23,6 +23,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > Handoff alternatives for residential contractors
 
+- **Category:** Comparison
 - **Result:** Absent
 - **Named in the answer or cited:** Foreman, SimplyWise, Houzz Pro, Buildertrend, Buildxact, JobTread, Jobber, Contractor Foreman
 

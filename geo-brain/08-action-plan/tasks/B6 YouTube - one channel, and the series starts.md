@@ -14,7 +14,7 @@ done_when: one channel with current branding; first two episodes live and embedd
 ---
 # B6. YouTube: one channel, and the series starts
 
-- **What:** Consolidate on one channel (@QuotrAI; whether the @QuotrIO / "QuoTrio" channel is Quotr's is TO CONFIRM). Start "AI takeoff on real residential plans": one trade per video, starting with electrical and drywall ([[V-01 Video episodes 1–2, electrical and drywall|V-01]]). Say "Quotr.ai" out loud and put it in titles. Embed each video on its matching page. Pace: about 2 videos a month.
+- **What:** Consolidate on one channel (@QuotrAI; whether the @QuotrIO / "QuoTrio" channel is Quotr's is TO CONFIRM). Start "AI takeoff on real residential plans": one trade per video, starting with electrical and drywall ([[V-01 Video episodes 1-2, electrical and drywall|V-01]]). Say "Quotr.ai" out loud and put it in titles. Embed each video on its matching page. Pace: about 2 videos a month.
 - **Why (evidence):** Aleyda Solis's August 2026 study found YouTube to be the largest single source site for SaaS brands in AI answers. Ahrefs found YouTube mentions are the strongest *correlate* of AI visibility (a link in the data, not proof of cause). Perplexity never cited YouTube in our tests, so the payoff is more likely in Google's AI features and ChatGPT (report).
 - **Owner:** Marketing + a product specialist on camera.
 - **Effort / Impact:** M / M (rising once the series has several videos).

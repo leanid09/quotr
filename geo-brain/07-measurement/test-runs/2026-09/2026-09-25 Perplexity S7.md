@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: S7
 seq: 47
-test_set: Sept 2026 supplementary
+test_set: 2026-09 supplementary
 prompt_note: '[[D-024 Quotr.ai vs Togal.AI vs Beam AI vs Kreo|D-024]]'
 prompt: Quotr.ai vs Togal.AI vs Beam AI vs Kreo
 category: Brand
@@ -22,6 +22,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > Quotr.ai vs Togal.AI vs Beam AI vs Kreo
 
+- **Category:** Brand
 - **Quotr named:** Yes
 - **Who won / key sources:** Quotr "most all-in-one", Togal "most takeoff-first", Beam "most done-for-you", Kreo "most budget-friendly". Most citations were Quotr's own blog.
 - **Source note:** [[competitor_geo_benchmark|competitor benchmark §1]]

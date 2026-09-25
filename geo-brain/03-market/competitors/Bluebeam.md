@@ -107,6 +107,12 @@ What Quotr says about Bluebeam: [bluebeam-alternative](https://quotr.ai/blog/blu
 - G2 and Capterra ratings (only counts were captured).
 - **TO CONFIRM with Quotr:** Bluebeam file compatibility.
 
+## AI answers that named this competitor
+
+The September 2026 Perplexity tests where this competitor (or one of the companies on this page) was named. Each new test run adds rows here automatically.
+
+![[Test runs.base#For this competitor]]
+
 ---
 
 ## Related pages

@@ -128,6 +128,12 @@ Almost nothing. Perplexity listed PalCode's 2026 list, rconstructionsolutions.co
 - Whether PalCode's list actually names Quotr and what it says.
 - New entrants after September 2026. Re-run the "best AI takeoff software" prompt monthly and add any new names here.
 
+## AI answers that named this competitor
+
+The September 2026 Perplexity tests where this competitor (or one of the companies on this page) was named. Each new test run adds rows here automatically.
+
+![[Test runs.base#For this competitor]]
+
 ---
 
 ## Related pages

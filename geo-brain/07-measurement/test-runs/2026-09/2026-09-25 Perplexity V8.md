@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: V8
 seq: 23
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-055 AI takeoff software with free trial|E-055]]'
 prompt: AI takeoff software with free trial
 tracking_id: T23
@@ -40,6 +40,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > AI takeoff software with free trial
 
+- **Category:** Comparison
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** On-Screen Takeoff, PlanSwift, Kreo, Eano, eTakeoff, Intuitive Takeoff, BuildVision AI, Buildxact, Canaveral

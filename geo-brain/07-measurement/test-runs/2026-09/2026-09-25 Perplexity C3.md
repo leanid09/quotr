@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: C3
 seq: 3
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-003 AI construction takeoff software|E-003]]'
 prompt: AI construction takeoff software
 tracking_id: T03
@@ -45,6 +45,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > AI construction takeoff software
 
+- **Category:** Category
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** Ruh AI, Attentive.ai/Beam AI, eTakeoff SnapAI, Bobyard, Kreo, MeltPlan, Togal, Civils.ai, CountBricks, Procore

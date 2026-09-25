@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: P5
 seq: 30
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[L-035 how accurate is AI takeoff|L-035]]'
 prompt: how accurate is AI takeoff
 tracking_id: T30
@@ -40,6 +40,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > how accurate is AI takeoff
 
+- **Category:** How-to
 - **Quotr named:** No — content used as **first inline citation**, brand not named
 - **Position:** —
 - **Brands named (in order):** None named

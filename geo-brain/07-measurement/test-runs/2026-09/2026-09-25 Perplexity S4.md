@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: S4
 seq: 44
-test_set: Sept 2026 supplementary
+test_set: 2026-09 supplementary
 prompt_note: '[[E-012 best software for a GC to compare subcontractor and supplier bids - bid leveling for|E-012]]'
 prompt: best software for a GC to compare subcontractor and supplier bids / bid leveling for residential
 tracking_id: T41
@@ -22,6 +22,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > best software for a GC to compare subcontractor and supplier bids / bid leveling for residential
 
+- **Category:** Category
 - **Quotr named:** No
 - **Who won / key sources:** Buildertrend, Buildxact, SmartBid, Procore Bid Management, Contractor Foreman
 - **Source note:** [[competitor_geo_benchmark|competitor benchmark §1]]

@@ -1,8 +1,10 @@
 filters:
   and:
   - type == "test-run"
+  - '!file.inFolder("geo-brain/_meta/note-templates")'
 formulas:
   Test: file.asLink(test_id)
+  run: test_set + " · " + engine
 properties:
   formula.Test:
     displayName: Test
@@ -30,6 +32,8 @@ properties:
     displayName: Fact-check re-run
   note.tracking_id:
     displayName: T#
+  formula.run:
+    displayName: Test run and engine
 newItemFolder: geo-brain/07-measurement/test-runs
 newItemTemplate: geo-brain/_meta/note-templates/Test run.md
 views:
@@ -55,13 +59,49 @@ views:
     note.prompt: 300
     note.result_summary: 340
 - type: table
-  name: Mention rate by engine (unbranded)
+  name: Latest 10
+  order:
+  - note.date
+  - note.engine
+  - formula.Test
+  - note.prompt
+  - note.quotr_named
+  - note.result_summary
+  sort:
+  - property: note.date
+    direction: DESC
+  - property: note.seq
+    direction: ASC
+  limit: 10
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: Last 7 days
+  filters:
+    and:
+    - date >= today() - "7d"
+  order:
+  - note.date
+  - note.engine
+  - formula.Test
+  - note.prompt
+  - note.quotr_named
+  sort:
+  - property: note.date
+    direction: DESC
+  - property: note.seq
+    direction: ASC
+  limit: 20
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: Mention rate (unbranded)
   filters:
     and:
     - branded == false
   groupBy:
-    property: note.engine
-    direction: ASC
+    property: formula.run
+    direction: DESC
   order:
   - note.date
   - formula.Test
@@ -82,7 +122,7 @@ views:
   name: Sept 2026 core 40
   filters:
     and:
-    - test_set == "Sept 2026 baseline"
+    - test_set == "2026-09 baseline (core 40)"
   order:
   - formula.Test
   - note.prompt
@@ -101,7 +141,7 @@ views:
   name: Sept 2026 supplementary
   filters:
     and:
-    - test_set == "Sept 2026 supplementary"
+    - test_set == "2026-09 supplementary"
   order:
   - formula.Test
   - note.prompt
@@ -117,7 +157,7 @@ views:
   name: Sept 2026 extra runs
   filters:
     and:
-    - test_set == "Sept 2026 extra runs"
+    - test_set == "2026-09 extra runs"
   order:
   - formula.Test
   - note.prompt
@@ -139,7 +179,6 @@ views:
   - note.engine
   - formula.Test
   - note.quotr_named
-  - note.position
   - note.quotr_sources
   - note.result_summary
   sort:
@@ -158,7 +197,6 @@ views:
   - formula.Test
   - note.prompt
   - note.quotr_named
-  - note.result_summary
   sort:
   - property: note.date
     direction: DESC

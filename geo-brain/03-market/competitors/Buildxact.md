@@ -122,6 +122,12 @@ Nothing found (WebSearch for Quotr on buildxact.com, 2026-09-25). Quotr has **no
 - Whether Buildxact is publishing AI-takeoff accuracy claims (not seen).
 - **TO CONFIRM with Quotr:** which material categories Quotr can supply factory-direct, and at what minimum order size, before publishing "dealer vs factory-direct" content.
 
+## AI answers that named this competitor
+
+The September 2026 Perplexity tests where this competitor (or one of the companies on this page) was named. Each new test run adds rows here automatically.
+
+![[Test runs.base#For this competitor]]
+
 ---
 
 ## Related pages

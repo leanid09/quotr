@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: V9
 seq: 24
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-059 Beam AI vs Togal AI vs Kreo which is best for residential estimating|E-059]]'
 prompt: Beam AI vs Togal AI vs Kreo which is best for residential estimating
 tracking_id: T24
@@ -33,6 +33,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > Beam AI vs Togal AI vs Kreo which is best for residential estimating
 
+- **Category:** Comparison
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** Beam AI (merged with trybeam.com, a different product), Togal AI, Kreo

@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: C12
 seq: 12
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-073 outsourced construction estimating service price per square foot for developers|E-073]]'
 prompt: outsourced construction estimating service price per square foot for developers
 tracking_id: T12
@@ -33,6 +33,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > outsourced construction estimating service price per square foot for developers
 
+- **Category:** Category
 - **Quotr named:** No — content used as "one outsourced estimating service"
 - **Position:** —
 - **Brands named (in order):** None named

@@ -123,6 +123,12 @@ Quotr has **no Kreo comparison page** (onsite audit: "no head-to-head pages vs K
 - The credit-based pricing a reviewer mentioned (not shown on the pricing page seen).
 - **TO CONFIRM with Quotr:** what Quotr Lite's "AI symbol detection" and "area detection" do compared with Kreo Pro's Auto Measure and Auto Count.
 
+## AI answers that named this competitor
+
+The September 2026 Perplexity tests where this competitor (or one of the companies on this page) was named. Each new test run adds rows here automatically.
+
+![[Test runs.base#For this competitor]]
+
 ---
 
 ## Related pages

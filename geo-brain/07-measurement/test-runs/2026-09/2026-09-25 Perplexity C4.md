@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: C4
 seq: 4
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-026 best takeoff software for drywall contractors|E-026]]'
 prompt: best takeoff software for drywall contractors
 tracking_id: T04
@@ -42,6 +42,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > best takeoff software for drywall contractors
 
+- **Category:** Category
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** STACK, The EDGE, QuoteIQ, Bluebeam, Houzz Pro, Buildxact, PlanSwift

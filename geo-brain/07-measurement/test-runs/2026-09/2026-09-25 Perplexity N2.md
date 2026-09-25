@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: N2
 seq: 60
-test_set: Sept 2026 extra runs
+test_set: 2026-09 extra runs
 prompt_note: '[[L-097 how to estimate plumbing from drawings|L-097]]'
 prompt: how to estimate plumbing from drawings
 tracking_id: T49
@@ -23,6 +23,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > how to estimate plumbing from drawings
 
+- **Category:** How-to
 - **Result:** **Cited, not named**: Quotr's [plumbing post](https://quotr.ai/blog/how-to-estimate-plumbing-from-drawings/) was the **first citation** and supplied most steps
 - **Named in the answer or cited:** RSMeans, Easy Takeoffs, ServiceTitan, Anvilfield also cited. Watch for: brand named
 

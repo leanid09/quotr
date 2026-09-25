@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: C5
 seq: 5
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-027 best takeoff software for flooring contractors|E-027]]'
 prompt: best takeoff software for flooring contractors
 tracking_id: T05
@@ -39,6 +39,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > best takeoff software for flooring contractors
 
+- **Category:** Category
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** The EDGE, MeasureSquare, PlanSwift, STACK, Autodesk Takeoff, QuoteIQ, On Center (Takeoff Boost)

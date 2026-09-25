@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: C9
 seq: 9
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-006 construction estimating software with material procurement|E-006]]'
 prompt: construction estimating software with material procurement
 tracking_id: T09
@@ -45,6 +45,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > construction estimating software with material procurement
 
+- **Category:** Category
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** Buildertrend, Procore, Buildxact, esti-mate, ConWize

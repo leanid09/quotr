@@ -1,0 +1,19 @@
+/* Quotr vault: small readability tweaks.
+   Turn off in Settings → Appearance → CSS snippets if you ever want the plain look. */
+
+/* Home dashboard: use most of the window, and hide its properties box */
+.markdown-source-view.dashboard,
+.markdown-preview-view.dashboard {
+  --file-line-width: 1400px;
+}
+.markdown-source-view.dashboard,
+.markdown-preview-view.dashboard {
+  --metadata-display-editing: none;
+  --metadata-display-reading: none;
+}
+
+/* Pages built around live tables: a wider page so the tables fit */
+.markdown-source-view.wide,
+.markdown-preview-view.wide {
+  --file-line-width: 1080px;
+}

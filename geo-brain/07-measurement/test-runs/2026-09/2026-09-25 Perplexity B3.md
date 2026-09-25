@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: B3
 seq: 36
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[D-014 Is Quotr.ai legit - Quotr reviews|D-014]]'
 prompt: Is Quotr.ai legit? Quotr reviews
 tracking_id: T36
@@ -30,6 +30,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > Is Quotr.ai legit? Quotr reviews
 
+- **Category:** Brand
 - **Quotr named:** Yes, but **mixed up with the Quotr Pro app** (both runs)
 - **Position:** Subject
 - **Brands named (in order):** Quotr Pro app, QUOTR Devis & Facture (namesakes)

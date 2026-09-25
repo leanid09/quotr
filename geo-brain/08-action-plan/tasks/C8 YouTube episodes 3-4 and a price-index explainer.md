@@ -17,7 +17,7 @@ done_when: both videos are live and embedded on their pages.
 ---
 # C8. YouTube episodes 3–4 and a price-index explainer
 
-- **What:** Plumbing and HVAC episodes on real residential plans, plus a 60–90 second explainer of the Q4 price index ([[V-02 Video episodes 3–4, plumbing and HVAC|V-02]]).
+- **What:** Plumbing and HVAC episodes on real residential plans, plus a 60–90 second explainer of the Q4 price index ([[V-02 Video episodes 3-4, plumbing and HVAC|V-02]]).
 - **Why (evidence):** See B6.
 - **Owner:** Marketing.
 - **Effort / Impact:** M / M.

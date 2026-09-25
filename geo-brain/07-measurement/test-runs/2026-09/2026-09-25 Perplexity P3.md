@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: P3
 seq: 28
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[L-129 how to estimate construction costs for a multifamily project|L-129]]'
 prompt: how to estimate construction costs for a multifamily project
 tracking_id: T28
@@ -37,6 +37,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > how to estimate construction costs for a multifamily project
 
+- **Category:** How-to
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** None ($220–$700/sq ft and $150k–$250k/unit benchmarks given)

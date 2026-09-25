@@ -5,6 +5,8 @@ aliases:
 - Baseline
 last_verified: 2026-09-25
 verify_every_days: 30
+cssclasses:
+- wide
 ---
 # Quotr AI Visibility Baseline (Perplexity Tests, September 2026)
 

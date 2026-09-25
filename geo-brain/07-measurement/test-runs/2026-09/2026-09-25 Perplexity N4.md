@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: N4
 seq: 62
-test_set: Sept 2026 extra runs
+test_set: 2026-09 extra runs
 prompt_note: '[[E-033 best roofing takeoff software for new construction from plans|E-033]]'
 prompt: best roofing takeoff software for new construction from plans
 tracking_id: T51
@@ -26,6 +26,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > best roofing takeoff software for new construction from plans
 
+- **Category:** Category
 - **Result:** Absent
 - **Named in the answer or cited:** STACK, Beam AI, On-Screen Takeoff + Quick Bid, Buildxact
 

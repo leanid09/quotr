@@ -1,6 +1,7 @@
 filters:
   and:
   - type == "prompt"
+  - '!file.inFolder("geo-brain/_meta/note-templates")'
 formulas:
   ID: file.asLink(id)
 properties:

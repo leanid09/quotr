@@ -1192,7 +1192,7 @@ G2 (which now owns Capterra, GetApp and Software Advice), other software directo
 
 ## 5. GEO studies, search-platform documentation and tools (181)
 
-Google, Microsoft/Bing, OpenAI, Anthropic, Perplexity and Cloudflare documentation; GEO/SEO studies and analyses; AI-visibility tool vendors; regulators (FTC) cited on review and disclosure rules. Many of these are vendor studies: see the evidence ratings in 01-geo-fundamentals/signals-that-matter.md before quoting them.
+Google, Microsoft/Bing, OpenAI, Anthropic, Perplexity and Cloudflare documentation; GEO/SEO studies and analyses; AI-visibility tool vendors; regulators (FTC) cited on review and disclosure rules. Many of these are vendor studies: see the evidence ratings in [[Signals that matter]] before quoting them.
 
 **51degrees.com** (1)
 
@@ -1883,7 +1883,7 @@ Companies AI engines cite on factory-direct buying, importing and outsourced est
 
 ## 8. Communities, forums and creator videos (95)
 
-Reddit threads, trade forums and independent YouTube videos where real buyer questions were seen (mostly cited in 04-prompt-library/buyer-questions-by-trade.md).
+Reddit threads, trade forums and independent YouTube videos where real buyer questions were seen (mostly cited in [[Buyer questions by trade]]).
 
 **contractortalk.com** (25)
 

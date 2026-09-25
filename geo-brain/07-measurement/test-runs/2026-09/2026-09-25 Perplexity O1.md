@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: O1
 seq: 53
-test_set: Sept 2026 supplementary
+test_set: 2026-09 supplementary
 prompt_note: '[[D-015 What is Quotr.ai - Is it legit - reviews|D-015]]'
 prompt: What is Quotr.ai? Is it legit? reviews
 category: Brand
@@ -19,6 +19,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > What is Quotr.ai? Is it legit? reviews
 
+- **Category:** Brand
 - **Quotr named:** Yes
 - **Who won / key sources:** "a real construction estimating software company"; "legit as an operating product/business"; "I did not find independent third-party reviews". About 14 citations, 10 of them quotr.ai.
 - **Source note:** [[quotr_offsite_presence|offsite notes §5]]

@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: C2
 seq: 2
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-002 best construction estimating software for residential contractors|E-002]]'
 prompt: best construction estimating software for residential contractors
 tracking_id: T02
@@ -40,6 +40,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > best construction estimating software for residential contractors
 
+- **Category:** Category
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** Clear Estimates, Buildxact, Houzz Pro, Buildertrend, JobTread, QuickBooks

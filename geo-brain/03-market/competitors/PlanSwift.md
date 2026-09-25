@@ -118,6 +118,12 @@ What Quotr says about PlanSwift: [best-planswift-alternatives-2026](https://quot
 - Whether ConstructConnect plans a 2027 edition of its guide and how it chooses platforms beyond G2 data.
 - **TO CONFIRM with Quotr:** whether Quotr can import PlanSwift assemblies or Excel templates (needed before promising an easy migration).
 
+## AI answers that named this competitor
+
+The September 2026 Perplexity tests where this competitor (or one of the companies on this page) was named. Each new test run adds rows here automatically.
+
+![[Test runs.base#For this competitor]]
+
 ---
 
 ## Related pages

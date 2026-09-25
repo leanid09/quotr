@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: V10
 seq: 25
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-047 STACK takeoff alternatives for small residential subcontractors|E-047]]'
 prompt: STACK takeoff alternatives for small residential subcontractors
 tracking_id: T25
@@ -44,6 +44,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > STACK takeoff alternatives for small residential subcontractors
 
+- **Category:** Comparison
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** Easy Takeoffs, Buildxact, Square Takeoff, PlanSwift, Bluebeam, eTakeoff

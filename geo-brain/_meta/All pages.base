@@ -5,6 +5,7 @@ filters:
 formulas:
   next_check: if(verify_every_days, last_verified + duration(verify_every_days + "d"), "")
   days_left: if(verify_every_days, (last_verified + duration(verify_every_days + "d") - today()).days, "")
+  words: ((file.size / 6.8) / 100).round() * 100
 properties:
   file.name:
     displayName: Page
@@ -18,6 +19,8 @@ properties:
     displayName: Next check due
   formula.days_left:
     displayName: Days left
+  formula.words:
+    displayName: ≈ Words
 views:
 - type: table
   name: Map of the brain
@@ -27,12 +30,15 @@ views:
   order:
   - file.name
   - note.description
+  - formula.words
   sort:
   - property: file.name
     direction: ASC
-  rowHeight: medium
-  columnSize: &id001
-    note.description: 460
+  rowHeight: tall
+  columnSize:
+    file.name: 210
+    note.description: 360
+    formula.words: 90
 - type: table
   name: Next checks due
   filters:
@@ -70,24 +76,25 @@ views:
   filters:
     and:
     - file.inFolder("geo-brain/03-market/competitors")
+    - file.path != this.file.path
   order:
   - file.name
   - note.description
-  - note.last_verified
   sort:
   - property: file.name
     direction: ASC
   rowHeight: medium
-  columnSize: *id001
+  columnSize: &id001
+    note.description: 400
 - type: table
   name: Playbooks
   filters:
     and:
     - file.folder == "geo-brain/06-playbooks"
+    - file.path != this.file.path
   order:
   - file.name
   - note.description
-  - note.last_verified
   sort:
   - property: file.name
     direction: ASC
@@ -98,10 +105,10 @@ views:
   filters:
     and:
     - file.inFolder("geo-brain/06-playbooks/offsite")
+    - file.path != this.file.path
   order:
   - file.name
   - note.description
-  - note.last_verified
   sort:
   - property: file.name
     direction: ASC
@@ -112,10 +119,10 @@ views:
   filters:
     and:
     - file.inFolder("geo-brain/06-playbooks/templates")
+    - file.path != this.file.path
   order:
   - file.name
   - note.description
-  - note.last_verified
   sort:
   - property: file.name
     direction: ASC

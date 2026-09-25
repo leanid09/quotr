@@ -333,11 +333,11 @@ The full method, all 53 prompts and the templates are in [[Tracking set]]. This 
    - **Lite (about 3 hours):** the 23 Tier A prompts once each in ChatGPT, Google AI Mode and Perplexity; note whether Google shows an AI Overview; all 53 prompts twice through the Perplexity Sonar API (scripted) to compare with September.
    - **Standard (10–15 hours by hand, or use a tool):** Tier A twice and Tier B once, in ChatGPT, Google AI Mode / AI Overviews, Perplexity and Gemini.
    - **Quarterly add-on:** Claude and Copilot, all prompts once.
-4. **Record** for every run: engine and model shown, Quotr named (Y/N), position, how Quotr is described, sentiment, accuracy problems (checklist in [[Tracking set|tracking-set.md §3.6]]), quotr.ai URLs cited, retrieved-only URLs, competitors named, top cited domains, third-party pages naming Quotr, screenshot or share link.
-5. **Score** with the formulas in [[Tracking set|tracking-set.md §3.7]]: mention rate, citation rate, retrieval rate, cited-not-named count, share of voice, average position, brand accuracy. **One row per engine; never blend engines.** Use the first run for headline numbers and the second to flag "unstable" results.
+4. **Record** for every run: engine and model shown, Quotr named (Y/N), position, how Quotr is described, sentiment, accuracy problems (checklist in [[Tracking set|Tracking set §3.6]]), quotr.ai URLs cited, retrieved-only URLs, competitors named, top cited domains, third-party pages naming Quotr, screenshot or share link.
+5. **Score** with the formulas in [[Tracking set|Tracking set §3.7]]: mention rate, citation rate, retrieval rate, cited-not-named count, share of voice, average position, brand accuracy. **One row per engine; never blend engines.** Use the first run for headline numbers and the second to flag "unstable" results.
 6. **Log new third-party pages** that name Quotr in [[Off-site presence]].
 7. **Add first-party data:** Search Console AI impressions, Bing AI citations, GA4 AI sessions and key events, form answers, Cloudflare crawler status.
-8. **Fill the dashboard** in [[KPIs and dashboard|kpis-and-dashboard.md §6]] and write the 5-line monthly note ([[Tracking set|tracking-set.md §4.4]]).
+8. **Fill the dashboard** in [[KPIs and dashboard|KPIs and dashboard §6]] and write the 5-line monthly note ([[Tracking set|Tracking set §4.4]]).
 
 **Why monthly, not weekly:** AI citations change a lot from month to month and changes take weeks to show, so weekly prompt checks mostly measure noise ([[geo_content_playbook_b2b|playbook §4]]).
 
@@ -350,9 +350,9 @@ The full method, all 53 prompts and the templates are in [[Tracking set]]. This 
 | Cadence | Time (estimate) | What to check | Output |
 |---|---|---|---|
 | **Weekly** (e.g. Monday) | 15–30 min | GA4 AI sessions and key events (anything unusual?); Cloudflare AI Crawl Control (any wanted bot blocked or erroring?); new G2 reviews; new mentions of "Quotr.ai" (set a free Google Alert); any fixes shipped that need a re-crawl request. **Don't re-run prompts weekly** | A 3-line Slack or email note, only if something changed |
-| **Monthly** (first week) | Half a day (Lite) to 2 days (Standard, by hand) | Full prompt test (§7); Search Console Generative AI report and branded search; Bing AI Performance; GA4 AI channel and landing pages; form answers; reviews and list inclusions; crawler health; re-score [[Presence scorecard]] | Monthly dashboard ([[KPIs and dashboard\|kpis-and-dashboard.md §6]]) plus the 5-line note |
-| **Quarterly** | 1 day | 3-month trends by engine, including the presence-scorecard trend; Claude and Copilot runs; branded-search trend; AI vs organic conversion comparison; swap in up to 5 new prompts ([[Tracking set\|tracking-set.md §5]]); update the GA4 regex with new AI sources; review tool choice and budget ([[AI visibility tools compared]]); review targets | Quarterly review deck or doc for Quotr leadership |
-| **Day-90 review** (late December 2026) | Half a day | Compare against the 90-day targets in [[KPIs and dashboard\|kpis-and-dashboard.md §4]]; decide the next quarter's priorities | Short decision memo |
+| **Monthly** (first week) | Half a day (Lite) to 2 days (Standard, by hand) | Full prompt test (§7); Search Console Generative AI report and branded search; Bing AI Performance; GA4 AI channel and landing pages; form answers; reviews and list inclusions; crawler health; re-score [[Presence scorecard]] | Monthly dashboard ([[KPIs and dashboard\|KPIs and dashboard §6]]) plus the 5-line note |
+| **Quarterly** | 1 day | 3-month trends by engine, including the presence-scorecard trend; Claude and Copilot runs; branded-search trend; AI vs organic conversion comparison; swap in up to 5 new prompts ([[Tracking set\|Tracking set §5]]); update the GA4 regex with new AI sources; review tool choice and budget ([[AI visibility tools compared]]); review targets | Quarterly review deck or doc for Quotr leadership |
+| **Day-90 review** (late December 2026) | Half a day | Compare against the 90-day targets in [[KPIs and dashboard\|KPIs and dashboard §4]]; decide the next quarter's priorities | Short decision memo |
 
 ### First three months (suggested calendar)
 

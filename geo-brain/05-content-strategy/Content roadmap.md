@@ -5,6 +5,8 @@ aliases:
 - Roadmap
 last_verified: 2026-09-25
 verify_every_days: 30
+cssclasses:
+- wide
 ---
 # Content Roadmap: Topic Clusters and 68 Pieces, October 2026 to March 2027
 

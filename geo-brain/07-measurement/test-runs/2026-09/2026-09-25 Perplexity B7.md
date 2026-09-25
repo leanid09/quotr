@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: B7
 seq: 40
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[D-023 Quotr alternatives|D-023]]'
 prompt: Quotr alternatives
 tracking_id: T40
@@ -40,6 +40,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > Quotr alternatives
 
+- **Category:** Brand
 - **Quotr named:** Yes (framed as "the most end-to-end option")
 - **Position:** Subject
 - **Brands named (in order):** STACK, Togal.AI, PlanSwift, Bluebeam, Kreo, On-Screen Takeoff, Beam AI

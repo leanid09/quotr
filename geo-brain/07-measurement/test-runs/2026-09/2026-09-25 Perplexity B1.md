@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: B1
 seq: 34
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[D-001 What is Quotr.ai|D-001]]'
 prompt: What is Quotr.ai?
 tracking_id: T34
@@ -29,6 +29,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > What is Quotr.ai?
 
+- **Category:** Brand
 - **Quotr named:** Yes (both runs; **accurate**)
 - **Position:** Subject
 - **Brands named (in order):** —

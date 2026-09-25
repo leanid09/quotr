@@ -135,6 +135,12 @@ What **Quotr** says about Togal (and what AI repeats): Quotr has three Togal pag
 - Whether Togal publishes llms.txt or schema (not verified; scraping was rate-limited).
 - **TO CONFIRM with Quotr:** how often Quotr's sales team meets Togal in deals, and why prospects choose one or the other.
 
+## AI answers that named this competitor
+
+The September 2026 Perplexity tests where this competitor (or one of the companies on this page) was named. Each new test run adds rows here automatically.
+
+![[Test runs.base#For this competitor]]
+
 ---
 
 ## Related pages

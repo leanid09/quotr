@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: P1
 seq: 26
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[L-031 how to do a quantity takeoff from PDF plans|L-031]]'
 prompt: how to do a quantity takeoff from PDF plans
 tracking_id: T26
@@ -36,6 +36,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > how to do a quantity takeoff from PDF plans
 
+- **Category:** How-to
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** None (generic workflow)

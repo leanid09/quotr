@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: C15
 seq: 15
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[E-009 best takeoff and estimating software for Mac users|E-009]]'
 prompt: best takeoff and estimating software for Mac users
 tracking_id: T15
@@ -39,6 +39,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > best takeoff and estimating software for Mac users
 
+- **Category:** Category
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** STACK, Easy Takeoffs, Square Takeoff, Bluebeam, Buildxact

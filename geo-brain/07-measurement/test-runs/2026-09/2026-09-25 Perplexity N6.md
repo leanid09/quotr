@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: N6
 seq: 64
-test_set: Sept 2026 extra runs
+test_set: 2026-09 extra runs
 prompt_note: '[[L-052 how to estimate a lumber package for a new house|L-052]]'
 prompt: how to estimate a lumber package for a new house
 tracking_id: T53
@@ -23,6 +23,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > how to estimate a lumber package for a new house
 
+- **Category:** How-to
 - **Result:** Absent; no software named
 - **Named in the answer or cited:** Angi, HomeAdvisor, Buildxact, Exayard and calculator sites cited
 

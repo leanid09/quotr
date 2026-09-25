@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: P4
 seq: 29
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[L-108 how to reduce building material costs|L-108]]'
 prompt: how to reduce building material costs
 tracking_id: T29
@@ -37,6 +37,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > how to reduce building material costs
 
+- **Category:** How-to
 - **Quotr named:** No
 - **Position:** —
 - **Brands named (in order):** None (factory-direct sourcing not mentioned as a lever)

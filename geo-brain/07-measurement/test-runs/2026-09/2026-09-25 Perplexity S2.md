@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: S2
 seq: 42
-test_set: Sept 2026 supplementary
+test_set: 2026-09 supplementary
 prompt_note: '[[E-011 best takeoff and estimating software for multifamily developers and residential general|E-011]]'
 prompt: best takeoff and estimating software for multifamily developers and residential general contractors 2026
 category: Category
@@ -23,6 +23,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > best takeoff and estimating software for multifamily developers and residential general contractors 2026
 
+- **Category:** Category
 - **Quotr named:** No
 - **Who won / key sources:** Autodesk Takeoff / Forma Estimate, STACK, PlanSwift, Togal.AI
 - **Source note:** [[competitor_geo_benchmark|competitor benchmark §1]]

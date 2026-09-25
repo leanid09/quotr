@@ -1,9 +1,12 @@
 filters:
   and:
   - type == "task"
+  - '!file.inFolder("geo-brain/_meta/note-templates")'
 formulas:
   ID: file.asLink(id)
 properties:
+  file.name:
+    displayName: Task
   formula.ID:
     displayName: ID
   note.task:
@@ -34,21 +37,18 @@ views:
     - status != "done"
     - status != "dropped"
   order:
-  - formula.ID
-  - note.task
+  - file.name
   - note.owner
   - note.effort
   - note.impact
-  - note.phase
   - note.status
   sort:
   - property: note.rank
     direction: ASC
   limit: 10
-  rowHeight: medium
-  columnSize: &id001
-    note.task: 320
-    note.done_when: 340
+  columnSize:
+    file.name: 480
+    note.owner: 260
 - type: table
   name: All tasks by phase
   groupBy:
@@ -66,7 +66,9 @@ views:
   - property: note.rank
     direction: ASC
   rowHeight: medium
-  columnSize: *id001
+  columnSize: &id001
+    note.task: 260
+    note.done_when: 280
 - type: table
   name: Days 1–30 (Oct 2026)
   filters:

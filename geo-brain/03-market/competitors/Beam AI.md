@@ -131,6 +131,12 @@ What Quotr says about Beam: [quotr-ai-vs-beam-ai-takeoff-estimating-comparison](
 - Current G2 and Capterra counts.
 - **TO CONFIRM with Quotr:** Estimation Service minimums, trade coverage and the one turnaround promise Quotr can keep.
 
+## AI answers that named this competitor
+
+The September 2026 Perplexity tests where this competitor (or one of the companies on this page) was named. Each new test run adds rows here automatically.
+
+![[Test runs.base#For this competitor]]
+
 ---
 
 ## Related pages

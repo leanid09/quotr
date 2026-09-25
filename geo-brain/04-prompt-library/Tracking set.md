@@ -3,6 +3,8 @@ type: hub
 description: The fixed 53 prompts to re-run monthly, with the September baseline, run rules and copy-paste templates.
 last_verified: 2026-09-25
 verify_every_days: 30
+cssclasses:
+- wide
 ---
 # Monthly AI-Visibility Tracking Set
 

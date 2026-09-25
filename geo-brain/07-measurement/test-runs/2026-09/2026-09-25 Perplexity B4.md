@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: B4
 seq: 37
-test_set: Sept 2026 baseline
+test_set: 2026-09 baseline (core 40)
 prompt_note: '[[D-022 Quotr.ai vs Togal.AI|D-022]]'
 prompt: Quotr.ai vs Togal.AI
 tracking_id: T37
@@ -37,6 +37,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > Quotr.ai vs Togal.AI
 
+- **Category:** Brand
 - **Quotr named:** Yes (positioning accurate; **price "from $299.90" is stale**)
 - **Position:** Subject (1st)
 - **Brands named (in order):** Togal.AI

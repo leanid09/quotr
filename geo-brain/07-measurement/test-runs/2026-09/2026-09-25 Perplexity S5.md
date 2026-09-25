@@ -5,7 +5,7 @@ engine: Perplexity
 model: Sonar (API)
 test_id: S5
 seq: 45
-test_set: Sept 2026 supplementary
+test_set: 2026-09 supplementary
 prompt_note: '[[E-013 best construction materials procurement software platforms for contractors and builders|E-013]]'
 prompt: best construction materials procurement software platforms for contractors and builders 2026
 tracking_id: T42
@@ -22,6 +22,7 @@ run_by: Research team (September 2026 audit)
 > [!quote] Prompt as run
 > best construction materials procurement software platforms for contractors and builders 2026
 
+- **Category:** Category
 - **Quotr named:** No
 - **Who won / key sources:** Procore, Archdesk, Trimble Materials, Buildertrend, Field Materials AI, Precoro
 - **Source note:** [[competitor_geo_benchmark|competitor benchmark §1]]

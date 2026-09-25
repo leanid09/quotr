@@ -113,8 +113,8 @@ Most trackers offer a free trial. Before paying, test the shortlisted tool again
 ### Phase 1: now to November 2026 (cost: $0 plus about 3 hours a month)
 
 1. Set up the free stack: Search Console Generative AI report, Bing AI Performance, GA4 AI channel with a Perplexity rule, Cloudflare AI Crawl Control, and a "How did you hear about us?" field ([[Tracking setup]]).
-2. Run the **Lite** manual routine each month: the 23 Tier A prompts in ChatGPT, Google AI Mode and Perplexity, once each, plus all 53 prompts twice through the Perplexity Sonar API for comparison with September ([[Tracking set|tracking-set.md §3.3]]).
-3. Record results in the spreadsheet template in [[Tracking set|tracking-set.md §4]] and the dashboard in [[KPIs and dashboard]].
+2. Run the **Lite** manual routine each month: the 23 Tier A prompts in ChatGPT, Google AI Mode and Perplexity, once each, plus all 53 prompts twice through the Perplexity Sonar API for comparison with September ([[Tracking set|Tracking set §3.3]]).
+3. Record results in the spreadsheet template in [[Tracking set|Tracking set §4]] and the dashboard in [[KPIs and dashboard]].
 
 ### Phase 2: from November or December 2026, if budget allows (about $100–$250 a month)
 
@@ -153,7 +153,7 @@ This is enough to run Quotr's GEO measurement properly at seed stage.
 | 2 | Paste each Tier A prompt exactly as written in [[Tracking set]] into ChatGPT (with web search), Google AI Mode and Perplexity. Note whether Google shows an AI Overview for the same query | About 2 hours |
 | 3 | Record: Quotr named (Y/N), position, how Quotr is described, quotr.ai URLs cited, competitors named, top cited domains, any third-party page naming Quotr, and a screenshot | Included above |
 | 4 | Re-run all 53 prompts twice through the Perplexity Sonar API with a small script (a developer can set this up once) | Automated |
-| 5 | Score with the formulas in [[Tracking set\|tracking-set.md §3.7]]: mention rate, citation rate, retrieval rate, SOV, brand accuracy | About 30 minutes |
+| 5 | Score with the formulas in [[Tracking set\|Tracking set §3.7]]: mention rate, citation rate, retrieval rate, SOV, brand accuracy | About 30 minutes |
 | 6 | Add Search Console, Bing, GA4 and form numbers to the dashboard | About 30 minutes |
 | 7 | Quarterly: add Gemini, Claude and Copilot runs | Extra 2–3 hours per quarter |
 
