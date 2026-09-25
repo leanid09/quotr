@@ -1,10 +1,10 @@
 # Competitor Profile: Kreo (Kreo Software)
 
-**What this page is for:** A reference on Kreo, the low-price AI takeoff tool that AI engines use as the "budget" anchor, and the one competitor whose "alternatives" list already includes Quotr.
+**What this page is for:** A reference on Kreo, the low-price AI takeoff tool that AI engines use as the "budget" anchor, and the competitor whose "alternatives" space already has a third-party list naming Quotr (Nomic's).
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (section 2, Kreo), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md> (prompts C3, V1, V3, V5, V7, V8, V9), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md> (section 2, Nomic), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>. Read directly on 2026-09-25: [kreo.net/pricing](https://www.kreo.net/pricing). WebSearch on 2026-09-25: Kreo G2 and Capterra pages.
+**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (section 2, Kreo), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (prompts C3, V1, V3, V5, V7, V8, V9), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (section 2, Nomic), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>). Read directly on 2026-09-25: [kreo.net/pricing](https://www.kreo.net/pricing). WebSearch on 2026-09-25: Kreo G2 and Capterra pages.
 
 ---
 
@@ -17,7 +17,7 @@
 | Customers claimed | "Trusted by 1000+ firms" | [kreo.net/pricing](https://www.kreo.net/pricing) |
 | Price | **Lite $35, Plus $70, Pro $175 per user per month, billed annually**; Enterprise custom; 7-day free trial; 7-day money-back guarantee; 3-month Enterprise trial | [kreo.net/pricing](https://www.kreo.net/pricing) |
 | Reviews | **G2 4.5/5 from 32 reviews** (product page; seller page shows 39). **Capterra 4.4/5 from 25 reviews** | [G2 Kreo](https://www.g2.com/products/kreo/reviews); [Capterra Kreo](https://www.capterra.com/p/231342/Kreo-2D-Takeoff/reviews/) (WebSearch 2026-09-25) |
-| AI share of voice (32 unbranded prompts) | **7 prompts (~4.6%)**: C3, V1, V3, V5, V7, V8, V9. kreo.net was in the citation lists of at least 5 prompts (C3, V7, V8, P1, P5; the notes' domain tally says 6) | Visibility notes, section 5 |
+| AI share of voice (prompts that named it, out of 32 unbranded Perplexity prompts; % = its share of all brand mentions) | **7 prompts (~4.6%)**: C3, V1, V3, V5, V7, V8, V9. kreo.net was in the citation lists of at least 5 prompts (C3, V7, V8, P1, P5; the notes' domain tally says 6) | Visibility notes, section 5 |
 | Social reach (self-reported on pricing page) | X ≈1.3K, YouTube ≈1K, LinkedIn ≈3,200, Substack ≈1.3K, Instagram ≈300 | [kreo.net/pricing](https://www.kreo.net/pricing) |
 
 ---
@@ -92,7 +92,7 @@ Kreo is the tool AI engines pick when someone asks for "cheap" or "budget" AI ta
 
 Nothing found (WebSearch for Quotr on kreo.net, 2026-09-25).
 
-**But the "Kreo alternatives" space already names Quotr.** Nomic's "Best Kreo Alternatives in 2026" (last reviewed September 2026) lists Quotr.ai #5 of 7 as "AI takeoff-to-proposal automation for contractors… Pricing: From ~$299.90/month". It says nothing about procurement, and the price is stale. Nomic is itself an AEC AI software vendor, so this is an adjacent-vendor list, not a neutral one (verification notes, contradiction #3).
+**But the "Kreo alternatives" space already names Quotr.** Nomic's "Best Kreo Alternatives in 2026" (last reviewed September 2026) lists Quotr.ai #5 of 7 as "AI takeoff-to-proposal automation for contractors… Pricing: From ~$299.90/month". It says nothing about procurement, and the price is stale. Nomic is itself an AEC AI software vendor and ranks itself #1 ("Our pick"), so this is an adjacent-vendor list, not a neutral one (verification notes, claim 26).
 
 Quotr has **no Kreo comparison page** (onsite audit: "no head-to-head pages vs Kreo…").
 
@@ -102,7 +102,7 @@ Quotr has **no Kreo comparison page** (onsite audit: "no head-to-head pages vs K
 
 **Strategy: win "cheapest AI takeoff" on honest, feature-level price comparison, and build on the one list that already names Quotr.**
 
-1. **Publish "Quotr.ai vs Kreo" and a "Kreo alternatives" page.** Neither exists. The query already has a third-party list that includes Quotr, so it is an easy win.
+1. **Publish "Quotr.ai vs Kreo" and a "Kreo alternatives" page.** Neither exists. The query already has a third-party list that includes Quotr, so it is a realistic opening.
 2. **Make the price comparison feature-based and dated.** A table of "cheapest plan that includes AI auto-measure/auto-count" for Kreo, Togal, STACK, Quotr, Easy Takeoffs and QuoteIQ, with a link to each vendor's pricing page and the date checked. Kreo's AI tools start at $175 (Pro); Quotr Lite lists AI detection at $79.90 (TO CONFIRM). Fair, sourced tables get used as fact sources even when self-ranking is ignored.
 3. **Ask Nomic to update Quotr's entry.** Send the current price (Lite $79.90 / Plus $299.90), the procurement and Estimation Service facts, and a demo login. This is the cheapest third-party fix available. See [../citation-sources-map.md](../citation-sources-map.md).
 4. **Get into the "cheapest" and "free trial" answers.** V7 and V8 were built from Easy Takeoffs, Pilars, ScopeTakeoff, TDPM, ContraVault, Dan Cumberland Labs and vendor pricing pages. Quotr's 7-day free trial and $79.90 Lite were absent. Add "7-day free trial, cancel anytime, no charge if canceled" in plain text near the top of pricing and comparison pages, and pitch TDPM, which was cited in both prompts.

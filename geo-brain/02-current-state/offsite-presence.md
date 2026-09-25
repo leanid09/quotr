@@ -28,10 +28,10 @@ AI answer engines trust what **other** websites say about a brand more than what
 
 ## Summary
 
-- **Reviews:** Quotr has almost no review footprint. The G2 profile (`quotr-io`) reportedly has **0 reviews**. No Capterra, GetApp, Software Advice, TrustRadius, SourceForge or AlternativeTo listing was found. Competitors that AI engines recommend have **30 to 4,000+** G2 reviews.
-- **"Best of" lists:** Quotr appears in **one adjacent-vendor list** (Nomic, #5 of 7 Kreo alternatives) and a handful of marketing-style pages. It is absent from every heavily cited 2026 roundup we checked. (Nomic sells its own AEC AI software, so its list is not neutral.)
+- **Reviews:** Quotr has almost no review footprint. The G2 profile (`quotr-io`) reportedly has **0 reviews** (reported by Perplexity only; G2 blocks direct checks, so UNVERIFIED). No Capterra, GetApp, Software Advice, TrustRadius, SourceForge or AlternativeTo listing was found. Competitors that AI engines recommend have roughly **30 to 4,000+** reviews on G2 or Capterra.
+- **"Best of" lists:** only **three** outside comparison pages are confirmed to name Quotr, and none is independent: **Nomic** (#5 of 7 Kreo alternatives; Nomic ranks itself #1), **Octopus Builds** (#2 of 8; the author ranks itself #1) and **ForesightIQ** (whose only source on Quotr is Quotr's own blog). Nomic and Octopus Builds both repeat the old $299.90 price. Quotr is absent from every heavily cited 2026 roundup we checked.
 - **Community:** **Zero** Reddit mentions found. A YouTube channel and LinkedIn page exist, but YouTube was never cited in 45 AI test runs, and handles are split between old and new names.
-- **Press:** **No** trade-press coverage and **no** press release for the $3.5M seed round. Two podcast appearances are known (one confirmed by reading the page).
+- **Press:** **No** earned trade-press coverage and **no** press release for the $3.5M seed round. One paid wire release exists (EIN Presswire, Feb 2025, about the free FireTips LA fire-rebuild app). Two podcast appearances are known (one confirmed by reading the page).
 - **Entity data:** Crunchbase, PitchBook, F6S, Product Hunt and the podcast pages disagree with each other and with quotr.ai on HQ, founding year, founders, funding, factory count and domain.
 - **Name collisions:** at least 8 unrelated products use the name "Quotr", several aimed at contractors. AI engines already mix them up.
 
@@ -47,7 +47,7 @@ AI answer engines trust what **other** websites say about a brand more than what
 |---|---|---|---|---|
 | G2 | https://www.g2.com/products/quotr-io/reviews | Weak (Unverified) | 0 reviews, "0.0/5" (Perplexity report) | Linked by Quotr as a "Verified Organizational Profile" on /disambiguation/. Scraper blocked by G2's anti-bot wall. Perplexity says vendor "QUOTR", founded 2023, HQ Berkeley. Listed under the old slug `quotr-io`. A site search for Quotr on G2 returned look-alikes instead (Quoters, Quattr, Quo, Qualified.io). |
 | G2 category pages | [construction estimating p.4](https://www.g2.com/categories/construction-estimating-software/free?order=g2_score&page=4); [construction management (FR)](https://www.g2.com/fr/categories/construction-management/free?open_modal_url=/products/re-flow-field-management/wishlists?host_path=%252Fcategories%252Fconstruction-management%252Ffree&order=popular&page=15) | Unverified | A "4.4/5.0" figure next to Quotr (Perplexity report) | Perplexity read this as a category snapshot, not real reviews. Ambiguous; do not quote it. |
-| Capterra | https://www.capterra.com/search/?query=quotr | Not found | 20 search results, none Quotr | Search routes to a "Quoting" category and shows look-alikes (QuoTrak, QuoTrend, HyperQuote Takeoff, Quotation Expert). Capterra's footer links to G2 company pages, which suggests Capterra now runs on G2's vendor system (inference; verify before advising). |
+| Capterra | https://www.capterra.com/search/?query=quotr | Not found | 20 search results, none Quotr | Search routes to a "Quoting" category and shows look-alikes (QuoTrak, QuoTrend, HyperQuote Takeoff, Quotation Expert). Capterra's footer links to G2 company pages. **Confirmed:** G2 agreed to buy Capterra, GetApp and Software Advice from Gartner (announced January 2026; reportedly closed Feb 5, 2026), so one G2 vendor account and review program now feeds all four directories. |
 | GetApp | https://www.getapp.com/construction-software/takeoff/ | Not found (search check) | — | Only category pages returned. |
 | Software Advice | https://www.softwareadvice.com/construction/cost-estimating-software-comparison/ | Not found (search check) | — | Software Advice lists 23 tools for subcontractor estimating; Quotr not among search results. |
 | TrustRadius | https://www.trustradius.com/construction-takeoff-and-estimating | Not found (search check) | — | Category page only. |
@@ -64,8 +64,8 @@ AI answer engines trust what **other** websites say about a brand more than what
 
 | Database | URL | Status | Numbers / facts shown | Issues |
 |---|---|---|---|---|
-| Crunchbase | https://www.crunchbase.com/organization/quotr | Active, partly wrong | Name "Quotr.ai"; legal name "Quotr"; also known as "Quotr, Quotr.ai". Founders Hanyang Liu and Junzhe Shi. One Seed round, lead investor Llama Ventures. "50+ vetted factories across Foshan and Guangdong… 40–55% below distributor markup". Categories AI, Construction, SaaS. Headcount 11–50. CB Rank 40,965; Growth Score 68; Heat Score 82. Monthly web visits 5,678 (+110.14% in the past month, Semrush data). Competitors listed: Autodesk, Trimble, STACK. Links linkedin.com/company/quotrai and a Facebook page (ID 61572581013981). | HQ conflict: the scraped page showed location Berkeley but About text "Founded in 2023 and headquartered in San Francisco"; a search-index snippet of the same page says "headquartered in Berkeley, CA". A search summary quoted an old description: "an AI assistant providing real-time cost estimation and Revit integration to help architects". |
-| PitchBook | https://pitchbook.com/profiles/company/606944-17 | Active, conflicting | Year founded **2024**; 10 employees; HQ **495 27th Avenue, Suite 8, San Francisco, CA 94121**. Investors: Berkeley SkyDeck Fund, Llama Ventures, **Sky Arc Capital** (Quotr never mentions Sky Arc). Primary industry Business/Productivity Software; also Logistics and Construction & Engineering. Competitors: Togal.AI and Stackt. Description mentions "construction drawings and BIM models". Links linkedin.com/company/quotrai and twitter.com/quotr_ai. | Seed round date conflicts between sources: one scrape showed "One Seed round dated 01-Jan-2025"; Perplexity (twice) reported a "**$190K seed on 15-Oct-2024** (Berkeley SkyDeck Fund)". Unresolved. Quotr's own /disambiguation/ page says the $3.5M seed "may be lagging or misattributed" in databases like PitchBook. |
+| Crunchbase | https://www.crunchbase.com/organization/quotr | Active, partly wrong | Name "Quotr.ai"; legal name "Quotr"; also known as "Quotr, Quotr.ai". Founders Hanyang Liu and Junzhe Shi. One Seed round, lead investor Llama Ventures. "50+ vetted factories across Foshan and Guangdong… 40–55% below distributor markup". Categories AI, Construction, SaaS. Headcount 11–50. CB Rank 40,965; Growth Score 68; Heat Score 82. Monthly web visits 5,678 (+110.14% in the past month, Semrush data). Competitors listed: Autodesk, Trimble, STACK. Links linkedin.com/company/quotrai and a Facebook page (ID 61572581013981). | HQ conflict on the same page (confirmed by the fact-check): the location field and FAQ say Berkeley, while the About text says "Founded in 2023 and headquartered in San Francisco". The About text is written in Quotr's own voice, so Quotr can edit it. A search-index snippet of the page shows "headquartered in Berkeley, CA" instead. A search summary quoted an old description: "an AI assistant providing real-time cost estimation and Revit integration to help architects". |
+| PitchBook | https://pitchbook.com/profiles/company/606944-17 | Active, conflicting | Year founded **2024**; 10 employees; HQ **495 27th Avenue, Suite 8, San Francisco, CA 94121**. Investors: Berkeley SkyDeck Fund, Llama Ventures, **Sky Arc Capital** (Quotr never mentions Sky Arc). Primary industry Business/Productivity Software; also Logistics and Construction & Engineering. Competitors: Togal.AI and Stackt. Description mentions "construction drawings and BIM models". Links linkedin.com/company/quotrai and twitter.com/quotr_ai. | **Resolved by the fact-check:** the live public page shows only "Seed Round, 01-Jan-2025" with **no amount**. The "$190K seed on 15-Oct-2024" figure appears only inside Perplexity answers (reported twice) and its origin is unknown, so write "Perplexity reports…", never "PitchBook shows…". Founding year (2024), headcount (10) and the Sky Arc Capital investor still conflict with Quotr's own pages. Quotr's /disambiguation/ page warns that "entity associations in public financial databases may be lagging or misattributed". |
 | PitchBook (SkyDeck Fund page) | https://pitchbook.com/profiles/investor/231026-41 | Active | Lists Quotr as a portfolio company | — |
 | Caplight | https://www.caplight.com/company/quotr | Unverified | — | Cited by Perplexity in funding answers; it "does not fully agree" with other sources. A separate Caplight page, https://www.caplight.com/company/quotrhq, belongs to a **different** company (quotrhq.com). |
 | F4 Fund | https://f4.fund/startups/quotr | Unverified | — | Linked from /disambiguation/; cited by Perplexity. Not opened. |
@@ -87,18 +87,18 @@ AI answer engines trust what **other** websites say about a brand more than what
 
 ### 1d. Third-party pages that mention Quotr
 
-No page in this list is fully independent. The fact-check notes that Nomic is itself an AEC AI software vendor, and Perplexity called the others "marketing-style".
+No page in this list is independent editorial. The fact-check confirmed three pages that name Quotr (Nomic, Octopus Builds, ForesightIQ); all are vendor or aggregator content. The four pages marked "Via Perplexity" below were never opened, so whether they mention Quotr is **UNVERIFIED**.
 
 | Page | URL | How we know | What it says about Quotr |
 |---|---|---|---|
 | Nomic, "Best Kreo Alternatives in 2026" (last reviewed September 2026) | https://www.nomic.ai/compare/kreo-alternatives | Scraped | Quotr.ai is **#5 of 7**: "AI takeoff-to-proposal automation for contractors… Pricing: From ~$299.90/month" (stale price; the current entry plan is Lite at $79.90). No mention of procurement or factory-direct materials. |
 | Nomic, "Best AI for cost estimation" | https://www.nomic.ai/compare/best-ai-for-cost-estimation | Unverified | Cited in Quotr brand prompts (B2, B4) and in C11, so it may mention Quotr. Not opened. |
-| ForesightIQ, Togal.AI competitive landscape | https://www.foresightiq.co/competitive-landscape/togalai | Via Perplexity | The **only third-party page seen getting Quotr named in an unbranded answer** ("Togal.AI alternatives", run 2: "emphasized by ForesightIQ and Quotr's own materials as an end-to-end alternative"). |
-| R Construction Solutions, automated takeoff comparison | https://rconstructionsolutions.com/post/top-automated-takeoff-software-comparison | Via Perplexity | Comparison table that includes Quotr. Not opened. |
-| PalCode, AI for construction takeoffs | https://palcode.ai/blog/ai-for-construction-takeoffs-tools-that-work | Via Perplexity | A competing vendor's 2026 list. Not opened. |
-| NEDES Estimating | https://nedesestimating.com/construction-estimating-companies-ai-automation-real-time-pricing/ | Via Perplexity | Table entry, "tied to supply pricing". Not opened. |
-| AI Building Tools | https://aibuildingtools.com/best-ai-for/construction-estimation | Via Perplexity | Not opened. |
-| Octopus Builds | https://octopusbuilds.com/blog/ai-development-companies-ai-quoting-estimation | Via Perplexity | Used by Perplexity when describing Quotr (B3, B4, B6 re-runs). Not opened. |
+| ForesightIQ, Togal.AI competitive landscape | https://www.foresightiq.co/competitive-landscape/togalai | Via Perplexity | The **only third-party page seen getting Quotr named in an unbranded answer** ("Togal.AI alternatives", run 2: "emphasized by ForesightIQ and Quotr's own materials as an end-to-end alternative"). The fact-check found that its only source for Quotr is Quotr's own [best-togal-ai-alternatives](https://quotr.ai/blog/best-togal-ai-alternatives/) post, so it is not independent proof. |
+| R Construction Solutions, automated takeoff comparison | https://rconstructionsolutions.com/post/top-automated-takeoff-software-comparison | Via Perplexity (UNVERIFIED) | Reportedly a comparison table that includes Quotr. Not opened. |
+| PalCode, AI for construction takeoffs | https://palcode.ai/blog/ai-for-construction-takeoffs-tools-that-work | Via Perplexity (UNVERIFIED) | A competing vendor's 2026 list. Not opened. |
+| NEDES Estimating | https://nedesestimating.com/construction-estimating-companies-ai-automation-real-time-pricing/ | Via Perplexity (UNVERIFIED) | Reportedly a table entry, "tied to supply pricing". Not opened. |
+| AI Building Tools | https://aibuildingtools.com/best-ai-for/construction-estimation | Via Perplexity (UNVERIFIED) | Not opened. |
+| Octopus Builds (Ellenox), "AI development companies for AI quoting and estimation" (Sep 9, 2026) | https://octopusbuilds.com/blog/ai-development-companies-ai-quoting-estimation | Read by the fact-check | Quotr.ai is **#2 of 8** (the author ranks itself #1). Repeats the **old Solo $299.90 / Team $499.90 pricing**, "220+ factories", "95–99% accuracy" and "Berkeley, CA". Perplexity cites it when describing Quotr (B3, B4, B6 re-runs). Ask them to update the price. |
 
 ### 1e. Community and social
 
@@ -127,10 +127,11 @@ No page in this list is fully independent. The fact-check notes that Nomic is it
 
 | Item | URL | Status | Details |
 |---|---|---|---|
-| "Funded, Now What?!" Episode 45, Marketing Podcast Network (Mar 23, 2026) | https://marketingpodcasts.net/2026/03/episode-45-can-ai-cut-construction-material-costs-by-50/ | Active (scraped) | Guest Hanyang Liu, "CEO of Quotr.io", "founder of Quotr.io and a Berkeley Skydeck alumnus… An architect by trade… leading a technical team in San Francisco". Links quotr.io, not quotr.ai. Topics include "GEO Strategy: … focusing on 'Unbranded' search terms", "AI-powered service is a better sales pitch than AI Platform" and "The Wikipedia Hack". **Funding figure conflicts:** the scraped page said he "has raised $5 million"; a search summary of the same episode said "$3.5 million". |
+| "Funded, Now What?!" Episode 45, Marketing Podcast Network (Mar 23, 2026) | https://marketingpodcasts.net/2026/03/episode-45-can-ai-cut-construction-material-costs-by-50/ | Active (scraped) | Guest Hanyang Liu, "CEO of Quotr.io", "founder of Quotr.io and a Berkeley Skydeck alumnus… An architect by trade… leading a technical team in San Francisco". Links quotr.io, not quotr.ai. Topics include "GEO Strategy: … focusing on 'Unbranded' search terms", "AI-powered service is a better sales pitch than AI Platform" and "The Wikipedia Hack". **Funding figure:** the page itself says he "has raised $5 million" (confirmed by the fact-check; a search summary had wrongly said "$3.5 million"). That conflicts with the $3.5M seed on /disambiguation/. |
 | iHeart "AEC Tech Journeys", episode "From Drawings to Bids in Minutes" | https://www.iheart.com/podcast/1323-aec-tech-journeys-with-ma-272978673/episode/from-drawings-to-bids-in-minutes-340063021/ | Unverified | Cited by Perplexity in two funding/founder answers. We did not open the page, so we cannot confirm it features Quotr. |
 | Trade press (Construction Dive, ENR, For Construction Pros, BuilderOnline, TechCrunch) | — | Not found | Site-restricted search returned no Quotr article. ENR and For Construction Pros do publish estimating tech stories ([ENR example](https://www.enr.com/articles/63634-construction-is-about-to-leave-124b-on-the-table-due-to-outdated-bidding); [FCP example](https://www.forconstructionpros.com/construction-technology/estimating-bidding/article/22159258/3-cool-construction-estimating-software-trends)). |
 | Newswires (PR Newswire, Business Wire, GlobeNewswire), VentureBeat, Crunchbase News | — | Not found | No release for the "$3.5M seed, Llama Ventures" round. |
+| EIN Presswire (paid wire release), about Feb 6–7, 2025: "Quotr Launches LA-focused App to Help Homeowners Get Accurate Information, Rebuild Faster After Devastating Fires" | [EIN Presswire](https://www.einnews.com/pr_news/783445824/quotr-launches-la-focused-app-to-help-homeowners-get-accurate-information-rebuild-faster-after-devastating-fires) | Active (seen in search results; text not opened) | Announces the free FireTips app at firetips.quotr.io. Syndicated to local-TV business pages (e.g. KRON4). Paid wire, not earned press, and it uses the old quotr.io domain. Found by a WebSearch on 2026-09-25; not in the research notes. |
 | Dallas Build Expo, April 22–23, 2026, Booth #277 | [Product Hunt maker post](https://www.producthunt.com/products/quotr) | Past event | Only known off-site trace of a trade-show appearance. Quotr's blog also has recaps of IBS 2026, Dallas Build Expo 2026, RE:Forge SF 2026, NHCA Build the Builder 2026, PCBC 2026 and CBD Fair 2026 (first-party). |
 | Awards | — | Not found | None found in any search. |
 | Customers and partners (third-party) | [RL Electric video](https://www.youtube.com/watch?v=Y2_PUPVtVaE) | Partial | RL Electric appears in a customer video. The Vanderbilt classroom story exists only on Quotr's blog ([vanderbilt-classroom](https://quotr.ai/blog/vanderbilt-classroom/)); no Vanderbilt-side source found. |
@@ -140,7 +141,7 @@ No page in this list is fully independent. The fact-check notes that Nomic is it
 | Host / URL | Status | Why it matters |
 |---|---|---|
 | https://quotr.io/pricing/ ("Quotr – AI Construction Estimation Software") | Still in search index | Old domain page. Whether quotr.io redirects to quotr.ai is **not confirmed**. |
-| https://firetips.quotr.io/ | Still in search index | Old subdomain. Content not checked. |
+| https://firetips.quotr.io/ | Still in search index | Old subdomain hosting FireTips, Quotr's free LA fire-rebuild app (launched Feb 2025 per the EIN Presswire release). Page content not checked. Worth moving to or linking from quotr.ai. |
 | https://test.quotr.io/disambiguation/ | Cited by Perplexity (twice, including the fact-check re-run for "Quotr.ai pricing") | Staging copy. Now shows a Cloudflare Access login ("Log in to Quotr.io Restricted Access"), so it was indexed at some point and is still being cited. |
 | public.quotr.io | In use | Logo and og-cover images in quotr.ai schema are served from here. |
 | quotr.io (links from F6S, MPN podcast, Parsers VC, BIA, MBI) | Legacy | Third parties still point to the old domain. |
@@ -153,14 +154,14 @@ This is the core problem for AI engines. When sources disagree, engines hedge or
 
 | Fact | quotr.ai /disambiguation/ | Other quotr.ai pages | Crunchbase | PitchBook | Podcast (MPN) | Other |
 |---|---|---|---|---|---|---|
-| Legal entity | FLOZ Inc | Homepage schema legalName "Quotr.ai"; /terms: "FLOZ INC. … a Delaware corporation … doing business as 'Quotr'" | Legal name "Quotr" | — | "Quotr.io" | F6S: "Made by FLOZ" |
+| Legal entity | FLOZ Inc | Homepage schema legalName "Quotr.ai"; /terms: "FLOZ INC., a Delaware corporation with offices at 495 27th Ave Unit 8, San Francisco" (search-index text adds "doing business as 'Quotr'") | Legal name "Quotr" | — | "Quotr.io" | F6S: "Made by FLOZ" |
 | Founded | 2023 | — | 2023 | **2024** | — | G2 (per Perplexity): 2023 |
-| HQ | **Berkeley, CA** | Blog boilerplate: "based in San Francisco"; /terms: 495 27th Ave Unit 8, San Francisco, CA 94121 | Berkeley (location field) vs "headquartered in San Francisco" (About text, one read) | 495 27th Avenue, Suite 8, San Francisco | "team in San Francisco" | G2 (per Perplexity): Berkeley |
+| HQ | **Berkeley, CA** | Blog boilerplate: "based in San Francisco"; /terms: 495 27th Ave Unit 8, San Francisco, CA 94121 | Berkeley (location field and FAQ) vs "headquartered in San Francisco" (About text); both confirmed on the page | 495 27th Avenue, Suite 8, San Francisco | "team in San Francisco" | G2 (per Perplexity): Berkeley |
 | Founders | Junzhe Shi only ("Co-Founder") | /about-us/: Hanyang Liu (CEO) and Junzhe Shi (CTO) as co-founders | Hanyang Liu and Junzhe Shi | — | Hanyang Liu, "founder" and "CEO" | LinkedIn: both "Co-Founder @ Quotr" |
-| Funding | $200K pre-seed (SkyDeck) + $3.5M seed (Llama Ventures) "as of December 25, 2025" | Not on /about-us/ | One Seed round, lead Llama Ventures | Seed round; investors SkyDeck Fund, Llama Ventures, Sky Arc Capital; $190K seed 15-Oct-2024 (per Perplexity) or seed dated 01-Jan-2025 (per scrape) | "$5 million" (page) or "$3.5 million" (search summary) | Caplight "does not fully agree" |
+| Funding | $200K pre-seed (SkyDeck) + $3.5M seed (Llama Ventures) "as of December 25, 2025" | Not on /about-us/ | One Seed round, lead Llama Ventures | One seed round dated 01-Jan-2025, no amount shown; investors SkyDeck Fund, Llama Ventures, Sky Arc Capital. (A "$190K seed, 15-Oct-2024" figure appears only in Perplexity answers, not on PitchBook.) | "has raised $5 million" (confirmed on the page) | Caplight "does not fully agree" |
 | Headcount | 11–50 | — | 11–50 | 10 | — | — |
 | Factory network | 220+ vetted factories; up to 50% below retail | Homepage and /procurement/: "50+ audited manufacturers in Foshan & Guangdong"; indexed service/developer pages: "220+ factories, including 30+ audited manufacturers"; savings "40–55%" and "40–50%" | 50+ factories; 40–55% below distributor markup | — | "cut … material costs by 50%" (episode title) | Product Hunt: "40-50% material savings" |
-| Entry price | Lite $79.90 / Plus $299.90 / Enterprise | About 13 blog posts and indexed /contractors: "Solo $299.90 / Team $499.90"; llms.txt: "1 User $299.90 / 2–10 Users $499.90" | — | — | — | Nomic: "From ~$299.90/month" |
+| Entry price | Lite $79.90 / Plus $299.90 / Enterprise | About 13 Quotr URLs (mostly blog posts, plus the indexed /contractors copy): "Solo $299.90 / Team $499.90"; llms.txt: "1 User $299.90 / 2–10 Users $499.90" | — | — | — | Nomic: "From ~$299.90/month"; Octopus Builds: Solo $299.90 / Team $499.90 |
 | Product described as | AI takeoff, estimating, bids, procurement | Same | AI + construction SaaS; one search summary: "Revit integration to help architects" (old) | "construction drawings and BIM models" | Material cost cutting | F6S: Revit plug-in (old) |
 | Domain / handles | Lists quotrio / quotr_io / QuotrIO and QuotrAI | Footer: quotrai / quotr_ai / QuotrAI | linkedin quotrai | linkedin quotrai, twitter quotr_ai | quotr.io, x.com/quotr_io | Product Hunt: quotr_ai, quotrai, GitHub Quotr-io |
 
@@ -218,21 +219,21 @@ Perplexity said of this category: "the search results do not show a single platf
 
 ## 4. Competitor off-site footprint (for comparison)
 
-G2 data "as of July 2026" from ConstructConnect's guide, unless noted.
+Ratings "as of July 2026" from ConstructConnect's guide, unless noted. Caution: that guide labels its review sources inconsistently (it called STACK's Capterra count a G2 count in one place), so treat the site labels as approximate.
 
 | Platform | G2 rating | G2 reviews | Other |
 |---|---|---|---|
 | Togal.AI | 4.8 | 60 | G2 "Highest Performer" badge (July 2026). G2 seller page shows "Read 57 Reviews". Raised $22.65M in total. |
-| Beam AI | 4.9 | 30 | Perplexity reported 37 on a G2 compare page (different date). Press releases syndicated to PR Newswire, Morningstar, Yahoo Finance. |
-| STACK | 4.5 | **Conflicting:** 1,398 (ConstructConnect table) vs 93 (G2 page, via Perplexity) | Capterra 4.0 from 1,399 reviews (via Perplexity). The 1,398 figure may be the Capterra count; unresolved in the fact-check. Publishes "Seven G2 Awards for Summer 2026". |
+| Beam AI | 4.9 | 30 | Perplexity reported 37 on a G2 compare page (different date). Beam's own AHR Expo press release says "rated 4.9 on Capterra and Software Advice". Press releases syndicated to PR Newswire, Morningstar, Yahoo Finance. |
+| STACK | Not confirmed | **Under 100** (G2 seller page title "Read 78 Reviews"; Perplexity reported 93) | **Capterra: about 1,400 reviews** (ConstructConnect's table: "4.5/5.0 (1,398 reviews, Capterra)"; Perplexity: 4.0 from 1,399). The fact-check resolved this: 1,398 is the Capterra count, not G2. Publishes "Seven G2 Awards for Summer 2026". |
 | On-Screen Takeoff | 4.4 | 148 | — |
 | PlanSwift | 4.3 | 35 | — |
 | Procore Estimating | 4.6 | 4,205 | — |
 | InEight | 4.1 | 46 | — |
 | eTakeoff | 4.7 | 5 | — |
 | Kreo | 4.5 | 32 (search summary); seller page "39 Reviews" | — |
-| Buildxact | — | — | Capterra 4.6 from about 165–174 reviews; "Top Home Builder Solution" by Capterra and Software Advice for 2026. |
-| **Quotr.ai** | **reported 0.0** | **reported 0** | No Capterra, GetApp or Software Advice listing found. Product Hunt 0 upvotes. |
+| Buildxact | — | — | Capterra 4.6 (Buildxact's newsroom: "4.6 out of 5 from more than 150 verified reviews"; search summaries show about 165–174); "Top Home Builder Solution" by Capterra and Software Advice for 2026. |
+| **Quotr.ai** | **reported 0.0 (unverified)** | **reported 0 (unverified)** | No Capterra, GetApp or Software Advice listing found. Product Hunt 0 upvotes. |
 
 More in [../03-market/competitor-landscape.md](../03-market/competitor-landscape.md).
 
@@ -275,7 +276,7 @@ Short version here; full detail in [ai-visibility-baseline.md](ai-visibility-bas
 
 - **"What is Quotr?"** Perplexity opens with "Quotr is a name used by several different products" and lists namesakes before settling on Quotr.ai.
 - **"Is Quotr.ai legit? Reviews"** Perplexity borrows the Quotr Pro app's 4.7 rating, says "G2 shows 0 reviews for QUOTR", and concludes "plausibly legitimate but not independently well-validated".
-- **Funding and founders:** Perplexity flags that Quotr's $3.5M claim and PitchBook's $190K round disagree.
+- **Funding and founders:** Perplexity flags that Quotr's $3.5M claim disagrees with "a $190K seed round" it attributes to PitchBook. PitchBook's live page shows no such amount, so this part of the answer is itself an error.
 - **A wrong merge:** a search summary about Hanyang Liu said "The company raised a $4.2M seed round led by Initialized Capital and released a state-of-the-art reranker zerank-1". No Quotr source supports this; it appears to be another startup's news merged into Quotr's record. Thin, inconsistent entity data makes this kind of error more likely.
 
 ---
@@ -286,13 +287,13 @@ Based on the research notes' own ranking (realism × impact). Plans live in [../
 
 | # | Gap | Why it matters | Effort |
 |---|---|---|---|
-| 1 | **No reviews on G2; no Capterra / GetApp / Software Advice listing** | Review directories were the #1 and #2 most-cited domains in our tests (9 of 32 prompts each). "Alternatives" answers and editor roundups are built from review counts. | Medium (customer outreach) |
-| 2 | **Stale and conflicting third-party profiles** (F6S unclaimed with Revit copy; Crunchbase HQ and factory count; PitchBook founding year, HQ, investors, round; Product Hunt "Real estate"; podcast notes with quotr.io and $5M) | AI engines use these to confirm facts. Today they create doubt. | Low (hours) |
+| 1 | **No confirmed reviews on G2 (reportedly 0); no Capterra / GetApp / Software Advice listing** | Review directories were the #1 and #2 most-cited domains in our tests (9 of 32 prompts each). "Alternatives" answers and editor roundups are built from review counts. Since G2 now owns Capterra, GetApp and Software Advice, one review program can feed all four. | Medium (customer outreach) |
+| 2 | **Stale and conflicting third-party profiles** (F6S unclaimed with Revit copy; Crunchbase HQ and factory count; PitchBook founding year, HQ, investors, round; Product Hunt "Real estate"; podcast notes with quotr.io and $5M; Nomic and Octopus Builds with the old $299.90 price) | AI engines use these to confirm facts. Today they create doubt. | Low (hours) |
 | 3 | **Split handles** (quotrio / quotr_io / QuotrIO vs quotrai / quotr_ai / QuotrAI) | Mixed signals about which accounts are official. | Low |
 | 4 | **Missing from neutral "best of" lists** | Category answers draw on these. Quotr was absent from all heavily cited ones. | Medium (editor outreach, demo accounts) |
 | 5 | **Missing from procurement roundups** | Uncontested category in AI answers. | Medium |
 | 6 | **No press for the $3.5M seed; no trade-press bylines** | A wire story would give AI engines an independent source for funding, HQ and category. Founders (architect; Berkeley engineering PhD) have the credentials for bylines. | Medium |
-| 7 | **No Wikidata item** | A realistic, factual entity record (FLOZ Inc, founding date, HQ, website, social IDs). Low-cost hygiene; there is no evidence it is a lever (fact-check note H14). A Wikipedia article is not realistic until independent press exists; treat the podcast's "Wikipedia hack" with caution. | Low |
+| 7 | **No Wikidata item** | A realistic, factual entity record (FLOZ Inc, founding date, HQ, website, social IDs). Low-cost hygiene; there is no evidence it is a lever (fact-check note H16 in the GEO-evidence verification file). A Wikipedia article is not realistic until independent press exists; treat the podcast's "Wikipedia hack" with caution. | Low |
 | 8 | **Zero Reddit presence** | r/estimators was cited in 6 of 32 prompts, and threads ask whether AI takeoff works. The community is sceptical, so only transparent, founder-disclosed help will work. | Ongoing |
 | 9 | **YouTube never cited; channel split** | Industry studies report YouTube among the most-cited domains in AI Overviews, and YouTube mentions correlate strongly with AI visibility (a correlation, not proven cause). Buyers also watch demos. See [../01-geo-fundamentals/signals-that-matter.md](../01-geo-fundamentals/signals-that-matter.md). | Medium |
 | 10 | **Legacy and staging hosts in the index** (quotr.io/pricing, firetips.quotr.io, test.quotr.io) | Stale copy can resurface in AI answers. | Low (technical) |
@@ -302,7 +303,7 @@ Based on the research notes' own ranking (realism × impact). Plans live in [../
 ## 9. Open questions (TO CONFIRM with Quotr)
 
 - The true G2 profile contents (review count, categories, display name). Can the listing be renamed from "quotr-io" to "Quotr.ai"?
-- Correct HQ (Berkeley or San Francisco), founding year (2023 or 2024), founder list (is Hanyang Liu a co-founder?), and funding (is $3.5M the total? who is Sky Arc Capital? what is the $190K PitchBook round?).
+- Correct HQ (Berkeley or San Francisco), founding year (2023 or 2024), founder list (is Hanyang Liu a co-founder?), and funding (is $3.5M the total, or $5M as the podcast says? who is Sky Arc Capital? is there any real "$190K" round behind the figure Perplexity attributes to PitchBook?).
 - Which factory count and savings figure is current (220+, 50+ or 30+ factories; up to 50%, 40–50% or 40–55%)?
 - Does quotr.io 301-redirect to quotr.ai? Is test.quotr.io blocked from indexing?
 - Is youtube.com/@QuotrIO ("QuoTrio") Quotr's old channel? Is LinkedIn "flozdesign" related?
@@ -323,4 +324,4 @@ Based on the research notes' own ranking (realism × impact). Plans live in [../
 - [../03-market/citation-sources-map.md](../03-market/citation-sources-map.md) — which third-party sites AI engines cite most
 - [../03-market/competitor-landscape.md](../03-market/competitor-landscape.md) — competitor footprints in more detail
 - [../05-content-strategy/offsite-earned-media-plan.md](../05-content-strategy/offsite-earned-media-plan.md) — the plan to close these gaps
-- [../06-playbooks/offsite/](../06-playbooks/offsite/) — step-by-step off-site playbooks
+- [../06-playbooks/offsite/review-generation.md](../06-playbooks/offsite/review-generation.md) and [../06-playbooks/offsite/listicle-and-pr-outreach.md](../06-playbooks/offsite/listicle-and-pr-outreach.md) — step-by-step off-site playbooks (more in the same folder)

@@ -7,7 +7,7 @@
 **Sources:**
 - New research on 2026-09-25: WebSearch (ContractorTalk, Electrician Talk, Mike Holt forum, PlumbingZone, HVAC-Talk, PaintTalk, DrywallTalk, DoItYourself, DIYChatroom, Fine Homebuilding, Houzz discussions, Quora, YouTube, cost-guide and "People also ask"-style results) and Perplexity Sonar via `mcp__Slashy__web_search` (Reddit threads from r/estimators, r/Construction, r/Flooring, r/electricians, r/plumbers, r/askaplumber, r/HVAC, plus r/Roofing, r/Contractor, r/ConstructionManagers and r/RealEstateDevelopment topic searches). Reddit cannot be searched directly from this environment, so Reddit links come from Perplexity's citation lists; the question wording is taken from the thread title in the URL.
 - Six extra AI-answer tests (N1–N6) run on 2026-09-25; see [tracking-set.md](tracking-set.md).
-- Research notes: <../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>, <../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>, <../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md> (§6 trade coverage), <../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>.
+- Research notes: [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>), [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§6 trade coverage), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>).
 - Quotr product facts: [../00-quotr/product-and-features.md](../00-quotr/product-and-features.md) (built from the same notes; "index-only" facts are marked there).
 
 ---
@@ -450,7 +450,7 @@
 |---|---|---|---|
 | Counting devices and fixtures | AI symbol detection with confidence scores; AI Agent answers "how many…" | [/software/trades/electrical/](https://quotr.ai/software/trades/electrical/) ("Outlets, panels, conduit, fixtures") | — |
 | Conduit and wire runs | AI length measurement | [/blog/how-to-estimate-electrical-work-from-drawings-conduit-devices-labor/](https://quotr.ai/blog/how-to-estimate-electrical-work-from-drawings-conduit-devices-labor/) | No residential per-opening section |
-| Proof | RL Electric case study (20 hours to 1–2 hours) | [/case-studies/rl-electric/](https://quotr.ai/case-studies/rl-electric/) | Case study page shows no numbers |
+| Proof | RL Electric homepage testimonial (takeoff from about 20 hours to 1–2 hours) | [/case-studies/rl-electric/](https://quotr.ai/case-studies/rl-electric/) | Case study page shows no numbers |
 | Outsourcing | Quotr Service | [/blog/electrical-estimating-services/](https://quotr.ai/blog/electrical-estimating-services/) | — |
 | Choosing software | — | [/blog/best-electrical-estimating-software-2026/](https://quotr.ai/blog/best-electrical-estimating-software-2026/), [/blog/electrical-estimating-software-buyers-guide/](https://quotr.ai/blog/electrical-estimating-software-buyers-guide/) | Retired pricing in indexed text |
 
@@ -592,12 +592,12 @@
 
 **Pains (from threads and surveys)**
 - Too many bids, too few estimators; estimates done after hours.
-- Accuracy doubts about AI takeoff: data accuracy is contractors' top AI worry (57%, Dodge/CMiC survey, <../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>, §6), and r/estimators threads call AI tools "hit-or-miss".
+- Accuracy doubts about AI takeoff: data accuracy was contractors' top AI worry in one survey (57%, Dodge/CMiC, [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>), §6; not re-checked by the fact-check), and r/estimators threads call AI tools "hit-or-miss".
 - Desktop, Windows-only tools and Mac users' frustration (r/estimators "macOS takeoff app that actually works").
 - Cost of software for small or side use.
 - Scope gaps between trades; comparing sub bids that are not like for like.
 
-**Who AI cites today:** for software: G2/Capterra/SourceForge alternatives pages, independent listicles (constructioncoverage.com, thedigitalprojectmanager.com), ConstructConnect's 2026 guide and competitors' own lists; for how-tos: Bluebeam, Autodesk, Procore, estimating-service firms and r/estimators (<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>, §5).
+**Who AI cites today:** for software: G2/Capterra/SourceForge alternatives pages, independent listicles (constructioncoverage.com, thedigitalprojectmanager.com), ConstructConnect's 2026 guide and competitors' own lists; for how-tos: Bluebeam, Autodesk, Procore, estimating-service firms and r/estimators ([quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), §5).
 
 **How Quotr maps**
 
@@ -605,7 +605,7 @@
 |---|---|---|
 | Faster takeoff and estimates | AI takeoff + cost database + proposals ([/software/](https://quotr.ai/software/)); ROI calculator ([/roi-calculator/](https://quotr.ai/roi-calculator/), models an 80% time cut) | No published time or accuracy benchmark |
 | Mac / browser | Browser-based, no install (index-only; official statement TO CONFIRM with Quotr) | No Mac page |
-| Low price | Lite $79.90/seat/month, 7-day trial ([/pricing/](https://quotr.ai/pricing/)) | About 13 old posts still show "$299.90" pricing |
+| Low price | Lite $79.90/seat/month, 7-day trial ([/pricing/](https://quotr.ai/pricing/)) | About 13 Quotr URLs (mostly blog posts) still show the retired "$299.90" Solo/Team pricing |
 | Bid comparison | RFQs and side-by-side supplier bids (live /software/); [/dictionary/bid-leveling/](https://quotr.ai/dictionary/bid-leveling/) | Whether GC-side sub-bid leveling is supported is TO CONFIRM with Quotr; no template |
 | Outsource when busy | Quotr Service ([/service/](https://quotr.ai/service/), [/blog/outsourcing-vs-hiring-an-estimator/](https://quotr.ai/blog/outsourcing-vs-hiring-an-estimator/)) | — |
 
@@ -639,7 +639,7 @@ A Perplexity search for r/Contractor threads about buying cabinets or windows di
 - ISF ("10+2"): the importer or its agent must file with US Customs no later than 24 hours before the cargo is loaded on the ship bound for the US; CBP can issue liquidated damages of $5,000 per violation ([CBP help article](https://www.help.cbp.gov/s/article/Article-1868); [CBP FAQ](https://www.cbp.gov/sites/default/files/documents/10_2faq_0.pdf), via WebSearch summary).
 - HTS codes are 10 digits: the first 6 are the international Harmonized System code, the last 4 are US-specific ([USITC](https://www.usitc.gov/tariff_affairs/about_hts.htm); search at [hts.usitc.gov](https://hts.usitc.gov/)).
 - Incoterms 2020 has 11 rules; FOB and CIF are for sea and inland waterway transport only, while EXW, DAP and DDP can be used for any transport mode ([ICC](https://iccwbo.org/business-solutions/incoterms-rules/incoterms-2020/)).
-- From the notes: the Joint Economic Committee (April 2026) put tariff costs at $7,500–$10,900 per home; Brookings estimated about $30B added, about 90% on new construction (<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>, §3).
+- From the notes: the Joint Economic Committee (April 2026) put tariff costs at $7,500–$10,900 per home; Brookings estimated about $30B added, about 90% on new construction ([competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>), §3).
 - AGC (via Perplexity; not opened directly): in a January 2026 survey, 40% of contractors raised bid prices because of tariffs, 35% passed most or all tariff costs to owners and 32% bought early ([agc.org](https://www.agc.org/news/2026/01/14/construction-costs-rise-fastest-rate-january-2023-november-outpacing-increases-contractors-bid)); input costs rose 8.9% from August 2025 to August 2026 ([agc.org](https://www.agc.org/news/2026/09/10/construction-input-costs-climb-89-between-august-2025-and-august-2026-association-survey-finds-war)).
 
 **Pains**
@@ -649,7 +649,7 @@ A Perplexity search for r/Contractor threads about buying cabinets or windows di
 - Price volatility: bids go stale; contractors add escalation clauses and shorten bid validity (AGC and trade coverage via Perplexity).
 - Which Incoterm to use; importing guides warn newcomers about DDP when anti-dumping duties apply ([SinoEuro Ruida guide](https://www.snrida.com/blog/complete-guide-importing-building-materials-china), via WebSearch summary).
 
-**Who AI cites today:** P8 cited only sourcing agents and logistics firms; S11 and N1 cited only government, media and law/logistics firms; P4 cited NAHB, Autodesk, Buildertrend, Buildxact, Trimble and HUD, with no mention of factory-direct sourcing. **No software vendor is cited on these questions.** This is Quotr's clearest white space (<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>, §5).
+**Who AI cites today:** P8 cited only sourcing agents and logistics firms; S11 and N1 cited only government, media and law/logistics firms; P4 cited NAHB, Autodesk, Buildertrend, Buildxact, Trimble and HUD, with no mention of factory-direct sourcing. **No software vendor is cited on these questions.** This is Quotr's clearest white space ([competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>), §5).
 
 **How Quotr maps**
 
@@ -683,7 +683,7 @@ A Perplexity search for r/Contractor threads about buying cabinets or windows di
 **Key terms:** hard costs, soft costs, land cost, cost per SF, cost per unit (per door), pro forma, contingency, estimate class / accuracy range, GMP, value engineering, draw schedule, underwriting. Definitions: [construction-glossary.md](construction-glossary.md).
 
 **Context (unverified, from AI answers on 2026-09-25)**
-- P3's answer gave benchmarks of $220–$700/SF and $150k–$250k per unit (<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>, §3).
+- P3's answer gave benchmarks of $220–$700/SF and $150k–$250k per unit ([quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), §3).
 - A lender's guide cited in a Perplexity answer puts early estimates at 30–50% accuracy, preliminary budgets at 15–30%, and late estimates at about 5–15% ([multifamily.loans](https://www.multifamily.loans/apartment-finance-blog/hard-vs-soft-construction-costs-for-multifamily-developers/)).
 - California ADU cost pages quote about $300–$500+/SF, with detached ADUs often $225,000–$400,000+ (WebSearch summary of builder pages; builders have an interest in these numbers).
 - LA fire rebuild answer (S12): $400–$800+/SF from Bloomberg and local GCs.

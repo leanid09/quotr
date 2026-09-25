@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (§3 cited how-to pages and answer structure), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md> (§3 how-to prompts P1–P8), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md> (§2 trade how-to cluster, §6 trade coverage), <../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md> (§1, §2 click resilience, §7), <../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md> (claims #1, #2; H19); [../../04-prompt-library/prompt-library.md](../../04-prompt-library/prompt-library.md) (Stage 1.3 trade questions, including test N2).
+**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§3 cited how-to pages and answer structure), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (§3 how-to prompts P1–P8), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§2 trade how-to cluster, §6 trade coverage), [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1, §2 click resilience, §7), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #1, #2; H19); [../../04-prompt-library/prompt-library.md](../../04-prompt-library/prompt-library.md) (Stage 1.3 trade questions, including test N2).
 
 ---
 

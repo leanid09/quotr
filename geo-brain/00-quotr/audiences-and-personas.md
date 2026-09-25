@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md> (§6 persona and trade coverage), <../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md> (prompt tests), <../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (who wins each persona's answers), <../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md> (§6 how construction buyers use AI), <../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md> (Reddit r/estimators), <../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>; quotr.ai homepage, /software/, /service/, /procurement/, /faq/, /disambiguation/, llms.txt and the blog sitemap (as read in the notes); extra WebSearch checks of quotr.ai pages and the Feb 2025 FireTips press release (2026-09-25).
+**Sources:** [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§6 persona and trade coverage), [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (prompt tests), [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (who wins each persona's answers), [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§6 how construction buyers use AI), [quotr_offsite_presence.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (Reddit r/estimators), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>); quotr.ai homepage, /software/, /service/, /procurement/, /faq/, /disambiguation/, llms.txt and the blog sitemap (as read in the notes); extra WebSearch checks of quotr.ai pages and the Feb 2025 FireTips press release (2026-09-25).
 
 ---
 
@@ -17,7 +17,7 @@
   - **Partly** = blog posts exist, but no dedicated page or proof.
   - **Implied** = Quotr's copy mentions them, but there is little or no content for them.
 - **Goals, pains, triggers, objections and "where they research" are working assumptions.** Survey numbers and AI test results are sourced; the rest is our reading. They are built from the research notes, Quotr's own pages and public surveys. They are not from Quotr customer interviews. Check them with 5–10 real customers before using them in ads or sales copy.
-- **Example questions** are written the way real people type into AI tools: short, informal, often with a year or a trade. Several come straight from the prompts tested in the research (IDs like C1 or P5 point to <../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>). All tests used Perplexity only. C1, C9, C11, C12 and the branded tests were re-run and held up; V1, V3, C13 and P5 were run in one session only, so treat those results as indicative (<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>).
+- **Example questions** are written the way real people type into AI tools: short, informal, often with a year or a trade. Several come straight from the prompts tested in the research (IDs like C1 or P5 point to [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>)). All tests used Perplexity only. C1, C9, C11, C12 and the branded tests were re-run and held up; V1, V3, C13 and P5 were run in one session only, so treat those results as indicative ([verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>)).
 
 ---
 
@@ -32,7 +32,7 @@
 | 5 | Development fund / underwriter / lender's analyst | Service | **Implied** | /disambiguation/ names "real estate development funds"; "Developer Desk: underwriting-grade estimates in 72 hours" post | RSMeans, cost-benchmark pages, local estimating firms |
 | 6 | Materials buyer (procurement lead, owner-builder, contractor supplying finishes) | Procurement | **Yes** | /procurement/ for "developer and contractor teams"; DDP and sourcing blog posts | Alibaba, sourcing agents (FBM Sourcing, Go Global, Trillion Sources), local "factory direct" dealers |
 | 7 | Architect / design team | Revit add-in (status TO CONFIRM); Service | **Implied** | "The architect's survival guide" post; founder is an architect; legacy Revit product | Autodesk, RIB CostX, estimating firms |
-| 8 | Estimating service buyer (any company that wants to outsource) | Service | **Yes** | ~13 "estimating services" posts (MEP, HVAC, electrical, commercial, California, outsourcing vs hiring) | No brand is named; AI cites estimating-firm pages (blazeestimating.com, 1800estimating.com, optimarprecon.com and others) next to Quotr's post. Beam AI sells a similar done-for-you takeoff |
+| 8 | Estimating service buyer (any company that wants to outsource) | Service | **Yes** | About 12 "estimating services" posts (MEP, HVAC, electrical, commercial, California, Developer Desk), plus an "outsourcing vs hiring an estimator" comparison | No brand is named; AI cites estimating-firm pages (blazeestimating.com, 1800estimating.com, optimarprecon.com and others) next to Quotr's post. Beam AI sells a similar done-for-you takeoff |
 
 How Quotr itself splits its buyers: "contractors need bid-ready speed while developers need forecast fidelity", and each path maps the three products to those needs (search-index text of the homepage and /pricing/ "choose your path" copy, WebSearch 2026-09-25).
 
@@ -51,13 +51,15 @@ Other small audiences seen in Quotr's content: house flippers and small investor
 | Commercial specialty contractors using AI for estimating / bid management | 24% / 22% | [ServiceTitan 2026 report](https://www.servicetitan.com/press/servicetitan-report-finds-ai-adoption-more-than-doubles-among-commercial) |
 | Contractors' top AI worries | Data accuracy 57%, security 54% | [Dodge/CMiC via Construction Dive](https://www.constructiondive.com/news/builders-ai-transform-businesses-survey/807555/) |
 | Construction leaders' trust in AI | Down 14 points year on year | [Autodesk State of Design & Make 2025](https://www.autodesk.com/blogs/construction/state-of-design-make-spotlight-construction/) |
-| B2B software buyers who start research in an AI chatbot (all industries) | 51%; 71% use chatbots somewhere in research | [G2 2026 buyer research](https://www.prnewswire.com/news-releases/new-g2-research-half-of-b2b-software-buyers-now-start-their-research-with-ai-chatbots-302742807.html) |
-| Construction software buyers asking about estimating | 72% of 5,000+ conversations | [Software Advice](https://www.softwareadvice.com/construction/cost-estimating-software-comparison/) |
-| Typical construction software budget | About $1,600–$4,000 per year | [Capterra buyer insight](https://www.capterra.com/resources/construction-software-buyer-insight/) |
+| B2B software buyers who start research in an AI chatbot (all industries) | 51%; 71% use chatbots somewhere in research | G2's own survey (March 2026, 1,076 buyers): [G2 2026 buyer research](https://www.prnewswire.com/news-releases/new-g2-research-half-of-b2b-software-buyers-now-start-their-research-with-ai-chatbots-302742807.html). G2 sells reviews, so treat as directional |
+| Construction software buyers asking about estimating | 72% of 5,000+ conversations | [Software Advice](https://www.softwareadvice.com/construction/cost-estimating-software-comparison/) (underlying period unclear) |
+| Typical construction software budget | About $1,600–$4,000 per year | [Capterra buyer insight](https://www.capterra.com/resources/construction-software-buyer-insight/) (report undated, probably 2024–25) |
 
-- Other research places (from the notes): Capterra, GetApp and Software Advice; G2; Reddit r/estimators (skeptical threads asking whether AI takeoff works); YouTube demos; Facebook estimator groups; trade shows (World of Concrete, IBS/NAHB). The share each channel takes is **not** measured by any survey found (<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>, §6).
-- The Lite plan ($79.90/seat/month, about $959/year) fits inside the typical budget above.
-- Quotr has no reviews on G2 or Capterra yet. That matters because these buyers check review sites, and AI tools cite them heavily (see [../02-current-state/offsite-presence.md](../02-current-state/offsite-presence.md)).
+**How solid these numbers are:** the G2 figure (51%) was confirmed by the independent fact-check. The Houzz, AGC/Sage, ServiceTitan and Dodge/CMiC survey figures come from the research notes and were **not** re-checked ([verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>), section D). Quote them as "reported by [survey name]".
+
+- Other research places (from the notes): Capterra, GetApp and Software Advice; G2; Reddit r/estimators (skeptical threads asking whether AI takeoff works); YouTube demos; Facebook estimator groups; trade shows (World of Concrete, IBS/NAHB). The share each channel takes is **not** measured by any survey found ([geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>), §6).
+- The Lite plan ($79.90/seat/month, about $959 per seat per year) sits **below** that typical budget, so it is an easy first purchase. Plus (about $3,599 per seat per year), or Lite for a team of 2–4 seats (about $1,918–$3,835 a year), falls inside the range (arithmetic corrected in the fact-check).
+- Quotr has no confirmed reviews yet: its G2 profile reportedly shows 0 reviews (G2 blocked a direct check), and no Capterra listing was found. That matters because these buyers check review sites, and AI tools cite them heavily (see [../02-current-state/offsite-presence.md](../02-current-state/offsite-presence.md)).
 
 ---
 
@@ -223,7 +225,7 @@ Other small audiences seen in Quotr's content: house flippers and small investor
 - "Is importing materials from China risky (quality, codes, delays)?"
 - "About 90-day lead time is too long for my schedule." (Lead time from index-only /contractors/ text; **TO CONFIRM**.)
 
-**Where they research:** Google and ChatGPT; YouTube; Facebook builder groups; NAHB/IBS and local builder associations (Quotr is a BIA Bay Area member); suppliers; Houzz.
+**Where they research:** Google and ChatGPT; YouTube; Facebook builder groups; NAHB/IBS and local builder associations (Quotr lists a BIA Bay Area membership on /disambiguation/; the listing was not opened, so current membership is TO CONFIRM); suppliers; Houzz.
 
 **What AI tools recommend today:** For "best construction estimating software for residential contractors" (C2): Clear Estimates, Buildxact, Houzz Pro, Buildertrend, JobTread, QuickBooks. For "AI estimating software for residential general contractors that goes from plans to proposal" (C13): Handoff, BuildVision AI, Houzz Pro, Buildxact, Beam. Quotr is absent from both.
 
@@ -400,7 +402,7 @@ Other small audiences seen in Quotr's content: house flippers and small investor
 
 ## 10. Persona 8 — Estimating service buyer (outsourcing)
 
-**Targeted on site: Yes.** About 13 "estimating services" posts published Aug–Sep 2026 (onsite audit §2), plus /service/ with sample deliverables and per-sq-ft pricing.
+**Targeted on site: Yes.** About 12–13 "estimating services" posts, mostly published Aug–Sep 2026 (onsite audit §2; itemised as group D in [../02-current-state/website-audit.md](../02-current-state/website-audit.md)), plus /service/ with sample deliverables and per-sq-ft pricing.
 
 **Who they are:** Any sub, GC, builder or developer who wants estimates done for them: short-staffed teams, seasonal peaks, or firms without an estimator.
 

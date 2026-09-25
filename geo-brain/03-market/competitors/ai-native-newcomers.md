@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (sections 1–3), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md> (all C, V and P prompts, domain tally), <../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md> (Bobyard and xBuild facts), <../../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md> (page-count study). Read directly on 2026-09-25: [ConstructConnect 2026 guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026). WebSearch on 2026-09-25: xBuild, Bobyard launches, 2026 funding.
+**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (sections 1–3), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (all C, V and P prompts, domain tally), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (Bobyard and xBuild facts), [geo_ai_citation_signals_2026.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) (page-count study). Read directly on 2026-09-25: [ConstructConnect 2026 guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026). WebSearch on 2026-09-25: xBuild, Bobyard launches, 2026 funding.
 
 ---
 
@@ -72,12 +72,12 @@ These companies sell software too, but their biggest effect on Quotr is that **t
 | **ScopeTakeoff** | "Best AI construction estimating software for subcontractors"; "best construction estimating software" | V7, V10; subcontractor estimating search results | Named in web search summary | Not found |
 | **QuoteIQ** ($29.99/month) | "Best estimating software for drywall 2026" | C4, C5, V5, V7, V10 | C4, C5, V7 | Not found |
 | **Aginera** | "AI takeoff software comparison 2026" | C1, V4, V7 | — | Not found |
-| **PalCode** | "AI takeoff software compared"; "AI for construction takeoffs: tools that work" | Search results | — | **Yes, per Perplexity's inventory** (content not verified) |
+| **PalCode** | "AI takeoff software compared"; "AI for construction takeoffs: tools that work" | Search results | — | **Possibly**: named in Perplexity's inventory, but the page was not opened (UNVERIFIED) |
 | **Ruh AI** | "How to do a construction takeoff" guide, glossary, "Takeoff tool comparison 2026" | "How to do a quantity takeoff" benchmark prompt; V5, P5 | C3 | Not found |
 | **Dan Cumberland Labs** (AI consultancy blog) | "AI construction estimating software", "construction takeoff software: best picks 2026" | C1, C11, V4, V7, P5 | — | Not found |
 | Pilars ($100 per trade per plan), Civils.ai, CountBricks, Struvia, CostLogic, CyanBuild, BuildIntel, CostKit | Listicles and alternatives posts | V3, V6, V7, C3 | Some named in C3 and V7 | Not found |
 
-Sources: domain and prompt data from <../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md> (section 5 table) and <../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (sections 1–3). "Not found" means a site-restricted search did not find Quotr; it is a proxy, not proof.
+Sources: domain and prompt data from [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (section 5 table) and [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (sections 1–3). "Not found" means a site-restricted search did not find Quotr; it is a proxy, not proof.
 
 ---
 
@@ -94,7 +94,7 @@ Sources: domain and prompt data from <../../../research_notes/Quotr GEO AEO stra
 
 ## 4. What newcomers say about Quotr
 
-Almost nothing. Perplexity listed PalCode's 2026 list, rconstructionsolutions.com, nedesestimating.com, aibuildingtools.com, octopusbuilds.com and nomic.ai as non-Quotr pages that mention Quotr, and described them as marketing-style rather than independent (competitor benchmark notes, section 4; content not opened). Nomic is itself an AEC AI vendor (verification notes). None of the most-cited publisher vendors above were found to list Quotr.
+Almost nothing. Perplexity listed PalCode's 2026 list, rconstructionsolutions.com, nedesestimating.com, aibuildingtools.com, octopusbuilds.com and nomic.ai as non-Quotr pages that mention Quotr, and described them as marketing-style rather than independent (competitor benchmark notes, section 4). The fact-check later confirmed two of them: **Octopus Builds** ranks Quotr.ai #2 of 8 and **Nomic** ranks it #5 of 7, but both rank themselves first and both repeat Quotr's old $299.90 entry price (verification notes, claims 26–27). PalCode, rconstructionsolutions, NEDES and aibuildingtools were not opened, so their mentions are UNVERIFIED. None of the most-cited publisher vendors above were found to list Quotr.
 
 ---
 

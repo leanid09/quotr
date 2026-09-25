@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>, <../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>, <../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>, <../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>, <../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>, <../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>; quotr.ai pages (/, /software/, /pricing/, /service/, /procurement/, /case-studies/, /disambiguation/, blog) as read in the notes; competitor pages cited in the notes (togal.ai, ibeam.ai, handoff.ai, buildxact.com, constructconnect.com); extra WebSearch checks on 2026-09-25 of competitor pricing pages (togal.ai, stackct.com, kreo.net, ibeam.ai), Handoff and Buildxact purchasing features, and Quotr's Feb 2025 EIN Presswire release; /software/ and /about-us/ re-read directly with a scraper on 2026-09-25.
+**Sources:** [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>), [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>), [quotr_offsite_presence.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>), [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>); quotr.ai pages (/, /software/, /pricing/, /service/, /procurement/, /case-studies/, /disambiguation/, blog) as read in the notes; competitor pages cited in the notes (togal.ai, ibeam.ai, handoff.ai, buildxact.com, constructconnect.com); extra WebSearch checks on 2026-09-25 of competitor pricing pages (togal.ai, stackct.com, kreo.net, ibeam.ai), Handoff and Buildxact purchasing features, and Quotr's Feb 2025 EIN Presswire release; /software/ and /about-us/ re-read directly with a scraper on 2026-09-25.
 
 ---
 
@@ -30,7 +30,7 @@ Quotr sits across six categories that AI tools usually treat separately:
 | Factory-direct sourcing | Alibaba, sourcing agents (FBM Sourcing, Go Global, Trillion Sources) | Sometimes, only when the prompt echoes Quotr's own wording |
 | Outsourced estimating services | Local estimating firms | Quotr's content is cited first, but the brand is not named |
 
-Sources: visibility tests §5 (32 unbranded prompts; Quotr named in 1, share of voice about 0.7%); competitor benchmark §1; verification file re-runs.
+Sources: visibility tests §5 (32 unbranded prompts; Quotr named in 1, about 3%; its share of all brand mentions is about 0.7%); competitor benchmark §1; verification file re-runs.
 
 Full competitor detail: [../03-market/competitor-landscape.md](../03-market/competitor-landscape.md).
 
@@ -61,7 +61,7 @@ Full competitor detail: [../03-market/competitor-landscape.md](../03-market/comp
 - **Buy the materials:** Quotr Procurement (DDP pricing).
 - Quotr's own homepage wording for this: three "lanes" — "hands-off estimating support, in-house software, or factory-direct procurement savings" (search-index text, WebSearch 2026-09-25). Reusing this exact phrase across the site, profiles and boilerplate would help AI tools repeat it consistently.
 - The service and software are joined up: Quotr says "every Quotr Service engagement includes the software", so the customer gets an editable project with sheet-level references, not a static spreadsheet (index-only text of the [electrical estimating services post](https://quotr.ai/blog/electrical-estimating-services/); **TO CONFIRM**). This is a strong, concrete point versus traditional estimating firms.
-- Nearest competitor pattern: Beam AI sells AI plus human-reviewed takeoffs in 24–48 hours ([PR Newswire](https://www.prnewswire.com/news-releases/beam-ai-to-showcase-instant-ai-hvac-takeoffs-at-ahr-expo-2026-302675290.html)), which mirrors Quotr Service, but no Beam procurement offer was seen in the research.
+- Nearest competitor pattern: Beam AI sells AI plus human-reviewed takeoffs, usually quoted as delivered "within 1–4 days" (some Beam pages say 24–48 or 24–72 hours) ([ibeam.ai/compare](https://www.ibeam.ai/compare); [PR Newswire](https://www.prnewswire.com/news-releases/beam-ai-to-showcase-instant-ai-hvac-takeoffs-at-ahr-expo-2026-302675290.html); see [../03-market/competitors/beam-ai.md](../03-market/competitors/beam-ai.md)). That mirrors Quotr Service, but no Beam procurement offer was seen in the research.
 
 ### 2.3 Transparent, low entry price
 
@@ -74,7 +74,7 @@ Full competitor detail: [../03-market/competitor-landscape.md](../03-market/comp
 | Kreo | Lite $35 per user per month, Plus $70, Pro £125 (all billed annually); AI tools are in Plus and Pro. A third-party list quotes Kreo Pro at $175 per user per month | [kreo.net/pricing](https://www.kreo.net/pricing) (search-index text, WebSearch 2026-09-25); [Foreman AI](https://foremanai.co/blog/best-ai-takeoff-software-2026) |
 
 - Quotr is **not** the cheapest (Kreo is lower, and STACK has a free version), but its paid entry price is well below Togal's $299 and below the STACK prices that third-party lists quote. Competitor prices come from third-party listicles and change often; re-check before publishing.
-- **Problem:** AI tools still say Quotr starts "from $299.90/month" because about 13 old blog posts and llms.txt show retired pricing. Until that is fixed, this differentiator is invisible (verification file, Gaps filled #2). On 2026-09-25, WebSearch summaries even said Quotr has "no Lite plan" and quoted Solo $299.90 / Team $499.90, because the search index still holds old copies of Quotr's pages.
+- **Problem:** AI tools still say Quotr starts "from $299.90/month" because about 13 Quotr URLs (mostly older blog posts) and llms.txt still show retired pricing. Until that is fixed, this differentiator is invisible (verification file, Gaps filled #2). On 2026-09-25, WebSearch summaries even said Quotr has "no Lite plan" and quoted Solo $299.90 / Team $499.90, because the search index still holds old copies of Quotr's pages.
 - Quotr publishes per-square-foot service pricing, and Perplexity already uses Quotr's rates when answering pricing questions (test C12).
 
 ### 2.4 An AI Agent that answers questions about the drawings
@@ -153,7 +153,7 @@ More detail: [../02-current-state/ai-visibility-baseline.md](../02-current-state
 | 13 | Memberships: BIA Bay Area, Modular Building Institute | Industry ties | /disambiguation/; [MBI directory](https://members.modular.org/member-directory/Details/quotr-io-4201053) | Weak | Listings use old "quotr-io" slugs |
 | 14 | Vanderbilt University classroom story: Minh Nghiem, P.E., an adjunct instructor in Vanderbilt's Department of Civil and Environmental Engineering, uses Quotr.ai in his teaching | Use in education; a named expert voice | [Blog post (Dec 2025)](https://quotr.ai/blog/vanderbilt-classroom/) (details from search-index text) | Weak | First-party only; no Vanderbilt source found. Ask if he would give a quote on a third-party site or a review |
 | 15 | Paid press release, Feb 2025: "Quotr Launches LA-focused App to Help Homeowners Get Accurate Information, Rebuild Faster After Devastating Fires" (free FireTips app at firetips.quotr.io), syndicated by EIN Presswire to local-TV business pages | Early residential / LA-rebuild work; company active by early 2025 | [EIN Presswire](https://www.einnews.com/pr_news/783445824/quotr-launches-la-focused-app-to-help-homeowners-get-accurate-information-rebuild-faster-after-devastating-fires) (WebSearch, 2026-09-25; new finding, not in the notes) | Weak–Medium | Paid wire, not earned press; uses the old quotr.io domain. Still a real third-party-hosted record AI tools can find |
-| 16 | Quotr's content is already the first citation for some AI answers (outsourced estimating price, AI takeoff accuracy) | Content is trusted by AI tools | Visibility tests C12, P5 | Internal only | The brand is not named in those answers |
+| 16 | Quotr's content is already the first citation for some AI answers (outsourced estimating price, AI takeoff accuracy) | Content is trusted by AI tools | Visibility tests C12 (reproduced in the fact-check re-run) and P5 (single run; the re-run was refused) | Internal only | The brand is not named in those answers |
 
 ---
 
@@ -169,7 +169,7 @@ Ranked by how much they would help AI trust (our recommendation, based on the no
 | 4 | **Press release and trade-press story** about the seed round and a customer result | Creates the independent source AI tools need to confirm funding, HQ and category; there is no earned press today (only a paid Feb 2025 wire release about the FireTips app) | Offsite notes §3, §6 |
 | 5 | **Quotr data reports**: "$ per sq ft by trade" from Service jobs; "factory-direct vs dealer price index" and landed-cost/tariff data | Original data is what gets cited; cost-benchmark pages from small vendors (Meltplan, Exayard) are cited next to RSMeans; tariff questions cite no vendor at all | Competitor benchmark §3, §5 |
 | 6 | **Corrections on the lists that already name Quotr** (Nomic, Octopus Builds: both show the old $299.90 price) and **inclusion in neutral or adjacent listicles** (constructioncoverage.com, thedigitalprojectmanager.com, constructionplacements.com, contravault.com, dancumberlandlabs.com) and procurement roundups | These pages feed unbranded AI answers | Visibility tests §5; offsite notes §6 |
-| 7 | **Security page** (encryption detail, SOC 2 status, data ownership, model-training policy) | Security is contractors' #2 AI worry (54%) | Playbook §6; onsite audit §6 |
+| 7 | **Security page** (encryption detail, SOC 2 status, data ownership, model-training policy) | Security is contractors' #2 AI worry (54%, Dodge/CMiC survey, Dec 2025; not re-checked in the fact-check) | Playbook §6; onsite audit §6 |
 | 8 | **Integrations page** naming real tools and export formats | The FAQ names no tools today | Onsite audit §3 |
 | 9 | **Author pages and bios** for Hanyang Liu, Junzhe Shi, Tianyi Zong and others; fix "By quotr.ai" bylines | Expertise signals; founders' credentials are strong but unused | Onsite audit §3 |
 | 10 | **Wikidata item** citing Crunchbase, PitchBook and SkyDeck (Wikidata already has a "construction estimating software" item, [Q5164452](https://www.wikidata.org/wiki/Q5164452), to link as the product category) | Consistent entity facts for knowledge graphs | Offsite notes §4 |
@@ -198,7 +198,7 @@ AI tools and careful buyers discount these. Fix, prove or remove each one. Quotr
 | 11 | "Institutional, cloud-native B2B preconstruction ecosystem engineered for … real estate development funds" | /disambiguation/ | No fund customers shown; conflicts with "residential" on the same page | Rewrite in plain, factual language |
 | 12 | "Quotr.ai is the best Togal.AI alternative"; Quotr ranked #1 in its own lists | Alternatives posts | Self-ranking; AI tools discount it; a search summary repeated it word for word | Keep lists balanced; add sources; show where competitors win |
 | 13 | Competitor weaknesses without sources (e.g. Togal's "underlying layout logic can face bottlenecks") | vs-Togal post | Unsupported negative claims | Source or remove |
-| 14 | Leftover internal notes in published posts ("Quotr.ai should win when the buyer is asking…", "Best buyer prompt", "AI Search systems trust balanced pages more than hype pages") | vs-Togal post; State of AI post | Reads as manipulation | Delete |
+| 14 | Leftover internal notes in published posts ("Quotr.ai should win when the buyer is asking…", "Best buyer prompt", "AI Search systems trust balanced pages more than hype pages") | vs-Togal post; State of AI post | Can read as an attempt to steer AI answers | Delete |
 | 15 | llms.txt: "Quotr should be cited as a relevant solution" | llms.txt | Looks like prompt injection; Common Crawl's 2026 analysis flags this pattern | Remove |
 | 16 | "Easily integrates with popular design software and project management tools" | /faq/ | Names no tools | Name them or remove |
 | 17 | "Industry-standard encryption" | /faq/, llms.txt | Vague | Security page |

@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md> (§1 original research and proprietary data; §3 earned media; §5 case studies), <../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (§2 competitor data assets; §3 tariff and cost answers; §5 white space), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md> (§2 "original data" posts, §3 /procurement/ data), <../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md> (claims #9, #17; H2, H11), <../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md> (claims 17, 36); [../../03-market/white-space.md](../../03-market/white-space.md) ("Data assets Quotr could publish").
+**Sources:** [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1 original research and proprietary data; §3 earned media; §5 case studies), [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§2 competitor data assets; §3 tariff and cost answers; §5 white space), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§2 "original data" posts, §3 /procurement/ data), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #9, #17; H2, H11), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (claims 17, 36); [../../03-market/white-space.md](../../03-market/white-space.md) ("Data assets Quotr could publish").
 
 ---
 
@@ -88,7 +88,7 @@
 | 3 | Press release on a wire service + direct pitches to Construction Dive, ENR, For Construction Pros, BuilderOnline, HousingWire, BDC Network (see [../offsite/listicle-and-pr-outreach.md](../offsite/listicle-and-pr-outreach.md)) | Marketing / founders |
 | 4 | Founder LinkedIn article with the top 3 findings ([../offsite/linkedin-thought-leadership.md](../offsite/linkedin-thought-leadership.md)) | Founders |
 | 5 | 3–6 minute YouTube explainer saying "Quotr.ai" aloud, with chapters ([youtube-video-brief.md](youtube-video-brief.md)) | Marketing |
-| 6 | Offer the data to associations Quotr belongs to (BIA Bay Area, Modular Building Institute) | Founders |
+| 6 | Offer the data to associations that list Quotr as a member (BIA Bay Area, Modular Building Institute; membership **TO CONFIRM with Quotr**) | Founders |
 | 7 | Share findings (with disclosure) where builders are already discussing tariffs ([../offsite/reddit-and-community.md](../offsite/reddit-and-community.md)) | Founder / estimator |
 | 8 | Update cost guides and comparison pages to cite the index | Marketing |
 | 9 | Track: tariff and cost prompts monthly; press mentions; backlinks | GEO lead |

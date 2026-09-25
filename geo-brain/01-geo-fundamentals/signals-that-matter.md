@@ -103,14 +103,14 @@
 - **Counter-evidence:** Aleyda Solis puts news/review at only 10.4% of SaaS top sources; Growth Memo found UGC out-cites review sites ([verification H10](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>)).
 - **Presenc AI** (vendor): top-20 G2/Capterra brands cited 3.1x more for "best [category]" queries. Method unverified; **drop or label as vendor** (H12). [Presenc AI](https://presenc.ai/research/does-g2-capterra-reviews-improve-ai-visibility-2026)
 - **Market change:** in January 2026, G2 agreed to buy Capterra, GetApp and Software Advice from Gartner, so one review program can feed all four ([PR Newswire](https://www.prnewswire.com/news-releases/g2-to-acquire-capterra-software-advice-and-getapp-from-gartner-302673901.html)).
-- **Plain English:** in Quotr's category, review directories are among the most-read sources, and list writers rank tools by review counts. Quotr's G2 profile reportedly has 0 reviews.
+- **Plain English:** in Quotr's category, review directories are among the most-read sources, and list writers rank tools by review counts. Quotr's G2 profile reportedly has 0 reviews (a Perplexity report; G2 blocked direct checks), and no Capterra listing was found.
 
 ### 5. Third-party "best X" lists — Moderate–strong for category prompts · Stable (falling for self-published)
 
 - **Ahrefs, "Do Self-Promotional 'Best' Lists Boost ChatGPT Visibility?"** (26,283 source URLs; vendor): "best X" listicles were **43.8%** of page types ChatGPT cited; self-promotional lists were still cited. [Ahrefs](https://ahrefs.com/blog/best-lists-research/)
 - **ZeroClick Labs** (vendor/agency): listicles take 61% of citations in B2B technology services. [ZeroClick Labs](https://zeroclicklabs.ai/ai-seo-study-content-types-ai-search/)
 - **HubSpot, State of AEO 2026** (June 3, 2026; vendor; method not published): product/landing pages 68.5%, blog posts 66.75%, listicles 66% average citation rate across AIO, Gemini, ChatGPT and Perplexity. (Some notes credit AirOps; the fact-check says HubSpot.) [HubSpot](https://blog.hubspot.com/marketing/content-format-types-that-earn-citations)
-- **Quotr tests:** the same editorial lists recur (Construction Coverage 7 of 32, ConstructConnect 7, The Digital Project Manager 6). Quotr is on none of them ([citation-sources-map.md](../03-market/citation-sources-map.md)).
+- **Quotr tests:** the same few "best of" lists recur (Construction Coverage 7 of 32, ConstructConnect's 2026 guide 7, The Digital Project Manager 6; ConstructConnect is itself a vendor, and two of the nine tools in its guide are its own). Quotr was not found on any of them (checked by site-restricted search; the pages could not be opened) ([citation-sources-map.md](../03-market/citation-sources-map.md)).
 - **Self-published lists are the risk:** see [myths-and-risks.md](myths-and-risks.md) (Lily Ray: 29–49% visibility losses; 69% omission).
 - **Plain English:** being **on** other people's lists is one of the most direct routes into "best X" answers. Publishing your own self-ranked lists is not.
 
@@ -155,7 +155,7 @@
 - **Google's May 2026 guide:** the most important factor is "valuable, unique, non-commodity content" (confirmed).
 - **Growth Memo, "Why most original data never gets cited"** (301 pages, 316 prompts, 7 verticals, 1,075 citations): only 8 primary-research pages, but **3.3x** the citations per page (11.3 vs 3.4); the format AI rewards is the benchmark that answers "which is best". [Growth Memo](https://www.growth-memo.com/p/why-most-original-data-never-gets)
 - **Growth Memo, "Why proprietary data is your most defensible AI citation asset"** (June 29, 2026): DATE and NUMBER entities best predict ChatGPT citations; proprietary data is "necessary but not sufficient". [Growth Memo](https://www.growth-memo.com/p/why-proprietary-data-is-your-most)
-- **Quotr tests:** small rivals Meltplan and Exayard get cited next to RSMeans for cost-per-sq-ft pages; Quotr's number-rich AI-accuracy post was Perplexity's first source for "how accurate is AI takeoff" ([report](<../../reports/Quotr GEO AEO strategy audit.md>)).
+- **Quotr tests:** small rivals Meltplan and Exayard get cited next to RSMeans for cost-per-sq-ft pages; Quotr's number-rich AI-accuracy post was Perplexity's first source for "how accurate is AI takeoff" (one session; the fact-check could not repeat this prompt) ([ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md); [report](<../../reports/Quotr GEO AEO strategy audit.md>)).
 - **Plain English:** publish facts only Quotr can know, with the method and date.
 
 ### 12. Adding statistics, quotations and cited sources as a tactic — Weak · Falling
@@ -200,7 +200,7 @@
 
 - **Muck Rack, "What Is AI Reading?"** (May 7, 2026; 25M+ links; ChatGPT, Claude, Gemini; 17 industries; PR vendor; read by the fact-check): "earned" sources 84% of citations (82–89% since July 2025), journalism ~27%, paid 0.3%. "Earned" is defined broadly, so this does **not** mean 84% of citations are press coverage (H11). [Muck Rack](https://muckrack.com/blog/what-is-ai-reading-may-2026)
 - For SaaS, news/review sources were only 10.4% of top sources (Aleyda Solis).
-- **Quotr tests:** for tariff and cost questions, engines cited only government, trade-group and media sources; no software vendor ([report](<../../reports/Quotr GEO AEO strategy audit.md>)).
+- **Quotr tests:** for a tariff question, Perplexity cited only government reports, trade groups, news media and large industry firms (for example Congress's Joint Economic Committee and NAHB); no software vendor was cited ([report](<../../reports/Quotr GEO AEO strategy audit.md>)).
 - **Plain English:** press is the best route to independent validation of facts, especially with original data as the hook.
 
 ### 19. Content length — Weak (both work) · Stable
@@ -253,7 +253,7 @@ In plain words, eleven shifts:
 
 ## 4. What this means for Quotr
 
-Quotr's situation (from the [report](<../../reports/Quotr GEO AEO strategy audit.md>) and [presence-scorecard.md](../02-current-state/presence-scorecard.md)): strong on-site formatting and crawlability, 96 posts that engines already read, but **named in 1 of 32 unbranded Perplexity questions**, almost no third-party proof, and conflicting facts on its own pages.
+Quotr's situation (from the [report](<../../reports/Quotr GEO AEO strategy audit.md>) and [presence-scorecard.md](../02-current-state/presence-scorecard.md)): strong on-site formatting and crawlability, 96 posts that Perplexity already reads, but **named in 1 of 32 unbranded Perplexity questions (about 3%)** against 10 each for STACK, PlanSwift and Buildxact, almost no third-party proof, and conflicting facts on its own pages. Only Perplexity was tested; ChatGPT, Google AI Overviews / AI Mode, Gemini, Claude and Copilot still need a baseline.
 
 - **Shift effort from pages to proof.** The weakest signals (page volume, llms.txt, schema) are where Quotr has invested most; the strongest (mentions, reviews, lists, YouTube, communities) are where it scores lowest (entity and off-site trust 1.4 of 5).
 - **Start a G2 review drive.** Review sites fed 9 of 32 answers in Quotr's category, and one program now feeds G2, Capterra, GetApp and Software Advice. Aim for 10–30 honest reviews under G2's rules.

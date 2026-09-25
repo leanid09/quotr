@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md> (§2, V1–V10), <../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (§1–4), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md> (§2), <../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md> (§1), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md> (§2, §4), <../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md> (claims #2, #19; X10), <../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md> (claims 26–27, 32; gaps filled #5); competitor profiles in [../../03-market/competitors/](../../03-market/competitors/).
+**Sources:** [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (§2, V1–V10), [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§1–4), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (§2), [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§2, §4), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #2, #19; X10), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (claims 26–27, 32; gaps filled #5); competitor profiles in [../../03-market/competitors/](../../03-market/competitors/).
 
 ---
 
@@ -12,7 +12,7 @@
 
 - **Purpose:** answer "What can I use instead of [Tool]?" for buyers who already know a competitor. These buyers are close to a decision.
 - **What AI engines cite for these prompts** (Quotr's September 2026 tests, Perplexity):
-  - **Review-directory "alternatives" pages** lead: G2 and Capterra alternatives pages supplied the lead picks for "Togal.AI alternatives" and "PlanSwift alternatives" (visibility tests V1, V3). G2 now owns Capterra, GetApp and Software Advice (verification claim 37a), so review volume there matters a lot.
+  - **Review-directory "alternatives" pages** lead: G2 and Capterra alternatives pages supplied the lead picks for "Togal.AI alternatives" and "PlanSwift alternatives" (visibility tests V1, V3; two runs in one session, which the fact-check could not re-run). Capterra and G2 were also the two most-cited sites across all 32 unbranded test questions (9 answers each). G2 now owns Capterra, GetApp and Software Advice (verification claim 37a), so review volume there matters a lot.
   - **Vendor-written alternatives posts** fill the rest (costlogic, oneestimate, easytakeoffs, projul, struvia, Quotr's own).
 - **What happens to Quotr's own alternatives posts today:**
   - They rank. Quotr's posts took results 5–7 for "Togal.AI alternatives 2026" in WebSearch (offsite notes §2).
@@ -86,7 +86,7 @@ Facts from the [PlanSwift profile](../../03-market/competitors/planswift.md), [S
 
 **Why people look for alternatives (sources to check):**
 - PlanSwift is Windows desktop software (ConstructConnect guide, Aug 2026).
-- Pricing: ConstructConnect lists annual subscriptions from $2,000 for the first seat (July 2026); Quotr's own post says $1,749 per user per year. **These conflict. Check PlanSwift's own site and use its figure.**
+- Pricing: ConstructConnect lists annual subscriptions from $2,000 for the first seat (July 2026); a Perplexity answer that cited Quotr's PlanSwift post gave $1,749 per user per year (visibility tests V3, run 2). **These conflict. Check PlanSwift's own site, use its figure, and correct Quotr's post if it carries the lower number.**
 - ConstructConnect (which owns PlanSwift) added "Takeoff Boost" AI features. Mention it: it is a reason some buyers stay.
 
 **Comparison table (draft; every cell to be re-checked):**

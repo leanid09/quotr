@@ -17,12 +17,12 @@
 | **AEO (answer engine optimization)** | Making content easy for "answer engines" (AI chatbots, AI search, voice assistants) to find, trust and use in a direct answer. Used almost interchangeably with GEO. | Same goal as GEO: get Quotr named in answers. |
 | **AI agent / agentic browser** | AI software that browses websites and takes actions for a user (compare products, fill forms). Examples: Perplexity Comet, ChatGPT Atlas, the Claude Chrome extension. | Agent traffic is still mostly media, ecommerce and travel; a watch item for Quotr. Clean pricing and product pages help agents too. |
 | **AI answer engine** | A product that replies to a question with a written answer instead of (or on top of) a list of links: ChatGPT, Perplexity, Gemini, Claude, Copilot, Google AI Overviews and AI Mode. | The "places" where Quotr needs to be named. |
-| **AI search** | Search where an AI writes the answer, usually after running web searches and citing sources. | Now used by 1B+ people a month in Google AI Mode alone (Google, May 2026). |
+| **AI search** | Search where an AI writes the answer, usually after running web searches and citing sources. | Google AI Mode alone passed 1 billion monthly users (Google, May 2026). |
 | **AI SEO / LLMO / LLM SEO** | Other names for GEO. LLMO = "large language model optimization". | Same thing; don't let naming debates distract. |
 | **Chatbot / AI assistant** | A conversational AI product (ChatGPT, Gemini app, Claude, Copilot). | G2's survey (vendor): 51% of B2B software buyers start research in one. |
 | **GEO (generative engine optimization)** | Getting a brand found, mentioned, cited and recommended inside AI-generated answers. The term comes from a 2023/2024 research paper ("GEO: Generative Engine Optimization"). | The report's summary: "GEO is mostly good SEO, plus getting other people to talk about you." |
 | **Generative AI** | AI that creates text, images or video (as opposed to only sorting or ranking). | The engine behind every AI answer. |
-| **Hallucination** | When an AI states something false with confidence. | AI engines gave Quotr a "4.7/5" rating that belongs to the unrelated Quotr Pro app. |
+| **Hallucination** | When an AI states something false with confidence. | In Quotr's tests, Perplexity presented the unrelated Quotr Pro app's "4.7/5" rating as Quotr.ai's (a mix-up of two brands rather than an invention, but the effect on buyers is the same). |
 | **Knowledge cutoff (training cutoff)** | The date after which a model has no built-in knowledge; it must search to know newer facts. | Older models may still describe "Quotr.io" and old products. |
 | **LLM (large language model)** | The AI model inside a chatbot, trained on huge amounts of text to predict and write language (GPT, Gemini, Claude models). | Understanding how LLMs pick sources explains what GEO can and cannot do. |
 | **Prompt** | The question or instruction a user types into an AI tool. | Quotr's buyer prompts are listed in [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md). |
@@ -36,7 +36,7 @@
 | Term | Plain-English meaning | Why it matters / Quotr example |
 |---|---|---|
 | **Chunk / chunking** | Splitting a page into smaller pieces that an AI can retrieve separately. | Google (May 2026) says you do **not** need to chunk pages for AI; write clear, self-contained sections instead. |
-| **Citation** | The AI shows a page as a source (footnote number, link, card). | Quotr's blog was cited as a source in 6 of 32 unbranded Perplexity answers. |
+| **Citation** | The AI shows a page as a source (footnote number, link, card). | A quotr.ai page appeared in the source list of 6 of 32 unbranded Perplexity answers, and was used in the answer text in 4 of them. |
 | **Citation drift / volatility** | How much the list of cited sources changes over time for the same question. | Profound (vendor) measured 40–60% month-to-month change; track monthly, not once. |
 | **Consensus gap** | Different AI engines citing different sources for the same question. | Indig (H1 2026, not re-checked): 91% of citations appear in only one engine. Test several engines. |
 | **Embedding / semantic similarity** | Turning text into numbers so a system can measure how close in meaning two texts are, even with different words. | Why matching the *meaning* of buyer sub-questions matters more than repeating exact keywords. |
@@ -99,7 +99,7 @@
 | **OAI-SearchBot** | OpenAI's crawler for ChatGPT search results and citations. | OpenAI: don't block it if you want to appear in ChatGPT search. |
 | **Perplexity-User** | Perplexity's fetcher that loads pages live for a user's question. | Perplexity says it is "an agent, not a bot", so it generally does not honour robots.txt (secondary sources). |
 | **PerplexityBot** | Perplexity's crawler that builds its index. | Needed for Perplexity to cite Quotr. |
-| **Rendering (server-side vs client-side)** | Server-side: the page text is in the HTML the server sends. Client-side: text appears only after JavaScript runs, which many AI crawlers do not do. | quotr.ai is server-rendered (Astro), a real advantage; two small parts rely on JavaScript (the "Client saved ~$0" cards). |
+| **Rendering (server-side vs client-side)** | Server-side: the page text is in the HTML the server sends. Client-side: text appears only after JavaScript runs, which many AI crawlers do not do. | quotr.ai is server-rendered (Astro), a real advantage. Two small parts rely on JavaScript: the "Client saved" counters on the /procurement/ project cards (crawlers see "~$0") and the blog index's "load more" list. |
 | **robots.txt** | A public file (e.g. quotr.ai/robots.txt) that tells crawlers what they may fetch. | Quotr's allows all bots but does not list the blog sitemap. |
 | **User-agent** | The name a crawler announces when it visits (e.g. `GPTBot`); also the name used in robots.txt rules. | Used to allow or block specific AI bots. |
 
@@ -110,10 +110,10 @@
 | Term | Plain-English meaning | Why it matters / Quotr example |
 |---|---|---|
 | **301 redirect** | A permanent redirect from an old URL to a new one, passing along its signals. | Needed when merging duplicate posts and for old quotr.io URLs (whether quotr.io redirects is TO CONFIRM with Quotr). |
-| **Canonical (canonical tag)** | A tag telling search engines which URL is the main version of a page when duplicates exist. | Quotr's blog posts have them; whether /contractors/ and /developers/ point to their main pages is TO CONFIRM. |
+| **Canonical (canonical tag)** | A tag telling search engines which URL is the main version of a page when duplicates exist. | Quotr's blog posts have them. /contractors/ correctly points to /software/ (confirmed by the fact-check); whether /developers/ points to /service/ was not re-checked (TO CONFIRM). |
 | **data-nosnippet / nosnippet / max-snippet** | Google controls that stop or limit text from a page being shown in snippets and AI features. | Don't use on marketing pages; they reduce AI visibility. |
 | **Index / indexing** | The stored copy of pages a search engine keeps; "indexed" means a page is in it. | Google's only requirement for AI features: indexed and snippet-eligible. |
-| **IndexNow** | A protocol to instantly tell Bing (and Yandex, Naver, Seznam, Yep) that a URL changed. Google does not use it. | Use after fixing Quotr's ~13 pages with old prices, so Bing and Copilot re-read them fast. |
+| **IndexNow** | A protocol to instantly tell Bing (and Yandex, Naver, Seznam, Yep) that a URL changed. Google does not use it. | Use after fixing the ~13 Quotr URLs with old prices, so Bing and Copilot re-read them fast. |
 | **lastmod** | The "last modified" date for each URL in a sitemap. | Quotr's main sitemap says every page changed "today", which makes the signal meaningless. |
 | **noindex** | A tag telling search engines not to keep a page in their index. | Use on staging copies like test.quotr.io, which Perplexity still cited. |
 | **NOCACHE / NOARCHIVE** | Bing meta tags that limit (NOCACHE) or block (NOARCHIVE) use of a page in Copilot/Bing AI answers. | Don't use on Quotr's public pages. |
@@ -190,8 +190,8 @@
 | **AI Performance report (Bing)** | A Bing Webmaster Tools report (public preview, Feb 10, 2026) showing how often your pages are cited in Copilot and Bing AI answers, plus grounding queries. | The only first-party AI citation count available. |
 | **Baseline** | The first measurement you compare everything else against. | Quotr's baseline: Perplexity, Sept 25, 2026 ([../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md)). |
 | **Bing Webmaster Tools** | Microsoft's free dashboard for site owners (indexing, sitemaps, IndexNow, AI Performance). | Quotr should set it up in the first 30 days. |
-| **Branded prompt** | A question that names the brand ("Quotr.ai pricing", "Is Quotr.ai legit?"). | Quotr is named in all branded prompts, but some answers carry errors. |
-| **Citation rate** | The share of tested answers that cite your pages as sources. | quotr.ai: 6 of 32 unbranded Perplexity answers (source list). |
+| **Branded prompt** | A question that names the brand ("Quotr.ai pricing", "Is Quotr.ai legit?"). | Quotr was named in all 8 branded Perplexity prompts, but 5 of the 8 answers carried an error (for example the old $299.90 entry price). |
+| **Citation rate** | The share of tested answers that use your pages as sources in the answer text. (If your page is only in the source list, that counts toward the "retrieval rate".) | quotr.ai: cited in 4 of 32 unbranded Perplexity answers (12.5%); in the source list of 6 of 32 (18.8%). |
 | **Correlation vs causation** | Correlation: two things rise together. Causation: one causes the other. Most GEO studies show only correlation. | Read "YouTube mentions correlate 0.737" as a clue, not proof. |
 | **Custom channel group (GA4)** | Your own rules for grouping traffic sources in GA4. | Where the AI regex rule goes, above Referral. |
 | **GA4 (Google Analytics 4)** | Google's website analytics tool. | Needed to measure AI referral visits and conversions (Quotr's data TO CONFIRM). |
@@ -199,10 +199,11 @@
 | **Google Search Console (GSC)** | Google's free dashboard for site owners (indexing, queries, clicks, now AI impressions). | Also used to request re-crawls after fixes. |
 | **Mention rate** | The share of tested answers that name your brand. | Quotr: 1 of 32 unbranded Perplexity answers (about 3%). |
 | **Prompt library / prompt set** | A structured list of buyer questions to target and test. | [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md). |
-| **Prompt tracking** | Re-running a fixed set of prompts on a schedule across engines and recording mentions, citations, position and accuracy. | Quotr's plan: monthly, six engines, 2+ runs per prompt ([../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md)). |
+| **Prompt tracking** | Re-running a fixed set of prompts on a schedule across engines and recording mentions, citations, position and accuracy. | Quotr's plan: monthly on five engines (Claude and Copilot quarterly), two runs for each headline prompt ([../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md)). |
+| **Retrieval rate** | The share of tested answers that list one of your pages anywhere in their sources, whether or not the answer text uses it. | quotr.ai: 6 of 32 unbranded Perplexity answers (18.8%), level with reddit.com. |
 | **Self-reported attribution** | Asking buyers how they found you (a form field) instead of relying only on analytics. | Catches AI influence that analytics miss (e.g. a buyer who later types the URL). |
 | **Sentiment** | Whether an AI describes a brand positively, neutrally or negatively. | Perplexity describes some Quotr claims as "vendor assertions". |
-| **Share of voice (SOV)** | Your share of all brand mentions across a prompt set. | Quotr ~0.7% vs ~6.5% each for STACK, PlanSwift and Buildxact (32 unbranded prompts). |
+| **Share of voice (SOV)** | Your share of all brand mentions across a prompt set. | Quotr ~0.7% vs ~6.5% each for STACK, PlanSwift and Buildxact (32 unbranded Perplexity prompts). |
 | **Spearman correlation** | A statistic (from −1 to 1) showing how closely two rankings move together. Used in Ahrefs' brand studies. | A 0.7 correlation is strong but still not proof of cause. |
 | **Tracking tools** | Paid tools that run prompts and report AI visibility (e.g. Otterly.AI, Peec AI, Scrunch, Profound, Semrush AI Toolkit, Ahrefs Brand Radar). | Compared in [../07-measurement/tools-comparison.md](../07-measurement/tools-comparison.md). |
 | **Unbranded prompt** | A question that does not name the brand ("best AI takeoff software for subcontractors"). | Where Quotr is missing: named in 1 of 32. The main GEO goal. |
@@ -216,7 +217,7 @@
 
 | Term | Plain-English meaning | Why it matters / Quotr example |
 |---|---|---|
-| **AI referral traffic** | Visits that arrive by clicking links in AI answers. | About 1% of site traffic in most datasets, growing fast. |
+| **AI referral traffic** | Visits that arrive by clicking links in AI answers. | About 1% of all website traffic in Conductor's enterprise benchmark (2025 data; vendor), growing fast. |
 | **Branded search** | Searches that include your brand name ("quotr ai pricing"). | A key sign that AI mentions are building awareness. |
 | **Conversion** | A visitor taking a valuable action (demo, trial, purchase). | Whether AI visitors convert better is unproven for B2B; measure it. |
 | **CTR (click-through rate)** | The share of people who see a result and click it. | Falls sharply where AI Overviews appear (Ahrefs: −58% for position 1; vendor). |

@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md> (§1), <../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (§2–4), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md> (§2, §4), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md> (§2–4), <../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md> (claims #19, #21; X10), <../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md> (claims 15, 31–32; gaps filled #5); competitor profiles in [../../03-market/competitors/](../../03-market/competitors/).
+**Sources:** [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1), [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§2–4), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (§2, §4), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§2–4), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #19, #21; X10), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (claims 15, 31–32; gaps filled #5); competitor profiles in [../../03-market/competitors/](../../03-market/competitors/).
 
 ---
 
@@ -15,7 +15,7 @@
 - **Why it matters:**
   - Comparison queries are almost always read by AI: in Seer Interactive's 2026 data, "X vs Y" queries triggered a Google AI Overview **95.4%** of the time (`verification_geo_evidence.md` claim #21).
   - HubSpot's State of AEO 2026 data (vendor-run; treat as directional) found ChatGPT favours comparison content (`geo_content_playbook_b2b.md` §1; attribution corrected in `verification_geo_evidence.md` claim #12).
-  - In Quotr's own tests, Quotr's comparison posts supply most of what Perplexity says about "Quotr vs Togal / Beam / STACK", including the **stale** "from $299.90/month" price (competitor benchmark §4; verification re-run B4).
+  - In Quotr's own Perplexity tests, Quotr's own posts were about half of the sources for "Quotr.ai vs Togal.AI" (10 of about 20) and the majority for "Quotr.ai vs Togal.AI vs Beam AI vs Kreo". Perplexity repeated the **stale** "from $299.90/month" price from them and noted that "many of the comparison claims come from Quotr.ai's own blog content" (competitor benchmark §1, §4; verification re-run B4).
 - **The risk:** in early 2026, SaaS sites with scaled, self-promotional comparison and "alternatives" pages lost 29–49% of Google visibility (Lily Ray's observations; Google has not confirmed an update). Keep comparison pages **few, factual and balanced** (`verification_geo_evidence.md` claim #19, X10).
 
 ---

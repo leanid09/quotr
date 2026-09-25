@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md> (§1, §5), <../../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md> (§2), <../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md> (claims #2, #12, #19, #21; H3; X10, X17), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md> (§1, C1–C15), <../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (§1–3), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md> (§2, §4), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md> (§2).
+**Sources:** [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1, §5), [geo_ai_citation_signals_2026.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) (§2), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #2, #12, #19, #21; H3; X10, X17), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (§1, C1–C15), [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§1–3), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§2, §4), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (§2).
 
 ---
 
@@ -21,8 +21,8 @@
 - Lost Google visibility can carry into ChatGPT, Perplexity and others that lean on Google's index (`geo_content_playbook_b2b.md` §1).
 
 **What happened to Quotr's roundups in the tests:**
-- Quotr was named in **0 of 15** category prompts on Perplexity, even though it has about 16 "best of" and buyer's-guide posts (visibility tests §1; onsite audit §2).
-- Quotr's roundup ranked **4th of 9** in WebSearch for "best AI takeoff software for subcontractors 2026", yet the AI summary still recommended other tools (visibility tests C1).
+- Quotr was named in **0 of 15** category prompts on Perplexity (and in 1 of 32 unbranded prompts overall, about 3%, while STACK, PlanSwift and Buildxact were named in 10 each), even though it has about 16 "best of" and buyer's-guide posts (visibility tests §1; onsite audit §2). Only Perplexity was tested.
+- In one WebSearch check, Quotr's roundup ranked **4th of 9** for "best AI takeoff software for subcontractors 2026", yet Perplexity did not use it and recommended other tools (visibility tests C1; the ranking was not re-checked in the fact-check).
 - The category is saturated: 15+ vendors publish dated "best AI takeoff" lists, most ranking themselves first (competitor benchmark §2, §5).
 
 **Bottom line (from the verification file, X10):** a few honest, well-maintained pages are fine; **no library of self-ranked "best X" pages**; most effort goes into getting onto **third-party** lists ([../offsite/listicle-and-pr-outreach.md](../offsite/listicle-and-pr-outreach.md)).

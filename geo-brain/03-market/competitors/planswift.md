@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (sections 1–3), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md> (prompts C1, C4, C5, C6, V1, V3, V4, V6, V8, V10, P5), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md> (section 2). Read directly on 2026-09-25: [ConstructConnect 2026 guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026). WebSearch on 2026-09-25: PlanSwift Capterra page.
+**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (sections 1–3), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (prompts C1, C4, C5, C6, V1, V3, V4, V6, V8, V10, P5), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (section 2), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (PlanSwift ownership error on Quotr's own page). Read directly on 2026-09-25: [ConstructConnect 2026 guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026). WebSearch on 2026-09-25: PlanSwift Capterra page.
 
 ---
 
@@ -18,7 +18,7 @@
 | Best for (per ConstructConnect) | Residential builders, remodelers, commercial subs | Commercial and industrial GCs, specialty subs, precon teams | Same |
 | Price | Annual subscriptions **from $2,000 for the first seat**, less for extra seats (ConstructConnect, July 2026). Quotr's own post says **$1,749/user/year** and that PlanSwift moved to a subscription in 2025 (as quoted by Perplexity in V3) | Not public; demo or sales contact | Same; visibility notes V3 |
 | Reviews | **G2 4.3 from 35 (July 2026); Capterra 4.3 from 402 (Aug 26, 2026)** | **G2 4.4 from 148** | [ConstructConnect guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026); [Capterra PlanSwift](https://www.capterra.com/p/70808/PlanSwift/reviews/) (WebSearch summary) |
-| AI share of voice (32 unbranded prompts) | **10 prompts (~6.5%), tied first**: C1, C4, C5, C6, V1, V3, V4, V6, V8, V10 | 5 prompts (~3.3%): C5, V1, V3, V4, V8 | Visibility notes, section 5 |
+| AI share of voice (prompts that named it, out of 32 unbranded Perplexity prompts; % = its share of all brand mentions) | **10 prompts (~6.5%), tied first**: C1, C4, C5, C6, V1, V3, V4, V6, V8, V10 | 5 prompts (~3.3%): C5, V1, V3, V4, V8 | Visibility notes, section 5 |
 
 **Price conflict:** $2,000 (ConstructConnect, July 2026) vs $1,749 (Quotr's post). Quotr should re-check PlanSwift's current price and update its own post, because AI engines quote Quotr's figure.
 
@@ -84,7 +84,9 @@ ConstructConnect's blog is itself a **citation source** for the whole category:
 
 Nothing. Quotr is not in the Aug 2026 guide, and no ConstructConnect page mentioning Quotr was found.
 
-What Quotr says about PlanSwift: [best-planswift-alternatives-2026](https://quotr.ai/blog/best-planswift-alternatives-2026/) and [quotr-ai-vs-planswift-ai-takeoff-procurement-comparison-2026](https://quotr.ai/blog/quotr-ai-vs-planswift-ai-takeoff-procurement-comparison-2026/). Perplexity trusts the first one for **facts** (Windows desktop, 2025 subscription move, $1,749/user/year) but does not accept its **self-ranking**. A lighter search summarizer (WebSearch) did repeat "the strongest alternative is Quotr.ai" (V3 cross-check).
+What Quotr says about PlanSwift: [best-planswift-alternatives-2026](https://quotr.ai/blog/best-planswift-alternatives-2026/) and [quotr-ai-vs-planswift-ai-takeoff-procurement-comparison-2026](https://quotr.ai/blog/quotr-ai-vs-planswift-ai-takeoff-procurement-comparison-2026/). Perplexity trusts the first one for **facts** (Windows desktop, 2025 subscription move, $1,749/user/year) but does not accept its **self-ranking** (V3; single session, the fact-check could not re-run it). A lighter search summarizer (WebSearch) did repeat "the strongest alternative is Quotr.ai" (V3 cross-check).
+
+**A factual error to fix:** Quotr's [stack-alternative](https://quotr.ai/blog/stack-alternative/) post calls PlanSwift "a Trimble product". PlanSwift belongs to ConstructConnect (verification notes, summary item 10). Because AI engines already use Quotr's PlanSwift content as a fact source, this error can spread into AI answers.
 
 ---
 
@@ -93,7 +95,7 @@ What Quotr says about PlanSwift: [best-planswift-alternatives-2026](https://quot
 **Strategy: turn "cited, not named" into "named" on the PlanSwift query, and get into the ConstructConnect-style guides.**
 
 1. **Rewrite the PlanSwift alternatives post as a decision guide, not a ranking.** Group alternatives by the reason people leave: "Windows-only → browser tools (STACK, Togal, Kreo, Quotr.ai)", "want AI auto-count → Togal, Beam, Quotr.ai", "want done-for-you → Beam, Quotr.ai Estimation Service", "want materials priced and bought → Quotr.ai". Engines are more likely to repeat a conditional recommendation that sits inside a fair list than a "we are #1" claim.
-2. **Re-check and date every PlanSwift fact** ($2,000 vs $1,749; subscription date). AI already uses Quotr's page as the source for these facts, so accuracy here builds trust in the whole page.
+2. **Re-check and date every PlanSwift fact** ($2,000 vs $1,749; subscription date; owner is ConstructConnect, not Trimble). AI already uses Quotr's page as the source for these facts, so accuracy here builds trust in the whole page.
 3. **Add a migration guide:** "Moving from PlanSwift to a browser-based AI tool: assemblies, Excel exports, templates". PlanSwift users care about assemblies and Excel links (ConstructConnect's stated differentiators).
 4. **Create an "On-Screen Takeoff alternatives" page.** Easy Takeoffs owns this query; Quotr has no page for it.
 5. **Get onto the Capterra and G2 PlanSwift alternatives pages.** They supplied the lead picks in V3. A Capterra listing for Quotr in the takeoff category is the first step. See [../citation-sources-map.md](../citation-sources-map.md).

@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** [../../00-quotr/product-and-features.md](../../00-quotr/product-and-features.md) (§1–3 modules, plans, trades); <../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md> (§2 trade pages, §3 /software/ and drywall page, §4 thin trade pages, §6 trade coverage), <../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md> (§1 product/landing page citation data; Aleyda Solis on templates and integrations pages), <../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (§2 Beam AI and Kreo trade page trees; §5 trade coverage), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md> (C4–C6, C9, C13, C15), <../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md> (claims #2, #12).
+**Sources:** [../../00-quotr/product-and-features.md](../../00-quotr/product-and-features.md) (§1–3 modules, plans, trades); [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§2 trade pages, §3 /software/ and drywall page, §4 thin trade pages, §6 trade coverage), [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1 product/landing page citation data; Aleyda Solis on templates and integrations pages), [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§2 Beam AI and Kreo trade page trees; §5 trade coverage), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (C4–C6, C9, C13, C15), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #2, #12).
 
 ---
 
@@ -14,7 +14,7 @@
 - **Titles that match narrow sub-questions help.** Ahrefs found ChatGPT-cited pages had titles closer to the narrower "fan-out" sub-queries (e.g., "AI takeoff for residential framing") than pages it skipped (`geo_content_playbook_b2b.md` §1).
 - **Quotr's trade pages are thin.** The sampled drywall page had an H1, about 25 words of unique copy, two blog links and CTAs; no FAQ, specifics or examples. Thin, templated pages "can look like doorway pages" (onsite audit §3–4). Some trade pages may have been expanded since (the structural-steel page's index copy showed member counts, connection categories and confidence scores), so re-check each one first (product notes §3.1).
 - **Competitors win trade prompts with trade pages.** Drywall, flooring and electrical category prompts went to trade-specific vendor landing pages and listicles; Quotr was absent from all three (visibility tests C4–C6). Beam AI (per-trade pages under /subcontractors/) and Kreo (/trades/) have the page trees Quotr could match (competitor benchmark §2).
-- **Quotr's differentiators are invisible in product prompts.** "Construction estimating software with material procurement" (C9), "AI estimating software for residential GCs that goes from plans to proposal" (C13) and "best takeoff software for Mac users" (C15) all describe Quotr, yet Quotr was absent.
+- **Quotr's differentiators are invisible in product prompts.** "Construction estimating software with material procurement" (C9, reproduced in the fact-check re-run), "AI estimating software for residential GCs that goes from plans to proposal" (C13, single session) and "best takeoff software for Mac users" (C15) all describe Quotr, yet Quotr was absent.
 - **Each page must be genuinely different.** Google's May 2026 guide warns that pages made mainly to catch every query variation can count as scaled content abuse (`verification_geo_evidence.md` claim #2). 23 trade pages are fine **only** if each has trade-specific scope, units, examples and FAQs.
 
 ---
@@ -134,7 +134,7 @@ Based on High-priority prompts in the [prompt library](../../04-prompt-library/p
 
 - /software/: SoftwareApplication with Offers + FAQPage + BreadcrumbList ([../schema-markup-kit.md](../schema-markup-kit.md) 5.2, 5.4, 5.7).
 - Feature and trade pages: BreadcrumbList; FAQPage for visible FAQs; VideoObject for demos. Reference the SoftwareApplication by `@id` (`https://quotr.ai/#software`) rather than redefining it.
-- Remove the repeated trade grid (it appears three times in the delivered text of /software/; onsite audit §1).
+- Remove the repeated trade grid (it appears three times in the delivered text of /software/; onsite audit §1; verification claim 18).
 
 ---
 

@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (sections 1–3, 5), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md> (prompts C11, C13, V7), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md> (section 5), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>. Read directly on 2026-09-25: [handoff.ai/pricing](https://www.handoff.ai/pricing), [handoff.ai/comparison](https://www.handoff.ai/comparison), [handoff.ai/official-information-about-handoff](https://www.handoff.ai/official-information-about-handoff), [handoff.ai/1build](https://www.handoff.ai/1build). WebSearch on 2026-09-25: funding, G2 review count. Perplexity on 2026-09-25: LinkedIn syndication of Handoff's listicle.
+**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (sections 1–3, 5), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (prompts C11, C13, V7), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (section 5), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>). Read directly on 2026-09-25: [handoff.ai/pricing](https://www.handoff.ai/pricing), [handoff.ai/comparison](https://www.handoff.ai/comparison), [handoff.ai/official-information-about-handoff](https://www.handoff.ai/official-information-about-handoff), [handoff.ai/1build](https://www.handoff.ai/1build). WebSearch on 2026-09-25: funding, G2 review count. Perplexity on 2026-09-25: LinkedIn syndication of Handoff's listicle.
 
 ---
 
@@ -18,7 +18,7 @@
 | Users | "Over 40K contractors have used Handoff" (search summary of Handoff's site) | WebSearch 2026-09-25 |
 | Price | Flex $119, Pro $239, Scale $719 per month billed annually ($149 / $299 / $899 monthly); Custom API on request; 7-day free trial | [handoff.ai/pricing](https://www.handoff.ai/pricing) |
 | Reviews | G2 about **115 reviews** (search summary), **4.8/5** (Handoff's own badge); Capterra **4.5/5** (Handoff's own badge); App Store and Google Play 4.8 | [G2 Handoff](https://www.g2.com/products/handoff/reviews); [Capterra Handoff](https://www.capterra.com/p/10026318/Handoff/); [handoff.ai/comparison](https://www.handoff.ai/comparison) |
-| AI share of voice (32 unbranded prompts) | Named in 2 prompts (~1.3%): C11, C13. But it **wins the residential prompts**: it was recommended first for residential subs, remodelers and small GCs in the benchmark prompt | Visibility notes, section 5; competitor benchmark, section 1 |
+| AI share of voice (prompts that named it, out of 32 unbranded Perplexity prompts; % = its share of all brand mentions) | Named in 2 prompts (~1.3%): C11, C13. But it **wins the residential prompts**: it was recommended first for residential subs, remodelers and small GCs in the benchmark prompt | Visibility notes, section 5; competitor benchmark, section 1 |
 
 ---
 

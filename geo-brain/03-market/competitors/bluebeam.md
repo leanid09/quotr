@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (sections 1–3), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md> (prompts C4, C6, C8, C11, C15, V1, V3, V4, V10, P1, P6), <../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md> (B4 re-run). WebSearch on 2026-09-25: Bluebeam pricing and review pages; Handoff funding (Nemetschek). Bluebeam's own pages could not be read directly (scraper rate-limited), so prices below come from a search summary and must be re-checked.
+**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (sections 1–3), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (prompts C4, C6, C8, C11, C15, V1, V3, V4, V10, P1, P6), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (B4 re-run). WebSearch on 2026-09-25: Bluebeam pricing and review pages; Handoff funding (Nemetschek). Bluebeam's own pages could not be read directly (scraper rate-limited), so prices below come from a search summary and must be re-checked.
 
 ---
 
@@ -16,7 +16,7 @@
 | Owner | Nemetschek Group. Nemetschek also **led Handoff's $5.8M strategic round** (June 2025) | [Nemetschek on Handoff](https://www.nemetschek.com/en/news-media/ngroup-strategic-investment-handoff) |
 | Price (search summary, re-check) | Per user per year: **Basics $260, Core $330, Complete $440, Max $590**. "Max" is an AI tier (AI drawing review and comparison, BIM model link) added **May 2026** at introductory pricing. Another summary said "starts at $220/year", so treat all figures as ballpark | [bluebeam.com/pricing](https://www.bluebeam.com/pricing/); [Drawboard](https://www.drawboard.com/blog/bluebeam-pricing) (WebSearch 2026-09-25) |
 | Reviews | **G2 about 461 reviews** (451 on the seller page); **Capterra 975 reviews** (ratings not captured) | [G2 Bluebeam](https://www.g2.com/products/bluebeam/reviews); [Capterra Bluebeam Revu](https://www.capterra.com/p/121586/Bluebeam-PDF-Revu/reviews/) (WebSearch 2026-09-25) |
-| AI share of voice (32 unbranded prompts) | **7 prompts (~4.6%)**: C4, C11 ("Bluebeam VisualSearch"), C15, V1, V3, V4, V10 | Visibility notes, section 5 |
+| AI share of voice (prompts that named it, out of 32 unbranded Perplexity prompts; % = its share of all brand mentions) | **7 prompts (~4.6%)**: C4, C11 ("Bluebeam VisualSearch"), C15, V1, V3, V4, V10 | Visibility notes, section 5 |
 
 ---
 
@@ -24,7 +24,7 @@
 
 Bluebeam is not a dedicated takeoff or estimating product, but so many estimators use it to measure PDFs that AI engines treat it as a takeoff tool. Two things make it important for GEO:
 
-1. **It is a switching target.** "Bluebeam alternatives for takeoff" is a common question, and every AI-native rival (Togal, Beam, Kreo, Handoff) has a "vs Bluebeam" page.
+1. **It is a switching target.** "Bluebeam alternatives for takeoff" is a common question, and AI-native rivals Togal, Beam, Kreo and Handoff all have "vs Bluebeam" pages.
 2. **It is a teaching source.** Bluebeam's dated 2026 takeoff guide and blog posts are cited for "how do I do a takeoff" questions, where no brand is recommended but the citation link still sends readers to Bluebeam.
 
 Bluebeam's AI move is the new **Max** tier (May 2026, per search summary). It does not estimate prices or buy materials.

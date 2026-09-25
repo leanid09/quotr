@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>, <../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>, <../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>, <../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>, <../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>; quotr.ai pages /, /software/, /pricing/, /service/, /procurement/, /faq/, /tutorials/, /case-studies/, /disambiguation/, /contractors/ and blog posts (read in the notes, plus search-index text checked with WebSearch on 2026-09-25); /pricing/, /software/ and /about-us/ re-read directly with a scraper on 2026-09-25.
+**Sources:** [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>), [quotr_offsite_presence.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>), [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>); quotr.ai pages /, /software/, /pricing/, /service/, /procurement/, /faq/, /tutorials/, /case-studies/, /disambiguation/, /contractors/ and blog posts (read in the notes, plus search-index text checked with WebSearch on 2026-09-25); /pricing/, /software/ and /about-us/ re-read directly with a scraper on 2026-09-25.
 
 ---
 
@@ -46,9 +46,9 @@ The workflow Quotr sells is: **plans → takeoff → estimate → bid → procur
 - Source: [/pricing/](https://quotr.ai/pricing/), [/software/](https://quotr.ai/software/), /disambiguation/ schema Offers. **Verified.** New pricing was announced on Sep 14, 2026 ([new-pricing post](https://quotr.ai/blog/new-pricing/)).
 - 7-day free trial; "Cancel anytime — no charge if canceled." **Verified** (scrape of /pricing/, 2026-09-25).
 - The /pricing/ page describes software as "monthly software for takeoff, estimates, bidding, and procurement" and offers a 30-minute demo at [/book-demo/](https://quotr.ai/book-demo); the team promises replies "within one business day".
-- No annual price is shown on /pricing/. (The retired Solo plan had a yearly rate of $249/seat/month; do not reuse it.) **TO CONFIRM with Quotr** whether Lite/Plus have annual rates.
+- No annual price is shown on /pricing/. (The retired "1 User Plan" in llms.txt said "as low as $249/seat/month billed annually"; do not reuse it.) **TO CONFIRM with Quotr** whether Lite/Plus have annual rates.
 - Procurement is optional. The live /software/ FAQ says: "Is procurement required to use Quotr.ai? No. Procurement is fully optional. You can run takeoffs, estimates, and proposals without ever using it — or use Quotr.ai to send quote requests to your own suppliers and compare bids side by side." **Verified.**
-- **Retired plans — do not use:** "Solo $299.90/month", "Team (2–6 seats) $499.90/month", "Enterprise (7+)", "1 User Plan $299.90", "2–10 Users Plan $499.90". About 13 blog posts, the /contractors/ index copy and llms.txt still show these (verification file, Gaps filled #2). AI tools repeat them, which makes Quotr look up to about 4x more expensive than it is.
+- **Retired plans — do not use:** "Solo $299.90/month", "Team (2–6 seats) $499.90/month", "Enterprise (7+)", "1 User Plan $299.90", "2–10 Users Plan $499.90". About 13 Quotr URLs (mostly blog posts, plus the old indexed copy of /contractors/) and llms.txt still show these (verification file, Gaps filled #2). AI tools repeat them, so Quotr's entry price looks nearly four times higher than it is ($299.90 vs $79.90).
 
 ---
 
@@ -160,7 +160,7 @@ The workflow Quotr sells is: **plans → takeoff → estimate → bid → procur
 
 - Integrations: the /faq/ answer says Quotr "easily integrates with popular design software and project management tools" but names none ([/faq/](https://quotr.ai/faq/)). No Procore App Marketplace listing was found. **TO CONFIRM with Quotr:** the list of live integrations.
 - Security: one generic line, "industry-standard encryption" (llms.txt, /faq/). No security page, SOC 2 statement or data-retention policy was found. **TO CONFIRM with Quotr.**
-- Why it matters: in a Dodge/CMiC survey, contractors' top AI concerns were data accuracy (57%) and security (54%) (<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>, §6).
+- Why it matters: in a Dodge/CMiC survey of 235 contractors (published Dec 2025), the top AI concerns were data accuracy (57%) and security (54%) ([geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>), §6; this survey was not re-checked in the fact-check).
 
 ### 3.8 ROI calculator
 

@@ -5,7 +5,7 @@
 **Last updated:** 2026-09-25
 
 **Sources:**
-- Research notes: <../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md> (40 tested prompts and results), <../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (extra tested prompts, white space), <../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md> (§6 how construction buyers use AI), <../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md> (Quotr URL inventory), <../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md> (prompts O1–O6), <../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md> and <../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md> (corrections, which override the other notes).
+- Research notes: [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (40 tested prompts and results), [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (extra tested prompts, white space), [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§6 how construction buyers use AI), [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (Quotr URL inventory), [quotr_offsite_presence.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (prompts O1–O6), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) and [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (corrections, which override the other notes).
 - New research on 2026-09-25 (WebSearch and Perplexity Sonar): questions from ContractorTalk, Electrician Talk, PlumbingZone, HVAC-Talk, PaintTalk, Reddit (r/estimators, r/Construction, r/Flooring, r/HVAC, r/electricians, r/plumbers), YouTube video titles and "People also ask"-style search results. Every source link is listed trade by trade in [buyer-questions-by-trade.md](buyer-questions-by-trade.md).
 - Quotr page URLs come from the blog sitemap, main sitemap and dictionary pages as recorded in the notes, plus a WebSearch of quotr.ai/dictionary (2026-09-25). All Quotr links point to https://quotr.ai.
 
@@ -73,8 +73,8 @@
 
 ### Three rules before you write anything
 
-1. **Do not build one page per prompt.** Many prompts here share one answer page. Google's May 2026 AI-search guide warns that pages made mainly for every variation of a query can count as scaled content abuse (<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>, claim 2). Group prompts into strong pages.
-2. **Category prompts ("best X software") are won mostly off-site.** Perplexity recommended brands that appear on independent listicles and G2/Capterra "alternatives" pages. It used Quotr's own "best of" posts as fact sources but did not recommend Quotr from them (<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>, §2 and §5). Also, sites that ranked themselves #1 in "best X" lists lost Google visibility in early 2026 (verification_geo_evidence.md, claim 19). Use honest comparison pages, and put most effort into third-party listings.
+1. **Do not build one page per prompt.** Many prompts here share one answer page. Google's May 2026 AI-search guide warns that pages made mainly for every variation of a query can count as scaled content abuse ([verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>), claim 2). Group prompts into strong pages.
+2. **Category prompts ("best X software") are won mostly off-site.** Perplexity recommended brands that appear on independent listicles and G2/Capterra "alternatives" pages. It used Quotr's own "best of" posts as fact sources but did not recommend Quotr from them ([quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), §2 and §5). Also, the SEO analyst Lily Ray observed that sites ranking themselves #1 in "best X" lists lost Google visibility in early 2026; Google has not confirmed a targeted update (verification_geo_evidence.md, claim 19). Use honest comparison pages, and put most effort into third-party listings.
 3. **Keep tested prompts word for word.** Even small wording changes change the answer. Prompts that echo Quotr's own copy can make Quotr look more visible than it is (test S6: Quotr was named only because the prompt used Quotr's own words; buyer-style versions C10 and C14 did not surface Quotr).
 
 ---
@@ -83,10 +83,10 @@
 
 | Stage | Prompts | High | Med | Low | Tested in Sept 2026 | Existing page fits | Page exists but needs work "(optimize)" | NEW PAGE NEEDED |
 |---|---|---|---|---|---|---|---|---|
-| 1. Learn / problem | 146 | 51 | 57 | 38 | 15 | 58 | 26 | 62 |
+| 1. Learn / problem | 146 | 51 | 57 | 38 | 15 | 57 | 27 | 62 |
 | 2. Compare / evaluate | 88 | 41 | 36 | 11 | 36 | 37 | 30 | 21 |
 | 3. Decide / brand | 48 | 30 | 15 | 3 | 13 | 33 | 7 | 8 |
-| **Total** | **282** | **122** | **108** | **52** | **64** | **128** | **63** | **91** |
+| **Total** | **282** | **122** | **108** | **52** | **64** | **127** | **64** | **91** |
 
 Notes on the numbers:
 - "Existing page fits" counts rows that link a page with no "(optimize)" flag. It includes rows marked "Off-site" or "TO CONFIRM" where no new page is proposed.
@@ -113,7 +113,7 @@ Trade coverage: every one of the 14 trades has at least 4 prompts; see [Views by
 
 ## Stage 1 — Learn / problem (top of funnel)
 
-At this stage AI answers usually cite sources but rarely name software brands. In September 2026, Quotr was **named in 0 of 8** tested how-to prompts and **cited in 1** (P5, accuracy of AI takeoff). Free calculators, cost-guide sites, Bluebeam/Autodesk/Procore guides, estimating-service firms and logistics firms won most citations (<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>, §3). An extra test run for this library on the same day (N2, "how to estimate plumbing from drawings") showed the same pattern: Quotr's plumbing post was the **first citation** and supplied most of the steps, but the answer never said "Quotr". Specific, step-by-step trade how-tos get used; the brand name still has to be written into the key sentences.
+At this stage AI answers usually cite sources but rarely name software brands. In September 2026, Quotr was **named in 0 of 8** tested how-to prompts and **cited in 1** (P5, accuracy of AI takeoff). Free calculators, cost-guide sites, Bluebeam/Autodesk/Procore guides, estimating-service firms and logistics firms won most citations ([quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), §3). An extra test run for this library on the same day (N2, "how to estimate plumbing from drawings") showed the same pattern: Quotr's plumbing post was the **first citation** and supplied most of the steps, but the answer never said "Quotr". Specific, step-by-step trade how-tos get used; the brand name still has to be written into the key sentences.
 
 ### 1.1 General estimating and bidding
 
@@ -127,7 +127,7 @@ At this stage AI answers usually cite sources but rarely name software brands. I
 | L-006 | how long does a construction estimate take | SUB, GC, DEV | GEN | Learn | Med | NEW PAGE NEEDED: "How long an estimate takes, by project size" using Quotr Service job data | **P7 · Absent** (estimating-service firms and r/estimators cited) |
 | L-007 | how fast should an estimator be able to do a takeoff | SUB, GC | GEN | Learn | Med | Same new benchmark page as L-006 | Seen: [r/estimators "how fast do you estimate"](https://www.reddit.com/r/estimators/comments/1j7h8eu/how_fast_do_you_estimate/) |
 | L-008 | what is unit cost in construction estimating | ALL | GEN | Define | Low | [/dictionary/unit-price/](https://quotr.ai/dictionary/unit-price/) | — |
-| L-009 | what is a plug number in an estimate | SUB, GC | GEN | Define | Low | [/dictionary/plug-number/](https://quotr.ai/dictionary/plug-number/) and [/blog/plug-number-estimating/](https://quotr.ai/blog/plug-number-estimating/) | — |
+| L-009 | what is a plug number in an estimate | SUB, GC | GEN | Define | Low | [/dictionary/plug-number/](https://quotr.ai/dictionary/plug-number/) (a blog link to /blog/plug-number-estimating/ returned a 404 in the September 2026 audit; fix or remove that internal link) | — |
 | L-010 | what is a cost code in construction | GC | GEN | Define | Low | [/dictionary/cost-code/](https://quotr.ai/dictionary/cost-code/) | — |
 | L-011 | what is a scope gap and how do I avoid it between trades | GC, SUB | GEN | Learn | Med | [/blog/scope-gap-construction/](https://quotr.ai/blog/scope-gap-construction/) and [/dictionary/scope-gap/](https://quotr.ai/dictionary/scope-gap/) | Seen: r/ConstructionManagers topic; answers cite Piper, Struvia, Meltplan, Exayard (Perplexity, 2026-09-25) |
 | L-012 | how do subcontractors bid GCs without giving away margin | SUB | GEN | Learn | Med | [/blog/how-subcontractors-bid-gcs-without-giving-away-margin/](https://quotr.ai/blog/how-subcontractors-bid-gcs-without-giving-away-margin/) | — |
@@ -201,7 +201,7 @@ Real questions behind these prompts, with links, are in [buyer-questions-by-trad
 | L-068 | commercial painting estimate from drawings per square foot | SUB | PNT | Cost | Low | [/software/trades/painting/](https://quotr.ai/software/trades/painting/) (optimize) | Seen: [PaintTalk "Commercial estimating (exterior)"](https://www.painttalk.com/threads/commercial-estimating-exterior.2497/) |
 | L-069 | how to estimate concrete for a slab in cubic yards | SUB, RES | CONC | Learn | Med | NEW PAGE NEEDED: concrete calculator + [/software/trades/concrete/](https://quotr.ai/software/trades/concrete/) | Seen: STACK publishes free concrete content ([stackct.com](https://www.stackct.com/blog/free-concrete-estimating-software-cloud-based-no-download/)) |
 | L-070 | how to bid concrete flatwork per square foot | SUB | CONC | Cost | Med | NEW PAGE NEEDED: concrete pricing guide | Seen: [CT "New construction flatwork price?"](https://www.contractortalk.com/threads/new-construction-flatwork-price.88489/) |
-| L-071 | how to estimate rebar for a foundation | SUB | CONC | Learn | Med | [/blog/rebar-estimating-and-takeoff-software/](https://quotr.ai/blog/rebar-estimating-and-takeoff-software/) (fix stale pricing) + [/dictionary/rebar/](https://quotr.ai/dictionary/rebar/) | — |
+| L-071 | how to estimate rebar for a foundation | SUB | CONC | Learn | Med | [/blog/rebar-estimating-and-takeoff-software/](https://quotr.ai/blog/rebar-estimating-and-takeoff-software/) (optimize: fix stale pricing) + [/dictionary/rebar/](https://quotr.ai/dictionary/rebar/) | — |
 | L-072 | how to calculate formwork for footings and walls | SUB | CONC | Learn | Low | Dictionary "formwork" term (named in the onsite audit; exact URL TO CONFIRM) | — |
 | L-073 | how to estimate a roof in squares with pitch and waste | SUB | ROOF | Learn | Med | [/software/trades/roofing/](https://quotr.ai/software/trades/roofing/) (optimize: roofing has no blog content) | Seen: [CT "Total squares for bid? How do you come up with your total?"](https://www.contractortalk.com/threads/total-squares-for-bid-how-do-you-guys-come-up-with-your-total.37342/), [YouTube "How to Write Roofing Estimates Using Roof Measurements"](https://www.youtube.com/watch?v=O5QycPWhnLA) |
 | L-074 | how to do a roofing takeoff from plans for new construction | SUB | ROOF | Learn | High | NEW PAGE NEEDED: plan-based roofing takeoff guide (satellite reports can struggle with new construction, so plans are the source) | Seen: Perplexity summary of EagleView vs Hover sources: aerial reports "can struggle with trees/new construction" ([roofingsoftwareguide.com](https://roofingsoftwareguide.com/roundups/best-roofing-aerial-imagery-software/)) |
@@ -241,7 +241,7 @@ Real questions behind these prompts, with links, are in [buyer-questions-by-trad
 
 ### 1.4 Material costs, sourcing, tariffs and importing
 
-This is Quotr's clearest white space. In September 2026, tariff and importing answers cited only government, media and logistics sources, and **no software vendor at all** (<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>, §3 and §5).
+This is Quotr's clearest white space. In September 2026, tariff and importing answers cited only government, media and logistics sources, and **no software vendor at all** ([competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>), §3 and §5).
 
 | # | Prompt | Persona | Trade | Intent | Pri | Quotr page that should answer it | Tested / seen |
 |---|---|---|---|---|---|---|---|
@@ -293,7 +293,7 @@ This is Quotr's clearest white space. In September 2026, tariff and importing an
 ---
 ## Stage 2 — Compare / evaluate (middle of funnel)
 
-This is where Quotr loses most today. In September 2026, Quotr was **named in 0 of 15** category prompts and **1 of 9** unbranded comparison prompts (only "Togal.AI alternatives", near the bottom). Perplexity built these answers from independent listicles (constructioncoverage.com, thedigitalprojectmanager.com, ConstructConnect, ContraVault), G2/Capterra/SourceForge "alternatives" pages and competitors' own listicles. Quotr's own comparison posts were used as fact sources but did not get Quotr recommended (<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>, §1, §2, §5). Seer found "X vs Y" searches show a Google AI Overview 95.4% of the time (<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>, claim 21), so comparison pages are almost always read by AI.
+This is where Quotr loses most today. In September 2026, Quotr was **named in 0 of 15** category prompts and **1 of 9** unbranded comparison prompts (only "Togal.AI alternatives", near the bottom). Perplexity built these answers from independent listicles (constructioncoverage.com, thedigitalprojectmanager.com, ConstructConnect, ContraVault), G2/Capterra/SourceForge "alternatives" pages and competitors' own listicles. Quotr's own comparison posts were used as fact sources but did not get Quotr recommended ([quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), §1, §2, §5). Seer found "X vs Y" searches show a Google AI Overview 95.4% of the time ([verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>), claim 21), so comparison pages are almost always read by AI.
 
 ### 2.1 Category prompts (all trades and personas)
 
@@ -389,7 +389,7 @@ This is where Quotr loses most today. In September 2026, Quotr was **named in 0 
 | E-068 | can I export an AI takeoff to Excel | SUB | GEN | Fit | Med | [/faq/](https://quotr.ai/faq/) (TO CONFIRM with Quotr: export formats) | — |
 | E-069 | is there a ChatGPT for blueprints | SUB, GC | GEN | Tool | High | [/blog/ai-that-reads-construction-drawings-chat-with-blueprints/](https://quotr.ai/blog/ai-that-reads-construction-drawings-chat-with-blueprints/) | — |
 | E-070 | AI takeoff software that handles metric and imperial | SUB | GEN | Fit | Low | [/blog/metric-imperial-construction-takeoff/](https://quotr.ai/blog/metric-imperial-construction-takeoff/) | — |
-| E-071 | does AI estimating software train on my drawings, is my bid data secure | GC, SUB | GEN | Trust | Med | NEW PAGE NEEDED: security and data page (TO CONFIRM with Quotr: SOC 2, data use) | Contractors' top AI worries: accuracy 57%, security 54% (Dodge/CMiC, playbook §6) |
+| E-071 | does AI estimating software train on my drawings, is my bid data secure | GC, SUB | GEN | Trust | Med | NEW PAGE NEEDED: security and data page (TO CONFIRM with Quotr: SOC 2, data use) | Contractors' top AI worries: accuracy 57%, security 54% (Dodge/CMiC survey, playbook §6; not re-checked by the fact-check) |
 | E-072 | AI plans-to-estimate software that turns drawings into prices in minutes | SUB, RES | GEN | Tool | Med | [/blog/ai-construction-estimating-software-that-turns-plans-into-prices-in-minutes/](https://quotr.ai/blog/ai-construction-estimating-software-that-turns-plans-into-prices-in-minutes/) and [/blog/blueprint-to-priced-estimate-workflow/](https://quotr.ai/blog/blueprint-to-priced-estimate-workflow/) | — |
 
 ### 2.6 Services and procurement comparisons
@@ -417,7 +417,7 @@ This is where Quotr loses most today. In September 2026, Quotr was **named in 0 
 
 ## Stage 3 — Decide / brand (bottom of funnel)
 
-Brand answers are mostly built from Quotr's own pages (about 60–70% self-sourced), so engines hedge ("not independently validated"). **5 of 8** brand prompts had accuracy problems in September 2026: the unrelated Quotr Pro app's ratings used as Quotr's, stale "from $299.90" pricing (the real entry price is Lite at $79.90 per seat per month), namesake apps, and a funding conflict (<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>, §4; <../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>). Canonical facts: [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md).
+Brand answers are mostly built from Quotr's own pages (about 60–70% self-sourced), so engines hedge ("not independently validated"). **5 of 8** brand prompts had accuracy problems in September 2026: the unrelated Quotr Pro app's ratings used as Quotr's, stale "from $299.90" pricing (the real entry price is Lite at $79.90 per seat per month), namesake apps, and a funding conflict ([quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), §4; [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>)). Canonical facts: [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md).
 
 ### 3.1 Brand facts
 
@@ -542,7 +542,7 @@ A prompt tagged with several trades is counted under each.
 
 ## New pages this library calls for (roll-up)
 
-Many "NEW PAGE NEEDED" rows point to the same page. Grouped, the library calls for about 25 new assets. The order below follows the white-space evidence (<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>, §5); final priorities belong in [../05-content-strategy/content-priorities.md](../05-content-strategy/content-priorities.md).
+Many "NEW PAGE NEEDED" rows point to the same page. Grouped, the library calls for about 25 new assets. The order below follows the white-space evidence ([competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>), §5); final priorities belong in [../05-content-strategy/content-priorities.md](../05-content-strategy/content-priorities.md).
 
 | New asset | Prompts it answers | Why |
 |---|---|---|
@@ -550,7 +550,7 @@ Many "NEW PAGE NEEDED" rows point to the same page. Grouped, the library calls f
 | Residential builders hub + residential GC page (plans → takeoff → proposal → materials) | E-002, E-008, E-010, E-014, E-063, E-051, E-059 | Handoff and Buildxact own residential answers; Quotr is absent from all of them |
 | Developer hub + multifamily cost benchmark + ADU/LA rebuild/California $/sq ft pages | L-129–L-134, L-136, L-137, L-139, L-142, E-005, E-011 | Meltplan/Exayard cost pages get cited next to RSMeans; Quotr has service data but no benchmark |
 | Bid-leveling guide + free template + bid/supplier-quote comparison page | L-014, L-015, E-012, E-067 | Answers name Buildertrend/Buildxact/SmartBid with thin content |
-| Estimating time benchmark (by project size, from Quotr Service jobs) + AI takeoff accuracy method page | L-006, L-007, L-040, L-046, D-019 | Original data is the most citable format; accuracy is buyers' #1 AI worry |
+| Estimating time benchmark (by project size, from Quotr Service jobs) + AI takeoff accuracy method page | L-006, L-007, L-040, L-046, D-019 | Original data is the most citable format; accuracy was contractors' top AI worry in one survey (Dodge/CMiC; not re-checked) |
 | Free trade calculators (drywall, flooring waste, tile, concrete, framing) | L-047, L-048, L-055, L-057, L-062, L-069 | Calculators won the drywall how-to (P2) for three software vendors |
 | Residential trade-cost benchmarks (electrical, plumbing, HVAC, insulation per sq ft / per fixture / per ton) | L-093, L-098, L-100, L-104, L-106 | Answers today come from HomeGuide, Angi, Fixr-type sites |
 | Trade guides where Quotr has no content: roofing from plans, siding, framing/lumber, drywall pricing, concrete pricing | L-049, L-050, L-052, L-054, L-070, L-074, L-077, E-032, E-033 | Roofing has only a thin trade page; siding has none |
@@ -563,7 +563,7 @@ Many "NEW PAGE NEEDED" rows point to the same page. Grouped, the library calls f
 
 ## Related pages
 
-- [tracking-set.md](tracking-set.md) — the ~50 prompts to re-run every month, with baselines and instructions
+- [tracking-set.md](tracking-set.md) — the 53 prompts to re-run every month, with baselines and instructions
 - [buyer-questions-by-trade.md](buyer-questions-by-trade.md) — the real questions behind these prompts, with source links
 - [construction-glossary.md](construction-glossary.md) — plain-English definitions of the terms used in these prompts
 - [../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md) — full September 2026 test results

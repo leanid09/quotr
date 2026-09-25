@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (sections 1–3, 5), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md> (prompts C2, C4, C9, C11, C13, C15, V1, V4, V8, V10, P4), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>. Read directly on 2026-09-25: [buildxact.com/us/pricing](https://www.buildxact.com/us/pricing/), [handoff.ai/official-information-about-handoff](https://www.handoff.ai/official-information-about-handoff) (Handoff's description of Buildxact). WebSearch on 2026-09-25: Buildxact G2 and Capterra pages.
+**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (sections 1–3, 5), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (prompts C2, C4, C9, C11, C13, C15, V1, V4, V8, V10, P4), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>). Read directly on 2026-09-25: [buildxact.com/us/pricing](https://www.buildxact.com/us/pricing/), [handoff.ai/official-information-about-handoff](https://www.handoff.ai/official-information-about-handoff) (Handoff's description of Buildxact). WebSearch on 2026-09-25: Buildxact G2 and Capterra pages.
 
 ---
 
@@ -18,7 +18,7 @@
 | Price | **Go: $0** (5 free credits); **Foundation $169, Pro $339, Master $509 per month billed annually** ($199 / $399 / $599 monthly); unlimited users; 14-day free trial | [buildxact.com/us/pricing](https://www.buildxact.com/us/pricing/) |
 | Reviews | **G2 4.5/5 from 49 reviews; Capterra 4.6/5 from 174 reviews** (Ease of use 4.5, Customer service 4.7, Features 4.3, Value 4.5); 98% of Capterra reviewers are small businesses | [G2 Buildxact](https://www.g2.com/products/buildxact/reviews); [Capterra Buildxact](https://www.capterra.com/p/173135/buildXACT/reviews/) (WebSearch 2026-09-25) |
 | Awards used as content | "Buildxact Named a Top Home Builder Solution by Capterra and Software Advice for 2026" | [Buildxact news](https://www.buildxact.com/us/news_media/buildxact-top-home-builder-solution-2026/) |
-| AI share of voice (32 unbranded prompts) | **10 prompts (~6.5%), tied first**: C2, C4, C9, C11, C13, C15, V1, V4, V8, V10. buildxact.com was in the citation lists of 7–8 prompts (C2, C4, C5, C7, C11, C13, V8, P4; the notes' domain tally says 7) | Visibility notes, section 5 |
+| AI share of voice (prompts that named it, out of 32 unbranded Perplexity prompts; % = its share of all brand mentions) | **10 prompts (~6.5%), tied first**: C2, C4, C9, C11, C13, C15, V1, V4, V8, V10. buildxact.com was in the citation lists of 7–8 prompts (C2, C4, C5, C7, C11, C13, V8, P4; the notes' domain tally says 7) | Visibility notes, section 5 |
 
 ---
 

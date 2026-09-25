@@ -10,14 +10,14 @@
 
 ## First: credit where it is due
 
-Quotr's team has done more deliberate GEO work than almost any competitor we looked at, and in a short time (roughly May–September 2026).
+Quotr's team has done more deliberate GEO work than almost any competitor we looked at, and in a short time (about six months, roughly April–September 2026).
 
 - **AI engines can reach and read the site.** Nothing blocks AI crawlers, and pages are plain server-rendered HTML.
 - **The writing format is right.** Short answers first, question headings, tables, FAQs and visible dates. This is the format AI engines lift from.
 - **The /disambiguation/ page works.** "What is Quotr.ai?" is answered accurately, and Perplexity cites the page by name.
 - **Comparison and "alternatives" pages get used.** Quotr's own posts supply most of what AI engines say when a buyer compares Quotr with Togal, STACK or PlanSwift.
 - **Transparent pricing** lets AI give a correct price when it reads the right page.
-- **Quotr moved early on llms.txt.** The research found no evidence that the six main competitors (Togal, Beam AI, Kreo, STACK, Handoff, Buildxact) publish one.
+- **Quotr moved early on llms.txt.** The research found no evidence that the six main competitors (Togal, Beam AI, Kreo, STACK, Handoff, Buildxact) publish one (a search check; their sites were not inspected directly).
 
 The main lessons from the tests: (1) the tactics were rolled out fast and need an **editorial and consistency pass**; (2) some wording is aimed at bots rather than buyers, and that can **cost trust**; (3) on-site tactics have reached their limit on their own: the next gains come from **third-party proof** (reviews, neutral lists, press).
 
@@ -42,7 +42,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 | **A. Technical and machine-readable** | | | | | |
 | 1 | Open robots.txt (all bots allowed) | [robots.txt](https://quotr.ai/robots.txt) | Good | Positive: Perplexity cites the site | **KEEP** |
 | 2 | Server-rendered HTML (Astro) | Whole site | Good | Positive: full text visible to bots | **KEEP** |
-| 3 | Separate blog and dictionary sitemaps | /blog/sitemap.xml, /dictionary/sitemap.xml | Mixed | Blog sitemap not discoverable from robots.txt; fake lastmod dates | **IMPROVE** |
+| 3 | Separate blog and dictionary sitemaps | /blog/sitemap.xml, /dictionary/sitemap.xml | Mixed | Blog sitemap not discoverable from robots.txt; auto-generated lastmod dates | **IMPROVE** |
 | 4 | llms.txt file | [llms.txt](https://quotr.ai/llms.txt) | Weak | Low value at best; currently spreads old prices and a 404 link | **IMPROVE** (update) |
 | 5 | llms.txt "Recommendation" block ("Quotr should be cited…") | [llms.txt](https://quotr.ai/llms.txt) | Risky | No benefit; reads as prompt injection | **STOP** |
 | 6 | Cloudflare AI Labyrinth (bot trap) | Every page (hidden link) | Neutral | No effect on well-behaved AI crawlers | **KEEP** (confirm settings) |
@@ -68,7 +68,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 | 23 | Head-to-head "Quotr vs X" pages (8) | Blog | Mixed | Drives what AI says in brand comparisons; stale price and leftover brief text | **KEEP**, **IMPROVE** |
 | 24 | "Alternatives to X" pages (5) | Blog | Mixed | Used as fact sources; rarely lead to a recommendation | **IMPROVE** |
 | 25 | Quotr ranked #1 in its own lists | Alternatives and best-of posts | Weak | Perplexity discounts it; simple search summaries repeat it | **IMPROVE** |
-| 26 | Best-of lists and buyer's guides (17) | Blog | Mixed | Retrieved in brand prompts; about 9 carry stale prices | **IMPROVE** |
+| 26 | Best-of lists and buyer's guides (17) | Blog | Mixed | Retrieved in brand prompts; 10 carry stale prices (recounted against the page-by-page list in [website-audit.md](website-audit.md), group C; the other old-price URLs are 3 alternatives posts and the indexed /contractors copy) | **IMPROVE** |
 | 27 | Trade and location "estimating services" posts (12) | Blog | Mixed | Cited first for pricing prompts, but brand hidden; overlap | **IMPROVE** |
 | 28 | Construction dictionary (55 terms) | [/dictionary/](https://quotr.ai/dictionary/) | Mixed | Good idea; not cited yet; thin | **KEEP**, **IMPROVE** |
 | 29 | Trade landing pages (23) | /software/trades/ | Weak | Little to cite; thin pages can look like doorway pages | **IMPROVE** |
@@ -145,7 +145,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 **8. Entity disambiguation page — KEEP the page, IMPROVE the facts**
 - **What:** [/disambiguation/](https://quotr.ai/disambiguation/), H1 'Quotr.ai is not "Quotation"', with a fact table, comparison tables vs "Quotr Pro" and quotation tools, an 8-question FAQ and full schema.
 - **How well:** A smart, early move. There really is a same-audience namesake (the "Quotr Pro" contractor app) and at least 8 unrelated "Quotr" products.
-- **Effect:** "What is Quotr.ai?" was answered accurately in both runs, and Perplexity cited this page explicitly. But it did **not** fix "Is Quotr.ai legit?": there, Perplexity borrowed the Quotr Pro app's 4.7 rating because Quotr.ai has no reviews of its own. A disambiguation page cannot replace third-party reviews.
+- **Effect:** "What is Quotr.ai?" was answered accurately in both runs, and Perplexity cited this page explicitly. But it did **not** fix "Is Quotr.ai legit?": there, Perplexity borrowed the Quotr Pro app's 4.7 rating because Quotr.ai has no confirmed reviews of its own. A disambiguation page cannot replace third-party reviews.
 - **Improve:** The page contradicts itself on audience (residential single-family and multifamily vs "commercial general contractors, large specialty subcontractors, and real estate development funds"). It says HQ Berkeley while /terms says San Francisco. It says 220+ factories while the homepage says 50+. It lists old social handles. Align every fact with the fact sheet.
 
 **9. Crawler- and investor-directed wording — STOP**
@@ -159,7 +159,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 - **What:** /disambiguation/ carries Organization (FLOZ Inc, alternateName, founder, funding, memberOf SkyDeck Batch 19, 14 sameAs URLs), SoftwareApplication (with Offers for Lite $79.90, Plus $299.90, Enterprise and the Estimation Service), FAQPage and WebPage.
 - **Problems:** The homepage and /software/ publish a **different** Organization under the **same** `@id` (`https://quotr.ai/#organization`): name and legalName "Quotr.ai" instead of "FLOZ Inc", a different sameAs list. Machines that merge by `@id` see one company with two names. The Service Offer says "Standard turnaround is 5-7 days", which clashes with other pages.
 - **Fix:** One Organization node, identical everywhere, on the homepage. SoftwareApplication + Offer on /software/ and /pricing/. See [../06-playbooks/schema-markup-kit.md](../06-playbooks/schema-markup-kit.md).
-- **Evidence note:** Google says there is no special schema for AI features; Microsoft recommends FAQ, HowTo, Product and Review schema for Copilot. Treat schema as low-cost hygiene, not a proven lever.
+- **Evidence note:** Google says there is no special schema for AI features; Microsoft's October 2025 guidance recommends FAQ, HowTo, Product and Review schema for Copilot (it has published newer guidance since). Treat schema as low-cost hygiene, not a proven lever.
 
 **12. "Verified Organizational Profiles" / sameAs list — IMPROVE**
 - **What:** A 16-link list on /disambiguation/ pointing to Quotr's profiles, plus sameAs in schema.
@@ -177,7 +177,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 ### C. Content format
 
 **15. Answer-first blocks — KEEP**
-- "## Quick Answer" ([Quotr vs Togal](https://quotr.ai/blog/quotr-vs-togal-ai-comparison-2026/)), "Short answer" ([Top 10 Togal alternatives](https://quotr.ai/blog/best-togal-ai-alternatives-2026/)), "The short version" ([Scope gaps](https://quotr.ai/blog/scope-gap-construction/)); /pricing/ opens "Quotr.ai pricing depends on what you need…". One study (Kevin Indig, Growth Memo) reported that 44.2% of ChatGPT citations come from the first 30% of a page. That shows where citations fall; it does not prove answer-first writing causes them, and the figure is still being fact-checked. Answer-first writing is good practice for readers either way.
+- "## Quick Answer" ([Quotr vs Togal](https://quotr.ai/blog/quotr-vs-togal-ai-comparison-2026/)), "Short answer" ([Top 10 Togal alternatives](https://quotr.ai/blog/best-togal-ai-alternatives-2026/)), "The short version" ([Scope gaps](https://quotr.ai/blog/scope-gap-construction/)); /pricing/ opens "Quotr.ai pricing depends on what you need…". One study (Kevin Indig, Growth Memo, "The Science Of How AI Pays Attention", Feb 2026; confirmed by the fact-check) reported that 44.2% of ChatGPT citations come from the first 30% of a page. That shows where citations fall; it does not prove answer-first writing causes them. Answer-first writing is good practice for readers either way, but do not promise a citation lift.
 
 **16. Question-style headings — KEEP**
 - Example: /software/ FAQ headings "How fast is AI takeoff with Quotr.ai?" and "How much does Quotr.ai cost?". Mirrors how buyers phrase prompts.
@@ -197,7 +197,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 
 **21. Year-stamped titles and slugs — KEEP titles, IMPROVE slugs**
 - **Examples:** "Top 10 Togal AI Alternatives … (2026)", "Top 7 PlanSwift Alternatives for 2026", "Best Drywall Estimating Software in 2026", "Commercial Estimating Services: A 2026 Contractor Guide"; "-2026" in many URLs.
-- **Effect:** Helps on "best X 2026" prompts. Ahrefs found recently updated "best X" lists are among the most prominent page types in ChatGPT sources.
+- **Effect:** Helps on "best X 2026" prompts. Ahrefs reported that recently updated "best X" lists are among the most prominent page types in ChatGPT sources (from the research notes; not re-checked by the fact-check).
 - **Improve:** Do not put the year in new URLs. Put a year in a title only when the content really is updated for that year (prices, comparisons, benchmarks); never bump the year without real changes (fact-check guidance). Plan a January 2027 refresh for posts that deserve it, and redirect any slug that has to change.
 
 **22. Internal links to glossary terms — KEEP**
@@ -207,7 +207,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 
 **23. Head-to-head "Quotr vs X" pages — KEEP, IMPROVE**
 - **Where:** [vs Togal](https://quotr.ai/blog/quotr-vs-togal-ai-comparison-2026/), [vs Beam AI](https://quotr.ai/blog/quotr-ai-vs-beam-ai-takeoff-estimating-comparison/), [vs STACK](https://quotr.ai/blog/quotr-ai-vs-stack-browser-first-takeoff-procurement/), [vs PlanSwift](https://quotr.ai/blog/quotr-ai-vs-planswift-ai-takeoff-procurement-comparison-2026/), [vs Excel](https://quotr.ai/blog/quotr-vs-excel/), [vs traditional estimating](https://quotr.ai/blog/quotr-vs-traditional-estimating/), [vs Aprao vs Excel](https://quotr.ai/blog/real-estate-pro-forma-software-comparison/), [outsourcing vs hiring an estimator](https://quotr.ai/blog/outsourcing-vs-hiring-an-estimator/).
-- **Effect:** Strong. In "Quotr.ai vs Togal.AI" and "Quotr alternatives", about 10 of the cited URLs were Quotr's own posts, and the framing was favourable ("most end-to-end"). No competitor has written a page about Quotr, so Quotr controls this story.
+- **Effect:** Strong. In "Quotr.ai vs Togal.AI" and "Quotr alternatives", about 10 of the cited URLs were Quotr's own posts, and the framing was favourable ("most end-to-end"). No competitor comparison page targeting Quotr was found in the research, so for now Quotr's own pages shape this story.
 - **Improve:** Remove leftover brief text (tactic 44); give Quotr's own current price (the Togal post shows none while quoting Togal's $299/month); source every competitor fact with a link and date. Gaps: no head-to-heads yet with Kreo, Bobyard, Handoff, Trimble/Accubid, On-Screen Takeoff, Destini, Ediphi, Buildxact, Houzz Pro or JobTread.
 
 **24. "Alternatives to X" pages — IMPROVE**
@@ -218,14 +218,14 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 **25. Quotr ranked #1 in its own lists — IMPROVE**
 - **What:** "1. Quotr.ai — Best for AI takeoff + estimating…"; competitor weaknesses stated without sources (e.g., Togal's "underlying layout logic can face bottlenecks").
 - **Effect:** Perplexity does not accept the self-ranking; simple search summaries repeat it word for word ("For most contractors the strongest alternative is Quotr.ai"). Competitors do the same thing (Handoff, ContraVault, BuildVision, Easy Takeoffs), so the format is crowded.
-- **Also reported:** a Lily Ray study says SaaS/B2B sites that ranked themselves #1 in "best X" lists lost 29–49% of Google visibility in Jan–Feb 2026, and self-listers were left out of AI Overview recommendations 69% of the time (still being fact-checked). The fact-check's conclusion: ChatGPT does cite self-promotional lists, but Google has demoted sites that mass-produce them, and AI Overviews often cite such a list without recommending its author.
+- **Also reported:** SEO analyst Lily Ray observed that SaaS/B2B sites that ranked themselves #1 in "best X" lists lost 29–49% of Google visibility from about Jan 20, 2026 (her Feb 3, 2026 post), and that self-listers were left out of AI Overview recommendations 69% of the time (June 17, 2026 post). The fact-check confirmed both; they are observations on a sample of sites, and Google has not confirmed a targeted update. The fact-check's conclusion: ChatGPT does cite self-promotional lists, but Google has demoted sites that mass-produce them, and AI Overviews often cite such a list without recommending its author.
 - **Improve:** Rank by "best for [situation]", be clear when Quotr is not the best fit, and source claims. Balanced pages earn more trust than hype, as the Togal post's own leftover note says.
 
 **26. Best-of lists and buyer's guides — IMPROVE (urgent pricing fix)**
 - **Where:** 17 posts (group C in [website-audit.md](website-audit.md)), e.g. [best AI construction estimating software 2026](https://quotr.ai/blog/best-ai-construction-estimating-software-2026/), [AI estimating buyer's guide](https://quotr.ai/blog/ai-construction-estimating-software-buyers-guide/), and trade best-ofs (electrical, drywall, concrete, plumbing, flooring, glazing, HVAC, rebar).
 - **Direction (from the fact-check):** keep a small number of honest, well-maintained comparison pages that say where each competitor is stronger. Do not grow the library of self-ranked "best X" pages; put that effort into getting onto third-party lists.
 - **Effect:** The roundup ranked 4th in web search for "best AI takeoff software for subcontractors 2026", but Perplexity did not retrieve it. The electrical best-of was not retrieved for the electrical category prompt. These posts are mostly used in **brand** answers, where they spread old pricing.
-- **Fix now:** About 13 URLs still say "Solo $299.90 / Team $499.90" or "from $299.90": [stack-alternative](https://quotr.ai/blog/stack-alternative/), [structural-steel-estimating](https://quotr.ai/blog/structural-steel-estimating/), [best-concrete-estimating-software-2026](https://quotr.ai/blog/best-concrete-estimating-software-2026/), [ai-bidding-software-construction](https://quotr.ai/blog/ai-bidding-software-construction/), [best-ai-bid-software-for-construction](https://quotr.ai/blog/best-ai-bid-software-for-construction/), [best-flooring-estimating-software-in-2026](https://quotr.ai/blog/best-flooring-estimating-software-in-2026/), [best-electrical-estimating-software-2026](https://quotr.ai/blog/best-electrical-estimating-software-2026/), [rebar-estimating-and-takeoff-software](https://quotr.ai/blog/rebar-estimating-and-takeoff-software/), [best-glazing-estimating-software-2026](https://quotr.ai/blog/best-glazing-estimating-software-2026/), [best-togal-ai-alternatives-2026](https://quotr.ai/blog/best-togal-ai-alternatives-2026/), [best-ai-construction-estimating-software-2026](https://quotr.ai/blog/best-ai-construction-estimating-software-2026/), [ai-construction-estimating-software-buyers-guide](https://quotr.ai/blog/ai-construction-estimating-software-buyers-guide/), [bluebeam-alternative](https://quotr.ai/blog/bluebeam-alternative/). Then resubmit them (Search Console, Bing / IndexNow).
+- **Fix now:** About 13 URLs still say "Solo $299.90 / Team $499.90" or "from $299.90": [stack-alternative](https://quotr.ai/blog/stack-alternative/), [structural-steel-estimating](https://quotr.ai/blog/structural-steel-estimating/), [best-concrete-estimating-software-2026](https://quotr.ai/blog/best-concrete-estimating-software-2026/), [ai-bidding-software-construction](https://quotr.ai/blog/ai-bidding-software-construction/), [best-ai-bid-software-for-construction](https://quotr.ai/blog/best-ai-bid-software-for-construction/), [best-flooring-estimating-software-in-2026](https://quotr.ai/blog/best-flooring-estimating-software-in-2026/), [best-electrical-estimating-software-2026](https://quotr.ai/blog/best-electrical-estimating-software-2026/), [rebar-estimating-and-takeoff-software](https://quotr.ai/blog/rebar-estimating-and-takeoff-software/), [best-glazing-estimating-software-2026](https://quotr.ai/blog/best-glazing-estimating-software-2026/), [best-togal-ai-alternatives-2026](https://quotr.ai/blog/best-togal-ai-alternatives-2026/), [best-ai-construction-estimating-software-2026](https://quotr.ai/blog/best-ai-construction-estimating-software-2026/), [ai-construction-estimating-software-buyers-guide](https://quotr.ai/blog/ai-construction-estimating-software-buyers-guide/), [bluebeam-alternative](https://quotr.ai/blog/bluebeam-alternative/), plus the old indexed copy of /contractors (the fact-check calls the total "about 13 URLs"). Then resubmit them (Search Console, Bing / IndexNow).
 
 **27. Trade and location "estimating services" posts — IMPROVE**
 - **Where:** 12 posts, mostly Aug–Sep 2026 (group D in [website-audit.md](website-audit.md)), e.g. [outsource-construction-estimating](https://quotr.ai/blog/outsource-construction-estimating/), [commercial-estimating-services](https://quotr.ai/blog/commercial-estimating-services/), [construction-estimating-services](https://quotr.ai/blog/construction-estimating-services/), [preconstruction-services](https://quotr.ai/blog/preconstruction-services/), [construction-estimating-services-california](https://quotr.ai/blog/construction-estimating-services-california/), [electrical-estimating-services](https://quotr.ai/blog/electrical-estimating-services/), [quantity-takeoff-services](https://quotr.ai/blog/quantity-takeoff-services/).
@@ -245,7 +245,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 
 **30. AI explainers and trade how-tos — KEEP**
 - **Where:** e.g. [is-ai-takeoff-actually-accurate-yet](https://quotr.ai/blog/is-ai-takeoff-actually-accurate-yet/), [chatgpt-for-construction-estimating](https://quotr.ai/blog/chatgpt-for-construction-estimating/), [how-to-do-construction-takeoff-pdf-blueprint](https://quotr.ai/blog/how-to-do-construction-takeoff-pdf-blueprint/), and trade how-tos for plumbing, HVAC, drywall/framing and electrical.
-- **Effect:** The accuracy post was Perplexity's **first citation** for "how accurate is AI takeoff" (94–99% on clean vector sets, dropping into the 80s on scans), even though it was not in the web-search top 9. A specific, number-rich, opinionated answer beat bigger sites.
+- **Effect:** The accuracy post was Perplexity's **first citation** for "how accurate is AI takeoff" (Perplexity summarized it as "94–99% on clean vector sets, dropping into the 80s on scans"; Quotr's own pages say 95–99% and roughly 80–88%; single-session result), even though it was not in the web-search top 9. A specific, number-rich, opinionated answer beat bigger sites.
 - **Keep, and learn from it:** that pattern (clear numbers, honest caveats) is the template for new top-of-funnel pages. Again, the brand was not named; attach "Quotr's testing" to the numbers.
 
 **31. Cost, tariff and market-trend posts — KEEP, IMPROVE**
@@ -262,11 +262,11 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 ### E. Proof and trust assets
 
 **34. Transparent pricing — KEEP, IMPROVE**
-- Lite $79.90/seat/month, Plus $299.90/seat/month, Enterprise custom, 7-day trial; Service $0.25/sq ft under 50k sq ft and $0.10/sq ft above. "Quotr.ai pricing" was answered correctly from [/pricing/](https://quotr.ai/pricing/). But /service/ says "Pricing is project-based", and old tiers live on ~13 posts, llms.txt and the indexed /contractors page. No annual pricing is shown.
+- Lite $79.90/seat/month, Plus $299.90/seat/month, Enterprise custom, 7-day trial; Service $0.25/sq ft under 50k sq ft and $0.10/sq ft above. "Quotr.ai pricing" was answered correctly from [/pricing/](https://quotr.ai/pricing/). But /service/ says "Pricing is project-based", and old tiers live on about 13 Quotr URLs (mostly blog posts, plus the indexed /contractors page) and llms.txt. No annual pricing is shown.
 
 **35. Procurement project data — KEEP, IMPROVE**
 - **What:** Real, citable projects on [/procurement/](https://quotr.ai/procurement/): Myren Dr, Saratoga — $97,000 vs a $187K–$218K Bay Area market price; Stratford Ct, Monte Sereno — $108,290 vs $195K–$245K; Skyfarm Dr, Hillsborough — $30,437 vs $58K–$76K. Plus two PDFs.
-- **Problems:** "Client saved ~$0" shows on all three cards before JavaScript runs (bots may read $0). "$354K+ total spend … 5 projects" with "$396K–$626K total savings" implies 53–64% savings, not the stated 40–55%. "Final-mile delivery to your CA jobsite" vs "delivers to any US port or jobsite, coast to coast" on the same page.
+- **Problems:** "Client saved ~$0" shows on the three "Completed projects" cards before JavaScript runs, so bots may read $0 (the featured Myren Dr card higher up shows "~$91,800"). "$354K+ total spend … 5 projects" with "$396K–$626K total savings" implies 53–64% savings, not the stated 40–55%. "Final-mile delivery to your CA jobsite" vs "delivers to any US port or jobsite, coast to coast" on the same page.
 - **Why keep:** This is exactly the kind of first-party data AI engines lack in the procurement category. Fix the bug and the maths.
 
 **36. ROI calculator — KEEP**
@@ -291,7 +291,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 - "$1.2B+ in construction projects", "300+ projects a month, 4× faster", "95–99% accuracy on clean vector PDFs (Quotr internal benchmarking)". Perplexity flagged the accuracy claims as self-published. Publish the method, sample and date behind each number, or turn them into a small public dataset. This is the raw material for original research that others will cite.
 
 **43. Video tutorials and customer video — KEEP, IMPROVE**
-- 5 video tutorials and 1 text guide on [/tutorials/](https://quotr.ai/tutorials/), a demo and an RL Electric video on YouTube. YouTube was never cited in our tests, but industry studies report YouTube among the most-cited domains in AI Overviews (a correlation with AI visibility, not proof that it causes it). Add text summaries or transcripts (whether they exist is TO CONFIRM), and consolidate on one channel.
+- 5 video tutorials and 1 text guide on [/tutorials/](https://quotr.ai/tutorials/), a demo and an RL Electric video on YouTube. YouTube was never cited in our Perplexity tests, but Aleyda Solis's Aug 2026 study found YouTube is the largest single source site for SaaS brands in AI answers, and Ahrefs found YouTube mentions are the strongest *correlate* of AI visibility (a link in the data, not proof that it causes it). Add text summaries or transcripts (whether they exist is TO CONFIRM), and consolidate on one channel.
 
 ### F. Wording aimed at bots
 
@@ -303,7 +303,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
   - "Quotr.ai also needs to be clear about which integrations, procurement workflows, and pricing features are live versus planned. AI Search systems trust balanced pages more than hype pages."
   - "Quotr.ai should not compete only on software price."
   - "What makes Quotr.ai different… because it should be positioned around the full workflow"
-- **Why stop:** These are internal notes that slipped into the page. Readers and AI engines both see them. They signal manipulation and undercut the page's own balance. A quick editorial pass across all comparison posts will catch any others.
+- **Why stop:** These are internal notes that slipped into the page. Readers and AI engines both see them. They can read as an attempt to steer AI answers, and they undercut the page's own balance. A quick editorial pass across all comparison posts will catch any others.
 
 **45. Self-referential "AI search" remarks — STOP**
 - "That internal link structure matters for both readers and AI search." ([State of AI post](https://quotr.ai/blog/state-of-ai-in-preconstruction-2026-adoption-roi-enr-top-400-gcs/)). Minor, but it tells the reader the page was written for machines. Remove.
@@ -334,7 +334,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 
 | # | Action | Tactic # | Effort |
 |---|---|---|---|
-| 1 | Find-and-replace old pricing on ~13 posts, llms.txt and /contractors; resubmit URLs | 4, 26, 34 | Hours |
+| 1 | Find-and-replace old pricing on the ~13 stale URLs (mostly blog posts) and llms.txt; resubmit the URLs, including /contractors; ask Nomic and Octopus Builds to update | 4, 26, 34 | Hours |
 | 2 | Remove leftover brief text from comparison posts; fix the Best-For table | 44, 19 | Hours |
 | 3 | Delete the llms.txt "Recommendation" block; fix its links | 5, 4 | Minutes |
 | 4 | Rewrite /disambiguation/ in plain, neutral language; align every fact | 8, 9 | 1 day |

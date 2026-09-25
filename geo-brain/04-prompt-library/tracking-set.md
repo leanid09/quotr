@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md> (40 baseline prompts, 45 runs, method), <../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md> (independent re-runs; overrides the other notes), <../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (S prompts), <../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md> (§4 measurement), <../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md> (measurement corrections and 2026 developments: claims 3, 6, 7, 8, 21; M1, M2, M8); six new baseline runs (N1–N6) made for this page on 2026-09-25 with Perplexity Sonar (`mcp__Slashy__web_search`). Prompt IDs link to [prompt-library.md](prompt-library.md) and [../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md).
+**Sources:** [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (40 baseline prompts, 45 runs, method), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (independent re-runs; overrides the other notes), [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (S prompts), [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§4 measurement), [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (measurement corrections and 2026 developments: claims 3, 6, 7, 8, 21; M1, M2, M8); six new baseline runs (N1–N6) made for this page on 2026-09-25 with Perplexity Sonar (`mcp__Slashy__web_search`). Prompt IDs link to [prompt-library.md](prompt-library.md) and [../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md).
 
 ---
 
@@ -34,7 +34,9 @@
 | Quotr **share of voice**, unbranded core prompts | About 0.7% (STACK, PlanSwift, Buildxact about 6.5% each) |
 | Brand prompts with an **accuracy problem** | 5 of 8 (B3 Quotr Pro conflation, B4 and V2 stale price, B5 namesakes, B6 funding conflict) |
 
-Source: <../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>, §5, and N1–N6 runs on 2026-09-25.
+Source: [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), §5, and N1–N6 runs on 2026-09-25.
+
+**Two meanings of "cited" (read this before quoting the numbers).** "Cited **in the answer**" (4 of 32) means the answer text actually used a quotr.ai page as a footnoted source. "In the **source list**" (6 of 32) means a quotr.ai page appeared anywhere in the engine's list of sources, whether or not the answer used it. The audit report and the rest of this knowledge base quote the **6 of 32** figure ("a quotr.ai page appeared in the source list of 6 of 32 answers", the same count as reddit.com). Both numbers are correct; always say which one you mean.
 
 ---
 
@@ -86,7 +88,7 @@ Result words: **Absent** = not named, not cited · **Cited, not named** = a quot
 | T36 | B3 | D-014 | Is Quotr.ai legit? Quotr reviews | Decide | ALL | A | Named, but **uses the unrelated Quotr Pro app's 37 ratings / 4.7** as Quotr's; "not independently well-validated" (reproduced) | Watch for: Quotr Pro conflation; any G2/Capterra review count for Quotr.ai |
 | T37 | B4 | D-022 | Quotr.ai vs Togal.AI | Decide | SUB, GC | A | Named; positioning accurate; **stale "from $299.90"** (reproduced) | Watch for: correct entry price |
 | T38 | B5 | D-003 | Quotr app | Decide | ALL | B | Named **3rd of 4** "Quotr" apps | Watch for: Quotr.ai listed first |
-| T39 | B6 | D-004 | Quotr construction software funding founders | Decide | ALL | B | Named; **funding conflict** ($3.5M seed vs a "$190K" figure that appears only in Perplexity answers) (reproduced) | Watch for: the $190K figure; founder names |
+| T39 | B6 | D-004 | Quotr construction software funding founders | Decide | ALL | B | Named; **funding conflict** ($3.5M seed on Quotr's own page vs a "$190K" figure that appears only in Perplexity answers; the CEO's podcast page says "$5 million") (reproduced) | Watch for: the $190K figure; founder names |
 | T40 | B7 | D-023 | Quotr alternatives | Decide | ALL | B | Named ("the most end-to-end option"); about 10 of 18 citations are Quotr's own; retrieves G2 "Quartr" (a different company) | Watch for: share of third-party citations |
 
 ### 2b. Extension 13
@@ -116,8 +118,8 @@ Result words: **Absent** = not named, not cited · **Cited, not named** = a quot
 ### 3.1 When
 
 - **Once a month, in the first week** (for example, the first Tuesday–Thursday). Keep the same window each month.
-- Monthly is the recommended cadence: AI citations change a lot from month to month, and weekly checks mostly measure noise (<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>, §4; Profound, a tracking vendor, reports 40–60% of cited domains changing month to month for the same query).
-- One study found only about 10.6% of AI-cited URLs were still cited in all three waves 14 days apart, with 33% retention over 28 days (Digital Authority Partners; confirmed in <../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>, claim 37). So **never judge progress from one month**; look at three-month trends.
+- Monthly is the recommended cadence: AI citations change a lot from month to month, and weekly checks mostly measure noise ([geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>), §4; Profound, a tracking vendor, reports 40–60% of cited domains changing month to month for the same query).
+- One study found only about 10.6% of AI-cited URLs were still cited in all three waves 14 days apart, with 33% retention over 28 days (Digital Authority Partners; confirmed in [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>), claim 37). So **never judge progress from one month**; look at three-month trends.
 
 ### 3.2 Which engines
 
@@ -131,7 +133,11 @@ Result words: **Absent** = not named, not cited · **Cited, not named** = a quot
 | **Claude** (claude.ai, web search on) | Quarterly | A clean account or project, memory off | Smaller share of referrals today; cheap to add later |
 | **Copilot** (copilot.microsoft.com) | Quarterly | Logged out | Bing-based; pairs with Bing Webmaster Tools data |
 
-**Keep engines separate.** Report each engine on its own line. Do not blend them into one score: citations barely overlap across engines, and one study found ChatGPT and Gemini recommend a different #1 product in one of every three categories (headline only; <../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>, §6).
+**How the engines are counted.** Google AI Mode and Google AI Overviews are two different surfaces, but they are checked in the same signed-out Google session. So the table above lists five monthly surfaces, and the effort maths in 3.3 counts **four monthly engine runs** (ChatGPT, Google, Perplexity, Gemini), with the AI Overview recorded as a field ("AIO shown?") in each Google run.
+
+**Where this departs from the audit report.** The report recommends re-running the questions every month in all six tools (ChatGPT, Google AI Mode, Gemini, Perplexity, Claude and Copilot). This set deliberately runs **Claude and Copilot quarterly** to keep the monthly workload manageable, because both send a small share of referrals today. To stay close to the report: run the **Full** routine (all six tools) in **October 2026** as the first multi-engine baseline, then every quarter (January, April, July). If a paid tracking tool is bought, move Claude and Copilot to monthly at no extra manual cost.
+
+**Keep engines separate.** Report each engine on its own line. Do not blend them into one score: citations barely overlap across engines, and one study found ChatGPT and Gemini recommend a different #1 product in one of every three categories (headline only; [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), §6).
 
 ### 3.3 How many runs
 
@@ -141,11 +147,11 @@ Result words: **Absent** = not named, not cited · **Cited, not named** = a quot
 | **Standard** (recommended) | Tier A × 4 monthly engines × 2 runs; Tier B × 4 monthly engines × 1 run | 184 + 120 = 304 | 10–15 hours manually, so use a tracking tool |
 | **Full** (quarterly) | Standard + Claude and Copilot (all 53 × 1 run each) | 304 + 106 = 410 | Tool only |
 
-Why two runs for Tier A: the September tests showed the **list of sources stays about the same from run to run, but the order of brands changes**, so position is noisy (<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>, §5). 2026 research papers also argue for repeated sampling rather than one-off checks (verification_geo_evidence.md, M8). Tools such as Otterly.AI, Peec AI, Semrush's AI toolkit, Ahrefs Brand Radar or Profound can automate runs; prices are in [../07-measurement/tools-comparison.md](../07-measurement/tools-comparison.md).
+Why two runs for Tier A: the September tests showed the **list of sources stays about the same from run to run, but the order of brands changes**, so position is noisy ([quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), §5). 2026 research papers also argue for repeated sampling rather than one-off checks (verification_geo_evidence.md, M8). Tools such as Otterly.AI, Peec AI, Semrush's AI toolkit, Ahrefs Brand Radar or Profound can automate runs; prices are in [../07-measurement/tools-comparison.md](../07-measurement/tools-comparison.md).
 
 ### 3.4 Session rules (so months are comparable)
 
-1. Use logged-out or clean sessions. Personalisation (history, memory, location) can change which brands are recommended (<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>, §6).
+1. Use logged-out or clean sessions. Personalisation (history, memory, location) can change which brands are recommended ([quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), §6).
 2. Run from a US location. Write the location down.
 3. Paste the prompt exactly. Do not ask follow-up questions in the same chat (except the "search the web" nudge for ChatGPT, which you must note).
 4. Start a new chat for every prompt and every run.
@@ -238,13 +244,18 @@ date,engine_mode,model_shown,session,t_id,run,aio_shown,quotr_named,position,quo
 
 ### 4.2 Monthly summary (one row per engine)
 
+The set has 45 unbranded prompts (the core 32 plus the extension 13). Report the core 32 separately as well, so rates stay comparable with the September baseline.
+
 ```
 | Month | Engine | Unbranded prompts run | Mention rate | Citation rate | Retrieval rate | Cited-not-named | SOV | Avg position | Brand accuracy errors | New 3rd-party pages naming Quotr | Change vs last month |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10 | Perplexity – Sonar API | 44 | | | | | | | | | |
-| 2026-10 | ChatGPT – search | 44 | | | | | | | | | first month |
-| 2026-10 | Google AI Mode | 44 | | | | | | | | | first month |
-| 2026-10 | Gemini | 44 | | | | | | | | | first month |
+| 2026-10 | Perplexity – Sonar API | 45 | | | | | | | | | |
+| 2026-10 | ChatGPT – search | 45 | | | | | | | | | first month |
+| 2026-10 | Google AI Mode | 45 | | | | | | | | | first month |
+| 2026-10 | Google AI Overviews (where one appears) | 45 | | | | | | | | | first month |
+| 2026-10 | Gemini | 45 | | | | | | | | | first month |
+| 2026-10 | Claude (quarterly; Full run) | 45 | | | | | | | | | first month |
+| 2026-10 | Copilot (quarterly; Full run) | 45 | | | | | | | | | first month |
 ```
 
 ### 4.3 Prompt-level trend (for the Tier A prompts)

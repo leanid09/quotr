@@ -17,6 +17,9 @@
 - **Rendering:** whether the page text is in the HTML the server sends, or only appears after JavaScript runs. Many AI crawlers do not run JavaScript.
 - **Schema (structured data / JSON-LD):** hidden code that labels facts for machines (company name, prices, FAQs, author).
 - **Funnel stage:** **TOFU** = top of funnel (learning about a problem), **MOFU** = middle (comparing options), **BOFU** = bottom (pricing, proof, ready to buy).
+- **Canonical tag:** a line in a page's code that says "the main version of this page lives at URL X", so search engines do not treat copies as duplicates.
+- **301 redirect:** a permanent forward from an old URL to a new one. **noindex:** a tag that tells search engines not to list a page.
+- **Index / indexed:** the stored copy of a page that a search engine keeps. It can lag behind the live page, which is why old prices still show up in search and AI answers.
 
 ---
 
@@ -25,11 +28,11 @@
 1. **AI crawlers are allowed in.** robots.txt blocks no one, and Perplexity cites many quotr.ai pages. Good.
 2. **Content is server-rendered** (Astro), so bots see full text. Good.
 3. **The 96-post blog sitemap is hidden from crawlers:** it is not listed in robots.txt or in the main sitemap.
-4. **Main-sitemap dates are meaningless:** every URL shows lastmod = the day it was fetched.
+4. **Main-sitemap dates carry no signal:** every URL shows lastmod = the day it was fetched.
 5. **llms.txt is stale and slightly risky:** old prices, a 404 link, wrong host, and a "Quotr should be cited" instruction.
-6. **Old prices are everywhere:** about 13 blog posts, the indexed /contractors page and llms.txt still show "$299.90 Solo / $499.90 Team". AI engines repeat them.
+6. **Old prices are everywhere:** about 13 Quotr URLs (mostly blog posts, plus the old indexed copy of /contractors) and llms.txt still show "$299.90 Solo / $499.90 Team" or "from $299.90", against a live entry price of $79.90. AI engines repeat them.
 7. **A staging copy (test.quotr.io) and old quotr.io pages** are still in search indexes; Perplexity cites the staging page.
-8. **Schema is inverted and conflicting:** the full company graph sits only on /disambiguation/; the homepage uses the same ID with a different name and legal name.
+8. **Schema is in the wrong place and conflicting:** the full company graph sits only on /disambiguation/; the homepage uses the same ID with a different name and legal name.
 9. **Blog formatting is strong** (answer-first blocks, question headings, tables, FAQs), but **authorship is weak** ("By quotr.ai"; schema author is a "Person" called "quotr.ai").
 10. **Large library, uneven depth:** 96 posts, 55 glossary terms, 23 trade pages, but thin trade pages, no original data, no templates or trade calculators.
 11. **Core facts disagree across pages:** price, turnaround, factory count, savings, HQ, founders, audience, legal name and social handles.
@@ -44,14 +47,15 @@
 | robots.txt, llms.txt, llms-full.txt, all 3 sitemaps | Yes | Read directly on 2026-09-25 by the researcher |
 | Full list of 96 blog posts with lastmod dates | Yes | Blog sitemap re-read for this page on 2026-09-25 |
 | Raw HTML and schema: homepage, /software/, /disambiguation/, Quotr vs Togal post | Yes | W3C Nu HTML Checker "show source" view |
-| Schema on /pricing/, /faq/, /service/, /procurement/, dictionary terms, trade pages, case studies, tutorials | **No** | Scraper rate limit |
+| Schema on /pricing/ | Yes (fact-check) | Only the site-wide Organization block; no Offer, SoftwareApplication or FAQPage |
+| Schema on /faq/, /service/, /procurement/, dictionary terms, trade pages, case studies, tutorials | **No** | Scraper rate limit |
 | Page content of 15 sampled pages | Yes | Scraped (rendered to markdown) |
 | What GPTBot, ClaudeBot, PerplexityBot actually receive (status codes, Cloudflare challenges) | **No** | Needs server or Cloudflare logs |
 | Cloudflare "Block AI bots" / managed robots setting | **No** | Not visible from outside |
 | /blog/rss.xml contents | **No** | Returned a Cloudflare 502 |
-| Whether /contractors/ and /developers/ have canonical tags pointing to /software/ and /service/ | **No** | Only 4 pages' canonicals checked |
+| Whether /contractors/ and /developers/ have canonical tags pointing to /software/ and /service/ | **Partly** | /contractors/ **does** carry `rel="canonical"` → https://quotr.ai/software (fact-check, W3C source view). /developers/ not checked |
 | Word counts per post; all bylines | Partly | 12 newest bylines seen; about 6 posts opened |
-| Stale pricing on blog posts | Partly | Seen through search-index text and AI answers for ~13 URLs, not by opening each page |
+| Stale pricing on blog posts | Partly | Read directly on 2 posts (stack-alternative, best-togal-ai-alternatives-2026); seen through search-index text and AI answers for the rest of the ~13 URLs |
 | Whether quotr.io redirects to quotr.ai | **No** | Fetch policy and rate limit |
 
 ---
@@ -118,7 +122,7 @@ Bot descriptions come from [geo_ai_citation_signals_2026.md](<../../research_not
 | Residential focus | "Quotr supports residential construction projects including single-family homes and multi-family housing" | /disambiguation/ also says "commercial GCs … development funds" |
 | **/llms-full.txt** | Returns a 404 page | — |
 
-**How much llms.txt matters:** very little, on current evidence. Google's May 2026 guide says AI text files are not needed (confirmed by the fact-check); SE Ranking, an SEO vendor, reported no link between having llms.txt and being cited across 300K domains (not yet independently re-checked); server-log studies say AI crawlers rarely request it. Common Crawl's study of 584,107 llms.txt files noted "a few files even contain prompt injections". Keep the file only if it matches the site exactly. Sources: [geo_ai_citation_signals_2026.md §3](<../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>); [verification notes, gap 7](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>).
+**How much llms.txt matters:** very little, on current evidence. Google's May 2026 guide says AI text files are not needed (confirmed by the fact-check); SE Ranking, an SEO vendor, reported no link between having llms.txt and being cited across 300K domains (not yet independently re-checked); server-log studies say AI crawlers rarely request it. Common Crawl's study of 584,107 llms.txt files noted "a few files even contain prompt injections". Keep the file only if it matches the site exactly. Sources: [geo_ai_citation_signals_2026.md §3](<../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>); [verification notes, Gaps filled #9](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>).
 
 ---
 
@@ -126,7 +130,7 @@ Bot descriptions come from [geo_ai_citation_signals_2026.md](<../../research_not
 
 | Sitemap | Listed in robots.txt? | What it contains | lastmod quality |
 |---|---|---|---|
-| [/sitemap.xml](https://quotr.ai/sitemap.xml) (flat list, not an index) | Yes | Homepage, /pricing/, /service/, /software/, 23 /software/trades/* pages, /roi-calculator/, /faq/, /contact-us/, /book-demo/, /about-us/, /privacy/, /terms/, /tutorials/ + 6 tutorials, /procurement/, /case-studies/ + 4 case studies, /dictionary/ + 55 terms | **Useless:** every URL has lastmod 2026-09-25 (the fetch date) and changefreq "weekly" |
+| [/sitemap.xml](https://quotr.ai/sitemap.xml) (flat list, not an index) | Yes | Homepage, /pricing/, /service/, /software/, 23 /software/trades/* pages, /roi-calculator/, /faq/, /contact-us/, /book-demo/, /about-us/, /privacy/, /terms/, /tutorials/ + 6 tutorials, /procurement/, /case-studies/ + 4 case studies, /dictionary/ + 55 terms | **No signal:** every URL has lastmod 2026-09-25 (the fetch date) and changefreq "weekly" |
 | [/blog/sitemap.xml](https://quotr.ai/blog/sitemap.xml) | **No** | 8 blog hub/category URLs + 96 post URLs | Varies per post, but sometimes disagrees with the page |
 | [/dictionary/sitemap.xml](https://quotr.ai/dictionary/sitemap.xml) | Yes | Dictionary index + 55 terms | Real dates, 2026-06-16 to 2026-07-15 |
 
@@ -140,7 +144,7 @@ Bot descriptions come from [geo_ai_citation_signals_2026.md](<../../research_not
 | [scope-gap-construction](https://quotr.ai/blog/scope-gap-construction/) | 2026-09-10 | "Last updated September 24, 2026" |
 | [quotr-vs-togal-ai-comparison-2026](https://quotr.ai/blog/quotr-vs-togal-ai-comparison-2026/) | — | Schema datePublished = dateModified = 2026-05-12 |
 
-**Why it matters:** crawlers that find content through robots.txt sitemaps (Bing, which feeds Copilot and partly ChatGPT, and several AI crawlers) only reach blog posts through links. Fake or mismatched dates weaken freshness signals. **Fix:** add `Sitemap: https://quotr.ai/blog/sitemap.xml` to robots.txt (or build a sitemap index), and use real lastmod dates that match the page and the schema.
+**Why it matters:** crawlers that find content through robots.txt sitemaps (Bing, which feeds Copilot and partly ChatGPT, and several AI crawlers) only reach blog posts through links. Auto-generated or mismatched dates weaken freshness signals. **Fix:** add `Sitemap: https://quotr.ai/blog/sitemap.xml` to robots.txt (or build a sitemap index), and use real lastmod dates that match the page and the schema.
 
 ---
 
@@ -152,7 +156,7 @@ Bot descriptions come from [geo_ai_citation_signals_2026.md](<../../research_not
 | Blog post structure (Quotr vs Togal) | 1 H1, 23 H2s, 18 H3s, 5 `<table>` elements in raw HTML | [W3C source, blog post](https://validator.w3.org/nu/?doc=https%3A%2F%2Fquotr.ai%2Fblog%2Fquotr-vs-togal-ai-comparison-2026%2F&showsource=yes) |
 | /disambiguation/ | Separate hand-written static HTML page (no Astro assets) | [W3C source, disambiguation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fquotr.ai%2Fdisambiguation%2F&showsource=yes) |
 | Blog head tags | Canonical, meta description, OpenGraph, Twitter tags, `<html lang="en">`, RSS link (/blog/rss.xml) | W3C source, blog post |
-| JavaScript-dependent content | /procurement/ shows "Client saved ~$0" on all three project cards before the script runs; /blog/ index shows only "Showing 12 of 96 posts … Loading more posts…" | [/procurement/](https://quotr.ai/procurement/); [/blog/](https://quotr.ai/blog/) |
+| JavaScript-dependent content | /procurement/ shows "Client saved ~$0" on the three "Completed projects" cards before the script runs (the featured Myren Dr card higher up shows "~$91,800"); /blog/ index shows only "Showing 12 of 96 posts … Loading more posts…" | [/procurement/](https://quotr.ai/procurement/); [/blog/](https://quotr.ai/blog/) |
 | Repeated text | /software/ and /contractors/ repeat the 23-trade grid three times in the delivered text (a scrolling carousel) | [/software/](https://quotr.ai/software/) |
 | Typos | /software/: "Built for how contractors actually win x2 work."; a COO post teaser: "he true cost…" | [/software/](https://quotr.ai/software/); [/blog/](https://quotr.ai/blog/) |
 
@@ -167,14 +171,14 @@ Bot descriptions come from [geo_ai_citation_signals_2026.md](<../../research_not
 | https://quotr.ai/blog/plug-number-estimating/ | 404 (linked from the Scope gaps post) | [scope-gap-construction](https://quotr.ai/blog/scope-gap-construction/) |
 | 404 page "Back home" button | Links to /dashboard/project (the app), not the homepage | onsite notes §1 |
 | https://quotr.ai/blog/rss.xml | Cloudflare 502 when checked | onsite notes §1 |
-| https://quotr.ai/contractors/ | Live page shows the same content and title as /software/ ("Quotr.ai Software — AI Takeoff and Estimating"). **But the search index still holds an older, different version:** "Quotr.ai for Contractors — Estimating software for subs" with old Solo/Team pricing. Not in the sitemap; linked from llms.txt. | onsite notes §5; [verification, contradiction 10](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) |
-| https://quotr.ai/developers/ | Live page matches /service/ ("Quotr.ai Service — AI Estimating and Pro Forma Support"); index still holds "Quotr.ai for Developers - Build smarter, deliver faster". Not in the sitemap. | same |
+| https://quotr.ai/contractors/ | Live page shows the same content and title as /software/ ("Quotr.ai Software — AI Takeoff and Estimating") and correctly carries `rel="canonical"` → /software, so it is a managed alias, not a harmful duplicate. **The real problem: the search index still holds an older, different version:** "Quotr.ai for Contractors — Estimating software for subs" with old Solo/Team pricing. Not in the sitemap; llms.txt still links www.quotr.ai/contractors/. | onsite notes §5; [verification, claim 13 and contradiction 11](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) |
+| https://quotr.ai/developers/ | Live page matches /service/ ("Quotr.ai Service — AI Estimating and Pro Forma Support"); index still holds "Quotr.ai for Developers - Build smarter, deliver faster". Not in the sitemap. Canonical tag not checked. | same |
 | https://test.quotr.io/disambiguation/ | Staging copy, now behind a Cloudflare Access login, but still **cited by Perplexity** (twice, for "Quotr.ai pricing") | [visibility notes §4](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>); verification re-run B2 |
 | https://quotr.io/pricing/ | Old-domain page still in the search index ("Quotr – AI Construction Estimation Software") | verification, gap 3 |
-| https://firetips.quotr.io/ | Old subdomain still in the search index | verification, gap 3 |
+| https://firetips.quotr.io/ | Old subdomain still in the search index. It hosts FireTips, Quotr's free LA fire-rebuild app (launched Feb 2025 per an EIN Presswire release); worth moving to, or linking from, quotr.ai | verification, gap 3; [entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) |
 | public.quotr.io | Still serves the logo and og-cover images referenced in schema | onsite notes §5 |
 
-**Fix direction:** 301-redirect old quotr.io URLs to their quotr.ai equivalents; make sure test.quotr.io returns `noindex` or stays fully blocked; either redirect /contractors/ and /developers/ or give them real, distinct persona content; repair the 404 links. Whether /contractors/ and /developers/ are duplicates, redirects or rewrites is **TO CONFIRM with Quotr**.
+**Fix direction:** 301-redirect old quotr.io URLs to their quotr.ai equivalents; make sure test.quotr.io returns `noindex` or stays fully blocked; keep the /contractors/ canonical (or switch to a 301), check that /developers/ has the same set-up, and resubmit both URLs so search engines drop the old copies; repair the 404 links. Whether the team wants /contractors/ and /developers/ to become real, distinct persona pages is **TO CONFIRM with Quotr**.
 
 ---
 
@@ -195,11 +199,11 @@ Product, HowTo, BreadcrumbList, WebSite / SearchAction, Review / AggregateRating
 
 ### 6.3 Not checked (TO CONFIRM)
 
-/pricing/, /faq/, /service/, /procurement/, dictionary terms, trade pages, case studies, tutorials. Also whether posts with named authors (e.g., Junzhe Shi) still output author "quotr.ai" in schema.
+/faq/, /service/, /procurement/, dictionary terms, trade pages, case studies, tutorials. Also whether posts with named authors (e.g., Junzhe Shi) still output author "quotr.ai" in schema. (/pricing/ was checked by the fact-check: it has only the site-wide Organization block, with no Offer, SoftwareApplication or FAQPage.)
 
 ### 6.4 How much schema matters
 
-Google says there is no special schema for its AI features (May 2026 guide); Microsoft recommends FAQ, HowTo, Product and Review schema for Copilot. An SSRN study found schema acts as an amplifier, not a driver. Treat it as cheap hygiene: make it **consistent** first, then complete. Templates: [../06-playbooks/schema-markup-kit.md](../06-playbooks/schema-markup-kit.md).
+Google says there is no special schema for its AI features (May 2026 guide). Microsoft's October 2025 guidance recommends FAQ, HowTo, Product and Review schema for Copilot (Microsoft has published newer guidance since, not yet reviewed). One SSRN paper by a GEO-agency author found schema was linked to *fewer* AI citations in raw data, blamed that on a confound, and concluded schema is "an amplifier, not a driver" (not re-checked). Treat it as cheap hygiene: make it **consistent** first, then complete. Templates: [../06-playbooks/schema-markup-kit.md](../06-playbooks/schema-markup-kit.md).
 
 ---
 
@@ -212,7 +216,7 @@ Google says there is no special schema for its AI features (May 2026 guide); Mic
 | 3 | [/pricing/](https://quotr.ai/pricing/) | Yes ("Quotr.ai pricing depends on what you need…") | Plan list | — | Lite $79.90, Plus $299.90, Enterprise custom; Service $0.25 / $0.10 per sq ft. No FAQ, no annual prices. |
 | 4 | [/faq/](https://quotr.ai/faq/) | Yes (short answers) | 6 general questions | — | Integration answer names no tools; links to product FAQs |
 | 5 | [/about-us/](https://quotr.ai/about-us/) | No (founder story) | — | — | Names Hanyang Liu (CEO) and Junzhe Shi (CTO) with LinkedIn links. No founding year, HQ, funding, team size or press. |
-| 6 | [/disambiguation/](https://quotr.ai/disambiguation/) | Yes (H1 'Quotr.ai is not "Quotation"') | Entity fact table; comparison tables; 8-question FAQ | — | Full schema; over-optimized wording; contradicts itself on audience |
+| 6 | [/disambiguation/](https://quotr.ai/disambiguation/) | Yes (H1 'Quotr.ai is not "Quotation"') | Entity fact table; comparison tables; 8-question FAQ | — | Full schema; wording aimed at bots and investors; contradicts itself on audience |
 | 7 | [Blog: Quotr vs Togal](https://quotr.ai/blog/quotr-vs-togal-ai-comparison-2026/) (May 12, 2026; "16 min read") | Yes ("## Quick Answer") | Glance, feature, workflow, pricing tables; "Honest Limitations"; 10-question FAQ | "By quotr.ai" | Leftover brief text; Best-For table contradicts conclusion; quotes Togal's $299/month with no source and gives no Quotr price |
 | 8 | [Blog: Top 10 Togal alternatives](https://quotr.ai/blog/best-togal-ai-alternatives-2026/) (June 16, 2026; updated Aug 4, 2026) | Yes ("Short answer") | Buying checklist; 10 ranked tools (Quotr #1); comparison table with pricing disclaimer; FAQ | "By quotr.ai" | Unlinked third-party figures (STACK "4.5/5 across 1,300+ reviews", Bobyard "$35M Series A … led by 8VC", Kreo "~$35/month"); "About Quotr.ai" boilerplate; old "from $299.90" price; "50+ verified factories" |
 | 9 | [Blog: Scope gaps](https://quotr.ai/blog/scope-gap-construction/) (Sep 10, 2026) | Yes ("The short version") | Worked $2M bid example; 5-question FAQ; links to dictionary terms | **"By Junzhe Shi, PhD \| CTO @Quotr.ai"** | Unsourced stats (change orders "8–14% of contract value", "80% … trace to missing or poor information", "$177 billion a year", rework "around 5%"); broken link |
@@ -221,9 +225,9 @@ Google says there is no special schema for its AI features (May 2026 guide); Mic
 | 12 | [Trade page: Drywall](https://quotr.ai/software/trades/drywall/) | One sentence | Two blog links, then CTAs | — | About 25 unique words; no FAQ, specifics or examples |
 | 13 | [Case study: RL Electric](https://quotr.ai/case-studies/rl-electric/) | No | Narrative sections; YouTube video | — | "Measurable outcomes" are qualitative only ("AI-assisted", "Reduced", "Dozens"); the "20 hours … 1–2 hours" figure appears only in a homepage testimonial |
 | 14 | [/service/](https://quotr.ai/service/) | Partly | 6-step process; 9-document sample library; 9-question FAQ | — | "currently spanning 26 sub-trades"; pricing "project-based" (per-sq-ft rates not shown here) |
-| 15 | [/procurement/](https://quotr.ai/procurement/) | Partly | 3 project cards with addresses, prices and Bay Area market comparisons; 6-question FAQ; 2 PDFs | — | "Client saved ~$0" bug; totals don't reconcile; delivery scope contradicts itself |
+| 15 | [/procurement/](https://quotr.ai/procurement/) | Partly | 3 project cards with addresses, prices and Bay Area market comparisons; 6-question FAQ; 2 PDFs | — | "Client saved ~$0" bug on the three "Completed projects" cards; totals don't reconcile; delivery scope contradicts itself |
 
-**Bylines on the 12 newest posts:** "quotr.ai" (5), "Junzhe Shi, PhD | CTO @Quotr.ai" (4), "Jati Ibloguen (Growth @Quotr.ai)" (1), "Tianyi Zong | COO @quotr.ai" (1). No author bio or author archive pages were found.
+**Bylines on the 12 newest posts** (11 were recorded in the notes): "quotr.ai" (5), "Junzhe Shi, PhD | CTO @Quotr.ai" (4), "Jati Ibloguen (Growth @Quotr.ai)" (1), "Tianyi Zong | COO @quotr.ai" (1). No author bio or author archive pages were found.
 
 **Overall:** formatting is strong; credibility (named experts, sources for numbers, quantified proof) is the weak point.
 
@@ -516,7 +520,7 @@ Funnel: TOFU. All published 2026-06-16 to 2026-07-15, definition-first, about 20
 | Cluster | Approx. posts | Funnel | Strengths | Gaps |
 |---|---|---|---|---|
 | Comparisons and alternatives (A + B) | 13 | MOFU | Dense; drives brand-comparison answers | Two overlapping Togal posts; no pages vs Kreo, Bobyard, Handoff, Trimble/Accubid, On-Screen Takeoff, Destini, Ediphi, Buildxact, Houzz Pro, JobTread |
-| Best-of, buyer's and software guides (C) | 17 | MOFU | Covers main trades | About 9 carry old prices; self-ranked #1 |
+| Best-of, buyer's and software guides (C) | 17 | MOFU | Covers main trades | 10 carry old prices; self-ranked #1 |
 | Estimating services (D) | 12 | BOFU | Cited first for service-pricing prompts | Overlapping posts; brand not named in answers; turnaround conflicts |
 | Trade how-tos and fundamentals (E) | 16 | TOFU | Electrical, HVAC, plumbing, drywall covered | Roofing, framing and 13 other trades have nothing |
 | AI explainers (F) | 11 | TOFU | Accuracy post is a proven citation winner | Few own numbers |
@@ -582,7 +586,7 @@ This is the most urgent GEO issue on the site: AI engines take facts from whiche
 | Fact | Versions found | Where |
 |---|---|---|
 | **Software pricing** | (1) Lite $79.90 / Plus $299.90 per seat per month / Enterprise custom (current, announced Sep 14, 2026) | [/pricing/](https://quotr.ai/pricing/), [/software/](https://quotr.ai/software/), [/disambiguation/](https://quotr.ai/disambiguation/) |
-| | (2) "Solo $299.90 / Team (2–6 seats) $499.90 / Enterprise (7+)" | About 9 blog posts by indexed text + indexed /contractors (list in [geo-tactics-already-used.md](geo-tactics-already-used.md), tactic 26) |
+| | (2) "Solo $299.90 / Team (2–6 seats) $499.90 / Enterprise (7+)" | At least 9 blog posts by indexed text (1 read directly) + indexed /contractors (full list of about 13 URLs in [geo-tactics-already-used.md](geo-tactics-already-used.md), tactic 26) |
 | | (3) "1 User Plan $299.90 (as low as $249/seat annually) / 2–10 Users $499.90 (as low as $41/seat annually)" | [llms.txt](https://quotr.ai/llms.txt) |
 | | (4) "Software from $299.90/month" / "starts at $299.90/month" | [best-togal-ai-alternatives-2026](https://quotr.ai/blog/best-togal-ai-alternatives-2026/) and 3 other posts cited by Perplexity |
 | | (5) No Quotr price at all, while quoting Togal's $299/month | [Quotr vs Togal](https://quotr.ai/blog/quotr-vs-togal-ai-comparison-2026/) |
@@ -610,7 +614,7 @@ This is the most urgent GEO issue on the site: AI engines take facts from whiche
 ## 12. Open questions (TO CONFIRM with Quotr)
 
 - Cloudflare: is "Block AI bots" off? Is AI Labyrinth intentional? What do logs show for GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot?
-- Canonical tags on /contractors/ and /developers/; should they redirect?
+- /developers/ canonical tag (the /contractors/ canonical is confirmed); should either page become a 301 redirect or a real persona page?
 - Does quotr.io redirect to quotr.ai? Is test.quotr.io set to noindex?
 - Schema on unchecked page types; author schema on named-author posts.
 - Bylines and word counts for all 96 posts; original publish dates of the 6 bulk-dated posts.

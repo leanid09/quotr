@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md> (§1 video, §3 YouTube mentions, §7), <../../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md> (§2, §4 YouTube), <../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md> (claims #13, #18; H7; M10), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md> (§3 YouTube, podcasts), <../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (§2 Togal and Beam AI video and event programmes), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md> (§2 tutorials); [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) (§2b social profiles); FTC [Endorsement Guides Q&A](https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking) (checked via WebSearch, 2026-09-25).
+**Sources:** [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1 video, §3 YouTube mentions, §7), [geo_ai_citation_signals_2026.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) (§2, §4 YouTube), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #13, #18; H7; M10), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (§3 YouTube, podcasts), [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§2 Togal and Beam AI video and event programmes), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§2 tutorials); [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) (§2b social profiles); FTC [Endorsement Guides Q&A](https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking) (checked via WebSearch, 2026-09-25).
 
 ---
 
@@ -16,7 +16,7 @@
 | YouTube is the most-cited domain in Google AI Overviews (Ahrefs, early 2026); reported at ~23% (Surfer) to ~30% (BrightEdge) of AIO citations | `geo_ai_citation_signals_2026.md` §2, §4; `geo_content_playbook_b2b.md` §1 | Secondary summaries of vendor studies |
 | YouTube was the **largest source domain** for SaaS in Aleyda Solis's August 2026 study; social/community/video made up 45.7% of top cited SaaS sources | `verification_geo_evidence.md` claim #18 | Cross-vertical sample of 15 brands |
 | Video was ~1% of cited sources in ChatGPT vs ~23% in Google AI Mode (SaaS subverticals) | `geo_content_playbook_b2b.md` §1 (Aleyda Solis) | Not re-checked in the verification pass |
-| In Quotr's own Perplexity tests, YouTube was rarely cited | [../../03-market/citation-sources-map.md](../../03-market/citation-sources-map.md) | Only Perplexity was tested |
+| In Quotr's own Perplexity tests, YouTube was **never** cited in any of the 45 runs | [../../03-market/citation-sources-map.md](../../03-market/citation-sources-map.md); `quotr_ai_visibility_tests.md` §5 | Only Perplexity was tested; ChatGPT and Google's AI features were not |
 | Vendor trackers (July–Sept 2026) see citations shifting toward YouTube, LinkedIn and Reddit | `verification_geo_evidence.md` M10 | Vendor data |
 
 **Read-out:** video is most likely to pay off in **Google AI Overviews and AI Mode**, and as a brand-mention signal across engines. It also sells: contractors want to see AI takeoff work on real drawings before they trust it.
@@ -36,7 +36,7 @@
 | /tutorials/ | 5 video tutorials (Takeoff Editor Overview, How to Manage Your Database, How to Export a Proposal, How to Manage Bids, Quotr.ai Software Demo) + 1 text guide | Onsite audit §2 |
 | Subscribers, views, upload cadence | Not retrievable | Offsite notes §3 Gaps |
 
-**What competitors do:** Togal runs 2026 webinars on YouTube, trade-specific sessions (e.g., a flooring takeoff webinar that was cited for a flooring-takeoff prompt), weekly "#TogalTuesdays" sessions and podcast guest spots; Beam AI demoed "instant AI HVAC takeoffs" at AHR Expo 2026 with a syndicated press release (competitor benchmark §2).
+**What competitors do:** Togal runs 2026 webinars on YouTube, trade-specific sessions (e.g., a flooring takeoff webinar that surfaced in search for a flooring-takeoff question; prompt library L-059), weekly "#TogalTuesdays" sessions and podcast guest spots; Beam AI demoed "instant AI HVAC takeoffs" at AHR Expo 2026 with a syndicated press release (competitor benchmark §2).
 
 ---
 
@@ -76,7 +76,7 @@ Brand mentions on **other** channels count too (the Ahrefs correlation is about 
 |---|---|---|
 | **Construction and estimating creators** | Offer a real plan set, a login and a founder interview; let them test and say what they think | Research relevant channels first (estimating educators, trade YouTubers); no scripted praise |
 | **Paid creator content** | Only with clear disclosure: FTC Endorsement Guides require disclosing material connections (payment, free product); creators should also use YouTube's paid-promotion disclosure setting | See [review-generation.md](review-generation.md) §6a |
-| **Podcasts with video** | Pitch founders to construction-tech and precon podcasts (e.g., The Preconstruction Podcast, where Togal's team has appeared; AEC Tech Journeys, where Quotr has appeared) | Ask hosts to write "Quotr.ai" and link quotr.ai in show notes (the MPN episode notes still say "Quotr.io" and link quotr.io) |
+| **Podcasts with video** | Pitch founders to construction-tech and precon podcasts (e.g., The Preconstruction Podcast, where Togal's team has appeared; AEC Tech Journeys, where Perplexity cites an episode that appears to feature Quotr, not yet opened: **TO CONFIRM with Quotr**) | Ask hosts to write "Quotr.ai" and link quotr.ai in show notes (the MPN episode notes still say "Quotr.io" and link quotr.io) |
 | **Webinars** | Monthly or quarterly: "AI takeoff on your own plans, live"; "Tariffs and landed cost Q&A" | Record, chapter and publish on YouTube; Quotr has run an "Ask your plans AI agent" webinar before |
 | **Events** | Record short demos at trade shows (Quotr attended IBS 2026, Dallas Build Expo 2026, PCBC 2026 and others) | Publish within a week with the event name in the title |
 

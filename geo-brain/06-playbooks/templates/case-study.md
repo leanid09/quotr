@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md> (§2 case-study inventory, §3 RL Electric and /procurement/ findings, §4 investor testimonial, §6 proof gaps), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md> (§3 YouTube, §5 "vendor assertions"), <../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (§2 competitor customer stats), <../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md> (§1 DATE/NUMBER entities; §5 case studies; §6 buyer trust concerns), <../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md> (claim 17); [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md); FTC [Consumer Reviews and Testimonials Rule Q&A](https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers) (checked via WebSearch, 2026-09-25).
+**Sources:** [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§2 case-study inventory, §3 RL Electric and /procurement/ findings, §4 investor testimonial, §6 proof gaps), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (§3 YouTube, §5 "vendor assertions"), [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§2 competitor customer stats), [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1 DATE/NUMBER entities; §5 case studies; §6 buyer trust concerns), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (claim 17); [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md); FTC [Consumer Reviews and Testimonials Rule Q&A](https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers) (checked via WebSearch, 2026-09-25).
 
 ---
 
@@ -93,7 +93,7 @@
 
 **Known facts (Quotr-reported, /procurement/):** Myren Dr, Saratoga: $97,000 materials price vs a $187K–$218K Bay Area market price; the featured card shows "~$91,800" saved; a PDF case study for this project is linked from the page (onsite audit §3; verification claim 17).
 
-**H1 (draft):** Saratoga Home Build: Finish Materials for $97,000 vs $187K–$218K Bay Area Pricing
+**H1 (draft):** Saratoga Home Build: Materials for $97,000 vs $187K–$218K Bay Area Pricing
 
 **Results box:** materials price; market price range and **where it came from** (dealer quotes? which ones? **TO CONFIRM**); lead time; categories (windows, doors, cabinets, flooring, fixtures: **TO CONFIRM** for this project).
 

@@ -4,13 +4,13 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) (§1b pricing, §4 inconsistency rows 1–4), [../../00-quotr/product-and-features.md](../../00-quotr/product-and-features.md) (§2 plans); <../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md> (§3 /pricing/, §5 pricing inconsistencies), <../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md> (claims 6–7, 14, 26–27; gaps filled #2; re-runs B2, B4), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md> (V7), <../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md> (§1 pricing pages; §6 Capterra budgets), <../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md> (claims #6, #21, #28).
+**Sources:** [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) (§1b pricing, §4 inconsistency rows 1–4), [../../00-quotr/product-and-features.md](../../00-quotr/product-and-features.md) (§2 plans); [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§3 /pricing/, §5 pricing inconsistencies), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (claims 6–7, 14, 26–27; gaps filled #2; re-runs B2, B4), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (V7), [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1 pricing pages; §6 Capterra budgets), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #6, #21, #28).
 
 ---
 
 ## 1. Why the pricing page is a GEO priority
 
-- **Wrong prices are Quotr's most visible AI problem.** About 13 quotr.ai URLs, the old indexed /contractors/ copy and llms.txt still show retired prices ("Solo $299.90 / Team (2–6 seats) $499.90" or "1 User Plan $299.90 / 2–10 Users Plan $499.90"). Perplexity says Quotr costs "from about $299.90/month", and third parties (Nomic, Octopus Builds) have copied that figure (verification, gaps filled #2; claims 26–27; re-run B4). That makes Quotr look up to about 4x more expensive than its $79.90 entry plan.
+- **Wrong prices are Quotr's most visible AI problem.** About 13 quotr.ai URLs (mostly blog posts, plus the old indexed /contractors/ copy) and llms.txt still show retired prices ("Solo $299.90 / Team (2–6 seats) $499.90" or "1 User Plan $299.90 / 2–10 Users Plan $499.90"). Perplexity says Quotr costs "from about $299.90/month", and third parties (Nomic, Octopus Builds) have copied that figure (verification, gaps filled #2; claims 26–27; re-run B4). That makes Quotr's entry price look nearly four times higher than the real $79.90 (Lite, per seat per month).
 - **The correct page is already being read.** For "Quotr.ai pricing", Perplexity gave the right Lite/Plus/Enterprise prices from /pricing/, while also noting "older/alternate packaging" and citing the staging host test.quotr.io (re-run B2).
 - **Price questions are heavily AI-answered:** price/cost queries triggered a Google AI Overview 83.4% of the time in Seer's 2026 data (`verification_geo_evidence.md` claim #21). One secondary compilation (weak method) says pricing pages are cited most on Perplexity (`geo_content_playbook_b2b.md` §1).
 - **Quotr misses "cheap" prompts.** For "cheapest AI takeoff software", Perplexity named Kreo (~$35), Easy Takeoffs ($39), Pilars and QuoteIQ ($29.99), but not Quotr Lite at $79.90 (visibility test V7).
@@ -87,7 +87,7 @@
 - Is there a free trial? (approved)
 - What is the difference between Lite and Plus? (approved)
 - Do I pay per user? ("Per seat" is confirmed; what counts as a seat: **TO CONFIRM**)
-- Is there annual pricing or a discount? (**TO CONFIRM**; do not reuse the retired "$249/seat/month billed annually" Solo rate)
+- Is there annual pricing or a discount? (**TO CONFIRM**; do not reuse the retired annual rates in llms.txt, "as low as $249/seat/month" for the old 1 User Plan and "$41/seat/month" for the old 2–10 Users Plan)
 - Is procurement required? (approved: no)
 - What happened to the Solo and Team plans? (approved: retired on September 14, 2026)
 

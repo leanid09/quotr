@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (sections 3 and 5), <../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md> (prompts C7–C15, V7, V8, P1–P8), <../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md> (factory-direct re-run; LA-fire prompt; factory-count conflict), <../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md> (Quotr's existing content and gaps), <../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>. Checked on 2026-09-25: [handoff.ai/official-information-about-handoff](https://www.handoff.ai/official-information-about-handoff) (what Handoff says it does not serve), [handoff.ai/pricing](https://www.handoff.ai/pricing) (AI takeoff limits), [ibeam.ai/compare](https://www.ibeam.ai/compare) (Beam's trade list), Port2Site and Build Source via WebSearch.
+**Sources:** [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (sections 3 and 5), [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (prompts C7–C15, V7, V8, P1–P8), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (factory-direct re-run; LA-fire prompt; factory-count conflict), [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (Quotr's existing content and gaps), [quotr_offsite_presence.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>). Checked on 2026-09-25: [handoff.ai/official-information-about-handoff](https://www.handoff.ai/official-information-about-handoff) (what Handoff says it does not serve), [handoff.ai/pricing](https://www.handoff.ai/pricing) (AI takeoff limits), [ibeam.ai/compare](https://www.ibeam.ai/compare) (Beam's trade list), Port2Site and Build Source via WebSearch.
 
 ---
 
@@ -23,14 +23,14 @@
 |---|---|---|---|---|
 | 1 | **Tariffs and landed cost** of residential and multifamily materials | Tariff prompt cited only government, think-tank, trade-press and association sources; **no software vendor** | Factory-direct quotes, DDP delivery, Foshan/Guangdong sourcing, takeoffs that list every material | **A** |
 | 2 | **Factory-direct procurement as a category** ("buy materials factory-direct", "import building materials") | C9, C10, C14, P4, P8 all missed Quotr; Perplexity: "no single platform explicitly marketed as a factory-direct marketplace for all building materials" | The only brand seen that links AI takeoff to factory-direct purchase | **A** |
-| 3 | **Multifamily and developer precon** (cost per unit, pro formas, takeoff for multifamily) | C8 and the multifamily prompt default to Autodesk and RSMeans; P3 names no software; Handoff says it is not for developers | Estimation Service at $0.10/sq ft over 50,000 sq ft; pro formas; developer customers | **A** |
+| 3 | **Multifamily and developer precon** (cost per unit, pro formas, takeoff for multifamily) | C8 and the multifamily prompt default to Autodesk and RSMeans; P3 names no software; Handoff says it is not "an enterprise or large-GC platform" | Estimation Service at $0.10/sq ft over 50,000 sq ft; pro formas; developer customers | **A** |
 | 4 | **Outsourced estimating price transparency** (with Quotr's name attached) | C12: Quotr's page is the **first citation** but the answer says "one outsourced estimating service" | Published per-sq-ft service prices, rare in this market | **A** (quick win) |
 | 5 | **Residential bid leveling tied to buyout** | Residential bid-leveling answers rest on thin list sites; Handoff says it is "not a subcontractor bid management tool" | Bid comparison + procurement in one flow | **B** |
 | 6 | **Residential cost questions and rebuilds** (cost per sq ft, ADUs, LA fire rebuild) | LA-fire prompt: Bloomberg and local GCs only; Quotr absent despite its LA-rebuild service sample and 2025 FireTips app | Real residential estimates and material prices | **B** |
 | 7 | **An AI-takeoff accuracy benchmark for residential and multifamily plans** | P5: Quotr's accuracy post was the **first citation**, unnamed; engines call Quotr's 95–99% "self-published"; Togal's study is the only "peer-reviewed" one | Internal benchmarking that could be published with a method | **B** |
 | 8 | **Finish-material trades where takeoff meets buying** (cabinets/millwork, windows and doors, tile, flooring, plumbing fixtures) | Competitors have takeoff trade pages; none pairs a trade page with material prices and purchase; C14 went to suppliers only | Trade pages already exist (millwork, glazing, doors-hardware, tile, flooring) but are thin | **B** |
 | 9 | **Quick-win slots where Quotr qualifies but is missing** (cheapest, free trial, Mac/browser) | V7, V8, C15 | Lite $79.90, 7-day trial, browser-based | **A** (quick win) |
-| 10 | **Underserved personas**: residential subcontractors, production and multifamily builders, materials buyers, modular builders | Handoff excludes subs; Beam leans commercial; Buildxact is 98% small businesses | Customers across electrical, modular and homebuilding (index summary) | **B** |
+| 10 | **Underserved personas**: residential subcontractors, production and multifamily builders, materials buyers, modular builders | Handoff excludes subs; Beam leans commercial; 98% of Buildxact's Capterra reviewers are small businesses | Customers across electrical, modular and homebuilding (index summary) | **B** |
 
 ---
 
@@ -41,7 +41,7 @@
 **More evidence.**
 - The answer's own advice (diversify sourcing countries, lock prices, buy long-lead items early) is exactly what Quotr Procurement does, but no practitioner was cited for it.
 - Materials named as tariff-exposed for homebuilders: cabinets, vanities, plywood and lumber, steel, aluminum, copper, HVAC and electrical equipment ([CNBC](https://www.cnbc.com/select/how-tariffs-may-increase-the-cost-to-remodel-and-loans-to-use); [HousingWire](https://www.housingwire.com/articles/canada-tariffs-trump-homebuilders/)).
-- Quotr already has tariff posts ([tariff-impact-construction-costs-2026-steel-aluminum-copper](https://quotr.ai/blog/tariff-impact-construction-costs-2026-steel-aluminum-copper/) and a "tariff-aware estimating" post; slugs from the blog sitemap in the onsite audit). Quotr's "original data" posts mostly repackage third-party sources, and none of its pages was cited for the tariff prompt.
+- Quotr already has tariff posts ([tariff-impact-construction-costs-2026-steel-aluminum-copper](https://quotr.ai/blog/tariff-impact-construction-costs-2026-steel-aluminum-copper/) and a "tariff-aware estimating" post; slugs from the blog sitemap in the onsite audit). So far, Quotr's "original data" posts draw mainly on third-party sources rather than its own quotes (onsite audit), and none of its pages was cited for the tariff prompt.
 - Port2Site markets "tariff-smart" sourcing, but only for 50+ unit projects ([port2site.com](https://www.port2site.com/direct-import)).
 
 **Why Quotr fits.** Quotr sees real factory quotes, freight and delivered-duty-paid (DDP: the seller covers shipping, import duty and delivery) prices, and its takeoffs list every material in a home. That is first-party data the institutions above do not have.
@@ -51,7 +51,7 @@
 2. **"What tariffs add to one house: a line-item example."** Take one real Quotr residential takeoff, list the tariff-exposed materials and show the added cost. This turns the JEC's "$7,500–$10,900 per home" into a practitioner example.
 3. **Landed-cost calculator (DDP).** Inputs: material, quantity, destination ZIP. Output: factory price, freight, duty, delivered price, lead time. Link each result to "get a quote".
 4. **Monthly "lead times and tariff changes" note** for builders, short and dated, also posted on LinkedIn.
-5. **Pitch the index** to NAHB, HousingWire, Construction Dive and BIA Bay Area (Quotr is a member) as a data source.
+5. **Pitch the index** to NAHB, HousingWire, Construction Dive and BIA Bay Area (Quotr lists a BIA Bay Area membership on its /disambiguation/ page; the listing was not opened, so current membership is TO CONFIRM) as a data source.
 
 **Target prompts.** "how are 2026 tariffs affecting building material costs", "tariffs on Chinese cabinets and vanities 2026", "how to reduce building material costs" (P4), "landed cost of imported tile", "factory direct vs domestic cabinet prices".
 
@@ -150,7 +150,7 @@
 
 ## 7. A public AI-takeoff accuracy benchmark for residential and multifamily plans (Priority B)
 
-**The gap.** P5 "how accurate is AI takeoff": Quotr's [is-ai-takeoff-actually-accurate-yet](https://quotr.ai/blog/is-ai-takeoff-actually-accurate-yet/) was the **first citation** for "94–99% on clean vector sets, dropping into the 80s on scans", but Quotr was not named. In web search, ConstructConnect, an On Center whitepaper, AGTEK and Eano own the topic. Togal's "peer-reviewed" study vs On-Screen Takeoff is the only AI-native study with that label. In brand prompts, engines call Quotr's 95–99% claims self-published (B3).
+**The gap.** P5 "how accurate is AI takeoff": Quotr's [is-ai-takeoff-actually-accurate-yet](https://quotr.ai/blog/is-ai-takeoff-actually-accurate-yet/) was the **first citation** for an answer that said AI takeoff reaches "94–99% on clean vector sets, dropping into the 80s on scans" (Perplexity's wording; Quotr's own pages say 95–99% and roughly 80–88%; single-session result), but Quotr was not named. In web search, ConstructConnect, an On Center whitepaper, AGTEK and Eano own the topic. Togal's "peer-reviewed" study vs On-Screen Takeoff is the only AI-native study with that label. In brand prompts, engines call Quotr's 95–99% claims self-published (B3).
 
 **Content ideas.**
 1. **"2026 AI Takeoff Accuracy Benchmark: residential and multifamily plan sets"**: publish the plan types (vector vs scanned), items measured (counts, areas, lengths), method, error rates and time saved, with downloadable results.
@@ -193,7 +193,7 @@
 | Persona | Who owns them in AI answers | Gap | Content idea |
 |---|---|---|---|
 | **Residential trade subcontractors** (electrical, plumbing, HVAC, drywall) | Handoff says its users are "not… subcontractors"; Beam leans commercial; trade tools (ConEst, Countfire) are commercial | Residential subs have no clear AI-native answer | "AI takeoff for residential electrical subs" built on the RL Electric story (20 hours → 1–2 hours per the homepage testimonial) |
-| **Production and multifamily builders** | Autodesk by default; Buildxact is 98% small businesses; Handoff AI takeoff stops at 5,000 sq ft plans | Plan-scale takeoff plus finish packages | "Takeoff for production builders: repeat plans, options and finish packages" |
+| **Production and multifamily builders** | Autodesk by default; 98% of Buildxact's Capterra reviewers are small businesses; Handoff's AI takeoff is limited to residential plans up to 5,000 sq ft | Plan-scale takeoff plus finish packages | "Takeoff for production builders: repeat plans, options and finish packages" |
 | **Developers and fund underwriters** | RSMeans, Autodesk, lenders' blogs | No vendor ties estimates to real material quotes | See white space 3 |
 | **Materials buyers / procurement leads** | Suppliers and agents | No software-plus-supply answer | See white spaces 1–2 |
 | **Modular builders** | Not tested | Quotr is in the Modular Building Institute directory and its case studies span "modular" (index summary) | Test prompts first ("estimating software for modular builders"), then build one page if open |

@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (section 2, STACK), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md> (prompts C1, C4, C5, C8, C15, V1, V3, V4, V6, V10), <../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md> (STACK review-count contradiction), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>. Read directly on 2026-09-25: [stackct.com/pricing](https://www.stackct.com/pricing/), [ConstructConnect 2026 guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026). WebSearch on 2026-09-25: G2 and Capterra review pages.
+**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (section 2, STACK), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (prompts C1, C4, C5, C8, C15, V1, V3, V4, V6, V10), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (STACK review-count contradiction), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>). Read directly on 2026-09-25: [stackct.com/pricing](https://www.stackct.com/pricing/), [ConstructConnect 2026 guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026). WebSearch on 2026-09-25: G2 and Capterra review pages.
 
 ---
 
@@ -17,10 +17,10 @@
 | Best for (per ConstructConnect) | GCs and specialty subs across commercial and residential | [ConstructConnect guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026) |
 | AI features | **FloorPlan AI** add-on (detects doors, windows, rooms and walls and makes an editable takeoff); **STACK Assist** plan chat (GPT-powered); STACK IQ | [ConstructConnect guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026); [STACK Assist](https://www.stackct.com/stack-assist/) |
 | Price | Takeoff & Estimate "as low as **$249 per user per month**"; Build & Operate from $49; Full STACK Platform from $298; **free version** of Takeoff & Estimate | [stackct.com/pricing](https://www.stackct.com/pricing/) |
-| Reviews | **Capterra: about 1,399 reviews** (rating reported as 4.0 by Perplexity and 4.5 by a WebSearch summary, so check before quoting). **G2: about 73–93 reviews, 4.4–4.5** depending on the date | [Capterra STACK](https://www.capterra.com/p/147181/STACK-Takeoff/reviews/); [G2 STACK](https://www.g2.com/products/stack-takeoff-estimate/reviews) |
-| AI share of voice (32 unbranded prompts) | **10 prompts (~6.5%), tied first** with PlanSwift and Buildxact: C1, C4, C5, C8, C15, V1, V3, V4, V6, V10 | Visibility notes, section 5 |
+| Reviews | **Capterra: about 1,400 reviews** (1,398–1,399; rating 4.5 in ConstructConnect's guide but 4.0 in a Perplexity summary, so check before quoting). **G2: under 100 reviews** (G2's seller page says 78; Perplexity reported 93), rated about 4.5 | [Capterra STACK](https://www.capterra.com/p/147181/STACK-Takeoff/reviews/); [G2 STACK](https://www.g2.com/products/stack-takeoff-estimate/reviews) |
+| AI share of voice (prompts that named it, out of 32 unbranded Perplexity prompts; % = its share of all brand mentions) | **10 prompts (~6.5%), tied first** with PlanSwift and Buildxact: C1, C4, C5, C8, C15, V1, V3, V4, V6, V10 | Visibility notes, section 5 |
 
-**Review-count contradiction, resolved.** The research notes disagreed ("G2 4.5, 1,398 reviews" vs "G2 93; Capterra 1,399"). ConstructConnect's own guide labels 1,398 as a G2 count in its STACK table but as a Capterra count in its quick-comparison table. G2's STACK pages show well under 100 reviews. So **1,398–1,399 is Capterra**, and G2 is under 100.
+**Review-count contradiction, resolved.** The research notes disagreed ("G2 4.5, 1,398 reviews" vs "G2 93; Capterra 1,399"). ConstructConnect's quick-comparison table labels 1,398 as a Capterra count, while its STACK product box mislabels the same figure as G2. G2's STACK pages show well under 100 reviews. So **1,398–1,399 is Capterra**, and G2 is under 100 (verification notes, claim 32). Write "Capterra about 1,400; G2 under 100".
 
 ---
 
@@ -38,7 +38,7 @@ STACK does not sell a done-for-you estimating service or factory-direct material
 |---|---|
 | [stackct.com/pricing](https://www.stackct.com/pricing/) (2026-09-25) | Takeoff & Estimate from $249/user/month; Build & Operate from $49; Full STACK Platform from $298; free Takeoff & Estimate version; 2-week trial for Build & Operate |
 | [ConstructConnect guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026) (July 2026) | Premium $249/user/month and Pro $299/user/month, billed annually; annual billing saves 20%; FloorPlan AI add-on $899/user |
-| Third-party and Quotr pages (older or inconsistent) | $2,599–$2,999/year ([Quotr stack-alternative](https://quotr.ai/blog/stack-alternative/)); $2,988/year ([costlogic.co](https://costlogic.co/blog/planswift-alternatives-2026)); from $249/user/month ([foremanai.co](https://foremanai.co/blog/best-ai-takeoff-software-2026)) |
+| Third-party and Quotr pages (older or inconsistent) | $2,599–$2,999/year ([Quotr stack-alternative](https://quotr.ai/blog/stack-alternative/); out of date against STACK's current per-user monthly prices, per the verification notes); $2,988/year ([costlogic.co](https://costlogic.co/blog/planswift-alternatives-2026)); from $249/user/month ([foremanai.co](https://foremanai.co/blog/best-ai-takeoff-software-2026)) |
 
 **Compare with Quotr (list prices):** Quotr Lite is $79.90 per seat per month and Plus is $299.90. STACK's entry paid tier is $249, but STACK also has a free version, which Quotr does not (Quotr has a 7-day free trial).
 
@@ -47,7 +47,7 @@ STACK does not sell a done-for-you estimating service or factory-direct material
 ## Strengths
 
 - **Most-named tool in unbranded AI answers** (tied first, 10 of 32 prompts).
-- **Huge review base on Capterra** (about 1,399 reviews). List writers quote it.
+- **Huge review base on Capterra** (about 1,400 reviews). List writers quote it.
 - **Public prices and a free tier.** ConstructConnect calls STACK's pricing "the most transparent" of the nine tools it reviewed.
 - **Trade landing pages** that win trade prompts (drywall, concrete, flooring).
 - **Browser-based**, so it wins "takeoff for Mac" prompts (C15).
@@ -100,7 +100,7 @@ STACK's domain was in the citation list of 7 of the 32 unbranded prompts.
 
 Nothing found (WebSearch for Quotr on stackct.com, 2026-09-25). Third parties pair them: Crunchbase lists STACK as a Quotr competitor, and PitchBook lists "Stackt".
 
-What Quotr says about STACK: [stack-alternative](https://quotr.ai/blog/stack-alternative/) and [quotr-ai-vs-stack-browser-first-takeoff-procurement](https://quotr.ai/blog/quotr-ai-vs-stack-browser-first-takeoff-procurement/). The stack-alternative post was **retrieved but not used** in V10, and its indexed text still carries the **old "Solo $299.90 / Team $499.90" prices** (verification notes, gaps filled #2).
+What Quotr says about STACK: [stack-alternative](https://quotr.ai/blog/stack-alternative/) and [quotr-ai-vs-stack-browser-first-takeoff-procurement](https://quotr.ai/blog/quotr-ai-vs-stack-browser-first-takeoff-procurement/). The stack-alternative post was **retrieved but not used** in V10. The live page still carries the **old "Solo $299.90 / Team $499.90" prices** (directly confirmed in the verification notes, claim 7). It also has two competitor facts wrong: it calls PlanSwift "a Trimble product" (PlanSwift belongs to ConstructConnect), and it quotes STACK at "$2,599–$2,999/year", while ConstructConnect (July 2026) lists $249/$299 per user per month billed annually (verification notes, gaps filled #5). Perplexity uses Quotr's comparison posts as fact sources, so these errors can spread.
 
 ---
 
@@ -108,7 +108,7 @@ What Quotr says about STACK: [stack-alternative](https://quotr.ai/blog/stack-alt
 
 **Strategy: don't try to out-review STACK. Win the specific questions STACK's breadth leaves open.**
 
-1. **Rewrite stack-alternative to answer the exact V10 question.** "STACK takeoff alternatives for **small residential subcontractors**" retrieved Quotr's page but used Easy Takeoffs and Projul instead. Put a direct answer in the first lines ("For a 1–3 person residential sub, the cheapest AI option is…"), a dated price-per-seat table (STACK $249 vs Quotr Lite $79.90 vs Kreo, Easy Takeoffs), and the correct Quotr prices. Remove the stale Solo/Team tiers.
+1. **Rewrite stack-alternative to answer the exact V10 question.** "STACK takeoff alternatives for **small residential subcontractors**" retrieved Quotr's page but used Easy Takeoffs and Projul instead. Put a direct answer in the first lines ("For a 1–3 person residential sub, the cheapest AI option is…"), a dated price-per-seat table (STACK $249 vs Quotr Lite $79.90 vs Kreo, Easy Takeoffs), and the correct Quotr prices. Remove the stale Solo/Team tiers, correct STACK's price and fix the "PlanSwift is a Trimble product" error.
 2. **Win "procurement" questions STACK cannot answer.** STACK stops at the estimate and proposal. Make "from takeoff to purchase order" pages that show the Quotr workflow ending in a factory-direct or supplier order.
 3. **Win "takeoff for Mac" and "no-download" questions.** STACK wins C15 because it runs in a browser. Quotr also runs in a browser. Publish "AI takeoff software for Mac (browser-based, no install)" and pitch the cited Mac pages (for example [machow2.com](https://machow2.com/)) with facts. **TO CONFIRM with Quotr:** browser and OS support details.
 4. **Answer "free" queries honestly.** STACK owns "free estimating software". Quotr has a 7-day free trial, not a free tier. A page on "free vs paid AI takeoff: what you actually get" can be cited without pretending Quotr is free. **TO CONFIRM with Quotr:** whether any free tier or free first estimate is planned.

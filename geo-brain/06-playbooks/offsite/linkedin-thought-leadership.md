@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md> (§3 LinkedIn founder-led content; §3 inferences), <../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md> (claims #16, #18; section D "not re-checked"; M10), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md> (§3 LinkedIn and founder thought leadership; §4 entity signals; §5 AI summary errors), <../../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md> (§2 domain concentration); [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) (§1a founders, §2b social profiles); [../../03-market/citation-sources-map.md](../../03-market/citation-sources-map.md) (§4 target 20); FTC [Endorsement Guides Q&A](https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking) (checked via WebSearch, 2026-09-25).
+**Sources:** [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§3 LinkedIn founder-led content; §3 inferences), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #16, #18; section D "not re-checked"; M10), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (§3 LinkedIn and founder thought leadership; §4 entity signals; §5 AI summary errors), [geo_ai_citation_signals_2026.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) (§2 domain concentration); [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) (§1a founders, §2b social profiles); [../../03-market/citation-sources-map.md](../../03-market/citation-sources-map.md) (§4 target 20); FTC [Endorsement Guides Q&A](https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking) (checked via WebSearch, 2026-09-25).
 
 ---
 
@@ -48,7 +48,7 @@ Pick topics where each founder has real, first-hand knowledge. Each topic should
 | | Tariffs and landed cost for builders | "What 2026 tariffs mean for a Bay Area kitchen, line by line" | L-113, L-114, L-087 |
 | **Junzhe Shi, PhD (CTO)** | How AI reads drawings | "How AI takeoff actually counts symbols (and where it fails)" | L-036, L-038 |
 | | Accuracy, measured | "We tested AI takeoff on scanned plans. Here's what broke." | L-035, L-039, L-041 |
-| | Scope gaps and data quality | "Scope gaps cost more than pricing errors" (existing blog post, adapted) | L-020, L-026 |
+| | Scope gaps and data quality | "Scope gaps cost more than pricing errors" (existing blog post, adapted) | L-011, L-026 |
 | **Both / team** | Customer stories with numbers | "From 20-hour takeoffs to 1–2 hours: what changed at RL Electric" (with permission) | D-017 |
 | | Original data releases | "Q4 materials price index: 3 findings" | L-113, L-124 |
 
@@ -104,7 +104,7 @@ Title: [A specific claim or question estimators care about, with a number if pos
 ```
 
 **Example (draft; numbers must be approved):**
-> On one Saratoga build, the finish materials came in at $97K through factory-direct sourcing, against a $187K–$218K Bay Area market price (as Quotr reports it on our procurement page).
+> On one Saratoga build, the materials order came in at $97K through factory-direct sourcing, against a $187K–$218K Bay Area market price (as Quotr reports it on our procurement page).
 > The catch: [lead time / what the builder had to plan for].
 > When would you trade lead time for that kind of saving?
 > (I co-founded Quotr.ai, which runs this sourcing programme.)

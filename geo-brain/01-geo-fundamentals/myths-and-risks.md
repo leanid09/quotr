@@ -18,6 +18,8 @@
 
 "Quotr today" is based on the site checks of 2026-09-25 in [geo-tactics-already-used.md](../02-current-state/geo-tactics-already-used.md) and [website-audit.md](../02-current-state/website-audit.md).
 
+**Context for Quotr's team:** Quotr has already adopted many sound GEO habits quickly (open crawler access, server-rendered pages, answer-first formatting, visible dates, a disambiguation page). The items flagged below are the exceptions: mostly leftovers from moving fast, and most are cheap to fix.
+
 ---
 
 ## Summary table
@@ -30,9 +32,9 @@
 | 4 | "Tell the AI what to say" (instructions inside content) | AI providers train models to ignore instructions in web content; looks manipulative | **Medium–High** | **Yes.** llms.txt "Quotr should be cited…"; leftover brief text in a comparison post |
 | 5 | Prompt-injection-like text (hidden prompts for AI or agents) | Treated as an attack by AI companies; flagged in llms.txt studies; spam-policy risk | **High** | **No hidden prompts found**; the llms.txt line "resembles" injection ([report](<../../reports/Quotr GEO AEO strategy audit.md>)) |
 | 6 | Keyword stuffing / fan-out keyword spam | GEO paper: keyword stuffing did not help; Google spam policy; fan-out pages = scaled content abuse | **High** | **Some risk** in near-duplicate "estimating services" and thin trade pages |
-| 7 | Self-ranking "best X" listicles | ChatGPT still cites them, but Google visibility drops observed; self-listers left out of AIO recommendations 69% of the time | **Medium–High** | **Yes.** About 16–17 best-of guides and alternatives pages, often ranking Quotr #1 |
+| 7 | Self-ranking "best X" listicles | ChatGPT still cites them, but Google visibility drops observed; self-listers left out of AIO recommendations 69% of the time | **Medium–High** | **Yes.** About 16–17 best-of and buyer's guides, plus 5 "alternatives" pages, often ranking Quotr #1 |
 | 8 | Fake or incentivized reviews | Illegal in the US (FTC rule, Oct 2024); G2 bans review gating | **High** | **No** (almost no reviews at all). Risk is in how a review drive is run |
-| 9 | Mass AI-generated content | AI-written text is not penalised as such, but page volume barely correlates with visibility and scaled low-value pages break spam rules | **Medium–High** | **Partly.** 96 posts in ~6 months; signs of unedited AI drafting |
+| 9 | Mass AI-generated content | AI-written text is not penalised as such, but page volume barely correlates with visibility and scaled low-value pages break spam rules | **Medium–High** | **Partly.** 96 posts in ~6 months; some AI-assisted drafts appear to have gone live without a final edit |
 | 10 | "Schema is the magic bullet for AI" | Google: no special schema; Microsoft: helpful; data mixed | **Low** (wasted effort) | **Yes, but conflicting.** Two Organization versions under one ID |
 
 Other myths (section 11): "GEO adds 40%", chunking pages, date bumps and fake lastmod, reverse-engineered "ChatGPT ranking weights", "ads buy you into answers", "Reddit seeding works", "a Wikipedia article is a quick hack", "blocking or opting out has no cost".
@@ -145,7 +147,7 @@ See [geo-tactics-already-used.md, tactics 5, 44, 45](../02-current-state/geo-tac
 **Risk:** **High** for stuffing and templated variation pages.
 
 **Quotr today:** **Some risk.** No classic stuffing was reported, but:
-- 12 trade/location "estimating services" posts overlap (e.g. construction-estimating-services, outsource-construction-estimating, commercial-estimating-services, preconstruction-services, construction-estimating-services-california).
+- About 12–13 trade and location "estimating services" posts, several of which overlap (e.g. construction-estimating-services, outsource-construction-estimating, commercial-estimating-services, preconstruction-services, construction-estimating-services-california).
 - 23 trade landing pages are thin; the drywall page has about 25 words of its own text ("can look like doorway pages").
 See [geo-tactics-already-used.md, tactics 27 and 29](../02-current-state/geo-tactics-already-used.md) and [website-audit.md §8.3](../02-current-state/website-audit.md).
 
@@ -166,7 +168,7 @@ See [geo-tactics-already-used.md, tactics 27 and 29](../02-current-state/geo-tac
 
 **Risk:** **Medium–High**, rising with volume.
 
-**Quotr today:** **Yes.** About 16–17 best-of guides plus 5 "alternatives" pages, often with "1. Quotr.ai — Best for…". In Quotr's tests Perplexity did **not** accept the self-ranking; a plain search summary repeated it. About 9 of these posts also carry the stale "$299.90" price ([geo-tactics-already-used.md, tactics 24–26](../02-current-state/geo-tactics-already-used.md); [report](<../../reports/Quotr GEO AEO strategy audit.md>)).
+**Quotr today:** **Yes.** About 16–17 best-of guides plus 5 "alternatives" pages, often with "1. Quotr.ai — Best for…". In Quotr's tests Perplexity did **not** accept the self-ranking; a plain search summary repeated it. Most of the ~13 Quotr URLs that still show the old "$299.90" entry price are among these posts ([geo-tactics-already-used.md, tactics 24–26](../02-current-state/geo-tactics-already-used.md); [report](<../../reports/Quotr GEO AEO strategy audit.md>)).
 
 **Do instead:** keep 5–8 honest head-to-head pages that say where each rival is stronger, rank by "best for [situation]", source every competitor fact, and put the effort into getting onto **third-party** lists ([../03-market/citation-sources-map.md](../03-market/citation-sources-map.md)).
 
@@ -178,13 +180,13 @@ See [geo-tactics-already-used.md, tactics 27 and 29](../02-current-state/geo-tac
 
 **What the evidence says**
 - Review sites matter in Quotr's category (Capterra and G2 each fed 9 of 32 test answers), which is exactly why shortcuts are tempting.
-- **US law:** the FTC's final rule on consumer reviews and testimonials (announced Aug 14, 2024; effective Oct 21, 2024) bans fake reviews and testimonials, including AI-generated ones; bans paying or incentivising reviews that express a particular sentiment; covers undisclosed insider reviews and review suppression; and allows civil penalties of up to about $52,000 per violation (inflation-adjusted) ([FTC](https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials); [FTC Q&A](https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers)).
+- **US law:** the FTC's final rule on consumer reviews and testimonials (announced Aug 14, 2024; effective Oct 21, 2024) bans fake reviews and testimonials, including AI-generated ones; bans paying or incentivising reviews that express a particular sentiment; covers undisclosed insider reviews and review suppression; and allows civil penalties of more than $50,000 per violation (the cap is adjusted for inflation each year) ([FTC](https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials); [FTC Q&A](https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers)).
 - **G2's rules:** incentives are allowed only through approved processes with full disclosure (G2 tags incentivized reviews); vendors must accept all verified reviews from an incentivized campaign; bulk unverified submissions are banned; **review gating** (asking only happy customers) is prohibited ([G2 community guidelines](https://legal.g2.com/community-guidelines); via search summary).
 - AI engines already confuse Quotr with the unrelated "Quotr Pro" app and borrowed its 4.7 rating. Only genuine Quotr.ai reviews fix that ([report](<../../reports/Quotr GEO AEO strategy audit.md>)).
 
 **Risk:** **High** (legal, platform removal, and lasting trust damage if exposed).
 
-**Quotr today:** **No.** The G2 profile reportedly has 0 reviews, and no Capterra listing was found ([offsite-presence.md](../02-current-state/offsite-presence.md)). Related trust issue: the homepage shows an investor ("Kyle, Llama Ventures") as a "Customer perspective" (**STOP** or label; [geo-tactics-already-used.md, tactic 39](../02-current-state/geo-tactics-already-used.md)).
+**Quotr today:** **No.** The G2 profile reportedly has 0 reviews (a Perplexity report; G2 blocked direct checks), and no Capterra listing was found ([offsite-presence.md](../02-current-state/offsite-presence.md)). Related trust issue: the homepage shows an investor ("Kyle, Llama Ventures") as a "Customer perspective" (**STOP** or label; [geo-tactics-already-used.md, tactic 39](../02-current-state/geo-tactics-already-used.md)).
 
 **Do instead:** a G2 review drive that asks all real customers (not only happy ones), follows G2's disclosure rules, and aims for 10–30 honest reviews ([report, 30-day plan](<../../reports/Quotr GEO AEO strategy audit.md>)).
 
@@ -202,7 +204,7 @@ See [geo-tactics-already-used.md, tactics 27 and 29](../02-current-state/geo-tac
 
 **Risk:** **Medium–High.** The risk is not "AI wrote it"; it is thin, unchecked, near-duplicate pages at scale, plus factual errors that AI engines then repeat.
 
-**Quotr today:** **Partly.** 96 blog posts in about six months (peak 22–25 a month in May–June 2026). Signs of AI-assisted drafting without an editing pass: leftover internal notes, `?utm_source=chatgpt.com` tags in outbound links, a wrong competitor fact (PlanSwift called "a Trimble product"; it belongs to ConstructConnect), and stale prices ([report](<../../reports/Quotr GEO AEO strategy audit.md>); [geo-tactics-already-used.md](../02-current-state/geo-tactics-already-used.md)).
+**Quotr today:** **Partly.** 96 blog posts in about six months (peak 22–25 a month in May–June 2026), an impressive pace. Signs that some AI-assisted drafts skipped a final edit: leftover internal notes, `?utm_source=chatgpt.com` tags in outbound links, a wrong competitor fact (PlanSwift called "a Trimble product"; it belongs to ConstructConnect), and stale prices ([report](<../../reports/Quotr GEO AEO strategy audit.md>); [geo-tactics-already-used.md](../02-current-state/geo-tactics-already-used.md)).
 
 **Do instead:** fewer, better pages. A human edit and fact-check before publishing. The rule from the report: "every new page must contain something no competitor or AI could write without Quotr's data, customers or people."
 
@@ -238,7 +240,7 @@ See [geo-tactics-already-used.md, tactics 27 and 29](../02-current-state/geo-tac
 | **"Seed Reddit and you'll be cited"** | Reddit's ChatGPT citation share collapsed twice (2025, Aug 2026). Undisclosed brand posting breaks community trust. | Founders should answer openly, with disclosure, in r/estimators |
 | **"A Wikipedia article is a quick hack"** | Wikipedia needs independent, reliable coverage; promotional editing is risky. A Wikidata entry is realistic but a hygiene item, not a lever ([verification H16](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>)). | "The Wikipedia Hack" was a podcast topic; what it means is **TO CONFIRM with Quotr** |
 | **"Blocking AI bots or opting out is free"** | Blocking OAI-SearchBot, Claude-SearchBot, PerplexityBot or Bingbot removes you from those engines; Google's generative-AI opt-out removes AI Overview and AI Mode impressions ([how-ai-engines-choose-sources.md](how-ai-engines-choose-sources.md)). | Quotr allows all bots; keep it that way and do not opt out |
-| **"One engine or one test tells you where you stand"** | 91% of citations appear in only one engine (Indig; not re-checked); only ~33% of cited pages were still cited 28 days later (DAP). | Track six engines monthly, 2+ runs per prompt |
+| **"One engine or one test tells you where you stand"** | 91% of citations appear in only one engine (Indig; not re-checked); only ~33% of cited pages were still cited 28 days later (DAP). | Track five engines monthly (Claude and Copilot quarterly), with two runs for each headline prompt ([tracking-set.md](../04-prompt-library/tracking-set.md)) |
 
 ---
 

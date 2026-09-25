@@ -4,7 +4,7 @@
 
 **Last updated:** 2026-09-25
 
-**Sources:** <../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md> (section 2, Togal), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md> (prompts C1, C3, C11, V1, V2, V3, V4, V5, V9, B4, P5), <../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md> (funding correction, re-runs), <../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>. Read directly on 2026-09-25: [togal.ai/pricing](https://www.togal.ai/pricing), [ConstructConnect 2026 guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026). WebSearch on 2026-09-25: Togal funding, Capterra listing, /vs/ pages.
+**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (section 2, Togal), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (prompts C1, C3, C11, V1, V2, V3, V4, V5, V9, B4, P5), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (funding correction, re-runs), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>). Read directly on 2026-09-25: [togal.ai/pricing](https://www.togal.ai/pricing), [ConstructConnect 2026 guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026). WebSearch on 2026-09-25: Togal funding, Capterra listing, /vs/ pages.
 
 ---
 
@@ -15,10 +15,10 @@
 | What it is | AI-first construction takeoff: AI finds, measures and counts plan elements; "Togal.CHAT" answers questions about plans | [ConstructConnect guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026) |
 | Headquarters | 5959 Waterford District Drive, Ste 200, Miami, Florida | [togal.ai/pricing](https://www.togal.ai/pricing) footer |
 | Best for (per ConstructConnect) | Multi-trade specialty subs: drywall, electrical, mechanical, plumbing, glazing, painting, landscaping, GCs, FF&E | [ConstructConnect guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026) |
-| Funding | **$22.65M raised in total.** Latest: $10.41M convertible note, Aug 27, 2025. Round counts differ by source (5 vs 9), so quote only the total | Verification notes (contradiction #9); [CB Insights](https://www.cbinsights.com/company/togalai/financials) |
+| Funding | **$22.65M raised in total.** Latest: $10.41M convertible note, Aug 27, 2025. Round counts differ by source (5 vs 9), so quote only the total | Verification notes (claim 35; contradiction 10); [CB Insights](https://www.cbinsights.com/company/togalai/financials) |
 | Price | **Growth: $299 per user per month, billed yearly.** Business: custom, for 4+ users | [togal.ai/pricing](https://www.togal.ai/pricing) |
 | Reviews | **G2 4.8/5 from 60 reviews** and G2 "Highest Performer" badge in takeoff (July 2026). **Capterra: no reviews** (Capterra listing showed "No Reviews" in search, 2026-09-25) | [ConstructConnect guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026); [Capterra Togal](https://www.capterra.com/p/10001876/Togal-AI/) |
-| AI share of voice (Perplexity, 32 unbranded prompts) | Named in **8 prompts (~5.2%)**: C1, C3, C11, V1, V3, V4, V5, V9 | Visibility notes, section 5 |
+| AI share of voice (prompts that named it, out of 32 unbranded Perplexity prompts; % = its share of all brand mentions) | Named in **8 prompts (~5.2%)**: C1, C3, C11, V1, V3, V4, V5, V9 | Visibility notes, section 5 |
 | Distribution partners | AI add-on inside eTakeoff ($1,800/year/user); Beck Technology / DESTINI Estimator partnership (2022) | [ConstructConnect guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026); [BusinessWire](https://www.businesswire.com/news/home/20220321005069/en/Beck-Technology-and-Togal.AI-Announce-Partnership-and-Future-Integration-with-DESTINI-Estimator) |
 
 ---
@@ -47,7 +47,7 @@ Togal.AI is the AI takeoff brand that almost every comparison is built around. W
 
 - **Category anchor.** Named in 8 of 32 unbranded prompts. Always present in "AI takeoff" answers.
 - **Best review profile among AI-natives on G2:** 4.8 from 60 reviews, plus a "Highest Performer" badge that list writers repeat.
-- **Citable proof asset:** a "peer-reviewed" study comparing Togal with On-Screen Takeoff on time and accuracy ([Togal case study](https://www.togal.ai/case-study/peer-reviewed-study-togal-ai-vs-on-screen-takeoff)).
+- **Citable proof asset:** a "peer-reviewed" study with the University of Kansas comparing Togal with On-Screen Takeoff, reporting takeoffs up to 76% faster and within 5% accuracy ([Togal case study](https://www.togal.ai/case-study/peer-reviewed-study-togal-ai-vs-on-screen-takeoff)).
 - **Quotable numbers** that search summaries lift: "98% accuracy on floor plans", "up to 4X faster" than Bluebeam.
 - **Wide trade coverage** (ConstructConnect calls it the broadest of any AI-native it reviewed).
 - **Distribution through partners** (eTakeoff add-on, DESTINI integration).
@@ -87,16 +87,16 @@ Togal.AI is the AI takeoff brand that almost every comparison is built around. W
 | [togal.ai/pricing](https://www.togal.ai/pricing) | B4 "Quotr.ai vs Togal.AI" | A plain, public price |
 | [G2 Togal alternatives](https://www.g2.com/products/togal-ai/competitors/alternatives) | V1 "Togal.AI alternatives" | Lead source for the alternatives list (Procore, Autodesk Forma, Bluebeam) |
 | [Capterra Togal alternatives](https://www.capterra.com/p/10001876/Togal-AI/alternatives/) | V1 | Supplied Groundplan and STACK as picks |
-| [ForesightIQ Togal landscape](https://www.foresightiq.co/competitive-landscape/togalai) | V1 run 2, V2, B4 | The only third-party page seen that made Perplexity name Quotr in an unbranded answer |
+| [ForesightIQ Togal landscape](https://www.foresightiq.co/competitive-landscape/togalai) | V1 run 2, V2, B4 | The page that helped Perplexity name Quotr in its one unbranded mention (V1). Its only source for Quotr is Quotr's own blog, so it is not independent proof |
 | [ibeam.ai/compare/vs-togal-ai](https://www.ibeam.ai/compare/vs-togal-ai) | WebSearch cross-check for V1 | A rival's "vs Togal" page ranks for Togal alternatives |
 
-The "Togal alternatives" query is the one unbranded query where Quotr already shows up (V1: named in both runs, but low in the list). Quotr's own posts rank 5th–7th in web search for "Togal.AI alternatives 2026" (offsite notes, section 2).
+The "Togal alternatives" query is the one unbranded query where Quotr already shows up (V1: named in both original runs, but low in the list; the fact-check could not re-run it). Quotr's own posts rank 5th–7th in web search for "Togal.AI alternatives 2026" (offsite notes, section 2).
 
 ---
 
 ## What Togal says about Quotr
 
-Nothing found. Togal's known comparison pages target PlanSwift and Bluebeam. A WebSearch for Quotr limited to togal.ai returned no Quotr mention (2026-09-25). Third parties do list Quotr as a Togal competitor: PitchBook lists Togal.AI as a Quotr competitor, and ForesightIQ lists Quotr in its Togal landscape.
+Nothing found. Togal's known comparison pages target PlanSwift and Bluebeam. A WebSearch for Quotr limited to togal.ai returned no Quotr mention (2026-09-25). Third parties do list Quotr as a Togal competitor: PitchBook lists Togal.AI as a Quotr competitor, and ForesightIQ lists Quotr in its Togal landscape (based only on Quotr's own blog).
 
 What **Quotr** says about Togal (and what AI repeats): Quotr has three Togal pages, [quotr-vs-togal-ai-comparison-2026](https://quotr.ai/blog/quotr-vs-togal-ai-comparison-2026/), [best-togal-ai-alternatives-2026](https://quotr.ai/blog/best-togal-ai-alternatives-2026/) and [best-togal-ai-alternatives](https://quotr.ai/blog/best-togal-ai-alternatives/). AI answers built from them frame Quotr as "most all-in-one" and Togal as "most takeoff-first". But they also repeat Quotr's **stale "from $299.90/month" entry price** (B4, reproduced on re-run), which makes Quotr look no cheaper than Togal.
 
@@ -106,10 +106,10 @@ What **Quotr** says about Togal (and what AI repeats): Quotr has three Togal pag
 
 **Goal:** when anyone asks "Togal alternatives", "Togal vs X" or "AI takeoff with procurement", Quotr should be named, with the correct price and the correct difference.
 
-1. **Fix the price on every Togal page first.** Replace "Solo $299.90 / Team $499.90" and "from $299.90" with "Lite $79.90 / Plus $299.90 per seat per month, 7-day free trial" on the three Togal posts (and the other ~10 stale posts listed in [../../02-current-state/website-audit.md](../../02-current-state/website-audit.md)). Then resubmit the URLs. This is the fastest single win.
+1. **Fix the price on the Togal pages first.** [best-togal-ai-alternatives-2026](https://quotr.ai/blog/best-togal-ai-alternatives-2026/) still says "from $299.90/month" (confirmed in the verification notes); check the other two Togal posts too. Replace any "Solo $299.90 / Team $499.90" or "from $299.90" with "Lite $79.90 / Plus $299.90 per seat per month, 7-day free trial", then fix the rest of the ~13 stale URLs listed in [../../02-current-state/website-audit.md](../../02-current-state/website-audit.md) and resubmit them for recrawl. This is the fastest single win.
 2. **Merge the two "Togal alternatives" posts** into one canonical page and redirect the other. Both are being retrieved, which splits their strength.
 3. **Write one fair, dated comparison table** that an AI can lift: price per seat, free trial (Quotr yes / Togal demo-first), done-for-you service (Quotr yes / Togal not listed), procurement (Quotr factory-direct / Togal not listed), Capterra and G2 review counts with "as of" dates. Say where Togal is stronger (review base, trade breadth, peer-reviewed study). Perplexity ignores self-ranking but uses neutral facts from Quotr's pages.
-4. **Get on the G2 and Capterra "Togal alternatives" pages.** They feed the V1 answer. That needs Quotr listed in the same categories as Togal (takeoff, construction estimating) with real reviews. Togal has **no Capterra reviews**, so a Capterra listing with even 10–20 reviews gives Quotr a lane Togal has not taken. See [../citation-sources-map.md](../citation-sources-map.md).
+4. **Get on the G2 and Capterra "Togal alternatives" pages.** They feed the V1 answer. That needs Quotr listed in the same categories as Togal (takeoff, construction estimating) with real reviews. Togal's Capterra page showed **"No Reviews"** in search results (2026-09-25), so a Capterra listing with even 10–20 reviews gives Quotr a lane Togal has not taken. See [../citation-sources-map.md](../citation-sources-map.md).
 5. **Publish a counter-benchmark.** Togal owns "peer-reviewed accuracy". Quotr can publish a dated, method-first accuracy and time study on **residential and multifamily plan sets** (clean vector vs scanned), with Quotr's "95–99% on clean vector, 80s on scans" numbers backed by the method. Quotr's accuracy post was already the first citation for "how accurate is AI takeoff" (P5), without the brand name. A named, documented study fixes that. See [../white-space.md](../white-space.md).
 6. **Enrich trade pages where Togal has one.** Togal has glazing, framing & lumber, doors & hardware, flooring, drywall, painting and electrical pages. Quotr has matching trade URLs, but the drywall page carries about 25 unique words. Add real content (scope, typical quantities, example output, FAQ) to at least these 7 trades.
 7. **Use brand-attributed sentences.** Write "Quotr.ai's Plus plan costs $299.90 per seat per month and includes procurement at 10% off", not "some platforms cost…". Perplexity anonymized Quotr's facts when the wording was generic (C12, P5).
