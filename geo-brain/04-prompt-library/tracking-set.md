@@ -11,25 +11,25 @@
 ## 1. At a glance
 
 - **53 prompts.** The **core 40** are the September 2026 baseline prompts, kept word for word so every month compares like for like. The **extension 13** fill gaps in the core: 7 supplementary prompts already tested once in September (S4, S5, S6, S9, S10, S11, S12) and 6 new prompts (N1–N6) that were given a baseline run on 2026-09-25.
-- **Two tiers.** **Tier A** (22 prompts) are the headline prompts: run them twice on every engine. **Tier B** (31 prompts): run once per engine.
+- **Two tiers.** **Tier A** (23 prompts) are the headline prompts: run them twice on every engine. **Tier B** (30 prompts): run once per engine.
 - **Baseline is Perplexity only.** September 2026 results come from Perplexity Sonar. ChatGPT, Google AI Mode / AI Overviews, Gemini, Claude and Copilot have **no baseline yet**; October 2026 will be their first month.
 
 ### Balance of the set
 
 | Dimension | Split |
 |---|---|
-| Funnel stage | Learn / problem: 15 · Compare / evaluate: 29 (category 17, comparison/alternatives 12) · Decide / brand: 9 |
-| Branded vs unbranded | 9 prompts name Quotr (B1–B7, V2, S7 is not in the set) · 44 unbranded |
-| Personas (a prompt can have several) | SUB 26 · RES 13 · DEV 10 · GC 7 · BUY 10 · SVC 3 · ALL 12 |
+| Funnel stage | Learn / problem: 14 · Compare / evaluate: 31 (21 category, service or supplier prompts; 10 alternatives or head-to-head) · Decide / brand: 8 |
+| Branded vs unbranded | 8 prompts name Quotr (T17 and T34–T40) · 45 unbranded |
+| Personas (a prompt can have several) | SUB 25 · RES 17 · DEV 11 · GC 9 · BUY 7 · SVC 2 · FUND 1 · ALL 10 |
 | Trades | Drywall (T04, T26), flooring (T05), electrical (T06), plumbing (T49), HVAC (T50), roofing (T51), framing/lumber (T53), cabinets/windows/flooring sourcing (T14, T48), general (the rest). Painting, concrete, siding, tile and insulation are covered in the full [prompt-library.md](prompt-library.md) but are not tracked monthly because they are low priority for Quotr. |
-| Quotr product | Software 30 · Service 3 (T12, T44, T27 partly) · Procurement / sourcing 10 (T09, T10, T14, T28, T32, T42, T43, T46, T48, plus T41 for supplier bids) · Brand 9 |
+| Quotr product | Software (takeoff, estimating, bidding): 30 · Estimating service and developer cost: 6 (T12, T28, T32, T44, T45, T47) · Procurement, sourcing and tariffs: 9 (T09, T10, T14, T29, T33, T42, T43, T46, T48) · Brand: 8 |
 
 ### September 2026 baseline in one table (Perplexity Sonar, first runs)
 
 | Metric | Baseline |
 |---|---|
 | Unbranded prompts where Quotr is **named** | Core: 1 of 32 (3.1%). Extension: 1 of 13 (S6, a prompt that echoes Quotr's own wording) |
-| Unbranded prompts where a quotr.ai page is **cited** in the answer | Core: 4 of 32 (12.5%). Extension: 2 more (S9, N2) |
+| Unbranded prompts where a quotr.ai page is **cited** in the answer | Core: 4 of 32 (12.5%). Extension: 3 of 13 (S6, S9, N2) |
 | Unbranded prompts where a quotr.ai page is in the **source list** | Core: 6 of 32 (18.8%) |
 | Quotr **share of voice**, unbranded core prompts | About 0.7% (STACK, PlanSwift, Buildxact about 6.5% each) |
 | Brand prompts with an **accuracy problem** | 5 of 8 (B3 Quotr Pro conflation, B4 and V2 stale price, B5 namesakes, B6 funding conflict) |
@@ -107,7 +107,7 @@ Result words: **Absent** = not named, not cited · **Cited, not named** = a quot
 | T52 | N5 | E-051 | Handoff alternatives for residential contractors | Compare | RES | B | Absent | Foreman, SimplyWise, Houzz Pro, Buildertrend, Buildxact, JobTread, Jobber, Contractor Foreman |
 | T53 | N6 | L-052 | how to estimate a lumber package for a new house | Learn | RES, SUB | B | Absent; no software named | Angi, HomeAdvisor, Buildxact, Exayard and calculator sites cited |
 
-**Tier A (22 prompts):** T01, T02, T04, T08, T09, T11, T12, T13, T14, T16, T18, T22, T25, T29, T30, T33, T34, T35, T36, T37, T46, T48, T49 minus one is not needed; the exact list is: T01, T02, T04, T08, T09, T11, T12, T13, T14, T16, T18, T22, T25, T29, T30, T33, T34, T35, T36, T37, T46, T48, T49 — see the "Tier" column, which is the source of truth.
+**Tier A (23 prompts):** T01, T02, T04, T08, T09, T11, T12, T13, T14, T16, T18, T22, T25, T29, T30, T33, T34, T35, T36, T37, T46, T48, T49. All others are Tier B. They were chosen to cover every persona, Quotr's three products, the brand-accuracy problems and the prompts where Quotr is closest to being named (cited or retrieved but not named).
 
 ---
 
@@ -137,9 +137,9 @@ Result words: **Absent** = not named, not cited · **Cited, not named** = a quot
 
 | Option | What to run | Runs per month | Rough effort (our estimate) |
 |---|---|---|---|
-| **Lite** (manual, minimum) | Tier A (22) × ChatGPT, Google AI Mode, Perplexity × 1 run, plus all 53 × 2 runs on the Perplexity Sonar API (scripted) | 66 manual + 106 scripted | About 3 hours of manual work |
-| **Standard** (recommended) | Tier A × 4 monthly engines × 2 runs; Tier B × 4 monthly engines × 1 run | 176 + 124 = 300 | 10–15 hours manually, so use a tracking tool |
-| **Full** (quarterly) | Standard + Claude and Copilot (all 53 × 1 run) | 300 + 106 | Tool only |
+| **Lite** (manual, minimum) | Tier A (23) × ChatGPT, Google AI Mode, Perplexity × 1 run, plus all 53 × 2 runs on the Perplexity Sonar API (scripted) | 69 manual + 106 scripted | About 3 hours of manual work |
+| **Standard** (recommended) | Tier A × 4 monthly engines × 2 runs; Tier B × 4 monthly engines × 1 run | 184 + 120 = 304 | 10–15 hours manually, so use a tracking tool |
+| **Full** (quarterly) | Standard + Claude and Copilot (all 53 × 1 run each) | 304 + 106 = 410 | Tool only |
 
 Why two runs for Tier A: the September tests showed the **list of sources stays about the same from run to run, but the order of brands changes**, so position is noisy (<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>, §5). 2026 research papers also argue for repeated sampling rather than one-off checks (verification_geo_evidence.md, M8). Tools such as Otterly.AI, Peec AI, Semrush's AI toolkit, Ahrefs Brand Radar or Profound can automate runs; prices are in [../07-measurement/tools-comparison.md](../07-measurement/tools-comparison.md).
 
@@ -190,7 +190,7 @@ Flag an answer if it says any of these. All are known errors from September 2026
 
 ### 3.7 How to score each month
 
-Use the same rules as the baseline (<../02-current-state/ai-visibility-baseline.md>, §1):
+Use the same rules as the baseline ([../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md), §1):
 
 | KPI | Formula | Baseline (Perplexity, core 32 unbranded) |
 |---|---|---|
@@ -211,7 +211,7 @@ Use the **first run** for the headline numbers, as the baseline did. Use the sec
 |---|---|---|
 | Google Search Console → **Generative AI performance** reports | Impressions from AI Overviews and AI Mode by page, country and date | Rolled out worldwide on Aug 31, 2026. Shows **no clicks, CTR or queries**. Do not add to Web totals (verification_geo_evidence.md, M1) |
 | Bing Webmaster Tools → **AI Performance** | Copilot/Bing AI citations | Public preview announced Feb 10, 2026 (verification_geo_evidence.md, claim 3) |
-| GA4 → **AI Assistant** channel + a custom regex channel | Visits from AI tools | The native channel (May 13, 2026) does **not** include Perplexity, so keep a custom channel with a regex such as `chatgpt\.com|chat\.openai\.com|perplexity\.ai|gemini\.google\.com|copilot\.microsoft\.com|claude\.ai` placed above Referral (verification_geo_evidence.md, claim 7; playbook §4) |
+| GA4 → **AI Assistant** channel + a custom regex channel | Visits from AI tools | The native channel (May 13, 2026) does **not** include Perplexity, so keep a custom channel with a regex such as `chatgpt\.com\|chat\.openai\.com\|perplexity\.ai\|gemini\.google\.com\|copilot\.microsoft\.com\|claude\.ai` placed above Referral (verification_geo_evidence.md, claim 7; playbook §4). In this table the separators are shown as `\|`; in GA4 type a plain vertical bar without the backslash |
 | Demo/trial form: "How did you hear about us?" | Self-reported AI influence | Options should include ChatGPT, Google AI, Perplexity, YouTube, Reddit, Facebook group (playbook §4) |
 
 Setup details: [../07-measurement/tracking-setup.md](../07-measurement/tracking-setup.md). KPI dashboard: [../07-measurement/kpis-and-dashboard.md](../07-measurement/kpis-and-dashboard.md).

@@ -450,7 +450,7 @@ Brand answers are mostly built from Quotr's own pages (about 60–70% self-sourc
 | D-015 | What is Quotr.ai? Is it legit? reviews | ALL | GEN | Trust | High | Same as D-014 | **O1 · Named** ("I did not find independent third-party reviews") |
 | D-016 | Quotr.ai G2 reviews | ALL | GEN | Trust | High | Off-site: G2 profile (status TO CONFIRM with Quotr; G2 blocked checks) | Site-restricted search found no Quotr G2 page (visibility tests §4) |
 | D-017 | who uses Quotr.ai, case studies | ALL | GEN | Trust | High | [/case-studies/](https://quotr.ai/case-studies/) (optimize: add numbers) + [/case-studies/rl-electric/](https://quotr.ai/case-studies/rl-electric/) | — |
-| D-018 | Which third-party articles or review sites mention Quotr | ALL | GEN | Trust | Med | Off-site | **O6** (found only F6S and Nomic) |
+| D-018 | Which third-party articles or review sites mention Quotr | ALL | GEN | Trust | Med | Off-site | **O6 · Inventory prompt** (found only F6S and Nomic; everything else was Quotr's own site, app-store pages or namesakes) |
 | D-019 | how accurate is Quotr's AI takeoff | SUB, GC | GEN | Trust | High | NEW PAGE NEEDED: accuracy method page (the "95–99% on clean vector PDFs" claim is self-reported with no method) | Both B3 runs flagged Quotr's accuracy claims as self-published |
 | D-020 | is Quotr Pro the same as Quotr.ai | ALL | GEN | Brand | High | [/disambiguation/](https://quotr.ai/disambiguation/) | Quotr Pro (a different developer, quotr.pro) is conflated in B3 |
 
