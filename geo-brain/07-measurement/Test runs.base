@@ -1,0 +1,206 @@
+filters:
+  and:
+  - type == "test-run"
+  - '!file.inFolder("geo-brain/_meta/note-templates")'
+formulas:
+  Test: file.asLink(test_id)
+  run: test_set + " · " + engine
+properties:
+  formula.Test:
+    displayName: Test
+  note.date:
+    displayName: Date
+  note.engine:
+    displayName: Engine
+  note.prompt_note:
+    displayName: Prompt ID
+  note.prompt:
+    displayName: Prompt (as run)
+  note.category:
+    displayName: Category
+  note.quotr_named:
+    displayName: Quotr named
+  note.position:
+    displayName: Position
+  note.quotr_sources:
+    displayName: quotr.ai in sources
+  note.competitors_named:
+    displayName: Profiled rivals named
+  note.result_summary:
+    displayName: Result
+  note.fact_check:
+    displayName: Fact-check re-run
+  note.tracking_id:
+    displayName: T#
+  formula.run:
+    displayName: Test run and engine
+newItemFolder: geo-brain/07-measurement/test-runs
+newItemTemplate: geo-brain/_meta/note-templates/Test run.md
+views:
+- type: table
+  name: Latest results
+  order:
+  - note.date
+  - note.engine
+  - formula.Test
+  - note.prompt_note
+  - note.prompt
+  - note.quotr_named
+  - note.quotr_sources
+  - note.result_summary
+  sort:
+  - property: note.date
+    direction: DESC
+  - property: note.seq
+    direction: ASC
+  limit: 25
+  rowHeight: medium
+  columnSize: &id001
+    note.prompt: 300
+    note.result_summary: 340
+- type: table
+  name: Latest 10
+  order:
+  - note.date
+  - note.engine
+  - formula.Test
+  - note.prompt
+  - note.quotr_named
+  - note.result_summary
+  sort:
+  - property: note.date
+    direction: DESC
+  - property: note.seq
+    direction: ASC
+  limit: 10
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: Last 7 days
+  filters:
+    and:
+    - date >= today() - "7d"
+  order:
+  - note.date
+  - note.engine
+  - formula.Test
+  - note.prompt
+  - note.quotr_named
+  sort:
+  - property: note.date
+    direction: DESC
+  - property: note.seq
+    direction: ASC
+  limit: 20
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: Mention rate (unbranded)
+  filters:
+    and:
+    - branded == false
+  groupBy:
+    property: formula.run
+    direction: DESC
+  order:
+  - note.date
+  - formula.Test
+  - note.prompt
+  - note.quotr_named
+  - note.quotr_sources
+  sort:
+  - property: note.date
+    direction: DESC
+  - property: note.seq
+    direction: ASC
+  summaries:
+    note.quotr_named: Checked
+    note.prompt: Filled
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: Sept 2026 core 40
+  filters:
+    and:
+    - test_set == "2026-09 baseline (core 40)"
+  order:
+  - formula.Test
+  - note.prompt
+  - note.category
+  - note.quotr_named
+  - note.position
+  - note.result_summary
+  - note.quotr_sources
+  - note.fact_check
+  sort:
+  - property: note.seq
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: Sept 2026 supplementary
+  filters:
+    and:
+    - test_set == "2026-09 supplementary"
+  order:
+  - formula.Test
+  - note.prompt
+  - note.category
+  - note.quotr_named
+  - note.result_summary
+  sort:
+  - property: note.seq
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: Sept 2026 extra runs
+  filters:
+    and:
+    - test_set == "2026-09 extra runs"
+  order:
+  - formula.Test
+  - note.prompt
+  - note.category
+  - note.quotr_named
+  - note.result_summary
+  sort:
+  - property: note.seq
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: For this prompt
+  filters:
+    and:
+    - prompt_note == this
+  order:
+  - note.date
+  - note.engine
+  - formula.Test
+  - note.quotr_named
+  - note.quotr_sources
+  - note.result_summary
+  sort:
+  - property: note.date
+    direction: DESC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: For this competitor
+  filters:
+    and:
+    - competitors_named.contains(this)
+  order:
+  - note.date
+  - note.engine
+  - formula.Test
+  - note.prompt
+  - note.quotr_named
+  sort:
+  - property: note.date
+    direction: DESC
+  - property: note.seq
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001

@@ -1,3 +1,8 @@
+---
+type: research-note
+description: 'Raw notes: the 2026-09-25 Perplexity tests (40 prompts, 45 runs) and who AI recommends instead of Quotr.'
+date: 2026-09-25
+---
 # Live AI answer-engine visibility tests: does Quotr.ai show up when construction buyers ask AI, and who wins instead (tested 2026-09-25)
 
 **How the test was run (read this first):**

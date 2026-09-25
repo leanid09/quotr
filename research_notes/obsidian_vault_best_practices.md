@@ -1,3 +1,8 @@
+---
+type: research-note
+description: Research on Obsidian vault structure, Bases, daily workflows, AI agents and sharing (September 2026).
+date: 2026-09-25
+---
 # Obsidian vault best practices for the Quotr GEO brain (research notes)
 
 **Date:** 2026-09-25
@@ -57,7 +62,7 @@
   - Suggested core schema: `type`, `status`, `priority`, `owner`, `tags`, `aliases`, `created`, `updated`, `last_verified` (date), `verify_every_days` (number), `source_of_truth` (checkbox), `sources` (list of links/URLs).
   - Prompt note: `id`, `stage` (learn/evaluate/decide), `persona` (list), `trade` (list), `intent`, `priority`, `tracking` (checkbox), `target_url`, `target_page` (link).
   - Test-run note: `type: test-run`, `date`, `engine` (perplexity/chatgpt/google-aio/google-ai-mode/gemini/claude/copilot), `prompt` (link), `quotr_mentioned` (checkbox), `quotr_rank` (number), `quotr_cited` (checkbox), `competitors_named` (list of links), `cited_domains` (list), `accuracy_issue` (text), `run_by` (agent/human).
-- **Links.** Obsidian supports wikilinks `[[Note]]` and Markdown links `[text](path.md)`. Wikilinks are the default because they are compact. Markdown links need URL-encoding (`%20`) unless you wrap the destination in `<…>`. Folder paths start at the vault root. Settings → Files & links → "Use [[Wikilinks]]" toggles which one Obsidian writes. Source: https://obsidian.md/help/links
+- **Links.** Obsidian supports wikilinks `[[Note]]` and Markdown links `[text](path.md)`. Wikilinks are the default because they are compact. Markdown links need URL-encoding (`%20`) unless you wrap the destination in `<…>`. Folder paths start at the vault root. Settings → Files & links → `Use [[Wikilinks]]` toggles which one Obsidian writes. Source: https://obsidian.md/help/links
   - Angle-bracket destinations with spaces (what `geo-brain` uses now) **render and resolve fine**, but Obsidian **does not generate** them, and a long-standing forum request says rename handling for them is incomplete. The Better Markdown Links plugin exists to fill that gap. Sources: https://github.com/mnaoumov/obsidian-better-markdown-links, https://forum.obsidian.md/t/support-internal-links-with-markdown-angle-bracket-syntax-especially-rename/36007
   - **Recommendation:** switch to **wikilinks** for links inside the vault. They are shorter, rename-safe, and readable by agents with the kepano `obsidian-markdown` skill. Quartz 5 supports them too. Keep Markdown links only for external URLs. If GitHub rendering of the repo matters more than Obsidian, the alternative is Markdown links with Settings → "New link format: Relative path to file", and no spaces in folder names (rename `research_notes/Quotr GEO AEO strategy audit/` to `quotr-geo-audit/`). Do the conversion with a script in one PR.
   - **Make the vault root the repo root**, or move `reports/` and `research_notes/` inside the vault. Otherwise the `../reports/…` links point outside the vault and show as broken or unresolved in Obsidian.

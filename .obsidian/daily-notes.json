@@ -1,0 +1,5 @@
+{
+  "folder": "journal",
+  "format": "YYYY-MM-DD",
+  "template": "geo-brain/_meta/note-templates/Daily note"
+}

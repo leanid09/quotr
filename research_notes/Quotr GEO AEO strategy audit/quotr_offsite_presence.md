@@ -1,3 +1,8 @@
+---
+type: research-note
+description: 'Raw notes: Quotr''s reviews, directories, press, social profiles and third-party mentions.'
+date: 2026-09-25
+---
 # Quotr.ai Off-Site Presence, Brand/Entity Signals and Third-Party Mentions (as of 2026-09-25)
 
 Method note: Pages were read with mcp__Slashy__scrape_url (marked "scraped"). Live AI-engine answers came from mcp__Slashy__web_search, which runs Perplexity Sonar (marked "Perplexity answer"). Search-engine summaries came from WebSearch (marked "WebSearch summary"). G2 blocked scraping with an anti-bot wall. Reddit is blocked for WebSearch. Partway through, the Slashy scraper hit a rate limit ("retry after ~3180 seconds"), so several listicles could not be checked page by page. Those gaps are flagged below. "Observed" means I saw it directly in a tool result. "Inference" means it is my interpretation.

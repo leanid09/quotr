@@ -1,3 +1,8 @@
+---
+type: report
+description: 'The reviewed September 2026 GEO/AEO audit of Quotr.ai: findings, content types and the 90-day plan. The backbone of the brain.'
+date: 2026-09-25
+---
 # AI Quotes Quotr but Recommends Its Rivals
 
 When buyers ask AI tools for software without naming Quotr, Quotr.ai barely shows up. We asked Perplexity 32 such buyer questions in September 2026. Quotr was **named in just 1 (about 3%)**. STACK, PlanSwift and Buildxact were **each named in 10**.

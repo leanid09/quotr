@@ -1,3 +1,8 @@
+---
+type: research-note
+description: 'Raw notes: quotr.ai content inventory, GEO tactics in use and technical AI-readiness.'
+date: 2026-09-25
+---
 # Quotr.ai on-site audit: content inventory, GEO tactics in use, and technical AI-readiness (as of 2026-09-25)
 
 Method note: quotr.ai pages were read with a scraping tool (rendered to markdown) on 2026-09-25. Raw HTML/JSON-LD for 4 pages (homepage, /software/, /disambiguation/, one blog post) was read by sending each page through the W3C Nu HTML Checker "show source" view (https://validator.w3.org/nu/?doc=<url>&showsource=yes). The scraper then hit a rate limit, so schema on other page types (dictionary, trade, case-study, pricing, FAQ) was NOT verified. One live AI-answer test was run through Perplexity (sonar). "Observed" = seen directly on the page; "Inference" = my interpretation.

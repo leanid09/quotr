@@ -1,0 +1,86 @@
+{
+  "collapse-filter": true,
+  "search": "-file:.base",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:journal",
+      "color": {
+        "a": 1,
+        "rgb": 14722342
+      }
+    },
+    {
+      "query": "[type:prompt]",
+      "color": {
+        "a": 1,
+        "rgb": 5016565
+      }
+    },
+    {
+      "query": "[type:\"roadmap-item\"]",
+      "color": {
+        "a": 1,
+        "rgb": 2862694
+      }
+    },
+    {
+      "query": "[type:task]",
+      "color": {
+        "a": 1,
+        "rgb": 15898954
+      }
+    },
+    {
+      "query": "[type:\"test-run\"]",
+      "color": {
+        "a": 1,
+        "rgb": 10179040
+      }
+    },
+    {
+      "query": "[type:question]",
+      "color": {
+        "a": 1,
+        "rgb": 15423319
+      }
+    },
+    {
+      "query": "[type:competitor]",
+      "color": {
+        "a": 1,
+        "rgb": 1548984
+      }
+    },
+    {
+      "query": "[type:overview] OR [type:dashboard]",
+      "color": {
+        "a": 1,
+        "rgb": 15911244
+      }
+    },
+    {
+      "query": "path:research_notes OR path:reports",
+      "color": {
+        "a": 1,
+        "rgb": 10395294
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -1.5,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.5,
+  "repelStrength": 14,
+  "linkStrength": 1,
+  "linkDistance": 180,
+  "scale": 0.35,
+  "close": true
+}

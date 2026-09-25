@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1790337600000,
+      "path": "Home.md",
+      "title": "Home"
+    },
+    {
+      "type": "group",
+      "ctime": 1790337600000,
+      "title": "Live tables",
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1790337600000,
+          "path": "geo-brain/08-action-plan/Tasks.base",
+          "title": "Tasks"
+        },
+        {
+          "type": "file",
+          "ctime": 1790337600000,
+          "path": "geo-brain/00-quotr/Open questions.base",
+          "title": "Open questions for Quotr"
+        },
+        {
+          "type": "file",
+          "ctime": 1790337600000,
+          "path": "geo-brain/05-content-strategy/Content roadmap.base",
+          "title": "Content roadmap"
+        },
+        {
+          "type": "file",
+          "ctime": 1790337600000,
+          "path": "geo-brain/04-prompt-library/Prompts.base",
+          "title": "Prompts"
+        },
+        {
+          "type": "file",
+          "ctime": 1790337600000,
+          "path": "geo-brain/07-measurement/Test runs.base",
+          "title": "AI test runs"
+        },
+        {
+          "type": "file",
+          "ctime": 1790337600000,
+          "path": "geo-brain/_meta/All pages.base",
+          "title": "All pages"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "ctime": 1790337600000,
+      "title": "Key pages",
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1790337600000,
+          "path": "geo-brain/Start here.md",
+          "title": "Start here"
+        },
+        {
+          "type": "file",
+          "ctime": 1790337600000,
+          "path": "geo-brain/00-quotr/Entity fact sheet.md",
+          "title": "Entity fact sheet"
+        },
+        {
+          "type": "file",
+          "ctime": 1790337600000,
+          "path": "geo-brain/08-action-plan/Meeting brief.md",
+          "title": "Meeting brief"
+        },
+        {
+          "type": "file",
+          "ctime": 1790337600000,
+          "path": "geo-brain/08-action-plan/30-60-90 plan.md",
+          "title": "30-60-90 plan"
+        },
+        {
+          "type": "file",
+          "ctime": 1790337600000,
+          "path": "geo-brain/AI context pack.md",
+          "title": "AI context pack"
+        },
+        {
+          "type": "file",
+          "ctime": 1790337600000,
+          "path": "geo-brain/_meta/Changelog.md",
+          "title": "Changelog"
+        }
+      ]
+    }
+  ]
+}

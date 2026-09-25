@@ -1,0 +1,262 @@
+filters:
+  and:
+  - type == "roadmap-item"
+  - '!file.inFolder("geo-brain/_meta/note-templates")'
+formulas:
+  ID: file.asLink(id)
+properties:
+  file.name:
+    displayName: Content piece
+  formula.ID:
+    displayName: ID
+  note.title:
+    displayName: Working title
+  note.format:
+    displayName: Format
+  note.target_prompts:
+    displayName: Target prompts
+  note.funnel:
+    displayName: Funnel
+  note.priority:
+    displayName: Priority
+  note.month:
+    displayName: Month
+  note.status:
+    displayName: Status
+  note.owner:
+    displayName: Owner
+  note.cluster:
+    displayName: Cluster
+newItemFolder: geo-brain/05-content-strategy/roadmap
+newItemTemplate: geo-brain/_meta/note-templates/Roadmap item.md
+views:
+- type: table
+  name: All pieces
+  groupBy:
+    property: note.cluster
+    direction: ASC
+  order:
+  - formula.ID
+  - note.title
+  - note.priority
+  - note.month
+  - note.status
+  - note.target_prompts
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: &id001
+    note.title: 300
+- type: table
+  name: Next up
+  filters:
+    and:
+    - status != "published"
+    - status != "dropped"
+    - number(month.replace("-", "")) <= number((today() + "62d").format("YYYYMM"))
+  order:
+  - file.name
+  - note.priority
+  - note.month
+  - note.status
+  - note.owner
+  sort:
+  - property: note.month
+    direction: ASC
+  - property: note.priority
+    direction: ASC
+  limit: 10
+  columnSize:
+    file.name: 520
+- type: table
+  name: By month
+  groupBy:
+    property: note.month
+    direction: ASC
+  order:
+  - formula.ID
+  - note.title
+  - note.priority
+  - note.status
+  - note.owner
+  sort:
+  - property: note.priority
+    direction: ASC
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: By status
+  groupBy:
+    property: note.status
+    direction: ASC
+  order:
+  - formula.ID
+  - note.title
+  - note.priority
+  - note.month
+  - note.owner
+  sort:
+  - property: note.month
+    direction: ASC
+  - property: note.priority
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: For this prompt
+  filters:
+    and:
+    - target_prompts.contains(this)
+  order:
+  - formula.ID
+  - note.title
+  - note.priority
+  - note.month
+  - note.status
+  sort:
+  - property: note.month
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: Cluster 1 · Procurement, tariffs and landed cost
+  filters:
+    and:
+    - cluster == "01 Procurement, tariffs and landed cost"
+  order: &id002
+  - formula.ID
+  - note.title
+  - note.format
+  - note.target_prompts
+  - note.priority
+  - note.month
+  - note.status
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: Cluster 2 · Original data ("Quotr.ai Cost Data")
+  filters:
+    and:
+    - cluster == '02 Original data ("Quotr.ai Cost Data")'
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: Cluster 3 · Cost guides
+  filters:
+    and:
+    - cluster == "03 Cost guides"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: Cluster 4 · By persona
+  filters:
+    and:
+    - cluster == "04 By persona"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: Cluster 5 · By trade
+  filters:
+    and:
+    - cluster == "05 By trade"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: Cluster 6 · Estimating how-tos
+  filters:
+    and:
+    - cluster == "06 Estimating how-tos"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: Cluster 7 · Comparisons
+  filters:
+    and:
+    - cluster == "07 Comparisons"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: Cluster 8 · Glossary
+  filters:
+    and:
+    - cluster == "08 Glossary"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: Cluster 9 · Proof and trust
+  filters:
+    and:
+    - cluster == "09 Proof and trust"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: Cluster 10 · Outsourced estimating (Quotr Service)
+  filters:
+    and:
+    - cluster == "10 Outsourced estimating (Quotr Service)"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: Cluster 11 · Company news and press
+  filters:
+    and:
+    - cluster == "11 Company news and press"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: Cluster 12 · Video (YouTube, embedded on matching pages)
+  filters:
+    and:
+    - cluster == "12 Video (YouTube, embedded on matching pages)"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001

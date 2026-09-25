@@ -1,3 +1,8 @@
+---
+type: research-note
+description: 'Raw notes: GEO/AEO content strategy for B2B SaaS and construction tech, 2025–2026.'
+date: 2026-09-25
+---
 # GEO/AEO content strategy playbook for B2B SaaS (vertical and construction-tech focus), 2025–2026
 
 Method note (read first): The research date is 2026-09-25. `mcp__Slashy__scrape_url` returned "Rate limit exceeded" on the first calls, so no full pages were read. Every finding below comes from WebSearch result summaries or Perplexity (`mcp__Slashy__web_search`) answers, and each links to the underlying URL. Numbers are copied as those summaries reported them. Before any figure goes on a slide, open the linked primary source to confirm it. Quality labels used below: **[Primary study]** = the organization that ran the analysis. **[Vendor/agency claim]** = a self-reported result from a company selling GEO services or tools. **[Secondary]** = an aggregator or blog restating someone else's data. **[Opinion]** = practitioner advice without published data.
