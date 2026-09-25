@@ -130,75 +130,14 @@ To repeat the check, a developer can recreate the script from the method above (
 
 This list merges and de-duplicates the open items from all five QA passes and the fact sheet's §6. **Bring it to the Quotr meeting.** When an item is answered, update [[Entity fact sheet]] first, then remove the item here and log it in [[Changelog]].
 
-### A. Company identity
-1. **Headquarters:** San Francisco (the /terms legal address, 495 27th Ave Unit 8; PitchBook; blog footers) or Berkeley (/disambiguation/, Crunchbase location)? Which address goes in schema?
-2. **Founding year:** 2023 (/disambiguation/, Crunchbase) or 2024 (PitchBook)?
-3. **Team:** size (11–50 vs PitchBook's 10); current titles for Tianyi Zong (COO) and Jati Ibloguen (Growth); author titles and bios for bylines.
-4. **Founder bios:** may we name TAO, SmithGroup and the UC Berkeley architecture degree for Hanyang Liu?
-5. **Official contact email:** info@quotr.io (on /terms) or an @quotr.ai address (procurement@quotr.ai exists)?
+> [!tip] This list is live
+> Each question is its own note in `00-quotr/open-questions`. When Quotr answers one, set its `status` to `answered` and fill in `answer`; it then drops off the open list below.
 
-### B. Funding and investors
-6. **Amounts and dates:** $200K pre-seed and $3.5M seed "as of December 25, 2025" (/disambiguation/) vs "$5 million" (podcast page). Which is right, and can the seed round be announced publicly?
-7. **Sky Arc Capital:** is it an investor? PitchBook lists it; Quotr never mentions it.
-8. **"$190K seed, Oct 2024":** does Quotr know where this figure comes from? It appears only in Perplexity answers.
-
-### C. Quotr Procurement
-9. **Factory network:** one number and one definition: 220+ vetted factories, 50+ audited manufacturers, or "220+ including 30+ audited"?
-10. **Savings:** one figure and its method. Pages say up to 50%, 40–50% and 40–55%, and the /procurement/ totals imply 53–64%.
-11. **Delivery area:** California only, or anywhere in the US? The same page says both.
-12. **Offer details:** current product categories, order minimums, and what the delivered (DDP) price includes (tariffs, anti-dumping and countervailing (AD/CVD) duties, freight).
-13. **Names:** is "QUOTR Framed Series" an official product line?
-14. **Data:** can aggregated project and price data be published (for a price index), and can supplier names appear?
-
-### D. Quotr Service
-15. **Turnaround:** the standard and rush times. Pages say 24 hours, 72 hours, 1–3, 3–4 and 5–7 business days.
-16. **Scope:** minimum job size; what "26 sub-trades" means against the 23 trade pages.
-17. **Volume claims:** can "$1.2B+ in projects estimated" and "300+ projects a month" be backed by a method (count and date range)?
-
-### E. Quotr Software
-18. **Accuracy:** one approved figure and its conditions (95–99% on clean vector PDFs; about 80–88% on scans). Will Quotr publish the benchmark method?
-19. **Time saved:** "up to 80%" vs "90% faster" vs RL Electric's 20 hours to 1–2 hours. Which one, and on what basis?
-20. **Revit add-in:** are "Quotr Estimate" and "Quotr Connector" still sold? Is there an Autodesk App Store listing?
-21. **Integrations and exports:** which integrations are live (Procore, Excel, QuickBooks, others)? Which export formats (is Excel export supported)?
-22. **Files and platforms:** which file types (PDF, images, DWG, Revit)? Does it run in the browser on Mac?
-23. **Feature names:** is "Smart Matching" official? What should the chat feature be called ("AI Agent")?
-24. **Plans:** is there annual pricing for Lite and Plus? What do the Plus "2,000 sq ft takeoff credits" cover? Is SSO still in Enterprise? What does Lite's "AI detection" do (buyers compare it with Kreo's Lite and Plus)?
-25. **Security:** SOC 2 status and encryption details for a security page.
-
-### F. Audience and positioning
-26. **Primary audience:** residential and multifamily, commercial, or both? /disambiguation/ says both.
-27. **Lead product for top of funnel:** Software, Service or Procurement?
-28. **"Partner programs":** what does the homepage mean by it?
-
-### G. Customers and proof
-29. **Permissions:** which customers will approve named results (RL Electric, AlphaX, BiltWise Structures, Salisbury Moore, the Saratoga client, Vanderbilt/Minh Nghiem)? RL Electric's measured result details; the full name for the "Maricruz" testimonial.
-30. **Homepage quote:** replace "Customer perspective: Kyle, Llama Ventures" with a customer quote, or relabel it as an investor quote?
-31. **Win/loss:** which competitors come up in sales deals, and why does Quotr win or lose?
-
-### H. Domains, profiles and technical setup
-32. **quotr.io:** does it 301-redirect to quotr.ai or mirror it? Who controls quotr.io, test.quotr.io and Cloudflare?
-33. **Indexing:** is test.quotr.io noindexed? Does /developers/ carry a canonical tag to /service/?
-34. **Cloudflare:** is "Block AI bots" on? Is the managed robots.txt on? Is AI Labyrinth on deliberately? What status codes do AI search bots receive?
-35. **Old accounts:** are YouTube @QuotrIO ("QuoTrio") and LinkedIn "flozdesign" Quotr's? Can the quotrio and quotr_io handles be retired or redirected?
-36. **Logo hosting:** keep the logo on public.quotr.io, or move it to quotr.ai?
-37. **Memberships:** is Quotr a current member of BIA Bay Area and the Modular Building Institute?
-38. **Podcasts:** does the iHeart "AEC Tech Journeys" episode ("From Drawings to Bids in Minutes") feature Quotr?
-
-### I. Reviews and directories
-39. **G2:** how many reviews does the "quotr-io" profile have, who has access, and can it be renamed to Quotr.ai? How will the G2 listing carry over to Capterra, GetApp and Software Advice? Is the team aware of G2's incentive rules?
-
-### J. Measurement, process and budget
-40. **Access and history:** GA4, Search Console, Bing Webmaster Tools, CRM and form access. Which key events exist? Can GA4 AI-traffic history back to January 2026 be pulled?
-41. **Owners and budget:** who owns the monthly dashboard and the review drive? What budget exists for a tracking tool, YouTube and PR?
-42. **Process and plans:** how is content made today, and who edits AI drafts before they go live? What did "The Wikipedia Hack" on the podcast mean, and is anything like it planned?
+![[Open questions.base#Open questions for Quotr]]
 
 ### Still unverified by the research (for us to check, not questions for Quotr)
-- Baselines for ChatGPT, Google AI Overviews and AI Mode, Gemini, Claude and Copilot (October 2026).
-- Whether rconstructionsolutions, PalCode, NEDES and aibuildingtools really mention Quotr (reported by Perplexity; not opened).
-- The single-session results V1, V3, C13 and P5 (the fact-check's re-runs were refused).
-- Quotr's Reddit footprint, backlinks, and LinkedIn and YouTube follower counts.
-- WebSearch rank claims (for example, Quotr's roundup "4th of 9" for C1).
-- Third-party studies and surveys marked "not re-checked" (listed in the GEO-evidence fact-check, section D), and all tool prices.
+
+![[Open questions.base#To check ourselves]]
 
 ---
 

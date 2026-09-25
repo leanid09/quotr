@@ -1,0 +1,123 @@
+filters:
+  and:
+  - file.inFolder("geo-brain")
+  - '["overview", "fact-sheet", "guide", "baseline", "competitor", "hub", "plan", "playbook", "page-template", "reference", "log"].contains(type)'
+formulas:
+  next_check: if(verify_every_days, last_verified + duration(verify_every_days + "d"), "")
+  days_left: if(verify_every_days, (last_verified + duration(verify_every_days + "d") - today()).days, "")
+properties:
+  file.name:
+    displayName: Page
+  note.description:
+    displayName: What it is
+  note.type:
+    displayName: Type
+  note.last_verified:
+    displayName: Last checked
+  formula.next_check:
+    displayName: Next check due
+  formula.days_left:
+    displayName: Days left
+views:
+- type: table
+  name: Map of the brain
+  groupBy:
+    property: file.folder
+    direction: ASC
+  order:
+  - file.name
+  - note.description
+  sort:
+  - property: file.name
+    direction: ASC
+  rowHeight: medium
+  columnSize: &id001
+    note.description: 460
+- type: table
+  name: Next checks due
+  filters:
+    and:
+    - verify_every_days
+  order:
+  - file.name
+  - note.type
+  - note.last_verified
+  - formula.next_check
+  - formula.days_left
+  sort:
+  - property: formula.next_check
+    direction: ASC
+  - property: file.name
+    direction: ASC
+  limit: 12
+- type: table
+  name: Overdue for a check
+  filters:
+    and:
+    - verify_every_days
+    - formula.days_left < 0
+  order:
+  - file.name
+  - note.type
+  - note.last_verified
+  - formula.next_check
+  - formula.days_left
+  sort:
+  - property: formula.next_check
+    direction: ASC
+- type: table
+  name: Competitor profiles
+  filters:
+    and:
+    - file.inFolder("geo-brain/03-market/competitors")
+  order:
+  - file.name
+  - note.description
+  - note.last_verified
+  sort:
+  - property: file.name
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: Playbooks
+  filters:
+    and:
+    - file.folder == "geo-brain/06-playbooks"
+  order:
+  - file.name
+  - note.description
+  - note.last_verified
+  sort:
+  - property: file.name
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: Off-site playbooks
+  filters:
+    and:
+    - file.inFolder("geo-brain/06-playbooks/offsite")
+  order:
+  - file.name
+  - note.description
+  - note.last_verified
+  sort:
+  - property: file.name
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: Page templates
+  filters:
+    and:
+    - file.inFolder("geo-brain/06-playbooks/templates")
+  order:
+  - file.name
+  - note.description
+  - note.last_verified
+  sort:
+  - property: file.name
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001

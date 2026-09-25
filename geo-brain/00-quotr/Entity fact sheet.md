@@ -260,22 +260,9 @@ Notes on the drafts:
 
 ## 6. Open questions for Quotr (checklist)
 
-1. HQ: San Francisco or Berkeley? Which address should go in schema?
-2. Founding year: 2023 or 2024?
-3. Funding: exact amounts, dates and all investors (is Sky Arc Capital an investor?). Can we announce the seed round publicly?
-4. Factory network: one number and one definition (vetted vs audited).
-5. Savings: one number and the method behind it.
-6. Service turnaround: standard and rush times.
-7. Is there annual pricing for Lite and Plus? (Plan contents are now confirmed on /software/.)
-8. Is the Revit add-in ("Quotr.ai Estimate") still sold? Are there any live integrations (Procore, Excel, others)?
-9. Which file types are supported (PDF, images, DWG, Revit)?
-10. Delivery area for procurement: California only, or all US?
-11. Official current titles for Tianyi Zong and Jati Ibloguen.
-12. Is youtube.com/@QuoTrio Quotr's old channel? Is linkedin.com/company/flozdesign Quotr's?
-13. Does quotr.io redirect to quotr.ai?
-14. Are "Smart Matching" and "QUOTR Framed Series" official names? What do the Plus "takeoff credits" cover? Is SSO still part of Enterprise?
-15. Which audience is primary: residential, multifamily, commercial, or all three?
-16. Should the public contact email move from info@quotr.io to an @quotr.ai address (procurement@quotr.ai already exists)?
+All open questions now live in one place: one note per question in `00-quotr/open-questions`, merged with the QA log list (the 16 questions that used to be here are all included). Answer a question there, then update the fact tables above.
+
+![[Open questions.base#Open questions for Quotr]]
 
 ---
 

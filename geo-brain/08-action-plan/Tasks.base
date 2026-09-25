@@ -1,0 +1,172 @@
+filters:
+  and:
+  - type == "task"
+formulas:
+  ID: file.asLink(id)
+properties:
+  formula.ID:
+    displayName: ID
+  note.task:
+    displayName: Task
+  note.owner:
+    displayName: Owner (suggested)
+  note.effort:
+    displayName: Effort
+  note.impact:
+    displayName: Impact
+  note.phase:
+    displayName: Phase
+  note.week:
+    displayName: Week
+  note.status:
+    displayName: Status
+  note.done_when:
+    displayName: Done when
+  note.depends_on_text:
+    displayName: Depends on
+newItemFolder: geo-brain/08-action-plan/tasks
+newItemTemplate: geo-brain/_meta/note-templates/Task.md
+views:
+- type: table
+  name: Next up
+  filters:
+    and:
+    - status != "done"
+    - status != "dropped"
+  order:
+  - formula.ID
+  - note.task
+  - note.owner
+  - note.effort
+  - note.impact
+  - note.phase
+  - note.status
+  sort:
+  - property: note.rank
+    direction: ASC
+  limit: 10
+  rowHeight: medium
+  columnSize: &id001
+    note.task: 320
+    note.done_when: 340
+- type: table
+  name: All tasks by phase
+  groupBy:
+    property: note.phase
+    direction: ASC
+  order:
+  - formula.ID
+  - note.task
+  - note.owner
+  - note.effort
+  - note.impact
+  - note.depends_on_text
+  - note.status
+  sort:
+  - property: note.rank
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: Days 1–30 (Oct 2026)
+  filters:
+    and:
+    - phase == "Days 1–30 (Oct 2026)"
+  order:
+  - formula.ID
+  - note.task
+  - note.owner
+  - note.effort
+  - note.impact
+  - note.week
+  - note.status
+  - note.done_when
+  sort:
+  - property: note.rank
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: Days 31–60 (Nov 2026)
+  filters:
+    and:
+    - phase == "Days 31–60 (Nov 2026)"
+  order:
+  - formula.ID
+  - note.task
+  - note.owner
+  - note.effort
+  - note.impact
+  - note.status
+  - note.done_when
+  sort:
+  - property: note.rank
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: Days 61–90 (Dec 2026)
+  filters:
+    and:
+    - phase == "Days 61–90 (Dec 2026)"
+  order:
+  - formula.ID
+  - note.task
+  - note.owner
+  - note.effort
+  - note.impact
+  - note.status
+  - note.done_when
+  sort:
+  - property: note.rank
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: Months 4–6 (Jan–Mar 2027)
+  filters:
+    and:
+    - phase == "Months 4–6 (Jan–Mar 2027)"
+  order:
+  - formula.ID
+  - note.task
+  - note.owner
+  - note.effort
+  - note.impact
+  - note.status
+  - note.done_when
+  sort:
+  - property: note.rank
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: By owner
+  groupBy:
+    property: note.owner
+    direction: ASC
+  order:
+  - formula.ID
+  - note.task
+  - note.phase
+  - note.status
+  sort:
+  - property: note.rank
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: By status
+  groupBy:
+    property: note.status
+    direction: ASC
+  order:
+  - formula.ID
+  - note.task
+  - note.owner
+  - note.phase
+  sort:
+  - property: note.rank
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001

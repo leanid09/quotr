@@ -1,0 +1,88 @@
+filters:
+  and:
+  - type == "question"
+formulas:
+  ID: file.asLink(id)
+properties:
+  formula.ID:
+    displayName: ID
+  note.question:
+    displayName: Question
+  note.topic:
+    displayName: Topic
+  note.status:
+    displayName: Status
+  note.answer:
+    displayName: Answer
+  note.answered_on:
+    displayName: Answered on
+newItemFolder: geo-brain/00-quotr/open-questions
+newItemTemplate: geo-brain/_meta/note-templates/Question.md
+views:
+- type: table
+  name: Open questions for Quotr
+  filters:
+    and:
+    - ask == "Quotr"
+    - status != "answered"
+  groupBy:
+    property: note.topic
+    direction: ASC
+  order:
+  - formula.ID
+  - note.question
+  - note.status
+  - note.answer
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: tall
+  columnSize: &id001
+    note.question: 420
+    note.answer: 260
+- type: table
+  name: To check ourselves
+  filters:
+    and:
+    - ask == "us"
+    - status != "answered"
+  order:
+  - formula.ID
+  - note.question
+  - note.status
+  - note.answer
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: Answered
+  filters:
+    and:
+    - status == "answered"
+  order:
+  - formula.ID
+  - note.question
+  - note.answer
+  - note.answered_on
+  sort:
+  - property: note.answered_on
+    direction: DESC
+  rowHeight: tall
+  columnSize: *id001
+- type: table
+  name: All questions
+  groupBy:
+    property: note.topic
+    direction: ASC
+  order:
+  - formula.ID
+  - note.question
+  - note.status
+  - note.answer
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: tall
+  columnSize: *id001

@@ -1,0 +1,344 @@
+filters:
+  and:
+  - type == "prompt"
+formulas:
+  ID: file.asLink(id)
+properties:
+  formula.ID:
+    displayName: '#'
+  note.prompt:
+    displayName: Prompt
+  note.stage:
+    displayName: Stage
+  note.group:
+    displayName: Section
+  note.persona:
+    displayName: Persona
+  note.trade:
+    displayName: Trade
+  note.intent:
+    displayName: Intent
+  note.priority:
+    displayName: Priority
+  note.page_status:
+    displayName: Quotr page
+  note.baseline_result:
+    displayName: Sept 2026 test
+  note.tracking_id:
+    displayName: T#
+  note.test_id:
+    displayName: Test ID
+  note.tier:
+    displayName: Tier
+newItemFolder: geo-brain/04-prompt-library/prompts
+newItemTemplate: geo-brain/_meta/note-templates/Prompt.md
+views:
+- type: table
+  name: All prompts
+  groupBy:
+    property: note.group
+    direction: ASC
+  order:
+  - formula.ID
+  - note.prompt
+  - note.stage
+  - note.persona
+  - note.trade
+  - note.intent
+  - note.priority
+  - note.page_status
+  - note.tracking_id
+  - note.baseline_result
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: &id001
+    note.prompt: 360
+- type: table
+  name: Tracking set (53)
+  filters:
+    and:
+    - tracking == true
+  order:
+  - note.tracking_id
+  - note.test_id
+  - formula.ID
+  - note.prompt
+  - note.stage
+  - note.persona
+  - note.tier
+  - note.baseline_result
+  sort:
+  - property: note.tracking_id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: Core 40
+  filters:
+    and:
+    - tracking_group == "core"
+  order:
+  - note.tracking_id
+  - note.test_id
+  - formula.ID
+  - note.prompt
+  - note.stage
+  - note.persona
+  - note.tier
+  - note.baseline_result
+  sort:
+  - property: note.tracking_id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: Extension 13
+  filters:
+    and:
+    - tracking_group == "extension"
+  order:
+  - note.tracking_id
+  - note.test_id
+  - formula.ID
+  - note.prompt
+  - note.stage
+  - note.persona
+  - note.tier
+  - note.baseline_result
+  sort:
+  - property: note.tracking_id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: High priority, new page needed
+  filters:
+    and:
+    - priority == "High"
+    - page_status == "new-page"
+  order:
+  - formula.ID
+  - note.prompt
+  - note.stage
+  - note.persona
+  - note.trade
+  - note.tracking_id
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: Targeted by this note
+  filters:
+    and:
+    - this.target_prompts.contains(file)
+  order:
+  - formula.ID
+  - note.prompt
+  - note.stage
+  - note.priority
+  - note.tracking_id
+  - note.baseline_result
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: 1.1 General estimating and bidding
+  filters:
+    and:
+    - group == "1.1 General estimating and bidding"
+  order: &id002
+  - formula.ID
+  - note.prompt
+  - note.persona
+  - note.trade
+  - note.intent
+  - note.priority
+  - note.page_status
+  - note.baseline_result
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: 1.2 Takeoff and AI
+  filters:
+    and:
+    - group == "1.2 Takeoff and AI"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: 1.3 Trade questions
+  filters:
+    and:
+    - group == "1.3 Trade questions"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: 1.4 Material costs, sourcing, tariffs and importing
+  filters:
+    and:
+    - group == "1.4 Material costs, sourcing, tariffs and importing"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: 1.5 Developer, preconstruction and residential cost questions
+  filters:
+    and:
+    - group == "1.5 Developer, preconstruction and residential cost questions"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: 2.1 Category prompts (all trades and personas)
+  filters:
+    and:
+    - group == "2.1 Category prompts (all trades and personas)"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: 2.2 Category prompts by trade
+  filters:
+    and:
+    - group == "2.2 Category prompts by trade"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: 2.3 Alternatives prompts
+  filters:
+    and:
+    - group == "2.3 Alternatives prompts"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: 2.4 Head-to-head prompts (competitors only)
+  filters:
+    and:
+    - group == "2.4 Head-to-head prompts (competitors only)"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: 2.5 Feature and fit prompts (unbranded)
+  filters:
+    and:
+    - group == "2.5 Feature and fit prompts (unbranded)"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: 2.6 Services and procurement comparisons
+  filters:
+    and:
+    - group == "2.6 Services and procurement comparisons"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: 3.1 Brand facts
+  filters:
+    and:
+    - group == "3.1 Brand facts"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: 3.2 Pricing
+  filters:
+    and:
+    - group == "3.2 Pricing"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: 3.3 Trust, reviews and accuracy
+  filters:
+    and:
+    - group == "3.3 Trust, reviews and accuracy"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: 3.4 Quotr vs a named competitor
+  filters:
+    and:
+    - group == "3.4 Quotr vs a named competitor"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: 3.5 Product fit and how to use it
+  filters:
+    and:
+    - group == "3.5 Product fit and how to use it"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001
+- type: table
+  name: 3.6 Quotr Procurement and Quotr Service specifics
+  filters:
+    and:
+    - group == "3.6 Quotr Procurement and Quotr Service specifics"
+  order: *id002
+  sort:
+  - property: note.id
+    direction: ASC
+  rowHeight: medium
+  columnSize: *id001

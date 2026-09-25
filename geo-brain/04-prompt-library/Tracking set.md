@@ -54,66 +54,11 @@ Result words: **Absent** = not named, not cited · **Cited, not named** = a quot
 
 ### 2a. Core 40 (September 2026 baseline prompts)
 
-| T# | Test ID | Library ID | Prompt (verbatim) | Stage | Persona | Tier | Sept 2026 baseline (Perplexity) | Named in answer / watch for |
-|---|---|---|---|---|---|---|---|---|
-| T01 | C1 | E-001 | best AI takeoff software for subcontractors 2026 | Compare | SUB | A | Absent (2 runs + independent re-run) | Togal.AI, STACK, PlanSwift, Beam AI. Sources: ConstructConnect, ContraVault, constructioncoverage, TDPM, SourceForge, F6S category |
-| T02 | C2 | E-002 | best construction estimating software for residential contractors | Compare | RES | A | Absent | Clear Estimates, Buildxact, Houzz Pro, Buildertrend, JobTread, QuickBooks |
-| T03 | C3 | E-003 | AI construction takeoff software | Compare | ALL | B | Absent | Ruh AI, Beam AI, eTakeoff, Bobyard, Kreo, MeltPlan, Togal, Civils.ai, CountBricks, Procore |
-| T04 | C4 | E-026 | best takeoff software for drywall contractors | Compare | SUB | A | Absent | STACK, The EDGE, QuoteIQ, Bluebeam, Houzz Pro, Buildxact, PlanSwift |
-| T05 | C5 | E-027 | best takeoff software for flooring contractors | Compare | SUB | B | Absent | The EDGE, MeasureSquare, PlanSwift, STACK, Autodesk Takeoff, QuoteIQ |
-| T06 | C6 | E-028 | best takeoff software for electrical contractors | Compare | SUB | B | Absent (Quotr's electrical post not retrieved) | ConEst IntelliBid, Countfire, PlanSwift, Trimble AccuBid, McCormick |
-| T07 | C7 | E-004 | construction bid management software for general contractors | Compare | GC | B | Absent | ConstructConnect, BuildingConnected, SmartBid, PlanHub, Procore, Kahua, Dodge |
-| T08 | C8 | E-005 | software for multifamily developers to estimate construction costs | Compare | DEV | A | Absent | ConstructionOnline, RSMeans, Autodesk Forma Estimate, Procore, STACK, RIB CostX, Trimble |
-| T09 | C9 | E-006 | construction estimating software with material procurement | Compare | ALL, BUY | A | Absent (reproduced) | Buildertrend, Procore, Buildxact, esti-mate, ConWize |
-| T10 | C10 | E-081 | buy construction materials direct from factories overseas platform | Compare | BUY | B | Retrieved only ([ddp-construction-materials](https://quotr.ai/blog/ddp-construction-materials/)) | Alibaba, Global Trade Plaza, Port2Site, AGTS, Marteu, BRKZ, ZeroGap, Commervia |
-| T11 | C11 | E-007 | best AI construction estimating software 2026 | Compare | ALL | A | Absent (reproduced) | Togal.AI, Handoff, Buildxact, Procore AI, Bluebeam |
-| T12 | C12 | E-073 | outsourced construction estimating service price per square foot for developers | Compare | SVC, DEV | A | Cited, not named: Quotr post was the **first citation**; rates credited to "some firms" (reproduced) | No brand named. Watch for: does the answer say "Quotr.ai charges $0.25/sq ft…"? |
-| T13 | C13 | E-008 | AI estimating software for residential general contractors that goes from plans to proposal | Compare | RES | A | Absent (single session) | Handoff, BuildVision AI, Houzz Pro, Buildxact, Beam (trybeam) |
-| T14 | C14 | E-082 | where can US contractors buy cabinets, windows and flooring factory direct at wholesale prices | Compare | BUY, RES | A | Absent | Build Source, Platinum Direct, Floor Daddy Depot, Shop At Home Cabinets and other local "factory direct" dealers |
-| T15 | C15 | E-009 | best takeoff and estimating software for Mac users | Compare | SUB | B | Absent | STACK, Easy Takeoffs, Square Takeoff, Bluebeam, Buildxact |
-| T16 | V1 | E-043 | Togal.AI alternatives | Compare | SUB, GC | A | **Named, low**: about 15th of 17 (run 1), 8th of 9 (run 2); single session | Procore, Autodesk Forma, Bluebeam lead (from G2/Capterra alternatives pages) |
-| T17 | V2 | D-021 | Togal vs Quotr | Decide | SUB, GC | B | Named; positioning accurate; **stale price** ("$299.90 Solo / $499.90 Team") | Watch for: correct Lite $79.90 / Plus $299.90 prices |
-| T18 | V3 | E-044 | PlanSwift alternatives 2026 | Compare | SUB | A | Cited, not named (both runs; single session) | STACK, Bluebeam, Procore, Autodesk, ProEst, Groundplan, Kreo, Togal |
-| T19 | V4 | E-046 | Bluebeam alternatives for takeoff | Compare | SUB, GC | B | Absent | PlanSwift, STACK, On-Screen Takeoff, Togal.AI, Easy Takeoffs, Buildxact, Acrobat Pro |
-| T20 | V5 | E-057 | Kreo vs Togal | Compare | SUB | B | Absent (only the two brands) | Kreo, Togal.AI |
-| T21 | V6 | E-058 | STACK vs PlanSwift | Compare | SUB | B | Absent (only the two brands) | STACK, PlanSwift |
-| T22 | V7 | E-054 | cheapest AI takeoff software | Compare | SUB, RES | A | Absent (Lite $79.90 not mentioned) | Kreo (~$35), Easy Takeoffs ($39), Pilars, QuoteIQ ($29.99) |
-| T23 | V8 | E-055 | AI takeoff software with free trial | Compare | SUB | B | Absent (7-day trial not mentioned) | On-Screen Takeoff, PlanSwift, Kreo, Eano, eTakeoff, Intuitive Takeoff, BuildVision, Buildxact, Canaveral |
-| T24 | V9 | E-059 | Beam AI vs Togal AI vs Kreo which is best for residential estimating | Compare | RES, SUB | B | Absent (engine merged Beam AI with trybeam.com) | Beam AI, Togal AI, Kreo |
-| T25 | V10 | E-047 | STACK takeoff alternatives for small residential subcontractors | Compare | SUB, RES | A | Retrieved only ([stack-alternative](https://quotr.ai/blog/stack-alternative/)) | Easy Takeoffs, Buildxact, Square Takeoff, PlanSwift, Bluebeam, eTakeoff |
-| T26 | P1 | L-031 | how to do a quantity takeoff from PDF plans | Learn | SUB, RES | B | Absent | No brand; Bluebeam, Autodesk, BuildVision, Kreo pages cited |
-| T27 | P2 | L-047 | how to estimate drywall for a house | Learn | RES, SUB | B | Absent | No brand; calculators (HomeAdvisor, Easy Takeoffs, Procore, BuildVision, CertainTeed) cited |
-| T28 | P3 | L-129 | how to estimate construction costs for a multifamily project | Learn | DEV | B | Absent | No brand; RSMeans, Brookings, RAND, lenders cited |
-| T29 | P4 | L-108 | how to reduce building material costs | Learn | RES, DEV, BUY | A | Absent (factory-direct not mentioned as a lever) | NAHB, Autodesk, Buildertrend, Buildxact, Trimble, HUD cited |
-| T30 | P5 | L-035 | how accurate is AI takeoff | Learn | SUB, GC | A | Cited, not named: Quotr post was the **first citation** (single session) | Watch for: is Quotr named next to its accuracy figures? |
-| T31 | P6 | L-036 | can AI read construction drawings | Learn | ALL | B | Absent | helonic, nomic.ai, Bluebeam, mastt, ENR cited |
-| T32 | P7 | L-006 | how long does a construction estimate take | Learn | SUB, GC, DEV | B | Absent | Estimating-service firms, Projul, r/estimators cited |
-| T33 | P8 | L-109 | how to import building materials from China for a construction project | Learn | BUY, DEV, RES | A | Absent | Only sourcing agents and logistics firms cited |
-| T34 | B1 | D-001 | What is Quotr.ai? | Decide | ALL | A | Named, **accurate** (both runs) | Watch for: "built by FLOZ Inc", "not a quotation app", disambiguation page cited |
-| T35 | B2 | D-008 | Quotr.ai pricing | Decide | ALL | A | Named, accurate (Lite $79.90, Plus $299.90, Enterprise, 7-day trial, Service $0.25/$0.10 per sq ft); **flags legacy Solo/Team**; cites test.quotr.io (reproduced) | Watch for: Solo/Team mentions; staging host citations |
-| T36 | B3 | D-014 | Is Quotr.ai legit? Quotr reviews | Decide | ALL | A | Named, but **uses the unrelated Quotr Pro app's 37 ratings / 4.7** as Quotr's; "not independently well-validated" (reproduced) | Watch for: Quotr Pro conflation; any G2/Capterra review count for Quotr.ai |
-| T37 | B4 | D-022 | Quotr.ai vs Togal.AI | Decide | SUB, GC | A | Named; positioning accurate; **stale "from $299.90"** (reproduced) | Watch for: correct entry price |
-| T38 | B5 | D-003 | Quotr app | Decide | ALL | B | Named **3rd of 4** "Quotr" apps | Watch for: Quotr.ai listed first |
-| T39 | B6 | D-004 | Quotr construction software funding founders | Decide | ALL | B | Named; **funding conflict** ($3.5M seed on Quotr's own page vs a "$190K" figure that appears only in Perplexity answers; the CEO's podcast page says "$5 million") (reproduced) | Watch for: the $190K figure; founder names |
-| T40 | B7 | D-023 | Quotr alternatives | Decide | ALL | B | Named ("the most end-to-end option"); about 10 of 18 citations are Quotr's own; retrieves G2 "Quartr" (a different company) | Watch for: share of third-party citations |
+![[Prompts.base#Core 40]]
 
 ### 2b. Extension 13
 
-| T# | Test ID | Library ID | Prompt (verbatim) | Stage | Persona | Tier | Sept 2026 baseline (Perplexity) | Named in answer / watch for |
-|---|---|---|---|---|---|---|---|---|
-| T41 | S4 | E-012 | best software for a GC to compare subcontractor and supplier bids / bid leveling for residential | Compare | GC, RES | B | Absent | Buildertrend, Buildxact, SmartBid, Procore Bid Management, Contractor Foreman |
-| T42 | S5 | E-013 | best construction materials procurement software platforms for contractors and builders 2026 | Compare | BUY, GC | B | Absent | Procore, Archdesk, Trimble Materials, Buildertrend, Field Materials AI, Precoro |
-| T43 | S6 | E-083 | where can home builders and multifamily developers buy building materials factory-direct from overseas manufacturers with AI takeoff and procurement | Compare | DEV, RES | B | Named: 1st in the original run, **3rd of 6** on re-run ("emphasize sourcing … more than AI takeoff") | Control prompt: it echoes Quotr's own wording, so it overstates visibility. Compare with T10 and T14 |
-| T44 | S9 | E-074 | how much does it cost to outsource a quantity takeoff | Compare | SVC, SUB | B | Cited ([quantity-takeoff-services](https://quotr.ai/blog/quantity-takeoff-services/)); whether Quotr was named was not recorded | constructem, powerkh, takeoffmonkey, Bobyard also cited |
-| T45 | S10 | L-130 | cost per sq ft to build multifamily 2026, material breakdown | Learn | DEV, FUND | B | Absent | Meltplan and Exayard cost pages cited next to RSMeans |
-| T46 | S11 | L-113 | how are 2026 tariffs affecting building material costs for home builders and multifamily developers | Learn | RES, DEV | A | Absent; **no software vendor cited at all** | JEC, Brookings, NAHB, Construction Dive, Skanska, Cushman & Wakefield |
-| T47 | S12 | L-134 | how much does it cost to rebuild a house after the LA fires per square foot 2026 | Learn | RES, DEV | B | Absent | Bloomberg and local GCs (Benson Construction, Amerbuild, UBIC, Vaisman) |
-| T48 | N1 | L-114 | what tariffs apply to kitchen cabinets and vanities imported from China in 2026 | Learn | BUY, RES, DEV | A | Absent; no vendor named | White House, CNN, C.H. Robinson, Clark Hill, STR, Allyn cited |
-| T49 | N2 | L-097 | how to estimate plumbing from drawings | Learn | SUB | A | **Cited, not named**: Quotr's [plumbing post](https://quotr.ai/blog/how-to-estimate-plumbing-from-drawings/) was the **first citation** and supplied most steps | RSMeans, Easy Takeoffs, ServiceTitan, Anvilfield also cited. Watch for: brand named |
-| T50 | N3 | E-030 | best HVAC estimating software 2026 | Compare | SUB | B | Absent (Quotr's HVAC guide not retrieved) | QuoteIQ, ServiceTitan, FieldPulse, WenDuct |
-| T51 | N4 | E-033 | best roofing takeoff software for new construction from plans | Compare | SUB | B | Absent | STACK, Beam AI, On-Screen Takeoff + Quick Bid, Buildxact |
-| T52 | N5 | E-051 | Handoff alternatives for residential contractors | Compare | RES | B | Absent | Foreman, SimplyWise, Houzz Pro, Buildertrend, Buildxact, JobTread, Jobber, Contractor Foreman |
-| T53 | N6 | L-052 | how to estimate a lumber package for a new house | Learn | RES, SUB | B | Absent; no software named | Angi, HomeAdvisor, Buildxact, Exayard and calculator sites cited |
+![[Prompts.base#Extension 13]]
 
 **Tier A (23 prompts):** T01, T02, T04, T08, T09, T11, T12, T13, T14, T16, T18, T22, T25, T29, T30, T33, T34, T35, T36, T37, T46, T48, T49. All others are Tier B. They were chosen to cover every persona, Quotr's three products, the brand-accuracy problems and the prompts where Quotr is closest to being named (cited or retrieved but not named).
 
