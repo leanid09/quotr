@@ -1,0 +1,789 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+</head>
+<body>
+<title>Quotr GEO Strategy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<style>
+:root{
+  --paper:#F4F5F2;
+  --sheet:#FFFFFF;
+  --ink:#15212B;
+  --ink-2:#46545F;
+  --ink-3:#5F6C77;
+  --rule:#D6DCE0;
+  --grid:#EBEFF1;
+  --blue:#1E5B9E;
+  --blue-wash:#EAF1F9;
+  --blue-line:#B9CFE8;
+  --redline:#C23B2A;
+  --redline-wash:#FCEDEA;
+  --redline-line:#EDC3BC;
+  --bar-muted:#97A1A9;
+  --shadow:0 1px 2px rgba(21,33,43,.06),0 8px 24px rgba(21,33,43,.08);
+  --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --lab:112px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --paper:#0E1317;
+    --sheet:#161D22;
+    --ink:#E7ECEF;
+    --ink-2:#AEB9C1;
+    --ink-3:#86929B;
+    --rule:#2B353C;
+    --grid:#1B2329;
+    --blue:#7FB1EA;
+    --blue-wash:#132131;
+    --blue-line:#284866;
+    --redline:#E8664F;
+    --redline-wash:#2B1A17;
+    --redline-line:#5A2E27;
+    --bar-muted:#6B7780;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.28);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --paper:#0E1317;
+  --sheet:#161D22;
+  --ink:#E7ECEF;
+  --ink-2:#AEB9C1;
+  --ink-3:#86929B;
+  --rule:#2B353C;
+  --grid:#1B2329;
+  --blue:#7FB1EA;
+  --blue-wash:#132131;
+  --blue-line:#284866;
+  --redline:#E8664F;
+  --redline-wash:#2B1A17;
+  --redline-line:#5A2E27;
+  --bar-muted:#6B7780;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.28);
+}
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+.page{max-width:68rem;margin-inline:auto;padding-inline:clamp(16px,4vw,40px);padding-block:clamp(20px,4vw,48px) 72px;display:grid;gap:clamp(44px,6vw,76px)}
+a{color:var(--blue);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:2px}
+h1,h2,h3{font-family:var(--display);font-weight:700;line-height:1.05;letter-spacing:.005em;text-wrap:balance;margin:0}
+h1{font-size:clamp(2.5rem,6.4vw,4.2rem)}
+h2{font-size:clamp(1.9rem,4vw,2.6rem)}
+h3{font-size:1.5rem;font-weight:600;line-height:1.1}
+p{margin:0}
+ul,ol{margin:0}
+strong{font-weight:600}
+.kicker{font:500 .74rem/1.2 var(--mono);letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3)}
+.prose{max-width:44rem}
+.small{font-size:.9rem;color:var(--ink-2)}
+
+/* Cover sheet */
+.cover{background-color:var(--sheet);background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:24px 24px;background-position:-1px -1px;border:1px solid var(--rule);padding:clamp(20px,4.5vw,48px);display:grid;gap:16px}
+.cover .lede{font-size:clamp(1.05rem,2vw,1.25rem);line-height:1.5;color:var(--ink-2);max-width:40rem}
+.titleblock{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));gap:1px;margin:14px 0 0;border:1.5px solid var(--ink);background:var(--rule)}
+.titleblock div{background:var(--sheet);padding:10px 14px}
+.titleblock dt{font:500 .66rem/1.2 var(--mono);letter-spacing:.15em;text-transform:uppercase;color:var(--ink-3)}
+.titleblock dd{margin:5px 0 0;font-size:.95rem;font-weight:500;line-height:1.35}
+
+/* Section scaffolding */
+.section{display:grid;gap:22px}
+.section-head{display:grid;gap:8px;border-top:1.5px solid var(--ink);padding-top:14px}
+.section-head .small{max-width:44rem}
+
+/* Short answer */
+.big{font-size:clamp(1.3rem,2.7vw,1.8rem);line-height:1.35;font-weight:500;max-width:46rem;text-wrap:pretty}
+.defs{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px}
+.def{border-top:1px solid var(--rule);padding-top:10px;font-size:.95rem;color:var(--ink-2)}
+.def strong{color:var(--ink)}
+.three{background:var(--sheet);border:1px solid var(--ink);padding:clamp(16px,3vw,24px);display:grid;gap:12px}
+.three ol{padding-left:1.4rem;display:grid;gap:8px;font-size:1.02rem}
+.three li::marker{font-family:var(--mono);font-weight:500;color:var(--ink-3)}
+.why{font-size:.95rem;color:var(--ink-2);max-width:46rem}
+
+/* Stat tiles */
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));gap:12px}
+.tile{background:var(--sheet);border:1px solid var(--rule);padding:16px 18px;display:grid;gap:6px;align-content:start}
+.tile-label{font-size:.86rem;line-height:1.35;color:var(--ink-2)}
+.tile-value{font:600 2.35rem/1.1 var(--sans);letter-spacing:-.01em;color:var(--ink)}
+.tile-value span{font-size:1rem;font-weight:500;letter-spacing:0;color:var(--ink-2)}
+.tile-note{font-size:.83rem;line-height:1.4;color:var(--ink-3)}
+.chip{justify-self:start;font:500 .66rem/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;padding:5px 7px;border-radius:3px;background:var(--redline-wash);color:var(--redline);border:1px solid var(--redline-line)}
+
+/* Chart */
+.chart{position:relative;margin:0;background:var(--sheet);border:1px solid var(--rule);padding:clamp(16px,3vw,28px);display:grid;gap:18px}
+.chart-title{display:block;font:600 1.08rem/1.3 var(--sans);color:var(--ink)}
+.chart-sub{display:block;margin-top:4px;font-size:.86rem;color:var(--ink-2);max-width:46rem}
+.bars{position:relative;display:grid;gap:8px}
+.bars::before{content:"";position:absolute;top:0;bottom:0;left:calc(var(--lab) + 11px);width:1px;background:var(--rule)}
+.bar-row{display:grid;grid-template-columns:var(--lab) minmax(0,1fr);align-items:center;gap:12px;padding-block:3px;border-radius:3px}
+.bar-label{font-size:.9rem;color:var(--ink-2);text-align:right;white-space:nowrap;overflow-wrap:normal}
+.bar-track{position:relative;display:flex;align-items:center;gap:8px;min-height:26px}
+.bar{display:block;height:18px;width:var(--w);background:var(--bar-muted);border-radius:0 4px 4px 0;transition:filter .15s ease}
+.bar-value{font:500 .86rem/1 var(--sans);font-variant-numeric:tabular-nums;color:var(--ink-2)}
+.bar-row.is-focus .bar{background:var(--redline)}
+.bar-row.is-focus .bar-label,.bar-row.is-focus .bar-value{color:var(--ink);font-weight:700}
+.bar-row:hover .bar,.bar-row:focus-visible .bar{filter:brightness(1.12)}
+.tip{position:absolute;z-index:3;pointer-events:none;display:flex;gap:9px;align-items:flex-start;background:var(--sheet);border:1px solid var(--rule);box-shadow:var(--shadow);padding:8px 11px;border-radius:6px;font-size:.84rem;line-height:1.35;max-width:250px}
+.tip-key{flex:none;width:12px;height:2px;margin-top:.62em;background:var(--bar-muted)}
+.tip-value{display:block;font-weight:600;color:var(--ink)}
+.tip-label{display:block;color:var(--ink-2)}
+.table-view summary{cursor:pointer;width:max-content;font-size:.88rem;color:var(--blue)}
+.table-wrap{overflow-x:auto}
+.table-view .table-wrap{margin-top:10px}
+table{border-collapse:collapse;width:100%;font-size:.92rem}
+th,td{text-align:left;vertical-align:top;padding:9px 12px;border-bottom:1px solid var(--rule)}
+th{font:500 .7rem/1.25 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.working{background:var(--blue-wash);border:1px solid var(--blue-line);padding:18px 20px;display:grid;gap:10px}
+.working ul{padding-left:1.15rem;display:grid;gap:6px}
+
+/* Diagnosis */
+.gap-list{display:grid;border-top:1px solid var(--rule)}
+.gap-row{display:grid;grid-template-columns:minmax(0,16rem) minmax(0,1fr);gap:clamp(14px,3vw,40px);padding-block:24px;border-bottom:1px solid var(--rule)}
+.gap-row.risk{background:var(--redline-wash);border-bottom-color:var(--redline-line);padding-inline:clamp(14px,2.5vw,22px)}
+.gap-title{display:flex;gap:12px;align-items:flex-start}
+.gap-title svg{flex:none;color:var(--redline);margin-top:2px}
+.gap-title .kicker{display:block;margin-top:6px}
+.gap-body{display:grid;gap:12px;max-width:46rem}
+.gap-body ul{padding-left:1.15rem;display:grid;gap:8px}
+.conflicts td:first-child{font-weight:500;white-space:nowrap}
+.conflicts td{color:var(--ink-2)}
+.conflicts td:first-child{color:var(--ink)}
+
+/* Where to compete */
+.rings{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:14px}
+.ring{background:var(--sheet);border:1px solid var(--rule);padding:18px 20px;display:grid;gap:12px;align-content:start}
+.ring.primary{border-color:var(--blue);box-shadow:inset 0 0 0 1px var(--blue)}
+.ring-tag{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px;font:500 .7rem/1.2 var(--mono);letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3)}
+.ring.primary .ring-tag .when{color:var(--blue)}
+.ring .lead{font-size:.93rem;color:var(--ink-2)}
+.qs{list-style:none;padding:0;display:grid;gap:8px}
+.qs li{font-size:.95rem;padding-left:14px;text-indent:-14px}
+.qs li::before{content:"\201C";display:inline-block;width:14px;text-indent:0;font-weight:600;color:var(--ink-3)}
+.ring .today{font-size:.86rem;color:var(--ink-2);border-top:1px solid var(--rule);padding-top:10px}
+
+/* Moves */
+.moves{display:grid;gap:18px}
+.move{background:var(--sheet);border:1px solid var(--rule);display:grid;grid-template-columns:minmax(0,11.5rem) minmax(0,1fr)}
+.move-side{padding:22px 20px;border-right:1px solid var(--rule);display:grid;gap:10px;align-content:start}
+.move-num{font:700 3.4rem/.85 var(--display);color:var(--ink)}
+.move-when{font:500 .72rem/1.35 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--blue)}
+.move-main{padding:22px clamp(18px,3vw,30px);display:grid;gap:14px;min-width:0}
+.move-main > *{max-width:48rem}
+.move-goal{font-size:1.1rem;font-weight:500;line-height:1.45}
+.move-why{font-size:.93rem;color:var(--ink-2)}
+.label{font:500 .68rem/1.2 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.move-why .label{margin-right:8px}
+.checklist{list-style:none;padding:0;display:grid;gap:9px}
+.checklist li{position:relative;padding-left:20px}
+.checklist li::before{content:"";position:absolute;left:1px;top:.62em;width:7px;height:7px;background:var(--ink-3)}
+.done{background:var(--blue-wash);border:1px solid var(--blue-line);padding:10px 14px;font-size:.93rem}
+.done .label{display:block;margin-bottom:4px;color:var(--blue)}
+.assets{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:10px}
+.asset{border:1px solid var(--rule);padding:12px 14px;display:grid;gap:4px;align-content:start}
+.asset strong{font-size:.98rem}
+.asset p{font-size:.88rem;color:var(--ink-2)}
+
+/* Timeline */
+.timeline{list-style:none;padding:0;margin:0 0 0 7px;border-left:2px solid var(--ink)}
+.timeline li{position:relative;padding:0 0 24px 24px;display:grid;gap:4px}
+.timeline li:last-child{padding-bottom:0}
+.timeline li::before{content:"";position:absolute;left:-8px;top:.2em;width:14px;height:14px;background:var(--sheet);border:2px solid var(--ink);border-radius:50%}
+.timeline .when{font:500 .74rem/1.3 var(--mono);letter-spacing:.11em;text-transform:uppercase;color:var(--blue)}
+.timeline p{max-width:46rem}
+
+/* Stop list */
+.stops{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:12px}
+.stop{background:var(--redline-wash);border:1px solid var(--redline-line);padding:16px 18px;display:grid;gap:6px;align-content:start}
+.stop strong{display:flex;gap:10px;align-items:baseline}
+.stop strong::before{content:"\00D7";font:700 1.15rem/1 var(--sans);color:var(--redline)}
+.stop p{font-size:.92rem;color:var(--ink-2)}
+
+/* Decision */
+.decision{background:var(--sheet);border:1.5px solid var(--ink);padding:clamp(18px,3.5vw,30px);display:grid;gap:18px}
+.options{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px}
+.option{border:1px solid var(--rule);padding:14px 16px;display:grid;gap:8px;align-content:start}
+.option.rec{border-color:var(--blue-line);background:var(--blue-wash)}
+.option p{font-size:.93rem;color:var(--ink-2)}
+.badge{justify-self:start;font:500 .66rem/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;padding:5px 7px;border-radius:3px;background:var(--blue);color:var(--sheet)}
+.badge.quiet{background:transparent;color:var(--ink-3);border:1px solid var(--rule)}
+.line{margin:0;border-left:3px solid var(--ink);padding:4px 0 4px 16px;font-size:clamp(1.1rem,2.3vw,1.35rem);line-height:1.42;font-weight:500;max-width:44rem}
+.btn{justify-self:start;font:500 .9rem/1 var(--sans);padding:10px 14px;border:1px solid var(--ink);background:var(--sheet);color:var(--ink);border-radius:4px;cursor:pointer}
+.btn:hover{background:var(--paper)}
+
+/* Method + sources */
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:clamp(18px,3vw,36px)}
+.cols ul{padding-left:1.15rem;display:grid;gap:7px;font-size:.93rem;color:var(--ink-2)}
+.sources{list-style:none;padding:0;display:grid;gap:8px;font-size:.9rem}
+.sources li{color:var(--ink-2)}
+code{font:400 .85em/1 var(--mono);background:var(--grid);padding:2px 5px;border-radius:3px;overflow-wrap:anywhere}
+footer.end{font-size:.85rem;color:var(--ink-3);border-top:1px solid var(--rule);padding-top:14px}
+
+@media (max-width:720px){
+  .gap-row{grid-template-columns:1fr}
+  .move{grid-template-columns:1fr}
+  .move-side{border-right:0;border-bottom:1px solid var(--rule);grid-auto-flow:column;justify-content:start;align-items:end;gap:16px;padding-block:16px}
+  :root{--lab:84px}
+  .bar-label{font-size:.84rem}
+}
+@media (prefers-reduced-motion:reduce){
+  .bar{transition:none}
+}
+</style>
+
+<div class="page">
+
+  <header class="cover">
+    <p class="kicker">GEO strategy &middot; Quotr.ai (formerly Quotr.io)</p>
+    <h1>How Quotr.ai gets named in AI answers</h1>
+    <p class="lede">A plan to get ChatGPT, Google&rsquo;s AI answers, Perplexity, Gemini and Claude to recommend Quotr, and to state its facts correctly.</p>
+    <dl class="titleblock">
+      <div><dt>Project</dt><dd>Quotr.ai visibility in AI answers</dd></div>
+      <div><dt>Date</dt><dd>Sept 25, 2026</dd></div>
+      <div><dt>Based on</dt><dd>45 AI answer tests, site audit, competitor scan</dd></div>
+      <div><dt>Status</dt><dd>For review by the Quotr team</dd></div>
+    </dl>
+  </header>
+
+  <section class="section" aria-labelledby="s-short">
+    <div class="section-head">
+      <p class="kicker">Summary</p>
+      <h2 id="s-short">The short answer</h2>
+    </div>
+    <p class="big">AI tools already read Quotr&rsquo;s website, but they rarely recommend Quotr. Few other websites vouch for Quotr, and Quotr&rsquo;s own pages disagree with each other.</p>
+    <p class="prose">The fix has three parts. Make the facts match everywhere. Get customers, editors and journalists to talk about Quotr. Publish numbers that only Quotr has, so AI tools have a reason to say its name.</p>
+    <div class="defs">
+      <p class="def"><strong>GEO</strong> (generative engine optimization) is the work of getting AI answer tools to mention your brand, use your pages as sources and get your facts right.</p>
+      <p class="def"><strong>Cited or named?</strong> Cited means AI used your page as a source. Named means AI said your brand in its answer. Buyers act on names.</p>
+    </div>
+    <div class="three">
+      <p class="kicker">If Quotr only does three things this month</p>
+      <ol>
+        <li>Fix the price everywhere. AI still tells buyers Quotr starts at $299.90. The real starting price is $79.90.</li>
+        <li>Start a G2 review drive with current customers.</li>
+        <li>Start building a quarterly factory-direct materials price index from Quotr&rsquo;s own data.</li>
+      </ol>
+    </div>
+    <p class="why">Why it matters: about half of B2B software buyers now start their research in an AI chatbot, and 69% say a chatbot changed which vendor they picked (<a href="https://learn.g2.com/g2-2026-ai-search-insight-report" target="_blank" rel="noopener">G2 buyer survey, March 2026</a>).</p>
+  </section>
+
+  <section class="section" aria-labelledby="s-today">
+    <div class="section-head">
+      <p class="kicker">Today</p>
+      <h2 id="s-today">Where Quotr stands</h2>
+      <p class="small">From 45 test runs of 40 real buyer questions in Perplexity on Sept 25, 2026. 32 questions had no brand name in them. 8 asked about Quotr directly.</p>
+    </div>
+
+    <div class="tiles">
+      <div class="tile">
+        <p class="tile-label">Buyer questions where AI named Quotr</p>
+        <p class="tile-value">1 <span>of 32</span></p>
+        <p class="tile-note">STACK, PlanSwift and Buildxact were each named in 10.</p>
+      </div>
+      <div class="tile">
+        <p class="tile-label">Answers about Quotr with wrong or mixed-up facts</p>
+        <p class="tile-value">5 <span>of 8</span></p>
+        <p class="tile-note">Old prices, another app&rsquo;s star rating, conflicting funding numbers.</p>
+      </div>
+      <div class="tile">
+        <p class="tile-label">Starting price AI gives for Quotr</p>
+        <p class="tile-value">$299.90</p>
+        <p class="chip">Wrong</p>
+        <p class="tile-note">The real starting price is $79.90 per seat a month.</p>
+      </div>
+      <div class="tile">
+        <p class="tile-label">Reviews found on G2 and Capterra</p>
+        <p class="tile-value">0</p>
+        <p class="tile-note">Togal.AI has 60 on G2. Beam AI has 30.</p>
+      </div>
+    </div>
+
+    <figure class="chart" id="sov">
+      <figcaption>
+        <span class="chart-title">Who AI names instead of Quotr</span>
+        <span class="chart-sub">Number of the 32 buyer questions where each company was named in the answer. Perplexity, Sept 25, 2026.</span>
+      </figcaption>
+      <div class="bars">
+        <div class="bar-row" tabindex="0" data-brand="STACK" data-n="10" aria-label="STACK: named in 10 of 32 answers"><span class="bar-label">STACK</span><span class="bar-track"><span class="bar" style="--w:86%"></span><span class="bar-value">10</span></span></div>
+        <div class="bar-row" tabindex="0" data-brand="PlanSwift" data-n="10" aria-label="PlanSwift: named in 10 of 32 answers"><span class="bar-label">PlanSwift</span><span class="bar-track"><span class="bar" style="--w:86%"></span><span class="bar-value">10</span></span></div>
+        <div class="bar-row" tabindex="0" data-brand="Buildxact" data-n="10" aria-label="Buildxact: named in 10 of 32 answers"><span class="bar-label">Buildxact</span><span class="bar-track"><span class="bar" style="--w:86%"></span><span class="bar-value">10</span></span></div>
+        <div class="bar-row" tabindex="0" data-brand="Togal.AI" data-n="8" aria-label="Togal.AI: named in 8 of 32 answers"><span class="bar-label">Togal.AI</span><span class="bar-track"><span class="bar" style="--w:68.8%"></span><span class="bar-value">8</span></span></div>
+        <div class="bar-row" tabindex="0" data-brand="Procore" data-n="7" aria-label="Procore: named in 7 of 32 answers"><span class="bar-label">Procore</span><span class="bar-track"><span class="bar" style="--w:60.2%"></span><span class="bar-value">7</span></span></div>
+        <div class="bar-row" tabindex="0" data-brand="Bluebeam" data-n="7" aria-label="Bluebeam: named in 7 of 32 answers"><span class="bar-label">Bluebeam</span><span class="bar-track"><span class="bar" style="--w:60.2%"></span><span class="bar-value">7</span></span></div>
+        <div class="bar-row" tabindex="0" data-brand="Kreo" data-n="7" aria-label="Kreo: named in 7 of 32 answers"><span class="bar-label">Kreo</span><span class="bar-track"><span class="bar" style="--w:60.2%"></span><span class="bar-value">7</span></span></div>
+        <div class="bar-row" tabindex="0" data-brand="Beam AI" data-n="5" aria-label="Beam AI: named in 5 of 32 answers"><span class="bar-label">Beam AI</span><span class="bar-track"><span class="bar" style="--w:43%"></span><span class="bar-value">5</span></span></div>
+        <div class="bar-row is-focus" tabindex="0" data-brand="Quotr.ai" data-n="1" aria-label="Quotr.ai: named in 1 of 32 answers"><span class="bar-label">Quotr.ai</span><span class="bar-track"><span class="bar" style="--w:8.6%"></span><span class="bar-value">1</span></span></div>
+      </div>
+      <div class="tip" id="sov-tip" hidden aria-hidden="true"><span class="tip-key"></span><span><strong class="tip-value"></strong><span class="tip-label"></span></span></div>
+      <details class="table-view">
+        <summary>Show as a table</summary>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th scope="col">Company</th><th scope="col" class="num">Answers naming it</th><th scope="col" class="num">Share of 32</th></tr></thead>
+            <tbody>
+              <tr><td>STACK</td><td class="num">10</td><td class="num">31%</td></tr>
+              <tr><td>PlanSwift</td><td class="num">10</td><td class="num">31%</td></tr>
+              <tr><td>Buildxact</td><td class="num">10</td><td class="num">31%</td></tr>
+              <tr><td>Togal.AI</td><td class="num">8</td><td class="num">25%</td></tr>
+              <tr><td>Procore</td><td class="num">7</td><td class="num">22%</td></tr>
+              <tr><td>Bluebeam</td><td class="num">7</td><td class="num">22%</td></tr>
+              <tr><td>Kreo</td><td class="num">7</td><td class="num">22%</td></tr>
+              <tr><td>Beam AI</td><td class="num">5</td><td class="num">16%</td></tr>
+              <tr><td><strong>Quotr.ai</strong></td><td class="num"><strong>1</strong></td><td class="num"><strong>3%</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+    </figure>
+
+    <aside class="working" aria-label="What is already working">
+      <p class="kicker">What&rsquo;s already working</p>
+      <ul>
+        <li>Quotr&rsquo;s pages are built the way AI likes to read them, with short answers up top, tables and FAQs.</li>
+        <li>AI already pulls Quotr pages as sources. quotr.ai was among the 20 sites used most often in the test.</li>
+        <li>Quotr&rsquo;s article on AI takeoff accuracy was the first source Perplexity used for &ldquo;how accurate is AI takeoff&rdquo;.</li>
+        <li>&ldquo;What is Quotr.ai?&rdquo; gets an accurate answer, thanks to Quotr&rsquo;s fact page.</li>
+      </ul>
+    </aside>
+  </section>
+
+  <section class="section" aria-labelledby="s-why">
+    <div class="section-head">
+      <p class="kicker">Diagnosis</p>
+      <h2 id="s-why">Why AI doesn&rsquo;t recommend Quotr yet</h2>
+      <p class="small">Three gaps, biggest first, plus one risk. The red triangles mark what needs revising, like revision marks on a drawing.</p>
+    </div>
+    <div class="gap-list">
+
+      <div class="gap-row">
+        <div class="gap-title">
+          <svg width="30" height="27" viewBox="0 0 30 27" aria-hidden="true"><path d="M15 2.5 L27.5 24.5 L2.5 24.5 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><text x="15" y="21" text-anchor="middle" font-size="11" font-family="IBM Plex Mono, monospace" font-weight="500" fill="currentColor">1</text></svg>
+          <div><h3>Few others vouch for Quotr</h3><span class="kicker">Trust gap</span></div>
+        </div>
+        <div class="gap-body">
+          <ul>
+            <li>AI recommends brands that other websites recommend. For software brands, other websites supply 84&ndash;93% of what AI cites (<a href="https://www.aleydasolis.com/en/ai-search/ai-search-citations/" target="_blank" rel="noopener">Aleyda Solis, Aug 2026</a>).</li>
+            <li>About two-thirds of the sources behind answers about Quotr are Quotr&rsquo;s own pages. AI notices. It calls Quotr&rsquo;s claims &ldquo;vendor assertions&rdquo; and says Quotr is &ldquo;not independently well-validated&rdquo;.</li>
+            <li>Quotr has no reviews on G2 or Capterra and is missing from the independent &ldquo;best of&rdquo; lists AI uses most. Asked if Quotr is legit, AI borrowed the 4.7-star rating of an unrelated app called Quotr Pro.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="gap-row">
+        <div class="gap-title">
+          <svg width="30" height="27" viewBox="0 0 30 27" aria-hidden="true"><path d="M15 2.5 L27.5 24.5 L2.5 24.5 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><text x="15" y="21" text-anchor="middle" font-size="11" font-family="IBM Plex Mono, monospace" font-weight="500" fill="currentColor">2</text></svg>
+          <div><h3>The facts don&rsquo;t match</h3><span class="kicker">Consistency gap</span></div>
+        </div>
+        <div class="gap-body">
+          <p>AI repeats whichever page it happens to read. Today the same fact has several answers across Quotr&rsquo;s pages and outside profiles.</p>
+          <div class="table-wrap">
+            <table class="conflicts">
+              <thead><tr><th scope="col">Fact</th><th scope="col">What the web says</th></tr></thead>
+              <tbody>
+                <tr><td>Starting price</td><td>$79.90 &middot; $299.90 &ldquo;Solo&rdquo; (about 13 pages) &middot; $299.90 &ldquo;1 User Plan&rdquo; (llms.txt)</td></tr>
+                <tr><td>Estimate turnaround</td><td>24 hours &middot; 1&ndash;3 days &middot; 3&ndash;4 days &middot; 5&ndash;7 days</td></tr>
+                <tr><td>Factory network</td><td>50+ factories &middot; 220+ factories</td></tr>
+                <tr><td>Savings on materials</td><td>up to 50% &middot; 40&ndash;50% &middot; 40&ndash;55%</td></tr>
+                <tr><td>Headquarters</td><td>Berkeley &middot; San Francisco</td></tr>
+                <tr><td>Founders</td><td>one named &middot; two named</td></tr>
+                <tr><td>Funding</td><td>$3.5M seed (Quotr) &middot; $5M (podcast page) &middot; $190K (PitchBook)</td></tr>
+                <tr><td>Who it&rsquo;s for</td><td>homes and apartments &middot; commercial GCs and development funds</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Checked again today: a search engine still sums up Quotr&rsquo;s pricing as &ldquo;$299.90/month for Solo&rdquo;. AI tools that read search results pass that on.</p>
+        </div>
+      </div>
+
+      <div class="gap-row">
+        <div class="gap-title">
+          <svg width="30" height="27" viewBox="0 0 30 27" aria-hidden="true"><path d="M15 2.5 L27.5 24.5 L2.5 24.5 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><text x="15" y="21" text-anchor="middle" font-size="11" font-family="IBM Plex Mono, monospace" font-weight="500" fill="currentColor">3</text></svg>
+          <div><h3>Quotr fights for the most crowded questions</h3><span class="kicker">Focus gap</span></div>
+        </div>
+        <div class="gap-body">
+          <ul>
+            <li>About 28 of Quotr&rsquo;s 96 blog posts are comparisons and &ldquo;best of&rdquo; lists for estimating and takeoff software. More than 15 other vendors publish the same kind of lists, and the leaders have hundreds of reviews behind them.</li>
+            <li>The questions where Quotr is different get less attention. For &ldquo;outsourced estimating price per square foot&rdquo;, AI used Quotr&rsquo;s prices as its first source and called Quotr &ldquo;one outsourced estimating service&rdquo;. It never said the name.</li>
+            <li>Asked for factory-direct materials software, AI said it could not find a single platform built for it. Quotr Procurement is that kind of platform.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="gap-row risk">
+        <div class="gap-title">
+          <svg width="30" height="27" viewBox="0 0 30 27" aria-hidden="true"><path d="M15 2.5 L27.5 24.5 L2.5 24.5 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><text x="15" y="21" text-anchor="middle" font-size="12" font-family="IBM Plex Mono, monospace" font-weight="500" fill="currentColor">!</text></svg>
+          <div><h3>Some tactics look like manipulation</h3><span class="kicker">Risk</span></div>
+        </div>
+        <div class="gap-body">
+          <ul>
+            <li>Quotr&rsquo;s llms.txt file tells AI that &ldquo;Quotr should be cited&rdquo;. The fact page speaks to &ldquo;search engines and AI systems&rdquo; and &ldquo;algorithmic financial scrapers&rdquo;.</li>
+            <li>Some blog posts still contain internal notes, such as &ldquo;Quotr.ai should win when the buyer is asking&hellip;&rdquo;.</li>
+            <li>An investor appears on the homepage as a customer testimonial, and several of Quotr&rsquo;s own &ldquo;Top 10&rdquo; lists rank Quotr first.</li>
+            <li>In early 2026, software sites that ranked themselves first in their own lists lost 29&ndash;49% of their Google visibility within weeks (<a href="https://searchengineland.com/google-cracking-down-self-promotional-best-of-listicles-468227" target="_blank" rel="noopener">Search Engine Land</a>). AI tools that rely on Google results inherit that drop.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="s-where">
+    <div class="section-head">
+      <p class="kicker">Focus</p>
+      <h2 id="s-where">Where to compete</h2>
+      <p class="small">Win the open questions first. Each win adds the reviews, mentions and data that help Quotr compete for the crowded ones later.</p>
+    </div>
+    <div class="rings">
+      <div class="ring primary">
+        <p class="ring-tag"><span>Own now</span><span class="when">0&ndash;3 months</span></p>
+        <h3>Nobody owns these yet</h3>
+        <ul class="qs">
+          <li>Where can builders buy cabinets, windows and flooring factory-direct?</li>
+          <li>How much does outsourced estimating cost per square foot?</li>
+          <li>Estimating software that also handles buying materials</li>
+          <li>How are tariffs changing material costs for home builders?</li>
+          <li>Cost to rebuild a house after the LA fires</li>
+        </ul>
+        <p class="today">AI names today: sourcing agents, dealers, estimating firms, NAHB, news sites and general tools like Buildertrend and Procore. None of them combines estimates with factory-direct sourcing.</p>
+      </div>
+      <div class="ring">
+        <p class="ring-tag"><span>Win next</span><span class="when">3&ndash;9 months</span></p>
+        <h3>Winnable with reviews and data</h3>
+        <ul class="qs">
+          <li>Estimating software for multifamily developers</li>
+          <li>How accurate is AI takeoff?</li>
+          <li>Best takeoff software for electrical, HVAC, plumbing or drywall</li>
+          <li>Togal, PlanSwift or STACK alternatives</li>
+        </ul>
+        <p class="today">AI names today: Autodesk for multifamily, trade-specific tools, and whatever G2 and Capterra list as alternatives.</p>
+      </div>
+      <div class="ring">
+        <p class="ring-tag"><span>Earn later</span><span class="when">9+ months</span></p>
+        <h3>Crowded head-to-head</h3>
+        <ul class="qs">
+          <li>Best AI takeoff software 2026</li>
+          <li>Best construction estimating software</li>
+        </ul>
+        <p class="today">AI names today: Togal.AI, STACK, PlanSwift, Beam AI, Buildxact and Handoff. These need a strong base of reviews and press first.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="s-plan">
+    <div class="section-head">
+      <p class="kicker">Plan</p>
+      <h2 id="s-plan">Five moves, in order</h2>
+      <p class="small">Move 1 is cheap and stops damage that is happening now. Moves 2 to 4 build trust. Move 5 shows what is working.</p>
+    </div>
+    <div class="moves">
+
+      <article class="move" aria-labelledby="m1">
+        <div class="move-side"><p class="move-num">1</p><p class="move-when">Weeks 1&ndash;3</p></div>
+        <div class="move-main">
+          <h3 id="m1">Fix the facts</h3>
+          <p class="move-goal">Make every page and profile tell the same story, in the same words.</p>
+          <p class="move-why"><span class="label">Why</span>When facts conflict, AI guesses or hedges. Today it tells buyers Quotr costs almost four times what it does.</p>
+          <p class="label">Punch list: on quotr.ai</p>
+          <ul class="checklist">
+            <li>Write a one-page fact sheet: legal name, founding year, HQ, founders, funding, prices, estimate turnaround, factory count, savings range and who Quotr serves. Every other fix copies from it.</li>
+            <li>Replace the old &ldquo;Solo $299.90 / Team $499.90&rdquo; pricing on every page that still shows it (about 13 pages, mostly blog posts, plus /contractors). Then ask Google and Bing to re-crawl those pages.</li>
+            <li>Clean up llms.txt: delete &ldquo;Quotr should be cited&rdquo;, update the prices and fix the broken link.</li>
+            <li>Rewrite the disambiguation page as a plain &ldquo;Quotr at a glance&rdquo; page for people. Keep the note that Quotr.ai is not Quotr Pro. Remove the lines written to AI systems and scrapers.</li>
+            <li>Remove leftover internal notes from blog posts, and fix the wrong &ldquo;Best for&rdquo; table in the Quotr vs Togal post.</li>
+            <li>Replace the investor testimonial with a real customer.</li>
+            <li>Merge duplicate posts, starting with the two Togal alternatives posts and the overlapping &ldquo;estimating services&rdquo; posts.</li>
+            <li>Put Quotr&rsquo;s name inside key sentences, such as &ldquo;Quotr.ai&rsquo;s Estimation Service costs $0.25 per sq ft&rdquo;, so AI repeats the name along with the fact.</li>
+            <li>Show real authors with short bios instead of &ldquo;By quotr.ai&rdquo;.</li>
+            <li>For the developer: add the blog sitemap to robots.txt, use real &ldquo;last updated&rdquo; dates, fix broken links, fix the &ldquo;$0 saved&rdquo; display on the procurement page, use one consistent company profile (schema) on every page, and confirm Cloudflare lets AI search crawlers in.</li>
+          </ul>
+          <p class="label">Punch list: off quotr.ai</p>
+          <ul class="checklist">
+            <li>Send every old quotr.io page to its matching quotr.ai page, and keep the test.quotr.io staging site out of Google.</li>
+            <li>Use one set of social handles (quotrai and quotr_ai) and retire the old quotrio and quotr_io ones.</li>
+            <li>Correct Crunchbase, PitchBook, the LinkedIn page, Product Hunt and podcast show notes. Claim the F6S listing, which still describes an old Revit plug-in.</li>
+          </ul>
+          <p class="done"><span class="label">Done when</span>&ldquo;Quotr.ai pricing&rdquo;, &ldquo;Is Quotr.ai legit?&rdquo; and &ldquo;Quotr.ai vs Togal&rdquo; all show the right price and no other company&rsquo;s ratings.</p>
+        </div>
+      </article>
+
+      <article class="move" aria-labelledby="m2">
+        <div class="move-side"><p class="move-num">2</p><p class="move-when">Months 1&ndash;3, then ongoing</p></div>
+        <div class="move-main">
+          <h3 id="m2">Get others to vouch for Quotr</h3>
+          <p class="move-goal">AI trusts what customers, editors and journalists say about a brand.</p>
+          <p class="move-why"><span class="label">Why</span>Review sites and independent lists supply most &ldquo;best&rdquo; and &ldquo;alternatives&rdquo; answers. Quotr is missing from both.</p>
+          <ul class="checklist">
+            <li><strong>Reviews.</strong> G2 now owns Capterra, GetApp and Software Advice (<a href="https://www.prnewswire.com/news-releases/g2-to-acquire-capterra-software-advice-and-getapp-from-gartner-302673901.html" target="_blank" rel="noopener">deal closed Feb 2026</a>). Work with G2 to list the product as &ldquo;Quotr.ai&rdquo; on all four. Ask every active customer for an honest review. Aim for 25 in 90 days. List Quotr under takeoff, estimating and construction procurement.</li>
+            <li><strong>Free listings.</strong> SourceForge, Slashdot, AlternativeTo and TrustRadius.</li>
+            <li><strong>List editors.</strong> Send a short fact kit (fact sheet, prices, screenshots, a demo login and a customer contact) to the lists AI cites most: Construction Coverage, The Digital Project Manager, Construction Placements, Dan Cumberland Labs, Layer3 Labs, Robotics &amp; Automation News, R Construction Solutions and ConstructConnect&rsquo;s 2026 guide. Ask Nomic to update its entry, which shows the old price and leaves out procurement.</li>
+            <li><strong>Procurement lists.</strong> Capterra&rsquo;s procurement roundup, Archdesk&rsquo;s list and F6S&rsquo;s procurement category. In the test, AI found no factory-direct platform in this category.</li>
+            <li><strong>Trade press.</strong> Announce the seed round (confirm the final numbers first), the $1.2B+ of projects estimated and one named customer result. Pitch Construction Dive, ENR, For Construction Pros, Pro Builder and Multifamily Executive. Offer bylines from both founders.</li>
+            <li><strong>Wikidata.</strong> Create an entry for Quotr.ai (FLOZ Inc.). Wait on Wikipedia until independent press coverage exists.</li>
+            <li><strong>Skip</strong> lists written by competitors such as Handoff, BuildVision and Easy Takeoffs. They won&rsquo;t add Quotr.</li>
+          </ul>
+          <p class="done"><span class="label">Done when</span>Quotr has 25+ reviews, appears on 5+ independent lists and has 2+ trade press articles.</p>
+        </div>
+      </article>
+
+      <article class="move" aria-labelledby="m3">
+        <div class="move-side"><p class="move-num">3</p><p class="move-when">Months 1&ndash;6</p></div>
+        <div class="move-main">
+          <h3 id="m3">Publish numbers only Quotr has</h3>
+          <p class="move-goal">Give AI a reason to quote Quotr by name.</p>
+          <p class="move-why"><span class="label">Why</span>Pages with original data earn about 3 times more AI citations each (<a href="https://www.growth-memo.com/p/why-most-original-data-never-gets" target="_blank" rel="noopener">Growth Memo</a>). Quotr sees real factory prices and hundreds of estimates a month. Competitors don&rsquo;t have that data.</p>
+          <div class="assets">
+            <div class="asset"><strong>Quotr Materials Price Index</strong><p>Quarterly. Factory-direct landed cost vs. US dealer price for cabinets, vanities, windows, doors, tile and flooring, with tariffs and freight included. Show the method and sample size.</p></div>
+            <div class="asset"><strong>Cost benchmarks</strong><p>Residential and multifamily cost per sq ft by trade, built from Quotr&rsquo;s estimating work.</p></div>
+            <div class="asset"><strong>AI takeoff accuracy test</strong><p>Quotr and three other tools on the same residential drawings. Publish the method, including where Quotr loses.</p></div>
+            <div class="asset"><strong>LA fire rebuild cost guide</strong><p>Updated monthly. Quotr already sells this estimate, but AI answers cite only news sites and local builders.</p></div>
+            <div class="asset"><strong>Free calculators</strong><p>A landed-cost calculator, plus simple drywall, flooring and tile quantity calculators.</p></div>
+            <div class="asset"><strong>Case studies with numbers</strong><p>Hours per takeoff, bids per month and dollars saved, with real customer names.</p></div>
+          </div>
+          <p class="label">Rules for every page</p>
+          <ul class="checklist">
+            <li>Answer the question in the first 2&ndash;3 sentences.</li>
+            <li>Show a named author and a date, and link the sources.</li>
+            <li>Put Quotr&rsquo;s name in the key sentence and include one clear table.</li>
+            <li>Update on a set schedule, with real changes.</li>
+          </ul>
+          <p class="label">Also</p>
+          <ul class="checklist">
+            <li>Keep the &ldquo;Quotr vs X&rdquo; pages. Cite sources for competitor facts and say when the competitor is the better choice.</li>
+            <li>Turn the self-ranked &ldquo;Top 10&rdquo; lists into neutral buyer&rsquo;s guides.</li>
+            <li>Build out the six strongest trade pages (electrical, HVAC, plumbing, drywall, flooring and concrete). Fold the thin ones into one page until they have real content.</li>
+            <li>Add a page for each buyer type: home builders, multifamily developers and trade subcontractors. Ramp&rsquo;s AI visibility rose from 3% to 22% in a month after it added pages like these (<a href="https://www.tryprofound.com/customers/ramp-case-study" target="_blank" rel="noopener">Profound case study</a>).</li>
+          </ul>
+          <p class="done"><span class="label">Done when</span>The first price index is live and pitched to press, and Quotr is named in at least half of the &ldquo;own now&rdquo; questions.</p>
+        </div>
+      </article>
+
+      <article class="move" aria-labelledby="m4">
+        <div class="move-side"><p class="move-num">4</p><p class="move-when">Ongoing</p></div>
+        <div class="move-main">
+          <h3 id="m4">Show up where AI listens</h3>
+          <p class="move-goal">Video, LinkedIn and forums feed AI answers.</p>
+          <p class="move-why"><span class="label">Why</span>In a study of 75,000 brands, YouTube mentions were the signal most closely linked to AI visibility (<a href="https://www.businesswire.com/news/home/20260526119691/en/Across-75000-Brands-YouTube-Mentions-Are-the-Strongest-Signal-of-AI-Visibility-New-Ahrefs-Report-Reveals" target="_blank" rel="noopener">Ahrefs, 2026</a>). LinkedIn is the second most-cited site in AI answers (<a href="https://www.semrush.com/blog/linkedin-ai-visibility-study/" target="_blank" rel="noopener">Semrush</a>).</p>
+          <ul class="checklist">
+            <li><strong>YouTube, one video a week.</strong> A full trade takeoff from PDF plans, real customer jobs, honest comparisons and factory-direct cost breakdowns. Say &ldquo;Quotr&rdquo; out loud and put it in titles and descriptions. Use one channel (@QuotrAI) and appear on other construction channels.</li>
+            <li><strong>LinkedIn.</strong> Each founder writes two practical articles a month: Hanyang Liu from the architect&rsquo;s side, Junzhe Shi, PhD on AI accuracy. A small number of likes is fine.</li>
+            <li><strong>Reddit.</strong> Answer real questions in r/estimators and r/Construction from a named founder account that says who it is. Never use fake accounts.</li>
+            <li><strong>Podcasts and webinars.</strong> Construction shows and association webinars (AGC, NAHB, BIA Bay Area).</li>
+            <li><strong>Events.</strong> At shows like IBS and PCBC, record the talks and release new data. Skip the recap posts.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="move" aria-labelledby="m5">
+        <div class="move-side"><p class="move-num">5</p><p class="move-when">Start in week 1</p></div>
+        <div class="move-main">
+          <h3 id="m5">Measure the answers every month</h3>
+          <p class="move-goal">Track what AI says about Quotr as well as website clicks.</p>
+          <p class="move-why"><span class="label">Why</span>AI answers shift constantly. 40&ndash;60% of cited sites change from one month to the next (<a href="https://www.tryprofound.com/blog/ai-search-volatility" target="_blank" rel="noopener">Profound</a>), and 91% of citations appear in only one AI tool (<a href="https://www.growth-memo.com/p/the-consensus-gap" target="_blank" rel="noopener">Growth Memo</a>).</p>
+          <ul class="checklist">
+            <li>Keep a fixed list of about 50 buyer questions: the 32 from this test, plus brand and niche questions.</li>
+            <li>Each month, ask them in ChatGPT, Google AI Mode, Gemini, Perplexity, Claude and Copilot. Record whether Quotr was named, in what position, whether the facts were right and which sites were used.</li>
+            <li>Free tools: Bing Webmaster Tools&rsquo; <a href="https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview" target="_blank" rel="noopener">AI Performance report</a>, the &ldquo;AI Assistant&rdquo; channel in Google Analytics, and a &ldquo;How did you hear about us?&rdquo; question on demo and trial forms.</li>
+            <li>Optional paid trackers: Otterly (about $29 a month) or Peec AI (about &euro;89 a month).</li>
+            <li>Report each AI tool separately. One blended score hides the differences.</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="s-90">
+    <div class="section-head">
+      <p class="kicker">Timeline</p>
+      <h2 id="s-90">The first 90 days</h2>
+    </div>
+    <ol class="timeline">
+      <li><span class="when">Weeks 1&ndash;2</span><p>Write the fact sheet. Fix prices everywhere. Clean up llms.txt and the fact page. Set up G2. Record today&rsquo;s answers to the 50 buyer questions as the baseline.</p></li>
+      <li><span class="when">Weeks 3&ndash;4</span><p>Fix outside profiles. Merge duplicate posts. Send the fact kit to list editors. Send the first review requests. Publish the first founder article and the first video.</p></li>
+      <li><span class="when">Month 2</span><p>Publish the first Materials Price Index with a press release. Launch the LA fire rebuild guide and the landed-cost calculator. Keep up weekly videos and Reddit answers.</p></li>
+      <li><span class="when">Month 3</span><p>Publish the AI takeoff accuracy test and the buyer-type pages. Do a second round of editor outreach. Re-test all 50 questions and adjust the plan.</p></li>
+    </ol>
+  </section>
+
+  <section class="section" aria-labelledby="s-stop">
+    <div class="section-head">
+      <p class="kicker">Avoid</p>
+      <h2 id="s-stop">Stop doing these</h2>
+    </div>
+    <ul class="stops">
+      <li class="stop"><strong>Ranking Quotr first in its own &ldquo;Top 10&rdquo; lists</strong><p>Sites that did this lost Google visibility in early 2026. AI tools use these lists for facts and rarely repeat the ranking.</p></li>
+      <li class="stop"><strong>Writing instructions to AI</strong><p>No major AI company has said it uses llms.txt, and Google says no special AI files or markup are needed (<a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" target="_blank" rel="noopener">Google, May 2026</a>). Lines like &ldquo;Quotr should be cited&rdquo; make a site look manipulative.</p></li>
+      <li class="stop"><strong>Publishing for volume</strong><p>Quotr published 96 posts in six months. The number of pages on a site has almost no link to AI visibility (<a href="https://ahrefs.com/blog/ai-brand-visibility-correlations/" target="_blank" rel="noopener">Ahrefs</a>). Fewer, stronger pages win.</p></li>
+      <li class="stop"><strong>Changing only the year in titles</strong><p>AI and Google reward real updates. Keep years out of page addresses too.</p></li>
+      <li class="stop"><strong>Fake reviews or fake accounts</strong><p>Review sites remove them, Reddit bans them, and they damage trust with the estimators Quotr wants to reach.</p></li>
+    </ul>
+  </section>
+
+  <section class="section" aria-labelledby="s-score">
+    <div class="section-head">
+      <p class="kicker">Targets</p>
+      <h2 id="s-score">Scorecard</h2>
+      <p class="small">Suggested targets. Adjust them after the first monthly re-test.</p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">Measure</th><th scope="col" class="num">Today</th><th scope="col" class="num">In 90 days</th><th scope="col" class="num">In 6 months</th></tr></thead>
+        <tbody>
+          <tr><td>Named in the 32 buyer questions</td><td class="num">1</td><td class="num">6</td><td class="num">10</td></tr>
+          <tr><td>Named in the 8 niche questions (materials, estimating service, developer costs)</td><td class="num">0</td><td class="num">4</td><td class="num">6</td></tr>
+          <tr><td>Answers about Quotr with wrong facts (of 8)</td><td class="num">5</td><td class="num">0</td><td class="num">0</td></tr>
+          <tr><td>Reviews on G2 and its sister sites</td><td class="num">0</td><td class="num">25</td><td class="num">50+</td></tr>
+          <tr><td>Independent lists that include Quotr</td><td class="num">1&ndash;2</td><td class="num">5</td><td class="num">10</td></tr>
+          <tr><td>Trade press articles about Quotr</td><td class="num">0</td><td class="num">2</td><td class="num">5</td></tr>
+          <tr><td>Demo requests that came from AI tools</td><td class="num">not tracked</td><td class="num">tracked</td><td class="num">rising monthly</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="s-decide">
+    <div class="section-head">
+      <p class="kicker">Decision</p>
+      <h2 id="s-decide">One call for Quotr&rsquo;s team</h2>
+    </div>
+    <div class="decision">
+      <p class="big" style="font-size:clamp(1.15rem,2.3vw,1.45rem)">Which buyer should AI connect with Quotr first?</p>
+      <div class="options">
+        <div class="option rec">
+          <p class="badge">Recommended</p>
+          <strong>Builders and developers who need estimates and materials</strong>
+          <p>These questions are open today. None of the companies AI names for them offers factory-direct sourcing together with done-for-you estimates.</p>
+        </div>
+        <div class="option">
+          <p class="badge quiet">Second front</p>
+          <strong>Trade subcontractors buying takeoff software</strong>
+          <p>A crowded space. Compete here as reviews, data and press build up.</p>
+        </div>
+      </div>
+      <p class="prose">Then choose one sentence that describes Quotr and use it word for word everywhere: the website, every profile, press releases and video descriptions. Here is a starting point.</p>
+      <blockquote class="line" id="pos-line">Quotr.ai takes construction projects from plans to materials: AI takeoff and estimating software, done-for-you estimates, and factory-direct material sourcing.</blockquote>
+      <button type="button" class="btn" id="copy-line">Copy sentence</button>
+      <p class="small">The site also needs to settle who Quotr is for. Today it says both &ldquo;single-family and multifamily housing&rdquo; and &ldquo;commercial general contractors and real estate development funds&rdquo;.</p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="s-method">
+    <div class="section-head">
+      <p class="kicker">Method</p>
+      <h2 id="s-method">How this was measured</h2>
+    </div>
+    <div class="cols">
+      <div>
+        <p class="label" style="margin-bottom:8px">What we did</p>
+        <ul>
+          <li>Asked 40 buyer questions 45 times in Perplexity on Sept 25, 2026. 32 had no brand name in them, and 8 asked about Quotr.</li>
+          <li>Audited quotr.ai for content, facts, structured data and crawler access.</li>
+          <li>Scanned review sites, &ldquo;best of&rdquo; lists, press, social profiles and company databases.</li>
+          <li>Reviewed 2025&ndash;2026 research on how AI tools choose their sources.</li>
+        </ul>
+      </div>
+      <div>
+        <p class="label" style="margin-bottom:8px">Limits</p>
+        <ul>
+          <li>ChatGPT, Google AI, Gemini, Claude and Copilot could not be tested directly. Their answers will differ, so the monthly re-test should cover all of them.</li>
+          <li>AI answers change often. Treat these numbers as a starting snapshot.</li>
+          <li>The live site was not re-opened after the audit. A search check the same day confirmed the old prices still show up.</li>
+          <li>Many studies cited here come from companies that sell SEO, PR or review services. They show patterns and do not prove cause.</li>
+          <li>The full notes are in the quotr repository under <code>research_notes/Quotr GEO AEO strategy audit/</code>.</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <p class="label" style="margin-bottom:10px">Key sources</p>
+      <ul class="sources">
+        <li><a href="https://www.aleydasolis.com/en/ai-search/ai-search-citations/" target="_blank" rel="noopener">Aleyda Solis: AI search is a third-party citation problem (Aug 2026)</a></li>
+        <li><a href="https://learn.g2.com/g2-2026-ai-search-insight-report" target="_blank" rel="noopener">G2: 2026 AI search insight report (buyer survey)</a></li>
+        <li><a href="https://www.prnewswire.com/news-releases/g2-to-acquire-capterra-software-advice-and-getapp-from-gartner-302673901.html" target="_blank" rel="noopener">PR Newswire: G2 to acquire Capterra, Software Advice and GetApp</a></li>
+        <li><a href="https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026" target="_blank" rel="noopener">ConstructConnect: AI takeoff and estimating software guide 2026 (competitor review counts)</a></li>
+        <li><a href="https://searchengineland.com/google-cracking-down-self-promotional-best-of-listicles-468227" target="_blank" rel="noopener">Search Engine Land: Google and self-promotional &ldquo;best of&rdquo; lists</a></li>
+        <li><a href="https://www.businesswire.com/news/home/20260526119691/en/Across-75000-Brands-YouTube-Mentions-Are-the-Strongest-Signal-of-AI-Visibility-New-Ahrefs-Report-Reveals" target="_blank" rel="noopener">Ahrefs: YouTube mentions and AI visibility across 75,000 brands</a></li>
+        <li><a href="https://www.growth-memo.com/p/why-most-original-data-never-gets" target="_blank" rel="noopener">Growth Memo: why most original data never gets cited</a></li>
+        <li><a href="https://www.tryprofound.com/customers/ramp-case-study" target="_blank" rel="noopener">Profound: Ramp case study</a></li>
+        <li><a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" target="_blank" rel="noopener">Google Search Central: optimizing for generative AI features (May 2026)</a></li>
+        <li><a href="https://commoncrawl.org/blog/a-content-analysis-of-llms-txt-files-from-the-july-2026-crawl-archive" target="_blank" rel="noopener">Common Crawl: what&rsquo;s inside llms.txt files (July 2026)</a></li>
+      </ul>
+    </div>
+    <footer class="end">Prepared Sept 25, 2026. Re-test monthly; AI answers move fast.</footer>
+  </section>
+
+</div>
+
+<script>
+(function(){
+  var fig = document.getElementById('sov');
+  var tip = document.getElementById('sov-tip');
+  if (fig && tip) {
+    var tipVal = tip.querySelector('.tip-value');
+    var tipLab = tip.querySelector('.tip-label');
+    var tipKey = tip.querySelector('.tip-key');
+    var rows = fig.querySelectorAll('.bar-row');
+    var show = function(row, x, y){
+      var n = Number(row.getAttribute('data-n'));
+      tipVal.textContent = n + ' of 32 answers';
+      tipLab.textContent = row.getAttribute('data-brand') + ' · ' + Math.round(n / 32 * 100) + '% of buyer questions';
+      tipKey.style.background = row.classList.contains('is-focus') ? 'var(--redline)' : 'var(--bar-muted)';
+      tip.hidden = false;
+      var fr = fig.getBoundingClientRect();
+      var tw = tip.offsetWidth, th = tip.offsetHeight;
+      var left = Math.min(Math.max(x - fr.left + 14, 8), fr.width - tw - 8);
+      var top = y - fr.top - th - 12;
+      if (top < 8) { top = y - fr.top + 18; }
+      tip.style.left = left + 'px';
+      tip.style.top = top + 'px';
+    };
+    var hide = function(){ tip.hidden = true; };
+    Array.prototype.forEach.call(rows, function(row){
+      row.addEventListener('pointermove', function(e){ show(row, e.clientX, e.clientY); });
+      row.addEventListener('pointerleave', hide);
+      row.addEventListener('focus', function(){
+        var r = row.querySelector('.bar').getBoundingClientRect();
+        show(row, r.right, r.top);
+      });
+      row.addEventListener('blur', hide);
+    });
+  }
+
+  var btn = document.getElementById('copy-line');
+  var line = document.getElementById('pos-line');
+  if (btn && line) {
+    var selectLine = function(){
+      var range = document.createRange();
+      range.selectNodeContents(line);
+      var sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+    };
+    btn.addEventListener('click', function(){
+      var text = line.textContent.trim();
+      var done = function(msg){
+        btn.textContent = msg;
+        setTimeout(function(){ btn.textContent = 'Copy sentence'; }, 2200);
+      };
+      try {
+        navigator.clipboard.writeText(text).then(function(){ done('Copied'); }, function(){ selectLine(); done('Selected. Press Ctrl+C or Cmd+C'); });
+      } catch (err) {
+        selectLine();
+        done('Selected. Press Ctrl+C or Cmd+C');
+      }
+    });
+  }
+})();
+</script>
+
+</body>
+</html>
