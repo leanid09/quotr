@@ -2,6 +2,8 @@
 type: log
 description: What was checked on 2026-09-25, what was fixed, the link-check result and the full TO CONFIRM list.
 last_verified: 2026-09-25
+cssclasses:
+- wide
 ---
 # QA Log
 
@@ -103,7 +105,7 @@ Checked by searching the whole brain for each figure and its likely variants (fo
 |---|---|---|
 | Unbranded Perplexity questions naming Quotr | **1 of 32 (about 3%)** | Report; visibility notes §5 |
 | Rivals named most | **STACK, PlanSwift, Buildxact: 10 each** (Togal.AI 8) | Report |
-| quotr.ai in the source list / cited in the answer | **6 of 32** (as often as reddit.com) / **4 of 32** | Report; tracking-set.md (both definitions now explained) |
+| quotr.ai in the source list / cited in the answer | **6 of 32** (as often as reddit.com) / **4 of 32** | Report; [[Tracking set]] (both definitions now explained) |
 | Site content | **96 blog posts, 55 dictionary terms, 23 trade pages**, 6 tutorials, 4 case studies | Quotr fact-check, claims 2–3 |
 | Old pricing | Retired Solo $299.90 / Team $499.90 on **about 13 URLs** (mostly blog posts, plus the indexed /contractors copy) and llms.txt; "nearly four times" the real entry price | Quotr fact-check, summary item 1 and Gaps filled #2 |
 | Live pricing | **Lite $79.90, Plus $299.90 per seat per month**; Enterprise custom; 7-day trial | Quotr fact-check, claim 6; /pricing/ |
@@ -122,13 +124,13 @@ Checked by searching the whole brain for each figure and its likely variants (fo
 
 **History today:** the section passes left 0 broken links among the 63 section pages. The integrator pass converted 294 bare references into links. The new root pages were briefly broken until the files they point to were created (for example, links from [[Sources]] to this log). The final result is 0.
 
-To repeat the check, a developer can recreate the script from the method above (about 30 lines of Python), or ask an AI tool with file access: "List every relative Markdown link in this folder whose target file does not exist."
+**Since the Obsidian conversion (2026-09-25)** the links are Obsidian `[[links]]`, and the check is a script in the repository: `python3 .claude/scripts/vault_check.py`. It checks that every link points to a real note and heading, every embedded live table points to a real view, note names are unique, and properties are valid and complete. Result after the conversion: 610 notes (including the 6 export files) and 6 bases, **0 problems**. Obsidian itself also reported 0 unresolved links. Ask Claude to run it after any edit session.
 
 ---
 
 ## 6. TO CONFIRM with Quotr: the consolidated question list
 
-This list merges and de-duplicates the open items from all five QA passes and the fact sheet's §6. **Bring it to the Quotr meeting.** When an item is answered, update [[Entity fact sheet]] first, then remove the item here and log it in [[Changelog]].
+This list merges and de-duplicates the open items from all five QA passes and the fact sheet's §6. **Bring it to the Quotr meeting.** When an item is answered, update [[Entity fact sheet]] first, then set the question note to `answered` and log it in [[Changelog]].
 
 > [!tip] This list is live
 > Each question is its own note in `00-quotr/open-questions`. When Quotr answers one, set its `status` to `answered` and fill in `answer`; it then drops off the open list below.

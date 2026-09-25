@@ -18,12 +18,39 @@ last_verified: 2026-09-25
 - Add a new entry **at the top** of "Entries" (newest first), using the template below.
 - Log changes to facts, numbers, recommendations or structure. Typo fixes don't need an entry.
 - If a **fact about Quotr** changed, say what the old and new values were and where the new value came from (Quotr sign-off, a live page, a re-test). Update [[Entity fact sheet]] first, then the other pages.
-- If a **TO CONFIRM** item was answered, remove it from the list in [[QA log]] §6 and note it here.
-- After any edit session, run the link check (method in [[QA log]] §5) and record the result.
+- If a **TO CONFIRM** item was answered, set its note in `00-quotr/open-questions` to `status: answered` (it leaves the open list) and note it here.
+- After any edit session, run the vault check (`python3 .claude/scripts/vault_check.py`, see [[QA log]] §5) and record the result.
 
 ---
 
 ## Entries
+
+### 2026-09-25 — Brain turned into an Obsidian vault (v1.1)
+
+**Type:** Structure
+**Changed by:** Claude (AI helper), at the GEO consultant's request
+**Checked by:** the vault check script (0 problems) and a test run in Obsidian 1.13.4: 0 broken links, every live table renders with the expected counts, and a cell-by-cell comparison showed no table content was lost
+
+**What changed**
+- The whole `quotr` folder is now an Obsidian vault. [[Home]] is the daily dashboard and opens at startup. Rules for AI helpers are in [[CLAUDE]].
+- Pages were renamed to readable titles (for example `entity-fact-sheet.md` became `Entity fact sheet.md`, `README.md` became [[Start here]]). All 2,100 internal links are now Obsidian `[[links]]`.
+- Every page has properties: `type`, a one-line `description`, `last_verified` (was "Last updated") and `verify_every_days`. "What this page is for" and "Sources" are now boxes (callouts); Sources is folded.
+- The big tables became one note per item, with live tables (Obsidian Bases) in their place: 282 prompts (with the tracking-set data), 64 September 2026 test runs, 68 content pieces, 48 tasks and 48 open questions. Pages keep all their explanation.
+- New: note templates (daily note, weekly and monthly review, test run, prompt, content piece, task, question), a `journal` folder, four index pages ([[Competitor profiles]], [[Playbooks]], [[Off-site playbooks]], [[Page templates]]), bookmarks, graph colours and shared settings in `.obsidian`.
+- New: `.claude/scripts/vault_check.py` (links, headings, properties and tables) and `.claude/scripts/build_exports.py` (plain-text copies of the tables in `geo-brain/_exports`, for AI tools and GitHub).
+
+**Why**
+- To use the brain every day in Obsidian, following steps 1–6 of [[Obsidian vault and daily updates plan]]. Two changes from that plan: facts stay as text in the [[Entity fact sheet]] (embedding them would break sentences), and Claude never writes in daily notes, so it cannot clash with your edits.
+
+**Files affected**
+- All pages (renamed, properties, links); new folders `04-prompt-library/prompts`, `07-measurement/test-runs`, `05-content-strategy/roadmap`, `08-action-plan/tasks`, `00-quotr/open-questions`, `journal`, `_meta/note-templates`, `_exports`.
+
+**TO CONFIRM items resolved or added**
+- None resolved. The 42 questions for Quotr and the 6 checks for us are now notes in `00-quotr/open-questions` ([[QA log]] §6 shows them live).
+
+**Vault check:** 0 problems (`python3 .claude/scripts/vault_check.py`).
+
+---
 
 ### 2026-09-25 — Brain created (v1.0)
 
@@ -76,9 +103,9 @@ Copy this block to the top of "Entries" and fill it in.
 - [relative/path/to/file.md] (section)
 
 **TO CONFIRM items resolved or added**
-- [Item, and whether it was resolved or newly added to qa-log.md §6.]
+- [Item, and whether it was resolved (question note set to answered) or added as a new question note.]
 
-**Link check:** [number] broken relative links after this change.
+**Vault check:** [number] problems after this change.
 ```
 
 ---
