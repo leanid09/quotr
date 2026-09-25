@@ -1,10 +1,16 @@
+---
+type: guide
+description: How ChatGPT, Google AI Overviews/AI Mode, Perplexity, Gemini, Claude and Copilot pick sources, and their crawlers.
+last_verified: 2026-09-25
+verify_every_days: 90
+---
 # How AI Engines Choose Their Sources
 
-**What this page is for:** A plain-English explanation of how ChatGPT, Google AI Overviews, Google AI Mode, Perplexity, Gemini, Claude and Microsoft Copilot build their answers and pick the pages they cite, with each engine's crawlers and what blocking them does, and what it all means for Quotr.ai.
+> [!abstract] What this page is for
+> A plain-English explanation of how ChatGPT, Google AI Overviews, Google AI Mode, Perplexity, Gemini, Claude and Microsoft Copilot build their answers and pick the pages they cite, with each engine's crawlers and what blocking them does, and what it all means for Quotr.ai.
 
-**Last updated:** 2026-09-25
-
-**Sources:** Research notes [geo_ai_citation_signals_2026.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) (§1, §2, §4) as corrected by the fact-check [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (its corrections win), [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1–§4), [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (§6), and the final report [Quotr GEO AEO strategy audit.md](<../../reports/Quotr GEO AEO strategy audit.md>). Extra sources checked on 2026-09-25 through web search result summaries (pages not opened in full): Google's AI features doc and Google-Extended coverage, Perplexity's crawler docs, Anthropic's crawler docs, OpenAI's crawler docs and ChatGPT-User change, Bing's NOCACHE/NOARCHIVE controls, Microsoft's May 2026 "grounding index" post, Google's Gemini grounding docs and I/O 2026 coverage. Each is linked where used.
+> [!info]- Sources
+> Research notes [[geo_ai_citation_signals_2026]] (§1, §2, §4) as corrected by the fact-check [[verification_geo_evidence]] (its corrections win), [[geo_content_playbook_b2b]] (§1–§4), [[quotr_ai_visibility_tests]] (§6), and the final report [[Quotr GEO AEO strategy audit]]. Extra sources checked on 2026-09-25 through web search result summaries (pages not opened in full): Google's AI features doc and Google-Extended coverage, Perplexity's crawler docs, Anthropic's crawler docs, OpenAI's crawler docs and ChatGPT-User change, Bing's NOCACHE/NOARCHIVE controls, Microsoft's May 2026 "grounding index" post, Google's Gemini grounding docs and I/O 2026 coverage. Each is linked where used.
 
 ---
 
@@ -23,7 +29,7 @@
 | **Crawler / bot / user-agent** | A program that fetches web pages. Its "user-agent" is the name it announces (for example `GPTBot`). |
 | **robots.txt** | A public file on a website that tells crawlers what they may fetch. Well-behaved crawlers follow it. |
 
-More terms: [geo-glossary.md](geo-glossary.md).
+More terms: [[GEO glossary]].
 
 ---
 
@@ -33,7 +39,7 @@ More terms: [geo-glossary.md](geo-glossary.md).
 2. **Each engine leans on a different index.** Google's engines use Google's index. Copilot uses Bing. Claude's search uses Brave Search (plus possibly other layers). Perplexity has its own index plus partners. ChatGPT uses its own crawler plus unnamed "third-party search providers". **Being indexed well in Google, Bing and Brave is the entry ticket.**
 3. **They "fan out".** One buyer question becomes many small searches. Pages that answer a precise sub-question well get picked.
 4. **They pick passages, not pages.** A clear, self-contained section near the top of a page is easier to lift. But Google says you do not need to chop pages into tiny chunks.
-5. **Being retrieved is not the same as being cited, and being cited is not the same as being named.** Quotr's own tests show this: Perplexity listed a quotr.ai page among its sources in 6 of 32 unbranded answers (and used it in the answer text in 4), but named Quotr in only 1 ([report](<../../reports/Quotr GEO AEO strategy audit.md>)).
+5. **Being retrieved is not the same as being cited, and being cited is not the same as being named.** Quotr's own tests show this: Perplexity listed a quotr.ai page among its sources in 6 of 32 unbranded answers (and used it in the answer text in 4), but named Quotr in only 1 ([[Quotr GEO AEO strategy audit|report]]).
 6. **Official guidance is simple.** Google (May 15, 2026): no special files, markup or chunking are needed; a page must be indexed and eligible to show a snippet, and "valuable, unique, non-commodity content" matters most. Microsoft's October 2025 guidance is more specific (clear headings, short single-idea sections, schema, fresh and consistent facts).
 7. **Engines disagree with each other and change fast.** One analysis found 91% of AI citations appear in only one engine (Kevin Indig, H1 2026; not re-checked). Citation lists churn month to month.
 8. **For Quotr:** keep every AI search crawler allowed (it already is), make sure Bing and Brave see the site, make facts consistent so engines stop hedging, and earn mentions on the third-party pages engines already pull from.
@@ -56,9 +62,9 @@ The steps below are a simplified picture that fits what Google, Microsoft, OpenA
 
 ### 1.1 Training knowledge vs live retrieval
 
-- **Training knowledge** is a frozen snapshot. It is built from broad web text, so it reflects how often and how consistently a brand was described across many sites, not just on its own site. The fact-check and notes infer that this is why off-site presence matters beyond anything on-page ([signals notes §1](<../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>)).
+- **Training knowledge** is a frozen snapshot. It is built from broad web text, so it reflects how often and how consistently a brand was described across many sites, not just on its own site. The fact-check and notes infer that this is why off-site presence matters beyond anything on-page ([[geo_ai_citation_signals_2026|signals notes §1]]).
 - **How often ChatGPT searches:** Nectiv found web search ran on about **31%** of prompts (2025; [Search Engine Land](https://searchengineland.com/chatgpt-search-prompts-data-463407)). OtterlyAI (a vendor) found **34.5% in Feb 2026, down from 46% in late 2024**, with search-enabled prompts getting longer (4.7 → 8.7 words) ([OtterlyAI](https://otterly.ai/blog/how-often-does-chatgpt-trigger-a-web-search/)). Neither figure was re-checked by the fact-check.
-- **What this means for Quotr:** training data may still carry the old name "Quotr.io" and old descriptions (for example the F6S listing still describes an old Revit plug-in; [offsite-presence.md](../02-current-state/offsite-presence.md)). Consistent facts on many third-party profiles are what slowly correct the model's "memory". Live retrieval is the faster lever, because fixed pages can be re-read within days or weeks.
+- **What this means for Quotr:** training data may still carry the old name "Quotr.io" and old descriptions (for example the F6S listing still describes an old Revit plug-in; [[Off-site presence]]). Consistent facts on many third-party profiles are what slowly correct the model's "memory". Live retrieval is the faster lever, because fixed pages can be re-read within days or weeks.
 
 ### 1.2 Which index each engine searches
 
@@ -68,10 +74,10 @@ The steps below are a simplified picture that fits what Google, Microsoft, OpenA
 | Gemini app | Google Search ("Grounding with Google Search") | Official ([Gemini API docs](https://ai.google.dev/gemini-api/docs/google-search)) |
 | Microsoft Copilot | Bing index | Official ([Microsoft Advertising, Oct 2025](https://about.ads.microsoft.com/en/blog/post/october-2025/optimizing-your-content-for-inclusion-in-ai-search-answers); [Bing, May 2026](https://blogs.bing.com/search/May-2026/Evolving-role-of-the-index-From-ranking-pages-to-supporting-answers)) |
 | ChatGPT search | OpenAI's own crawler (OAI-SearchBot) plus "third-party search providers" | Official that third parties are used; **which ones is not confirmed** by OpenAI ([OpenAI Publishers FAQ](https://help.openai.com/en/articles/12627856-publishers-and-developers-faq)) |
-| Claude | Brave Search is the only search provider on Anthropic's subprocessor list; secondary sources say turbopuffer was also added under "Web Search" by Sept 2026 | Brave: well supported, but Anthropic has not publicly said "Brave = index" ([verification claim #29](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>); [Xponent21](https://xponent21.com/insights/claude-web-search-brave-turbopuffer/)) |
+| Claude | Brave Search is the only search provider on Anthropic's subprocessor list; secondary sources say turbopuffer was also added under "Web Search" by Sept 2026 | Brave: well supported, but Anthropic has not publicly said "Brave = index" ([[verification_geo_evidence\|verification claim #29]]; [Xponent21](https://xponent21.com/insights/claude-web-search-brave-turbopuffer/)) |
 | Perplexity | Its own index built by PerplexityBot, plus search partners | Secondary summaries only ([LLM Pulse](https://llmpulse.ai/blog/how-perplexity-works/)) |
 
-**So what:** a page that ranks in Google but is weak in Bing or Brave may never reach Copilot, ChatGPT (partly) or Claude. This is why the report lists "add the blog sitemap to robots.txt" and Bing Webmaster Tools as quick wins ([report, 30-day plan](<../../reports/Quotr GEO AEO strategy audit.md>)).
+**So what:** a page that ranks in Google but is weak in Bing or Brave may never reach Copilot, ChatGPT (partly) or Claude. This is why the report lists "add the blog sitemap to robots.txt" and Bing Webmaster Tools as quick wins ([[Quotr GEO AEO strategy audit|report, 30-day plan]]).
 
 ### 1.3 Query fan-out
 
@@ -79,36 +85,36 @@ The steps below are a simplified picture that fits what Google, Microsoft, OpenA
 - **ChatGPT:** 89.6% of search-triggering prompts produced 2+ extra searches beyond the user's wording (Nectiv data via [Search Engine Land](https://searchengineland.com/chatgpt-search-prompts-data-463407); not re-checked).
 - **Titles that match sub-queries:** Ahrefs (1.4M ChatGPT prompts) found cited pages had titles more similar to ChatGPT's narrower fan-out sub-queries than pages it passed over. Pages with descriptive URL slugs were cited 89.78% of the times they appeared in results, vs 81.11% for less descriptive URLs ([Ahrefs](https://ahrefs.com/blog/why-chatgpt-cites-pages/); vendor study, correlation).
 - **Microsoft shows its sub-queries:** Bing Webmaster Tools' AI Performance report (public preview, announced Feb 10, 2026) lists "grounding queries", the internal search phrases Copilot generated to find a site's pages ([Bing blog](https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview)).
-- **The warning:** Google says creating separate pages for every fan-out variation, mainly to manipulate AI answers, can break its **scaled content abuse** spam policy. Genuine subtopic coverage is fine ([Google AI optimization guide](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide); [verification claim #2](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>)).
+- **The warning:** Google says creating separate pages for every fan-out variation, mainly to manipulate AI answers, can break its **scaled content abuse** spam policy. Genuine subtopic coverage is fine ([Google AI optimization guide](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide); [[verification_geo_evidence|verification claim #2]]).
 
-**For Quotr:** write pages whose titles and headings match precise buyer sub-questions ("AI takeoff pricing per seat", "landed cost of factory-direct cabinets"), but do not spin up near-duplicate "[trade] estimating services in [city]" pages. See [myths-and-risks.md](myths-and-risks.md).
+**For Quotr:** write pages whose titles and headings match precise buyer sub-questions ("AI takeoff pricing per seat", "landed cost of factory-direct cabinets"), but do not spin up near-duplicate "[trade] estimating services in [city]" pages. See [[Myths and risks]].
 
 ### 1.4 Passage-level retrieval
 
 - **Microsoft (Oct 2025):** Copilot "parses content into smaller structured pieces" and assesses each for authority and relevance, then assembles answers from several sources ([Microsoft Advertising](https://about.ads.microsoft.com/en/blog/post/october-2025/optimizing-your-content-for-inclusion-in-ai-search-answers)).
 - **Microsoft (May 6, 2026):** its newer post says an index built for AI "grounding" must also check whether a page's meaning survives chunking, whether the source is clearly identified, whether the information is fresh enough, and whether key facts are actually retrievable ([Bing Search blog](https://blogs.bing.com/search/May-2026/Evolving-role-of-the-index-From-ranking-pages-to-supporting-answers), via [Search Engine Land](https://searchengineland.com/microsoft-ai-answers-index-476691)). The fact-check flagged this post as not yet read in full.
-- **Where on the page citations come from:** Kevin Indig's "The Science Of How AI Pays Attention" (Growth Memo, Feb 2026; 1.2M ChatGPT answers analysed, 18,012 verified citations) found **44.2%** of ChatGPT citations come from the first 30% of a page ([Growth Memo](https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention)). This describes where citations fall; it is not proof that moving text up causes citations ([verification H9](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>)).
+- **Where on the page citations come from:** Kevin Indig's "The Science Of How AI Pays Attention" (Growth Memo, Feb 2026; 1.2M ChatGPT answers analysed, 18,012 verified citations) found **44.2%** of ChatGPT citations come from the first 30% of a page ([Growth Memo](https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention)). This describes where citations fall; it is not proof that moving text up causes citations ([[verification_geo_evidence|verification H9]]).
 - **Google's counterpoint:** there is no need to "chunk" content into tiny pieces. Google's systems can handle several topics on one page and show the relevant part ([Google AI optimization guide](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)).
 
-**For Quotr:** keep the "Quick Answer" blocks, question headings and tables Quotr already uses ([geo-tactics-already-used.md](../02-current-state/geo-tactics-already-used.md)). Make each section make sense on its own, with the brand name inside key facts. Do not split pages into micro-pages.
+**For Quotr:** keep the "Quick Answer" blocks, question headings and tables Quotr already uses ([[GEO tactics already used]]). Make each section make sense on its own, with the brand name inside key facts. Do not split pages into micro-pages.
 
 ### 1.5 Grounding and citation: retrieved ≠ cited ≠ named
 
 - **Retrieved but not cited:** Ahrefs found about half of retrieved pages were cited in ChatGPT overall, and ChatGPT retrieves Reddit heavily but cites it only 1.93% of the time ([Ahrefs](https://ahrefs.com/blog/why-chatgpt-cites-pages/); [SEJ](https://www.searchenginejournal.com/chatgpt-often-retrieves-but-rarely-cites-reddit-pages-data-shows/572243/); vendor).
 - **Cited but not named:** in a Semrush dataset (1,094 US categories, 600K+ ChatGPT citations, Jan–Jun 2026), Indig found the correlation between a domain's citations and its brand mentions was slightly **negative (−0.229)**. The most-cited domain was also the most-mentioned brand in only **20.8%** of cases ([Kevin Indig](https://substack.com/@kevinindig/note/c-298265127); not re-checked).
-- **Quotr example:** for "outsourced construction estimating price per square foot", Perplexity used Quotr's blog as its **first source** twice and repeated Quotr's $0.25 and $0.10 per sq ft rates, but credited them to "one outsourced estimating service" and "some firms" ([report](<../../reports/Quotr GEO AEO strategy audit.md>); [ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md)).
+- **Quotr example:** for "outsourced construction estimating price per square foot", Perplexity used Quotr's blog as its **first source** twice and repeated Quotr's $0.25 and $0.10 per sq ft rates, but credited them to "one outsourced estimating service" and "some firms" ([[Quotr GEO AEO strategy audit|report]]; [[AI visibility baseline]]).
 - **How many sources each engine shows:** Muck Rack (May 7, 2026; 25M+ links; vendor) found ChatGPT cites sources in **96%** of responses (about 5 each), Gemini in **82%** (about 8) and Claude in **55%** (about 13) ([Muck Rack](https://muckrack.com/blog/what-is-ai-reading-may-2026); read by the fact-check).
 - **What grounding systems want:** Microsoft says grounding is "built around supportable facts with clear sourcing", because an AI commits to an answer while a search user can self-correct ([Bing, May 2026](https://blogs.bing.com/search/May-2026/Evolving-role-of-the-index-From-ranking-pages-to-supporting-answers) via [Search Engine Land](https://searchengineland.com/microsoft-ai-answers-index-476691)).
 
-**For Quotr:** write sentences so the name travels with the fact ("Quotr.ai's Estimation Service charges $0.25 per sq ft for projects under 50,000 sq ft"), and give each claim a source or method. Details: [../06-playbooks/geo-writing-style-guide.md](../06-playbooks/geo-writing-style-guide.md).
+**For Quotr:** write sentences so the name travels with the fact ("Quotr.ai's Estimation Service charges $0.25 per sq ft for projects under 50,000 sq ft"), and give each claim a source or method. Details: [[GEO writing style guide]].
 
 ### 1.6 Recency (freshness)
 
 - **Ahrefs (July 28, 2025; 16.975M cited URLs; vendor):** URLs cited by AI assistants (ChatGPT, Perplexity, Copilot, Gemini) averaged 1,064 days old, vs about 1,416–1,432 days for Google organic results (Ahrefs' own page gives both numbers). **ChatGPT showed the strongest recency preference; Google AI Overviews the weakest.** Cited pages still averaged **2.9 years** old ([Ahrefs](https://ahrefs.com/blog/do-ai-assistants-prefer-to-cite-fresh-content/); read by the fact-check).
-- Ahrefs' author "suspect[s] most brands will see better results from creating new, high-quality content than … extremely frequent content updating", and Google's John Mueller warns against date-only updates (same source, per [verification claim #10](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>)).
+- Ahrefs' author "suspect[s] most brands will see better results from creating new, high-quality content than … extremely frequent content updating", and Google's John Mueller warns against date-only updates (same source, per [[verification_geo_evidence|verification claim #10]]).
 - Posts "lightly refreshed with '2026' in the title" were among pages that lost Google visibility in early 2026 (Lily Ray observation; [Substack, Feb 3, 2026](https://lilyraynyc.substack.com/p/is-google-finally-cracking-down-on)).
 
-**For Quotr:** update pricing, comparison and benchmark pages when facts really change, and say what changed. Fix the main sitemap, where every URL claims it changed "today" ([website-audit.md](../02-current-state/website-audit.md)).
+**For Quotr:** update pricing, comparison and benchmark pages when facts really change, and say what changed. Fix the main sitemap, where every URL claims it changed "today" ([[Website audit]]).
 
 ### 1.7 Volatility and disagreement between engines
 
@@ -120,19 +126,19 @@ The steps below are a simplified picture that fits what Google, Microsoft, OpenA
 | Reddit's share of ChatGPT citations fell from 3.83% to 0.52% within weeks (Jul 18–Aug 7 vs Aug 14–17, 2026) | Promptwatch ([Promptwatch](https://promptwatch.com/blog/chatgpt-stop-citing-reddit)); [Axios, Aug 20, 2026](https://www.axios.com/2026/08/20/chatgpt-reddit-citations-geo-strategy) | A separate, earlier collapse happened Aug–Sept 2025 (Semrush: ~60% → ~10% of responses) |
 | ChatGPT and Gemini recommend a different #1 software in one of every three categories | Press-release headline, Aug 12, 2026 ([GlobeNewswire](https://www.globenewswire.com/news-release/2026/08/12/3343763/0/en/chatgpt-and-gemini-recommend-different-1-software-in-one-of-every-three-categories-new-study-finds.html)) | Headline only; method not seen |
 
-**For Quotr:** never judge progress from one engine or one run. The monthly tracking set runs the 23 headline (Tier A) prompts twice and the rest once, on five engines every month (ChatGPT, Google AI Mode, Google AI Overviews, Perplexity, Gemini), with Claude and Copilot added each quarter ([../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md)).
+**For Quotr:** never judge progress from one engine or one run. The monthly tracking set runs the 23 headline (Tier A) prompts twice and the rest once, on five engines every month (ChatGPT, Google AI Mode, Google AI Overviews, Perplexity, Gemini), with Claude and Copilot added each quarter ([[Tracking set]]).
 
 ### 1.8 Personalisation
 
 - **Google Preferred Sources** (extended into AI Overviews and AI Mode on May 27, 2026): users can pick favourite sites, and Google says people are "twice as likely to click through to a Preferred Source"; 345,000+ sources had been selected ([Google blog](https://blog.google/products-and-platforms/products/search/original-high-quality-content-search/); [SE Roundtable](https://www.seroundtable.com/google-ai-preferred-sources-41394.html)). Critics say it favours established publishers.
 - **Personal context:** a UK study of ChatGPT, Gemini, Claude and Perplexity (6 personas, 30 prompts) found personalisation can change which brands are recommended ([EIN Presswire](https://www.einpresswire.com/article/944542004/new-study-finds-ai-personalization-can-change-which-brands-chatgpt-and-gemini-recommend); press release, method not reviewed). Google reportedly extended "Personal Intelligence" to AI Mode and Gemini in March 2026 (aggregator report; not verified).
-- **For Quotr:** tracking should use clean, logged-out or history-free sessions so months are comparable ([../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md)).
+- **For Quotr:** tracking should use clean, logged-out or history-free sessions so months are comparable ([[Tracking set]]).
 
 ---
 
 ## 2. Crawlers and user-agents: who fetches Quotr's pages, and what blocking does
 
-**Quotr today:** robots.txt is `User-agent: *` / `Allow: /` with no named-bot rules, so **every crawler below is allowed**. Cloudflare's "AI Labyrinth" bot trap is on (it only traps bots that ignore crawl rules). Whether Cloudflare's separate "Block AI bots" setting is off is **TO CONFIRM with Quotr** ([website-audit.md §1](../02-current-state/website-audit.md)).
+**Quotr today:** robots.txt is `User-agent: *` / `Allow: /` with no named-bot rules, so **every crawler below is allowed**. Cloudflare's "AI Labyrinth" bot trap is on (it only traps bots that ignore crawl rules). Whether Cloudflare's separate "Block AI bots" setting is off is **TO CONFIRM with Quotr** ([[Website audit|website-audit.md §1]]).
 
 | Company / engine | User-agent (name in logs and robots.txt) | What it does | Follows robots.txt? | What blocking it does | Recommendation for Quotr |
 |---|---|---|---|---|---|
@@ -151,14 +157,14 @@ The steps below are a simplified picture that fits what Google, Microsoft, OpenA
 | Apple | **Applebot-Extended** | Controls use of content for Apple AI training | Yes | Kept out of Apple AI training | **Allow** |
 | Common Crawl | **CCBot** | Open web crawl that many AI models use for training | Yes | Less presence in open training datasets | **Allow** |
 
-Sources for the table: OpenAI ([Publishers FAQ](https://help.openai.com/en/articles/12627856-publishers-and-developers-faq), [crawler overview](https://developers.openai.com/api/docs/bots)); Anthropic ([Anthropic privacy center](https://privacy.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler), [Search Engine Land](https://searchengineland.com/anthropic-claude-bots-470171), [SE Roundtable](https://www.seroundtable.com/anthropic-updates-its-crawler-docs-40978.html)); Perplexity ([Perplexity crawler docs](https://docs.perplexity.ai/docs/resources/perplexity-crawlers), [51Degrees](https://51degrees.com/blog/perplexity-ai-2026)); Google ([AI features doc](https://developers.google.com/search/docs/appearance/ai-features)); Apple/Common Crawl descriptions from [website-audit.md](../02-current-state/website-audit.md). On Aug 4, 2025, Cloudflare published a report saying Perplexity used undeclared crawlers that rotated user-agents and IPs to get around no-crawl rules (reported by [51Degrees](https://51degrees.com/blog/perplexity-ai-2026); Cloudflare's post not opened).
+Sources for the table: OpenAI ([Publishers FAQ](https://help.openai.com/en/articles/12627856-publishers-and-developers-faq), [crawler overview](https://developers.openai.com/api/docs/bots)); Anthropic ([Anthropic privacy center](https://privacy.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler), [Search Engine Land](https://searchengineland.com/anthropic-claude-bots-470171), [SE Roundtable](https://www.seroundtable.com/anthropic-updates-its-crawler-docs-40978.html)); Perplexity ([Perplexity crawler docs](https://docs.perplexity.ai/docs/resources/perplexity-crawlers), [51Degrees](https://51degrees.com/blog/perplexity-ai-2026)); Google ([AI features doc](https://developers.google.com/search/docs/appearance/ai-features)); Apple/Common Crawl descriptions from [[Website audit]]. On Aug 4, 2025, Cloudflare published a report saying Perplexity used undeclared crawlers that rotated user-agents and IPs to get around no-crawl rules (reported by [51Degrees](https://51degrees.com/blog/perplexity-ai-2026); Cloudflare's post not opened).
 
 ### Other controls (beyond robots.txt)
 
 | Control | Engine | What it does | Quotr should… |
 |---|---|---|---|
 | `nosnippet`, `data-nosnippet`, `max-snippet`, `noindex` | Google | These are the controls that limit how a page appears in AI Overviews and AI Mode ([Google AI features doc](https://developers.google.com/search/docs/appearance/ai-features)) | Not use them on marketing pages. Use `noindex` on staging copies such as test.quotr.io |
-| **Search generative AI control** (Search Console) | Google | Property-level opt-out from AI Overviews, AI Mode and Discover's generative features. Announced June 3, 2026; worldwide since Aug 31, 2026. Opted-out sites get no traffic or impressions from those surfaces. Google says it is not a ranking signal and is separate from Google-Extended ([Search Console Help](https://support.google.com/webmasters/answer/16908024?hl=en); [SEJ](https://www.searchenginejournal.com/google-search-console-ai-reports-rolled-out-worldwide/587836/)) | **Not** opt out ([report](<../../reports/Quotr GEO AEO strategy audit.md>)) |
+| **Search generative AI control** (Search Console) | Google | Property-level opt-out from AI Overviews, AI Mode and Discover's generative features. Announced June 3, 2026; worldwide since Aug 31, 2026. Opted-out sites get no traffic or impressions from those surfaces. Google says it is not a ranking signal and is separate from Google-Extended ([Search Console Help](https://support.google.com/webmasters/answer/16908024?hl=en); [SEJ](https://www.searchenginejournal.com/google-search-console-ai-reports-rolled-out-worldwide/587836/)) | **Not** opt out ([[Quotr GEO AEO strategy audit\|report]]) |
 | `NOCACHE` meta tag | Bing / Copilot | Only the URL, title and snippet may be shown in AI answers ([Bing blog, Sept 2023](https://blogs.bing.com/webmaster/september-2023/Announcing-new-options-for-webmasters-to-control-usage-of-their-content-in-Bing-Chat)) | Not use |
 | `NOARCHIVE` meta tag | Bing / Copilot | Content is not used in AI answers or linked from them, and not used for Microsoft model training; the page still appears in normal Bing results (same source; announced for "Bing Chat", now Copilot) | Not use |
 | IndexNow | Bing, Yandex, Naver, Seznam, Yep (not Google) | Instantly tells participating engines a URL changed ([IndexNow.org](https://www.indexnow.org/)) | Use after fixing old prices, so Bing (and Copilot) re-read pages fast |
@@ -167,7 +173,7 @@ Sources for the table: OpenAI ([Publishers FAQ](https://help.openai.com/en/artic
 
 ## 3. Engine by engine
 
-Each section has: **at a glance**, **what is officially known**, **what studies show**, and **what it means for Quotr**. Quotr's own tests covered **Perplexity only**; everything about the other engines is general evidence, not a measurement of Quotr ([ai-visibility-baseline.md §10–11](../02-current-state/ai-visibility-baseline.md)).
+Each section has: **at a glance**, **what is officially known**, **what studies show**, and **what it means for Quotr**. Quotr's own tests covered **Perplexity only**; everything about the other engines is general evidence, not a measurement of Quotr ([[AI visibility baseline|ai-visibility-baseline.md §10–11]]).
 
 ### 3.1 ChatGPT search (OpenAI)
 
@@ -198,11 +204,11 @@ Each section has: **at a glance**, **what is officially known**, **what studies 
 - **Overlap with Google:** only 12% of links cited by ChatGPT, Gemini and Copilot appeared in Google's top 10 for the same prompt (Ahrefs, 15,000 prompts; [Ahrefs](https://ahrefs.com/blog/ai-search-overlap/); vendor).
 
 **What it means for Quotr**
-- ChatGPT could not be tested for this audit. **First job: a proper ChatGPT baseline** ([report](<../../reports/Quotr GEO AEO strategy audit.md>)).
+- ChatGPT could not be tested for this audit. **First job: a proper ChatGPT baseline** ([[Quotr GEO AEO strategy audit|report]]).
 - Because ChatGPT may answer about two-thirds of prompts from memory (2025–early 2026 studies; not re-checked), Quotr needs consistent third-party descriptions (G2, Crunchbase, F6S, LinkedIn, press) under the name "Quotr.ai", with "Quotr.io" as a known former name.
 - Since May 2026 every mention of "Quotr.ai" in a ChatGPT answer can be a clickable link to the homepage. The homepage must work for first-time visitors who arrive with a question.
 - ChatGPT prefers fresh, focused pages: keep pricing and comparison pages current and correct (about 13 URLs still show the old "$299.90" entry price).
-- Ads sit next to answers, not inside them. Treat them as a separate paid test ([traffic-and-funnel-impact.md](traffic-and-funnel-impact.md)).
+- Ads sit next to answers, not inside them. Treat them as a separate paid test ([[Traffic and funnel impact]]).
 
 ### 3.2 Google AI Overviews
 
@@ -232,9 +238,9 @@ Each section has: **at a glance**, **what is officially known**, **what studies 
 - **Self-ranking risk:** Lily Ray observed B2B/SaaS sites that rank themselves #1 in "best X" lists losing 29–49% of Google visibility in Jan–Feb 2026, and found companies whose own list was cited in an AI Overview were left out of the recommendation **69%** of the time (June 17, 2026). Google has not confirmed a targeted update ([Lily Ray](https://lilyraynyc.substack.com/p/is-google-finally-cracking-down-on); [Lily Ray](https://lilyraynyc.substack.com/p/why-calling-yourself-the-best-could)).
 
 **What it means for Quotr**
-- Not tested yet. Add Search Console's Generative AI report to the monthly KPIs to see which Quotr pages already get AI impressions ([../07-measurement/kpis-and-dashboard.md](../07-measurement/kpis-and-dashboard.md)).
-- Comparison queries almost always trigger an AI Overview, so the 5–8 head-to-head pages the report recommends keeping must be accurate, dated and balanced. Self-ranked "best X" lists carry risk here (see [myths-and-risks.md](myths-and-risks.md)).
-- YouTube is where Google's AI features look most. Perplexity never cited YouTube in any of Quotr's 45 test runs, so trade-by-trade videos are mainly a Google-side bet ([report](<../../reports/Quotr GEO AEO strategy audit.md>)).
+- Not tested yet. Add Search Console's Generative AI report to the monthly KPIs to see which Quotr pages already get AI impressions ([[KPIs and dashboard]]).
+- Comparison queries almost always trigger an AI Overview, so the 5–8 head-to-head pages the report recommends keeping must be accurate, dated and balanced. Self-ranked "best X" lists carry risk here (see [[Myths and risks]]).
+- YouTube is where Google's AI features look most. Perplexity never cited YouTube in any of Quotr's 45 test runs, so trade-by-trade videos are mainly a Google-side bet ([[Quotr GEO AEO strategy audit|report]]).
 - Classic Google SEO (indexing, rankings, no stale pages) remains the base layer.
 
 ### 3.3 Google AI Mode
@@ -250,7 +256,7 @@ Each section has: **at a glance**, **what is officially known**, **what studies 
 | Clicks | The heaviest click-reducer of any Google surface (see below) |
 
 **Officially known**
-- A chat-style Google Search that uses query fan-out, with multi-turn follow-ups; since I/O 2026 it is joined to AI Overviews. Google also announced background "information agents" that monitor the web and send updates with links ([Google blog](https://blog.google/products-and-platforms/products/search/search-io-2026/); [verification M2](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>)).
+- A chat-style Google Search that uses query fan-out, with multi-turn follow-ups; since I/O 2026 it is joined to AI Overviews. Google also announced background "information agents" that monitor the web and send updates with links ([Google blog](https://blog.google/products-and-platforms/products/search/search-io-2026/); [[verification_geo_evidence|verification M2]]).
 - Same eligibility rules and controls as AI Overviews (section 2).
 
 **What studies show**
@@ -263,7 +269,7 @@ Each section has: **at a glance**, **what is officially known**, **what studies 
 **What it means for Quotr**
 - In AI Mode, being **named in the conversation** matters more than a single link, because many users never click.
 - Founder LinkedIn articles, YouTube and honest community answers (r/estimators, Facebook estimator groups) are the channels AI Mode leans on for SaaS.
-- Deeper resources (templates, calculators, integration pages) fit what AI Mode cites for SaaS. Quotr has an ROI calculator but no trade calculators or templates yet ([website-audit.md](../02-current-state/website-audit.md)).
+- Deeper resources (templates, calculators, integration pages) fit what AI Mode cites for SaaS. Quotr has an ROI calculator but no trade calculators or templates yet ([[Website audit]]).
 
 ### 3.4 Perplexity
 
@@ -274,7 +280,7 @@ Each section has: **at a glance**, **what is officially known**, **what studies 
 | Index | Own index (PerplexityBot) plus search partners |
 | Crawlers | PerplexityBot (index), Perplexity-User (live fetch) |
 | Citations | Shows numbered sources on nearly every answer |
-| Owner reporting | None first-party. Note: GA4's new "AI Assistant" channel does **not** include Perplexity, so add a custom rule ([verification claim #7](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>)) |
+| Owner reporting | None first-party. Note: GA4's new "AI Assistant" channel does **not** include Perplexity, so add a custom rule ([[verification_geo_evidence\|verification claim #7]]) |
 | Agentic browser | Comet had 48.12% of AI-agent traffic in HUMAN Security's April 2026 data (vendor) ([HUMAN](https://www.humansecurity.com/learn/blog/state-of-agentic-traffic-april-26/)) |
 
 **Officially known**
@@ -282,14 +288,14 @@ Each section has: **at a glance**, **what is officially known**, **what studies 
 - No first-party Perplexity documentation on how sources are ranked was verified. Secondary summaries say it weighs relevance, authority, recency and how directly a passage supports a claim ([LLM Pulse](https://llmpulse.ai/blog/how-perplexity-works/); [SearchScore](https://searchscore.io/guides/how-perplexity-cites-sources/)).
 
 **What studies show**
-- **Quotr's own tests (Perplexity Sonar API, Sept 25, 2026):** Capterra and G2 each fed 9 of 32 unbranded answers; "best of" lists came next (Construction Coverage 7, ConstructConnect's 2026 guide 7, The Digital Project Manager 6; ConstructConnect is itself a vendor); quotr.ai appeared in 6 source lists, the same as reddit.com; YouTube was never cited in 45 runs ([citation-sources-map.md](../03-market/citation-sources-map.md); [ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md)).
-- **Perplexity discounts self-ranking:** it did not accept Quotr's "#1 Quotr.ai" lists, and it called some of Quotr's claims "vendor assertions". A plain search summary repeated them word for word ([geo-tactics-already-used.md](../02-current-state/geo-tactics-already-used.md)).
+- **Quotr's own tests (Perplexity Sonar API, Sept 25, 2026):** Capterra and G2 each fed 9 of 32 unbranded answers; "best of" lists came next (Construction Coverage 7, ConstructConnect's 2026 guide 7, The Digital Project Manager 6; ConstructConnect is itself a vendor); quotr.ai appeared in 6 source lists, the same as reddit.com; YouTube was never cited in 45 runs ([[Citation sources map]]; [[AI visibility baseline]]).
+- **Perplexity discounts self-ranking:** it did not accept Quotr's "#1 Quotr.ai" lists, and it called some of Quotr's claims "vendor assertions". A plain search summary repeated them word for word ([[GEO tactics already used]]).
 - HubSpot (vendor, June 2026): Perplexity favours product listing/landing pages (84% citation rate) ([HubSpot](https://blog.hubspot.com/marketing/content-format-types-that-earn-citations); directional).
 - Perplexity cites LinkedIn **company pages** more often (59%) than creators (Semrush; not re-checked).
 - Perplexity had the lowest monthly citation drift of the engines Profound tracked (40.5%). Historic Reddit dominance (46.7% of Perplexity's top-10 share, Aug 2024–Jun 2025, Profound) is **outdated**; use it as history only.
 
 **What it means for Quotr**
-- This is the one engine where Quotr has data: **named in 1 of 32 unbranded questions (about 3%)**, while STACK, PlanSwift and Buildxact were each named in 10. The fastest ways in are the sources Perplexity already reads: G2/Capterra reviews (one program now feeds G2, Capterra, GetApp and Software Advice), the F6S "AI-Assisted Takeoff" category page, and the editorial lists ([report](<../../reports/Quotr GEO AEO strategy audit.md>)).
+- This is the one engine where Quotr has data: **named in 1 of 32 unbranded questions (about 3%)**, while STACK, PlanSwift and Buildxact were each named in 10. The fastest ways in are the sources Perplexity already reads: G2/Capterra reviews (one program now feeds G2, Capterra, GetApp and Software Advice), the F6S "AI-Assisted Takeoff" category page, and the editorial lists ([[Quotr GEO AEO strategy audit|report]]).
 - Perplexity reads Quotr's blog closely, so stale prices and errors there go straight into answers. Fix them first.
 - Perplexity cited a staging copy (test.quotr.io). Keep staging hosts out of indexes.
 
@@ -337,7 +343,7 @@ Each section has: **at a glance**, **what is officially known**, **what studies 
 **What studies show**
 - One small independent test found **86.7%** overlap between Claude's cited results and Brave's top organic results ([Ryan Doser](https://ryandoser.com/what-search-engine-does-claude-use/); blogger sample, not re-checked).
 - Claude is the fastest-growing AI assistant by traffic (Similarweb) and reached about 10% of AI-search activity in H1 2026 (Indig). Neither was re-checked.
-- **Caution on Claude as a B2B referral source:** an aggregator claims Claude sends 18.5% of B2B AI referrals, but its primary source was not found; Conductor's 2025 benchmark put Claude at about 2% of AI referrals ([verification H17](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>)).
+- **Caution on Claude as a B2B referral source:** an aggregator claims Claude sends 18.5% of B2B AI referrals, but its primary source was not found; Conductor's 2025 benchmark put Claude at about 2% of AI referrals ([[verification_geo_evidence|verification H17]]).
 - The Claude Chrome extension had 17.33% of AI-agent traffic in April 2026 (HUMAN Security; vendor).
 
 **What it means for Quotr**
@@ -358,15 +364,15 @@ Each section has: **at a glance**, **what is officially known**, **what studies 
 
 **Officially known**
 - **Microsoft's Oct 2025 guidance** for inclusion in AI answers: descriptive H1–H3 headings that mirror questions; short, single-idea sections; schema (FAQ, HowTo, Product, Review); direct factual language; alt text and clean HTML; fresh content consistent with authoritative sources ([Microsoft Advertising](https://about.ads.microsoft.com/en/blog/post/october-2025/optimizing-your-content-for-inclusion-in-ai-search-answers)).
-- **Microsoft's May 6, 2026 post** "Evolving role of the index: From ranking pages to supporting answers" says grounding uses the same crawlers and quality signals as search but adds a layer that checks facts, attribution and confidence: whether meaning survives chunking, the source is clearly identified, the information is fresh enough, and important facts are retrievable ([Bing Search blog](https://blogs.bing.com/search/May-2026/Evolving-role-of-the-index-From-ranking-pages-to-supporting-answers); via [Search Engine Land](https://searchengineland.com/microsoft-ai-answers-index-476691)). Read this newer post in full before quoting Microsoft's older advice ([verification O12](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>)).
+- **Microsoft's May 6, 2026 post** "Evolving role of the index: From ranking pages to supporting answers" says grounding uses the same crawlers and quality signals as search but adds a layer that checks facts, attribution and confidence: whether meaning survives chunking, the source is clearly identified, the information is fresh enough, and important facts are retrievable ([Bing Search blog](https://blogs.bing.com/search/May-2026/Evolving-role-of-the-index-From-ranking-pages-to-supporting-answers); via [Search Engine Land](https://searchengineland.com/microsoft-ai-answers-index-476691)). Read this newer post in full before quoting Microsoft's older advice ([[verification_geo_evidence|verification O12]]).
 
 **What studies show**
 - Copilot citations drift about 53.4% month to month (Profound; vendor).
 - Only 12% of links cited by ChatGPT, Gemini and Copilot were in Google's top 10 (Ahrefs), so Bing rankings can matter on their own.
 
 **What it means for Quotr**
-- Set up **Bing Webmaster Tools** now: submit all three sitemaps (including the blog sitemap robots.txt currently omits), turn on IndexNow, and watch the AI Performance report for citations and grounding queries ([report, 30-day plan](<../../reports/Quotr GEO AEO strategy audit.md>)).
-- Microsoft is the one engine that openly recommends schema. Fixing Quotr's conflicting Organization schema is cheap hygiene that may help here ([../06-playbooks/schema-markup-kit.md](../06-playbooks/schema-markup-kit.md)).
+- Set up **Bing Webmaster Tools** now: submit all three sitemaps (including the blog sitemap robots.txt currently omits), turn on IndexNow, and watch the AI Performance report for citations and grounding queries ([[Quotr GEO AEO strategy audit|report, 30-day plan]]).
+- Microsoft is the one engine that openly recommends schema. Fixing Quotr's conflicting Organization schema is cheap hygiene that may help here ([[Schema markup kit]]).
 - Copilot's "fresh and consistent with authoritative sources" test is exactly where Quotr's conflicting facts (price, HQ, factory count) hurt.
 
 ---
@@ -386,13 +392,13 @@ Each section has: **at a glance**, **what is officially known**, **what studies 
 
 ## 5. What this means for Quotr (checklist)
 
-1. **Keep all AI crawlers allowed.** Confirm in Cloudflare that "Block AI bots" is off and that AI search bots get normal 200 responses (TO CONFIRM with Quotr). See [website-audit.md](../02-current-state/website-audit.md).
+1. **Keep all AI crawlers allowed.** Confirm in Cloudflare that "Block AI bots" is off and that AI search bots get normal 200 responses (TO CONFIRM with Quotr). See [[Website audit]].
 2. **Be findable in three indexes:** Google (Search Console), Bing (Bing Webmaster Tools, IndexNow) and Brave (spot-check). Add the blog sitemap to robots.txt and use real lastmod dates.
-3. **Fix the facts engines retrieve.** Old prices on about 13 URLs and llms.txt, conflicting HQ, funding and factory counts. One fact sheet: [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md).
-4. **Attach the name to the fact** so retrieval turns into mentions ([../06-playbooks/geo-writing-style-guide.md](../06-playbooks/geo-writing-style-guide.md)).
+3. **Fix the facts engines retrieve.** Old prices on about 13 URLs and llms.txt, conflicting HQ, funding and factory counts. One fact sheet: [[Entity fact sheet]].
+4. **Attach the name to the fact** so retrieval turns into mentions ([[GEO writing style guide]]).
 5. **Match sub-questions, don't multiply pages.** Precise titles and headings; no near-duplicate variation pages.
-6. **Earn presence where each engine looks:** review sites and editorial lists (Perplexity, ChatGPT), YouTube (AI Overviews, AI Mode), LinkedIn and communities (AI Mode), press (all). See [../03-market/citation-sources-map.md](../03-market/citation-sources-map.md) and [../05-content-strategy/offsite-earned-media-plan.md](../05-content-strategy/offsite-earned-media-plan.md).
-7. **Measure per engine, monthly, with two runs for each headline prompt,** plus Search Console and Bing AI reports ([../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md); [../07-measurement/tracking-setup.md](../07-measurement/tracking-setup.md)).
+6. **Earn presence where each engine looks:** review sites and editorial lists (Perplexity, ChatGPT), YouTube (AI Overviews, AI Mode), LinkedIn and communities (AI Mode), press (all). See [[Citation sources map]] and [[Off-site earned media plan]].
+7. **Measure per engine, monthly, with two runs for each headline prompt,** plus Search Console and Bing AI reports ([[Tracking set]]; [[Tracking setup]]).
 8. **Do not opt out** of Google's AI features, and do not block Google-Extended.
 
 ---
@@ -401,7 +407,7 @@ Each section has: **at a glance**, **what is officially known**, **what studies 
 
 - Which search providers ChatGPT uses is not confirmed by OpenAI.
 - No first-party Perplexity or Gemini-app documentation on source ranking was verified.
-- No published study covers how any engine answers **takeoff or estimating** software questions specifically ([quotr_ai_visibility_tests.md §6](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>)).
+- No published study covers how any engine answers **takeoff or estimating** software questions specifically ([[quotr_ai_visibility_tests|quotr_ai_visibility_tests.md §6]]).
 - Whether Cloudflare lets every AI crawler through, and what status codes they receive, needs Quotr's Cloudflare dashboard or server logs (TO CONFIRM with Quotr).
 - Microsoft's May 2026 grounding post and Google's May 2026 guide were read only through summaries in this research.
 
@@ -409,12 +415,12 @@ Each section has: **at a glance**, **what is officially known**, **what studies 
 
 ## Related pages
 
-- [signals-that-matter.md](signals-that-matter.md) — the evidence table of what gets brands cited and named
-- [myths-and-risks.md](myths-and-risks.md) — llms.txt, hidden text, self-ranking lists and other traps
-- [traffic-and-funnel-impact.md](traffic-and-funnel-impact.md) — what AI answers do to clicks and top-of-funnel reach
-- [geo-glossary.md](geo-glossary.md) — every term on this page in plain English
-- [../02-current-state/website-audit.md](../02-current-state/website-audit.md) — Quotr's robots.txt, sitemaps and schema today
-- [../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md) — the Perplexity test results
-- [../03-market/citation-sources-map.md](../03-market/citation-sources-map.md) — the exact third-party pages engines cite in Quotr's category
-- [../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md) — the monthly multi-engine test
-- [../07-measurement/tracking-setup.md](../07-measurement/tracking-setup.md) — Search Console, Bing and GA4 setup
+- [[Signals that matter]] — the evidence table of what gets brands cited and named
+- [[Myths and risks]] — llms.txt, hidden text, self-ranking lists and other traps
+- [[Traffic and funnel impact]] — what AI answers do to clicks and top-of-funnel reach
+- [[GEO glossary]] — every term on this page in plain English
+- [[Website audit]] — Quotr's robots.txt, sitemaps and schema today
+- [[AI visibility baseline]] — the Perplexity test results
+- [[Citation sources map]] — the exact third-party pages engines cite in Quotr's category
+- [[Tracking set]] — the monthly multi-engine test
+- [[Tracking setup]] — Search Console, Bing and GA4 setup

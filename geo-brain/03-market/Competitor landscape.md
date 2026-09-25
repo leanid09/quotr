@@ -1,10 +1,16 @@
+---
+type: guide
+description: Every competitor AI recommends instead of Quotr, grouped by type, with a side-by-side comparison.
+last_verified: 2026-09-25
+verify_every_days: 90
+---
 # Competitor Landscape: Who Wins AI Answers in Quotr's Category
 
-**What this page is for:** One map of every competitor that AI answer engines recommend instead of Quotr.ai, grouped by type, with a side-by-side comparison and a plain explanation of who "owns" AI answers in this category and why.
+> [!abstract] What this page is for
+> One map of every competitor that AI answer engines recommend instead of Quotr.ai, grouped by type, with a side-by-side comparison and a plain explanation of who "owns" AI answers in this category and why.
 
-**Last updated:** 2026-09-25
-
-**Sources:** Research notes [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>), [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), [quotr_offsite_presence.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (its corrections override the other notes), [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>). Pages read directly on 2026-09-25: [ConstructConnect 2026 AI takeoff guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026), [togal.ai/pricing](https://www.togal.ai/pricing), [ibeam.ai/compare](https://www.ibeam.ai/compare), [stackct.com/pricing](https://www.stackct.com/pricing/), [kreo.net/pricing](https://www.kreo.net/pricing), [handoff.ai/pricing](https://www.handoff.ai/pricing), [handoff.ai/comparison](https://www.handoff.ai/comparison), [handoff.ai/official-information-about-handoff](https://www.handoff.ai/official-information-about-handoff), [buildxact.com/us/pricing](https://www.buildxact.com/us/pricing/). Review counts, funding and pricing for other vendors were checked with WebSearch on 2026-09-25 (links in each row).
+> [!info]- Sources
+> Research notes [[competitor_geo_benchmark]], [[quotr_ai_visibility_tests]], [[quotr_offsite_presence]], [[verification_quotr_and_competitors]] (its corrections override the other notes), [[quotr_onsite_content_audit]]. Pages read directly on 2026-09-25: [ConstructConnect 2026 AI takeoff guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026), [togal.ai/pricing](https://www.togal.ai/pricing), [ibeam.ai/compare](https://www.ibeam.ai/compare), [stackct.com/pricing](https://www.stackct.com/pricing/), [kreo.net/pricing](https://www.kreo.net/pricing), [handoff.ai/pricing](https://www.handoff.ai/pricing), [handoff.ai/comparison](https://www.handoff.ai/comparison), [handoff.ai/official-information-about-handoff](https://www.handoff.ai/official-information-about-handoff), [buildxact.com/us/pricing](https://www.buildxact.com/us/pricing/). Review counts, funding and pricing for other vendors were checked with WebSearch on 2026-09-25 (links in each row).
 
 ---
 
@@ -21,7 +27,7 @@
 - **Procurement / buyout:** actually buying the materials after the job is won.
 - **Listicle:** a "Best 10 X in 2026" style article.
 
-**Important limit:** all live AI tests behind this page were run on **Perplexity (Sonar model) only**, on 2026-09-25, mostly once per prompt. ChatGPT, Google AI Overviews/AI Mode, Gemini, Claude and Copilot were **not** tested. Treat the share-of-voice numbers as a directional snapshot, not a fixed ranking. See [../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md) for the full method.
+**Important limit:** all live AI tests behind this page were run on **Perplexity (Sonar model) only**, on 2026-09-25, mostly once per prompt. ChatGPT, Google AI Overviews/AI Mode, Gemini, Claude and Copilot were **not** tested. Treat the share-of-voice numbers as a directional snapshot, not a fixed ranking. See [[AI visibility baseline]] for the full method.
 
 ---
 
@@ -44,19 +50,19 @@
 
 | Competitor | One-line description | Why it matters to Quotr | Profile |
 |---|---|---|---|
-| **Togal.AI** | AI-first takeoff for multi-trade subcontractors and GCs, Miami | The benchmark every AI takeoff comparison is built around | [competitors/togal-ai.md](competitors/togal-ai.md) |
-| **Beam AI** (ibeam.ai, by Attentive.ai) | AI takeoff plus a human quality-check team, delivered in 1–4 days | Mirrors Quotr's AI + human Estimation Service; moving into estimating and bid management | [competitors/beam-ai.md](competitors/beam-ai.md) |
-| **Kreo** | Low-cost self-serve AI takeoff from $35/user/month | The price anchor in "cheapest AI takeoff" answers | [competitors/kreo.md](competitors/kreo.md) |
-| **Handoff** (by 1build) | AI estimating and job management for remodelers and home builders | Owns "residential" AI answers; bundles purchasing and bid collection | [competitors/handoff.md](competitors/handoff.md) |
-| **Newer AI-natives**: xBuild, Bobyard, BuildVision AI, Easy Takeoffs, ContraVault, Foreman AI, Meltplan, Exayard, OneEstimate, ScopeTakeoff, QuoteIQ, Pilars, Ruh AI, Civils.ai, CountBricks, Aginera, PalCode | Fast-growing, heavily funded or content-heavy newcomers | They publish most of the "best X" listicles AI engines cite | [competitors/ai-native-newcomers.md](competitors/ai-native-newcomers.md) |
+| **Togal.AI** | AI-first takeoff for multi-trade subcontractors and GCs, Miami | The benchmark every AI takeoff comparison is built around | [[Togal AI]] |
+| **Beam AI** (ibeam.ai, by Attentive.ai) | AI takeoff plus a human quality-check team, delivered in 1–4 days | Mirrors Quotr's AI + human Estimation Service; moving into estimating and bid management | [[Beam AI]] |
+| **Kreo** | Low-cost self-serve AI takeoff from $35/user/month | The price anchor in "cheapest AI takeoff" answers | [[Kreo]] |
+| **Handoff** (by 1build) | AI estimating and job management for remodelers and home builders | Owns "residential" AI answers; bundles purchasing and bid collection | [[Handoff]] |
+| **Newer AI-natives**: xBuild, Bobyard, BuildVision AI, Easy Takeoffs, ContraVault, Foreman AI, Meltplan, Exayard, OneEstimate, ScopeTakeoff, QuoteIQ, Pilars, Ruh AI, Civils.ai, CountBricks, Aginera, PalCode | Fast-growing, heavily funded or content-heavy newcomers | They publish most of the "best X" listicles AI engines cite | [[AI-native newcomers]] |
 
 ### Group B: Legacy (incumbent) takeoff and estimating
 
 | Competitor | One-line description | Why it matters to Quotr | Profile |
 |---|---|---|---|
-| **STACK** | Cloud takeoff and estimating, huge review base, free tier | The default "GC all-rounder" answer | [competitors/stack.md](competitors/stack.md) |
-| **PlanSwift** and **On-Screen Takeoff** (both ConstructConnect) | Windows desktop takeoff (PlanSwift) and the original digital takeoff (OST), now with "Takeoff Boost" AI | The tools people search "alternatives" for; ConstructConnect also writes one of the most-cited guides | [competitors/planswift.md](competitors/planswift.md) |
-| **Bluebeam Revu** (Nemetschek) | PDF markup and measurement used across AEC | Named in 7 of 32 unbranded prompts; its dated guides win how-to citations | [competitors/bluebeam.md](competitors/bluebeam.md) |
+| **STACK** | Cloud takeoff and estimating, huge review base, free tier | The default "GC all-rounder" answer | [[STACK]] |
+| **PlanSwift** and **On-Screen Takeoff** (both ConstructConnect) | Windows desktop takeoff (PlanSwift) and the original digital takeoff (OST), now with "Takeoff Boost" AI | The tools people search "alternatives" for; ConstructConnect also writes one of the most-cited guides | [[PlanSwift]] |
+| **Bluebeam Revu** (Nemetschek) | PDF markup and measurement used across AEC | Named in 7 of 32 unbranded prompts; its dated guides win how-to citations | [[Bluebeam]] |
 | Autodesk Takeoff / Forma Estimate | Autodesk's takeoff and estimating | Wins "multifamily" answers by default | Covered below |
 | Procore Estimating | Estimating module inside Procore's platform | 4.6 from 4,205 reviews (ConstructConnect's guide, which labels review sites inconsistently; site not re-checked); named in 7 of 32 prompts | Covered below |
 | eTakeoff, Trimble (WinEst, AccuBid), RIB CostX, InEight, ProEst, DESTINI, Square Takeoff, The EDGE, MeasureSquare, Countfire, ConEst, McCormick, AGTEK | Trade- or segment-specific incumbents | Win trade prompts (drywall, flooring, electrical) and enterprise answers | Covered below |
@@ -65,8 +71,8 @@
 
 | Competitor | One-line description | Why it matters to Quotr | Profile |
 |---|---|---|---|
-| **Buildxact** | Estimating, takeoff and job management for small residential builders, with dealer pricing and Home Depot ordering | Named in 10 of 32 unbranded prompts (tied first) | [competitors/buildxact.md](competitors/buildxact.md) |
-| **Handoff** | See Group A | Owns residential AI answers | [competitors/handoff.md](competitors/handoff.md) |
+| **Buildxact** | Estimating, takeoff and job management for small residential builders, with dealer pricing and Home Depot ordering | Named in 10 of 32 unbranded prompts (tied first) | [[Buildxact]] |
+| **Handoff** | See Group A | Owns residential AI answers | [[Handoff]] |
 | Buildertrend, Houzz Pro, JobTread, Clear Estimates, Contractor Foreman, Jobber, QuickBooks, Xactimate | Residential project management and estimating tools | Win "residential estimating" and "bid leveling" prompts | Covered below |
 
 ### Group D: Bid management (GC-side)
@@ -77,11 +83,11 @@ ConstructConnect (SmartBid, Bid Management), Autodesk BuildingConnected, PlanHub
 
 | Competitor | One-line description | Why it matters to Quotr | Profile |
 |---|---|---|---|
-| **Port2Site** | Factory-direct import sourcing for 50–500+ unit multifamily and other developments | The closest match to Quotr Procurement for developers | [competitors/procurement-and-sourcing.md](competitors/procurement-and-sourcing.md) |
-| **Build Source** (buildsourcedirect.com) | Factory-direct supplier of record for windows, doors, flooring, cabinetry and more | Named first for "buy cabinets, windows and flooring factory direct" (C14) | [competitors/procurement-and-sourcing.md](competitors/procurement-and-sourcing.md) |
-| **Field Materials AI** | AI procurement software for self-performing GCs and subs | Wins "construction procurement software" answers and writes the list AI cites | [competitors/procurement-and-sourcing.md](competitors/procurement-and-sourcing.md) |
-| Trimble Materials, Archdesk, Procore, Precoro, esti-mate, ConWize | Procurement or estimating-plus-procurement software | Named in procurement answers | [competitors/procurement-and-sourcing.md](competitors/procurement-and-sourcing.md) |
-| FBM Sourcing, Go Global Inc., Trillion Sources, Spotyard (AU), Alibaba, Global Trade Plaza, AGTS, BRKZ, ZeroGap, Commervia | Sourcing agents and B2B marketplaces | Named for factory-direct and "import from China" questions | [competitors/procurement-and-sourcing.md](competitors/procurement-and-sourcing.md) |
+| **Port2Site** | Factory-direct import sourcing for 50–500+ unit multifamily and other developments | The closest match to Quotr Procurement for developers | [[Procurement and sourcing players]] |
+| **Build Source** (buildsourcedirect.com) | Factory-direct supplier of record for windows, doors, flooring, cabinetry and more | Named first for "buy cabinets, windows and flooring factory direct" (C14) | [[Procurement and sourcing players]] |
+| **Field Materials AI** | AI procurement software for self-performing GCs and subs | Wins "construction procurement software" answers and writes the list AI cites | [[Procurement and sourcing players]] |
+| Trimble Materials, Archdesk, Procore, Precoro, esti-mate, ConWize | Procurement or estimating-plus-procurement software | Named in procurement answers | [[Procurement and sourcing players]] |
+| FBM Sourcing, Go Global Inc., Trillion Sources, Spotyard (AU), Alibaba, Global Trade Plaza, AGTS, BRKZ, ZeroGap, Commervia | Sourcing agents and B2B marketplaces | Named for factory-direct and "import from China" questions | [[Procurement and sourcing players]] |
 
 ---
 
@@ -91,7 +97,7 @@ ConstructConnect (SmartBid, Bid Management), Autodesk BuildingConnected, PlanHub
 
 | Competitor | Positioning | Target customer | Public pricing (seen 2026-09-25 unless noted) | Reviews | AI SOV (32 prompts) | Content strength | Notable GEO moves |
 |---|---|---|---|---|---|---|---|
-| **Quotr.ai** (for reference) | "All-in-one estimation platform": AI takeoff → estimate → bids → factory-direct procurement, plus a done-for-you Estimation Service | Contractors, subs and developers (residential vs commercial wording conflicts: see [../00-quotr/audiences-and-personas.md](../00-quotr/audiences-and-personas.md)) | Lite $79.90, Plus $299.90 per seat/month; Enterprise custom; 7-day trial; Service $0.25/sq ft under 50k sq ft, $0.10 above ([pricing](https://quotr.ai/pricing/)) | G2 profile "quotr-io" with about **0** reviews (Perplexity-reported); no Capterra listing found | **1 prompt, ~0.7%** | 96 blog posts, 55 glossary terms, 23 thin trade pages, 12 comparison pages | /disambiguation/ page, llms.txt, many "alternatives" posts |
+| **Quotr.ai** (for reference) | "All-in-one estimation platform": AI takeoff → estimate → bids → factory-direct procurement, plus a done-for-you Estimation Service | Contractors, subs and developers (residential vs commercial wording conflicts: see [[Audiences and personas]]) | Lite $79.90, Plus $299.90 per seat/month; Enterprise custom; 7-day trial; Service $0.25/sq ft under 50k sq ft, $0.10 above ([pricing](https://quotr.ai/pricing/)) | G2 profile "quotr-io" with about **0** reviews (Perplexity-reported); no Capterra listing found | **1 prompt, ~0.7%** | 96 blog posts, 55 glossary terms, 23 thin trade pages, 12 comparison pages | /disambiguation/ page, llms.txt, many "alternatives" posts |
 | **Togal.AI** | Fastest AI takeoff; "most innovative takeoff tool" | Multi-trade specialty subs and GCs | Growth $299/user/month billed yearly; Business custom for 4+ users ([togal.ai/pricing](https://www.togal.ai/pricing)) | G2 4.8 from 60 (July 2026, [ConstructConnect](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026)); Capterra: no reviews yet (WebSearch) | 8 prompts, ~5.2% | Strong: /vs/ pages, 8+ trade pages, blog, webinars, YouTube | Peer-reviewed study vs On-Screen Takeoff; ChatGPT integration post; G2 "Highest Performer" badge |
 | **Beam AI** | "Done-for-you" AI takeoff, QA-checked, ±1% of in-house accuracy, 1–4 days | GCs, subs, suppliers; commercial-leaning | No self-serve price published; done-for-you about $15–25K a year per trade (ConstructConnect) | G2 4.9 from 30 (July 2026) or 37 (Perplexity) | 5 prompts, ~3.3% | Very strong: 20+ compare pages, ~15 trade pages, podcast, conference | Largest "vs" hub in the category; PR syndication; $30.5M Series B (Nov 2025) |
 | **Kreo** | Affordable AI takeoff (Auto Measure, Caddie AI chat) | Estimators, QSs, trades; UK and US | Lite $35, Plus $70, Pro $175 per user/month billed annually; Enterprise custom ([kreo.net/pricing](https://www.kreo.net/pricing)) | G2 4.5 from 32 (39 on seller page); Capterra 4.4 from 25 | 7 prompts, ~4.6% | Medium: compare pages, 8 trade pages, glossary, frequent product blog | Price anchor in listicles; "Auto Measure 3.0: the best AI model in the world" claim (Aug 2026) |
@@ -132,7 +138,7 @@ Review-count notes:
 | Cheapest / free trial (V7, V8) | Kreo, Easy Takeoffs, Pilars, QuoteIQ; On-Screen Takeoff, PlanSwift, Kreo, Eano, eTakeoff… | Easy Takeoffs posts, vendor pricing pages | Absent, although Lite is $79.90 with a 7-day trial |
 | How-to education (P1–P8) | Usually no brand | Bluebeam, Autodesk, BuildVision, calculators, RSMeans, NAHB, logistics firms | Cited once (P5, accuracy), never named |
 
-Sources for this table: prompt IDs and results in [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) and the benchmark prompts in [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>), with re-runs from [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>).
+Sources for this table: prompt IDs and results in [[quotr_ai_visibility_tests]] and the benchmark prompts in [[competitor_geo_benchmark]], with re-runs from [[verification_quotr_and_competitors]].
 
 ### Why these brands win (the seven patterns)
 
@@ -202,9 +208,9 @@ Lower priority for GEO right now: Houzz Pro, DESTINI, ProEst, Square Takeoff, Co
 
 ## 7. What to do with this page
 
-- For per-competitor tactics, open the profile in [competitors/](competitors/).
-- For the list of sites to get onto, see [citation-sources-map.md](citation-sources-map.md).
-- For topics no competitor owns, see [white-space.md](white-space.md).
+- For per-competitor tactics, open the profile in [[Competitor profiles]].
+- For the list of sites to get onto, see [[Citation sources map]].
+- For topics no competitor owns, see [[White space]].
 - Re-check review counts, prices and the share-of-voice test every month. Citation sets churn fast (one cross-industry study found only about a third of AI-cited URLs were still cited 28 days later; see the visibility notes, section 6).
 
 **TO CONFIRM with Quotr:** which competitors Quotr's sales team actually meets in deals (win/loss data). That would let us re-weight the priority list above with real buyer evidence.
@@ -213,10 +219,10 @@ Lower priority for GEO right now: Houzz Pro, DESTINI, ProEst, Square Takeoff, Co
 
 ## Related pages
 
-- [competitors/togal-ai.md](competitors/togal-ai.md), [competitors/handoff.md](competitors/handoff.md), [competitors/stack.md](competitors/stack.md), [competitors/beam-ai.md](competitors/beam-ai.md), [competitors/kreo.md](competitors/kreo.md), [competitors/buildxact.md](competitors/buildxact.md), [competitors/planswift.md](competitors/planswift.md), [competitors/bluebeam.md](competitors/bluebeam.md), [competitors/procurement-and-sourcing.md](competitors/procurement-and-sourcing.md), [competitors/ai-native-newcomers.md](competitors/ai-native-newcomers.md)
-- [citation-sources-map.md](citation-sources-map.md): where AI engines get their answers
-- [white-space.md](white-space.md): topics and formats competitors leave open
-- [../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md): the prompt-by-prompt test results
-- [../02-current-state/offsite-presence.md](../02-current-state/offsite-presence.md): Quotr's own review and listing footprint
-- [../00-quotr/positioning-and-proof-points.md](../00-quotr/positioning-and-proof-points.md): how Quotr should describe itself against these rivals
-- [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md): the prompts to re-test
+- [[Togal AI]], [[Handoff]], [[STACK]], [[Beam AI]], [[Kreo]], [[Buildxact]], [[PlanSwift]], [[Bluebeam]], [[Procurement and sourcing players]], [[AI-native newcomers]]
+- [[Citation sources map]]: where AI engines get their answers
+- [[White space]]: topics and formats competitors leave open
+- [[AI visibility baseline]]: the prompt-by-prompt test results
+- [[Off-site presence]]: Quotr's own review and listing footprint
+- [[Positioning and proof points]]: how Quotr should describe itself against these rivals
+- [[Prompt library]]: the prompts to re-test

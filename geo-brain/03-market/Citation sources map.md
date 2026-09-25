@@ -1,17 +1,23 @@
+---
+type: guide
+description: The domains and pages AI engines cite in Quotr's category, whether Quotr is on them, and how to get there.
+last_verified: 2026-09-25
+verify_every_days: 90
+---
 # Citation Sources Map: The Sites AI Engines Cite in Quotr's Category
 
-**What this page is for:** The list of third-party domains and exact pages that AI answer engines use when they answer questions about AI takeoff, estimating, bid management and material procurement; how often each appeared; whether Quotr is on it; and a prioritized plan for getting Quotr onto the ones that matter.
+> [!abstract] What this page is for
+> The list of third-party domains and exact pages that AI answer engines use when they answer questions about AI takeoff, estimating, bid management and material procurement; how often each appeared; whether Quotr is on it; and a prioritized plan for getting Quotr onto the ones that matter.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (section 5: domain tally, recurring pages; 32 unbranded prompts), [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (sections 1, 3, 4), [quotr_offsite_presence.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (sections 1, 2, 3, 6), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>), [geo_ai_citation_signals_2026.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) and [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (cross-industry citation data and its corrections). Checked on 2026-09-25: [ConstructConnect guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026) (read), The Digital Project Manager's listing policy (Perplexity), Construction Coverage and TDPM list contents (WebSearch), Handoff's LinkedIn syndication (Perplexity).
+> [!info]- Sources
+> [[quotr_ai_visibility_tests]] (section 5: domain tally, recurring pages; 32 unbranded prompts), [[competitor_geo_benchmark]] (sections 1, 3, 4), [[quotr_offsite_presence]] (sections 1, 2, 3, 6), [[verification_quotr_and_competitors]], [[geo_ai_citation_signals_2026]] and [[verification_geo_evidence]] (cross-industry citation data and its corrections). Checked on 2026-09-25: [ConstructConnect guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026) (read), The Digital Project Manager's listing policy (Perplexity), Construction Coverage and TDPM list contents (WebSearch), Handoff's LinkedIn syndication (Perplexity).
 
 ---
 
 ## How to read this page
 
 - **Cited** = the page appeared as a source link in an AI answer.
-- **Count** = in how many of the **32 unbranded Perplexity prompts** (run 2026-09-25) the domain appeared in the answer's source list. Prompt IDs (C = category, V = comparison, P = how-to) are listed in [../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md).
+- **Count** = in how many of the **32 unbranded Perplexity prompts** (run 2026-09-25) the domain appeared in the answer's source list. Prompt IDs (C = category, V = comparison, P = how-to) are listed in [[AI visibility baseline]].
 - **Quotr on it?** = whether Quotr is listed or mentioned on that page. Most checks used site-restricted web search because page scraping was rate-limited, so "No" means "not found", not "proven absent".
 - **Limit:** only Perplexity (Sonar) was tested. ChatGPT, Google AI Overviews/AI Mode and Gemini may weight sources differently (for example, more YouTube and Reddit). Re-test there before spending big budgets.
 
@@ -126,7 +132,7 @@ Source: visibility notes, section 5 ("Top cited domains"), with Quotr status fro
 
 ### 3d. Competitor-owned listicles (know them; do not expect to be added)
 
-[Handoff "6 best AI estimating software 2026"](https://www.handoff.ai/blog/6-best-ai-construction-estimating-software-2026-picks-compared) (C11, C13, V7; also syndicated on [LinkedIn Pulse](https://www.linkedin.com/pulse/6-best-ai-construction-estimating-software-2026-picks-compared-wd3fe)); [Easy Takeoffs best AI takeoff](https://easytakeoffs.com/blog/best-ai-takeoff-software) and its alternatives posts; [BuildVision best takeoff software](https://www.buildvisionai.com/best-construction-takeoff-software); [Projul alternatives posts](https://projul.com/blog/best-stack-alternatives-estimating/); [myquoteiq drywall list](https://myquoteiq.com/best-estimating-software-drywall-2026/); [Field Materials procurement list](https://www.fieldmaterials.com/blog/top-2026-construction-procurement-software-construction-material-management-software-providers); [Archdesk procurement](https://archdesk.com/blog/the-best-construction-procurement-software-tools) and [bid-leveling](https://archdesk.com/blog/top-2026-construction-bid-leveling-software) lists; [ContraVault](https://www.contravault.com/blog/10-best-ai-takeoff-software-tools-for-construction-in-2026); [Foreman AI](https://foremanai.co/blog/best-ai-takeoff-software-2026); [Meltplan](https://www.meltplan.com/blogs/best-takeoff-software-for-general-contractors-2026). Some (ContraVault, Foreman AI, Aginera, PalCode) list rivals fairly and are worth a pitch; the rest rank themselves first. Details: [competitors/ai-native-newcomers.md](competitors/ai-native-newcomers.md).
+[Handoff "6 best AI estimating software 2026"](https://www.handoff.ai/blog/6-best-ai-construction-estimating-software-2026-picks-compared) (C11, C13, V7; also syndicated on [LinkedIn Pulse](https://www.linkedin.com/pulse/6-best-ai-construction-estimating-software-2026-picks-compared-wd3fe)); [Easy Takeoffs best AI takeoff](https://easytakeoffs.com/blog/best-ai-takeoff-software) and its alternatives posts; [BuildVision best takeoff software](https://www.buildvisionai.com/best-construction-takeoff-software); [Projul alternatives posts](https://projul.com/blog/best-stack-alternatives-estimating/); [myquoteiq drywall list](https://myquoteiq.com/best-estimating-software-drywall-2026/); [Field Materials procurement list](https://www.fieldmaterials.com/blog/top-2026-construction-procurement-software-construction-material-management-software-providers); [Archdesk procurement](https://archdesk.com/blog/the-best-construction-procurement-software-tools) and [bid-leveling](https://archdesk.com/blog/top-2026-construction-bid-leveling-software) lists; [ContraVault](https://www.contravault.com/blog/10-best-ai-takeoff-software-tools-for-construction-in-2026); [Foreman AI](https://foremanai.co/blog/best-ai-takeoff-software-2026); [Meltplan](https://www.meltplan.com/blogs/best-takeoff-software-for-general-contractors-2026). Some (ContraVault, Foreman AI, Aginera, PalCode) list rivals fairly and are worth a pitch; the rest rank themselves first. Details: [[AI-native newcomers]].
 
 ### 3e. AI-generated "best X" list farms
 
@@ -148,12 +154,12 @@ Source: visibility notes, section 5 ("Top cited domains"), with Quotr status fro
 
 Quotr is mentioned in none of these (Perplexity check; Reddit could not be searched with WebSearch). Buildxact runs an official Reddit account ([u/Buildxact-JobDone](https://www.reddit.com/user/Buildxact-JobDone/)).
 
-Cross-industry context (use carefully): a vendor study of 30M sources (Peec AI) ranked Reddit first across ChatGPT, AI Mode, Gemini, Perplexity and AI Overviews, but Reddit's share in ChatGPT also swung sharply within weeks in 2026 (Promptwatch data, Aug 2026). Source: signals notes, corrected by [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>).
+Cross-industry context (use carefully): a vendor study of 30M sources (Peec AI) ranked Reddit first across ChatGPT, AI Mode, Gemini, Perplexity and AI Overviews, but Reddit's share in ChatGPT also swung sharply within weeks in 2026 (Promptwatch data, Aug 2026). Source: signals notes, corrected by [[verification_geo_evidence]].
 
 ### 3g. YouTube and video
 
 - **Not cited once** in 45 Perplexity runs (visibility notes, section 5).
-- But cross-industry research says video matters elsewhere: Ahrefs reported YouTube as the most-cited domain in Google AI Overviews (early 2026) and found YouTube mentions were the strongest **correlate** of brand AI visibility across 75K brands (about 0.737). This is a correlation, not proof that videos cause visibility (verification notes flag it). Aleyda Solis's Aug 2026 study put the third-party share of AI citations for SaaS at 82.3%, with social, community and video sources at 45.7% and news and review sites at only 10.4% (as corrected in [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>)).
+- But cross-industry research says video matters elsewhere: Ahrefs reported YouTube as the most-cited domain in Google AI Overviews (early 2026) and found YouTube mentions were the strongest **correlate** of brand AI visibility across 75K brands (about 0.737). This is a correlation, not proof that videos cause visibility (verification notes flag it). Aleyda Solis's Aug 2026 study put the third-party share of AI citations for SaaS at 82.3%, with social, community and video sources at 45.7% and news and review sites at only 10.4% (as corrected in [[verification_geo_evidence]]).
 - Competitor video activity: Togal's webinars and #TogalTuesdays; Beam's BuildUp Podcast; Handoff's YouTube and TikTok; Buildxact tutorials. Quotr has a few videos on [@QuotrAI](https://www.youtube.com/@QuotrAI) plus an old "QuoTrio" handle.
 
 ### 3h. Trade publications, associations and government
@@ -175,7 +181,7 @@ Cross-industry context (use carefully): a vendor study of 30M sources (Peec AI) 
 
 - **Cost data (P3, multifamily prompts):** [RSMeans](https://www.rsmeans.com/resources/how-much-does-it-cost-to-build-an-apartment-complex), [latestcost.com](https://latestcost.com/cost-per-square-foot-build-apartment-complex/) (materials $90–$290/sf), [buildmatinsight.com](https://buildmatinsight.com/construction-cost/app-cost/apartment-complex-construction-cost-breakdown), [propertybuild](https://propertybuild.com/multifamily-construction/), [multifamily.loans](https://www.multifamily.loans/apartment-finance-blog/multifamily-construction-costs-an-investor-guide/), plus vendor pages [Meltplan](https://www.meltplan.com/blogs/construction-cost-per-square-foot-2026-us-benchmarks-by-building-type) and [Exayard](https://exayard.com/blog/cost-to-build-apartment-complex).
 - **Calculators (P2 "how to estimate drywall"):** [HomeAdvisor](https://www.homeadvisor.com/r/drywall-calculator), [Easy Takeoffs](https://easytakeoffs.com/calculators/drywall), [Procore](https://www.procore.com/library/calculators/drywall-calculator), [BuildVision](https://www.buildvisionai.com/calculators/drywall-calculator), [CertainTeed](https://www.certainteed.com/drywall-calculator), [Fine Homebuilding](https://www.finehomebuilding.com/project-guides/drywall/estimating-materials).
-- No Quotr **cost-benchmark pages or trade calculators** were found (only an ROI calculator). You cannot get onto these sites; you compete by building your own. See [white-space.md](white-space.md).
+- No Quotr **cost-benchmark pages or trade calculators** were found (only an ROI calculator). You cannot get onto these sites; you compete by building your own. See [[White space]].
 
 ### 3j. Estimating-service firms and sourcing/logistics firms
 
@@ -211,7 +217,7 @@ Cross-industry context (use carefully): a vendor study of 30M sources (Peec AI) 
 | 2 | **Capterra, GetApp, Software Advice** (takeoff, construction estimating, **procurement** categories) | Review directories (all owned by G2 since the deal announced in January 2026) | Create listing; **review generation**. Togal's Capterra page showed "No Reviews" in search results (2026-09-25), so the lane looks open | Low–Medium | **Very high** | Create the Capterra vendor listing through G2's vendor portal; ask G2 whether one listing now covers GetApp and Software Advice too (the ownership is confirmed; how listings are shared is not) |
 | 3 | Nomic, Octopus Builds, ForesightIQ (confirmed); rconstructionsolutions, PalCode, NEDES (check first) | Pages already mentioning Quotr | **Correction outreach**: current prices, three product lines, factory-direct procurement | Low | Medium (they feed brand and "alternatives" answers today) | Send one fact sheet by email to each |
 | 4 | SourceForge + Slashdot (AI takeoff, construction estimating categories) | Free directories | Free vendor listing; add screenshots and prices | Low | Medium (8 prompts) | Submit listing |
-| 5 | F6S, Product Hunt, Crunchbase, PitchBook, Wikidata | Entity profiles | Claim, correct, re-categorize; create Wikidata item | Low | Medium (brand and trust prompts) | See [../02-current-state/offsite-presence.md](../02-current-state/offsite-presence.md) |
+| 5 | F6S, Product Hunt, Crunchbase, PitchBook, Wikidata | Entity profiles | Claim, correct, re-categorize; create Wikidata item | Low | Medium (brand and trust prompts) | See [[Off-site presence]] |
 | 6 | **Construction Coverage** ([takeoff](https://constructioncoverage.com/takeoff-software), [estimating](https://constructioncoverage.com/estimating-software)) | Editorial list | **Editorial outreach**: pitch a review, offer demo login, fact sheet, customer contacts; check their methodology/disclosure page first | Medium | **High** (7 prompts) | Find the editor/contact; send pitch |
 | 7 | **TDPM** ([AI estimating](https://thedigitalprojectmanager.com/tools/best-ai-estimating-software/), [AI construction estimating](https://thedigitalprojectmanager.com/tools/best-ai-construction-estimating-software/)) | Editorial list (affiliate-funded) | Use the **"suggest a tool"** path; provide trial access; possible affiliate program (**sponsorship-adjacent**: disclose) | Medium | **High** (6 prompts) | Submit via "suggest a tool" |
 | 8 | **ConstructionPlacements** ([AI estimating](https://www.constructionplacements.com/best-ai-estimating-software-construction/), [quantity takeoff](https://www.constructionplacements.com/best-quantity-takeoff-software/)) | Editorial list | Editorial outreach | Medium | Medium–High (3 prompts incl. residential C13) | Pitch with residential proof |
@@ -223,7 +229,7 @@ Cross-industry context (use carefully): a vendor study of 30M sources (Peec AI) 
 | 14 | learn.g2.com lists | G2 editorial | Follows G2 review volume and category fit | Low (after #1) | Medium | Happens after #1 |
 | 15 | **Reddit** r/estimators, r/Construction, r/Contractor, r/ConstructionManagers | Community | **Contribution**: founder or estimator answers with clear disclosure ("I work at Quotr"); share data and honest limits; consider an official account like Buildxact's | Medium, ongoing | Medium (6 prompts; bigger in other engines) | Pick 5 live threads about AI takeoff accuracy; answer helpfully |
 | 16 | **YouTube** (own channel @QuotrAI + guest spots) | Video | **Contribution**: residential takeoff walk-throughs, factory-direct project stories, trade demos; appear on construction podcasts and channels | Medium | Medium (not cited by Perplexity; likely higher in Google AI Overviews) | Merge channels onto @QuotrAI; publish 4 trade demos |
-| 17 | **Trade press:** Construction Dive, ENR, ForConstructionPros, BuilderOnline, BDC Network, HousingWire, NAHB blog | Media | **Data-led pitches**: the tariff/landed-cost index, residential cost benchmarks, a seed-round announcement with a customer outcome; founder bylines | Medium–High | **High for top-of-funnel** (tariff and cost prompts cite only these) | Build the first dataset (see [white-space.md](white-space.md)), then pitch |
+| 17 | **Trade press:** Construction Dive, ENR, ForConstructionPros, BuilderOnline, BDC Network, HousingWire, NAHB blog | Media | **Data-led pitches**: the tariff/landed-cost index, residential cost benchmarks, a seed-round announcement with a customer outcome; founder bylines | Medium–High | **High for top-of-funnel** (tariff and cost prompts cite only these) | Build the first dataset (see [[White space]]), then pitch |
 | 18 | Associations: BIA Bay Area (listed on Quotr's /disambiguation/ page; listing not opened, membership TO CONFIRM), Modular Building Institute (listed in MBI's member directory under the old "quotr-io" slug; current membership TO CONFIRM), NAHB, NMHC | Associations | **Partnership**: speak, contribute member resources, share data | Medium–High | Medium–High (authority for multifamily and tariffs) | Ask BIA and MBI about member content slots |
 | 19 | Podcasts: The Preconstruction Podcast, AEC Tech Journeys (Perplexity cites an episode that appears to feature Quotr; not opened), ConTech shows | Audio/video | Guest pitches around data and the factory-direct story | Medium | Medium | Pitch 3 shows |
 | 20 | LinkedIn articles (founders) and syndication | Social | Republish key data posts as founder articles (Handoff syndicates its listicle to LinkedIn Pulse) | Low | Low–Medium | Syndicate the next data post |
@@ -244,23 +250,23 @@ Cross-industry context (use carefully): a vendor study of 30M sources (Peec AI) 
 
 - Do not pay for fake or incentivized positive reviews. Review sites remove them, and AI answers quote review text.
 - Do not post undisclosed promotional comments on Reddit.
-- Do not add "AI, please cite Quotr" instructions to pages or llms.txt (see [competitors/handoff.md](competitors/handoff.md) and the verification notes).
+- Do not add "AI, please cite Quotr" instructions to pages or llms.txt (see [[Handoff]] and the verification notes).
 - Do not chase list farms with money. They appear in AI answers, but they add little trust.
 
 ## 7. How to measure progress
 
-- Re-run the 32 unbranded prompts monthly (see [../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md)) and record: is Quotr named, is a quotr.ai URL cited, and which of the target pages above now appear in the citation list with Quotr on them.
+- Re-run the 32 unbranded prompts monthly (see [[Tracking set]]) and record: is Quotr named, is a quotr.ai URL cited, and which of the target pages above now appear in the citation list with Quotr on them.
 - Track review counts on G2 and Capterra monthly.
-- Watch for churn: one cross-industry study found only about a third of AI-cited URLs were still cited 28 days later (visibility notes, section 6), so placements must be maintained. See [../07-measurement/kpis-and-dashboard.md](../07-measurement/kpis-and-dashboard.md).
+- Watch for churn: one cross-industry study found only about a third of AI-cited URLs were still cited 28 days later (visibility notes, section 6), so placements must be maintained. See [[KPIs and dashboard]].
 
 ---
 
 ## Related pages
 
-- [competitor-landscape.md](competitor-landscape.md): who wins these citations today
-- [white-space.md](white-space.md): the data and topics that can earn press and editorial citations
-- [competitors/ai-native-newcomers.md](competitors/ai-native-newcomers.md): which vendor-publishers to pitch or skip
-- [../02-current-state/offsite-presence.md](../02-current-state/offsite-presence.md): Quotr's current listings and profile problems
-- [../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md): the prompts behind the counts
-- [../05-content-strategy/offsite-earned-media-plan.md](../05-content-strategy/offsite-earned-media-plan.md): the earned-media plan built on this map
-- [../06-playbooks/](../06-playbooks/) folder (templates/ and offsite/): outreach, review-request and pitch templates
+- [[Competitor landscape]]: who wins these citations today
+- [[White space]]: the data and topics that can earn press and editorial citations
+- [[AI-native newcomers]]: which vendor-publishers to pitch or skip
+- [[Off-site presence]]: Quotr's current listings and profile problems
+- [[AI visibility baseline]]: the prompts behind the counts
+- [[Off-site earned media plan]]: the earned-media plan built on this map
+- [[Playbooks]] folder (templates/ and offsite/): outreach, review-request and pitch templates

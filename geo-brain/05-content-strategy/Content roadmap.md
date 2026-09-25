@@ -1,38 +1,46 @@
+---
+type: plan
+description: 68 planned pieces in topic clusters, October 2026 to March 2027, with priorities and months.
+aliases:
+- Roadmap
+last_verified: 2026-09-25
+verify_every_days: 30
+---
 # Content Roadmap: Topic Clusters and 68 Pieces, October 2026 to March 2027
 
-**What this page is for:** The month-by-month plan of new and rebuilt content for Quotr.ai, organised into topic clusters (hubs). Each piece has a working title, format and template, target AI prompts, funnel stage, persona or trade, the unique Quotr data or angle that makes it worth publishing, a priority and a suggested month. Use it to plan production, brief writers and brief AI writing tools.
+> [!abstract] What this page is for
+> The month-by-month plan of new and rebuilt content for Quotr.ai, organised into topic clusters (hubs). Each piece has a working title, format and template, target AI prompts, funnel stage, persona or trade, the unique Quotr data or angle that makes it worth publishing, a priority and a suggested month. Use it to plan production, brief writers and brief AI writing tools.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [content-priorities.md](content-priorities.md) and [optimize-vs-create.md](optimize-vs-create.md) (this folder); [../03-market/white-space.md](../03-market/white-space.md); [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md) (prompt IDs and "NEW PAGE NEEDED" roll-up) and [../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md) (T-numbers); [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) and [../00-quotr/positioning-and-proof-points.md](../00-quotr/positioning-and-proof-points.md); the report [audit report](<../../reports/Quotr GEO AEO strategy audit.md>) (content types, 90-day plan); research notes [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§3, §5), [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§6 gaps), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) and [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (the two fact-checks, which override the other notes). In the text, "verification file" or "Quotr fact-check" means verification_quotr_and_competitors.md, and "GEO-evidence fact-check" means verification_geo_evidence.md.
+> [!info]- Sources
+> [[Content priorities]] and [[Optimize vs create]] (this folder); [[White space]]; [[Prompt library]] (prompt IDs and "NEW PAGE NEEDED" roll-up) and [[Tracking set]] (T-numbers); [[Entity fact sheet]] and [[Positioning and proof points]]; the report [[Quotr GEO AEO strategy audit|audit report]] (content types, 90-day plan); research notes [[competitor_geo_benchmark]] (§3, §5), [[quotr_ai_visibility_tests]], [[quotr_onsite_content_audit]] (§6 gaps), [[verification_quotr_and_competitors]] and [[verification_geo_evidence]] (the two fact-checks, which override the other notes). In the text, "verification file" or "Quotr fact-check" means verification_quotr_and_competitors.md, and "GEO-evidence fact-check" means verification_geo_evidence.md.
 
 ---
 
 ## How to read this page
 
 - **ID:** R-## for written pieces, V-## for videos. Stable; do not renumber.
-- **Format / template:** the page type. The "Templates used" table below maps each format label to its template in [../06-playbooks/templates/](../06-playbooks/templates/).
-- **Target prompts:** IDs from [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md) (L = learn, E = evaluate/compare, D = decide/brand). T## = the prompt is in the monthly tracking set ([../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md)), so progress can be measured.
+- **Format / template:** the page type. The "Templates used" table below maps each format label to its template in [[Page templates]].
+- **Target prompts:** IDs from [[Prompt library]] (L = learn, E = evaluate/compare, D = decide/brand). T## = the prompt is in the monthly tracking set ([[Tracking set]]), so progress can be measured.
 - **Funnel:** TOFU (learning), MOFU (comparing), BOFU (checking Quotr itself).
 - **Persona codes:** SUB (trade subcontractor), GC (general contractor / precon), RES (residential builder / small GC), DEV (developer), FUND (fund / lender), BUY (materials buyer), SVC (outsourcing buyer), ALL. **Trade codes:** as in the prompt library (ELEC, HVAC, PLMB, DRY, FLR, FRM, ROOF, WIN, CAB, TILE, CONC, SRC = sourcing/tariffs, GEN = all trades).
 - **Priority:** **P1** = must do; directly targets a Tier A tracked prompt, the white space, or a damaging error. **P2** = important support. **P3** = do if capacity allows.
 - **Month:** suggested publish month. Items that depend on Quotr data or approvals say so; if the dependency is late, the piece moves, it is not published with invented numbers.
-- **"Rebuild"** = an existing URL gets a substantial rewrite (see [optimize-vs-create.md](optimize-vs-create.md)). Everything else is new.
+- **"Rebuild"** = an existing URL gets a substantial rewrite (see [[Optimize vs create]]). Everything else is new.
 - **Import and trade terms used below, in plain English:** **Landed cost** = the full cost of imported goods once delivered (price + shipping + duties + fees). **DDP** (delivered duty paid) = the seller covers shipping, import duty and delivery; **FOB** (free on board) = the buyer takes over costs and risk once goods are loaded at the origin port. **Section 232 tariff** and **AD/CVD** (anti-dumping and countervailing duties) = two kinds of US import duties. **HTS code** = the customs classification number that sets the duty rate. **ISF filing** = a customs data filing required before ocean cargo is loaded for the US. **NFRC, CARB Phase 2 / TSCA Title VI, cUPC** = US certification or compliance labels for windows, wood products (formaldehyde) and plumbing products. **SOC 2** = a common security audit for software companies.
 
-**Not in this roadmap:** the P0 fact-fix sweep and the smaller P1–P3 refreshes of existing posts (in [optimize-vs-create.md](optimize-vs-create.md)); off-site work (in [offsite-earned-media-plan.md](offsite-earned-media-plan.md)).
+**Not in this roadmap:** the P0 fact-fix sweep and the smaller P1–P3 refreshes of existing posts (in [[Optimize vs create]]); off-site work (in [[Off-site earned media plan]]).
 
 ---
 
 ## Rules every piece follows
 
 1. **Quotr-only test:** each piece contains something no competitor or AI could write without Quotr's data, customers or people (report).
-2. **Facts from the fact sheet only** ([../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md)). Anything marked **TO CONFIRM with Quotr** is confirmed before publishing, or left out.
+2. **Facts from the fact sheet only** ([[Entity fact sheet]]). Anything marked **TO CONFIRM with Quotr** is confirmed before publishing, or left out.
 3. **No invented numbers.** Every Quotr number has a date, a method and a sample size. Third-party numbers are linked and dated.
 4. **Brand-attached key facts** ("Quotr.ai's Q4 2026 index found…"), a named human author, honest limits, no self-ranking.
 5. **One page per real question, not per wording.** Google warns that pages made for every query variation can count as scaled content abuse (GEO-evidence fact-check, claim 2). Several prompts share one page on purpose.
 6. **Tariff, customs and certification pages** are reviewed by a qualified trade or customs expert and dated; they are not legal advice.
-7. Writing rules: [../06-playbooks/geo-writing-style-guide.md](../06-playbooks/geo-writing-style-guide.md). Refresh rules: [../06-playbooks/page-refresh-checklist.md](../06-playbooks/page-refresh-checklist.md). Markup: [../06-playbooks/schema-markup-kit.md](../06-playbooks/schema-markup-kit.md).
+7. Writing rules: [[GEO writing style guide]]. Refresh rules: [[Page refresh checklist]]. Markup: [[Schema markup kit]].
 
 ---
 
@@ -40,20 +48,20 @@
 
 | Format label used in the tables | Template or playbook to follow |
 |---|---|
-| **Data report**, method page | [original-research-report.md](../06-playbooks/templates/original-research-report.md) (includes the method section and launch plan) |
-| **Cost guide** | [cost-guide.md](../06-playbooks/templates/cost-guide.md) |
-| **How-to guide** | [trade-how-to-guide.md](../06-playbooks/templates/trade-how-to-guide.md) |
-| **Comparison page** | [comparison-page.md](../06-playbooks/templates/comparison-page.md) |
-| **Alternatives page** | [alternatives-page.md](../06-playbooks/templates/alternatives-page.md) |
-| **Best-of roundup** | [best-of-roundup.md](../06-playbooks/templates/best-of-roundup.md) (with its honest-inclusion rules) |
-| **Trade page**, **Persona hub**, **Product / fit page**, **Proof page** (security, integrations, reviews hub), **Calculator**, **Template download** | [product-feature-page.md](../06-playbooks/templates/product-feature-page.md). It covers product, feature and trade pages; no dedicated calculator, template-download or persona-hub template exists yet, so use this structure plus the quality bar in [content-priorities.md](content-priorities.md) |
-| **Pricing page** | [pricing-page.md](../06-playbooks/templates/pricing-page.md) |
-| **Case study** | [case-study.md](../06-playbooks/templates/case-study.md) |
-| **Company facts page** and every FAQ section | [faq-block.md](../06-playbooks/templates/faq-block.md) (includes the bank of approved Quotr.ai answers) |
-| **Glossary term** | [glossary-entry.md](../06-playbooks/templates/glossary-entry.md) |
-| **Video** | [youtube-video-brief.md](../06-playbooks/templates/youtube-video-brief.md) |
-| **Author page** | Rule 9 of [geo-writing-style-guide.md](../06-playbooks/geo-writing-style-guide.md) |
-| **Press release** | The press fact pack and pitch templates in [offsite/listicle-and-pr-outreach.md](../06-playbooks/offsite/listicle-and-pr-outreach.md) |
+| **Data report**, method page | [[Original research report template]] (includes the method section and launch plan) |
+| **Cost guide** | [[Cost guide template]] |
+| **How-to guide** | [[Trade how-to guide template]] |
+| **Comparison page** | [[Comparison page template]] |
+| **Alternatives page** | [[Alternatives page template]] |
+| **Best-of roundup** | [[Best-of roundup template]] (with its honest-inclusion rules) |
+| **Trade page**, **Persona hub**, **Product / fit page**, **Proof page** (security, integrations, reviews hub), **Calculator**, **Template download** | [[Product feature page template]]. It covers product, feature and trade pages; no dedicated calculator, template-download or persona-hub template exists yet, so use this structure plus the quality bar in [[Content priorities]] |
+| **Pricing page** | [[Pricing page template]] |
+| **Case study** | [[Case study template]] |
+| **Company facts page** and every FAQ section | [[FAQ block template]] (includes the bank of approved Quotr.ai answers) |
+| **Glossary term** | [[Glossary entry template]] |
+| **Video** | [[YouTube video brief template]] |
+| **Author page** | Rule 9 of [[GEO writing style guide]] |
+| **Press release** | The press fact pack and pitch templates in [[Listicle and PR outreach]] |
 
 ---
 
@@ -84,15 +92,15 @@ A cluster is one strong pillar page plus the pieces that support it, linked to e
 
 | ID | Working title | Format / template | Target prompts | Funnel | Persona / trade | Unique Quotr data or angle | Priority | Month |
 |---|---|---|---|---|---|---|---|---|
-| R-07 | Rebuild: "DDP vs FOB for building materials: which is better, and when?" (the [DDP post](https://quotr.ai/blog/ddp-construction-materials/)) | How-to guide ([template](../06-playbooks/templates/trade-how-to-guide.md)) | L-110, L-111, E-081 (T10) | TOFU | BUY, DEV / SRC | Quotr sells DDP, so it can show a real worked example; honest about when FOB is the norm (importing guides say it often is) | P1 | Oct 2026 |
-| R-08 | "What is factory-direct construction procurement? How it works, who it suits, and when not to use it" (pillar page + dictionary term) | How-to guide + [glossary term](../06-playbooks/templates/glossary-entry.md) | E-006 (T09), E-015, E-081 (T10), E-082 (T14), D-042 | TOFU / MOFU | BUY, RES, DEV / SRC | The only brand seen that links AI takeoff to factory-direct purchase: takeoff → material list → factory quote → QC → DDP delivery | P1 | Nov 2026 |
+| R-07 | Rebuild: "DDP vs FOB for building materials: which is better, and when?" (the [DDP post](https://quotr.ai/blog/ddp-construction-materials/)) | How-to guide ([[Trade how-to guide template\|template]]) | L-110, L-111, E-081 (T10) | TOFU | BUY, DEV / SRC | Quotr sells DDP, so it can show a real worked example; honest about when FOB is the norm (importing guides say it often is) | P1 | Oct 2026 |
+| R-08 | "What is factory-direct construction procurement? How it works, who it suits, and when not to use it" (pillar page + dictionary term) | How-to guide + [[Glossary entry template\|glossary term]] | E-006 (T09), E-015, E-081 (T10), E-082 (T14), D-042 | TOFU / MOFU | BUY, RES, DEV / SRC | The only brand seen that links AI takeoff to factory-direct purchase: takeoff → material list → factory quote → QC → DDP delivery | P1 | Nov 2026 |
 | R-09 | "How to import building materials from China for a US project (2026 guide)" | How-to guide | L-109 (T33), L-116, L-118, L-119, L-122 | TOFU | BUY, DEV, RES / SRC | Quotr's Foshan and Guangdong sourcing practice: categories that make sense, minimums, QC, lead times (Quotr's indexed copy says about 90 days; **TO CONFIRM**) | P1 | Nov 2026 |
-| R-10 | "Kitchen cabinet and vanity tariffs in 2026: what builders need to know" (update in Jan 2027) | Cost guide ([template](../06-playbooks/templates/cost-guide.md)) | L-087, L-114 (T48) | TOFU | RES, DEV, BUY / CAB | Tariff facts recorded in the prompt library (25% Section 232 tariff since Oct 14, 2025; rise to 50% delayed to Jan 1, 2027, per [Thompson Hine](https://www.thompsonhinesmartrade.com/2026/01/president-trump-delays-section-232-tariff-increase-on-wood-furniture-cabinets-and-vanities/); separate anti-dumping and countervailing duty (AD/CVD) orders on Chinese cabinets since 2020) plus Quotr landed-price examples; re-check all rates with an expert before publishing | P1 | Nov 2026 |
+| R-10 | "Kitchen cabinet and vanity tariffs in 2026: what builders need to know" (update in Jan 2027) | Cost guide ([[Cost guide template\|template]]) | L-087, L-114 (T48) | TOFU | RES, DEV, BUY / CAB | Tariff facts recorded in the prompt library (25% Section 232 tariff since Oct 14, 2025; rise to 50% delayed to Jan 1, 2027, per [Thompson Hine](https://www.thompsonhinesmartrade.com/2026/01/president-trump-delays-section-232-tariff-increase-on-wood-furniture-cabinets-and-vanities/); separate anti-dumping and countervailing duty (AD/CVD) orders on Chinese cabinets since 2020) plus Quotr landed-price examples; re-check all rates with an expert before publishing | P1 | Nov 2026 |
 | R-11 | Rebuild: "How to reduce building material costs: the levers that work, with real project numbers" ([post](https://quotr.ai/blog/reduce-construction-material-costs/)) | How-to guide | L-108 (T29) | TOFU | RES, DEV, BUY / SRC | Factory-direct named as a lever, with the /procurement/ projects (e.g. Saratoga: $97,000 vs a $187K–$218K Bay Area market price) | P1 | Nov 2026 |
 | R-12 | Rebuild: "2026 tariffs and residential building materials: steel, aluminum, copper, lumber and finishes (updated quarterly)" ([post](https://quotr.ai/blog/tariff-impact-construction-costs-2026-steel-aluminum-copper/)) | Cost guide | L-113 (T46), L-056, L-123 | TOFU | RES, DEV / SRC | Adds residential finish materials and lumber, links Quotr's price index; today the tariff answer cites only JEC, Brookings, NAHB and media | P1 | Nov 2026, then quarterly |
 | R-13 | Rebuild: "Construction estimating software with material procurement: how takeoff-to-buyout works" ([post](https://quotr.ai/blog/takeoff-to-buyout-construction-estimating-procurement-platform/)) | How-to guide | E-006 (T09), E-066, L-126 | MOFU | GC, RES, DEV / SRC | Quotr's main difference; C9 named Buildertrend, Procore, Buildxact, esti-mate and ConWize instead | P1 | Nov 2026 |
 | R-20 | "Free landed-cost (DDP) calculator for imported cabinets, tile, windows and flooring" | Calculator | L-112, L-119, E-081 (T10) | TOFU / MOFU | BUY, DEV, RES / SRC | Quotr's freight and duty model; results link to "get a quote"; categories **TO CONFIRM** | P1 | Dec 2026 |
-| R-27 | Rebuild: "Construction procurement software in 2026: a buyer's guide (including factory-direct options)" ([post](https://quotr.ai/blog/construction-procurement-software/)) | Best-of roundup ([template](../06-playbooks/templates/best-of-roundup.md)) | E-013 (T42), E-006 (T09) | MOFU | BUY, GC / SRC | Neutral category guide; Perplexity found no platform "explicitly marketed as a factory-direct marketplace" | P2 | Dec 2026 |
+| R-27 | Rebuild: "Construction procurement software in 2026: a buyer's guide (including factory-direct options)" ([post](https://quotr.ai/blog/construction-procurement-software/)) | Best-of roundup ([[Best-of roundup template\|template]]) | E-013 (T42), E-006 (T09) | MOFU | BUY, GC / SRC | Neutral category guide; Perplexity found no platform "explicitly marketed as a factory-direct marketplace" | P2 | Dec 2026 |
 | R-30 | "Certifications for imported building materials: NFRC, CARB Phase 2 / TSCA Title VI and cUPC" | How-to guide (FAQ format) | L-082, L-090, L-101 | TOFU / MOFU | BUY, DEV / WIN, CAB, PLMB | Quotr's DDP price reportedly includes certification documents (index-only text; **TO CONFIRM**); expert review | P1 | Jan 2027 |
 | R-31 | "Is it still worth importing building materials after tariffs? When factory-direct pays and when it doesn't" | Cost guide | L-120 | TOFU / MOFU | RES, DEV / SRC | Break-even examples from Quotr quotes; honest about when local supply wins (Handoff already covers "local vs imported") | P1 | Jan 2027 |
 | R-59 | "How builders buy materials: factory-direct vs dealer vs big-box vs sourcing agent vs Alibaba (decision guide)" | Comparison page | E-084, E-085, L-061 | MOFU | BUY, RES, DEV / SRC | First-hand process knowledge; fair pros and cons of each route | P2 | Mar 2027 |
@@ -102,7 +110,7 @@ A cluster is one strong pillar page plus the pieces that support it, linked to e
 
 | ID | Working title | Format / template | Target prompts | Funnel | Persona / trade | Unique Quotr data or angle | Priority | Month |
 |---|---|---|---|---|---|---|---|---|
-| R-19 | "Factory-Direct vs US Dealer Price Index, Q4 2026: cabinets, vanities, porcelain tile, LVP flooring, interior doors, windows, plumbing fixtures" + launch of the Quotr.ai Cost Data hub | Data report ([template](../06-playbooks/templates/original-research-report.md)) | L-084, L-088, L-060, L-113 (T46), E-082 (T14) | TOFU / MOFU | BUY, RES, DEV / CAB, WIN, TILE, FLR, PLMB | Procurement quotes vs local dealer quotes, landed cost, tariff and freight share, lead time; method and sample size (data **TO CONFIRM**) | P1 | Dec 2026 |
+| R-19 | "Factory-Direct vs US Dealer Price Index, Q4 2026: cabinets, vanities, porcelain tile, LVP flooring, interior doors, windows, plumbing fixtures" + launch of the Quotr.ai Cost Data hub | Data report ([[Original research report template\|template]]) | L-084, L-088, L-060, L-113 (T46), E-082 (T14) | TOFU / MOFU | BUY, RES, DEV / CAB, WIN, TILE, FLR, PLMB | Procurement quotes vs local dealer quotes, landed cost, tariff and freight share, lead time; method and sample size (data **TO CONFIRM**) | P1 | Dec 2026 |
 | R-29 | "What tariffs add to one house: a line-item example (2026)" | Data report | L-113 (T46), L-114 (T48) | TOFU | RES, DEV / SRC | One real Quotr residential takeoff priced with current tariff rates; turns the JEC's "$7,500–$10,900 per home" into a practitioner example; timed for the Jan 1, 2027 cabinet tariff date; expert review | P1 | Jan 2027 |
 | R-38 | "Building material lead times, monthly: windows, cabinets, tile, flooring, fixtures" (first edition) | Data report (short, recurring) | L-083, L-118 | TOFU | RES, DEV, BUY / SRC | Procurement order data (**TO CONFIRM**); short, dated, also posted on LinkedIn | P2 | Jan 2027, then monthly |
 | R-40 | "Residential and Multifamily Construction Cost per Sq Ft by Trade, H2 2026 (from Quotr Service estimates)", with a multifamily per-unit view (garden-style, podium, townhome) | Data report | L-093, L-098, L-100, L-104, L-130 (T45), L-131, L-132 | TOFU | DEV, FUND, RES, SUB / GEN | Aggregated Estimation Service jobs with method, sample size and date range (**TO CONFIRM**); competes with Meltplan and Exayard pages | P1 | Feb 2027 |
@@ -155,7 +163,7 @@ A cluster is one strong pillar page plus the pieces that support it, linked to e
 
 | ID | Working title | Format / template | Target prompts | Funnel | Persona / trade | Unique Quotr data or angle | Priority | Month |
 |---|---|---|---|---|---|---|---|---|
-| R-04 | Merge the two Togal posts into "Togal.AI alternatives by use case (2026)" at [/blog/best-togal-ai-alternatives/](https://quotr.ai/blog/best-togal-ai-alternatives/) | Alternatives page ([template](../06-playbooks/templates/alternatives-page.md)) | E-043 (T16) | MOFU | SUB, GC / GEN | Honest "best for [situation]" ranking, dated and linked facts; the year-free URL was the one cited in V1 | P1 | Oct 2026 |
+| R-04 | Merge the two Togal posts into "Togal.AI alternatives by use case (2026)" at [/blog/best-togal-ai-alternatives/](https://quotr.ai/blog/best-togal-ai-alternatives/) | Alternatives page ([[Alternatives page template\|template]]) | E-043 (T16) | MOFU | SUB, GC / GEN | Honest "best for [situation]" ranking, dated and linked facts; the year-free URL was the one cited in V1 | P1 | Oct 2026 |
 | R-18 | "Browser-based AI takeoff for Mac and PC (no install)" | Product / fit page | E-009 (T15), E-017, D-035 | MOFU | SUB / GEN | Quotr is browser-based but absent from Mac prompts (official browser and Mac support **TO CONFIRM**) | P2 | Nov 2026 |
 | R-25 | "Quotr.ai vs Handoff for residential builders" | Comparison page | D-029, E-051 (T52) | MOFU / BOFU | RES / GEN | Handoff's Lowe's purchasing vs Quotr's factory-direct sourcing; says where Handoff is stronger | P2 | Dec 2026 |
 | R-35 | "AI takeoff tools compared: Quotr.ai, Togal.AI, Beam AI and Kreo (updated quarterly)" + comparison hub listing every comparison with "last checked" dates | Comparison page + hub | D-024, D-025, E-057 (T20), E-059 (T24) | MOFU | SUB, RES / GEN | Dated price and feature table with sources; "best for" by situation; no self-ranking | P2 | Jan 2027 |
@@ -173,15 +181,15 @@ A cluster is one strong pillar page plus the pieces that support it, linked to e
 
 | ID | Working title | Format / template | Target prompts | Funnel | Persona / trade | Unique Quotr data or angle | Priority | Month |
 |---|---|---|---|---|---|---|---|---|
-| R-01 | Rewrite [/disambiguation/](https://quotr.ai/disambiguation/) as a plain "Quotr.ai company facts" page (keep the URL and footer link) | Company facts page ([FAQ block and answer bank](../06-playbooks/templates/faq-block.md)) | D-001 (T34), D-002, D-003 (T38), D-006, D-020 | BOFU | ALL | The approved fact sheet in plain language; no bot-directed wording | P1 | Oct 2026 |
-| R-02 | Rebuild [/pricing/](https://quotr.ai/pricing/): plain price table, "Quotr.ai Lite" naming, FAQ (Lite vs Plus, trial, Service per sq ft), Offer schema | Pricing page ([template](../06-playbooks/templates/pricing-page.md)) | D-008 (T35), D-009–D-013, E-054 (T22), E-055 (T23), E-056 | BOFU | ALL | The correct entry price ($79.90) in the most-quoted place; annual pricing **TO CONFIRM** | P1 | Oct 2026 |
-| R-03 | Author pages: Hanyang Liu (CEO), Junzhe Shi, PhD (CTO), Tianyi Zong (COO), Jati Ibloguen (Growth) | Author page ([style guide, Rule 9](../06-playbooks/geo-writing-style-guide.md)) | D-004 (T39), D-005 | BOFU | ALL | Real expertise: architecture background; UC Berkeley PhD; Apple engineering (titles **TO CONFIRM**) | P1 | Oct 2026 |
-| R-15 | Rebuild RL Electric case study: "How RL Electric cut takeoff time from about 20 hours to 1–2 hours" | Case study ([template](../06-playbooks/templates/case-study.md)) | D-017, L-094, E-028 (T06) | BOFU | SUB / ELEC | Numbers, full name and role with permission (**TO CONFIRM**); merges the duplicate blog story | P1 | Nov 2026 |
+| R-01 | Rewrite [/disambiguation/](https://quotr.ai/disambiguation/) as a plain "Quotr.ai company facts" page (keep the URL and footer link) | Company facts page ([[FAQ block template\|FAQ block and answer bank]]) | D-001 (T34), D-002, D-003 (T38), D-006, D-020 | BOFU | ALL | The approved fact sheet in plain language; no bot-directed wording | P1 | Oct 2026 |
+| R-02 | Rebuild [/pricing/](https://quotr.ai/pricing/): plain price table, "Quotr.ai Lite" naming, FAQ (Lite vs Plus, trial, Service per sq ft), Offer schema | Pricing page ([[Pricing page template\|template]]) | D-008 (T35), D-009–D-013, E-054 (T22), E-055 (T23), E-056 | BOFU | ALL | The correct entry price ($79.90) in the most-quoted place; annual pricing **TO CONFIRM** | P1 | Oct 2026 |
+| R-03 | Author pages: Hanyang Liu (CEO), Junzhe Shi, PhD (CTO), Tianyi Zong (COO), Jati Ibloguen (Growth) | Author page ([[GEO writing style guide\|style guide, Rule 9]]) | D-004 (T39), D-005 | BOFU | ALL | Real expertise: architecture background; UC Berkeley PhD; Apple engineering (titles **TO CONFIRM**) | P1 | Oct 2026 |
+| R-15 | Rebuild RL Electric case study: "How RL Electric cut takeoff time from about 20 hours to 1–2 hours" | Case study ([[Case study template\|template]]) | D-017, L-094, E-028 (T06) | BOFU | SUB / ELEC | Numbers, full name and role with permission (**TO CONFIRM**); merges the duplicate blog story | P1 | Nov 2026 |
 | R-16 | "Saratoga project: from plans to factory-direct delivery" (procurement case study) | Case study | D-048, E-082 (T14), L-084 | BOFU | DEV, BUY / SRC | Myren Dr, Saratoga: $97,000 vs a $187K–$218K Bay Area market price (published on /procurement/); fix the "Client saved ~$0" bug first | P1 | Nov 2026 |
 | R-26 | "Integrations and exports: what Quotr.ai connects to and which files it exports" | Proof page | D-037, D-036, E-068 | BOFU | SUB, GC / GEN | Named tools and file formats (**TO CONFIRM**; one indexed page says Quotr "does not export to Excel") | P2 | Dec 2026 |
 | R-37 | "Security and data: how Quotr.ai handles your drawings and bids" | Proof page | E-071 | BOFU | GC, SUB / GEN | SOC 2 status, encryption, data ownership, model-training policy (**TO CONFIRM**); security is a top AI worry for 54% of contractors (Dodge/CMiC survey of 235 contractors, late 2025; not re-checked by the fact-check) | P2 | Jan 2027 |
 | R-42 | Case studies with numbers: AlphaX, BiltWise Structures, Salisbury Moore | Case study (3 pieces) | D-017 | BOFU | SUB, DEV, GC / GEN | Search-index text suggests stories about a modular manufacturer and "~100 active projects"; which is whose, and permissions, **TO CONFIRM** | P2 | Feb 2027 |
-| R-61 | Customer reviews hub (quotes and links to G2 and Capterra reviews) | Proof page | D-014 (T36), D-015, D-016 | BOFU | ALL | Only after 10+ real reviews exist (see [offsite-earned-media-plan.md](offsite-earned-media-plan.md)); counters the Quotr Pro ratings mix-up | P2 | Mar 2027 (conditional) |
+| R-61 | Customer reviews hub (quotes and links to G2 and Capterra reviews) | Proof page | D-014 (T36), D-015, D-016 | BOFU | ALL | Only after 10+ real reviews exist (see [[Off-site earned media plan]]); counters the Quotr Pro ratings mix-up | P2 | Mar 2027 (conditional) |
 
 ### Cluster 10: Outsourced estimating (Quotr Service)
 
@@ -194,14 +202,14 @@ A cluster is one strong pillar page plus the pieces that support it, linked to e
 
 | ID | Working title | Format / template | Target prompts | Funnel | Persona / trade | Unique Quotr data or angle | Priority | Month |
 |---|---|---|---|---|---|---|---|---|
-| R-17 | Seed-round announcement: press release + blog post, using the agreed fact-sheet numbers | Press release ([press fact pack](../06-playbooks/offsite/listicle-and-pr-outreach.md)) | D-004 (T39), D-001 (T34), D-007 | BOFU / brand | ALL | Independent confirmation of funding, HQ, founders and category; ends the $3.5M vs $5M vs "$190K" confusion (amounts **TO CONFIRM**) | P1 | Nov 2026 (after fact sheet approval) |
+| R-17 | Seed-round announcement: press release + blog post, using the agreed fact-sheet numbers | Press release ([[Listicle and PR outreach\|press fact pack]]) | D-004 (T39), D-001 (T34), D-007 | BOFU / brand | ALL | Independent confirmation of funding, HQ, founders and category; ends the $3.5M vs $5M vs "$190K" confusion (amounts **TO CONFIRM**) | P1 | Nov 2026 (after fact sheet approval) |
 | R-39 | Monthly changelog ("What's new in Quotr.ai") | Press release (short) | D-041, D-034 | BOFU | ALL | Shows an active product; only one product-update post exists today | P3 | Jan 2027, then monthly |
 
 ### Cluster 12: Video (YouTube, embedded on matching pages)
 
 | ID | Working title | Format / template | Target prompts | Funnel | Persona / trade | Unique Quotr data or angle | Priority | Month |
 |---|---|---|---|---|---|---|---|---|
-| V-01 | "AI takeoff on real residential plans" episodes 1–2: electrical, drywall | Video ([brief](../06-playbooks/templates/youtube-video-brief.md)) | L-091, L-051, L-047, E-003 | TOFU / MOFU | SUB / ELEC, DRY | Real plan sets; "Quotr.ai" said aloud and in titles; embedded on R-23 and R-24 | P2 | Nov 2026 |
+| V-01 | "AI takeoff on real residential plans" episodes 1–2: electrical, drywall | Video ([[YouTube video brief template\|brief]]) | L-091, L-051, L-047, E-003 | TOFU / MOFU | SUB / ELEC, DRY | Real plan sets; "Quotr.ai" said aloud and in titles; embedded on R-23 and R-24 | P2 | Nov 2026 |
 | V-02 | Episodes 3–4: plumbing, HVAC; plus a 60–90 second explainer of the Q4 price index | Video | L-097, L-102, L-113 | TOFU / MOFU | SUB / PLMB, HVAC; BUY | Same; data explainer supports R-19 | P2 | Dec 2026 |
 | V-03 | "From factory QC to jobsite: how a factory-direct order works"; plus a tariff-per-house explainer | Video | L-121, D-042, L-113 | MOFU / BOFU | BUY, DEV, RES / SRC | Real order footage (**TO CONFIRM**); supports R-29 and R-62 | P2 | Jan 2027 |
 | V-04 | Episodes 5–6: flooring, framing/lumber; plus an accuracy-benchmark explainer | Video | L-059, L-052, L-035 | TOFU | SUB, RES / FLR, FRM | Supports R-41, R-45, R-56 | P2 | Feb 2027 |
@@ -216,7 +224,7 @@ A cluster is one strong pillar page plus the pieces that support it, linked to e
 
 | Month | Items | Focus | Must be ready first |
 |---|---|---|---|
-| **Oct 2026** | R-01, R-02, R-03, R-04, R-05, R-06, R-07 (7) | Rebuild the pages AI already reads; entity and pricing clean-up. Runs alongside the P0 fact-fix sweep ([optimize-vs-create.md](optimize-vs-create.md)) | Approved fact sheet; author bios and photos |
+| **Oct 2026** | R-01, R-02, R-03, R-04, R-05, R-06, R-07 (7) | Rebuild the pages AI already reads; entity and pricing clean-up. Runs alongside the P0 fact-fix sweep ([[Optimize vs create]]) | Approved fact sheet; author bios and photos |
 | **Nov 2026** | R-08, R-09, R-10, R-11, R-12, R-13, R-14, R-15, R-16, R-17, R-18; V-01 (12) | Open the procurement and tariff cluster; residential hub; first proof pieces; seed-round announcement | Procurement categories and delivery area confirmed; customer permissions (RL Electric); funding facts; expert reviewer for tariffs |
 | **Dec 2026** | R-19, R-20, R-21, R-22, R-23, R-24, R-25, R-26, R-27, R-28; V-02 (11) | First original dataset (price index) and the first tool (landed cost); LA rebuild guide; developer hub | Price data approved for publication; calculator build (developer time); LA estimate anonymized |
 | **Jan 2027** | R-29, R-30, R-31, R-32, R-33, R-34, R-35, R-36, R-37, R-38, R-39; V-03 (12) | Tariff-per-house data timed with the Jan 1, 2027 cabinet tariff date; bid leveling; comparisons; security | Current tariff rates checked by an expert; security facts; lead-time data |
@@ -233,7 +241,7 @@ Each dataset is only worth the effort if other people see it. For each one:
 
 1. **Page** on quotr.ai with the headline number in the first sentence, brand attached ("Quotr.ai's Q4 2026 index found…"), method, sample size, date, limits.
 2. **Download:** CSV or PDF table, plus one chart.
-3. **Press release** and pitch to the trade press named in [offsite-earned-media-plan.md](offsite-earned-media-plan.md) (Construction Dive, ENR, For Construction Pros, BuilderOnline, HousingWire, BDC Network, NAHB).
+3. **Press release** and pitch to the trade press named in [[Off-site earned media plan]] (Construction Dive, ENR, For Construction Pros, BuilderOnline, HousingWire, BDC Network, NAHB).
 4. **Email** to the list editors AI cites (Construction Coverage, The Digital Project Manager, ConstructionPlacements) with the dataset as a reason to update their pages.
 5. **Founder LinkedIn article** with the key finding (Hanyang Liu or Junzhe Shi).
 6. **Short video** explainer (V-02, V-03, V-04).
@@ -266,21 +274,21 @@ Quotr.ai vs Kreo (D-031, E-049); tile calculator and tile page (L-062, L-065); c
 
 ## How to tell whether the roadmap is working
 
-- **Monthly:** re-run the tracking set and look at the prompts listed against each piece: is Quotr named, is a quotr.ai page cited, and is the fact correct? ([../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md)).
+- **Monthly:** re-run the tracking set and look at the prompts listed against each piece: is Quotr named, is a quotr.ai page cited, and is the fact correct? ([[Tracking set]]).
 - **Per page:** Search Console AI Overview / AI Mode impressions, Bing AI Performance citations, GA4 AI-referred sessions, downloads and calculator uses, email sign-ups from tools.
 - **Per data asset:** press mentions, links from list editors, and whether AI answers quote the number with "Quotr.ai".
-- Dashboard and definitions: [../07-measurement/kpis-and-dashboard.md](../07-measurement/kpis-and-dashboard.md) and [../07-measurement/tracking-setup.md](../07-measurement/tracking-setup.md).
+- Dashboard and definitions: [[KPIs and dashboard]] and [[Tracking setup]].
 - Review the whole roadmap at the end of December 2026 and March 2027 and move effort toward what is getting Quotr named.
 
 ---
 
 ## Related pages
 
-- [content-priorities.md](content-priorities.md): why these content types come first, and what to stop
-- [optimize-vs-create.md](optimize-vs-create.md): fact-fix sweep and page-by-page actions for existing pages
-- [offsite-earned-media-plan.md](offsite-earned-media-plan.md): how each piece gets amplified off quotr.ai
-- [top-of-funnel-strategy.md](top-of-funnel-strategy.md): how the roadmap protects and grows reach
-- [../03-market/white-space.md](../03-market/white-space.md): the openings behind clusters 1–3
-- [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md): every prompt ID used above
-- [../06-playbooks/templates/](../06-playbooks/templates/): the page templates
-- [../08-action-plan/30-60-90-plan.md](../08-action-plan/30-60-90-plan.md): how this fits the overall plan
+- [[Content priorities]]: why these content types come first, and what to stop
+- [[Optimize vs create]]: fact-fix sweep and page-by-page actions for existing pages
+- [[Off-site earned media plan]]: how each piece gets amplified off quotr.ai
+- [[Top-of-funnel strategy]]: how the roadmap protects and grows reach
+- [[White space]]: the openings behind clusters 1–3
+- [[Prompt library]]: every prompt ID used above
+- [[Page templates]]: the page templates
+- [[30-60-90 plan]]: how this fits the overall plan

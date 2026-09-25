@@ -1,10 +1,16 @@
+---
+type: page-template
+description: Template for step-by-step trade guides AI engines can quote.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Template: Trade How-To Guide
 
-**What this page is for:** A template for step-by-step trade guides ("how to do a drywall takeoff from PDF plans", "how to estimate plumbing from drawings") that AI engines can quote as steps, and that credit Quotr.ai by name where Quotr's method or data is used.
+> [!abstract] What this page is for
+> A template for step-by-step trade guides ("how to do a drywall takeoff from PDF plans", "how to estimate plumbing from drawings") that AI engines can quote as steps, and that credit Quotr.ai by name where Quotr's method or data is used.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§3 cited how-to pages and answer structure), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (§3 how-to prompts P1–P8), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§2 trade how-to cluster, §6 trade coverage), [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1, §2 click resilience, §7), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #1, #2; H19); [../../04-prompt-library/prompt-library.md](../../04-prompt-library/prompt-library.md) (Stage 1.3 trade questions, including test N2).
+> [!info]- Sources
+> [[competitor_geo_benchmark]] (§3 cited how-to pages and answer structure), [[quotr_ai_visibility_tests]] (§3 how-to prompts P1–P8), [[quotr_onsite_content_audit]] (§2 trade how-to cluster, §6 trade coverage), [[geo_content_playbook_b2b]] (§1, §2 click resilience, §7), [[verification_geo_evidence]] (claims #1, #2; H19); [[Prompt library]] (Stage 1.3 trade questions, including test N2).
 
 ---
 
@@ -49,7 +55,7 @@
 | 7 | **Manual vs AI takeoff** | Short table: time, what AI does well, what still needs a human check. **Brand-attributed** sentence for how Quotr.ai does it |
 | 8 | **Quality check** | 5–8 checks before pricing (scale, openings, waste, missing sheets, addenda) |
 | 9 | **Common mistakes** | 4–6 bullets, trade-specific |
-| 10 | **Free resource** | Downloadable checklist or takeoff sheet, a calculator, or a 2–5 minute video (see [youtube-video-brief.md](youtube-video-brief.md)) |
+| 10 | **Free resource** | Downloadable checklist or takeoff sheet, a calculator, or a 2–5 minute video (see [[YouTube video brief template]]) |
 | 11 | **FAQ** | 4–6 questions from the prompt library |
 | 12 | **Related terms and pages** | Dictionary terms, the trade page, pricing |
 | 13 | **Sources** | Codes, manufacturer data sheets, associations, cost sources |
@@ -106,14 +112,14 @@ These posts are already retrieved; they need the brand in the key sentences, not
 2. In the "manual vs AI" or tool section, add one brand-attributed sentence ("In Quotr.ai, …").
 3. Add a worked example table with Quotr-specific numbers (sourced).
 4. Replace "By quotr.ai" with a named author or reviewer.
-5. Check dates, schema and internal links ([../page-refresh-checklist.md](../page-refresh-checklist.md)).
+5. Check dates, schema and internal links ([[Page refresh checklist]]).
 
 ---
 
 ## 6. Schema for this page
 
 - BlogPosting (real author) + BreadcrumbList.
-- HowTo is optional: Google no longer shows HowTo rich results, but Microsoft lists HowTo schema among its recommendations. Use it only when the visible page is a true numbered procedure ([../schema-markup-kit.md](../schema-markup-kit.md) 5.9).
+- HowTo is optional: Google no longer shows HowTo rich results, but Microsoft lists HowTo schema among its recommendations. Use it only when the visible page is a true numbered procedure ([[Schema markup kit]] 5.9).
 - VideoObject if a video is embedded (5.8).
 
 ---
@@ -135,10 +141,10 @@ These posts are already retrieved; they need the brand in the key sentences, not
 
 ## Related pages
 
-- [cost-guide.md](cost-guide.md) — pairing the how-to with a cost page
-- [glossary-entry.md](glossary-entry.md) — dictionary terms to link
-- [youtube-video-brief.md](youtube-video-brief.md) — a video version of the guide
-- [product-feature-page.md](product-feature-page.md) — the matching trade page
-- [../geo-writing-style-guide.md](../geo-writing-style-guide.md) — writing rules
-- [../../04-prompt-library/buyer-questions-by-trade.md](../../04-prompt-library/buyer-questions-by-trade.md) — real trade questions
-- [../../04-prompt-library/construction-glossary.md](../../04-prompt-library/construction-glossary.md) — trade terms and units
+- [[Cost guide template]] — pairing the how-to with a cost page
+- [[Glossary entry template]] — dictionary terms to link
+- [[YouTube video brief template]] — a video version of the guide
+- [[Product feature page template]] — the matching trade page
+- [[GEO writing style guide]] — writing rules
+- [[Buyer questions by trade]] — real trade questions
+- [[Construction glossary]] — trade terms and units

@@ -1,10 +1,20 @@
+---
+type: baseline
+description: The September 2026 Perplexity test, prompt by prompt, with the method to repeat it.
+aliases:
+- Baseline
+last_verified: 2026-09-25
+verify_every_days: 30
+---
 # Quotr AI Visibility Baseline (Perplexity Tests, September 2026)
 
-**What this page is for:** The dated record of whether AI answer engines mention, cite or recommend Quotr.ai when buyers ask questions, prompt by prompt. It includes the exact method, so the test can be repeated next month and compared like for like.
+> [!abstract] What this page is for
+> The dated record of whether AI answer engines mention, cite or recommend Quotr.ai when buyers ask questions, prompt by prompt. It includes the exact method, so the test can be repeated next month and compared like for like.
+>
+> *All tests were run on 2026-09-25.*
 
-**Last updated:** 2026-09-25 (all tests run on 2026-09-25)
-
-**Sources:** Research notes [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (main source: 40 prompts, 45 runs), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (independent re-runs; its corrections override the other notes), [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) and [quotr_offsite_presence.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (supplementary prompts). Measurement caveats from [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>).
+> [!info]- Sources
+> Research notes [[quotr_ai_visibility_tests]] (main source: 40 prompts, 45 runs), [[verification_quotr_and_competitors]] (independent re-runs; its corrections override the other notes), [[competitor_geo_benchmark]] and [[quotr_offsite_presence]] (supplementary prompts). Measurement caveats from [[verification_geo_evidence]].
 
 ---
 
@@ -73,8 +83,8 @@
 4. Run each prompt **twice**. Research showed the source list tends to stay the same day-to-day, but the order of brands changes, so position is noisy.
 5. Score with the rules above. Compare against the baseline tables on this page.
 6. Add other engines (ChatGPT with search, Google AI Overviews / AI Mode, Gemini, Claude, Copilot) when you can, using logged-out or fresh sessions. Record them as separate columns. Do not mix them into the Perplexity baseline numbers.
-7. Add first-party data where Quotr has access: Google Search Console's **Generative AI performance reports** (announced June 3, 2026; available to all sites worldwide since Aug 31, 2026: impressions in AI Overviews and AI Mode by page, country and date; no clicks, CTR or queries), and Bing Webmaster Tools' **AI Performance** report (Copilot citations; launched Feb 10, 2026 and still a public preview). Source: [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (M1 and claim 3).
-8. Keep the prompt list stable. Add new prompts as a separate "added" block so the core 40 stay comparable. The tracked set lives in [../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md); tooling options are in [../07-measurement/tracking-setup.md](../07-measurement/tracking-setup.md).
+7. Add first-party data where Quotr has access: Google Search Console's **Generative AI performance reports** (announced June 3, 2026; available to all sites worldwide since Aug 31, 2026: impressions in AI Overviews and AI Mode by page, country and date; no clicks, CTR or queries), and Bing Webmaster Tools' **AI Performance** report (Copilot citations; launched Feb 10, 2026 and still a public preview). Source: [[verification_geo_evidence]] (M1 and claim 3).
+8. Keep the prompt list stable. Add new prompts as a separate "added" block so the core 40 stay comparable. The tracked set lives in [[Tracking set]]; tooling options are in [[Tracking setup]].
 
 ---
 
@@ -131,19 +141,19 @@ These are not part of the 40-prompt baseline rates. Keep them as extra tracking 
 
 | # | Prompt | Category | Quotr? | Who won / key sources | Source note |
 |---|---|---|---|---|---|
-| S1 | best AI construction takeoff and estimating software in 2026 for residential subcontractors and general contractors | Category | No | Handoff (residential subs/remodelers), Handoff or Buildxact (small GC), STACK (GC all-in-one), Togal.AI (speed). First citation: Handoff's own listicle. | [competitor benchmark §1](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) |
+| S1 | best AI construction takeoff and estimating software in 2026 for residential subcontractors and general contractors | Category | No | Handoff (residential subs/remodelers), Handoff or Buildxact (small GC), STACK (GC all-in-one), Togal.AI (speed). First citation: Handoff's own listicle. | [[competitor_geo_benchmark\|competitor benchmark §1]] |
 | S2 | best takeoff and estimating software for multifamily developers and residential general contractors 2026 | Category | No | Autodesk Takeoff / Forma Estimate, STACK, PlanSwift, Togal.AI | same |
 | S3 | best PlanSwift alternatives in 2026 | Comparison | Cited, not named | STACK, Bluebeam Revu, Togal, Kreo, On-Screen Takeoff, Procore, Groundplan, Jobber. Quotr's PlanSwift post cited for STACK/Togal facts only. | same |
 | S4 | best software for a GC to compare subcontractor and supplier bids / bid leveling for residential | Category | No | Buildertrend, Buildxact, SmartBid, Procore Bid Management, Contractor Foreman | same |
 | S5 | best construction materials procurement software platforms for contractors and builders 2026 | Category | No | Procore, Archdesk, Trimble Materials, Buildertrend, Field Materials AI, Precoro | same |
-| S6 | where can home builders and multifamily developers buy building materials factory-direct from overseas manufacturers with AI takeoff and procurement | Category (procurement) | **Yes, but unstable:** 1st in original run; **3rd of 6** in fact-check re-run | Re-run order: Trillion Sources, Go Global Inc., Quotr.ai, … The engine said "Quotr.ai and FBM Sourcing emphasize sourcing and procurement more than AI takeoff" and filed Quotr under "China factory-direct, project sourcing". Cited [how-developers-source-building-materials](https://quotr.ai/blog/how-developers-source-building-materials/). **Note:** this prompt echoes Quotr's own wording; buyer-style phrasings (C10, C14) do not surface Quotr. | same + [verification](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) |
-| S7 | Quotr.ai vs Togal.AI vs Beam AI vs Kreo | Brand | Yes | Quotr "most all-in-one", Togal "most takeoff-first", Beam "most done-for-you", Kreo "most budget-friendly". Most citations were Quotr's own blog. | [competitor benchmark §1](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) |
-| S8 | how do I do a quantity takeoff from PDF plans / what is AI takeoff | How-to | No | Bluebeam, Buildxact, BuildVision AI, Houzz Pro, Autodesk, ruh.ai, openconstructionerp. Quotr's [dictionary/ai-takeoff](https://quotr.ai/dictionary/ai-takeoff/) and [how-to-do-construction-takeoff-pdf-blueprint](https://quotr.ai/blog/how-to-do-construction-takeoff-pdf-blueprint/) exist and rank in web search, but were not cited. | [competitor benchmark §3](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) |
+| S6 | where can home builders and multifamily developers buy building materials factory-direct from overseas manufacturers with AI takeoff and procurement | Category (procurement) | **Yes, but unstable:** 1st in original run; **3rd of 6** in fact-check re-run | Re-run order: Trillion Sources, Go Global Inc., Quotr.ai, … The engine said "Quotr.ai and FBM Sourcing emphasize sourcing and procurement more than AI takeoff" and filed Quotr under "China factory-direct, project sourcing". Cited [how-developers-source-building-materials](https://quotr.ai/blog/how-developers-source-building-materials/). **Note:** this prompt echoes Quotr's own wording; buyer-style phrasings (C10, C14) do not surface Quotr. | same + [[verification_quotr_and_competitors\|verification]] |
+| S7 | Quotr.ai vs Togal.AI vs Beam AI vs Kreo | Brand | Yes | Quotr "most all-in-one", Togal "most takeoff-first", Beam "most done-for-you", Kreo "most budget-friendly". Most citations were Quotr's own blog. | [[competitor_geo_benchmark\|competitor benchmark §1]] |
+| S8 | how do I do a quantity takeoff from PDF plans / what is AI takeoff | How-to | No | Bluebeam, Buildxact, BuildVision AI, Houzz Pro, Autodesk, ruh.ai, openconstructionerp. Quotr's [dictionary/ai-takeoff](https://quotr.ai/dictionary/ai-takeoff/) and [how-to-do-construction-takeoff-pdf-blueprint](https://quotr.ai/blog/how-to-do-construction-takeoff-pdf-blueprint/) exist and rank in web search, but were not cited. | [[competitor_geo_benchmark\|competitor benchmark §3]] |
 | S9 | how much does it cost to outsource a quantity takeoff | How-to (cost) | Cited | [quotr.ai/blog/quantity-takeoff-services](https://quotr.ai/blog/quantity-takeoff-services/) cited for $0.03–$0.10/sq ft and $250–$2,500 per estimate, next to constructem, powerkh, takeoffmonkey and a Bobyard page ("$39 per billed sheet"). Whether Quotr was named was not recorded. | same |
 | S10 | cost per sq ft to build multifamily 2026, material breakdown | How-to (cost) | No | Meltplan and Exayard (small vendors) cited next to RSMeans, latestcost, buildmatinsight, BDC Network | same |
 | S11 | how are 2026 tariffs affecting building material costs for home builders and multifamily developers | How-to (market) | No | Only public / media sources: JEC, Brookings, NAHB, Construction Dive, Skanska, Cushman & Wakefield, HousingWire, CT Public. No software vendor at all. | same |
-| S12 | how much does it cost to rebuild a house after the LA fires per square foot 2026 | How-to (cost) | No | $400–$800+/sq ft from Bloomberg and local GCs (Benson Construction, Amerbuild, UBIC, Vaisman). Quotr sells a "Fast Cost Estimation (Residential LA Fire Rebuilding)" sample but was absent. | [verification](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) |
-| O1 | What is Quotr.ai? Is it legit? reviews | Brand | Yes | "a real construction estimating software company"; "legit as an operating product/business"; "I did not find independent third-party reviews". About 14 citations, 10 of them quotr.ai. | [offsite notes §5](<../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) |
+| S12 | how much does it cost to rebuild a house after the LA fires per square foot 2026 | How-to (cost) | No | $400–$800+/sq ft from Bloomberg and local GCs (Benson Construction, Amerbuild, UBIC, Vaisman). Quotr sells a "Fast Cost Estimation (Residential LA Fire Rebuilding)" sample but was absent. | [[verification_quotr_and_competitors\|verification]] |
+| O1 | What is Quotr.ai? Is it legit? reviews | Brand | Yes | "a real construction estimating software company"; "legit as an operating product/business"; "I did not find independent third-party reviews". About 14 citations, 10 of them quotr.ai. | [[quotr_offsite_presence\|offsite notes §5]] |
 | O2 | What is Quotr? | Brand (namesake) | Yes, after namesakes | "Quotr is a name used by several different products, but the most likely match is Quotr.ai". Also lists a trade-quotes app, a stock-quote CLI on GitHub and a daily-motivation app. | same |
 | O3 | Quotr.ai vs Togal.AI vs Beam AI | Brand | Yes | Quotr recommended "if you want takeoff plus estimating, proposals, and procurement in one workflow". About 19 citations, 8 quotr.ai. | same |
 | O4 | Best AI construction takeoff and estimating tools for residential subcontractors in 2026 | Category | No | Handoff, Buildxact, Togal.AI, STACK, Kreo, Bluebeam/Takeoff Boost, PlanSwift | same |
@@ -187,7 +197,7 @@ Each brand counted once per prompt when named in the answer text. Total brand me
 | Handoff, The EDGE, Groundplan, Countfire, Square Takeoff | 2 each | ~1.3% each |
 | **Quotr.ai** | **1 (V1)** | **~0.7%** |
 
-Competitor profiles: [../03-market/competitor-landscape.md](../03-market/competitor-landscape.md).
+Competitor profiles: [[Competitor landscape]].
 
 ---
 
@@ -236,7 +246,7 @@ Number of the 32 unbranded prompts whose citation list contains the domain.
 | [ForesightIQ Togal landscape](https://www.foresightiq.co/competitive-landscape/togalai) | V1 run 2 — the only third-party page seen getting Quotr named in an unbranded answer. Note: the fact-check found its only source for Quotr is Quotr's own blog, so it is not independent proof |
 | Reddit r/estimators: [drywall](https://www.reddit.com/r/estimators/comments/1gl3bi8/best_takeoff_software_for_a_drywall_contractor/), [Bluebeam vs others](https://www.reddit.com/r/estimators/comments/1ekpil5/bluebeam_vs_other_estimating_softwares/), [cheap takeoff](https://www.reddit.com/r/estimators/comments/1so58vb/cheap_takeoff_software_for_casual_side_use/), [AI takeoff real?](https://www.reddit.com/r/estimators/comments/1kadwx5/are_there_actually_any_aibased_takeoff_software/), [Mac takeoff](https://www.reddit.com/r/estimators/comments/1rpfwg0/macos_takeoff_app_that_actually_works/) | 6 prompts |
 
-A site-restricted web search returned **no Quotr page or mention** on G2, Capterra, GetApp, Software Advice, SourceForge, Slashdot, Construction Coverage, TDPM, ConstructConnect, ContraVault, Construction Placements or Easy Takeoffs. This is a search check, not proof: Quotr does have a G2 profile under the old slug `quotr-io`, which the search did not surface. Full map: [../03-market/citation-sources-map.md](../03-market/citation-sources-map.md).
+A site-restricted web search returned **no Quotr page or mention** on G2, Capterra, GetApp, Software Advice, SourceForge, Slashdot, Construction Coverage, TDPM, ConstructConnect, ContraVault, Construction Placements or Easy Takeoffs. This is a search check, not proof: Quotr does have a G2 profile under the old slug `quotr-io`, which the search did not surface. Full map: [[Citation sources map]].
 
 ---
 
@@ -252,7 +262,7 @@ A site-restricted web search returned **no Quotr page or mention** on G2, Capter
 | **Staging host (should not be cited)** | [test.quotr.io/disambiguation/](https://test.quotr.io/disambiguation/) (B2 and its re-run) |
 | **Seen only in web search results** | [real-estate-pro-forma-software-comparison](https://quotr.ai/blog/real-estate-pro-forma-software-comparison/), [chatgpt-for-construction-estimating](https://quotr.ai/blog/chatgpt-for-construction-estimating/) |
 
-**Two near-duplicate Togal posts were both retrieved** ([/best-togal-ai-alternatives/](https://quotr.ai/blog/best-togal-ai-alternatives/) and [/best-togal-ai-alternatives-2026/](https://quotr.ai/blog/best-togal-ai-alternatives-2026/)). See [website-audit.md](website-audit.md).
+**Two near-duplicate Togal posts were both retrieved** ([/best-togal-ai-alternatives/](https://quotr.ai/blog/best-togal-ai-alternatives/) and [/best-togal-ai-alternatives-2026/](https://quotr.ai/blog/best-togal-ai-alternatives-2026/)). See [[Website audit]].
 
 ---
 
@@ -333,7 +343,7 @@ A site-restricted web search returned **no Quotr page or mention** on G2, Capter
 | Comparison framing (B4, V2, B7, S7, O3) | Quotr = takeoff → estimate → bid → procurement; "most end-to-end", "most all-in-one" | Matches Quotr's positioning | Accurate but self-sourced | Built from Quotr's own blog |
 | Accuracy claims (B3) | Quotr's 95–99% accuracy flagged as self-published | Claim is from "Quotr internal benchmarking" | Accurate framing | No third-party benchmark |
 
-Canonical facts belong in [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md).
+Canonical facts belong in [[Entity fact sheet]].
 
 ---
 
@@ -346,7 +356,7 @@ We could not test ChatGPT, Google AI Overviews / AI Mode, Gemini or Claude. No p
 - **Engines disagree:** a press-release headline (2026-08-12) says ChatGPT and Gemini recommend a different #1 software in one of every three categories ([GlobeNewswire](https://www.globenewswire.com/news-release/2026/08/12/3343763/0/en/chatgpt-and-gemini-recommend-different-1-software-in-one-of-every-three-categories-new-study-finds.html); headline only).
 - **Togal markets a ChatGPT tie-in** ([Togal blog](https://www.togal.ai/blog/chatgpt-togal-ai-takeoff-construction-software); date not verified).
 
-**So:** measure per engine, monthly, and expect one-off placements to fade unless refreshed. More in [../01-geo-fundamentals/how-ai-engines-choose-sources.md](../01-geo-fundamentals/how-ai-engines-choose-sources.md).
+**So:** measure per engine, monthly, and expect one-off placements to fade unless refreshed. More in [[How AI engines choose sources]].
 
 ---
 
@@ -355,7 +365,7 @@ We could not test ChatGPT, Google AI Overviews / AI Mode, Gemini or Claude. No p
 - **One engine (Perplexity Sonar API), one day.** Not the consumer app, not ChatGPT, not Google AI Overviews / AI Mode, not Gemini, Claude or Copilot.
 - **Mostly single runs.** Only 5 prompts were run twice in-session and 10 were re-run independently. Answers vary between runs, especially brand order. The GEO-evidence fact-check calls a single run per prompt "a weak baseline" and points to 2026 research on measurement variance ("Don't Measure Once", arXiv 2604.07585; listing seen, not read). Run each prompt at least twice from now on.
 - **Hand-tallied SOV** (±1 per brand).
-- **Pages not opened:** the scraper was rate-limited for about 45 minutes. Whether the most-cited listicles list Quotr (Construction Coverage, TDPM, ContraVault, the G2/Capterra alternatives pages, nomic.ai's cost-estimation page, octopusbuilds) was checked with site-restricted search, not by reading them. The ConstructConnect guide and Nomic's Kreo-alternatives list were read directly (see [offsite-presence.md](offsite-presence.md)).
+- **Pages not opened:** the scraper was rate-limited for about 45 minutes. Whether the most-cited listicles list Quotr (Construction Coverage, TDPM, ContraVault, the G2/Capterra alternatives pages, nomic.ai's cost-estimation page, octopusbuilds) was checked with site-restricted search, not by reading them. The ConstructConnect guide and Nomic's Kreo-alternatives list were read directly (see [[Off-site presence]]).
 - **Reddit** could not be searched with the web search tool.
 - **4 fact-check re-runs refused** (V1, V3, C13, P5).
 - **Pricing on some Quotr blog posts** was seen through AI answers and search snippets, not by opening every page.
@@ -366,13 +376,13 @@ We could not test ChatGPT, Google AI Overviews / AI Mode, Gemini or Claude. No p
 
 ## Related pages
 
-- [presence-scorecard.md](presence-scorecard.md) — scores built from these results
-- [offsite-presence.md](offsite-presence.md) — the third-party sources that explain these results
-- [website-audit.md](website-audit.md) — the on-site issues behind stale pricing and staging-host citations
-- [geo-tactics-already-used.md](geo-tactics-already-used.md) — which of Quotr's tactics show up in these answers
-- [../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md) — the prompt set to re-run monthly
-- [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md) — the wider library of buyer prompts
-- [../03-market/citation-sources-map.md](../03-market/citation-sources-map.md) — where AI engines get their answers
-- [../03-market/competitor-landscape.md](../03-market/competitor-landscape.md) — the brands that win these answers
-- [../07-measurement/tracking-setup.md](../07-measurement/tracking-setup.md) — how to set up ongoing tracking
-- [../07-measurement/kpis-and-dashboard.md](../07-measurement/kpis-and-dashboard.md) — KPIs based on this baseline
+- [[Presence scorecard]] — scores built from these results
+- [[Off-site presence]] — the third-party sources that explain these results
+- [[Website audit]] — the on-site issues behind stale pricing and staging-host citations
+- [[GEO tactics already used]] — which of Quotr's tactics show up in these answers
+- [[Tracking set]] — the prompt set to re-run monthly
+- [[Prompt library]] — the wider library of buyer prompts
+- [[Citation sources map]] — where AI engines get their answers
+- [[Competitor landscape]] — the brands that win these answers
+- [[Tracking setup]] — how to set up ongoing tracking
+- [[KPIs and dashboard]] — KPIs based on this baseline

@@ -1,10 +1,19 @@
+---
+type: competitor
+description: Profile of Beam AI, the done-for-you takeoff service closest to Quotr Service.
+aliases:
+- ibeam.ai
+- Attentive.ai
+last_verified: 2026-09-25
+verify_every_days: 90
+---
 # Competitor Profile: Beam AI (ibeam.ai, by Attentive.ai)
 
-**What this page is for:** A reference on Beam AI, the "done-for-you" AI takeoff service whose model (AI plus a human quality check) is closest to Quotr's Estimation Service, and whose content engine is the one Quotr can most easily copy.
+> [!abstract] What this page is for
+> A reference on Beam AI, the "done-for-you" AI takeoff service whose model (AI plus a human quality check) is closest to Quotr's Estimation Service, and whose content engine is the one Quotr can most easily copy.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (section 2, Beam AI), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (prompts C1, C3, C13, V1, V9), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (section 5), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>). Read directly on 2026-09-25: [ibeam.ai/compare](https://www.ibeam.ai/compare), [ConstructConnect 2026 guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026). WebSearch on 2026-09-25: Series B, Capterra/Software Advice listings.
+> [!info]- Sources
+> [[competitor_geo_benchmark]] (section 2, Beam AI), [[quotr_ai_visibility_tests]] (prompts C1, C3, C13, V1, V9), [[quotr_offsite_presence]] (section 5), [[quotr_onsite_content_audit]]. Read directly on 2026-09-25: [ibeam.ai/compare](https://www.ibeam.ai/compare), [ConstructConnect 2026 guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026). WebSearch on 2026-09-25: Series B, Capterra/Software Advice listings.
 
 ---
 
@@ -105,7 +114,7 @@ What Quotr says about Beam: [quotr-ai-vs-beam-ai-takeoff-estimating-comparison](
 **Strategy: win the "done-for-you estimate" questions on transparency, residential/multifamily focus and procurement.**
 
 1. **Own "how much does outsourced takeoff cost".** Quotr is already the **first citation** for "outsourced construction estimating service price per square foot for developers" (C12), but AI writes "one outsourced estimating service" instead of "Quotr.ai". Rewrite those pages with brand-attributed sentences: "Quotr.ai's Estimation Service costs $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft above that." Add a dated table comparing pricing models (per sq ft vs per sheet vs per trade per year) that names Beam's model fairly, citing ConstructConnect.
-2. **Pick one turnaround time and use it everywhere.** Beam's headline promise is "within 1–4 days", though even Beam is not fully consistent (some pages say 24–72 hours or 24–48 hours; see the table above). Its numbers still cluster in one narrow band. Quotr's pages give five different turnarounds (24 hours; 3–4 business days; 1–3 business days; 5–7 days; "72 hours"). AI engines cannot repeat a promise that conflicts. See [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md).
+2. **Pick one turnaround time and use it everywhere.** Beam's headline promise is "within 1–4 days", though even Beam is not fully consistent (some pages say 24–72 hours or 24–48 hours; see the table above). Its numbers still cluster in one narrow band. Quotr's pages give five different turnarounds (24 hours; 3–4 business days; 1–3 business days; 5–7 days; "72 hours"). AI engines cannot repeat a promise that conflicts. See [[Entity fact sheet]].
 3. **Own residential and developer done-for-you work.** Beam leans commercial. Publish "done-for-you takeoff for home builders and multifamily developers", with Quotr's service samples (for example "All Trade Takeoff (Residential)" and "Fast Cost Estimation (Residential LA Fire Rebuilding)").
 4. **Add what Beam cannot: procurement.** Show a service estimate turning into a factory-direct material quote. Beam's own customers talk about "securing better pricing from suppliers"; Quotr can be the supplier.
 5. **Copy the structure, not the spin.** Build a Quotr compare hub (one URL pattern, one template, dated tables) covering the rivals that AI actually names: Togal, STACK, PlanSwift, Bluebeam, Kreo, Beam, Handoff, Buildxact, On-Screen Takeoff. Quotr has 12 comparison pages but no hub and no Kreo, Handoff or Buildxact page.
@@ -126,9 +135,9 @@ What Quotr says about Beam: [quotr-ai-vs-beam-ai-takeoff-estimating-comparison](
 
 ## Related pages
 
-- [../competitor-landscape.md](../competitor-landscape.md): full competitor map
-- [togal-ai.md](togal-ai.md) and [kreo.md](kreo.md): rivals Beam targets with compare pages
-- [../citation-sources-map.md](../citation-sources-map.md): where outsourced-pricing answers get their sources
-- [../white-space.md](../white-space.md): outsourced estimating price transparency, residential done-for-you
-- [../../00-quotr/product-and-features.md](../../00-quotr/product-and-features.md): Quotr's Estimation Service details
-- [../../02-current-state/ai-visibility-baseline.md](../../02-current-state/ai-visibility-baseline.md): C12 "cited, not named" result
+- [[Competitor landscape]]: full competitor map
+- [[Togal AI]] and [[Kreo]]: rivals Beam targets with compare pages
+- [[Citation sources map]]: where outsourced-pricing answers get their sources
+- [[White space]]: outsourced estimating price transparency, residential done-for-you
+- [[Products and features]]: Quotr's Estimation Service details
+- [[AI visibility baseline]]: C12 "cited, not named" result

@@ -1,10 +1,16 @@
+---
+type: page-template
+description: Template for publishing Quotr data as a recurring, citable index or benchmark.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Template: Original Research Report (Index or Benchmark)
 
-**What this page is for:** A template for publishing Quotr's own data as a recurring, citable report (for example a "Factory-Direct vs Domestic Materials Price Index" or a residential cost benchmark), with the method, data table and launch plan that make journalists, list editors and AI engines quote it.
+> [!abstract] What this page is for
+> A template for publishing Quotr's own data as a recurring, citable report (for example a "Factory-Direct vs Domestic Materials Price Index" or a residential cost benchmark), with the method, data table and launch plan that make journalists, list editors and AI engines quote it.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1 original research and proprietary data; §3 earned media; §5 case studies), [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§2 competitor data assets; §3 tariff and cost answers; §5 white space), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§2 "original data" posts, §3 /procurement/ data), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #9, #17; H2, H11), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (claims 17, 36); [../../03-market/white-space.md](../../03-market/white-space.md) ("Data assets Quotr could publish").
+> [!info]- Sources
+> [[geo_content_playbook_b2b]] (§1 original research and proprietary data; §3 earned media; §5 case studies), [[competitor_geo_benchmark]] (§2 competitor data assets; §3 tariff and cost answers; §5 white space), [[quotr_onsite_content_audit]] (§2 "original data" posts, §3 /procurement/ data), [[verification_geo_evidence]] (claims #9, #17; H2, H11), [[verification_quotr_and_competitors]] (claims 17, 36); [[White space]] ("Data assets Quotr could publish").
 
 ---
 
@@ -32,7 +38,7 @@
 | **Tariff cost per home example** | One real takeoff × current tariff rates | When tariffs change | L-113, L-114, L-087 | Press, NAHB, BIA | Needs expert/legal review |
 | **Bid spread statistics** (how far apart supplier or sub quotes are) | Bid comparison feature | Twice a year | E-012, L-127 | GCs, trade press | **TO CONFIRM** data exists |
 
-(Adapted from [../../03-market/white-space.md](../../03-market/white-space.md).)
+(Adapted from [[White space]].)
 
 **Recommended first report:** the **Factory-Direct vs Domestic Materials Price Index**, because it uses Quotr's most distinctive data, sits in an answer space with no vendor, and gives trade press a quarterly hook. Start small: 3–4 material categories, clear definitions, honest sample size.
 
@@ -85,11 +91,11 @@
 |---|---|---|
 | 1 | Legal and customer-permission check on every data point | Quotr |
 | 2 | Publish the hub page with HTML tables and the CSV | Marketing |
-| 3 | Press release on a wire service + direct pitches to Construction Dive, ENR, For Construction Pros, BuilderOnline, HousingWire, BDC Network (see [../offsite/listicle-and-pr-outreach.md](../offsite/listicle-and-pr-outreach.md)) | Marketing / founders |
-| 4 | Founder LinkedIn article with the top 3 findings ([../offsite/linkedin-thought-leadership.md](../offsite/linkedin-thought-leadership.md)) | Founders |
-| 5 | 3–6 minute YouTube explainer saying "Quotr.ai" aloud, with chapters ([youtube-video-brief.md](youtube-video-brief.md)) | Marketing |
+| 3 | Press release on a wire service + direct pitches to Construction Dive, ENR, For Construction Pros, BuilderOnline, HousingWire, BDC Network (see [[Listicle and PR outreach]]) | Marketing / founders |
+| 4 | Founder LinkedIn article with the top 3 findings ([[LinkedIn thought leadership]]) | Founders |
+| 5 | 3–6 minute YouTube explainer saying "Quotr.ai" aloud, with chapters ([[YouTube video brief template]]) | Marketing |
 | 6 | Offer the data to associations that list Quotr as a member (BIA Bay Area, Modular Building Institute; membership **TO CONFIRM with Quotr**) | Founders |
-| 7 | Share findings (with disclosure) where builders are already discussing tariffs ([../offsite/reddit-and-community.md](../offsite/reddit-and-community.md)) | Founder / estimator |
+| 7 | Share findings (with disclosure) where builders are already discussing tariffs ([[Reddit and community]]) | Founder / estimator |
 | 8 | Update cost guides and comparison pages to cite the index | Marketing |
 | 9 | Track: tariff and cost prompts monthly; press mentions; backlinks | GEO lead |
 
@@ -97,7 +103,7 @@
 
 ## 6. Schema for this page
 
-- Article or BlogPosting with the real authors + BreadcrumbList ([../schema-markup-kit.md](../schema-markup-kit.md) 5.5).
+- Article or BlogPosting with the real authors + BreadcrumbList ([[Schema markup kit]] 5.5).
 - Optional schema.org `Dataset` block for the downloadable CSV (name, description, creator = the Organization `@id`, temporalCoverage, distribution with the CSV URL). Validate it in the Schema.org validator.
 
 ---
@@ -119,9 +125,9 @@
 
 ## Related pages
 
-- [cost-guide.md](cost-guide.md) — cost pages that cite the report
-- [case-study.md](case-study.md) — single-customer proof
-- [../offsite/listicle-and-pr-outreach.md](../offsite/listicle-and-pr-outreach.md) — pitching the data
-- [../../03-market/white-space.md](../../03-market/white-space.md) — why tariffs and landed cost are open
-- [../../03-market/competitors/procurement-and-sourcing.md](../../03-market/competitors/procurement-and-sourcing.md) — the factory-direct field
-- [../../05-content-strategy/content-roadmap.md](../../05-content-strategy/content-roadmap.md) — when the report is scheduled
+- [[Cost guide template]] — cost pages that cite the report
+- [[Case study template]] — single-customer proof
+- [[Listicle and PR outreach]] — pitching the data
+- [[White space]] — why tariffs and landed cost are open
+- [[Procurement and sourcing players]] — the factory-direct field
+- [[Content roadmap]] — when the report is scheduled

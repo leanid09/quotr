@@ -1,10 +1,16 @@
+---
+type: guide
+description: What AI answers do to clicks and conversions, and what "top of funnel" means now.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Traffic and Funnel Impact of AI Search
 
-**What this page is for:** What AI answers do to clicks, how much traffic AI engines send and how well it converts, what this means for B2B software buyers, what "top of funnel" means now, and how Quotr.ai should think about keeping and growing its top-of-funnel reach.
+> [!abstract] What this page is for
+> What AI answers do to clicks, how much traffic AI engines send and how well it converts, what this means for B2B software buyers, what "top of funnel" means now, and how Quotr.ai should think about keeping and growing its top-of-funnel reach.
 
-**Last updated:** 2026-09-25
-
-**Sources:** Research notes [geo_ai_citation_signals_2026.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) (§4, §5), [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§4, §5, §6, §7), corrected by [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #5–#8, #21–#28; H1, H8, H13–H15, H17–H18; O1–O7; M1–M5, M9; these override the notes); the report [Quotr GEO AEO strategy audit.md](<../../reports/Quotr GEO AEO strategy audit.md>) (section "Top-of-funnel reach now means being named, not just clicked"). Studies are linked where used.
+> [!info]- Sources
+> Research notes [[geo_ai_citation_signals_2026]] (§4, §5), [[geo_content_playbook_b2b]] (§4, §5, §6, §7), corrected by [[verification_geo_evidence]] (claims #5–#8, #21–#28; H1, H8, H13–H15, H17–H18; O1–O7; M1–M5, M9; these override the notes); the report [[Quotr GEO AEO strategy audit]] (section "Top-of-funnel reach now means being named, not just clicked"). Studies are linked where used.
 
 ---
 
@@ -82,7 +88,7 @@
 ### 1.5 Google's position
 
 - Liz Reid (Aug 2025): "total organic click volume from Google Search to websites has been relatively stable year-over-year" and "average click quality has increased" ([Google blog](https://blog.google/products-and-platforms/products/search/ai-search-driving-more-queries-higher-quality-clicks/)). Google later pushed a "bounce clicks" explanation ([SEJ](https://www.searchenginejournal.com/google-pushes-bounce-clicks-explanation-for-ai-overview-traffic-loss/572986/)). Google has published no data outsiders can test ([Press Gazette](https://pressgazette.co.uk/platforms/google-search-clicks-traffic-2025-ai-overviews/)).
-- **New reporting (2026):** Search Console's Generative AI performance reports (worldwide since Aug 31, 2026) show **impressions** from AI Overviews, AI Mode and Discover's generative features by page, country and date, but **no clicks, CTR or queries**. The data is a filtered view of Web data, so don't add it to Web totals. The UK CMA wants click data and page-level opt-out controls by March 2027 ([SEJ](https://www.searchenginejournal.com/google-search-console-ai-reports-rolled-out-worldwide/587836/); [Google](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports); [verification M1](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>)).
+- **New reporting (2026):** Search Console's Generative AI performance reports (worldwide since Aug 31, 2026) show **impressions** from AI Overviews, AI Mode and Discover's generative features by page, country and date, but **no clicks, CTR or queries**. The data is a filtered view of Web data, so don't add it to Web totals. The UK CMA wants click data and page-level opt-out controls by March 2027 ([SEJ](https://www.searchenginejournal.com/google-search-console-ai-reports-rolled-out-worldwide/587836/); [Google](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports); [[verification_geo_evidence|verification M1]]).
 
 ---
 
@@ -96,9 +102,9 @@
 | ChatGPT referrals **< 0.2%** of total traffic, ~**200x smaller** than Google organic, across 973 online stores | Kaiser & Schulze coverage ([Search Engine Land](https://searchengineland.com/llms-google-referral-conversion-study-463747)) | From coverage of the working paper |
 | **ChatGPT branded links (May 7, 2026):** OpenAI referrals to monitored brands "nearly doubled (~60–65%)" (Profound's own wording; the two figures do not quite match); homepage share ~3.5% → ~24%; **B2B software & SaaS the biggest gainer, daily OpenAI referrals up >200%**; ecommerce flat | Profound (published May 19, 2026) ([Profound](https://www.tryprofound.com/blog/chatgpt-referrals-branded-links)) | Vendor; read by the fact-check. OpenAI "can move this number again at any time" (Profound). Similarweb ("near triples") and SE Ranking ("all-time high in May 2026") point the same way, not re-checked |
 | ChatGPT referred **4.8%**, then **10%**, of Vercel's new signups | Guillermo Rauch on X, Mar 7 and Apr 9, **2025** ([X](https://x.com/rauchg/status/1898122330653835656); [X](https://x.com/rauchg/status/1910093634445422639)) | Founder statements; early 2025; a developer-tool audience |
-| Google organic still **47–190x** larger than AI referrals; ChatGPT 62.6% / Claude 18.5% / Gemini 10.6% / Perplexity 7.3% of B2B AI referrals | Aggregators ([Demand Local](https://www.demandlocal.com/blog/ai-referral-traffic-conversion-rate-statistics/)) | **Primary sources not found. Don't headline** ([verification H17](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>)) |
+| Google organic still **47–190x** larger than AI referrals; ChatGPT 62.6% / Claude 18.5% / Gemini 10.6% / Perplexity 7.3% of B2B AI referrals | Aggregators ([Demand Local](https://www.demandlocal.com/blog/ai-referral-traffic-conversion-rate-statistics/)) | **Primary sources not found. Don't headline** ([[verification_geo_evidence\|verification H17]]) |
 
-**Which assistants are growing:** ChatGPT's share of AI-assistant web traffic fell from about 76% (June 2025) to about 53% (May 2026) as Gemini passed 25% and Claude grew fastest (Similarweb; not re-checked). This measures traffic **to** the assistants, not referrals **from** them to websites ([verification X13](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>)).
+**Which assistants are growing:** ChatGPT's share of AI-assistant web traffic fell from about 76% (June 2025) to about 53% (May 2026) as Gemini passed 25% and Claude grew fastest (Similarweb; not re-checked). This measures traffic **to** the assistants, not referrals **from** them to websites ([[verification_geo_evidence|verification X13]]).
 
 **Plain English:** AI engines send a small slice of traffic today, but it is growing, and since May 2026 a ChatGPT mention of a brand name can link straight to its homepage.
 
@@ -111,7 +117,7 @@
 | **Ahrefs' own site:** AI search was 0.5% of visits but **12.1% of signups**, about **23x** organic's conversion rate; AI visitors viewed 50% more pages ([Ahrefs](https://ahrefs.com/blog/ai-search-traffic-conversions-ahrefs/)) | Better | One SaaS company, first-party. Not re-checked. Ahrefs separately found AI visitors visit fewer pages and bounce more ([Ahrefs](https://ahrefs.com/blog/ai-traffic-quality-study/)), which conflicts |
 | **Semrush:** an AI visitor is worth **4.4x** an organic visitor; AI search could overtake traditional search by 2028 ([Semrush](https://www.semrush.com/blog/ai-search-seo-traffic-study/)) | Better | **A model/projection published June 2025**, not observed conversions |
 | "Opollo: 312 B2B firms, 14.2% vs 2.8%"; "ChatGPT 15.9%, Perplexity 10.5%, Claude 5.0%" | Better | **Primary sources not verified.** Don't use |
-| Webflow (8% of signups, 6x), TestRail, Discovered Labs, Capston, Gumlet, REsimpli | Better | Agency self-reports or untraceable; **don't use** ([verification H13](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>)) |
+| Webflow (8% of signups, 6x), TestRail, Discovered Labs, Capston, Gumlet, REsimpli | Better | Agency self-reports or untraceable; **don't use** ([[verification_geo_evidence\|verification H13]]) |
 | **Kaiser (U. Hamburg) & Schulze (Frankfurt School), "Frontiers: ChatGPT Referrals to E-Commerce Websites", *Marketing Science*** (peer-reviewed; published online **Apr 21, 2026**; 973 e-commerce sites, $20B revenue, 12 months, 50K+ ChatGPT transactions vs 164M from other channels) | **Worse, but improving** | The most rigorous study. ChatGPT traffic's conversion rate and revenue per session are "above paid social but below all other traditional channels"; results are **stronger in complex product categories**; conversion is rising over time; the channel "does not yet function as a broad conversion channel". (Figures of "−13% vs organic" and "affiliate 86% more likely" come from coverage of the working paper, not the abstract.) [INFORMS](https://pubsonline.informs.org/doi/10.1287/mksc.2025.0489); [Digiday](https://digiday.com/marketing/e-commerce-sites-see-low-sales-from-chatgpt-traffic-new-study-finds/) |
 
 **Verdict (fact-check H1):** "Unproven for B2B. Measure it in Quotr's own GA4 and CRM." Construction software is a complex, considered purchase, which the peer-reviewed study suggests is the kinder case, but this has not been tested for B2B.
@@ -130,7 +136,7 @@
 - ChatGPT is the dominant chatbot for this research (**63%**).
 - 40% say evaluation is now the longest stage.
 
-**Counter-evidence to keep beside it:** Growth Memo's G2-commissioned study found user-generated content out-cites review sites at every buyer stage, and Aleyda Solis's SaaS data puts news/review at about 10% of top sources ([verification H10](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>)).
+**Counter-evidence to keep beside it:** Growth Memo's G2-commissioned study found user-generated content out-cites review sites at every buyer stage, and Aleyda Solis's SaaS data puts news/review at about 10% of top sources ([[verification_geo_evidence|verification H10]]).
 
 ### 4.2 Construction buyers specifically
 
@@ -138,10 +144,10 @@ The surveys below come from the research notes; the fact-check did not re-open t
 
 - **AI use is rising:** 52% of construction firms use AI tools for business tasks, +20 points vs 2025; 80% of users use AI daily; top use is sales and marketing, 64% (Houzz, 601 US construction and design businesses, June–July 2026; via [Roofing Contractor](https://www.roofingcontractor.com/articles/102644-ai-use-jumps-among-construction-firms-houzz-survey-finds)). 61% of firms use AI or plan to increase investment; 23% use it for estimating (AGC/Sage, Jan 2026; [AGC](https://www.agc.org/news/2026/01/08/contractors-have-dampened-expectations-2026-apart-data-centers-and-power-projects-amid-worries-about)). 24% apply AI to cost estimation and 22% to bid management (ServiceTitan, 1,000+ commercial specialty contractors, Mar 30, 2026; vendor; [ServiceTitan](https://www.servicetitan.com/press/servicetitan-report-finds-ai-adoption-more-than-doubles-among-commercial)).
 - **Trust is mixed:** data accuracy (57%) and security (54%) are top concerns (Dodge + CMiC, 235 contractors, Dec 2025; [Construction Dive](https://www.constructiondive.com/news/builders-ai-transform-businesses-survey/807555/)); construction leaders' trust in AI fell 14 points (Autodesk, 2025; [Autodesk](https://www.autodesk.com/blogs/construction/state-of-design-make-spotlight-construction/)).
-- **Gap:** no construction-specific survey measures how often contractors use AI chatbots to research **software** ([playbook §6](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>)). No construction-specific CTR or AI-referral benchmark was found either.
+- **Gap:** no construction-specific survey measures how often contractors use AI chatbots to research **software** ([[geo_content_playbook_b2b|playbook §6]]). No construction-specific CTR or AI-referral benchmark was found either.
 - **Where estimators talk:** r/estimators threads ask whether AI takeoff tools work and are sceptical ([example thread](https://www.reddit.com/r/estimators/comments/1qjzjfi/is_there_an_ai_automated_takeoff_software_tool/)). Facebook estimator groups, YouTube demos and trade shows are commonly named discovery venues, but no survey quantifies their share.
 
-More on personas: [../00-quotr/audiences-and-personas.md](../00-quotr/audiences-and-personas.md).
+More on personas: [[Audiences and personas]].
 
 ### 4.3 What this means for B2B marketing (in plain words)
 
@@ -168,10 +174,10 @@ More on personas: [../00-quotr/audiences-and-personas.md](../00-quotr/audiences-
 
 | Measure | Tool | Notes |
 |---|---|---|
-| Share of AI answers naming Quotr (by engine) | Monthly prompt tracking on five engines (Claude and Copilot quarterly), two runs for each headline prompt | [../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md) |
+| Share of AI answers naming Quotr (by engine) | Monthly prompt tracking on five engines (Claude and Copilot quarterly), two runs for each headline prompt | [[Tracking set]] |
 | AI impressions per page | Search Console Generative AI performance report | Impressions only; no clicks. Don't add to Web totals |
 | AI citations and grounding queries | Bing Webmaster Tools AI Performance (public preview since Feb 10, 2026) | Copilot and Bing AI answers ([Bing](https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview)) |
-| AI referral sessions and conversions | GA4 "AI Assistant" default channel (added May 13, 2026) **plus** a custom channel rule that also catches Perplexity (not included in Google's channel) | Regex below, placed above Referral ([Google](https://support.google.com/analytics/answer/9164320); [playbook §4](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>)). ChatGPT tags links with `utm_source=chatgpt.com` |
+| AI referral sessions and conversions | GA4 "AI Assistant" default channel (added May 13, 2026) **plus** a custom channel rule that also catches Perplexity (not included in Google's channel) | Regex below, placed above Referral ([Google](https://support.google.com/analytics/answer/9164320); [[geo_content_playbook_b2b\|playbook §4]]). ChatGPT tags links with `utm_source=chatgpt.com` |
 | Branded search volume | Search Console (queries containing "quotr") | Watch for namesakes (Quotr Pro etc.) |
 | Self-reported attribution | "How did you hear about us?" on demo and trial forms | Options: ChatGPT, Google AI, YouTube, Reddit, Facebook group, other |
 | Off-site proof | Review counts, list inclusions, YouTube views | Leading indicators |
@@ -182,7 +188,7 @@ Example source regex for the custom GA4 AI channel (Admin → Data display → C
 chatgpt\.com|chat\.openai\.com|perplexity\.ai|gemini\.google\.com|copilot\.microsoft\.com|claude\.ai
 ```
 
-Setup details: [../07-measurement/tracking-setup.md](../07-measurement/tracking-setup.md); KPIs: [../07-measurement/kpis-and-dashboard.md](../07-measurement/kpis-and-dashboard.md).
+Setup details: [[Tracking setup]]; KPIs: [[KPIs and dashboard]].
 
 ---
 
@@ -190,9 +196,9 @@ Setup details: [../07-measurement/tracking-setup.md](../07-measurement/tracking-
 
 ### 6.1 Quotr's starting point
 
-- **AI already reads Quotr, but rarely names it.** quotr.ai was in the source list of 6 of 32 unbranded Perplexity answers (as often as reddit.com), but Quotr was named in only **1 of 32 (about 3%)**; STACK, PlanSwift and Buildxact were each named in 10 ([report](<../../reports/Quotr GEO AEO strategy audit.md>)). Only Perplexity was tested.
-- **Named in 0 of 8 problem/how-to questions,** even where Quotr's post was the first source ("how accurate is AI takeoff"; one session, which the fact-check could not repeat). A separate question the fact-check added, what an LA fire rebuild costs per square foot, also left Quotr out, although Quotr sells exactly that estimate ([ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md); [presence-scorecard.md](../02-current-state/presence-scorecard.md)).
-- **Top-of-funnel white space exists:** on factory-direct buying, tariffs and landed costs, multifamily cost benchmarks and residential rebuild costs, almost no software company is cited today ([white-space.md](../03-market/white-space.md)).
+- **AI already reads Quotr, but rarely names it.** quotr.ai was in the source list of 6 of 32 unbranded Perplexity answers (as often as reddit.com), but Quotr was named in only **1 of 32 (about 3%)**; STACK, PlanSwift and Buildxact were each named in 10 ([[Quotr GEO AEO strategy audit|report]]). Only Perplexity was tested.
+- **Named in 0 of 8 problem/how-to questions,** even where Quotr's post was the first source ("how accurate is AI takeoff"; one session, which the fact-check could not repeat). A separate question the fact-check added, what an LA fire rebuild costs per square foot, also left Quotr out, although Quotr sells exactly that estimate ([[AI visibility baseline]]; [[Presence scorecard]]).
+- **Top-of-funnel white space exists:** on factory-direct buying, tariffs and landed costs, multifamily cost benchmarks and residential rebuild costs, almost no software company is cited today ([[White space]]).
 - **No traffic data yet.** Quotr's GA4, Search Console and CRM numbers were not available to this research (TO CONFIRM with Quotr).
 - **Expect informational clicks to keep falling** even if rankings hold (fact-check and notes inference). Quotr's dictionary (55 short definitions) and generic explainers are the most exposed.
 
@@ -219,9 +225,9 @@ Aleyda Solis's content-prioritisation framework scores content on **click resili
 
 ### 6.4 Make each mention count
 
-- **Attach the name to the fact** so citations become mentions ("Quotr.ai's Estimation Service charges $0.25 per sq ft…"). See [../06-playbooks/geo-writing-style-guide.md](../06-playbooks/geo-writing-style-guide.md).
+- **Attach the name to the fact** so citations become mentions ("Quotr.ai's Estimation Service charges $0.25 per sq ft…"). See [[GEO writing style guide]].
 - **Prepare the homepage for AI visitors.** Since May 2026, ChatGPT can link a brand name straight to the homepage. First-time visitors arrive mid-question, so the homepage should say plainly what Quotr is, who it is for, the entry price and the next step.
-- **Consistent facts everywhere,** so AI can name Quotr with confidence and tell it apart from Quotr Pro and other namesakes ([../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md)).
+- **Consistent facts everywhere,** so AI can name Quotr with confidence and tell it apart from Quotr Pro and other namesakes ([[Entity fact sheet]]).
 
 ### 6.5 The six-number scorecard (from the report)
 
@@ -238,7 +244,7 @@ Track monthly: (1) share of AI answers that name Quotr, (2) AI impressions in Se
 
 ### 6.7 Paid options (watch, don't assume)
 
-ChatGPT ads (US test from Feb 9, 2026; self-serve, CPA bidding; sponsored agents tested Sept 2026) sit **next to** answers, not inside them; OpenAI says ads do not influence answers. Treat them as a separate paid channel and test only if self-serve access and cost per action make sense ([OpenAI Help](https://help.openai.com/en/articles/20001047-ads-in-chatgpt); [Reuters](https://www.reuters.com/business/media-telecom/openai-tests-advertiser-sponsored-agents-expands-ai-tools-chatgpt-ads-2026-09-16/); [verification H18](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>)).
+ChatGPT ads (US test from Feb 9, 2026; self-serve, CPA bidding; sponsored agents tested Sept 2026) sit **next to** answers, not inside them; OpenAI says ads do not influence answers. Treat them as a separate paid channel and test only if self-serve access and cost per action make sense ([OpenAI Help](https://help.openai.com/en/articles/20001047-ads-in-chatgpt); [Reuters](https://www.reuters.com/business/media-telecom/openai-tests-advertiser-sponsored-agents-expands-ai-tools-chatgpt-ads-2026-09-16/); [[verification_geo_evidence|verification H18]]).
 
 ### 6.8 What not to do
 
@@ -260,12 +266,12 @@ ChatGPT ads (US test from Feb 9, 2026; self-serve, CPA bidding; sponsored agents
 
 ## Related pages
 
-- [how-ai-engines-choose-sources.md](how-ai-engines-choose-sources.md) — how each engine picks and shows sources
-- [signals-that-matter.md](signals-that-matter.md) — what gets a brand named
-- [myths-and-risks.md](myths-and-risks.md) — tactics to avoid
-- [geo-glossary.md](geo-glossary.md) — plain-English definitions
-- [../05-content-strategy/top-of-funnel-strategy.md](../05-content-strategy/top-of-funnel-strategy.md) — Quotr's top-of-funnel plan
-- [../03-market/white-space.md](../03-market/white-space.md) — topics no competitor owns in AI answers
-- [../07-measurement/kpis-and-dashboard.md](../07-measurement/kpis-and-dashboard.md) — the KPI set and dashboard
-- [../07-measurement/tracking-setup.md](../07-measurement/tracking-setup.md) — GA4, Search Console and Bing setup
-- [../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md) — Quotr's September 2026 baseline
+- [[How AI engines choose sources]] — how each engine picks and shows sources
+- [[Signals that matter]] — what gets a brand named
+- [[Myths and risks]] — tactics to avoid
+- [[GEO glossary]] — plain-English definitions
+- [[Top-of-funnel strategy]] — Quotr's top-of-funnel plan
+- [[White space]] — topics no competitor owns in AI answers
+- [[KPIs and dashboard]] — the KPI set and dashboard
+- [[Tracking setup]] — GA4, Search Console and Bing setup
+- [[AI visibility baseline]] — Quotr's September 2026 baseline

@@ -1,10 +1,16 @@
+---
+type: page-template
+description: Template for dated, sourced "how much does it cost" pages.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Template: Cost Guide ("How much does it cost to [X] in [year]?")
 
-**What this page is for:** A template for cost pages (for example "cost to drywall a house in 2026" or "cost per square foot to rebuild after the LA fires") that give AI engines clear, dated, sourced numbers to quote, credit Quotr.ai for its own data, and never invent figures.
+> [!abstract] What this page is for
+> A template for cost pages (for example "cost to drywall a house in 2026" or "cost per square foot to rebuild after the LA fires") that give AI engines clear, dated, sourced numbers to quote, credit Quotr.ai for its own data, and never invent figures.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§3 cost prompts and cited pages, §5 white space), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (§1 C12, §3), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (re-runs C12 and the LA-fire prompt; gaps filled #7), [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1 DATE/NUMBER entities, §7 click resilience), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #21, X17); [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) (Service pricing, FireTips, sample deliverables); [../../03-market/white-space.md](../../03-market/white-space.md).
+> [!info]- Sources
+> [[competitor_geo_benchmark]] (§3 cost prompts and cited pages, §5 white space), [[quotr_ai_visibility_tests]] (§1 C12, §3), [[verification_quotr_and_competitors]] (re-runs C12 and the LA-fire prompt; gaps filled #7), [[geo_content_playbook_b2b]] (§1 DATE/NUMBER entities, §7 click resilience), [[verification_geo_evidence]] (claims #21, X17); [[Entity fact sheet]] (Service pricing, FireTips, sample deliverables); [[White space]].
 
 ---
 
@@ -92,7 +98,7 @@ Targets L-048, L-050. **Every bracketed figure must come from a checked source.*
 
 **Worked example:** quantities from the drywall how-to example × unit costs = total, shown as a table.
 
-**Link:** [trade-how-to-guide.md](trade-how-to-guide.md) drywall example; [/software/trades/drywall/](https://quotr.ai/software/trades/drywall/).
+**Link:** [[Trade how-to guide template]] drywall example; [/software/trades/drywall/](https://quotr.ai/software/trades/drywall/).
 
 ---
 
@@ -123,7 +129,7 @@ Targets L-134. This is where Quotr has a real asset: the "Fast Cost Estimation (
 
 ## 8. Schema for this page
 
-- BlogPosting (real author) + BreadcrumbList ([../schema-markup-kit.md](../schema-markup-kit.md) 5.5).
+- BlogPosting (real author) + BreadcrumbList ([[Schema markup kit]] 5.5).
 - If the page describes Quotr Service prices, the Service block (5.3) belongs on /service/, not on the cost guide.
 - If you publish a downloadable dataset, consider schema.org `Dataset` (optional; validate it).
 
@@ -146,9 +152,9 @@ Targets L-134. This is where Quotr has a real asset: the "Fast Cost Estimation (
 
 ## Related pages
 
-- [original-research-report.md](original-research-report.md) — when the cost data becomes a recurring index
-- [trade-how-to-guide.md](trade-how-to-guide.md) — the matching "how to estimate" guide
-- [pricing-page.md](pricing-page.md) — Quotr's own prices
-- [../../03-market/white-space.md](../../03-market/white-space.md) — residential and multifamily cost questions nobody owns
-- [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) — service pricing and FireTips facts
-- [../geo-writing-style-guide.md](../geo-writing-style-guide.md) — number and source rules
+- [[Original research report template]] — when the cost data becomes a recurring index
+- [[Trade how-to guide template]] — the matching "how to estimate" guide
+- [[Pricing page template]] — Quotr's own prices
+- [[White space]] — residential and multifamily cost questions nobody owns
+- [[Entity fact sheet]] — service pricing and FireTips facts
+- [[GEO writing style guide]] — number and source rules

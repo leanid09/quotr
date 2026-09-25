@@ -1,10 +1,16 @@
+---
+type: playbook
+description: Getting onto third-party "best of" lists and into trade press, with targets, fact pack and pitch emails.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Listicle and PR Outreach Playbook
 
-**What this page is for:** How Quotr.ai gets included (accurately) in third-party "best of" lists, directory categories and construction trade press, with the target list, a press fact pack, ready-to-edit pitch emails, and the rules that keep outreach honest.
+> [!abstract] What this page is for
+> How Quotr.ai gets included (accurately) in third-party "best of" lists, directory categories and construction trade press, with the target list, a press fact pack, ready-to-edit pitch emails, and the rules that keep outreach honest.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (§2 roundups, §3 press, §6 realistic wins), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (claims 26–27, 31; gaps filled #6), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (§1–2, §5), [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§1–5), [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1, §3), [geo_ai_citation_signals_2026.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) (§2 earned-media bias), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #17, #19; H11); [../../03-market/citation-sources-map.md](../../03-market/citation-sources-map.md) (target list); [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md).
+> [!info]- Sources
+> [[quotr_offsite_presence]] (§2 roundups, §3 press, §6 realistic wins), [[verification_quotr_and_competitors]] (claims 26–27, 31; gaps filled #6), [[quotr_ai_visibility_tests]] (§1–2, §5), [[competitor_geo_benchmark]] (§1–5), [[geo_content_playbook_b2b]] (§1, §3), [[geo_ai_citation_signals_2026]] (§2 earned-media bias), [[verification_geo_evidence]] (claims #17, #19; H11); [[Citation sources map]] (target list); [[Entity fact sheet]].
 
 ---
 
@@ -19,7 +25,7 @@
   - [ForesightIQ Togal page](https://www.foresightiq.co/competitive-landscape/togalai): names Quotr, sourced only from Quotr's own blog.
   - rconstructionsolutions, palcode, nedesestimating and aibuildingtools may mention Quotr (UNVERIFIED).
   - (Verification claims 26–27.)
-- **Trade press:** no Quotr coverage found in Construction Dive, ENR, For Construction Pros, BuilderOnline or TechCrunch, and no seed-round announcement (offsite notes §3). One paid EIN Presswire release (Feb 2025) announced the free FireTips app for LA fire victims ([fact sheet](../../00-quotr/entity-fact-sheet.md)). Paid wire copies are not earned coverage.
+- **Trade press:** no Quotr coverage found in Construction Dive, ENR, For Construction Pros, BuilderOnline or TechCrunch, and no seed-round announcement (offsite notes §3). One paid EIN Presswire release (Feb 2025) announced the free FireTips app for LA fire victims ([[Entity fact sheet|fact sheet]]). Paid wire copies are not earned coverage.
 - **Tariff and cost questions cite only public and media sources** (JEC, NAHB, Brookings, Construction Dive, HousingWire). A vendor with dated first-party data could become a quoted source (competitor benchmark §3).
 
 ---
@@ -27,16 +33,16 @@
 ## 2. Before any outreach: fix the facts
 
 Editors and AI engines will copy whatever Quotr sends. Do this first:
-- [ ] Current prices everywhere (Lite $79.90, Plus $299.90 per seat per month, Enterprise custom, 7-day trial) — see [../page-refresh-checklist.md](../page-refresh-checklist.md) Tier 0.
+- [ ] Current prices everywhere (Lite $79.90, Plus $299.90 per seat per month, Enterprise custom, 7-day trial) — see [[Page refresh checklist]] Tier 0.
 - [ ] One HQ, one founding year, one factory number, one savings claim, one turnaround (all **TO CONFIRM with Quotr**; see the fact sheet's open questions). Until confirmed, leave them out of pitches.
-- [ ] G2 profile renamed and at least a few reviews live ([review-generation.md](review-generation.md)); many list editors rank by review data.
+- [ ] G2 profile renamed and at least a few reviews live ([[Review generation]]); many list editors rank by review data.
 - [ ] A press page on quotr.ai (section 4).
 
 ---
 
 ## 3. Target list (prioritised)
 
-Adapted from the prioritised list in [../../03-market/citation-sources-map.md](../../03-market/citation-sources-map.md) §4. Check each site's editorial policy and contact route before pitching.
+Adapted from the prioritised list in [[Citation sources map]] §4. Check each site's editorial policy and contact route before pitching.
 
 ### Tier A — correction outreach (days, low effort)
 
@@ -80,7 +86,7 @@ Adapted from the prioritised list in [../../03-market/citation-sources-map.md](.
 
 ## 4. The press fact pack (build once, reuse everywhere)
 
-Publish as a /press/ page on quotr.ai and as a one-page PDF. Every item from the [fact sheet](../../00-quotr/entity-fact-sheet.md):
+Publish as a /press/ page on quotr.ai and as a one-page PDF. Every item from the [[Entity fact sheet|fact sheet]]:
 
 | Item | Content |
 |---|---|
@@ -94,7 +100,7 @@ Publish as a /press/ page on quotr.ai and as a one-page PDF. Every item from the
 | Proof | Case studies with numbers; review counts with "as of" date |
 | Assets | Logo files, product screenshots, demo video link |
 | Demo access | A reviewer login and a sample plan set |
-| Data | Latest original-research findings ([../templates/original-research-report.md](../templates/original-research-report.md)) |
+| Data | Latest original-research findings ([[Original research report template]]) |
 | Contact | Named press contact, email, phone |
 
 ---
@@ -176,7 +182,7 @@ Keep pitches short (under 150 words), personal and specific to the list or story
 2. **Accuracy over flattery.** Send facts with sources; never supply comparisons that knock competitors without sources.
 3. **Respect editorial independence.** Ask for consideration, not a rank. Never ask to be #1.
 4. **One person, one relationship.** No mass mail-merges to hundreds of sites.
-5. **Disclose** your role in every message; founders and staff speaking about Quotr must say they work there (FTC Endorsement Guides; see [review-generation.md](review-generation.md) §6a).
+5. **Disclose** your role in every message; founders and staff speaking about Quotr must say they work there (FTC Endorsement Guides; see [[Review generation]] §6a).
 6. **Fix first, pitch second** (section 2).
 7. **Keep a log** of every pitch, response and outcome.
 
@@ -189,7 +195,7 @@ Keep pitches short (under 150 words), personal and specific to the list or story
 | Third-party lists that include Quotr.ai (with correct price) | Log + monthly search | Monthly |
 | Corrections completed (Nomic, Octopus Builds, etc.) | Log | Monthly |
 | Trade-press mentions and bylines | Google Alerts / manual search | Monthly |
-| Pages from the target list that appear in AI citation lists **with Quotr on them** | Prompt tracking ([../../04-prompt-library/tracking-set.md](../../04-prompt-library/tracking-set.md)) | Monthly |
+| Pages from the target list that appear in AI citation lists **with Quotr on them** | Prompt tracking ([[Tracking set]]) | Monthly |
 | Category prompts where Quotr is named (E-001, E-007, E-010, E-013, E-015) | Prompt tracking | Monthly |
 
 Placements churn: one cross-industry study found only about a third of AI-cited URLs were still cited 28 days later, so keep relationships and facts current (visibility notes §6; confirmed in verification claim 37).
@@ -198,9 +204,9 @@ Placements churn: one cross-industry study found only about a third of AI-cited 
 
 ## Related pages
 
-- [review-generation.md](review-generation.md) — reviews that list editors rely on
-- [linkedin-thought-leadership.md](linkedin-thought-leadership.md) — founder content that supports pitches
-- [../templates/original-research-report.md](../templates/original-research-report.md) — the data that makes press pitches work
-- [../templates/best-of-roundup.md](../templates/best-of-roundup.md) — why Quotr should not rely on its own lists
-- [../../03-market/citation-sources-map.md](../../03-market/citation-sources-map.md) — full prioritised target list
-- [../../05-content-strategy/offsite-earned-media-plan.md](../../05-content-strategy/offsite-earned-media-plan.md) — the earned-media plan
+- [[Review generation]] — reviews that list editors rely on
+- [[LinkedIn thought leadership]] — founder content that supports pitches
+- [[Original research report template]] — the data that makes press pitches work
+- [[Best-of roundup template]] — why Quotr should not rely on its own lists
+- [[Citation sources map]] — full prioritised target list
+- [[Off-site earned media plan]] — the earned-media plan

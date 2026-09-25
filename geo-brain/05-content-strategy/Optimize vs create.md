@@ -1,10 +1,16 @@
+---
+type: guide
+description: How to split effort between fixing and creating, the full fact-fix sweep and page-by-page actions.
+last_verified: 2026-09-25
+verify_every_days: 90
+---
 # Optimize Existing Content vs Create New: Framework, Fact-Fix Sweep and Page-by-Page Actions
 
-**What this page is for:** How Quotr should split effort between fixing, merging and refreshing its existing pages and creating new ones, with a decision framework, a recommended effort split, the full "fact-fix sweep" (every inconsistency to correct) and a page-by-page action table for every quotr.ai page the research found. It answers the meeting question **"How should we think about optimizing existing content versus creating new content?"**
+> [!abstract] What this page is for
+> How Quotr should split effort between fixing, merging and refreshing its existing pages and creating new ones, with a decision framework, a recommended effort split, the full "fact-fix sweep" (every inconsistency to correct) and a page-by-page action table for every quotr.ai page the research found. It answers the meeting question **"How should we think about optimizing existing content versus creating new content?"**
 
-**Last updated:** 2026-09-25
-
-**Sources:** the final report [audit report](<../../reports/Quotr GEO AEO strategy audit.md>) (sections "Existing vs new content" and "A 90-day plan"); research notes [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (full inventory, §1–§6), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (corrections: ~13 stale-price URLs, /terms HQ, PlanSwift ownership, staging host), [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (freshness evidence and claim H6), [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§2), [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (which pages AI cites); brain pages [../02-current-state/website-audit.md](../02-current-state/website-audit.md) (list of all 96 posts), [../02-current-state/geo-tactics-already-used.md](../02-current-state/geo-tactics-already-used.md), [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) (inconsistency register), [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md) (prompt IDs). In the text, "verification file" or "Quotr fact-check" means verification_quotr_and_competitors.md, and "GEO-evidence fact-check" means verification_geo_evidence.md.
+> [!info]- Sources
+> the final report [[Quotr GEO AEO strategy audit|audit report]] (sections "Existing vs new content" and "A 90-day plan"); research notes [[quotr_onsite_content_audit]] (full inventory, §1–§6), [[verification_quotr_and_competitors]] (corrections: ~13 stale-price URLs, /terms HQ, PlanSwift ownership, staging host), [[verification_geo_evidence]] (freshness evidence and claim H6), [[geo_content_playbook_b2b]] (§2), [[quotr_ai_visibility_tests]] (which pages AI cites); brain pages [[Website audit]] (list of all 96 posts), [[GEO tactics already used]], [[Entity fact sheet]] (inconsistency register), [[Prompt library]] (prompt IDs). In the text, "verification file" or "Quotr fact-check" means verification_quotr_and_competitors.md, and "GEO-evidence fact-check" means verification_geo_evidence.md.
 
 ---
 
@@ -42,16 +48,16 @@
 
 | Evidence | What it tells us | Source |
 |---|---|---|
-| Old "Solo $299.90 / Team $499.90" pricing is still live on about **13 Quotr URLs** plus llms.txt; Perplexity answered "Quotr.ai vs Togal.AI" with "from about $299.90/month" (real entry price: $79.90) | Old pages are doing active damage; fixing them is the fastest win | Report; [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) claim 7, Gaps filled #2 |
+| Old "Solo $299.90 / Team $499.90" pricing is still live on about **13 Quotr URLs** plus llms.txt; Perplexity answered "Quotr.ai vs Togal.AI" with "from about $299.90/month" (real entry price: $79.90) | Old pages are doing active damage; fixing them is the fastest win | Report; [[verification_quotr_and_competitors]] claim 7, Gaps filled #2 |
 | The errors are spreading: Nomic and Octopus Builds copied the $299.90 price; Perplexity concluded Quotr "claims access to 50+ to 220+ factories, depending on the page" | Inconsistent facts make AI hedge and copy mistakes | Report |
-| Quotr pages are already the **first citation** for several questions (outsourced estimating price C12, AI takeoff accuracy P5, plumbing estimating N2), but the brand is not named | Refreshing these pages to attach the brand is cheap and targeted | Visibility notes §1, §3; [../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md) T12, T30, T49 |
+| Quotr pages are already the **first citation** for several questions (outsourced estimating price C12, AI takeoff accuracy P5, plumbing estimating N2), but the brand is not named | Refreshing these pages to attach the brand is cheap and targeted | Visibility notes §1, §3; [[Tracking set]] T12, T30, T49 |
 | Two Togal-alternatives posts and several "estimating services" posts target the same questions, and AI retrieved both Togal posts | AI picks one version, maybe the stale one; merging gives it one clear page | Onsite notes §2; competitor notes §4 |
-| Ahrefs (17M citations): AI-cited pages are fresher than normal search results, especially in ChatGPT, **but cited pages still average 2.9 years old**; the author suspects most brands "will see better results from creating new, high-quality content than from … extremely frequent content updating" | Freshness matters, but less than many GEO guides claim | [Ahrefs](https://ahrefs.com/blog/do-ai-assistants-prefer-to-cite-fresh-content/) via [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) claim 10 |
+| Ahrefs (17M citations): AI-cited pages are fresher than normal search results, especially in ChatGPT, **but cited pages still average 2.9 years old**; the author suspects most brands "will see better results from creating new, high-quality content than from … extremely frequent content updating" | Freshness matters, but less than many GEO guides claim | [Ahrefs](https://ahrefs.com/blog/do-ai-assistants-prefer-to-cite-fresh-content/) via [[verification_geo_evidence]] claim 10 |
 | Posts "lightly refreshed with '2026' in the title" were among pages that lost Google visibility in early 2026 | Date-only refreshes can backfire | [Lily Ray](https://lilyraynyc.substack.com/p/is-google-finally-cracking-down-on) |
 | Google's AI Overviews care much less about freshness than ChatGPT | Refresh commercial pages when facts change; do not churn evergreen pages | Ahrefs, as above |
 | Number of pages on a site barely correlates with AI visibility (~0.194) across 75,000 brands | More pages is not the answer | [Ahrefs](https://ahrefs.com/blog/ai-brand-visibility-correlations/) |
 | Google's May 2026 guide: "valuable, unique, non-commodity content" matters most; pages made for every query variation can break spam rules | New effort should go to unique assets, not variations | [Google](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) |
-| The fact-check's own wording: "Fix and consolidate what already ranks or gets cited, then put most effort into net-new content that has original data or decision support." | Our recommended sequence | [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>), hype flag H6 |
+| The fact-check's own wording: "Fix and consolidate what already ranks or gets cited, then put most effort into net-new content that has original data or decision support." | Our recommended sequence | [[verification_geo_evidence]], hype flag H6 |
 
 "Refresh first" alone is a practitioner sequence, not a research finding (GEO-evidence fact-check, flag H6). That is why the plan below limits refreshing to pages with wrong facts, pages AI already uses, and pages that target high-priority prompts.
 
@@ -69,9 +75,9 @@ Our recommendation for the content team's time. It is a planning guide, not a me
 
 **Why this split:**
 - October is dominated by fixes because stale facts are the most urgent problem and the cheapest to solve (days, not months).
-- After that, most effort goes to new, unique assets, because that is where the evidence points (Growth Memo's 3.3× citation density for primary research; Google's "non-commodity" test; the open field on tariffs, factory-direct buying and cost benchmarks). See [content-priorities.md](content-priorities.md).
+- After that, most effort goes to new, unique assets, because that is where the evidence points (Growth Memo's 3.3× citation density for primary research; Google's "non-commodity" test; the open field on tariffs, factory-direct buying and cost benchmarks). See [[Content priorities]].
 - A steady 20–25% stays on refresh, because pricing, comparison and data pages must be updated when facts change, and because turning anonymous citations into named ones is cheap.
-- Off-site support grows over time: independent proof (reviews, lists, press, video, communities) is the biggest gap, and each new asset should feed it. See [offsite-earned-media-plan.md](offsite-earned-media-plan.md).
+- Off-site support grows over time: independent proof (reviews, lists, press, video, communities) is the biggest gap, and each new asset should feed it. See [[Off-site earned media plan]].
 
 ---
 
@@ -91,7 +97,7 @@ Work through these questions in order for every existing page. Stop at the first
 **How to pick the winner in a merge** (in this order): (1) the page AI engines already cite in the tests; (2) the page with more Search Console impressions, clicks and backlinks (**TO CONFIRM with Quotr's data**); (3) the page with a year-free, descriptive URL (descriptive URLs were cited 89.78% of the times they appeared in ChatGPT results vs 81.11% for less descriptive ones, per [Ahrefs](https://ahrefs.com/blog/why-chatgpt-cites-pages/); vendor study, not re-checked by the fact-check; and year-free URLs will not look stale in 2027).
 
 **Create a new page only when all four are true:**
-1. A High or Medium prompt in [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md) has no fitting page ("NEW PAGE NEEDED").
+1. A High or Medium prompt in [[Prompt library]] has no fitting page ("NEW PAGE NEEDED").
 2. Quotr has something unique to say (its data, customers or people).
 3. The page is clearly different from every existing Quotr page (check the table below first).
 4. Someone owns keeping it accurate.
@@ -105,16 +111,16 @@ Work through these questions in order for every existing page. Stop at the first
 | Copilot citations per URL | Bing Webmaster Tools AI Performance (public preview since Feb 10, 2026) | See which pages Copilot cites ([Bing](https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview)) |
 | AI-referred sessions per landing page | GA4 "AI Assistant" channel plus a custom rule for Perplexity | Perplexity is not in GA4's default AI channel |
 | Backlinks per URL | Any backlink tool (not measured in this research) | Keep the URL with more links when merging |
-| Whether AI cited the page in tests | [../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md) | Pages AI already uses get priority |
+| Whether AI cited the page in tests | [[AI visibility baseline]] | Pages AI already uses get priority |
 
-Setup: [../07-measurement/tracking-setup.md](../07-measurement/tracking-setup.md).
+Setup: [[Tracking setup]].
 
 ---
 
 ## Rules for each action
 
 **FIX FACTS**
-- Use only values from the approved fact sheet ([../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md)). Anything still marked TO CONFIRM is removed or left vague, never guessed.
+- Use only values from the approved fact sheet ([[Entity fact sheet]]). Anything still marked TO CONFIRM is removed or left vague, never guessed.
 - Search the whole site, not only the pages listed here (search terms are listed in the sweep below).
 - After fixing, request re-crawling: Search Console URL Inspection → "Request indexing"; Bing Webmaster Tools URL submission or IndexNow.
 
@@ -124,7 +130,7 @@ Setup: [../07-measurement/tracking-setup.md](../07-measurement/tracking-setup.md
 - Keep the URL. Keep "2026" in a title only if the content is current for 2026.
 - Attach the brand to the key facts. Keep the answer-first block (Quotr does this well already).
 - Replace "By quotr.ai" with a named author. Link every competitor fact with a date.
-- Checklist: [../06-playbooks/page-refresh-checklist.md](../06-playbooks/page-refresh-checklist.md).
+- Checklist: [[Page refresh checklist]].
 
 **MERGE INTO**
 - Copy the best unique parts of each page into the winner. Do not just redirect a page that holds unique facts.
@@ -169,7 +175,7 @@ These pages were cited or retrieved in the September 2026 Perplexity tests. Refr
 
 ## The fact-fix sweep (P0: every inconsistency to correct)
 
-Do this in the first two weeks of October 2026. **Step 1 is leadership agreeing the fact sheet** ([../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md)); the "Correct value" column shows the current best value or a recommendation, and items marked TO CONFIRM need Quotr's decision first.
+Do this in the first two weeks of October 2026. **Step 1 is leadership agreeing the fact sheet** ([[Entity fact sheet]]); the "Correct value" column shows the current best value or a recommendation, and items marked TO CONFIRM need Quotr's decision first.
 
 ### A. Company and product facts
 
@@ -190,7 +196,7 @@ Do this in the first two weeks of October 2026. **Step 1 is leadership agreeing 
 | 13 | **Founders** | Hanyang Liu (CEO) and Junzhe Shi (CTO) on [/about-us/](https://quotr.ai/about-us/); only "Co-Founder: Junzhe Shi" on /disambiguation/ and its schema | Both, consistently (recommendation; the About page never uses the word "co-founder", so confirm titles) | /disambiguation/ text and schema `founder`, /about-us/ |
 | 14 | **Funding** | "$3.5 Million in Seed funding as of December 25, 2025" plus $200K pre-seed (/disambiguation/ only); "has raised $5 million" ([podcast page](https://marketingpodcasts.net/2026/03/episode-45-can-ai-cut-construction-material-costs-by-50/)); PitchBook shows one seed round with no amount; a "$190K seed" figure appears only in Perplexity answers | **TO CONFIRM**, then publish one press release so a third party states it | /disambiguation/, /about-us/, PitchBook, Crunchbase, podcast notes |
 | 15 | **Investors and team size** | SkyDeck + Llama Ventures (Quotr) vs SkyDeck + Llama Ventures + Sky Arc Capital (PitchBook); 11–50 vs 10 employees | **TO CONFIRM** | PitchBook, /disambiguation/ |
-| 16 | **Legal name in schema** | `legalName: "Quotr.ai"` (homepage, /software/) vs `"FLOZ Inc"` (/disambiguation/) under the same `@id` | `name: "Quotr.ai"`, `legalName: "FLOZ Inc."` everywhere | Site-wide Organization schema ([../06-playbooks/schema-markup-kit.md](../06-playbooks/schema-markup-kit.md)) |
+| 16 | **Legal name in schema** | `legalName: "Quotr.ai"` (homepage, /software/) vs `"FLOZ Inc"` (/disambiguation/) under the same `@id` | `name: "Quotr.ai"`, `legalName: "FLOZ Inc."` everywhere | Site-wide Organization schema ([[Schema markup kit]]) |
 | 17 | **Target audience** | "residential construction including single-family homes and multi-family housing" (llms.txt, /faq/, /disambiguation/) vs "institutional, cloud-native B2B preconstruction ecosystem engineered for commercial general contractors, large specialty subcontractors, and real estate development funds" (/disambiguation/, same page) vs "Enterprise B2B preconstruction" (homepage schema) | One audience statement (**TO CONFIRM**; draft: "trade subcontractors, general contractors and real estate developers working on residential, multifamily and light commercial projects") | /disambiguation/, homepage schema, /faq/, llms.txt |
 | 18 | **Trade count** | 23 trade pages vs "26 sub-trades" (/service/ FAQ) | State both clearly (**TO CONFIRM**) | /service/, /software/ |
 | 19 | **Excel export** | One indexed Quotr page says Quotr "does not export to Excel"; /software/ lists "takeoff and quantity exports" without a format | **TO CONFIRM**, then state formats | /faq/, /software/ |
@@ -202,7 +208,7 @@ Do this in the first two weeks of October 2026. **Step 1 is leadership agreeing 
 | 20 | **LinkedIn** | /company/quotrai (footer, schema, Crunchbase, PitchBook) vs /company/quotrio (/disambiguation/); a "flozdesign" page also exists; Hanyang Liu has two personal profiles | /company/quotrai; merge the founder's duplicate profiles; relation of "flozdesign" **TO CONFIRM** | /disambiguation/ list and schema `sameAs` |
 | 21 | **X (Twitter)** | @quotr_ai vs @quotr_io (/disambiguation/, podcast page) | @quotr_ai | /disambiguation/, podcast notes |
 | 22 | **YouTube** | @QuotrAI (footer, Organization schema) vs @QuotrIO, which resolves to a channel titled "QuoTrio" (/disambiguation/ list and SoftwareApplication schema) | @QuotrAI; whether "QuoTrio" is Quotr's old channel **TO CONFIRM** | /disambiguation/ |
-| 23 | **Old domain in links** | quotr.io on F6S, the podcast page, the G2 slug "quotr-io", GitHub "Quotr-io", MBI and BIA slugs; `alternateName` "Quotr.io" is fine | quotr.ai everywhere; "Quotr.ai (formerly Quotr.io)" only where history matters | Off-site listings (see [offsite-earned-media-plan.md](offsite-earned-media-plan.md)) |
+| 23 | **Old domain in links** | quotr.io on F6S, the podcast page, the G2 slug "quotr-io", GitHub "Quotr-io", MBI and BIA slugs; `alternateName` "Quotr.io" is fine | quotr.ai everywhere; "Quotr.ai (formerly Quotr.io)" only where history matters | Off-site listings (see [[Off-site earned media plan]]) |
 | 24 | **Contact email** | info@quotr.io (/terms) vs procurement@quotr.ai (a blog post) | An @quotr.ai address (**TO CONFIRM**) | /terms, contact pages, schema |
 | 25 | **Asset host** | Logo and og-cover images served from public.quotr.io | Serve from quotr.ai (low priority) | Schema, templates |
 
@@ -253,9 +259,9 @@ Evidence on llms.txt: Google treats it like any other file; an SE Ranking study 
 ### F. After the sweep
 
 1. Request re-crawling of every changed URL (Search Console URL Inspection; Bing Webmaster Tools or IndexNow).
-2. Send correction emails with the fact sheet to pages that already mention Quotr: Nomic, Octopus Builds, ForesightIQ, rconstructionsolutions, PalCode, NEDES Estimating, aibuildingtools (see [offsite-earned-media-plan.md](offsite-earned-media-plan.md)).
+2. Send correction emails with the fact sheet to pages that already mention Quotr: Nomic, Octopus Builds, ForesightIQ, rconstructionsolutions, PalCode, NEDES Estimating, aibuildingtools (see [[Off-site earned media plan]]).
 3. Update Crunchbase, PitchBook, F6S, Product Hunt and podcast show notes with the same facts.
-4. Re-run the brand prompts (T34–T40 in [../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md)) about 4 weeks later. Success signal: answers quote $79.90, stop citing test.quotr.io, and give one factory count. (Timing is our expectation; engines re-crawl at different speeds.)
+4. Re-run the brand prompts (T34–T40 in [[Tracking set]]) about 4 weeks later. Success signal: answers quote $79.90, stop citing test.quotr.io, and give one factory count. (Timing is our expectation; engines re-crawl at different speeds.)
 
 ---
 
@@ -263,10 +269,10 @@ Evidence on llms.txt: Google treats it like any other file; an SE Ranking study 
 
 **Priority key:** **P0** = part of the fact-fix sweep, first two weeks of October 2026. **P1** = within 30 days. **P2** = days 31–90 (November–December 2026). **P3** = January–March 2027, or when convenient.
 **Action key:** FIX FACTS · REFRESH · MERGE INTO [page] · REDIRECT · NOINDEX · KEEP. Two actions mean "do the first now, the second later".
-**Prompt IDs** are from [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md); T## are tracked monthly ([tracking-set.md](../04-prompt-library/tracking-set.md)).
+**Prompt IDs** are from [[Prompt library]]; T## are tracked monthly ([[Tracking set]]).
 **Merges marked "(check GSC)"** are our recommendation based on overlapping topics; confirm with Search Console data before redirecting.
 
-Inventory source: [../02-current-state/website-audit.md](../02-current-state/website-audit.md) §8 (96 blog posts, 55 dictionary terms, 23 trade pages, 6 tutorials, 4 case studies, core pages) and [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>).
+Inventory source: [[Website audit]] §8 (96 blog posts, 55 dictionary terms, 23 trade pages, 6 tutorials, 4 case studies, core pages) and [[quotr_onsite_content_audit]].
 
 ### 1. Core pages, files and hosts
 
@@ -288,7 +294,7 @@ Inventory source: [../02-current-state/website-audit.md](../02-current-state/web
 | [/dictionary/](https://quotr.ai/dictionary/) (index) | Fine | KEEP | — | |
 | [/blog/](https://quotr.ai/blog/) (index) | Lists posts with JavaScript; not in the main sitemap | FIX (server-rendered list) | P1 | |
 | Blog hubs: [industry-insights](https://quotr.ai/blog/industry-insights/), [cost-estimation-series](https://quotr.ai/blog/cost-estimation-series/), [product-updates](https://quotr.ai/blog/product-updates/), [customer-case-studies](https://quotr.ai/blog/customer-case-studies/), [software](https://quotr.ai/blog/software/), [service](https://quotr.ai/blog/service/), [procurement](https://quotr.ai/blog/procurement/) | Hub lastmod older than newest posts | KEEP (add a short intro to each) | P3 | |
-| [/contact-us/](https://quotr.ai/contact-us/), [/book-demo/](https://quotr.ai/book-demo/) | Contact email on /terms is @quotr.io | KEEP | — | Add "How did you hear about us?" to forms (see [top-of-funnel-strategy.md](top-of-funnel-strategy.md)) |
+| [/contact-us/](https://quotr.ai/contact-us/), [/book-demo/](https://quotr.ai/book-demo/) | Contact email on /terms is @quotr.io | KEEP | — | Add "How did you hear about us?" to forms (see [[Top-of-funnel strategy]]) |
 | [/privacy/](https://quotr.ai/privacy/) | — | KEEP | — | |
 | [/terms/](https://quotr.ai/terms/) | San Francisco legal address; info@quotr.io | FIX FACTS only if the HQ or email decision requires it (legal review) | P1 | **TO CONFIRM** |
 | [/contractors/](https://quotr.ai/contractors/) | Live alias of /software/ with canonical; old indexed copy has Solo/Team pricing; not in sitemap; linked from llms.txt | FIX FACTS (request re-crawl now) → REFRESH into the trade-subcontractor hub, or REDIRECT to /software/ if no hub is built | P0 / P2 | E-001, E-010, E-014 |
@@ -338,7 +344,7 @@ Only the drywall page was opened (about 25 unique words); the others are assumed
 | [/software/trades/landscaping/](https://quotr.ai/software/trades/landscaping/) | Thin | NOINDEX until deepened (or MERGE INTO hub) | P2 | |
 | [/software/trades/sitework/](https://quotr.ai/software/trades/sitework/) | Thin | NOINDEX until deepened (or MERGE INTO hub) | P2 | |
 
-A "trades hub" at /software/trades/ (one strong page listing all 23 trade workflows with a paragraph each) is proposed in [content-roadmap.md](content-roadmap.md).
+A "trades hub" at /software/trades/ (one strong page listing all 23 trade workflows with a paragraph each) is proposed in [[Content roadmap]].
 
 ### 3. Dictionary terms (55)
 
@@ -362,7 +368,7 @@ A "trades hub" at /software/trades/ (one strong page listing all 23 trade workfl
 
 ### 4. Blog posts (all 96), by cluster
 
-Clusters and dates follow [../02-current-state/website-audit.md](../02-current-state/website-audit.md) §8.6.
+Clusters and dates follow [[Website audit]] §8.6.
 
 **A. Head-to-head comparisons (8)**
 
@@ -526,7 +532,7 @@ About 20 posts are part of the P0 fact-fix sweep (mainly the old-price and turna
 
 ## After the fixes: what "create new" should look like
 
-New effort goes to the assets in [content-priorities.md](content-priorities.md), scheduled in [content-roadmap.md](content-roadmap.md):
+New effort goes to the assets in [[Content priorities]], scheduled in [[Content roadmap]]:
 - original data (price index, cost benchmarks, accuracy and turnaround benchmarks);
 - free tools and templates;
 - proof pages (quantified case studies, method, security, integrations, author pages);
@@ -550,13 +556,13 @@ And **not** to more "[trade] estimating services" or city variations, more self-
 
 ## Related pages
 
-- [content-priorities.md](content-priorities.md): which content types to invest in, and what to stop
-- [content-roadmap.md](content-roadmap.md): the new and rebuilt pieces, month by month
-- [offsite-earned-media-plan.md](offsite-earned-media-plan.md): fixing the facts on other people's websites and earning new proof
-- [top-of-funnel-strategy.md](top-of-funnel-strategy.md): how refreshes and new assets protect reach
-- [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md): the single source of truth the sweep depends on
-- [../02-current-state/website-audit.md](../02-current-state/website-audit.md) and [../02-current-state/geo-tactics-already-used.md](../02-current-state/geo-tactics-already-used.md): the audit behind every row
-- [../06-playbooks/page-refresh-checklist.md](../06-playbooks/page-refresh-checklist.md): step-by-step refresh checklist
-- [../06-playbooks/schema-markup-kit.md](../06-playbooks/schema-markup-kit.md): consistent Organization, Offer and FAQ markup
-- [../07-measurement/tracking-setup.md](../07-measurement/tracking-setup.md): Search Console, Bing and GA4 setup
-- [../08-action-plan/30-60-90-plan.md](../08-action-plan/30-60-90-plan.md): where these tasks sit in the overall plan
+- [[Content priorities]]: which content types to invest in, and what to stop
+- [[Content roadmap]]: the new and rebuilt pieces, month by month
+- [[Off-site earned media plan]]: fixing the facts on other people's websites and earning new proof
+- [[Top-of-funnel strategy]]: how refreshes and new assets protect reach
+- [[Entity fact sheet]]: the single source of truth the sweep depends on
+- [[Website audit]] and [[GEO tactics already used]]: the audit behind every row
+- [[Page refresh checklist]]: step-by-step refresh checklist
+- [[Schema markup kit]]: consistent Organization, Offer and FAQ markup
+- [[Tracking setup]]: Search Console, Bing and GA4 setup
+- [[30-60-90 plan]]: where these tasks sit in the overall plan

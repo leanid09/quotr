@@ -1,3 +1,8 @@
+---
+type: research-note
+description: Fact-check of the GEO evidence notes. Its corrections override the other notes.
+date: 2026-09-25
+---
 # Fact-check of the GEO/AEO evidence notes (as of 2026-09-25)
 
 **Corrections in this file override the original notes.** This file checks `geo_ai_citation_signals_2026.md` ("signals") and `geo_content_playbook_b2b.md` ("playbook"). If a claim is marked CORRECTED or UNVERIFIED here, use this file's wording in anything shown to Quotr.

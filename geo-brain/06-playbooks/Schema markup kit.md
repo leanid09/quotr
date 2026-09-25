@@ -1,10 +1,16 @@
+---
+type: playbook
+description: Plain-language schema guide with JSON-LD templates for each page type, and what schema can and cannot do.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Schema Markup Kit for Quotr.ai
 
-**What this page is for:** A plain-language guide to structured data ("schema") for Quotr.ai, with ready-to-adapt JSON-LD templates for each page type, the rules for using them, how to validate them, and an honest summary of what schema does and does not do for AI citations.
+> [!abstract] What this page is for
+> A plain-language guide to structured data ("schema") for Quotr.ai, with ready-to-adapt JSON-LD templates for each page type, the rules for using them, how to validate them, and an honest summary of what schema does and does not do for AI citations.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§3 schema findings), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (claims 14–15; gaps filled #4), [geo_ai_citation_signals_2026.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) (§1, §3), [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claim #1); [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) (all Quotr values); Google Search Central documentation checked via WebSearch on 2026-09-25: [Organization](https://developers.google.com/search/docs/appearance/structured-data/organization), [Software app](https://developers.google.com/search/docs/appearance/structured-data/software-app), [Article](https://developers.google.com/search/docs/appearance/structured-data/article), [Review snippet](https://developers.google.com/search/docs/appearance/structured-data/review-snippet), [General structured data guidelines](https://developers.google.com/search/docs/appearance/structured-data/sd-policies), [HowTo/FAQ changes (Aug 2023)](https://developers.google.com/search/blog/2023/08/howto-faq-changes), [Simplifying the results page (June 2025)](https://developers.google.com/search/blog/2025/06/simplifying-search-results); [Search Engine Journal: Google drops FAQ rich results (2026)](https://www.searchenginejournal.com/google-drops-faq-rich-results-from-search/574429/); [Schema.org](https://schema.org/).
+> [!info]- Sources
+> [[quotr_onsite_content_audit]] (§3 schema findings), [[verification_quotr_and_competitors]] (claims 14–15; gaps filled #4), [[geo_ai_citation_signals_2026]] (§1, §3), [[verification_geo_evidence]] (claim #1); [[Entity fact sheet]] (all Quotr values); Google Search Central documentation checked via WebSearch on 2026-09-25: [Organization](https://developers.google.com/search/docs/appearance/structured-data/organization), [Software app](https://developers.google.com/search/docs/appearance/structured-data/software-app), [Article](https://developers.google.com/search/docs/appearance/structured-data/article), [Review snippet](https://developers.google.com/search/docs/appearance/structured-data/review-snippet), [General structured data guidelines](https://developers.google.com/search/docs/appearance/structured-data/sd-policies), [HowTo/FAQ changes (Aug 2023)](https://developers.google.com/search/blog/2023/08/howto-faq-changes), [Simplifying the results page (June 2025)](https://developers.google.com/search/blog/2025/06/simplifying-search-results); [Search Engine Journal: Google drops FAQ rich results (2026)](https://www.searchenginejournal.com/google-drops-faq-rich-results-from-search/574429/); [Schema.org](https://schema.org/).
 
 ---
 
@@ -13,7 +19,7 @@
 - **Every block below is a template, not finished code.** Values in `[SQUARE BRACKETS]` must be replaced with confirmed facts, or the whole line removed.
 - **Never publish a placeholder, a guess or a "TO CONFIRM" value in schema.** Schema that contradicts the page, or states a fact Quotr has not confirmed, is worse than no schema.
 - **Validate every block** in the [Google Rich Results Test](https://search.google.com/test/rich-results) and the [Schema.org Markup Validator](https://validator.schema.org/) before and after it goes live (Section 6).
-- **All Quotr values** (prices, names, founders, profiles) come from [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md). When a fact changes there, change it here and on the site on the same day.
+- **All Quotr values** (prices, names, founders, profiles) come from [[Entity fact sheet]]. When a fact changes there, change it here and on the site on the same day.
 
 ---
 
@@ -331,9 +337,9 @@ Example for /software/ (the first answer is the live /software/ FAQ text as scra
 ```
 
 **Rules:**
-- Only real questions buyers ask (from the [prompt library](../04-prompt-library/prompt-library.md)), not keyword lists.
+- Only real questions buyers ask (from the [[Prompt library|prompt library]]), not keyword lists.
 - 4–8 questions per page. Do not repeat the same FAQ on many pages.
-- See [templates/faq-block.md](templates/faq-block.md) for writing the visible FAQ.
+- See [[FAQ block template]] for writing the visible FAQ.
 
 ---
 
@@ -441,7 +447,7 @@ Example using a real post (Scope gaps, published Sep 10, 2026; the page shows "L
 
 ## 5.8 VideoObject (tutorials, case-study videos)
 
-**Purpose:** describe an embedded video so search engines can show it. Ahrefs reports YouTube as the most-cited domain in Google AI Overviews (vendor data, early 2026; see [offsite/youtube-and-video.md](offsite/youtube-and-video.md)); marking up the videos Quotr embeds on its own pages is low effort.
+**Purpose:** describe an embedded video so search engines can show it. Ahrefs reports YouTube as the most-cited domain in Google AI Overviews (vendor data, early 2026; see [[YouTube and video]]); marking up the videos Quotr embeds on its own pages is low effort.
 
 ```json
 {
@@ -510,7 +516,7 @@ Example skeleton for a trade how-to (steps are generic estimating steps; every n
 }
 ```
 
-**Note:** the `description` must match the definition sentence shown on the page (see [templates/glossary-entry.md](templates/glossary-entry.md)).
+**Note:** the `description` must match the definition sentence shown on the page (see [[Glossary entry template]]).
 
 ---
 
@@ -546,10 +552,10 @@ Example skeleton for a trade how-to (steps are generic estimating steps; every n
 
 ## Related pages
 
-- [geo-writing-style-guide.md](geo-writing-style-guide.md) — writing rules the visible page must follow
-- [page-refresh-checklist.md](page-refresh-checklist.md) — where schema fits in a page refresh
-- [templates/](templates/) — each template lists its schema
-- [offsite/wikidata-and-knowledge-graph.md](offsite/wikidata-and-knowledge-graph.md) — `sameAs`, Wikidata and profile consistency
-- [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) — the only source for schema values
-- [../02-current-state/website-audit.md](../02-current-state/website-audit.md) — full technical audit
-- [../01-geo-fundamentals/myths-and-risks.md](../01-geo-fundamentals/myths-and-risks.md) — schema and llms.txt myths
+- [[GEO writing style guide]] — writing rules the visible page must follow
+- [[Page refresh checklist]] — where schema fits in a page refresh
+- [[Page templates]] — each template lists its schema
+- [[Wikidata and knowledge graph]] — `sameAs`, Wikidata and profile consistency
+- [[Entity fact sheet]] — the only source for schema values
+- [[Website audit]] — full technical audit
+- [[Myths and risks]] — schema and llms.txt myths

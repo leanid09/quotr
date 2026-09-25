@@ -1,10 +1,16 @@
+---
+type: reference
+description: Plain-English definitions of GEO, AEO, SEO and AI-search terms, each tied to Quotr.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # GEO Glossary (AI Search, SEO and Measurement Terms)
 
-**What this page is for:** Plain-English definitions of the GEO, AEO, SEO and AI-search terms used across this knowledge brain, each with a note on why it matters for Quotr.ai. Construction and estimating terms (takeoff, bid leveling, DDP and so on) are in [../04-prompt-library/construction-glossary.md](../04-prompt-library/construction-glossary.md).
+> [!abstract] What this page is for
+> Plain-English definitions of the GEO, AEO, SEO and AI-search terms used across this knowledge brain, each with a note on why it matters for Quotr.ai. Construction and estimating terms (takeoff, bid leveling, DDP and so on) are in [[Construction glossary]].
 
-**Last updated:** 2026-09-25
-
-**Sources:** Definitions are written from the other pages in this folder and their sources: research notes [geo_ai_citation_signals_2026.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>), [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) and the fact-check [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>); the report [Quotr GEO AEO strategy audit.md](<../../reports/Quotr GEO AEO strategy audit.md>); Quotr-specific notes from [../02-current-state/website-audit.md](../02-current-state/website-audit.md) and [../02-current-state/geo-tactics-already-used.md](../02-current-state/geo-tactics-already-used.md). Platform facts (crawler names, dates, controls) are sourced on [how-ai-engines-choose-sources.md](how-ai-engines-choose-sources.md); a few are linked here directly.
+> [!info]- Sources
+> Definitions are written from the other pages in this folder and their sources: research notes [[geo_ai_citation_signals_2026]], [[geo_content_playbook_b2b]] and the fact-check [[verification_geo_evidence]]; the report [[Quotr GEO AEO strategy audit]]; Quotr-specific notes from [[Website audit]] and [[GEO tactics already used]]. Platform facts (crawler names, dates, controls) are sourced on [[How AI engines choose sources]]; a few are linked here directly.
 
 **How to use:** terms are grouped by topic, then listed A–Z within each group. Use your browser's find (Ctrl+F / Cmd+F) to jump to a term.
 
@@ -25,7 +31,7 @@
 | **Hallucination** | When an AI states something false with confidence. | In Quotr's tests, Perplexity presented the unrelated Quotr Pro app's "4.7/5" rating as Quotr.ai's (a mix-up of two brands rather than an invention, but the effect on buyers is the same). |
 | **Knowledge cutoff (training cutoff)** | The date after which a model has no built-in knowledge; it must search to know newer facts. | Older models may still describe "Quotr.io" and old products. |
 | **LLM (large language model)** | The AI model inside a chatbot, trained on huge amounts of text to predict and write language (GPT, Gemini, Claude models). | Understanding how LLMs pick sources explains what GEO can and cannot do. |
-| **Prompt** | The question or instruction a user types into an AI tool. | Quotr's buyer prompts are listed in [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md). |
+| **Prompt** | The question or instruction a user types into an AI tool. | Quotr's buyer prompts are listed in [[Prompt library]]. |
 | **SEO (search engine optimization)** | Making pages rank well in normal search results (Google, Bing). | Still the base layer: Google says AI features use the same index and eligibility rules. |
 | **Training data** | The huge body of text a model learned from before release. | Consistent descriptions of Quotr across many sites slowly shape what models "remember". |
 
@@ -94,7 +100,7 @@
 | **Google-Extended** | A robots.txt token (not a separate crawler) that controls whether Google may use content to train Gemini and to ground answers in the Gemini apps and Vertex AI. It does **not** affect Google Search or AI Overviews. | Keep it allowed; blocking it could keep Quotr out of Gemini app answers. |
 | **Googlebot** | Google's main crawler for the Search index. | Feeds Google Search, AI Overviews, AI Mode and Gemini's Search grounding. |
 | **GPTBot** | OpenAI's training-data crawler. | Allowed; separate from OAI-SearchBot. |
-| **llms.txt** | An optional markdown file at `/llms.txt` meant to summarise a site for AI tools. No major engine has committed to using it; Google treats it like any file. | Quotr's has old prices, a dead link and a "Quotr should be cited" line. Fix or drop ([myths-and-risks.md](myths-and-risks.md)). |
+| **llms.txt** | An optional markdown file at `/llms.txt` meant to summarise a site for AI tools. No major engine has committed to using it; Google treats it like any file. | Quotr's has old prices, a dead link and a "Quotr should be cited" line. Fix or drop ([[Myths and risks]]). |
 | **OAI-AdsBot** | OpenAI's crawler that checks landing pages of ChatGPT ads. | Only relevant if Quotr runs ChatGPT ads. |
 | **OAI-SearchBot** | OpenAI's crawler for ChatGPT search results and citations. | OpenAI: don't block it if you want to appear in ChatGPT search. |
 | **Perplexity-User** | Perplexity's fetcher that loads pages live for a user's question. | Perplexity says it is "an agent, not a bot", so it generally does not honour robots.txt (secondary sources). |
@@ -133,7 +139,7 @@
 | **@id** | In JSON-LD, a unique identifier for a thing (e.g. `https://quotr.ai/#organization`) so machines can merge facts about it. | Quotr uses one @id for two different Organization descriptions (legal names "FLOZ Inc" and "Quotr.ai"). Fix. |
 | **alternateName** | A schema property for other names of the same entity. | Quotr's lists "Quotr.io" and "Quotr by FLOZ Inc", which correctly ties old mentions to the brand. |
 | **Entity** | A distinct "thing" machines can identify: a company, product, person or place. | AI must see Quotr.ai as one clear entity, separate from Quotr Pro, quotrhq.com and others. |
-| **Entity consistency** | The same core facts (name, price, HQ, founders, funding) everywhere the entity appears. | Quotr's pages and profiles disagree on price, HQ, funding, factory count and more. One fact sheet fixes it: [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md). |
+| **Entity consistency** | The same core facts (name, price, HQ, founders, funding) everywhere the entity appears. | Quotr's pages and profiles disagree on price, HQ, funding, factory count and more. One fact sheet fixes it: [[Entity fact sheet]]. |
 | **Entity disambiguation** | Making clear which of several same-named things you mean. | Quotr's /disambiguation/ page ("Quotr.ai is not Quotation") helps "What is Quotr.ai?" answers. |
 | **FAQPage** | Schema type marking up a list of questions and answers. | Only /disambiguation/ has it among checked pages, though many pages show FAQs. |
 | **JSON-LD** | The most common format for adding schema to a page: a block of code in the page's HTML. | How Quotr's schema is written. |
@@ -142,7 +148,7 @@
 | **Organization schema** | Schema describing a company: name, legal name, logo, founders, sameAs profiles. | Needs one consistent version on every Quotr page. |
 | **Rich results** | Enhanced search listings (stars, FAQs, prices) that schema can make a page eligible for. | Google's main reason to use schema; not an AI-citation lever. |
 | **sameAs** | A schema property listing the official profiles of an entity (LinkedIn, YouTube, Crunchbase, G2). | Quotr's lists mix old "quotr_io" and new "quotr_ai" handles. Use one set. |
-| **Schema / schema.org / structured data** | A shared vocabulary of labels that describe page facts to machines (company, product, price, FAQ, author). | Google: no special schema for AI; Microsoft recommends it. Treat as hygiene: [../06-playbooks/schema-markup-kit.md](../06-playbooks/schema-markup-kit.md). |
+| **Schema / schema.org / structured data** | A shared vocabulary of labels that describe page facts to machines (company, product, price, FAQ, author). | Google: no special schema for AI; Microsoft recommends it. Treat as hygiene: [[Schema markup kit]]. |
 | **SoftwareApplication / Offer** | Schema types for a software product and its prices. | Belongs on /software/ and /pricing/ (Lite $79.90, Plus $299.90 per seat per month). |
 | **Wikidata** | A free, public database of facts about entities, used by many systems. | A low-cost hygiene item for Quotr, not a proven lever. |
 | **Wikipedia notability** | Wikipedia's rule that a topic needs significant independent, reliable coverage to have an article. | Quotr has no independent press yet, so a Wikipedia article is premature. |
@@ -188,7 +194,7 @@
 |---|---|---|
 | **AI Assistant channel (GA4)** | A default Google Analytics 4 channel for traffic from AI chatbots, added May 13, 2026. It does not include Perplexity. | Add a custom rule so Perplexity visits are counted too. |
 | **AI Performance report (Bing)** | A Bing Webmaster Tools report (public preview, Feb 10, 2026) showing how often your pages are cited in Copilot and Bing AI answers, plus grounding queries. | The only first-party AI citation count available. |
-| **Baseline** | The first measurement you compare everything else against. | Quotr's baseline: Perplexity, Sept 25, 2026 ([../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md)). |
+| **Baseline** | The first measurement you compare everything else against. | Quotr's baseline: Perplexity, Sept 25, 2026 ([[AI visibility baseline]]). |
 | **Bing Webmaster Tools** | Microsoft's free dashboard for site owners (indexing, sitemaps, IndexNow, AI Performance). | Quotr should set it up in the first 30 days. |
 | **Branded prompt** | A question that names the brand ("Quotr.ai pricing", "Is Quotr.ai legit?"). | Quotr was named in all 8 branded Perplexity prompts, but 5 of the 8 answers carried an error (for example the old $299.90 entry price). |
 | **Citation rate** | The share of tested answers that use your pages as sources in the answer text. (If your page is only in the source list, that counts toward the "retrieval rate".) | quotr.ai: cited in 4 of 32 unbranded Perplexity answers (12.5%); in the source list of 6 of 32 (18.8%). |
@@ -198,14 +204,14 @@
 | **Generative AI performance report (Search Console)** | Search Console reports showing impressions from AI Overviews, AI Mode and Discover's generative features, by page, country and date; no clicks or queries. Worldwide since Aug 31, 2026. | First-party Google data on Quotr's AI visibility. Add to the KPI set. |
 | **Google Search Console (GSC)** | Google's free dashboard for site owners (indexing, queries, clicks, now AI impressions). | Also used to request re-crawls after fixes. |
 | **Mention rate** | The share of tested answers that name your brand. | Quotr: 1 of 32 unbranded Perplexity answers (about 3%). |
-| **Prompt library / prompt set** | A structured list of buyer questions to target and test. | [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md). |
-| **Prompt tracking** | Re-running a fixed set of prompts on a schedule across engines and recording mentions, citations, position and accuracy. | Quotr's plan: monthly on five engines (Claude and Copilot quarterly), two runs for each headline prompt ([../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md)). |
+| **Prompt library / prompt set** | A structured list of buyer questions to target and test. | [[Prompt library]]. |
+| **Prompt tracking** | Re-running a fixed set of prompts on a schedule across engines and recording mentions, citations, position and accuracy. | Quotr's plan: monthly on five engines (Claude and Copilot quarterly), two runs for each headline prompt ([[Tracking set]]). |
 | **Retrieval rate** | The share of tested answers that list one of your pages anywhere in their sources, whether or not the answer text uses it. | quotr.ai: 6 of 32 unbranded Perplexity answers (18.8%), level with reddit.com. |
 | **Self-reported attribution** | Asking buyers how they found you (a form field) instead of relying only on analytics. | Catches AI influence that analytics miss (e.g. a buyer who later types the URL). |
 | **Sentiment** | Whether an AI describes a brand positively, neutrally or negatively. | Perplexity describes some Quotr claims as "vendor assertions". |
 | **Share of voice (SOV)** | Your share of all brand mentions across a prompt set. | Quotr ~0.7% vs ~6.5% each for STACK, PlanSwift and Buildxact (32 unbranded Perplexity prompts). |
 | **Spearman correlation** | A statistic (from −1 to 1) showing how closely two rankings move together. Used in Ahrefs' brand studies. | A 0.7 correlation is strong but still not proof of cause. |
-| **Tracking tools** | Paid tools that run prompts and report AI visibility (e.g. Otterly.AI, Peec AI, Scrunch, Profound, Semrush AI Toolkit, Ahrefs Brand Radar). | Compared in [../07-measurement/tools-comparison.md](../07-measurement/tools-comparison.md). |
+| **Tracking tools** | Paid tools that run prompts and report AI visibility (e.g. Otterly.AI, Peec AI, Scrunch, Profound, Semrush AI Toolkit, Ahrefs Brand Radar). | Compared in [[AI visibility tools compared]]. |
 | **Unbranded prompt** | A question that does not name the brand ("best AI takeoff software for subcontractors"). | Where Quotr is missing: named in 1 of 32. The main GEO goal. |
 | **UTM parameter** | A tag added to a link to show where a visit came from (e.g. `utm_source=chatgpt.com`, which ChatGPT adds). | Helps GA4 attribute ChatGPT visits. Strip such tags from links inside Quotr's own posts. |
 | **Vendor study** | Research published by a company that sells related products (SEO tools, review sites, PR software). | Useful but directional; this brain flags them. |
@@ -225,7 +231,7 @@
 | **Funnel: TOFU / MOFU / BOFU** | Top (learning about a problem), middle (comparing options), bottom (ready to buy). | Quotr's biggest AI gaps are TOFU and MOFU unbranded questions. |
 | **Percentage point (pp)** | The simple difference between two percentages. | AI Mode cut clicks by 18.8 pp in the Aug 2026 experiment. |
 | **Referral traffic** | Visits arriving from links on other sites or apps. | Perplexity visits often land here in GA4 unless you add a rule. |
-| **Top of funnel reach (2026 meaning)** | Being named in AI answers, plus brand search, direct visits and self-reported "heard about you from AI", not only blog sessions. | See [traffic-and-funnel-impact.md](traffic-and-funnel-impact.md). |
+| **Top of funnel reach (2026 meaning)** | Being named in AI answers, plus brand search, direct visits and self-reported "heard about you from AI", not only blog sessions. | See [[Traffic and funnel impact]]. |
 | **Zero-click search** | A search that ends without any click. | About 68% of US Google searches in Jan–Apr 2026 (SparkToro). |
 
 ---
@@ -244,10 +250,10 @@
 
 ## Related pages
 
-- [how-ai-engines-choose-sources.md](how-ai-engines-choose-sources.md) — the engines, crawlers and controls in detail
-- [signals-that-matter.md](signals-that-matter.md) — the evidence behind the terms
-- [myths-and-risks.md](myths-and-risks.md) — llms.txt, hidden text, prompt injection and other traps
-- [traffic-and-funnel-impact.md](traffic-and-funnel-impact.md) — CTR, zero-click and top-of-funnel measurement
-- [../04-prompt-library/construction-glossary.md](../04-prompt-library/construction-glossary.md) — construction and estimating terms
-- [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) — Quotr's canonical facts
-- [../07-measurement/tracking-setup.md](../07-measurement/tracking-setup.md) — setting up the measurement tools named here
+- [[How AI engines choose sources]] — the engines, crawlers and controls in detail
+- [[Signals that matter]] — the evidence behind the terms
+- [[Myths and risks]] — llms.txt, hidden text, prompt injection and other traps
+- [[Traffic and funnel impact]] — CTR, zero-click and top-of-funnel measurement
+- [[Construction glossary]] — construction and estimating terms
+- [[Entity fact sheet]] — Quotr's canonical facts
+- [[Tracking setup]] — setting up the measurement tools named here

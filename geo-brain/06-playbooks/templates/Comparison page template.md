@@ -1,17 +1,23 @@
+---
+type: page-template
+description: Template for honest "Quotr.ai vs [Competitor]" pages.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Template: Comparison Page ("Quotr.ai vs [Competitor]")
 
-**What this page is for:** A reusable template for honest head-to-head pages that compare Quotr.ai with one named competitor, so AI engines quote accurate, balanced facts when buyers ask "Quotr vs X" or "X vs Quotr".
+> [!abstract] What this page is for
+> A reusable template for honest head-to-head pages that compare Quotr.ai with one named competitor, so AI engines quote accurate, balanced facts when buyers ask "Quotr vs X" or "X vs Quotr".
 
-**Last updated:** 2026-09-25
-
-**Sources:** [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1), [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§2–4), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (§2, §4), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§2–4), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #19, #21; X10), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (claims 15, 31–32; gaps filled #5); competitor profiles in [../../03-market/competitors/](../../03-market/competitors/).
+> [!info]- Sources
+> [[geo_content_playbook_b2b]] (§1), [[competitor_geo_benchmark]] (§2–4), [[quotr_ai_visibility_tests]] (§2, §4), [[quotr_onsite_content_audit]] (§2–4), [[verification_geo_evidence]] (claims #19, #21; X10), [[verification_quotr_and_competitors]] (claims 15, 31–32; gaps filled #5); competitor profiles in [[Competitor profiles]].
 
 ---
 
 ## 1. Purpose and when to use it
 
 - **Use it for:** one page per important competitor, comparing Quotr.ai with that product only.
-- **Do not use it for:** lists of many tools (use [alternatives-page.md](alternatives-page.md) or [best-of-roundup.md](best-of-roundup.md)), or for competitors buyers never compare with Quotr.
+- **Do not use it for:** lists of many tools (use [[Alternatives page template]] or [[Best-of roundup template]]), or for competitors buyers never compare with Quotr.
 - **Why it matters:**
   - Comparison queries are almost always read by AI: in Seer Interactive's 2026 data, "X vs Y" queries triggered a Google AI Overview **95.4%** of the time (`verification_geo_evidence.md` claim #21).
   - HubSpot's State of AEO 2026 data (vendor-run; treat as directional) found ChatGPT favours comparison content (`geo_content_playbook_b2b.md` §1; attribution corrected in `verification_geo_evidence.md` claim #12).
@@ -22,7 +28,7 @@
 
 ## 2. Which prompts this template targets
 
-From [../../04-prompt-library/prompt-library.md](../../04-prompt-library/prompt-library.md):
+From [[Prompt library]]:
 
 | ID | Prompt | Priority | Current Quotr page |
 |---|---|---|---|
@@ -53,7 +59,7 @@ From [../../04-prompt-library/prompt-library.md](../../04-prompt-library/prompt-
 | 8 | **Where Quotr.ai is stronger** | Specific and verifiable (e.g., Estimation Service, optional factory-direct procurement, lower entry price) | 3–5 bullets |
 | 9 | **Who should choose which** | Persona table: small residential sub, commercial sub, GC precon, developer | Table |
 | 10 | **Switching** (optional) | What moves over, how long it takes, trial | 100–150 words |
-| 11 | **FAQ** | 4–8 real questions (see [faq-block.md](faq-block.md)) | 40–90 words per answer |
+| 11 | **FAQ** | 4–8 real questions (see [[FAQ block template]]) | 40–90 words per answer |
 | 12 | **Sources and method** | Every link used; date checked; "Tell us if something is wrong: [email]" | List |
 | 13 | **About Quotr.ai** | Approved boilerplate from the fact sheet | 50–100 words |
 
@@ -61,7 +67,7 @@ From [../../04-prompt-library/prompt-library.md](../../04-prompt-library/prompt-
 
 | Row | Quotr.ai value source | Competitor value source |
 |---|---|---|
-| Best for | [../../00-quotr/positioning-and-proof-points.md](../../00-quotr/positioning-and-proof-points.md) | Competitor's own site + [competitor profile](../../03-market/competitors/) |
+| Best for | [[Positioning and proof points]] | Competitor's own site + [[Competitor profiles\|competitor profile]] |
 | Starting price (as of [Month Year]) | /pricing/ | Competitor pricing page |
 | Free trial | 7-day free trial | Competitor pricing page |
 | Where it runs | **TO CONFIRM** (browser-based wording seen only in index text) | Competitor site |
@@ -79,7 +85,7 @@ From [../../04-prompt-library/prompt-library.md](../../04-prompt-library/prompt-
 
 ## 4. Filled-in example outline: Quotr.ai vs Togal.AI (refresh of the existing post)
 
-**Facts used below come from the fact sheet and the [Togal.AI profile](../../03-market/competitors/togal-ai.md). Re-check Togal's pricing page on the day you publish.**
+**Facts used below come from the fact sheet and the [[Togal AI|Togal.AI profile]]. Re-check Togal's pricing page on the day you publish.**
 
 **H1:** Quotr.ai vs Togal.AI: AI Takeoff Only, or Takeoff Through Estimate, Bid and Materials?
 
@@ -117,7 +123,7 @@ From [../../04-prompt-library/prompt-library.md](../../04-prompt-library/prompt-
 
 ## 5. Second example outline: Quotr.ai vs Handoff for residential builders (new page, prompt D-029)
 
-Use facts from the [Handoff profile](../../03-market/competitors/handoff.md) and re-check handoff.ai on the day.
+Use facts from the [[Handoff|Handoff profile]] and re-check handoff.ai on the day.
 
 - **H1:** Quotr.ai vs Handoff: Which Fits Residential Builders and Subcontractors?
 - **Quick answer angle:** Handoff is an all-in-one residential contractor platform (estimating, AI takeoffs, proposals, CRM, scheduling, invoicing) with materials purchasing through Lowe's; Quotr.ai focuses on takeoff-to-bid estimating from plans, with a done-for-you estimating service and factory-direct materials from overseas manufacturers. Prices per each vendor's pricing page, dated.
@@ -135,13 +141,13 @@ Use facts from the [Handoff profile](../../03-market/competitors/handoff.md) and
 4. **One page per competitor, not per keyword variation.** Do not create "Quotr vs Togal for drywall", "…for electrical", etc. Google's May 2026 guide warns that pages made for every query variation can be scaled content abuse (`verification_geo_evidence.md` claim #2).
 5. **State Quotr's current price on the page.** The Togal post today says only "See Quotr.ai pricing", which lets AI fill the gap with old prices.
 6. **Use the competitor's exact product and plan names** (Togal "Growth", Handoff "Flex/Pro/Scale") and Quotr's naming rules ("Quotr.ai Lite").
-7. **Re-check quarterly** and whenever either side changes pricing (see [../page-refresh-checklist.md](../page-refresh-checklist.md) §6).
+7. **Re-check quarterly** and whenever either side changes pricing (see [[Page refresh checklist]] §6).
 
 ---
 
 ## 7. Schema for this page
 
-- BlogPosting (with the real author) + BreadcrumbList; FAQPage only for the visible FAQ. See [../schema-markup-kit.md](../schema-markup-kit.md) 5.4–5.5.
+- BlogPosting (with the real author) + BreadcrumbList; FAQPage only for the visible FAQ. See [[Schema markup kit]] 5.4–5.5.
 - **Do not** mark up the competitor as a Product with ratings, and do not copy any G2 or Capterra rating into schema.
 
 ---
@@ -150,7 +156,7 @@ Use facts from the [Handoff profile](../../03-market/competitors/handoff.md) and
 
 - [ ] Quick answer says who should choose each product, with one dated price each.
 - [ ] Every competitor fact links to the competitor's own page (or a named third party) with an "as of" date.
-- [ ] Quotr facts match [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md); no "Solo/Team", no "from $299.90".
+- [ ] Quotr facts match [[Entity fact sheet]]; no "Solo/Team", no "from $299.90".
 - [ ] "Where [Competitor] is stronger" section has at least 3 real points.
 - [ ] No leftover brief or prompt text; no "should win" language.
 - [ ] Tables are HTML; every cell has one fact.
@@ -165,10 +171,10 @@ Use facts from the [Handoff profile](../../03-market/competitors/handoff.md) and
 
 ## Related pages
 
-- [alternatives-page.md](alternatives-page.md) — "[X] alternatives" pages
-- [best-of-roundup.md](best-of-roundup.md) — category lists and their risks
-- [faq-block.md](faq-block.md) — writing the FAQ section
-- [../geo-writing-style-guide.md](../geo-writing-style-guide.md) — writing rules and naming rules
-- [../../03-market/competitor-landscape.md](../../03-market/competitor-landscape.md) — which competitors matter most
-- [../../03-market/competitors/togal-ai.md](../../03-market/competitors/togal-ai.md), [../../03-market/competitors/handoff.md](../../03-market/competitors/handoff.md), [../../03-market/competitors/stack.md](../../03-market/competitors/stack.md) — competitor facts
-- [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) — Quotr facts
+- [[Alternatives page template]] — "[X] alternatives" pages
+- [[Best-of roundup template]] — category lists and their risks
+- [[FAQ block template]] — writing the FAQ section
+- [[GEO writing style guide]] — writing rules and naming rules
+- [[Competitor landscape]] — which competitors matter most
+- [[Togal AI]], [[Handoff]], [[STACK]] — competitor facts
+- [[Entity fact sheet]] — Quotr facts

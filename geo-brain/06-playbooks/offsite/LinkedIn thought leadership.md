@@ -1,10 +1,16 @@
+---
+type: playbook
+description: 'Founder-led LinkedIn: profile fixes, topics, formats, cadence and templates.'
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # LinkedIn Thought Leadership Playbook (Founder-Led)
 
-**What this page is for:** How Quotr.ai's founders (Hanyang Liu and Junzhe Shi, PhD) and team use LinkedIn to publish practical expertise that construction buyers read and AI engines cite, including profile fixes, topics, formats, cadence, templates and rules.
+> [!abstract] What this page is for
+> How Quotr.ai's founders (Hanyang Liu and Junzhe Shi, PhD) and team use LinkedIn to publish practical expertise that construction buyers read and AI engines cite, including profile fixes, topics, formats, cadence, templates and rules.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§3 LinkedIn founder-led content; §3 inferences), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #16, #18; section D "not re-checked"; M10), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (§3 LinkedIn and founder thought leadership; §4 entity signals; §5 AI summary errors), [geo_ai_citation_signals_2026.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) (§2 domain concentration); [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) (§1a founders, §2b social profiles); [../../03-market/citation-sources-map.md](../../03-market/citation-sources-map.md) (§4 target 20); FTC [Endorsement Guides Q&A](https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking) (checked via WebSearch, 2026-09-25).
+> [!info]- Sources
+> [[geo_content_playbook_b2b]] (§3 LinkedIn founder-led content; §3 inferences), [[verification_geo_evidence]] (claims #16, #18; section D "not re-checked"; M10), [[quotr_offsite_presence]] (§3 LinkedIn and founder thought leadership; §4 entity signals; §5 AI summary errors), [[geo_ai_citation_signals_2026]] (§2 domain concentration); [[Entity fact sheet]] (§1a founders, §2b social profiles); [[Citation sources map]] (§4 target 20); FTC [Endorsement Guides Q&A](https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking) (checked via WebSearch, 2026-09-25).
 
 ---
 
@@ -39,7 +45,7 @@ LinkedIn profiles are entity signals that AI tools read. Today they carry errors
 
 ## 3. What to write about (topic map)
 
-Pick topics where each founder has real, first-hand knowledge. Each topic should map to buyer prompts in the [prompt library](../../04-prompt-library/prompt-library.md).
+Pick topics where each founder has real, first-hand knowledge. Each topic should map to buyer prompts in the [[Prompt library|prompt library]].
 
 | Founder | Topic pillar | Example article titles | Prompts |
 |---|---|---|---|
@@ -128,7 +134,7 @@ Title: [A specific claim or question estimators care about, with a number if pos
 |---|---|---|
 | Articles and posts published per founder | Log | Monthly |
 | Followers (company page and founders); newsletter subscribers | LinkedIn analytics | Monthly |
-| LinkedIn URLs (Quotr founders or company) cited in AI answers for tracked prompts | Prompt tracking ([../../04-prompt-library/tracking-set.md](../../04-prompt-library/tracking-set.md)) | Monthly |
+| LinkedIn URLs (Quotr founders or company) cited in AI answers for tracked prompts | Prompt tracking ([[Tracking set]]) | Monthly |
 | Referral sessions from linkedin.com | GA4 | Monthly |
 | Inbound: DMs, demo requests mentioning a post; "How did you hear about us?" = LinkedIn | CRM / form | Monthly |
 | AI answers to "Who founded Quotr.ai?" (D-004) accurate and free of the Initialized/zerank-1 conflation | Prompt tracking | Quarterly |
@@ -137,9 +143,9 @@ Title: [A specific claim or question estimators care about, with a number if pos
 
 ## Related pages
 
-- [wikidata-and-knowledge-graph.md](wikidata-and-knowledge-graph.md) — keeping LinkedIn consistent with other profiles
-- [youtube-and-video.md](youtube-and-video.md) — video clips for LinkedIn
-- [listicle-and-pr-outreach.md](listicle-and-pr-outreach.md) — turning articles into bylines and pitches
-- [../templates/original-research-report.md](../templates/original-research-report.md) — data to publish as articles
-- [../geo-writing-style-guide.md](../geo-writing-style-guide.md) — writing and naming rules
-- [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) — founder bios and profile URLs
+- [[Wikidata and knowledge graph]] — keeping LinkedIn consistent with other profiles
+- [[YouTube and video]] — video clips for LinkedIn
+- [[Listicle and PR outreach]] — turning articles into bylines and pitches
+- [[Original research report template]] — data to publish as articles
+- [[GEO writing style guide]] — writing and naming rules
+- [[Entity fact sheet]] — founder bios and profile URLs

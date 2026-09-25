@@ -1,10 +1,16 @@
+---
+type: plan
+description: The plan for reviews, third-party lists, press, Reddit, YouTube, podcasts, partners and Wikidata.
+last_verified: 2026-09-25
+verify_every_days: 30
+---
 # Off-Site and Earned Media Plan: Building Proof on Other People's Websites
 
-**What this page is for:** The plan for getting Quotr.ai mentioned, reviewed and recommended on the websites AI answer engines trust: review sites, third-party "best of" lists, trade press, Reddit and communities, YouTube, podcasts, LinkedIn, partners and marketplaces, business directories and Wikidata. For each channel: targets, a suggested owner, cadence, how to measure it, and the matching playbook in [../06-playbooks/offsite/](../06-playbooks/offsite/).
+> [!abstract] What this page is for
+> The plan for getting Quotr.ai mentioned, reviewed and recommended on the websites AI answer engines trust: review sites, third-party "best of" lists, trade press, Reddit and communities, YouTube, podcasts, LinkedIn, partners and marketplaces, business directories and Wikidata. For each channel: targets, a suggested owner, cadence, how to measure it, and the matching playbook in [[Off-site playbooks]].
 
-**Last updated:** 2026-09-25
-
-**Sources:** the report [audit report](<../../reports/Quotr GEO AEO strategy audit.md>) (sections "Quotr has little proof on other people's websites", "Signals", 90-day plan); research notes [quotr_offsite_presence.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>), [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (§5 cited domains and recurring pages), [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§3), [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§2); fact-checks [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (G2 owns Capterra/GetApp/Software Advice; Octopus Builds; STACK counts) and [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (Aleyda Solis corrections, hype flags H7, H10, H11, H16); brain pages [../03-market/citation-sources-map.md](../03-market/citation-sources-map.md), [../02-current-state/offsite-presence.md](../02-current-state/offsite-presence.md), [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md). In the text, "verification file" or "Quotr fact-check" means verification_quotr_and_competitors.md, and "GEO-evidence fact-check" means verification_geo_evidence.md.
+> [!info]- Sources
+> the report [[Quotr GEO AEO strategy audit|audit report]] (sections "Quotr has little proof on other people's websites", "Signals", 90-day plan); research notes [[quotr_offsite_presence]], [[quotr_ai_visibility_tests]] (§5 cited domains and recurring pages), [[geo_content_playbook_b2b]] (§3), [[competitor_geo_benchmark]] (§2); fact-checks [[verification_quotr_and_competitors]] (G2 owns Capterra/GetApp/Software Advice; Octopus Builds; STACK counts) and [[verification_geo_evidence]] (Aleyda Solis corrections, hype flags H7, H10, H11, H16); brain pages [[Citation sources map]], [[Off-site presence]], [[Entity fact sheet]]. In the text, "verification file" or "Quotr fact-check" means verification_quotr_and_competitors.md, and "GEO-evidence fact-check" means verification_geo_evidence.md.
 
 ---
 
@@ -17,7 +23,7 @@ AI engines trust Quotr's blog for facts but will not recommend Quotr on its own 
 2. **Start a G2 review program** (from October, ongoing). G2 now owns Capterra, GetApp and Software Advice, so one program feeds all four sites that dominate "alternatives" answers. Aim for 10–30 honest reviews in 90 days (report).
 3. **Get onto the lists AI cites** (from November): Construction Coverage, The Digital Project Manager, ConstructionPlacements, the F6S "AI-Assisted Takeoff" category, SourceForge, then ConstructConnect's guide once reviews exist.
 4. **Build community and video presence** (from November): honest, disclosed founder answers in r/estimators and estimator groups; a YouTube series on real residential plans.
-5. **Earn trade press with data** (from November): a seed-round announcement using the agreed facts, then a press hook for every dataset in [content-roadmap.md](content-roadmap.md).
+5. **Earn trade press with data** (from November): a seed-round announcement using the agreed facts, then a press hook for every dataset in [[Content roadmap]].
 6. **Founder LinkedIn articles and podcasts** (monthly).
 7. **Partnerships, marketplaces and Wikidata** (low-cost hygiene, as facts and partners allow).
 
@@ -28,7 +34,7 @@ AI engines trust Quotr's blog for facts but will not recommend Quotr on its own 
 | Evidence | Source |
 |---|---|
 | For SaaS brands, **82.3%** of the top cited sources in Google AI Mode, Gemini and ChatGPT were other people's sites. The biggest group was social, community and video sites (**45.7%**); news and review sites were **10.4%**; YouTube was the largest single source domain; Reddit appeared in all 15 SaaS panels | [Aleyda Solis, Aug 2026](https://www.aleydasolis.com/en/ai-search/ai-search-citations/), as corrected in the GEO-evidence fact-check (claim 18) |
-| In our Perplexity tests (32 unbranded questions), **Capterra and G2 each fed 9 answers**, SourceForge 8, Software Advice 7, GetApp 6; Reddit r/estimators 6; YouTube 0 | [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) §5 |
+| In our Perplexity tests (32 unbranded questions), **Capterra and G2 each fed 9 answers**, SourceForge 8, Software Advice 7, GetApp 6; Reddit r/estimators 6; YouTube 0 | [[quotr_ai_visibility_tests]] §5 |
 | Across 75,000 brands, **YouTube mentions (~0.737)** and **branded web mentions (~0.66–0.71)** tracked AI visibility more closely than link-based authority (a correlation, not proof of cause) | [Ahrefs](https://ahrefs.com/blog/ai-brand-visibility-correlations/) |
 | **G2's own survey:** 51% of B2B software buyers start research in an AI chatbot; 45% trust review-site citations most (50% of daily AI users). G2 sells reviews, so treat as directional | [G2](https://company.g2.com/news/g2-research-the-answer-economy) |
 | A Growth Memo study commissioned by G2 found user-generated content (Reddit, forums, videos) **out-cites review sites** at every stage of the buyer journey | [Growth Memo](https://www.growth-memo.com/p/community-signals-are-ais-largest) |
@@ -39,7 +45,7 @@ AI engines trust Quotr's blog for facts but will not recommend Quotr on its own 
 
 **What this means:** do both reviews (cheap, and they dominate Perplexity's "alternatives" answers) and community and video (the biggest source type for SaaS in Google's AI features and ChatGPT). Spread effort across channels; do not bet on one.
 
-**Caveat:** our tests covered Perplexity only. ChatGPT and Google AI Mode may weight YouTube and Reddit more. The first multi-engine baseline is due in October 2026 ([../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md)).
+**Caveat:** our tests covered Perplexity only. ChatGPT and Google AI Mode may weight YouTube and Reddit more. The first multi-engine baseline is due in October 2026 ([[Tracking set]]).
 
 ---
 
@@ -59,13 +65,13 @@ AI engines trust Quotr's blog for facts but will not recommend Quotr on its own 
 | Directories and databases | F6S unclaimed with Revit-era copy; Product Hunt 0 upvotes in "Real estate"; Crunchbase and PitchBook disagree on HQ, founding year and funding | — |
 | Wikidata / Wikipedia | No entry | — |
 
-Full detail: [../02-current-state/offsite-presence.md](../02-current-state/offsite-presence.md) and [../03-market/citation-sources-map.md](../03-market/citation-sources-map.md).
+Full detail: [[Off-site presence]] and [[Citation sources map]].
 
 ---
 
 ## Ground rules (non-negotiable)
 
-1. **One fact sheet everywhere.** Every profile, pitch and review invitation uses the approved facts in [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) (price from $79.90 per seat per month for Quotr.ai Lite; one factory count; one HQ; both founders). Inconsistent facts are what make AI hedge today.
+1. **One fact sheet everywhere.** Every profile, pitch and review invitation uses the approved facts in [[Entity fact sheet]] (price from $79.90 per seat per month for Quotr.ai Lite; one factory count; one HQ; both founders). Inconsistent facts are what make AI hedge today.
 2. **No paying for positive reviews** and no fake or staff reviews. Follow each review site's own rules on invitations and incentives (G2's current policy **TO CONFIRM** before launch). AI answers quote review text, and sites remove manipulated reviews.
 3. **Always disclose** ("I'm the CTO at Quotr.ai") in Reddit, forums and Facebook groups. Follow each community's self-promotion rules. No sock-puppet accounts.
 4. **No paid placement on list farms** (worldmetrics, gitnux, zipdo and similar). Sponsorship only where it is disclosed and editorially independent.
@@ -81,17 +87,17 @@ Owners are **suggestions**; roles and capacity are **TO CONFIRM with Quotr**. "G
 
 | # | Channel | Goal and targets (by March 2027 unless noted) | Suggested owner | Cadence | How to measure | Playbook |
 |---|---|---|---|---|---|---|
-| 1 | **Directory and profile clean-up** | F6S claimed and rewritten (and added to the "AI-Assisted Takeoff" category); Product Hunt moved out of "Real estate"; Crunchbase About fixed; PitchBook corrections submitted; one set of social handles; SourceForge and Slashdot listings live | Growth (Jati Ibloguen) with the GEO consultant | One sprint in Oct 2026, then a quarterly check | Checklist complete; profiles match the fact sheet | [wikidata-and-knowledge-graph.md](../06-playbooks/offsite/wikidata-and-knowledge-graph.md) (profile consistency); directory categories in [listicle-and-pr-outreach.md](../06-playbooks/offsite/listicle-and-pr-outreach.md) |
-| 2 | **Correction outreach** to pages already naming Quotr | Nomic (2 pages), Octopus Builds, ForesightIQ, rconstructionsolutions, PalCode, NEDES Estimating, aibuildingtools show current facts | Growth | Oct 2026, then when facts change | Pages updated (count); stale $299.90 gone from AI answers | [listicle-and-pr-outreach.md](../06-playbooks/offsite/listicle-and-pr-outreach.md) |
-| 3 | **Reviews (G2 → Capterra, GetApp, Software Advice)** | 10 or more honest G2 reviews by the day-90 review (the report's goal is 10–30); Capterra/GetApp/Software Advice listings live; 25–30 reviews by late March 2027 (suggested targets in [kpis-and-dashboard.md](../07-measurement/kpis-and-dashboard.md)) | Customer success lead (**TO CONFIRM**), CEO sponsors | Continuous; weekly review of asks | Review count and rating per site; "Is Quotr legit?" (T36) stops citing Quotr Pro | [review-generation.md](../06-playbooks/offsite/review-generation.md) |
-| 4 | **Third-party "best of" lists** | 2 or more independent pages or AI-cited directory categories naming Quotr by late December 2026; 5 or more by late March 2027, including at least 2 of the repeatedly cited lists (suggested targets in [kpis-and-dashboard.md](../07-measurement/kpis-and-dashboard.md)) | Growth + GEO consultant | 4–6 pitches a month | Pages naming Quotr (count); appearance of those pages in AI citations with Quotr on them | [listicle-and-pr-outreach.md](../06-playbooks/offsite/listicle-and-pr-outreach.md) |
-| 5 | **Trade press and press releases** | Seed-round announcement; one data-led pitch per dataset; at least 2 independent articles or bylines by late March 2027 (suggested target) | CEO (spokesperson) + Growth; optional PR freelancer (budget **TO CONFIRM**) | Monthly pitch cycle tied to the roadmap | Earned articles; links and mentions; funding facts consistent in AI answers (T39) | [listicle-and-pr-outreach.md](../06-playbooks/offsite/listicle-and-pr-outreach.md) |
-| 6 | **Reddit, forums and Facebook groups** | 2–3 genuinely helpful, disclosed answers a week; one "ask me anything" (AMA) session or data post per quarter when there is data worth sharing | CTO (Junzhe Shi) and an in-house estimator | Weekly | Helpful answers posted; upvotes and replies; threads naming Quotr (count) | [reddit-and-community.md](../06-playbooks/offsite/reddit-and-community.md) |
-| 7 | **YouTube** | One channel; 2 videos a month from Nov 2026 (V-01 to V-06 in the roadmap); every video embedded on its matching page | Growth + a product specialist on camera | 2 per month | Videos published, views, subscribers; YouTube appearing in AI citations | [youtube-and-video.md](../06-playbooks/offsite/youtube-and-video.md) |
-| 8 | **Podcasts** | 1 guest appearance a month (suggested); fix existing show notes | CEO and CTO | Monthly | Episodes live; show notes use quotr.ai and correct facts | [youtube-and-video.md](../06-playbooks/offsite/youtube-and-video.md) §5; pitch email in [listicle-and-pr-outreach.md](../06-playbooks/offsite/listicle-and-pr-outreach.md) |
-| 9 | **LinkedIn founder content** | One LinkedIn **article** per founder per month; weekly company-page posts; data posts syndicated | CEO, CTO (with editing help) | Weekly / monthly | Articles published; LinkedIn appearing in AI citations; followers | [linkedin-thought-leadership.md](../06-playbooks/offsite/linkedin-thought-leadership.md) |
-| 10 | **Partnerships and marketplaces** | Member content with BIA Bay Area and the Modular Building Institute; SkyDeck and Llama Ventures pages describing Quotr correctly; a Vanderbilt quote or review; marketplace listing only where a real integration exists | CEO + COO (Tianyi Zong) | Quarterly | Partner pages naming Quotr (count) | [partnerships-and-marketplaces.md](../06-playbooks/offsite/partnerships-and-marketplaces.md) |
-| 11 | **Wikidata** | One accurate item for Quotr.ai / FLOZ Inc., with references | GEO consultant | Once (after the fact sheet and ideally the seed press), then yearly | Item live and stable | [wikidata-and-knowledge-graph.md](../06-playbooks/offsite/wikidata-and-knowledge-graph.md) |
+| 1 | **Directory and profile clean-up** | F6S claimed and rewritten (and added to the "AI-Assisted Takeoff" category); Product Hunt moved out of "Real estate"; Crunchbase About fixed; PitchBook corrections submitted; one set of social handles; SourceForge and Slashdot listings live | Growth (Jati Ibloguen) with the GEO consultant | One sprint in Oct 2026, then a quarterly check | Checklist complete; profiles match the fact sheet | [[Wikidata and knowledge graph]] (profile consistency); directory categories in [[Listicle and PR outreach]] |
+| 2 | **Correction outreach** to pages already naming Quotr | Nomic (2 pages), Octopus Builds, ForesightIQ, rconstructionsolutions, PalCode, NEDES Estimating, aibuildingtools show current facts | Growth | Oct 2026, then when facts change | Pages updated (count); stale $299.90 gone from AI answers | [[Listicle and PR outreach]] |
+| 3 | **Reviews (G2 → Capterra, GetApp, Software Advice)** | 10 or more honest G2 reviews by the day-90 review (the report's goal is 10–30); Capterra/GetApp/Software Advice listings live; 25–30 reviews by late March 2027 (suggested targets in [[KPIs and dashboard]]) | Customer success lead (**TO CONFIRM**), CEO sponsors | Continuous; weekly review of asks | Review count and rating per site; "Is Quotr legit?" (T36) stops citing Quotr Pro | [[Review generation]] |
+| 4 | **Third-party "best of" lists** | 2 or more independent pages or AI-cited directory categories naming Quotr by late December 2026; 5 or more by late March 2027, including at least 2 of the repeatedly cited lists (suggested targets in [[KPIs and dashboard]]) | Growth + GEO consultant | 4–6 pitches a month | Pages naming Quotr (count); appearance of those pages in AI citations with Quotr on them | [[Listicle and PR outreach]] |
+| 5 | **Trade press and press releases** | Seed-round announcement; one data-led pitch per dataset; at least 2 independent articles or bylines by late March 2027 (suggested target) | CEO (spokesperson) + Growth; optional PR freelancer (budget **TO CONFIRM**) | Monthly pitch cycle tied to the roadmap | Earned articles; links and mentions; funding facts consistent in AI answers (T39) | [[Listicle and PR outreach]] |
+| 6 | **Reddit, forums and Facebook groups** | 2–3 genuinely helpful, disclosed answers a week; one "ask me anything" (AMA) session or data post per quarter when there is data worth sharing | CTO (Junzhe Shi) and an in-house estimator | Weekly | Helpful answers posted; upvotes and replies; threads naming Quotr (count) | [[Reddit and community]] |
+| 7 | **YouTube** | One channel; 2 videos a month from Nov 2026 (V-01 to V-06 in the roadmap); every video embedded on its matching page | Growth + a product specialist on camera | 2 per month | Videos published, views, subscribers; YouTube appearing in AI citations | [[YouTube and video]] |
+| 8 | **Podcasts** | 1 guest appearance a month (suggested); fix existing show notes | CEO and CTO | Monthly | Episodes live; show notes use quotr.ai and correct facts | [[YouTube and video]] §5; pitch email in [[Listicle and PR outreach]] |
+| 9 | **LinkedIn founder content** | One LinkedIn **article** per founder per month; weekly company-page posts; data posts syndicated | CEO, CTO (with editing help) | Weekly / monthly | Articles published; LinkedIn appearing in AI citations; followers | [[LinkedIn thought leadership]] |
+| 10 | **Partnerships and marketplaces** | Member content with BIA Bay Area and the Modular Building Institute; SkyDeck and Llama Ventures pages describing Quotr correctly; a Vanderbilt quote or review; marketplace listing only where a real integration exists | CEO + COO (Tianyi Zong) | Quarterly | Partner pages naming Quotr (count) | [[Partnerships and marketplaces]] |
+| 11 | **Wikidata** | One accurate item for Quotr.ai / FLOZ Inc., with references | GEO consultant | Once (after the fact sheet and ideally the seed press), then yearly | Item live and stable | [[Wikidata and knowledge graph]] |
 
 ---
 
@@ -116,7 +122,7 @@ Owners are **suggestions**; roles and capacity are **TO CONFIRM with Quotr**. "G
 | Podcast show notes ([MPN Ep. 45](https://marketingpodcasts.net/2026/03/episode-45-can-ai-cut-construction-material-costs-by-50/)) | "CEO of Quotr.io"; "has raised $5 million"; links quotr.io and x.com/quotr_io | Ask the host to update to Quotr.ai, the agreed funding wording and current links | Oct 2026 |
 | Old YouTube video "How To Use Quotr Estimate \| Cost Estimation Revit Extension" | Feeds the old architect positioning | Add a description line ("legacy product; see Quotr.ai for current software") or unlist (**TO CONFIRM** whether the Revit add-in is still sold) | Oct 2026 |
 
-Playbook: [../06-playbooks/offsite/wikidata-and-knowledge-graph.md](../06-playbooks/offsite/wikidata-and-knowledge-graph.md).
+Playbook: [[Wikidata and knowledge graph]].
 
 ---
 
@@ -139,7 +145,7 @@ Playbook: [../06-playbooks/offsite/wikidata-and-knowledge-graph.md](../06-playbo
 
 **Why it matters for AI specifically:** ConstructConnect's guide and G2's editorial lists describe tools through dated G2 ratings; Perplexity took its "alternatives" picks from G2 and Capterra alternatives pages; and without reviews, AI borrows the Quotr Pro app's ratings.
 
-Owner: customer success lead (**TO CONFIRM**), with the CEO sponsoring the first asks. Playbook: [../06-playbooks/offsite/review-generation.md](../06-playbooks/offsite/review-generation.md).
+Owner: customer success lead (**TO CONFIRM**), with the CEO sponsoring the first asks. Playbook: [[Review generation]].
 
 ---
 
@@ -147,7 +153,7 @@ Owner: customer success lead (**TO CONFIRM**), with the CEO sponsoring the first
 
 ### 3a. Target pages (from the citation map)
 
-"Cited in" = Perplexity prompts where the page was a source on 2026-09-25 (prompt IDs in [../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md)).
+"Cited in" = Perplexity prompts where the page was a source on 2026-09-25 (prompt IDs in [[AI visibility baseline]]).
 
 **Tier A: most-cited, winnable**
 
@@ -190,7 +196,7 @@ Owner: customer success lead (**TO CONFIRM**), with the CEO sponsoring the first
 
 **What to send (all list outreach):** one short email; the one-page fact sheet (prices with date, 7-day trial, AI features, Estimation Service prices, Procurement, review counts "as of" a date, three customer contacts); a demo login; one piece of original data once available. Editors cite primary data; give them some.
 
-Owner: Growth, with the GEO consultant preparing the target list and emails. Playbook: [../06-playbooks/offsite/listicle-and-pr-outreach.md](../06-playbooks/offsite/listicle-and-pr-outreach.md).
+Owner: Growth, with the GEO consultant preparing the target list and emails. Playbook: [[Listicle and PR outreach]].
 
 ---
 
@@ -198,7 +204,7 @@ Owner: Growth, with the GEO consultant preparing the target list and emails. Pla
 
 **Why:** independent coverage is the kind of proof AI leans on, and it confirms company facts (funding, HQ, founders, category) that currently conflict. Tariff and cost questions cite only government reports, trade groups and media today, so data stories are the best route into top-of-funnel answers.
 
-**Hooks, in order** (tied to [content-roadmap.md](content-roadmap.md)):
+**Hooks, in order** (tied to [[Content roadmap]]):
 
 | Month | Hook | Asset | Best-fit outlets |
 |---|---|---|---|
@@ -216,7 +222,7 @@ Owner: Growth, with the GEO consultant preparing the target list and emails. Pla
 
 **Rules:** facts from the fact sheet only; one spokesperson; every release links to a quotr.ai page with the data and method. Paid wire releases are fine for distribution but are not "earned" coverage; the goal is journalists and editors who choose to write about the data.
 
-Owner: CEO as spokesperson; Growth coordinates; optional PR freelancer (budget **TO CONFIRM**). Playbook (target list, press fact pack, pitch templates for data stories and founder bylines): [../06-playbooks/offsite/listicle-and-pr-outreach.md](../06-playbooks/offsite/listicle-and-pr-outreach.md).
+Owner: CEO as spokesperson; Growth coordinates; optional PR freelancer (budget **TO CONFIRM**). Playbook (target list, press fact pack, pitch templates for data stories and founder bylines): [[Listicle and PR outreach]].
 
 ---
 
@@ -248,7 +254,7 @@ Owner: CEO as spokesperson; Growth coordinates; optional PR freelancer (budget *
 
 **Cadence:** 2–3 helpful answers a week; one data-sharing post per quarter where community rules allow.
 
-Owner: CTO (Junzhe Shi) plus an in-house estimator. Playbook: [../06-playbooks/offsite/reddit-and-community.md](../06-playbooks/offsite/reddit-and-community.md).
+Owner: CTO (Junzhe Shi) plus an in-house estimator. Playbook: [[Reddit and community]].
 
 ---
 
@@ -258,12 +264,12 @@ Owner: CTO (Junzhe Shi) plus an in-house estimator. Playbook: [../06-playbooks/o
 
 **Plan:**
 - **One channel:** [@QuotrAI](https://www.youtube.com/@QuotrAI). Decide what happens to "QuotrIO/QuoTrio" (**TO CONFIRM** it is Quotr's) and the legacy Revit video.
-- **Series "AI takeoff on real residential plans":** one trade per video (electrical and drywall first), then customer jobs and a factory-direct order walkthrough. Schedule: V-01 to V-06 in [content-roadmap.md](content-roadmap.md).
+- **Series "AI takeoff on real residential plans":** one trade per video (electrical and drywall first), then customer jobs and a factory-direct order walkthrough. Schedule: V-01 to V-06 in [[Content roadmap]].
 - **Say and write the brand:** "Quotr.ai" in the title, the first line of the description and out loud in the first 30 seconds; chapters; a text summary or transcript; a link to the matching quotr.ai page, and the video embedded there.
 - **Guest appearances** on other construction and estimating channels (a demo on someone else's channel is a third-party mention).
 - **Short explainers** (60–90 seconds) for each data report.
 
-**Cadence:** 2 videos a month from November 2026. Owner: Growth, with a product specialist or estimator on camera. Playbook: [../06-playbooks/offsite/youtube-and-video.md](../06-playbooks/offsite/youtube-and-video.md). Brief template: [../06-playbooks/templates/youtube-video-brief.md](../06-playbooks/templates/youtube-video-brief.md).
+**Cadence:** 2 videos a month from November 2026. Owner: Growth, with a product specialist or estimator on camera. Playbook: [[YouTube and video]]. Brief template: [[YouTube video brief template]].
 
 ---
 
@@ -277,7 +283,7 @@ Owner: CTO (Junzhe Shi) plus an in-house estimator. Playbook: [../06-playbooks/o
 - **Topics:** what tariffs add to a house; factory-direct buying explained; an honest look at AI takeoff accuracy; the founder story (an architect and an engineer who have been friends since middle school).
 - **Always:** ask for show notes with "Quotr.ai", a link to quotr.ai and the guest's correct title.
 
-**Cadence:** about one appearance a month (suggested). Owner: CEO and CTO. Playbooks: [../06-playbooks/offsite/youtube-and-video.md](../06-playbooks/offsite/youtube-and-video.md) (section 5: creators, podcasts, webinars) and the podcast guest pitch in [../06-playbooks/offsite/listicle-and-pr-outreach.md](../06-playbooks/offsite/listicle-and-pr-outreach.md).
+**Cadence:** about one appearance a month (suggested). Owner: CEO and CTO. Playbooks: [[YouTube and video]] (section 5: creators, podcasts, webinars) and the podcast guest pitch in [[Listicle and PR outreach]].
 
 ---
 
@@ -291,7 +297,7 @@ Owner: CTO (Junzhe Shi) plus an in-house estimator. Playbook: [../06-playbooks/o
 - **Syndicate** each data report as a founder article (Handoff syndicates its list to LinkedIn Pulse).
 - **Hygiene:** merge Hanyang Liu's two profiles; consistent titles ("Co-Founder and CEO, Quotr.ai"); company About text from the fact sheet.
 
-Owner: the founders, with editing help from Growth. Playbook: [../06-playbooks/offsite/linkedin-thought-leadership.md](../06-playbooks/offsite/linkedin-thought-leadership.md).
+Owner: the founders, with editing help from Growth. Playbook: [[LinkedIn thought leadership]].
 
 ---
 
@@ -309,7 +315,7 @@ Owner: the founders, with editing help from Growth. Playbook: [../06-playbooks/o
 | Integration marketplaces | Procore App Marketplace (no Quotr listing found), QuickBooks, Autodesk App Store (Revit add-in not found) | List **only** where a real integration exists (**TO CONFIRM**) | When available |
 | Trade shows | IBS, PCBC, Dallas Build Expo, NHCA, RE:Forge, CBD Fair (Quotr attended in 2026); World of Concrete | Speaking slots and exhibitor pages (third-party pages naming Quotr), not just booth recaps on quotr.ai | 2027 season |
 
-Owner: CEO and COO (Tianyi Zong). Playbook: [../06-playbooks/offsite/partnerships-and-marketplaces.md](../06-playbooks/offsite/partnerships-and-marketplaces.md); keep partner profiles consistent with [../06-playbooks/offsite/wikidata-and-knowledge-graph.md](../06-playbooks/offsite/wikidata-and-knowledge-graph.md).
+Owner: CEO and COO (Tianyi Zong). Playbook: [[Partnerships and marketplaces]]; keep partner profiles consistent with [[Wikidata and knowledge graph]].
 
 ---
 
@@ -324,7 +330,7 @@ Owner: CEO and COO (Tianyi Zong). Playbook: [../06-playbooks/offsite/partnership
 - Follow Wikidata's conflict-of-interest norms; keep edits factual.
 - **Wikipedia:** not until independent, reliable press coverage exists.
 
-Owner: GEO consultant. Playbook: [../06-playbooks/offsite/wikidata-and-knowledge-graph.md](../06-playbooks/offsite/wikidata-and-knowledge-graph.md).
+Owner: GEO consultant. Playbook: [[Wikidata and knowledge graph]].
 
 ---
 
@@ -355,7 +361,7 @@ Owner: GEO consultant. Playbook: [../06-playbooks/offsite/wikidata-and-knowledge
 | "Is Quotr.ai legit?" (T36) cites real Quotr.ai reviews instead of the Quotr Pro app | Quotr Pro conflation in every run | Tracking set |
 | Funding and founder answers consistent (T39) | Conflict flagged | Tracking set |
 
-Full KPI set and dashboard: [../07-measurement/kpis-and-dashboard.md](../07-measurement/kpis-and-dashboard.md). Tools: [../07-measurement/tools-comparison.md](../07-measurement/tools-comparison.md).
+Full KPI set and dashboard: [[KPIs and dashboard]]. Tools: [[AI visibility tools compared]].
 
 ---
 
@@ -372,11 +378,11 @@ Full KPI set and dashboard: [../07-measurement/kpis-and-dashboard.md](../07-meas
 
 ## Related pages
 
-- [../03-market/citation-sources-map.md](../03-market/citation-sources-map.md): every cited domain and page, with counts
-- [../02-current-state/offsite-presence.md](../02-current-state/offsite-presence.md): the September 2026 baseline in full
-- [content-roadmap.md](content-roadmap.md): the data and videos that feed press, lists and communities
-- [content-priorities.md](content-priorities.md) and [top-of-funnel-strategy.md](top-of-funnel-strategy.md): why off-site presence is part of the content strategy
-- [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md): the facts every profile and pitch must use
-- [../06-playbooks/offsite/](../06-playbooks/offsite/): step-by-step playbooks and email templates for each channel
-- [../07-measurement/kpis-and-dashboard.md](../07-measurement/kpis-and-dashboard.md): how progress is tracked
-- [../08-action-plan/30-60-90-plan.md](../08-action-plan/30-60-90-plan.md): where these tasks sit in the overall plan
+- [[Citation sources map]]: every cited domain and page, with counts
+- [[Off-site presence]]: the September 2026 baseline in full
+- [[Content roadmap]]: the data and videos that feed press, lists and communities
+- [[Content priorities]] and [[Top-of-funnel strategy]]: why off-site presence is part of the content strategy
+- [[Entity fact sheet]]: the facts every profile and pitch must use
+- [[Off-site playbooks]]: step-by-step playbooks and email templates for each channel
+- [[KPIs and dashboard]]: how progress is tracked
+- [[30-60-90 plan]]: where these tasks sit in the overall plan

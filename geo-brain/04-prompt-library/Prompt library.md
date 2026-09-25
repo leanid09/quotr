@@ -1,13 +1,18 @@
+---
+type: hub
+description: The master list of 282 buyer prompts by funnel stage, persona and trade, each matched to a Quotr page.
+last_verified: 2026-09-25
+verify_every_days: 90
+---
 # Quotr GEO Prompt Library
 
-**What this page is for:** The master list of questions ("prompts") that Quotr's buyers type into ChatGPT, Google (AI Overviews and AI Mode), Perplexity, Gemini, Claude and Copilot. Each prompt is sorted by funnel stage, persona and trade, tagged with its intent and a priority for Quotr, and matched to the Quotr page that should answer it. Use it to plan content and to choose prompts for monthly AI-visibility tracking.
+> [!abstract] What this page is for
+> The master list of questions ("prompts") that Quotr's buyers type into ChatGPT, Google (AI Overviews and AI Mode), Perplexity, Gemini, Claude and Copilot. Each prompt is sorted by funnel stage, persona and trade, tagged with its intent and a priority for Quotr, and matched to the Quotr page that should answer it. Use it to plan content and to choose prompts for monthly AI-visibility tracking.
 
-**Last updated:** 2026-09-25
-
-**Sources:**
-- Research notes: [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (40 tested prompts and results), [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (extra tested prompts, white space), [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§6 how construction buyers use AI), [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (Quotr URL inventory), [quotr_offsite_presence.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (prompts O1–O6), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) and [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (corrections, which override the other notes).
-- New research on 2026-09-25 (WebSearch and Perplexity Sonar): questions from ContractorTalk, Electrician Talk, PlumbingZone, HVAC-Talk, PaintTalk, Reddit (r/estimators, r/Construction, r/Flooring, r/HVAC, r/electricians, r/plumbers), YouTube video titles and "People also ask"-style search results. Every source link is listed trade by trade in [buyer-questions-by-trade.md](buyer-questions-by-trade.md).
-- Quotr page URLs come from the blog sitemap, main sitemap and dictionary pages as recorded in the notes, plus a WebSearch of quotr.ai/dictionary (2026-09-25). All Quotr links point to https://quotr.ai.
+> [!info]- Sources
+> - Research notes: [[quotr_ai_visibility_tests]] (40 tested prompts and results), [[competitor_geo_benchmark]] (extra tested prompts, white space), [[geo_content_playbook_b2b]] (§6 how construction buyers use AI), [[quotr_onsite_content_audit]] (Quotr URL inventory), [[quotr_offsite_presence]] (prompts O1–O6), [[verification_quotr_and_competitors]] and [[verification_geo_evidence]] (corrections, which override the other notes).
+> - New research on 2026-09-25 (WebSearch and Perplexity Sonar): questions from ContractorTalk, Electrician Talk, PlumbingZone, HVAC-Talk, PaintTalk, Reddit (r/estimators, r/Construction, r/Flooring, r/HVAC, r/electricians, r/plumbers), YouTube video titles and "People also ask"-style search results. Every source link is listed trade by trade in [[Buyer questions by trade]].
+> - Quotr page URLs come from the blog sitemap, main sitemap and dictionary pages as recorded in the notes, plus a WebSearch of quotr.ai/dictionary (2026-09-25). All Quotr links point to https://quotr.ai.
 
 ---
 
@@ -25,7 +30,7 @@
 
 - **#**: a stable ID. L = Learn, E = Evaluate/compare, D = Decide/brand. Do not renumber. Add new prompts at the end of a section with the next free number.
 - **Prompt**: written the way people really type (short, informal, often with a year or trade). Prompts that were tested in September 2026 are copied **word for word** from the test, so they can be re-run exactly.
-- **Persona** (who asks). Codes match [../00-quotr/audiences-and-personas.md](../00-quotr/audiences-and-personas.md):
+- **Persona** (who asks). Codes match [[Audiences and personas]]:
 
 | Code | Persona |
 |---|---|
@@ -62,19 +67,19 @@
   - **Med** = relevant and winnable, but crowded (for example, trade how-tos where free calculators win).
   - **Low** = relevant to buyers but far from Quotr's product, or a simple definition that AI can answer without clicking.
 - **Quotr page that should answer it**:
-  - A link = the best existing page. "(optimize)" means the page exists but needs work first (for example, stale pricing or thin copy). See [../06-playbooks/page-refresh-checklist.md](../06-playbooks/page-refresh-checklist.md).
+  - A link = the best existing page. "(optimize)" means the page exists but needs work first (for example, stale pricing or thin copy). See [[Page refresh checklist]].
   - **NEW PAGE NEEDED** = no suitable page exists. A short suggestion follows.
-  - **Off-site** = the answer mostly comes from other websites (G2, Capterra, listicles, Reddit). An on-site page alone will not win it. See [../03-market/citation-sources-map.md](../03-market/citation-sources-map.md).
+  - **Off-site** = the answer mostly comes from other websites (G2, Capterra, listicles, Reddit). An on-site page alone will not win it. See [[Citation sources map]].
   - **TO CONFIRM with Quotr** = the page cannot be written until Quotr confirms a fact.
 - **Tested / seen**: either the September 2026 test result, or a link to where the real question was seen.
-  - Test IDs (C, V, P, B, S, O) match [../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md). **N1–N6** are six extra prompts run once for this library (same tool, same day) to give the new tracking prompts a baseline. All tests used **Perplexity Sonar only** on 2026-09-25.
+  - Test IDs (C, V, P, B, S, O) match [[AI visibility baseline]]. **N1–N6** are six extra prompts run once for this library (same tool, same day) to give the new tracking prompts a baseline. All tests used **Perplexity Sonar only** on 2026-09-25.
   - Result words: **Absent** = Quotr not named and not cited. **Cited, not named** = a quotr.ai page was a source but the answer did not say "Quotr". **Retrieved only** = a quotr.ai page was in the source list but not used. **Named** = Quotr appeared in the answer text.
   - "Seen:" links = the forum thread, Reddit thread, YouTube video or search result where the question appeared (research on 2026-09-25).
 
 ### Three rules before you write anything
 
-1. **Do not build one page per prompt.** Many prompts here share one answer page. Google's May 2026 AI-search guide warns that pages made mainly for every variation of a query can count as scaled content abuse ([verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>), claim 2). Group prompts into strong pages.
-2. **Category prompts ("best X software") are won mostly off-site.** Perplexity recommended brands that appear on independent listicles and G2/Capterra "alternatives" pages. It used Quotr's own "best of" posts as fact sources but did not recommend Quotr from them ([quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), §2 and §5). Also, the SEO analyst Lily Ray observed that sites ranking themselves #1 in "best X" lists lost Google visibility in early 2026; Google has not confirmed a targeted update (verification_geo_evidence.md, claim 19). Use honest comparison pages, and put most effort into third-party listings.
+1. **Do not build one page per prompt.** Many prompts here share one answer page. Google's May 2026 AI-search guide warns that pages made mainly for every variation of a query can count as scaled content abuse ([[verification_geo_evidence]], claim 2). Group prompts into strong pages.
+2. **Category prompts ("best X software") are won mostly off-site.** Perplexity recommended brands that appear on independent listicles and G2/Capterra "alternatives" pages. It used Quotr's own "best of" posts as fact sources but did not recommend Quotr from them ([[quotr_ai_visibility_tests]], §2 and §5). Also, the SEO analyst Lily Ray observed that sites ranking themselves #1 in "best X" lists lost Google visibility in early 2026; Google has not confirmed a targeted update (verification_geo_evidence.md, claim 19). Use honest comparison pages, and put most effort into third-party listings.
 3. **Keep tested prompts word for word.** Even small wording changes change the answer. Prompts that echo Quotr's own copy can make Quotr look more visible than it is (test S6: Quotr was named only because the prompt used Quotr's own words; buyer-style versions C10 and C14 did not surface Quotr).
 
 ---
@@ -90,7 +95,7 @@
 
 Notes on the numbers:
 - "Existing page fits" counts rows that link a page with no "(optimize)" flag. It includes rows marked "Off-site" or "TO CONFIRM" where no new page is proposed.
-- "Tested" = the prompt was run word for word on Perplexity Sonar on 2026-09-25: 40 baseline prompts (C/V/P/B), 12 supplementary S prompts and 6 off-site O prompts (58, results in [../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md)), plus 6 new N prompts run once for this library (64 in total).
+- "Tested" = the prompt was run word for word on Perplexity Sonar on 2026-09-25: 40 baseline prompts (C/V/P/B), 12 supplementary S prompts and 6 off-site O prompts (58, results in [[AI visibility baseline]]), plus 6 new N prompts run once for this library (64 in total).
 - Of the 64 tested prompts, Quotr was **named in 14**: 12 brand prompts that already contain the word "Quotr" (B1–B7, V2, S7, O1–O3), V1 ("Togal.AI alternatives", near the bottom of the list) and S6 (a prompt that echoes Quotr's own wording). On ordinary buyer prompts it is almost invisible. No other engine (ChatGPT, Google AI Mode/AI Overviews, Gemini, Claude, Copilot) has been tested yet.
 
 Prompts per persona (a prompt can have more than one persona):
@@ -107,13 +112,13 @@ Prompts per persona (a prompt can have more than one persona):
 | SVC (outsourcing buyer) | 14 |
 | ALL (any persona) | 27 |
 
-Trade coverage: every one of the 14 trades has at least 4 prompts; see [Views by trade](#views-by-trade).
+Trade coverage: every one of the 14 trades has at least 4 prompts; see [[#Views by trade|Views by trade]].
 
 ---
 
 ## Stage 1 — Learn / problem (top of funnel)
 
-At this stage AI answers usually cite sources but rarely name software brands. In September 2026, Quotr was **named in 0 of 8** tested how-to prompts and **cited in 1** (P5, accuracy of AI takeoff). Free calculators, cost-guide sites, Bluebeam/Autodesk/Procore guides, estimating-service firms and logistics firms won most citations ([quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), §3). An extra test run for this library on the same day (N2, "how to estimate plumbing from drawings") showed the same pattern: Quotr's plumbing post was the **first citation** and supplied most of the steps, but the answer never said "Quotr". Specific, step-by-step trade how-tos get used; the brand name still has to be written into the key sentences.
+At this stage AI answers usually cite sources but rarely name software brands. In September 2026, Quotr was **named in 0 of 8** tested how-to prompts and **cited in 1** (P5, accuracy of AI takeoff). Free calculators, cost-guide sites, Bluebeam/Autodesk/Procore guides, estimating-service firms and logistics firms won most citations ([[quotr_ai_visibility_tests]], §3). An extra test run for this library on the same day (N2, "how to estimate plumbing from drawings") showed the same pattern: Quotr's plumbing post was the **first citation** and supplied most of the steps, but the answer never said "Quotr". Specific, step-by-step trade how-tos get used; the brand name still has to be written into the key sentences.
 
 ### 1.1 General estimating and bidding
 
@@ -173,7 +178,7 @@ At this stage AI answers usually cite sources but rarely name software brands. I
 
 ### 1.3 Trade questions
 
-Real questions behind these prompts, with links, are in [buyer-questions-by-trade.md](buyer-questions-by-trade.md).
+Real questions behind these prompts, with links, are in [[Buyer questions by trade]].
 
 | # | Prompt | Persona | Trade | Intent | Pri | Quotr page that should answer it | Tested / seen |
 |---|---|---|---|---|---|---|---|
@@ -241,7 +246,7 @@ Real questions behind these prompts, with links, are in [buyer-questions-by-trad
 
 ### 1.4 Material costs, sourcing, tariffs and importing
 
-This is Quotr's clearest white space. In September 2026, tariff and importing answers cited only government, media and logistics sources, and **no software vendor at all** ([competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>), §3 and §5).
+This is Quotr's clearest white space. In September 2026, tariff and importing answers cited only government, media and logistics sources, and **no software vendor at all** ([[competitor_geo_benchmark]], §3 and §5).
 
 | # | Prompt | Persona | Trade | Intent | Pri | Quotr page that should answer it | Tested / seen |
 |---|---|---|---|---|---|---|---|
@@ -252,7 +257,7 @@ This is Quotr's clearest white space. In September 2026, tariff and importing an
 | L-112 | how to calculate landed cost for imported cabinets or windows | BUY, DEV | SRC | Cost | High | NEW PAGE NEEDED: landed-cost calculator | Seen: a WebSearch summary of 2026 importing guides (e.g. [chinabestbuying.com](https://chinabestbuying.com/import-building-materials-china-us/), [gerudologistics.com](https://www.gerudologistics.com/shipping-guides/how-to-ship-building-materials-from-china)) put landed cost at 1.3–1.7× the FOB price; the exact source page was not isolated, so check before quoting |
 | L-113 | how are 2026 tariffs affecting building material costs for home builders and multifamily developers | RES, DEV | SRC | Learn | High | [/blog/tariff-impact-construction-costs-2026-steel-aluminum-copper/](https://quotr.ai/blog/tariff-impact-construction-costs-2026-steel-aluminum-copper/) (optimize: residential finish materials, quarterly update) | **S11 · Absent** (JEC, Brookings, NAHB, Construction Dive, Skanska, Cushman & Wakefield; no vendor) |
 | L-114 | what tariffs apply to kitchen cabinets and vanities imported from China in 2026 | BUY, RES, DEV | CAB | Cost | High | NEW PAGE NEEDED: cabinet and vanity tariff explainer (same page as L-087) | **N1 · Absent** (no vendor named; White House, CNN, C.H. Robinson, Clark Hill, STR cited). Facts: Section 232 tariff of 25% since Oct 14, 2025; rise to 50% delayed to Jan 1, 2027 ([Thompson Hine SmarTrade](https://www.thompsonhinesmartrade.com/2026/01/president-trump-delays-section-232-tariff-increase-on-wood-furniture-cabinets-and-vanities/)); separate AD/CVD orders since 2020 ([Federal Register](https://www.federalregister.gov/documents/2020/04/21/2020-08544/wooden-cabinets-and-vanities-and-components-thereof-from-the-peoples-republic-of-china-antidumping)) |
-| L-115 | what is an HTS code and how do I find it for building materials | BUY | SRC | Define | Med | NEW PAGE NEEDED: importing glossary + HTS lookup how-to (see [construction-glossary.md](construction-glossary.md)) | Seen: [USITC HTS search](https://hts.usitc.gov/) |
+| L-115 | what is an HTS code and how do I find it for building materials | BUY | SRC | Define | Med | NEW PAGE NEEDED: importing glossary + HTS lookup how-to (see [[Construction glossary]]) | Seen: [USITC HTS search](https://hts.usitc.gov/) |
 | L-116 | do I need a customs broker to import building materials | BUY | SRC | Learn | Med | NEW PAGE NEEDED: importing guide (same as L-109) | — |
 | L-117 | what is an ISF filing for importing | BUY | SRC | Define | Low | Glossary page | Seen: [CBP ISF help article](https://www.help.cbp.gov/s/article/Article-1868) |
 | L-118 | how long does it take to ship building materials from China to California | BUY, DEV | SRC | Learn | High | NEW PAGE NEEDED: lead-time page (Quotr's indexed copy says delivery "typically within about 90 days"; TO CONFIRM with Quotr) | — |
@@ -293,7 +298,7 @@ This is Quotr's clearest white space. In September 2026, tariff and importing an
 ---
 ## Stage 2 — Compare / evaluate (middle of funnel)
 
-This is where Quotr loses most today. In September 2026, Quotr was **named in 0 of 15** category prompts and **1 of 9** unbranded comparison prompts (only "Togal.AI alternatives", near the bottom). Perplexity built these answers from independent listicles (constructioncoverage.com, thedigitalprojectmanager.com, ConstructConnect, ContraVault), G2/Capterra/SourceForge "alternatives" pages and competitors' own listicles. Quotr's own comparison posts were used as fact sources but did not get Quotr recommended ([quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), §1, §2, §5). Seer found "X vs Y" searches show a Google AI Overview 95.4% of the time ([verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>), claim 21), so comparison pages are almost always read by AI.
+This is where Quotr loses most today. In September 2026, Quotr was **named in 0 of 15** category prompts and **1 of 9** unbranded comparison prompts (only "Togal.AI alternatives", near the bottom). Perplexity built these answers from independent listicles (constructioncoverage.com, thedigitalprojectmanager.com, ConstructConnect, ContraVault), G2/Capterra/SourceForge "alternatives" pages and competitors' own listicles. Quotr's own comparison posts were used as fact sources but did not get Quotr recommended ([[quotr_ai_visibility_tests]], §1, §2, §5). Seer found "X vs Y" searches show a Google AI Overview 95.4% of the time ([[verification_geo_evidence]], claim 21), so comparison pages are almost always read by AI.
 
 ### 2.1 Category prompts (all trades and personas)
 
@@ -417,7 +422,7 @@ This is where Quotr loses most today. In September 2026, Quotr was **named in 0 
 
 ## Stage 3 — Decide / brand (bottom of funnel)
 
-Brand answers are mostly built from Quotr's own pages (about 60–70% self-sourced), so engines hedge ("not independently validated"). **5 of 8** brand prompts had accuracy problems in September 2026: the unrelated Quotr Pro app's ratings used as Quotr's, stale "from $299.90" pricing (the real entry price is Lite at $79.90 per seat per month), namesake apps, and a funding conflict ([quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), §4; [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>)). Canonical facts: [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md).
+Brand answers are mostly built from Quotr's own pages (about 60–70% self-sourced), so engines hedge ("not independently validated"). **5 of 8** brand prompts had accuracy problems in September 2026: the unrelated Quotr Pro app's ratings used as Quotr's, stale "from $299.90" pricing (the real entry price is Lite at $79.90 per seat per month), namesake apps, and a funding conflict ([[quotr_ai_visibility_tests]], §4; [[verification_quotr_and_competitors]]). Canonical facts: [[Entity fact sheet]].
 
 ### 3.1 Brand facts
 
@@ -542,7 +547,7 @@ A prompt tagged with several trades is counted under each.
 
 ## New pages this library calls for (roll-up)
 
-Many "NEW PAGE NEEDED" rows point to the same page. Grouped, the library calls for about 25 new assets. The order below follows the white-space evidence ([competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>), §5); final priorities belong in [../05-content-strategy/content-priorities.md](../05-content-strategy/content-priorities.md).
+Many "NEW PAGE NEEDED" rows point to the same page. Grouped, the library calls for about 25 new assets. The order below follows the white-space evidence ([[competitor_geo_benchmark]], §5); final priorities belong in [[Content priorities]].
 
 | New asset | Prompts it answers | Why |
 |---|---|---|
@@ -563,11 +568,11 @@ Many "NEW PAGE NEEDED" rows point to the same page. Grouped, the library calls f
 
 ## Related pages
 
-- [tracking-set.md](tracking-set.md) — the 53 prompts to re-run every month, with baselines and instructions
-- [buyer-questions-by-trade.md](buyer-questions-by-trade.md) — the real questions behind these prompts, with source links
-- [construction-glossary.md](construction-glossary.md) — plain-English definitions of the terms used in these prompts
-- [../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md) — full September 2026 test results
-- [../00-quotr/audiences-and-personas.md](../00-quotr/audiences-and-personas.md) — persona profiles
-- [../03-market/white-space.md](../03-market/white-space.md) — where Quotr can win
-- [../05-content-strategy/content-priorities.md](../05-content-strategy/content-priorities.md) — what to build first
-- [../06-playbooks/page-refresh-checklist.md](../06-playbooks/page-refresh-checklist.md) — how to fix the "(optimize)" pages
+- [[Tracking set]] — the 53 prompts to re-run every month, with baselines and instructions
+- [[Buyer questions by trade]] — the real questions behind these prompts, with source links
+- [[Construction glossary]] — plain-English definitions of the terms used in these prompts
+- [[AI visibility baseline]] — full September 2026 test results
+- [[Audiences and personas]] — persona profiles
+- [[White space]] — where Quotr can win
+- [[Content priorities]] — what to build first
+- [[Page refresh checklist]] — how to fix the "(optimize)" pages

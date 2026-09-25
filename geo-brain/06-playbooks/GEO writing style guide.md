@@ -1,18 +1,26 @@
+---
+type: playbook
+description: House writing rules for any Quotr page or script, plus a safe AI-drafting prompt and pre-publish checklist.
+aliases:
+- Style guide
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # GEO Writing Style Guide for Quotr.ai
 
-**What this page is for:** The house rules for writing any Quotr.ai page, post, profile or script so that people understand it and AI answer engines (ChatGPT, Google AI Overviews and AI Mode, Perplexity, Gemini, Claude, Copilot) can find, quote and credit it correctly.
+> [!abstract] What this page is for
+> The house rules for writing any Quotr.ai page, post, profile or script so that people understand it and AI answer engines (ChatGPT, Google AI Overviews and AI Mode, Perplexity, Gemini, Claude, Copilot) can find, quote and credit it correctly.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1–2, §7), [geo_ai_citation_signals_2026.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) (§1–3), [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§3–5), [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§3), [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (§1, §3), [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) and [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (corrections override the other notes); Google Search Central: [Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content), [AI optimization guide (May 2026)](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), [Spam policies](https://developers.google.com/search/docs/essentials/spam-policies) (checked via WebSearch, 2026-09-25).
+> [!info]- Sources
+> [[geo_content_playbook_b2b]] (§1–2, §7), [[geo_ai_citation_signals_2026]] (§1–3), [[quotr_onsite_content_audit]] (§3–5), [[competitor_geo_benchmark]] (§3), [[quotr_ai_visibility_tests]] (§1, §3), [[verification_geo_evidence]] and [[verification_quotr_and_competitors]] (corrections override the other notes); Google Search Central: [Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content), [AI optimization guide (May 2026)](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), [Spam policies](https://developers.google.com/search/docs/essentials/spam-policies) (checked via WebSearch, 2026-09-25).
 
 ---
 
 ## How to use this guide
 
 - **Who it is for:** anyone writing for Quotr.ai: the marketing team, the founders, freelance writers, and the GEO consultant. It also works as instructions for an AI writing tool. Paste this whole file into the tool before you ask it to draft.
-- **When to use it:** before you write a new page, and whenever you refresh an old one (with the [page-refresh-checklist.md](page-refresh-checklist.md)).
-- **Facts come from one place.** Every Quotr fact (prices, names, numbers) must match [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md). If a fact is not there, or is marked "TO CONFIRM with Quotr", do not publish it.
+- **When to use it:** before you write a new page, and whenever you refresh an old one (with the [[Page refresh checklist]]).
+- **Facts come from one place.** Every Quotr fact (prices, names, numbers) must match [[Entity fact sheet]]. If a fact is not there, or is marked "TO CONFIRM with Quotr", do not publish it.
 
 **Key terms (plain English):**
 
@@ -52,7 +60,7 @@ Read this first. It stops the team from over-promising.
 | AI-assisted drafting | Ahrefs (1M SERPs with AI Overviews): 71.7% of top-cited pages mixed AI and human writing; no penalty or reward was visible. | Evidence (vendor) | `geo_ai_citation_signals_2026.md` §2 |
 | Page length | Long pages collect more citations in total; for a single question ChatGPT favours focused pages. Write focused pages that fully answer one job. Length is not a target. | Evidence (resolved conflict) | `verification_geo_evidence.md` X16 |
 
-**Bottom line:** good GEO writing is mostly good, specific, honest writing. There is no trick that forces a citation. Clear, answer-first, well-sourced pages help both people and machines. The biggest levers for Quotr are **off-site** (reviews, third-party lists, YouTube, press). See [../05-content-strategy/offsite-earned-media-plan.md](../05-content-strategy/offsite-earned-media-plan.md).
+**Bottom line:** good GEO writing is mostly good, specific, honest writing. There is no trick that forces a citation. Clear, answer-first, well-sourced pages help both people and machines. The biggest levers for Quotr are **off-site** (reviews, third-party lists, YouTube, press). See [[Off-site earned media plan]].
 
 ---
 
@@ -67,7 +75,7 @@ Read this first. It stops the team from over-promising.
 
 ### Rule 2. Use question headings that match real sub-questions
 
-- Write H2s and H3s as the questions buyers really ask, in their words. Take them from [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md) and [../04-prompt-library/buyer-questions-by-trade.md](../04-prompt-library/buyer-questions-by-trade.md).
+- Write H2s and H3s as the questions buyers really ask, in their words. Take them from [[Prompt library]] and [[Buyer questions by trade]].
 - Good: "How long does a Quotr.ai estimate take?" / "Does AI takeoff work on scanned PDFs?"
 - Weak: "Our Approach" / "Why Choose Us" / "Overview".
 - Page titles and URL slugs should describe the exact topic: `/blog/drywall-takeoff-from-pdf-plans/`, not `/blog/new-post-7/`.
@@ -81,7 +89,7 @@ Read this first. It stops the team from over-promising.
 
 ### Rule 4. Put "Quotr.ai" inside the fact sentence
 
-This is the most Quotr-specific rule. In the September 2026 tests (Perplexity only), Perplexity used Quotr's own pages as the **first source** for outsourced-estimating prices and plumbing how-to steps, but **did not name Quotr**. It wrote "one outsourced estimating service" or "some firms" instead (`quotr_ai_visibility_tests.md` §1 C12; `verification_quotr_and_competitors.md` re-run C12; single extra test N2 in the [prompt library](../04-prompt-library/prompt-library.md)). Across all 32 unbranded test questions, a quotr.ai page appeared in the sources of 6 answers, but Quotr was named in only 1 (about 3%).
+This is the most Quotr-specific rule. In the September 2026 tests (Perplexity only), Perplexity used Quotr's own pages as the **first source** for outsourced-estimating prices and plumbing how-to steps, but **did not name Quotr**. It wrote "one outsourced estimating service" or "some firms" instead (`quotr_ai_visibility_tests.md` §1 C12; `verification_quotr_and_competitors.md` re-run C12; single extra test N2 in the [[Prompt library|prompt library]]). Across all 32 unbranded test questions, a quotr.ai page appeared in the sources of 6 answers, but Quotr was named in only 1 (about 3%).
 
 - Write facts so the brand cannot be separated from the number: "Quotr.ai's Estimation Service charges $0.25 per square foot…", not "Estimating services typically charge…".
 - Do this in the key sentences only (the quick answer, the table row, the section's first line). Do not stuff the name into every line.
@@ -108,7 +116,7 @@ This is the most Quotr-specific rule. In the September 2026 tests (Perplexity on
 
 - For any term, write a single sentence that works on its own: "[Term] is [category] that [does what], used by [who] to [outcome]."
 - Example of a definition AI engines lifted in the category: Easy Takeoffs' line "AI-assisted means the software drafts a result and a human reviews and owns it" (competitor benchmark §3).
-- Follow it with "why it matters", an example with numbers, and related terms. See [templates/glossary-entry.md](templates/glossary-entry.md).
+- Follow it with "why it matters", an example with numbers, and related terms. See [[Glossary entry template]].
 
 ### Rule 8. Show dates, and keep them honest
 
@@ -120,7 +128,7 @@ This is the most Quotr-specific rule. In the September 2026 tests (Perplexity on
 
 - Every post has a named human author, not "By quotr.ai". Today 5 of the 12 newest posts say "By quotr.ai" and the schema lists a Person named "quotr.ai" (onsite audit §3).
 - Byline format: "By Junzhe Shi, PhD, CTO at Quotr.ai" linked to an author page.
-- Author page: photo, role, background (e.g., UC Berkeley PhD, AI and systems engineering; architect background for Hanyang Liu), topics they write about, LinkedIn link. Facts from [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md).
+- Author page: photo, role, background (e.g., UC Berkeley PhD, AI and systems engineering; architect background for Hanyang Liu), topics they write about, LinkedIn link. Facts from [[Entity fact sheet]].
 - Where an expert estimator reviewed the page, add "Reviewed by [name, role]". Only if it is true.
 - Google's "Who, How, Why" guidance: make it clear **who** wrote it, **how** it was made (say so if AI helped draft it, where readers would expect to know), and **why** (to help the reader, not to rank) ([Google helpful content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)).
 - Evidence note: this is platform guidance and good trust practice. No study proves bylines alone raise AI citations.
@@ -142,7 +150,7 @@ This is the most Quotr-specific rule. In the September 2026 tests (Perplexity on
 - Short sentences. Everyday words. Explain jargon once ("a takeoff is the list of quantities measured from the drawings").
 - Use the units estimators use: each (EA), linear feet (LF), square feet (SF), cubic yards (CY), sheets, squares (roofing). Define an abbreviation the first time.
 - Use real job examples: plan-set size, trade, square footage, hours.
-- US English and US units by default. Quotr supports metric and imperial units (a question in the live /software/ FAQ; see [../00-quotr/product-and-features.md](../00-quotr/product-and-features.md)), but US buyers are the core audience.
+- US English and US units by default. Quotr supports metric and imperial units (a question in the live /software/ FAQ; see [[Products and features]]), but US buyers are the core audience.
 
 ---
 
@@ -150,7 +158,7 @@ This is the most Quotr-specific rule. In the September 2026 tests (Perplexity on
 
 AI tools already confuse Quotr.ai with other "Quotr" products (the Quotr Pro app, getquotr.com, quotrhq.com) and with the word "quotation". Perplexity has borrowed the Quotr Pro app's 37 ratings / 4.7 score for Quotr.ai (verification file, claim 30). Consistent naming is cheap protection.
 
-These rules come from [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) §3. **They are recommendations until Quotr approves them.**
+These rules come from [[Entity fact sheet]] §3. **They are recommendations until Quotr approves them.**
 
 | Situation | Write this | Never write |
 |---|---|---|
@@ -168,7 +176,7 @@ These rules come from [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact
 
 > Quotr.ai is AI construction takeoff, estimating and bid software, with a done-for-you estimating service and factory-direct material procurement.
 
-(Draft canonical sentence; see the approved boilerplate versions in [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) §5.)
+(Draft canonical sentence; see the approved boilerplate versions in [[Entity fact sheet]] §5.)
 
 **Facts you may use today** (High confidence in the fact sheet):
 
@@ -193,7 +201,7 @@ These rules come from [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact
 | **Keyword stuffing** (repeating "AI takeoff software" 20 times; lists of prompt variations) | Hurts readability. Pages built mainly to catch every query variation can count as scaled content abuse | Use natural language and the buyer's own questions as headings |
 | **Unsupported claims** ("95–99% accurate", "40–55% savings", "1% acceptance rate") | AI engines already hedge Quotr's claims as "vendor assertions" (offsite notes §5) | Source it, attribute it, or cut it |
 | **Maths that does not add up** ("up to 80% — from around 20 hours to just 1–2") | 20 → 1–2 hours is a 90–95% cut. Readers and AI notice | Quote the customer result as it is: "RL Electric: about 20 hours to 1–2 hours" |
-| **Ranking Quotr #1 in its own "best of" lists** | Sites doing this lost 29–49% of Google visibility in early 2026 (Lily Ray's observations; Google has not confirmed an update). When a self-promotional list was cited in AI Overviews, its author was left out of the recommendation 69% of the time | Use honest "who each tool fits" formats; earn third-party lists. See [templates/best-of-roundup.md](templates/best-of-roundup.md) |
+| **Ranking Quotr #1 in its own "best of" lists** | Sites doing this lost 29–49% of Google visibility in early 2026 (Lily Ray's observations; Google has not confirmed an update). When a self-promotional list was cited in AI Overviews, its author was left out of the recommendation 69% of the time | Use honest "who each tool fits" formats; earn third-party lists. See [[Best-of roundup template]] |
 | **Date-only refreshes** and "2026" in titles without real changes | Discounted, and linked to the early-2026 losses | Change the date only with a real update |
 | **Investor or staff quotes presented as customer quotes** | "Customer perspective: Kyle, Llama Ventures" on the homepage; Llama Ventures is the seed investor (onsite audit §4) | Label as "Investor perspective" or use a customer |
 | **Hype words** ("revolutionary", "game-changing", "institutional ecosystem", "semantic vision and vector calculations") | Vague, unquotable, and they read as written for machines | Say what the software does, in plain words |
@@ -294,7 +302,7 @@ Why: no unsourced knock on the competitor; rating dated and attributed; "where i
 
 ## 6. A reusable page skeleton
 
-Use this for most guides, product pages and posts. The templates in [templates/](templates/) adapt it by page type.
+Use this for most guides, product pages and posts. The templates in [[Page templates]] adapt it by page type.
 
 1. **H1** — the exact topic in buyer words (with a year only if the page is truly updated for that year).
 2. **Byline and dates** — author (linked), reviewer if any, "Published", "Last updated".
@@ -303,7 +311,7 @@ Use this for most guides, product pages and posts. The templates in [templates/]
 5. **H2 sections as questions** — each opens with a 1–2 sentence answer, then detail, examples, numbers.
 6. **Comparison or "manual vs AI" table** where relevant.
 7. **Limitations / when not to use this.**
-8. **FAQ** — 4–8 real questions from the prompt library (see [templates/faq-block.md](templates/faq-block.md)).
+8. **FAQ** — 4–8 real questions from the prompt library (see [[FAQ block template]]).
 9. **Sources** — linked list of primary sources.
 10. **About Quotr.ai** — the approved boilerplate (one version, facts from the fact sheet).
 11. **Related pages** — 3–6 internal links (dictionary terms, trade page, pricing).
@@ -350,18 +358,18 @@ Output plain Markdown. No tracking parameters in links.
 - [ ] Limitations stated; competitors described fairly with dated facts.
 - [ ] No hidden text, no instructions to AI, no leftover brief text, no tracking parameters.
 - [ ] Naming rules followed (Quotr.ai first mention; product line names; no retired plan names).
-- [ ] Schema added from [schema-markup-kit.md](schema-markup-kit.md) and validated.
+- [ ] Schema added from [[Schema markup kit]] and validated.
 - [ ] 3–6 internal links, including one to /pricing/ or the relevant product page.
 
 ---
 
 ## Related pages
 
-- [page-refresh-checklist.md](page-refresh-checklist.md) — step-by-step upgrade of existing pages, with a scoring rubric
-- [schema-markup-kit.md](schema-markup-kit.md) — JSON-LD templates for Quotr
-- [templates/](templates/) — page templates (comparison, alternatives, cost guide, glossary, case study and more)
-- [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) — the facts every page must match
-- [../00-quotr/positioning-and-proof-points.md](../00-quotr/positioning-and-proof-points.md) — what to claim and what not to
-- [../01-geo-fundamentals/how-ai-engines-choose-sources.md](../01-geo-fundamentals/how-ai-engines-choose-sources.md) — how the engines pick sources
-- [../01-geo-fundamentals/myths-and-risks.md](../01-geo-fundamentals/myths-and-risks.md) — llms.txt, schema and other myths
-- [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md) — the buyer questions to use as headings
+- [[Page refresh checklist]] — step-by-step upgrade of existing pages, with a scoring rubric
+- [[Schema markup kit]] — JSON-LD templates for Quotr
+- [[Page templates]] — page templates (comparison, alternatives, cost guide, glossary, case study and more)
+- [[Entity fact sheet]] — the facts every page must match
+- [[Positioning and proof points]] — what to claim and what not to
+- [[How AI engines choose sources]] — how the engines pick sources
+- [[Myths and risks]] — llms.txt, schema and other myths
+- [[Prompt library]] — the buyer questions to use as headings

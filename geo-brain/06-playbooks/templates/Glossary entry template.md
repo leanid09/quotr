@@ -1,10 +1,16 @@
+---
+type: page-template
+description: Template for Construction Dictionary entries on quotr.ai/dictionary/.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Template: Glossary Entry (Construction Dictionary Term)
 
-**What this page is for:** A template for entries in Quotr.ai's Construction Dictionary (quotr.ai/dictionary/) so each term has a quotable one-sentence definition, a real example with numbers, and a clear link to how Quotr.ai handles it.
+> [!abstract] What this page is for
+> A template for entries in Quotr.ai's Construction Dictionary (quotr.ai/dictionary/) so each term has a quotable one-sentence definition, a real example with numbers, and a clear link to how Quotr.ai handles it.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§2 dictionary inventory, §3 sample page "AI Takeoff", §4 assessment), [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§3: pages cited for "what is AI takeoff"; the Easy Takeoffs definition lifted into a summary), [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§2 Aleyda Solis content prioritization; §7 click resilience), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claim #2); [../../04-prompt-library/construction-glossary.md](../../04-prompt-library/construction-glossary.md); [International Chamber of Commerce: Incoterms® 2020](https://iccwbo.org/business-solutions/incoterms-rules/incoterms-2020/) and [ICC Academy: DAP or DDP](https://academy.iccwbo.org/incoterms/article/incoterms-2020-dap-or-ddp/) (for the DDP example; checked via WebSearch on 2026-09-25).
+> [!info]- Sources
+> [[quotr_onsite_content_audit]] (§2 dictionary inventory, §3 sample page "AI Takeoff", §4 assessment), [[competitor_geo_benchmark]] (§3: pages cited for "what is AI takeoff"; the Easy Takeoffs definition lifted into a summary), [[geo_content_playbook_b2b]] (§2 Aleyda Solis content prioritization; §7 click resilience), [[verification_geo_evidence]] (claim #2); [[Construction glossary]]; [International Chamber of Commerce: Incoterms® 2020](https://iccwbo.org/business-solutions/incoterms-rules/incoterms-2020/) and [ICC Academy: DAP or DDP](https://academy.iccwbo.org/incoterms/article/incoterms-2020-dap-or-ddp/) (for the DDP example; checked via WebSearch on 2026-09-25).
 
 ---
 
@@ -32,7 +38,7 @@
 | L-044 | what is an AI agent for construction | Med | New term (ties to the Quotr.ai AI Agent) |
 | L-095 / L-099 | panel schedule; rough-in plumbing | Low | Existing terms |
 
-**Priority:** upgrade the terms tied to High prompts and to Quotr's product first (ai-takeoff, quantity-takeoff, bid-leveling, scope-gap, markup-vs-margin), then add the import and procurement terms (DDP, HTS code, landed cost, buyout), where no software vendor owns the answer (see [../../03-market/white-space.md](../../03-market/white-space.md)).
+**Priority:** upgrade the terms tied to High prompts and to Quotr's product first (ai-takeoff, quantity-takeoff, bid-leveling, scope-gap, markup-vs-margin), then add the import and procurement terms (DDP, HTS code, landed cost, buyout), where no software vendor owns the answer (see [[White space]]).
 
 ---
 
@@ -106,7 +112,7 @@
 
 ## 6. Schema for this page
 
-- DefinedTerm (optional) + BreadcrumbList; the `description` equals the visible one-sentence definition ([../schema-markup-kit.md](../schema-markup-kit.md) 5.10, 5.7).
+- DefinedTerm (optional) + BreadcrumbList; the `description` equals the visible one-sentence definition ([[Schema markup kit]] 5.10, 5.7).
 - If the page has a byline and dates, BlogPosting-style `author` and `dateModified` can be added via an Article/WebPage block; keep them consistent with the visible byline.
 
 ---
@@ -127,9 +133,9 @@
 
 ## Related pages
 
-- [faq-block.md](faq-block.md) — for short Q&A that does not need a full term page
-- [trade-how-to-guide.md](trade-how-to-guide.md) — guides that link to dictionary terms
-- [../geo-writing-style-guide.md](../geo-writing-style-guide.md) — definition-writing rule (Rule 7)
-- [../../04-prompt-library/construction-glossary.md](../../04-prompt-library/construction-glossary.md) — construction terms and units
-- [../../01-geo-fundamentals/geo-glossary.md](../../01-geo-fundamentals/geo-glossary.md) — GEO terms
-- [../../03-market/white-space.md](../../03-market/white-space.md) — import and procurement topics
+- [[FAQ block template]] — for short Q&A that does not need a full term page
+- [[Trade how-to guide template]] — guides that link to dictionary terms
+- [[GEO writing style guide]] — definition-writing rule (Rule 7)
+- [[Construction glossary]] — construction terms and units
+- [[GEO glossary]] — GEO terms
+- [[White space]] — import and procurement topics

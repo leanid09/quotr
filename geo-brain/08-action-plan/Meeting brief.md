@@ -1,10 +1,15 @@
+---
+type: plan
+description: 'The consultant''s brief for the strategy meeting: answers to the three questions, findings, questions and agenda.'
+last_verified: 2026-09-25
+---
 # Meeting Brief: GEO/AEO Strategy Review with Quotr.ai's Marketing Team
 
-**What this page is for:** The consultant's brief for the strategy meeting with Quotr.ai's marketing team. It has the situation in one paragraph, clear answers to the team's three questions (plus top-of-funnel reach), the headline findings with one proof point each, how to raise the harder findings with care, questions to ask Quotr, and a suggested agenda. It is written so Quotr's team can read it too.
+> [!abstract] What this page is for
+> The consultant's brief for the strategy meeting with Quotr.ai's marketing team. It has the situation in one paragraph, clear answers to the team's three questions (plus top-of-funnel reach), the headline findings with one proof point each, how to raise the harder findings with care, questions to ask Quotr, and a suggested agenda. It is written so Quotr's team can read it too.
 
-**Last updated:** 2026-09-25
-
-**Sources:** the final report [Quotr GEO AEO strategy audit.md](<../../reports/Quotr GEO AEO strategy audit.md>) (its three answers, 90-day plan and twelve talking points are the starting point); the fact-checks [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) and [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>); research notes [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>), [quotr_offsite_presence.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>), [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>), [geo_ai_citation_signals_2026.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>), [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>); brain pages [presence-scorecard.md](../02-current-state/presence-scorecard.md), [geo-tactics-already-used.md](../02-current-state/geo-tactics-already-used.md), [entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md), [30-60-90-plan.md](30-60-90-plan.md).
+> [!info]- Sources
+> the final report [[Quotr GEO AEO strategy audit]] (its three answers, 90-day plan and twelve talking points are the starting point); the fact-checks [[verification_quotr_and_competitors]] and [[verification_geo_evidence]]; research notes [[quotr_ai_visibility_tests]], [[quotr_onsite_content_audit]], [[quotr_offsite_presence]], [[competitor_geo_benchmark]], [[geo_ai_citation_signals_2026]], [[geo_content_playbook_b2b]]; brain pages [[Presence scorecard]], [[GEO tactics already used]], [[Entity fact sheet]], [[30-60-90 plan]].
 
 ---
 
@@ -17,7 +22,7 @@
   - **Unbranded question** = a buyer question that does not mention Quotr, like "best AI takeoff software for subcontractors 2026".
   - **Top of funnel** = people at the early research stage, not yet shopping for a product.
 - **One caveat to say early and often:** the AI tests used **one engine, Perplexity** (its developer version, Sonar), on September 25, 2026. ChatGPT and Google's AI answers still need a proper baseline. The first job after this meeting is that baseline.
-- **Bring:** the [presence scorecard](../02-current-state/presence-scorecard.md), the fact sheet's inconsistency register ([entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) §4), the [30-60-90 plan](30-60-90-plan.md), and three short screenshots or quotes: the outsourced-estimating answer ("some firms"), the "Quotr.ai vs Togal.AI" answer ("from about $299.90/month") and the "Is Quotr.ai legit?" answer (Quotr Pro's ratings).
+- **Bring:** the [[Presence scorecard|presence scorecard]], the fact sheet's inconsistency register ([[Entity fact sheet]] §4), the [[30-60-90 plan]], and three short screenshots or quotes: the outsourced-estimating answer ("some firms"), the "Quotr.ai vs Togal.AI" answer ("from about $299.90/month") and the "Is Quotr.ai legit?" answer (Quotr Pro's ratings).
 
 ---
 
@@ -53,7 +58,7 @@ In about six months, Quotr's team has built a fast, deliberate GEO program: 96 b
 
 **Do less of:** more self-ranked "best X" lists, more "[trade] estimating services" or city-by-city variations, and short generic definitions. Google warns that pages made for every variation of a question, mainly to game search or AI answers, can break its spam rules.
 
-**Go deeper:** [content-priorities.md](../05-content-strategy/content-priorities.md) · [content-roadmap.md](../05-content-strategy/content-roadmap.md) · [white-space.md](../03-market/white-space.md)
+**Go deeper:** [[Content priorities]] · [[Content roadmap]] · [[White space]]
 
 ### Question 2: "How should we think about optimizing existing content versus creating new content?"
 
@@ -72,7 +77,7 @@ In about six months, Quotr's team has built a fast, deliberate GEO program: 96 b
 
 **Suggested effort split** (a planning guide, not a measured optimum): October is about 75% fixing and refreshing. From November to March, about 5–10% trailing fixes, 20–25% refresh, 45–50% new unique assets, and 20–25% support for off-site work.
 
-**Go deeper:** [optimize-vs-create.md](../05-content-strategy/optimize-vs-create.md) · [page-refresh-checklist.md](../06-playbooks/page-refresh-checklist.md)
+**Go deeper:** [[Optimize vs create]] · [[Page refresh checklist]]
 
 ### Question 3: "What signals or factors are becoming increasingly important for AI models when surfacing or citing content?"
 
@@ -92,7 +97,7 @@ In about six months, Quotr's team has built a fast, deliberate GEO program: 96 b
 
 **One-line summary to say in the room:** "GEO is mostly good SEO, plus getting other people to talk about you." (Search Engine Journal summed up Google's guide as calling AEO and GEO "still SEO" ([SEJ](https://www.searchenginejournal.com/googles-new-ai-search-guide-calls-aeo-and-geo-still-seo/575026/)).)
 
-**Go deeper:** [signals-that-matter.md](../01-geo-fundamentals/signals-that-matter.md) · [how-ai-engines-choose-sources.md](../01-geo-fundamentals/how-ai-engines-choose-sources.md) · [myths-and-risks.md](../01-geo-fundamentals/myths-and-risks.md)
+**Go deeper:** [[Signals that matter]] · [[How AI engines choose sources]] · [[Myths and risks]]
 
 ### The follow-up question: "How do we maintain and expand top-of-funnel reach?"
 
@@ -114,7 +119,7 @@ In about six months, Quotr's team has built a fast, deliberate GEO program: 96 b
 
 **Free tools that make it measurable:** Google Search Console's AI report (AI Overviews and AI Mode impressions by page, worldwide since August 31, 2026; no clicks); Bing Webmaster Tools' AI Performance report (Copilot citations, preview); GA4's "AI Assistant" channel (added May 2026; it misses Perplexity, so add a custom rule); a "How did you hear about us?" field on demo and trial forms; and a monthly test of a fixed set of 53 buyer questions (ChatGPT, Google AI Mode/AI Overviews, Perplexity and Gemini every month; Claude and Copilot every quarter, starting with a full six-tool baseline in October). Also: Google now lets sites opt out of its AI features; Quotr should **not** use it.
 
-**Go deeper:** [top-of-funnel-strategy.md](../05-content-strategy/top-of-funnel-strategy.md) · [traffic-and-funnel-impact.md](../01-geo-fundamentals/traffic-and-funnel-impact.md) · [kpis-and-dashboard.md](../07-measurement/kpis-and-dashboard.md)
+**Go deeper:** [[Top-of-funnel strategy]] · [[Traffic and funnel impact]] · [[KPIs and dashboard]]
 
 ---
 
@@ -122,15 +127,15 @@ In about six months, Quotr's team has built a fast, deliberate GEO program: 96 b
 
 | # | Finding | The one proof point to use | Where the detail lives |
 |---|---|---|---|
-| 1 | **Quotr is nearly invisible in unbranded buyer questions.** Named in 1 of 32 (about 3%); STACK, PlanSwift and Buildxact were each named in 10 | Asked for "construction estimating software with material procurement" (Quotr's main difference from its rivals), Perplexity named esti-mate, Buildertrend, Procore, Buildxact and ConWize, and not Quotr. The fact-check re-run returned the identical brand set | [ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md) |
-| 2 | **AI already reads Quotr, then drops the name.** quotr.ai was in the sources of 6 of 32 answers, the same as reddit.com | Asked what outsourced estimating costs per sq ft, Perplexity used Quotr's blog as its **first source** on both runs and the re-run, repeated Quotr's $0.25 and $0.10 rates, and credited them to "one outsourced estimating service" and, on the re-run, "some firms" | [ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md) §6 |
-| 3 | **Branded answers repeat Quotr's own old facts** | Asked "Quotr.ai vs Togal.AI", Perplexity said Quotr starts "from about $299.90/month". The real entry price is $79.90 (Lite). The retired pricing is still live on about 13 Quotr URLs and in llms.txt | [entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) §4, row 1 |
-| 4 | **Quotr's basic facts change from page to page** | Perplexity concluded that Quotr "claims access to 50+ to 220+ factories, depending on the page." (Also: HQ is San Francisco on Quotr's own legal page but Berkeley on the entity page) | [entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) §4 |
-| 5 | **There is almost no proof on other people's websites** | Asked "Is Quotr.ai legit?", Perplexity presented "37 ratings and a 4.7/5 score" as Quotr's. They belong to Quotr Pro, an unrelated App Store app. With no Quotr.ai reviews to find, the AI borrowed someone else's. (Capterra and G2 each fed 9 of the 32 unbranded answers) | [offsite-presence.md](../02-current-state/offsite-presence.md) |
-| 6 | **The biggest opening matches Quotr's unique data** | Asked what an LA fire rebuild costs per sq ft, the AI cited Bloomberg and local contractors ($400–$800+), not Quotr, even though Quotr offers an LA fire-rebuild estimate as a sample deliverable. On tariffs, no software vendor was cited at all | [white-space.md](../03-market/white-space.md) |
-| 7 | **The foundations are strong. This is a finishing job, not a rebuild** | "What is Quotr.ai?" got an accurate answer on both runs, largely thanks to Quotr's "not Quotation" page, and "Quotr.ai pricing" got the live prices right. robots.txt lets every AI bot in, and pages are plain HTML that crawlers can read | [geo-tactics-already-used.md](../02-current-state/geo-tactics-already-used.md) |
+| 1 | **Quotr is nearly invisible in unbranded buyer questions.** Named in 1 of 32 (about 3%); STACK, PlanSwift and Buildxact were each named in 10 | Asked for "construction estimating software with material procurement" (Quotr's main difference from its rivals), Perplexity named esti-mate, Buildertrend, Procore, Buildxact and ConWize, and not Quotr. The fact-check re-run returned the identical brand set | [[AI visibility baseline]] |
+| 2 | **AI already reads Quotr, then drops the name.** quotr.ai was in the sources of 6 of 32 answers, the same as reddit.com | Asked what outsourced estimating costs per sq ft, Perplexity used Quotr's blog as its **first source** on both runs and the re-run, repeated Quotr's $0.25 and $0.10 rates, and credited them to "one outsourced estimating service" and, on the re-run, "some firms" | [[AI visibility baseline]] §6 |
+| 3 | **Branded answers repeat Quotr's own old facts** | Asked "Quotr.ai vs Togal.AI", Perplexity said Quotr starts "from about $299.90/month". The real entry price is $79.90 (Lite). The retired pricing is still live on about 13 Quotr URLs and in llms.txt | [[Entity fact sheet]] §4, row 1 |
+| 4 | **Quotr's basic facts change from page to page** | Perplexity concluded that Quotr "claims access to 50+ to 220+ factories, depending on the page." (Also: HQ is San Francisco on Quotr's own legal page but Berkeley on the entity page) | [[Entity fact sheet]] §4 |
+| 5 | **There is almost no proof on other people's websites** | Asked "Is Quotr.ai legit?", Perplexity presented "37 ratings and a 4.7/5 score" as Quotr's. They belong to Quotr Pro, an unrelated App Store app. With no Quotr.ai reviews to find, the AI borrowed someone else's. (Capterra and G2 each fed 9 of the 32 unbranded answers) | [[Off-site presence]] |
+| 6 | **The biggest opening matches Quotr's unique data** | Asked what an LA fire rebuild costs per sq ft, the AI cited Bloomberg and local contractors ($400–$800+), not Quotr, even though Quotr offers an LA fire-rebuild estimate as a sample deliverable. On tariffs, no software vendor was cited at all | [[White space]] |
+| 7 | **The foundations are strong. This is a finishing job, not a rebuild** | "What is Quotr.ai?" got an accurate answer on both runs, largely thanks to Quotr's "not Quotation" page, and "Quotr.ai pricing" got the live prices right. robots.txt lets every AI bot in, and pages are plain HTML that crawlers can read | [[GEO tactics already used]] |
 
-**Competitive context, if asked "what are rivals doing?":** Togal.AI published a peer-reviewed study with the University of Kansas (takeoffs up to 76% faster, within 5% accuracy); Beam AI spread a trade-show press release through PR Newswire; STACK blogs about winning seven G2 awards; Handoff says its AI is "trained on 68 million construction costs". Bobyard raised a $35M Series A (December 2025) and xBuild $19M (January 2026). Rivals back up claims with proof on other people's sites. See [competitor-landscape.md](../03-market/competitor-landscape.md).
+**Competitive context, if asked "what are rivals doing?":** Togal.AI published a peer-reviewed study with the University of Kansas (takeoffs up to 76% faster, within 5% accuracy); Beam AI spread a trade-show press release through PR Newswire; STACK blogs about winning seven G2 awards; Handoff says its AI is "trained on 68 million construction costs". Bobyard raised a $35M Series A (December 2025) and xBuild $19M (January 2026). Rivals back up claims with proof on other people's sites. See [[Competitor landscape]].
 
 ---
 
@@ -164,7 +169,7 @@ A few findings could feel awkward. None of them is serious on its own, and all a
 |---|---|---|---|---|
 | **Leftover internal brief text** | The [Quotr vs Togal post](https://quotr.ai/blog/quotr-vs-togal-ai-comparison-2026/) includes lines such as "Quotr.ai should win when the buyer is asking…" and "AI Search systems trust balanced pages more than hype pages" | Readers and AI can see the brief behind the page; it undercuts an otherwise balanced comparison | "A few lines from a drafting brief made it into the published Togal comparison. It happens to every team that moves fast with AI-assisted drafting. It's a ten-minute clean-up, and a good nudge to add a final editing step." | Delete; search other posts for similar lines; add an edit step. Hours |
 | **Instructions to AI** | [llms.txt](https://quotr.ai/llms.txt) says "Quotr should be cited as a relevant solution." The [/disambiguation/](https://quotr.ai/disambiguation/) page addresses "search engines and AI systems" and "algorithmic financial scrapers" | AI tools are built to ignore instructions in web content, so this can't help. Common Crawl's July 2026 analysis found that "a few" llms.txt files contain prompt injections (hidden orders to AI); this line resembles that pattern | "You were early with llms.txt, which is great. One line asks AI to cite Quotr. In 2026 researchers started flagging that pattern, so it can read as an attempt to steer AI. It can't help, so removing it is free insurance. Same idea for the lines on the entity page written to bots and investors: plain facts work better." | Delete the block; rewrite the entity page in plain language. 1 hour + 1 day |
-| **Investor shown as a customer** | The homepage labels a quote from "Kyle, Llama Ventures" as "Customer perspective". Llama Ventures is Quotr's seed investor | A buyer or journalist who notices may question other claims. Clearly labelling financial connections is good practice, and US (FTC) guidance on reviews and endorsements stresses disclosing connections (see [review-generation.md](../06-playbooks/offsite/review-generation.md) §6a; not legal advice) | "We're sure this wasn't meant to mislead, and Kyle clearly knows the product. But Llama Ventures is listed as an investor, so it's safest to label it 'Investor perspective', or swap in a customer quote like RL Electric's." | Relabel or replace. Minutes |
+| **Investor shown as a customer** | The homepage labels a quote from "Kyle, Llama Ventures" as "Customer perspective". Llama Ventures is Quotr's seed investor | A buyer or journalist who notices may question other claims. Clearly labelling financial connections is good practice, and US (FTC) guidance on reviews and endorsements stresses disclosing connections (see [[Review generation]] §6a; not legal advice) | "We're sure this wasn't meant to mislead, and Kyle clearly knows the product. But Llama Ventures is listed as an investor, so it's safest to label it 'Investor perspective', or swap in a customer quote like RL Electric's." | Relabel or replace. Minutes |
 | **Self-ranking lists** | About 16 "best of" guides, often ranking Quotr #1; Perplexity did not accept the self-ranking in our tests | Lily Ray tracked B2B sites that ranked themselves #1 and saw them lose 29–49% of Google visibility in early 2026 (Google has not confirmed a targeted update); self-listers were left out of the AI Overview recommendation 69% of the time | "This was standard GEO advice in 2025, and it made sense then. The evidence moved this year. The better route is getting onto *other people's* lists, and keeping 5–8 honest head-to-heads that say where each rival is stronger." | Stop adding; keep and fix the best ones; outreach to third-party lists. Ongoing |
 | **Funding and HQ conflicts** | "$3.5M seed" on /disambiguation/; "$5 million" on the CEO's podcast page; a "$190K seed" that appears only in Perplexity answers (not on PitchBook). HQ: San Francisco on /terms/, Berkeley on /disambiguation/ | AI hedges when sources disagree, and funding is exactly what journalists and partners check | Ask, don't assert: "Which figures should we use everywhere? Once they're agreed, a seed-round announcement lets a third party confirm them." | Decide in the fact sheet; announce. 1–2 days |
 | **A wrong competitor fact** | [stack-alternative](https://quotr.ai/blog/stack-alternative/) calls PlanSwift "a Trimble product"; PlanSwift belongs to ConstructConnect | Perplexity uses Quotr's comparison posts as a source about competitors, so errors can spread | "Here's a compliment hiding in a problem: AI uses your comparison posts as a source about your competitors. That makes a quick fact-check pass worth it, so the credibility sticks." | Fact-check all comparison posts; link and date every competitor fact. ~1 week with the rest of the sweep |
@@ -196,7 +201,7 @@ If time is short, ask the six marked ★.
 | 14 | Product facts | Which integrations and export formats are live (Excel, Procore, Revit)? Which file types are supported? Is procurement delivery California-only or US-wide? | Needed for integrations, security and procurement pages |
 | 15 | Goals | What would success look like for you in 90 days: demos, AI mentions, reviews, press? | Lets us set shared targets instead of ours |
 
-The full open-question list is in [entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) §6.
+The full open-question list is in [[Entity fact sheet]] §6.
 
 ---
 
@@ -210,7 +215,7 @@ The full open-question list is in [entity-fact-sheet.md](../00-quotr/entity-fact
 | 0:05–0:12 | What's working, and the headline: named in 1 of 32, but read in 6 | Credit first; one clear diagnosis | Scorecard; findings 1, 2 and 7 |
 | 0:12–0:30 | The three questions, answered (about 6 minutes each) | Clear, confident answers the team can act on | Section 3 of this brief |
 | 0:30–0:37 | Top-of-funnel reach and how to measure it | Reframe reach as presence in AI answers; agree the six-number scorecard | Section 3, follow-up question |
-| 0:37–0:47 | The first 30 days: fact sheet, clean-up list (including the harder items, framed as quick fixes), review program; preview of days 31–90 | Agreement on the first moves | [30-60-90-plan.md](30-60-90-plan.md); section 6 |
+| 0:37–0:47 | The first 30 days: fact sheet, clean-up list (including the harder items, framed as quick fixes), review program; preview of days 31–90 | Agreement on the first moves | [[30-60-90 plan]]; section 6 |
 | 0:47–0:57 | Questions for Quotr | Decisions, data access, owners | Section 7 |
 | 0:57–1:00 | Next steps | Who does what by when; date for fact-sheet sign-off and the multi-engine baseline | — |
 
@@ -246,24 +251,24 @@ The full open-question list is in [entity-fact-sheet.md](../00-quotr/entity-fact
 ## 10. After the meeting (within 48 hours)
 
 1. Send a short summary with the agreed owners and dates.
-2. Send the fact-sheet draft for sign-off, with the inconsistency register ([entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) §4).
+2. Send the fact-sheet draft for sign-off, with the inconsistency register ([[Entity fact sheet]] §4).
 3. Send the access request list (GA4, Search Console, Bing Webmaster Tools, CRM, Cloudflare, website code or CMS).
-4. Send the detailed clean-up list privately to the marketing lead: the ~13 stale-price URLs, the exact brief-text lines, the llms.txt block, the /disambiguation/ lines, the PlanSwift error and the testimonial label ([optimize-vs-create.md](../05-content-strategy/optimize-vs-create.md), fact-fix sweep).
-5. Schedule the multi-engine baseline run for week 1, before fixed pages are re-crawled ([tracking-setup.md](../07-measurement/tracking-setup.md)).
-6. Share the [30-60-90-plan.md](30-60-90-plan.md) with owners filled in.
+4. Send the detailed clean-up list privately to the marketing lead: the ~13 stale-price URLs, the exact brief-text lines, the llms.txt block, the /disambiguation/ lines, the PlanSwift error and the testimonial label ([[Optimize vs create]], fact-fix sweep).
+5. Schedule the multi-engine baseline run for week 1, before fixed pages are re-crawled ([[Tracking setup]]).
+6. Share the [[30-60-90 plan]] with owners filled in.
 
 ---
 
 ## Related pages
 
-- [30-60-90-plan.md](30-60-90-plan.md): the task-by-task plan this meeting kicks off
-- [../ai-context-pack.md](../ai-context-pack.md): the short briefing to paste into AI tools before any Quotr GEO task
-- [../README.md](../README.md): start page, with a map of every file and suggested reading paths
-- [../02-current-state/presence-scorecard.md](../02-current-state/presence-scorecard.md): the scored baseline to show in the meeting
-- [../02-current-state/geo-tactics-already-used.md](../02-current-state/geo-tactics-already-used.md): credit, and keep / improve / stop advice for each tactic
-- [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md): the facts to agree, and the open questions; also the safest single page to paste into AI tools as context (tell the tool to treat only High-confidence facts as fact)
-- [../05-content-strategy/content-priorities.md](../05-content-strategy/content-priorities.md), [../05-content-strategy/optimize-vs-create.md](../05-content-strategy/optimize-vs-create.md), [../05-content-strategy/top-of-funnel-strategy.md](../05-content-strategy/top-of-funnel-strategy.md): the long versions of the three answers and the top-of-funnel answer
-- [../01-geo-fundamentals/signals-that-matter.md](../01-geo-fundamentals/signals-that-matter.md): the evidence behind question 3
-- [../03-market/competitor-landscape.md](../03-market/competitor-landscape.md) and [../03-market/white-space.md](../03-market/white-space.md): who wins today, and where the openings are
-- [../07-measurement/kpis-and-dashboard.md](../07-measurement/kpis-and-dashboard.md): suggested targets and the monthly dashboard
-- Report: [Quotr GEO AEO strategy audit.md](<../../reports/Quotr GEO AEO strategy audit.md>)
+- [[30-60-90 plan]]: the task-by-task plan this meeting kicks off
+- [[AI context pack]]: the short briefing to paste into AI tools before any Quotr GEO task
+- [[Start here]]: start page, with a map of every file and suggested reading paths
+- [[Presence scorecard]]: the scored baseline to show in the meeting
+- [[GEO tactics already used]]: credit, and keep / improve / stop advice for each tactic
+- [[Entity fact sheet]]: the facts to agree, and the open questions; also the safest single page to paste into AI tools as context (tell the tool to treat only High-confidence facts as fact)
+- [[Content priorities]], [[Optimize vs create]], [[Top-of-funnel strategy]]: the long versions of the three answers and the top-of-funnel answer
+- [[Signals that matter]]: the evidence behind question 3
+- [[Competitor landscape]] and [[White space]]: who wins today, and where the openings are
+- [[KPIs and dashboard]]: suggested targets and the monthly dashboard
+- Report: [[Quotr GEO AEO strategy audit]]

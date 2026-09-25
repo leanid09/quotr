@@ -1,10 +1,16 @@
+---
+type: page-template
+description: Template for fair "[Competitor] alternatives" pages.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Template: Alternatives Page ("[Competitor] Alternatives")
 
-**What this page is for:** A reusable template for "[Competitor] alternatives" pages that help buyers leaving a named tool, list real options fairly (including Quotr.ai where it fits), and avoid the self-promotional patterns that search engines and AI answers now discount.
+> [!abstract] What this page is for
+> A reusable template for "[Competitor] alternatives" pages that help buyers leaving a named tool, list real options fairly (including Quotr.ai where it fits), and avoid the self-promotional patterns that search engines and AI answers now discount.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (§2, V1–V10), [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§1–4), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (§2), [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§2, §4), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #2, #19; X10), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (claims 26–27, 32; gaps filled #5); competitor profiles in [../../03-market/competitors/](../../03-market/competitors/).
+> [!info]- Sources
+> [[quotr_ai_visibility_tests]] (§2, V1–V10), [[competitor_geo_benchmark]] (§1–4), [[quotr_offsite_presence]] (§2), [[geo_content_playbook_b2b]] (§1), [[quotr_onsite_content_audit]] (§2, §4), [[verification_geo_evidence]] (claims #2, #19; X10), [[verification_quotr_and_competitors]] (claims 26–27, 32; gaps filled #5); competitor profiles in [[Competitor profiles]].
 
 ---
 
@@ -21,7 +27,7 @@
 - **The risks:**
   - "Scaled competitor 'alternatives' pages" were among the patterns hit in early 2026 (29–49% visibility drops at some SaaS/B2B sites; Lily Ray's observations; Google has not confirmed an update) (`verification_geo_evidence.md` claim #19).
   - The category is saturated: 15+ vendors publish "best X / X alternatives 2026" posts, many ranking themselves first (competitor benchmark §2).
-- **Conclusion for Quotr:** keep a **small number** of alternatives pages for competitors that matter; make each one genuinely useful and fair; consolidate duplicates; spend more effort getting onto G2/Capterra alternatives pages (see [../offsite/review-generation.md](../offsite/review-generation.md)).
+- **Conclusion for Quotr:** keep a **small number** of alternatives pages for competitors that matter; make each one genuinely useful and fair; consolidate duplicates; spend more effort getting onto G2/Capterra alternatives pages (see [[Review generation]]).
 
 ---
 
@@ -67,7 +73,7 @@
 | 8 | **Where Quotr.ai fits** | Same format as the others, including its limitations (e.g., few third-party reviews yet) |
 | 9 | **How to choose** | Decision table: "If you… → consider…" |
 | 10 | **Switching checklist** | What to export from the old tool, how to trial the new one |
-| 11 | **FAQ** | 4–8 questions (see [faq-block.md](faq-block.md)) |
+| 11 | **FAQ** | 4–8 questions (see [[FAQ block template]]) |
 | 12 | **Sources** | Every link, with the date checked |
 | 13 | **About Quotr.ai** | Approved boilerplate |
 
@@ -75,7 +81,7 @@
 
 ## 5. Filled-in example outline: PlanSwift alternatives (refresh of the existing post)
 
-Facts from the [PlanSwift profile](../../03-market/competitors/planswift.md), [STACK](../../03-market/competitors/stack.md), [Kreo](../../03-market/competitors/kreo.md), [Togal.AI](../../03-market/competitors/togal-ai.md), [Beam AI](../../03-market/competitors/beam-ai.md), [Bluebeam](../../03-market/competitors/bluebeam.md). **Re-check every price on the vendor's site before publishing.**
+Facts from the [[PlanSwift|PlanSwift profile]], [[STACK]], [[Kreo]], [[Togal AI|Togal.AI]], [[Beam AI]], [[Bluebeam]]. **Re-check every price on the vendor's site before publishing.**
 
 **H1:** PlanSwift Alternatives: 8 Takeoff Tools by Use Case
 
@@ -117,7 +123,7 @@ Buyers will ask "Quotr alternatives". Today no page answers it, so AI engines fi
 
 ## 7. Schema for this page
 
-- BlogPosting (real author) + BreadcrumbList; FAQPage only for the visible FAQ ([../schema-markup-kit.md](../schema-markup-kit.md)).
+- BlogPosting (real author) + BreadcrumbList; FAQPage only for the visible FAQ ([[Schema markup kit]]).
 - An `ItemList` block is optional. Do **not** mark up competitor ratings.
 
 ---
@@ -139,10 +145,10 @@ Buyers will ask "Quotr alternatives". Today no page answers it, so AI engines fi
 
 ## Related pages
 
-- [comparison-page.md](comparison-page.md) — one-to-one "Quotr.ai vs X" pages
-- [best-of-roundup.md](best-of-roundup.md) — category roundups and honest-inclusion rules
-- [../offsite/review-generation.md](../offsite/review-generation.md) — getting onto G2/Capterra alternatives pages
-- [../offsite/listicle-and-pr-outreach.md](../offsite/listicle-and-pr-outreach.md) — getting onto third-party lists
-- [../../03-market/citation-sources-map.md](../../03-market/citation-sources-map.md) — which alternatives pages AI engines cite
-- [../../03-market/competitors/](../../03-market/competitors/) — competitor facts
-- [../page-refresh-checklist.md](../page-refresh-checklist.md) — how to consolidate the two Togal pages
+- [[Comparison page template]] — one-to-one "Quotr.ai vs X" pages
+- [[Best-of roundup template]] — category roundups and honest-inclusion rules
+- [[Review generation]] — getting onto G2/Capterra alternatives pages
+- [[Listicle and PR outreach]] — getting onto third-party lists
+- [[Citation sources map]] — which alternatives pages AI engines cite
+- [[Competitor profiles]] — competitor facts
+- [[Page refresh checklist]] — how to consolidate the two Togal pages

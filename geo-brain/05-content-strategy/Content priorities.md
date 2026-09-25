@@ -1,10 +1,16 @@
+---
+type: guide
+description: Ranked content types for GEO (original data first), with evidence, effort and expected payoff.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Content Priorities: What Types of Content Quotr Should Build for GEO/AEO
 
-**What this page is for:** The ranked list of content types Quotr.ai should put its time into so AI answer engines (ChatGPT, Google AI Overviews and AI Mode, Perplexity, Gemini, Claude, Copilot) name, cite and recommend Quotr. For each type: why it works (evidence), which buyer questions and funnel stage it wins, effort, expected impact, specific titles to build, and what to stop doing. It answers the meeting question **"What types of content should we prioritize for GEO/AEO?"**
+> [!abstract] What this page is for
+> The ranked list of content types Quotr.ai should put its time into so AI answer engines (ChatGPT, Google AI Overviews and AI Mode, Perplexity, Gemini, Claude, Copilot) name, cite and recommend Quotr. For each type: why it works (evidence), which buyer questions and funnel stage it wins, effort, expected impact, specific titles to build, and what to stop doing. It answers the meeting question **"What types of content should we prioritize for GEO/AEO?"**
 
-**Last updated:** 2026-09-25
-
-**Sources:** the final report [audit report](<../../reports/Quotr GEO AEO strategy audit.md>) (section "Content types: publish what only Quotr can know"); research notes [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1, §2, §7), [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (§1–§5), [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§2, §3, §5), [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§2, §6); fact-checks [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) and [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (these override the other notes); brain pages [../03-market/white-space.md](../03-market/white-space.md), [../03-market/citation-sources-map.md](../03-market/citation-sources-map.md), [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md), [../02-current-state/website-audit.md](../02-current-state/website-audit.md), [../00-quotr/positioning-and-proof-points.md](../00-quotr/positioning-and-proof-points.md). In the text, "verification file" or "Quotr fact-check" means verification_quotr_and_competitors.md, and "GEO-evidence fact-check" means verification_geo_evidence.md.
+> [!info]- Sources
+> the final report [[Quotr GEO AEO strategy audit|audit report]] (section "Content types: publish what only Quotr can know"); research notes [[geo_content_playbook_b2b]] (§1, §2, §7), [[quotr_ai_visibility_tests]] (§1–§5), [[competitor_geo_benchmark]] (§2, §3, §5), [[quotr_onsite_content_audit]] (§2, §6); fact-checks [[verification_geo_evidence]] and [[verification_quotr_and_competitors]] (these override the other notes); brain pages [[White space]], [[Citation sources map]], [[Prompt library]], [[Website audit]], [[Positioning and proof points]]. In the text, "verification file" or "Quotr fact-check" means verification_quotr_and_competitors.md, and "GEO-evidence fact-check" means verification_geo_evidence.md.
 
 ---
 
@@ -20,7 +26,7 @@
 
 Then, in support: neutral decision guides for the topics no software vendor owns yet (factory-direct buying, importing, tariffs, landed cost), 3–4 genuinely different persona hubs, deeper trade pages, refreshed how-tos, a small set of deepened glossary terms, and company news and press releases.
 
-**Before any of it:** fix the facts on the pages AI already reads (old prices, factory count, HQ, turnaround) and write key sentences so the Quotr name travels with the fact. That work is in [optimize-vs-create.md](optimize-vs-create.md).
+**Before any of it:** fix the facts on the pages AI already reads (old prices, factory count, HQ, turnaround) and write key sentences so the Quotr name travels with the fact. That work is in [[Optimize vs create]].
 
 **The one rule for every new page:** *it must contain something no competitor or AI could write without Quotr's data, customers or people* (report, "Existing vs new content").
 
@@ -32,7 +38,7 @@ Then, in support: neutral decision guides for the topics no software vendor owns
 - **Cited:** the AI used a page as a source (a footnote link). **Named:** the AI said "Quotr" in its answer. Quotr's problem today is that it is often cited but not named.
 - **Unbranded question:** a question that does not mention Quotr, such as "best AI takeoff software for subcontractors 2026".
 - **Funnel stages:** **TOFU** (top of funnel) = learning about a problem; **MOFU** (middle) = comparing tools, services or suppliers; **BOFU** (bottom) = checking Quotr itself (price, trust, fit).
-- **Prompt IDs:** L-### (learn), E-### (evaluate/compare) and D-### (decide/brand) refer to rows in [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md). T## refers to the monthly tracking prompts in [../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md).
+- **Prompt IDs:** L-### (learn), E-### (evaluate/compare) and D-### (decide/brand) refer to rows in [[Prompt library]]. T## refers to the monthly tracking prompts in [[Tracking set]].
 - **Click resilience:** whether a person still needs to visit the page after reading the AI summary (for example, to use a tool, download a file or check live numbers). Framework from Aleyda Solis ([content prioritization in an AI search era](https://www.aleydasolis.com/en/ai-search/content-prioritization-ai-search/)).
 - **Takeoff:** measuring material quantities from building plans. **Landed cost / DDP:** the full delivered cost of imported goods; DDP (delivered duty paid) means the seller covers shipping, import duty and delivery.
 
@@ -42,14 +48,14 @@ Then, in support: neutral decision guides for the topics no software vendor owns
 
 | Finding | What it means for content | Source |
 |---|---|---|
-| Quotr was **named in 1 of 32** unbranded Perplexity questions (about 3%), but a quotr.ai page sat in the source list of **6 of 32**, as often as reddit.com | Quotr's content is read by AI. It is used as an anonymous fact source, not as a recommendation | Report; [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) §5 |
-| Quotr's pages were the **first citation** for outsourced-estimating prices (C12), AI-takeoff accuracy (P5) and plumbing estimating (N2), each time **without the brand name** | Specific, number-rich pages get used. The name has to be written into the key sentences | Visibility notes §1, §3; [tracking-set.md](../04-prompt-library/tracking-set.md) T12, T30, T49 |
+| Quotr was **named in 1 of 32** unbranded Perplexity questions (about 3%), but a quotr.ai page sat in the source list of **6 of 32**, as often as reddit.com | Quotr's content is read by AI. It is used as an anonymous fact source, not as a recommendation | Report; [[quotr_ai_visibility_tests]] §5 |
+| Quotr's pages were the **first citation** for outsourced-estimating prices (C12), AI-takeoff accuracy (P5) and plumbing estimating (N2), each time **without the brand name** | Specific, number-rich pages get used. The name has to be written into the key sentences | Visibility notes §1, §3; [[Tracking set]] T12, T30, T49 |
 | In a Growth Memo study of 1,075 AI citations, the **8 primary-research pages earned 3.3 times more citations per page** (11.3 vs 3.4) than other pages | Original data is the most citable format | [Growth Memo](https://www.growth-memo.com/p/why-most-original-data-never-gets) |
 | Growth Memo also found **dates and numbers** are the details that best predict ChatGPT citations | Publish dated figures | [Growth Memo](https://www.growth-memo.com/p/why-proprietary-data-is-your-most) |
 | Small vendors **Meltplan and Exayard are cited next to RSMeans** on multifamily cost questions | A small software company can break into cost answers with a good data page | Competitor notes §3; [Meltplan](https://www.meltplan.com/blogs/construction-cost-per-square-foot-2026-us-benchmarks-by-building-type); [Exayard](https://exayard.com/blog/cost-to-build-apartment-complex) |
-| The tariff question cited **only government, think-tank, association, news-media and large industry-firm sources (such as the Joint Economic Committee, Brookings, NAHB, Skanska), no software vendor** | Open ground for a practitioner with real price data | Competitor notes §3, §5; [../03-market/white-space.md](../03-market/white-space.md) |
+| The tariff question cited **only government, think-tank, association, news-media and large industry-firm sources (such as the Joint Economic Committee, Brookings, NAHB, Skanska), no software vendor** | Open ground for a practitioner with real price data | Competitor notes §3, §5; [[White space]] |
 | "How to estimate drywall for a house" was won by **calculators** (HomeAdvisor, Easy Takeoffs, Procore, BuildVision, CertainTeed) | Free tools win how-to citations and keep earning clicks | Visibility notes §3 (P2) |
-| "X vs Y" searches show a Google AI Overview **95.4%** of the time; "best of" 81.3%; price/cost 83.4% | Comparison and cost pages are almost always read by AI | [Seer Interactive](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-2026-update) via [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) claim 21 |
+| "X vs Y" searches show a Google AI Overview **95.4%** of the time; "best of" 81.3%; price/cost 83.4% | Comparison and cost pages are almost always read by AI | [Seer Interactive](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-2026-update) via [[verification_geo_evidence]] claim 21 |
 | B2B sites that ranked themselves #1 in "best of" lists **lost 29–49% of Google visibility** in early 2026; when a company's own list was cited in an AI Overview, the company was **left out of the recommendation 69%** of the time | Do not build a library of self-ranked lists. Keep a few honest comparisons | [Lily Ray](https://lilyraynyc.substack.com/p/is-google-finally-cracking-down-on); [Lily Ray](https://lilyraynyc.substack.com/p/why-calling-yourself-the-best-could) (observations on a sample; Google has not confirmed a targeted update) |
 | Perplexity did not accept Quotr's self-ranking: it pulled facts from Quotr's "PlanSwift alternatives" post and recommended a dozen other tools | Owned lists are fact sources, not votes | Visibility notes §2 (V3) |
 | For SaaS brands, **82.3%** of top cited sources in AI Mode, Gemini and ChatGPT were other people's sites; **45.7%** social, community and video; YouTube was the largest single source domain | Video and community matter more than a bigger blog | [Aleyda Solis, Aug 2026](https://www.aleydasolis.com/en/ai-search/ai-search-citations/) as corrected in the GEO-evidence fact-check (claim 18) |
@@ -58,7 +64,7 @@ Then, in support: neutral decision guides for the topics no software vendor owns
 | A peer-reviewed benchmark (C-SEO Bench, NeurIPS 2025) found most GEO content tricks "largely ineffective"; classic SEO was "significantly more effective" | Use real data because it helps readers, not as a trick | [arXiv](https://arxiv.org/abs/2506.11097) |
 | Contractors' top worries about AI tools: **data accuracy (57%) and security (54%)** | Proof pages on accuracy and security answer real objections | Dodge/CMiC survey of 235 contractors (Sep–Oct 2025) via [Construction Dive](https://www.constructiondive.com/news/builders-ai-transform-businesses-survey/807555/) (playbook notes §6; not re-checked by the fact-check) |
 
-**Caveat:** our own tests covered **Perplexity only** (its Sonar developer model). ChatGPT, Google AI Overviews and AI Mode, Gemini, Claude and Copilot still need a baseline. See [../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md).
+**Caveat:** our own tests covered **Perplexity only** (its Sonar developer model). ChatGPT, Google AI Overviews and AI Mode, Gemini, Claude and Copilot still need a baseline. See [[AI visibility baseline]].
 
 ---
 
@@ -69,8 +75,8 @@ Each type was scored on five questions. Scores are our judgment, based on the ev
 | Question | Why it matters |
 |---|---|
 | 1. **Quotr-only?** Can Quotr say something no rival or AI can? | Google's "non-commodity" test; Growth Memo's 3.3× finding |
-| 2. **Open field?** Are software vendors absent from AI answers on this topic today? | White space is cheaper to win (see [../03-market/white-space.md](../03-market/white-space.md)) |
-| 3. **Click resilience?** Will people still click after reading the AI answer? | AI answers take clicks from generic content (see [top-of-funnel-strategy.md](top-of-funnel-strategy.md)) |
+| 2. **Open field?** Are software vendors absent from AI answers on this topic today? | White space is cheaper to win (see [[White space]]) |
+| 3. **Click resilience?** Will people still click after reading the AI answer? | AI answers take clicks from generic content (see [[Top-of-funnel strategy]]) |
 | 4. **Brand-mention potential?** Is there a natural reason for the AI to say "Quotr"? | Quotr's gap is being named, not being cited |
 | 5. **Effort and dependency?** How much time, and does it need data or approvals from Quotr? | A seed-stage team must pick carefully |
 
@@ -97,7 +103,7 @@ Each type was scored on five questions. Scores are our judgment, based on the ev
 | 10 | **Glossary terms** (deepen ~10; add ~8 procurement terms) | TOFU | L-004, L-005, L-014, L-033, L-110, L-115, L-117 | S | **Low–Medium** | Dec 2026 |
 | 11 | **Company news, changelog and press releases** | BOFU, brand | D-001–D-007 | S | **Medium** (entity facts, press hook) | Nov 2026 |
 
-The detailed month-by-month plan with 60+ specific pieces is in [content-roadmap.md](content-roadmap.md).
+The detailed month-by-month plan with 60+ specific pieces is in [[Content roadmap]].
 
 ---
 
@@ -109,7 +115,7 @@ This is not a new content type, but nothing below works without it.
 - **Brand-attached facts:** AI will take a number and drop the brand. Rewrite key sentences so the name travels with the fact. Example from the report: *"Quotr.ai's Estimation Service charges $0.25 per sq ft for projects under 50,000 sq ft."* Start with the pages AI already fetches: [outsource-construction-estimating](https://quotr.ai/blog/outsource-construction-estimating/), [commercial-estimating-services](https://quotr.ai/blog/commercial-estimating-services/), [is-ai-takeoff-actually-accurate-yet](https://quotr.ai/blog/is-ai-takeoff-actually-accurate-yet/), [best-planswift-alternatives-2026](https://quotr.ai/blog/best-planswift-alternatives-2026/), [how-to-estimate-plumbing-from-drawings](https://quotr.ai/blog/how-to-estimate-plumbing-from-drawings/), [quantity-takeoff-services](https://quotr.ai/blog/quantity-takeoff-services/).
 - **Effort:** S–M (fact sheet 1–2 days of leadership time; pricing sweep 1–2 days; brand-attach rewrite about 1 day).
 - **Expected impact:** High and fast. If it works, branded answers should start quoting $79.90 once engines re-read the fixed pages (report, conclusion).
-- **Full list and page-by-page actions:** [optimize-vs-create.md](optimize-vs-create.md). Canonical facts: [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md).
+- **Full list and page-by-page actions:** [[Optimize vs create]]. Canonical facts: [[Entity fact sheet]].
 
 ---
 
@@ -124,7 +130,7 @@ This is not a new content type, but nothing below works without it.
 **What it wins**
 - TOFU cost and tariff questions: L-113 "how are 2026 tariffs affecting building material costs…" (T46), L-114 cabinet and vanity tariffs (T48), L-130/L-131 multifamily cost per sq ft and per unit (T45), L-132 house cost per sq ft in California, L-133 ADU cost, L-134 LA fire rebuild cost (T47), L-093/L-098/L-104 trade cost benchmarks.
 - Trust and evaluation questions: L-035 "how accurate is AI takeoff" (T30), L-040 "how much time does AI takeoff actually save", L-006/L-007/L-046 "how long does an estimate take" (T32), D-019 "how accurate is Quotr's AI takeoff".
-- Press and list editors: data is the hook for trade press and for the lists AI cites (see [offsite-earned-media-plan.md](offsite-earned-media-plan.md)).
+- Press and list editors: data is the hook for trade press and for the lists AI cites (see [[Off-site earned media plan]]).
 
 **Effort:** L. Needs Quotr to share and approve data, a written method (sample size, date range, how prices were collected), and for tariff content an expert review. Every dataset is **TO CONFIRM with Quotr**: what can be published, in what aggregate, and with what customer permissions.
 
@@ -145,8 +151,8 @@ This is not a new content type, but nothing below works without it.
 - Every number: dated, with method, sample size and source. Never publish an invented or estimated-looking number; mark gaps "TO CONFIRM with Quotr".
 - Put the brand in the finding: "Quotr.ai's Q4 2026 index found…", not "our data shows…".
 - Use a stable, year-free URL for recurring data (for example `/data/factory-direct-price-index/`) and add each edition inside it, so links and citations build up in one place.
-- Offer a downloadable table (CSV or PDF) and a short chart. Pitch each edition (see [offsite-earned-media-plan.md](offsite-earned-media-plan.md)).
-- Template: [../06-playbooks/templates/original-research-report.md](../06-playbooks/templates/original-research-report.md).
+- Offer a downloadable table (CSV or PDF) and a short chart. Pitch each edition (see [[Off-site earned media plan]]).
+- Template: [[Original research report template]].
 
 ---
 
@@ -159,7 +165,7 @@ This is not a new content type, but nothing below works without it.
 - Quotr has only one tool today, the [ROI calculator](https://quotr.ai/roi-calculator/) (website audit §10).
 - Caveat: no dataset measures citation lift from calculators; the evidence is observed citations plus practitioner opinion (playbook notes §1 gaps).
 
-**What it wins:** TOFU how-to and cost questions: L-047/L-048 drywall (T27), L-057 flooring waste, L-062 tile, L-069 concrete, L-055 framing, L-112/L-119 landed cost, L-015 bid-leveling template, L-138 pro forma. Tools also feed email capture (see [top-of-funnel-strategy.md](top-of-funnel-strategy.md)).
+**What it wins:** TOFU how-to and cost questions: L-047/L-048 drywall (T27), L-057 flooring waste, L-062 tile, L-069 concrete, L-055 framing, L-112/L-119 landed cost, L-015 bid-leveling template, L-138 pro forma. Tools also feed email capture (see [[Top-of-funnel strategy]]).
 
 **Effort:** M per tool (spec, build, test, write the explainer around it). Templates: S–M.
 
@@ -178,7 +184,7 @@ This is not a new content type, but nothing below works without it.
 | "Development pro forma material budget template" (download) | Developer persona (L-138) |
 | "Construction estimate and bid proposal template for subcontractors" (download) | Missing format (website audit §10) |
 
-**Rules:** results visible without a form (gating the answer hurts citations); offer "email me the PDF" or "send me quarterly price updates" as the optional capture. Show the formula and assumptions in plain text on the page so AI can quote them. No dedicated calculator template exists yet; use the structure in [../06-playbooks/templates/product-feature-page.md](../06-playbooks/templates/product-feature-page.md) plus [../06-playbooks/templates/faq-block.md](../06-playbooks/templates/faq-block.md).
+**Rules:** results visible without a form (gating the answer hurts citations); offer "email me the PDF" or "send me quarterly price updates" as the optional capture. Show the formula and assumptions in plain text on the page so AI can quote them. No dedicated calculator template exists yet; use the structure in [[Product feature page template]] plus [[FAQ block template]].
 
 ---
 
@@ -213,7 +219,7 @@ This is not a new content type, but nothing below works without it.
 
 Plus three **quick-win slots** where Quotr qualifies but is missing (white space #9): "cheapest AI takeoff software" (E-054, T22: Lite $79.90 was never mentioned), "AI takeoff software with free trial" (E-055, T23: 7-day trial), "best takeoff software for Mac users" (E-009, T15: browser-based, **TO CONFIRM** official browser support). These are fixed on the pricing page and one "browser-based takeoff for Mac and PC" page, not with new listicles.
 
-**Rules:** every competitor fact linked and dated ("as of [month year]"); a "where [rival] is stronger" section; one plain Quotr price; no "#1" self-ranking; named author. Templates: [../06-playbooks/templates/comparison-page.md](../06-playbooks/templates/comparison-page.md) (head-to-heads), [../06-playbooks/templates/alternatives-page.md](../06-playbooks/templates/alternatives-page.md) (alternatives pages) and, for the few category guides Quotr keeps, [../06-playbooks/templates/best-of-roundup.md](../06-playbooks/templates/best-of-roundup.md) (with its honest-inclusion rules).
+**Rules:** every competitor fact linked and dated ("as of [month year]"); a "where [rival] is stronger" section; one plain Quotr price; no "#1" self-ranking; named author. Templates: [[Comparison page template]] (head-to-heads), [[Alternatives page template]] (alternatives pages) and, for the few category guides Quotr keeps, [[Best-of roundup template]] (with its honest-inclusion rules).
 
 ---
 
@@ -238,7 +244,7 @@ Plus three **quick-win slots** where Quotr qualifies but is missing (white space
 - 60–90 second summaries of each data report.
 - Honest tests: "Where AI takeoff still fails: scanned plans".
 - Every video embedded on the matching quotr.ai page, with a text summary or transcript.
-- Channel housekeeping: one channel ([@QuotrAI](https://www.youtube.com/@QuotrAI)); decide what to do with the "QuoTrio" channel and the legacy Revit video (**TO CONFIRM with Quotr**). Details: [offsite-earned-media-plan.md](offsite-earned-media-plan.md) and [../06-playbooks/offsite/youtube-and-video.md](../06-playbooks/offsite/youtube-and-video.md). Brief template: [../06-playbooks/templates/youtube-video-brief.md](../06-playbooks/templates/youtube-video-brief.md).
+- Channel housekeeping: one channel ([@QuotrAI](https://www.youtube.com/@QuotrAI)); decide what to do with the "QuoTrio" channel and the legacy Revit video (**TO CONFIRM with Quotr**). Details: [[Off-site earned media plan]] and [[YouTube and video]]. Brief template: [[YouTube video brief template]].
 
 ---
 
@@ -253,7 +259,7 @@ Plus three **quick-win slots** where Quotr qualifies but is missing (white space
 
 **Effort:** M (customer interviews and approvals are the slow part).
 
-**Expected impact:** Medium–High on trust answers and on conversion of AI-referred visitors. Real reviews on G2 matter even more for "Is Quotr legit?" (see [offsite-earned-media-plan.md](offsite-earned-media-plan.md)).
+**Expected impact:** Medium–High on trust answers and on conversion of AI-referred visitors. Real reviews on G2 matter even more for "Is Quotr legit?" (see [[Off-site earned media plan]]).
 
 **What Quotr should build**
 | Working title | Notes |
@@ -267,7 +273,7 @@ Plus three **quick-win slots** where Quotr qualifies but is missing (white space
 | Author pages: Hanyang Liu, Junzhe Shi PhD, Tianyi Zong, Jati Ibloguen | Short bios, LinkedIn and Google Scholar links; replaces "By quotr.ai" bylines |
 | Customer reviews hub | Only after real G2/Capterra reviews exist; quote them with links |
 
-Templates: [../06-playbooks/templates/case-study.md](../06-playbooks/templates/case-study.md) (case studies), [../06-playbooks/templates/product-feature-page.md](../06-playbooks/templates/product-feature-page.md) (security and integrations pages), [../06-playbooks/templates/original-research-report.md](../06-playbooks/templates/original-research-report.md) (the accuracy method), and Rule 9 of [../06-playbooks/geo-writing-style-guide.md](../06-playbooks/geo-writing-style-guide.md) (author pages).
+Templates: [[Case study template]] (case studies), [[Product feature page template]] (security and integrations pages), [[Original research report template]] (the accuracy method), and Rule 9 of [[GEO writing style guide]] (author pages).
 
 ---
 
@@ -286,7 +292,7 @@ These are neutral, practical guides on topics where AI answers today cite only s
 
 **Expected impact:** High, because the field is open and the topic is Quotr's unique mix.
 
-**What Quotr should build (examples; full list in [content-roadmap.md](content-roadmap.md))**
+**What Quotr should build (examples; full list in [[Content roadmap]])**
 - "What is factory-direct construction procurement?" (a category-defining pillar page plus dictionary term)
 - "How to import building materials from China for a US project (2026 guide)"
 - "Kitchen cabinet and vanity tariffs in 2026: what builders need to know" (the prompt library records a 25% Section 232 tariff since Oct 14, 2025, with a rise to 50% delayed to Jan 1, 2027, per [Thompson Hine SmarTrade](https://www.thompsonhinesmartrade.com/2026/01/president-trump-delays-section-232-tariff-increase-on-wood-furniture-cabinets-and-vanities/); re-check with an expert before publishing and again in January 2027)
@@ -296,7 +302,7 @@ These are neutral, practical guides on topics where AI answers today cite only s
 - "Factory-direct vs dealer vs big-box: a decision guide for builders"
 - "Alibaba vs a sourcing agent vs managed procurement: three ways to buy construction materials overseas"
 
-**Rules:** honest about when local supply wins (lumber, urgent items). One canonical sentence for factory count and savings (**TO CONFIRM with Quotr**; today the site says 50+, 220+ and "220+ including 30+ audited", and savings of "up to 50%", "40–50%" and "40–55%"). Template: [../06-playbooks/templates/trade-how-to-guide.md](../06-playbooks/templates/trade-how-to-guide.md) and [../06-playbooks/templates/cost-guide.md](../06-playbooks/templates/cost-guide.md).
+**Rules:** honest about when local supply wins (lumber, urgent items). One canonical sentence for factory count and savings (**TO CONFIRM with Quotr**; today the site says 50+, 220+ and "220+ including 30+ audited", and savings of "up to 50%", "40–50%" and "40–55%"). Template: [[Trade how-to guide template]] and [[Cost guide template]].
 
 ---
 
@@ -322,7 +328,7 @@ These are neutral, practical guides on topics where AI answers today cite only s
 | Multifamily and real estate developers | Estimation Service at $0.10/sq ft over 50,000 sq ft, pro formas, cost-per-unit data, finish packages per unit | Rebuild /developers/ (today an alias of /service/) |
 | GC preconstruction teams (optional 4th) | On-demand estimating when pipelines spike, bid leveling, supplier-price comparison | New (**TO CONFIRM** bid-leveling features) |
 
-Personas: [../00-quotr/audiences-and-personas.md](../00-quotr/audiences-and-personas.md). Template: no dedicated persona-hub template exists yet; use the structure of [../06-playbooks/templates/product-feature-page.md](../06-playbooks/templates/product-feature-page.md).
+Personas: [[Audiences and personas]]. Template: no dedicated persona-hub template exists yet; use the structure of [[Product feature page template]].
 
 ---
 
@@ -339,7 +345,7 @@ Personas: [../00-quotr/audiences-and-personas.md](../00-quotr/audiences-and-pers
 
 **Expected impact:** Medium, highest for finish trades where Quotr can add factory-direct prices (cabinets and millwork, windows and doors, tile, flooring, plumbing fixtures; categories **TO CONFIRM with Quotr**).
 
-**What to build:** deepen 6 core trades (electrical, HVAC, plumbing, drywall, flooring, concrete), 4 finish trades tied to procurement (millwork/cabinets, glazing/windows, doors and hardware, tile), and framing and roofing (no supporting content today). Merge or noindex the rest until they can be deepened (see [optimize-vs-create.md](optimize-vs-create.md)). Each deep page: trade workflow from plans, what the AI detects, a worked example, a sample output, a trade FAQ, a video, pricing, links to the trade how-to and calculator. Template: [../06-playbooks/templates/product-feature-page.md](../06-playbooks/templates/product-feature-page.md) (it covers the 23 trade pages).
+**What to build:** deepen 6 core trades (electrical, HVAC, plumbing, drywall, flooring, concrete), 4 finish trades tied to procurement (millwork/cabinets, glazing/windows, doors and hardware, tile), and framing and roofing (no supporting content today). Merge or noindex the rest until they can be deepened (see [[Optimize vs create]]). Each deep page: trade workflow from plans, what the AI detects, a worked example, a sample output, a trade FAQ, a video, pricing, links to the trade how-to and calculator. Template: [[Product feature page template]] (it covers the 23 trade pages).
 
 ---
 
@@ -347,7 +353,7 @@ Personas: [../00-quotr/audiences-and-personas.md](../00-quotr/audiences-and-pers
 
 **Why (evidence)**
 - Quotr's trade how-tos already get used: its plumbing post was the first citation for "how to estimate plumbing from drawings" (N2) and supplied most of the steps, unnamed (prompt library, Stage 1 intro).
-- But general how-tos are crowded (Bluebeam, Autodesk, Procore, BuildVision are cited for "how to do a quantity takeoff from PDF plans", P1) and AI answers take most of the clicks on generic explainers (see [top-of-funnel-strategy.md](top-of-funnel-strategy.md)).
+- But general how-tos are crowded (Bluebeam, Autodesk, Procore, BuildVision are cited for "how to do a quantity takeoff from PDF plans", P1) and AI answers take most of the clicks on generic explainers (see [[Top-of-funnel strategy]]).
 
 **What it wins:** L-031, L-091, L-096, L-097, L-102 (existing), plus real gaps: L-052 lumber package (N6, T53), L-074 roofing takeoff from plans, L-014 bid leveling, L-129 multifamily estimating (T28).
 
@@ -355,7 +361,7 @@ Personas: [../00-quotr/audiences-and-personas.md](../00-quotr/audiences-and-pers
 
 **Expected impact:** Medium. Cheapest way to turn existing anonymous citations into named ones.
 
-**What to build:** refresh the 16 existing how-tos (see [optimize-vs-create.md](optimize-vs-create.md)); add only these new ones: "How to estimate a lumber package for a new house", "How to do a roofing takeoff from plans for new construction", "How to level subcontractor and supplier bids for a home build", "How to estimate a multifamily project from schematic plans", "How to estimate drywall for a house" (residential; today's post is commercial). Template: [../06-playbooks/templates/trade-how-to-guide.md](../06-playbooks/templates/trade-how-to-guide.md).
+**What to build:** refresh the 16 existing how-tos (see [[Optimize vs create]]); add only these new ones: "How to estimate a lumber package for a new house", "How to do a roofing takeoff from plans for new construction", "How to level subcontractor and supplier bids for a home build", "How to estimate a multifamily project from schematic plans", "How to estimate drywall for a house" (residential; today's post is commercial). Template: [[Trade how-to guide template]].
 
 ---
 
@@ -363,7 +369,7 @@ Personas: [../00-quotr/audiences-and-personas.md](../00-quotr/audiences-and-pers
 
 **Why (evidence):** Quotr has 55 definition-first terms of about 200 words, with no author or sources, not updated since June–July 2026, and not cited for "what is AI takeoff" (Bluebeam, Buildxact, BuildVision, Houzz Pro and Autodesk were) (geo-tactics review, tactic 28). Short generic definitions are exactly what AI can answer without a click, and the report lists "short generic definitions" under "do less of".
 
-**What to do:** deepen about 10 terms tied to Quotr's strengths (AI takeoff, quantity takeoff, bid leveling, scope gap, markup vs margin with the formula, change order with pricing steps, plug number, DDP, landed cost, factory-direct procurement), with a named reviewer, sources and a worked example. Add only procurement terms that support the white space (landed cost, FOB, HTS code, ISF filing, customs broker, NFRC, CARB, cUPC). Do not add dozens of new generic terms. Template: [../06-playbooks/templates/glossary-entry.md](../06-playbooks/templates/glossary-entry.md). Plain-English source definitions: [../04-prompt-library/construction-glossary.md](../04-prompt-library/construction-glossary.md).
+**What to do:** deepen about 10 terms tied to Quotr's strengths (AI takeoff, quantity takeoff, bid leveling, scope gap, markup vs margin with the formula, change order with pricing steps, plug number, DDP, landed cost, factory-direct procurement), with a named reviewer, sources and a worked example. Add only procurement terms that support the white space (landed cost, FOB, HTS code, ISF filing, customs broker, NFRC, CARB, cUPC). Do not add dozens of new generic terms. Template: [[Glossary entry template]]. Plain-English source definitions: [[Construction glossary]].
 
 **Effort:** S each. **Expected impact:** Low–Medium (supports internal links and brand prompts more than unbranded ones).
 
@@ -373,7 +379,7 @@ Personas: [../00-quotr/audiences-and-personas.md](../00-quotr/audiences-and-pers
 
 **Why (evidence):** there is no press release for the seed round, and funding figures conflict ($3.5M on /disambiguation/, "$5 million" on the CEO's podcast page, and a "$190K seed" figure that appears only in Perplexity answers, not on PitchBook) (report; verification file, claim 22). An independent story is how AI engines confirm company facts. Only one product-update post exists ([new pricing](https://quotr.ai/blog/new-pricing/)).
 
-**What to build:** a seed-round announcement using the agreed fact-sheet numbers (**TO CONFIRM with Quotr**); one release per data report or launch; a monthly changelog; keep event recaps short. Press fact pack and pitch templates: [../06-playbooks/offsite/listicle-and-pr-outreach.md](../06-playbooks/offsite/listicle-and-pr-outreach.md). Distribution: [offsite-earned-media-plan.md](offsite-earned-media-plan.md).
+**What to build:** a seed-round announcement using the agreed fact-sheet numbers (**TO CONFIRM with Quotr**); one release per data report or launch; a monthly changelog; keep event recaps short. Press fact pack and pitch templates: [[Listicle and PR outreach]]. Distribution: [[Off-site earned media plan]].
 
 **Effort:** S. **Expected impact:** Medium (entity facts and press hooks).
 
@@ -401,7 +407,7 @@ Personas: [../00-quotr/audiences-and-personas.md](../00-quotr/audiences-and-pers
 
 ## Priorities by persona and trade
 
-Which content types matter most for each buyer. **●** = primary, **○** = supporting. Persona detail: [../00-quotr/audiences-and-personas.md](../00-quotr/audiences-and-personas.md).
+Which content types matter most for each buyer. **●** = primary, **○** = supporting. Persona detail: [[Audiences and personas]].
 
 | Persona | Data | Tools | Comparisons | Video | Proof | Procurement guides | Persona hub | Trade pages | How-tos |
 |---|---|---|---|---|---|---|---|---|---|
@@ -417,7 +423,7 @@ Which content types matter most for each buyer. **●** = primary, **○** = sup
 
 ## Recommended mix of new production (next 6 months)
 
-Our recommendation for how to split **new** content production from November 2026 to March 2027 (fixes and refreshes are covered in [optimize-vs-create.md](optimize-vs-create.md)). This is a planning guide, not a measured optimum.
+Our recommendation for how to split **new** content production from November 2026 to March 2027 (fixes and refreshes are covered in [[Optimize vs create]]). This is a planning guide, not a measured optimum.
 
 | Share of new production | Content types |
 |---|---|
@@ -435,10 +441,10 @@ Video runs alongside as its own stream (about 2 videos a month to start, each ti
 
 ## Quality bar for every new or rebuilt page
 
-A page ships only if it passes all of these. Full style rules: [../06-playbooks/geo-writing-style-guide.md](../06-playbooks/geo-writing-style-guide.md).
+A page ships only if it passes all of these. Full style rules: [[GEO writing style guide]].
 
 1. **Quotr-only test:** it contains something no competitor or AI could write without Quotr's data, customers or people.
-2. **Facts match the fact sheet** ([../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md)); nothing marked TO CONFIRM is published as fact.
+2. **Facts match the fact sheet** ([[Entity fact sheet]]); nothing marked TO CONFIRM is published as fact.
 3. **Answer first:** the direct answer in the first one or two sentences (Quotr already does this well; keep it).
 4. **Brand-attached key facts:** "Quotr.ai's …" in the sentences AI is most likely to lift.
 5. **Every number dated and sourced;** Quotr's own numbers have a method.
@@ -446,8 +452,8 @@ A page ships only if it passes all of these. Full style rules: [../06-playbooks/
 7. **Honest limits** (for example: accuracy drops on scanned plans; local supply wins for urgent items).
 8. **No self-ranking, no bot-directed wording, no year bump without real changes.**
 9. **Distinct from every other Quotr page** (no near-duplicates; check the page-by-page table first).
-10. **Linked into a hub** and to the relevant tool, dataset or product page; basic schema per [../06-playbooks/schema-markup-kit.md](../06-playbooks/schema-markup-kit.md).
-11. **Tracked:** the target prompts are in [../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md) or added to the prompt library.
+10. **Linked into a hub** and to the relevant tool, dataset or product page; basic schema per [[Schema markup kit]].
+11. **Tracked:** the target prompts are in [[Tracking set]] or added to the prompt library.
 
 ---
 
@@ -464,12 +470,12 @@ A page ships only if it passes all of these. Full style rules: [../06-playbooks/
 
 ## Related pages
 
-- [optimize-vs-create.md](optimize-vs-create.md): fix-first framework, the fact-fix sweep and the page-by-page action table
-- [content-roadmap.md](content-roadmap.md): 60+ specific pieces by cluster and month (Oct 2026 → Mar 2027)
-- [offsite-earned-media-plan.md](offsite-earned-media-plan.md): reviews, lists, press, Reddit, YouTube, podcasts, LinkedIn, directories
-- [top-of-funnel-strategy.md](top-of-funnel-strategy.md): keeping and growing reach as AI answers take clicks
-- [../03-market/white-space.md](../03-market/white-space.md): the topics no competitor owns
-- [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md) and [../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md): the prompts behind every priority
-- [../01-geo-fundamentals/signals-that-matter.md](../01-geo-fundamentals/signals-that-matter.md): the evidence on what AI engines weigh
-- [../06-playbooks/geo-writing-style-guide.md](../06-playbooks/geo-writing-style-guide.md) and [../06-playbooks/templates/](../06-playbooks/templates/): how to write each format
-- [../07-measurement/kpis-and-dashboard.md](../07-measurement/kpis-and-dashboard.md): how to tell whether it is working
+- [[Optimize vs create]]: fix-first framework, the fact-fix sweep and the page-by-page action table
+- [[Content roadmap]]: 60+ specific pieces by cluster and month (Oct 2026 → Mar 2027)
+- [[Off-site earned media plan]]: reviews, lists, press, Reddit, YouTube, podcasts, LinkedIn, directories
+- [[Top-of-funnel strategy]]: keeping and growing reach as AI answers take clicks
+- [[White space]]: the topics no competitor owns
+- [[Prompt library]] and [[Tracking set]]: the prompts behind every priority
+- [[Signals that matter]]: the evidence on what AI engines weigh
+- [[GEO writing style guide]] and [[Page templates]]: how to write each format
+- [[KPIs and dashboard]]: how to tell whether it is working

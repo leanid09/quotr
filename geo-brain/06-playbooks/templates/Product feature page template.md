@@ -1,10 +1,16 @@
+---
+type: page-template
+description: Template for product, feature and trade landing pages.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Template: Product, Feature and Trade Page
 
-**What this page is for:** A template for Quotr.ai product pages, feature pages (e.g., the AI Agent) and the 23 trade pages under /software/trades/, so each one states clearly what the feature does, for whom, at what price and with what limits, in a form AI engines can quote.
+> [!abstract] What this page is for
+> A template for Quotr.ai product pages, feature pages (e.g., the AI Agent) and the 23 trade pages under /software/trades/, so each one states clearly what the feature does, for whom, at what price and with what limits, in a form AI engines can quote.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [../../00-quotr/product-and-features.md](../../00-quotr/product-and-features.md) (§1–3 modules, plans, trades); [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§2 trade pages, §3 /software/ and drywall page, §4 thin trade pages, §6 trade coverage), [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1 product/landing page citation data; Aleyda Solis on templates and integrations pages), [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§2 Beam AI and Kreo trade page trees; §5 trade coverage), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (C4–C6, C9, C13, C15), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #2, #12).
+> [!info]- Sources
+> [[Products and features]] (§1–3 modules, plans, trades); [[quotr_onsite_content_audit]] (§2 trade pages, §3 /software/ and drywall page, §4 thin trade pages, §6 trade coverage), [[geo_content_playbook_b2b]] (§1 product/landing page citation data; Aleyda Solis on templates and integrations pages), [[competitor_geo_benchmark]] (§2 Beam AI and Kreo trade page trees; §5 trade coverage), [[quotr_ai_visibility_tests]] (C4–C6, C9, C13, C15), [[verification_geo_evidence]] (claims #2, #12).
 
 ---
 
@@ -68,7 +74,7 @@
 | 7 | **Limits** | Where AI needs a human check for this trade |
 | 8 | **Proof** | Trade-specific case study or video |
 | 9 | **Want it done for you?** | Quotr Service for this trade ($0.25/$0.10 per sq ft) |
-| 10 | **FAQ** | 4–6 trade questions from [buyer-questions-by-trade.md](../../04-prompt-library/buyer-questions-by-trade.md) |
+| 10 | **FAQ** | 4–6 trade questions from [[Buyer questions by trade]] |
 | 11 | **Related** | Trade how-to guide, cost guide, dictionary terms, best-of post for the trade |
 
 **Minimum bar before a trade page is "done":** 400+ words of trade-specific content, a scope table, one example, one FAQ block, and at least one link to a trade how-to. If a trade cannot meet this yet, consider consolidating it into a broader page (e.g., "Finishes: tile, painting, millwork") rather than keeping a thin page.
@@ -113,18 +119,18 @@
 
 **Fix from today's page:** the current copy says "from commercial floor plans" only; add residential if Quotr confirms residential is a core audience.
 
-**FAQ:** see the drywall example in [faq-block.md](faq-block.md).
+**FAQ:** see the drywall example in [[FAQ block template]].
 
-**Links:** drywall how-to ([trade-how-to-guide.md](trade-how-to-guide.md) example), drywall cost guide ([cost-guide.md](cost-guide.md) example), [best-drywall-estimating-software-in-2026](https://quotr.ai/blog/best-drywall-estimating-software-in-2026/) (after its pricing fix).
+**Links:** drywall how-to ([[Trade how-to guide template]] example), drywall cost guide ([[Cost guide template]] example), [best-drywall-estimating-software-in-2026](https://quotr.ai/blog/best-drywall-estimating-software-in-2026/) (after its pricing fix).
 
 ---
 
 ## 6. Trade page priority order
 
-Based on High-priority prompts in the [prompt library](../../04-prompt-library/prompt-library.md) and the trades with the least supporting content (onsite audit §6):
+Based on High-priority prompts in the [[Prompt library|prompt library]] and the trades with the least supporting content (onsite audit §6):
 
 1. **Drywall, flooring, roofing, framing** (High how-to and tool prompts; roofing has only a trade page and one service sample).
-2. **Windows and doors, cabinets/millwork, tile** (where takeoff meets Quotr Procurement; see [../../03-market/white-space.md](../../03-market/white-space.md)). Note: Quotr has "doors-hardware", "millwork" and "tile" pages; windows are covered under "glazing" (**check naming with Quotr**).
+2. **Windows and doors, cabinets/millwork, tile** (where takeoff meets Quotr Procurement; see [[White space]]). Note: Quotr has "doors-hardware", "millwork" and "tile" pages; windows are covered under "glazing" (**check naming with Quotr**).
 3. **Electrical, plumbing, HVAC** (already have supporting posts; add scope tables and brand-attributed examples).
 4. The remaining trades: expand or consolidate.
 
@@ -132,7 +138,7 @@ Based on High-priority prompts in the [prompt library](../../04-prompt-library/p
 
 ## 7. Schema for these pages
 
-- /software/: SoftwareApplication with Offers + FAQPage + BreadcrumbList ([../schema-markup-kit.md](../schema-markup-kit.md) 5.2, 5.4, 5.7).
+- /software/: SoftwareApplication with Offers + FAQPage + BreadcrumbList ([[Schema markup kit]] 5.2, 5.4, 5.7).
 - Feature and trade pages: BreadcrumbList; FAQPage for visible FAQs; VideoObject for demos. Reference the SoftwareApplication by `@id` (`https://quotr.ai/#software`) rather than redefining it.
 - Remove the repeated trade grid (it appears three times in the delivered text of /software/; onsite audit §1; verification claim 18).
 
@@ -155,10 +161,10 @@ Based on High-priority prompts in the [prompt library](../../04-prompt-library/p
 
 ## Related pages
 
-- [pricing-page.md](pricing-page.md) — the plan details every product page links to
-- [trade-how-to-guide.md](trade-how-to-guide.md) and [cost-guide.md](cost-guide.md) — supporting trade content
-- [faq-block.md](faq-block.md) — approved answers
-- [youtube-video-brief.md](youtube-video-brief.md) — demo videos for each feature and trade
-- [../../00-quotr/product-and-features.md](../../00-quotr/product-and-features.md) — module-by-module facts and open questions
-- [../../04-prompt-library/buyer-questions-by-trade.md](../../04-prompt-library/buyer-questions-by-trade.md) — trade questions for FAQs
-- [../../03-market/competitors/beam-ai.md](../../03-market/competitors/beam-ai.md) — the trade-page tree to learn from
+- [[Pricing page template]] — the plan details every product page links to
+- [[Trade how-to guide template]] and [[Cost guide template]] — supporting trade content
+- [[FAQ block template]] — approved answers
+- [[YouTube video brief template]] — demo videos for each feature and trade
+- [[Products and features]] — module-by-module facts and open questions
+- [[Buyer questions by trade]] — trade questions for FAQs
+- [[Beam AI]] — the trade-page tree to learn from

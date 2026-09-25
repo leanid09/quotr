@@ -1,10 +1,16 @@
+---
+type: playbook
+description: Step-by-step checklist and scoring rubric for upgrading an existing page, and how to pick which first.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Page Refresh Checklist (GEO Upgrade of Existing Pages)
 
-**What this page is for:** A step-by-step checklist and scoring rubric for upgrading an existing quotr.ai page so AI answer engines can find, trust and quote it, plus a method for choosing which pages to refresh first.
+> [!abstract] What this page is for
+> A step-by-step checklist and scoring rubric for upgrading an existing quotr.ai page so AI answer engines can find, trust and quote it, plus a method for choosing which pages to refresh first.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§2 "Optimizing existing content vs creating new", §4 measurement), [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§1–6), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (claims 4, 7, 13–18; gaps filled #2, #5), [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #1, #2, #7, #10; H6; M1), [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (§1–5), [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§3–4).
+> [!info]- Sources
+> [[geo_content_playbook_b2b]] (§2 "Optimizing existing content vs creating new", §4 measurement), [[quotr_onsite_content_audit]] (§1–6), [[verification_quotr_and_competitors]] (claims 4, 7, 13–18; gaps filled #2, #5), [[verification_geo_evidence]] (claims #1, #2, #7, #10; H6; M1), [[quotr_ai_visibility_tests]] (§1–5), [[competitor_geo_benchmark]] (§3–4).
 
 ---
 
@@ -15,7 +21,7 @@
 3. Work through the **checklist in Section 3** for each page, top to bottom.
 4. Re-score after the refresh and log it (**Section 7**).
 
-Write every change using [geo-writing-style-guide.md](geo-writing-style-guide.md). Check every Quotr fact against [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md).
+Write every change using [[GEO writing style guide]]. Check every Quotr fact against [[Entity fact sheet]].
 
 **Plain-English terms:**
 - **Refresh:** a real update to an existing URL (new facts, better structure, new sections). Not just a new date.
@@ -44,8 +50,8 @@ Write every change using [geo-writing-style-guide.md](geo-writing-style-guide.md
 | **Google Search Console → Generative AI performance reports** (worldwide since Aug 31, 2026) | Impressions from AI Overviews and AI Mode, per page | First first-party Google data on AI visibility. Impressions only: no clicks, CTR or queries. Do not add to Web totals (`verification_geo_evidence.md` M1) |
 | **Bing Webmaster Tools → AI Performance** (public preview since Feb 2026) | How often each URL is cited in Copilot and Bing AI answers, plus "grounding queries" | Shows which pages Microsoft's AI already uses and for which internal searches (`geo_ai_citation_signals_2026.md` §1; blog date corrected to Feb 10, 2026 in `verification_geo_evidence.md` claim #3) |
 | **GA4** | Landing pages for the "AI Assistant" default channel (since May 13, 2026) **plus** a custom channel with a regex such as `chatgpt\.com\|chat\.openai\.com\|perplexity\.ai\|gemini\.google\.com\|copilot\.microsoft\.com\|claude\.ai` | Pages that already get AI referrals. Perplexity is **not** in GA4's AI channel, so keep the custom regex (`verification_geo_evidence.md` claim #7) |
-| **Prompt tracking results** | Which quotr.ai URLs were cited or retrieved per prompt | See [../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md) and [../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md) |
-| **Fact-risk list** | Pages showing retired prices or conflicting facts | From [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) §4 and [../02-current-state/website-audit.md](../02-current-state/website-audit.md) |
+| **Prompt tracking results** | Which quotr.ai URLs were cited or retrieved per prompt | See [[AI visibility baseline]] and [[Tracking set]] |
+| **Fact-risk list** | Pages showing retired prices or conflicting facts | From [[Entity fact sheet]] §4 and [[Website audit]] |
 
 ### 2b. Priority score (use a spreadsheet)
 
@@ -56,7 +62,7 @@ Score each candidate page 0–3 on each line, then add them up.
 | **Fact risk** (wrong or retired facts that AI repeats) | None | Minor | Outdated number | Wrong price, wrong competitor fact, or leftover brief text |
 | **Already visible** (GSC impressions, AI impressions, Bing AI citations, or cited/retrieved in prompt tests) | None | Some impressions | Retrieved in tests or growing AI impressions | Cited first in an AI answer |
 | **Business value** (how close to a sale) | Event recap, news | Top-of-funnel education | Comparison, trade page, cost guide | Pricing, product, service, procurement |
-| **Prompt gap** (a High-priority prompt in the [prompt library](../04-prompt-library/prompt-library.md) points to this page with "(optimize)") | No | Low-priority prompt | Medium | High |
+| **Prompt gap** (a High-priority prompt in the [[Prompt library\|prompt library]] points to this page with "(optimize)") | No | Low-priority prompt | Medium | High |
 | **Effort** (subtract) | — | Days (subtract 1) | A week (subtract 2) | Needs new data or Quotr confirmation (subtract 3) |
 
 **Rule of thumb:** any page with Fact risk = 3 goes to the top, whatever its other scores. Wrong facts spread: Nomic and Octopus Builds already copied Quotr's retired $299.90 entry price (verification file, claim 27).
@@ -93,9 +99,9 @@ Score each candidate page 0–3 on each line, then add them up.
 
 **Tier 2 — thin pages on strategic topics (refresh in batches):**
 
-- **23 trade pages** under /software/trades/. The drywall page had about 25 words of unique copy (onsite audit §3). Some may have been expanded since (the structural-steel index copy looked richer), so re-check each first. Start with the trades that have High-priority prompts: drywall, flooring, roofing, framing (see [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md) "Views by trade").
-- **55 dictionary terms** (~200 words, no author, no sources, none updated since July 2026). Upgrade the ones tied to High prompts first: ai-takeoff, quantity-takeoff, bid-leveling, scope-gap, markup-vs-margin. Use [templates/glossary-entry.md](templates/glossary-entry.md).
-- **Case studies:** [RL Electric](https://quotr.ai/case-studies/rl-electric/) shows no numbers on the page; the "20 hours → 1–2 hours" quote lives only on the homepage. Use [templates/case-study.md](templates/case-study.md).
+- **23 trade pages** under /software/trades/. The drywall page had about 25 words of unique copy (onsite audit §3). Some may have been expanded since (the structural-steel index copy looked richer), so re-check each first. Start with the trades that have High-priority prompts: drywall, flooring, roofing, framing (see [[Prompt library]] "Views by trade").
+- **55 dictionary terms** (~200 words, no author, no sources, none updated since July 2026). Upgrade the ones tied to High prompts first: ai-takeoff, quantity-takeoff, bid-leveling, scope-gap, markup-vs-margin. Use [[Glossary entry template]].
+- **Case studies:** [RL Electric](https://quotr.ai/case-studies/rl-electric/) shows no numbers on the page; the "20 hours → 1–2 hours" quote lives only on the homepage. Use [[Case study template]].
 - **Tariff and cost posts** that feed High-priority tariff prompts (e.g., [tariff-impact-construction-costs-2026-steel-aluminum-copper](https://quotr.ai/blog/tariff-impact-construction-costs-2026-steel-aluminum-copper/)). Today tariff answers cite only government, association and media sources (competitor benchmark §3).
 
 **Consolidation candidates:**
@@ -112,13 +118,13 @@ Score each candidate page 0–3 on each line, then add them up.
 ### Step 1. Before you edit (15 minutes)
 
 - [ ] Record the page's baseline: GSC clicks/impressions (last 3 months), GSC generative-AI impressions, Bing AI citations, GA4 AI-channel sessions.
-- [ ] List the 3–8 prompts this page should answer (from the [prompt library](../04-prompt-library/prompt-library.md)). Run them in at least two engines and note: is Quotr named? Is this URL cited? Who is cited instead?
+- [ ] List the 3–8 prompts this page should answer (from the [[Prompt library|prompt library]]). Run them in at least two engines and note: is Quotr named? Is this URL cited? Who is cited instead?
 - [ ] Open the 2–3 pages that AI engines cite instead. Note what they have that Quotr's page lacks (a number, a table, a date, a step list, a definition).
 - [ ] Score the page with the rubric in Section 4. Save the score.
 
 ### Step 2. Facts (fix these even if you change nothing else)
 
-- [ ] Every Quotr fact matches [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md): prices (Lite $79.90, Plus $299.90 per seat per month, Enterprise custom, 7-day trial), service rates ($0.25/$0.10 per sq ft), names (Quotr.ai; Quotr Software/Service/Procurement).
+- [ ] Every Quotr fact matches [[Entity fact sheet]]: prices (Lite $79.90, Plus $299.90 per seat per month, Enterprise custom, 7-day trial), service rates ($0.25/$0.10 per sq ft), names (Quotr.ai; Quotr Software/Service/Procurement).
 - [ ] Remove every retired plan name and price: "Solo", "Team", "1 User Plan", "2–10 Users Plan", "$499.90", "from $299.90/month".
 - [ ] Remove or mark any "TO CONFIRM" fact: HQ city, founding year, funding, factory count (50+ vs 220+), savings %, turnaround, accuracy %.
 - [ ] Check every competitor fact on the competitor's own site; add "as of [Month Year]". Fix known errors (PlanSwift is ConstructConnect's, not Trimble's).
@@ -133,7 +139,7 @@ Score each candidate page 0–3 on each line, then add them up.
 - [ ] Make each H2 section self-contained: open with a 1–2 sentence answer that names the subject.
 - [ ] Add a table where readers compare things (prices, features, trades, manual vs AI).
 - [ ] Add a short "Limitations / when this is not the right fit" section (comparison, product, accuracy pages).
-- [ ] Add an FAQ of 4–8 real questions from the prompt library (see [templates/faq-block.md](templates/faq-block.md)).
+- [ ] Add an FAQ of 4–8 real questions from the prompt library (see [[FAQ block template]]).
 - [ ] Cut filler intros, repeated sections (e.g., the triple trade grid on /software/) and off-topic paragraphs.
 
 ### Step 4. Evidence and originality
@@ -153,7 +159,7 @@ Score each candidate page 0–3 on each line, then add them up.
 
 - [ ] Page is indexable (no `noindex`), returns 200, canonical points to itself (or to the right main page).
 - [ ] Key content is in the HTML, not loaded only by JavaScript (e.g., the /procurement/ savings counters render "~$0" before the script runs).
-- [ ] Add or fix schema from [schema-markup-kit.md](schema-markup-kit.md): BlogPosting with the real author; FAQPage matching the visible FAQ; BreadcrumbList; SoftwareApplication/Offer on pricing and product pages. Validate it.
+- [ ] Add or fix schema from [[Schema markup kit]]: BlogPosting with the real author; FAQPage matching the visible FAQ; BreadcrumbList; SoftwareApplication/Offer on pricing and product pages. Validate it.
 - [ ] Images have descriptive alt text; tables are real HTML tables.
 - [ ] Page is in the right sitemap, and the blog sitemap is listed in robots.txt (it is not today; onsite audit §1).
 
@@ -169,7 +175,7 @@ Score each candidate page 0–3 on each line, then add them up.
 - [ ] Request re-indexing: Google Search Console URL Inspection; Bing Webmaster Tools URL submission or IndexNow. (The verification file recommends this for all stale-pricing pages; gaps filled #2.)
 - [ ] Update llms.txt if the page is linked there (low priority; llms.txt has no proven effect, but it must not be wrong).
 - [ ] Re-promote: founder LinkedIn post, email, and links from new content (Ahrefs recommends re-promoting updated pages; `geo_content_playbook_b2b.md` §2).
-- [ ] If third-party pages repeat the old fact, email them the correction (see [offsite/listicle-and-pr-outreach.md](offsite/listicle-and-pr-outreach.md)).
+- [ ] If third-party pages repeat the old fact, email them the correction (see [[Listicle and PR outreach]]).
 - [ ] Re-run the page's prompts **2–4 weeks later**, then monthly. Do not judge on one run: 40–60% of cited domains change month to month for the same queries (Profound, `geo_content_playbook_b2b.md` §4).
 - [ ] Re-score the page and fill in the refresh log.
 
@@ -221,7 +227,7 @@ Score each of the 12 criteria 0, 1 or 2. Score before and after the refresh.
 | 11 | 1 | Article schema only; no FAQPage or BreadcrumbList |
 | 12 | 1 | Links present; not checked in full |
 
-**[Drywall trade page](https://quotr.ai/software/trades/drywall/)** — about 4/24 → Rewrite (use [templates/product-feature-page.md](templates/product-feature-page.md) for trade pages). One sentence of unique copy, two blog links, no FAQ, no specifics, no examples (onsite audit §3). Re-check the live page first, since some trade pages may have been expanded.
+**[Drywall trade page](https://quotr.ai/software/trades/drywall/)** — about 4/24 → Rewrite (use [[Product feature page template]] for trade pages). One sentence of unique copy, two blog links, no FAQ, no specifics, no examples (onsite audit §3). Re-check the live page first, since some trade pages may have been expanded.
 
 ---
 
@@ -265,11 +271,11 @@ Never change only the date. If nothing changed, leave the date alone.
 
 ## Related pages
 
-- [geo-writing-style-guide.md](geo-writing-style-guide.md) — how to write each section
-- [schema-markup-kit.md](schema-markup-kit.md) — schema to add during a refresh
-- [templates/](templates/) — page-type templates for rewrites
-- [../02-current-state/website-audit.md](../02-current-state/website-audit.md) — full list of on-site issues
-- [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) — the facts to check against
-- [../05-content-strategy/optimize-vs-create.md](../05-content-strategy/optimize-vs-create.md) — how refresh work fits the wider plan
-- [../07-measurement/tracking-setup.md](../07-measurement/tracking-setup.md) — GA4, Search Console and Bing setup
-- [../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md) — prompts to re-test after a refresh
+- [[GEO writing style guide]] — how to write each section
+- [[Schema markup kit]] — schema to add during a refresh
+- [[Page templates]] — page-type templates for rewrites
+- [[Website audit]] — full list of on-site issues
+- [[Entity fact sheet]] — the facts to check against
+- [[Optimize vs create]] — how refresh work fits the wider plan
+- [[Tracking setup]] — GA4, Search Console and Bing setup
+- [[Tracking set]] — prompts to re-test after a refresh

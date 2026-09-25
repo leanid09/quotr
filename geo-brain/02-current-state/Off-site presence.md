@@ -1,16 +1,24 @@
+---
+type: baseline
+description: 'Every place outside quotr.ai where Quotr appears (or should): reviews, directories, lists, press, social.'
+last_verified: 2026-09-25
+verify_every_days: 30
+---
 # Quotr Off-Site Presence (Baseline, September 2026)
 
-**What this page is for:** A complete list of every place outside quotr.ai where Quotr shows up (or should show up), with status, numbers and links, so the team knows what exists, what is wrong, and what is missing.
+> [!abstract] What this page is for
+> A complete list of every place outside quotr.ai where Quotr shows up (or should show up), with status, numbers and links, so the team knows what exists, what is wrong, and what is missing.
+>
+> *Baseline measured on 2026-09-25.*
 
-**Last updated:** 2026-09-25 (baseline measurement date: 2026-09-25)
-
-**Sources:** Research notes [quotr_offsite_presence.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (main source), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (corrections override the other notes), [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>), [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (general evidence caveats). Every row below links to the page it came from.
+> [!info]- Sources
+> Research notes [[quotr_offsite_presence]] (main source), [[verification_quotr_and_competitors]] (corrections override the other notes), [[quotr_ai_visibility_tests]], [[competitor_geo_benchmark]], [[verification_geo_evidence]] (general evidence caveats). Every row below links to the page it came from.
 
 ---
 
 ## Why off-site presence matters (in two lines)
 
-AI answer engines trust what **other** websites say about a brand more than what the brand says about itself. In our tests, when a fact about Quotr came only from quotr.ai, Perplexity often used it without naming Quotr, or added "vendor assertions" and "not independently validated". See [../01-geo-fundamentals/signals-that-matter.md](../01-geo-fundamentals/signals-that-matter.md).
+AI answer engines trust what **other** websites say about a brand more than what the brand says about itself. In our tests, when a fact about Quotr came only from quotr.ai, Perplexity often used it without naming Quotr, or added "vendor assertions" and "not independently validated". See [[Signals that matter]].
 
 ## How we checked (and what we could not check)
 
@@ -150,7 +158,7 @@ No page in this list is independent editorial. The fact-check confirmed three pa
 
 ## 2. Entity facts: what each source says
 
-This is the core problem for AI engines. When sources disagree, engines hedge or pick the wrong one. The correct values are **TO CONFIRM with Quotr** and belong in [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md).
+This is the core problem for AI engines. When sources disagree, engines hedge or pick the wrong one. The correct values are **TO CONFIRM with Quotr** and belong in [[Entity fact sheet]].
 
 | Fact | quotr.ai /disambiguation/ | Other quotr.ai pages | Crunchbase | PitchBook | Podcast (MPN) | Other |
 |---|---|---|---|---|---|---|
@@ -169,7 +177,7 @@ This is the core problem for AI engines. When sources disagree, engines hedge or
 
 ## 3. Third-party "best of" lists: who includes Quotr
 
-These are the lists AI engines lean on for "best X" and "X alternatives" questions. For where each one is cited, see [../03-market/citation-sources-map.md](../03-market/citation-sources-map.md).
+These are the lists AI engines lean on for "best X" and "X alternatives" questions. For where each one is cited, see [[Citation sources map]].
 
 ### 3a. AI takeoff and estimating roundups
 
@@ -213,7 +221,7 @@ Without reviews, Quotr cannot appear on these pages. They are built largely from
 | [F6S construction procurement category](https://www.f6s.com/software/category/construction-procurement) | No |
 | [Archdesk procurement tools list](https://archdesk.com/blog/the-best-construction-procurement-software-tools) | No |
 
-Perplexity said of this category: "the search results do not show a single platform explicitly marketed as a factory-direct marketplace for all building materials." This is open ground. See [../03-market/white-space.md](../03-market/white-space.md).
+Perplexity said of this category: "the search results do not show a single platform explicitly marketed as a factory-direct marketplace for all building materials." This is open ground. See [[White space]].
 
 ---
 
@@ -235,7 +243,7 @@ Ratings "as of July 2026" from ConstructConnect's guide, unless noted. Caution: 
 | Buildxact | — | — | Capterra 4.6 (Buildxact's newsroom: "4.6 out of 5 from more than 150 verified reviews"; search summaries show about 165–174); "Top Home Builder Solution" by Capterra and Software Advice for 2026. |
 | **Quotr.ai** | **reported 0.0 (unverified)** | **reported 0 (unverified)** | No Capterra, GetApp or Software Advice listing found. Product Hunt 0 upvotes. |
 
-More in [../03-market/competitor-landscape.md](../03-market/competitor-landscape.md).
+More in [[Competitor landscape]].
 
 ---
 
@@ -272,7 +280,7 @@ Directory look-alikes: Capterra shows QuoTrak and a "Quoting" category; G2 shows
 
 ## 7. How AI engines use (and misuse) the off-site record
 
-Short version here; full detail in [ai-visibility-baseline.md](ai-visibility-baseline.md).
+Short version here; full detail in [[AI visibility baseline]].
 
 - **"What is Quotr?"** Perplexity opens with "Quotr is a name used by several different products" and lists namesakes before settling on Quotr.ai.
 - **"Is Quotr.ai legit? Reviews"** Perplexity borrows the Quotr Pro app's 4.7 rating, says "G2 shows 0 reviews for QUOTR", and concludes "plausibly legitimate but not independently well-validated".
@@ -283,7 +291,7 @@ Short version here; full detail in [ai-visibility-baseline.md](ai-visibility-bas
 
 ## 8. Gaps, ranked by impact and ease
 
-Based on the research notes' own ranking (realism × impact). Plans live in [../05-content-strategy/offsite-earned-media-plan.md](../05-content-strategy/offsite-earned-media-plan.md).
+Based on the research notes' own ranking (realism × impact). Plans live in [[Off-site earned media plan]].
 
 | # | Gap | Why it matters | Effort |
 |---|---|---|---|
@@ -295,7 +303,7 @@ Based on the research notes' own ranking (realism × impact). Plans live in [../
 | 6 | **No press for the $3.5M seed; no trade-press bylines** | A wire story would give AI engines an independent source for funding, HQ and category. Founders (architect; Berkeley engineering PhD) have the credentials for bylines. | Medium |
 | 7 | **No Wikidata item** | A realistic, factual entity record (FLOZ Inc, founding date, HQ, website, social IDs). Low-cost hygiene; there is no evidence it is a lever (fact-check note H16 in the GEO-evidence verification file). A Wikipedia article is not realistic until independent press exists; treat the podcast's "Wikipedia hack" with caution. | Low |
 | 8 | **Zero Reddit presence** | r/estimators was cited in 6 of 32 prompts, and threads ask whether AI takeoff works. The community is sceptical, so only transparent, founder-disclosed help will work. | Ongoing |
-| 9 | **YouTube never cited; channel split** | Industry studies report YouTube among the most-cited domains in AI Overviews, and YouTube mentions correlate strongly with AI visibility (a correlation, not proven cause). Buyers also watch demos. See [../01-geo-fundamentals/signals-that-matter.md](../01-geo-fundamentals/signals-that-matter.md). | Medium |
+| 9 | **YouTube never cited; channel split** | Industry studies report YouTube among the most-cited domains in AI Overviews, and YouTube mentions correlate strongly with AI visibility (a correlation, not proven cause). Buyers also watch demos. See [[Signals that matter]]. | Medium |
 | 10 | **Legacy and staging hosts in the index** (quotr.io/pricing, firetips.quotr.io, test.quotr.io) | Stale copy can resurface in AI answers. | Low (technical) |
 
 ---
@@ -316,12 +324,12 @@ Based on the research notes' own ranking (realism × impact). Plans live in [../
 
 ## Related pages
 
-- [presence-scorecard.md](presence-scorecard.md) — scores for reviews, lists, community and press
-- [ai-visibility-baseline.md](ai-visibility-baseline.md) — how AI engines answer, prompt by prompt
-- [website-audit.md](website-audit.md) — on-site facts that should match these profiles
-- [geo-tactics-already-used.md](geo-tactics-already-used.md) — including the profile link list on /disambiguation/
-- [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) — the single source of truth for company facts
-- [../03-market/citation-sources-map.md](../03-market/citation-sources-map.md) — which third-party sites AI engines cite most
-- [../03-market/competitor-landscape.md](../03-market/competitor-landscape.md) — competitor footprints in more detail
-- [../05-content-strategy/offsite-earned-media-plan.md](../05-content-strategy/offsite-earned-media-plan.md) — the plan to close these gaps
-- [../06-playbooks/offsite/review-generation.md](../06-playbooks/offsite/review-generation.md) and [../06-playbooks/offsite/listicle-and-pr-outreach.md](../06-playbooks/offsite/listicle-and-pr-outreach.md) — step-by-step off-site playbooks (more in the same folder)
+- [[Presence scorecard]] — scores for reviews, lists, community and press
+- [[AI visibility baseline]] — how AI engines answer, prompt by prompt
+- [[Website audit]] — on-site facts that should match these profiles
+- [[GEO tactics already used]] — including the profile link list on /disambiguation/
+- [[Entity fact sheet]] — the single source of truth for company facts
+- [[Citation sources map]] — which third-party sites AI engines cite most
+- [[Competitor landscape]] — competitor footprints in more detail
+- [[Off-site earned media plan]] — the plan to close these gaps
+- [[Review generation]] and [[Listicle and PR outreach]] — step-by-step off-site playbooks (more in the same folder)

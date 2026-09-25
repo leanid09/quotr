@@ -1,13 +1,18 @@
+---
+type: reference
+description: 120 construction estimating, bidding, procurement and importing terms in plain English.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Construction Estimating, Takeoff and Procurement Glossary
 
-**What this page is for:** Plain-English definitions of 120 construction estimating, takeoff, bidding, procurement and importing terms, each with a one-line note on why it matters for Quotr's content. Use it when writing or briefing content, and as the starting point for a public Quotr glossary (which is itself a strong GEO asset; see section 10).
+> [!abstract] What this page is for
+> Plain-English definitions of 120 construction estimating, takeoff, bidding, procurement and importing terms, each with a one-line note on why it matters for Quotr's content. Use it when writing or briefing content, and as the starting point for a public Quotr glossary (which is itself a strong GEO asset; see section 10).
 
-**Last updated:** 2026-09-25
-
-**Sources:**
-- Definitions are standard industry meanings written in plain English. Terms involving rules, rates or dates were checked on 2026-09-25 against: [ICC Incoterms 2020](https://iccwbo.org/business-solutions/incoterms-rules/incoterms-2020/), [USITC HTS overview](https://www.usitc.gov/tariff_affairs/about_hts.htm), [CBP ISF help article](https://www.help.cbp.gov/s/article/Article-1868), [Federal Register AD/CVD orders on wooden cabinets and vanities](https://www.federalregister.gov/documents/2020/04/21/2020-08544/wooden-cabinets-and-vanities-and-components-thereof-from-the-peoples-republic-of-china-antidumping), [Thompson Hine SmarTrade on the Section 232 cabinet tariff delay](https://www.thompsonhinesmartrade.com/2026/01/president-trump-delays-section-232-tariff-increase-on-wood-furniture-cabinets-and-vanities/), [ACCA Manual J](https://www.acca.org/standards/technical-manuals/manual-j).
-- Quotr facts and pages: [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (dictionary of 55 terms, §2 and §6), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>), [../00-quotr/product-and-features.md](../00-quotr/product-and-features.md); WebSearch of quotr.ai/dictionary (2026-09-25).
-- GEO notes on glossaries: [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§3, what makes pages citable), [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§7 click resilience), [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims 1–2).
+> [!info]- Sources
+> - Definitions are standard industry meanings written in plain English. Terms involving rules, rates or dates were checked on 2026-09-25 against: [ICC Incoterms 2020](https://iccwbo.org/business-solutions/incoterms-rules/incoterms-2020/), [USITC HTS overview](https://www.usitc.gov/tariff_affairs/about_hts.htm), [CBP ISF help article](https://www.help.cbp.gov/s/article/Article-1868), [Federal Register AD/CVD orders on wooden cabinets and vanities](https://www.federalregister.gov/documents/2020/04/21/2020-08544/wooden-cabinets-and-vanities-and-components-thereof-from-the-peoples-republic-of-china-antidumping), [Thompson Hine SmarTrade on the Section 232 cabinet tariff delay](https://www.thompsonhinesmartrade.com/2026/01/president-trump-delays-section-232-tariff-increase-on-wood-furniture-cabinets-and-vanities/), [ACCA Manual J](https://www.acca.org/standards/technical-manuals/manual-j).
+> - Quotr facts and pages: [[quotr_onsite_content_audit]] (dictionary of 55 terms, §2 and §6), [[verification_quotr_and_competitors]], [[Products and features]]; WebSearch of quotr.ai/dictionary (2026-09-25).
+> - GEO notes on glossaries: [[competitor_geo_benchmark]] (§3, what makes pages citable), [[geo_content_playbook_b2b]] (§7 click resilience), [[verification_geo_evidence]] (claims 1–2).
 
 ---
 
@@ -15,7 +20,7 @@
 
 - **Term**: the word as buyers write it, with common abbreviations.
 - **Plain-English meaning**: one or two short sentences. Where a number is a rule of thumb, it says so.
-- **Why it matters for Quotr content**: how the term connects to a Quotr product, a buyer question or a content opportunity. Prompt IDs (L-, E-, D-) point to [prompt-library.md](prompt-library.md).
+- **Why it matters for Quotr content**: how the term connects to a Quotr product, a buyer question or a content opportunity. Prompt IDs (L-, E-, D-) point to [[Prompt library]].
 - **Quotr page**: a link where Quotr already has a dictionary or blog page for the term. The 16 dictionary URLs shown were confirmed in the notes or by search. The onsite audit also names "board foot", "cubic yard", "formwork" and "after repair value" as dictionary terms, but their exact URLs were not captured (**URL to confirm**). Quotr's dictionary has 55 terms in total; the full list was not available for this page.
 - Tariff rates and rules change. Anything about tariffs is correct as checked on 2026-09-25 and should be re-checked before publishing.
 
@@ -195,18 +200,18 @@ Also relevant (defined in the pages above or on Quotr's dictionary): **rebar** (
 **GEO** (generative engine optimization) means getting a brand found, mentioned and cited by AI answer engines. A public glossary helps in four ways, and has limits.
 
 **Why it helps**
-1. **Definition prompts are common.** Many prompts in [prompt-library.md](prompt-library.md) are "what is…" questions (for example L-008, L-023, L-030, L-033, L-110, L-115). AI answers for these quote short, clear definitions.
-2. **Quotable one-sentence definitions get lifted.** The competitor benchmark found that engines cite pages with quotable one-sentence definitions; for example, Easy Takeoffs' line "AI-assisted means the software drafts a result and a human reviews and owns it" was repeated in a search summary, and ruh.ai's quantity-takeoff glossary page was cited for "how do I do a quantity takeoff from PDF plans / what is AI takeoff" (test S8) ([competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>), §3).
+1. **Definition prompts are common.** Many prompts in [[Prompt library]] are "what is…" questions (for example L-008, L-023, L-030, L-033, L-110, L-115). AI answers for these quote short, clear definitions.
+2. **Quotable one-sentence definitions get lifted.** The competitor benchmark found that engines cite pages with quotable one-sentence definitions; for example, Easy Takeoffs' line "AI-assisted means the software drafts a result and a human reviews and owns it" was repeated in a search summary, and ruh.ai's quantity-takeoff glossary page was cited for "how do I do a quantity takeoff from PDF plans / what is AI takeoff" (test S8) ([[competitor_geo_benchmark]], §3).
 3. **Importing and tariff terms have no software vendor voice today.** Terms 75–100 (landed cost, DDP vs FOB, HTS, Section 232, AD/CVD, ISF, NFRC, CARB, cUPC) sit in Quotr's white space, where AI answers cite only government, media and logistics sources.
 4. **Internal linking and entity clarity.** A glossary links trade pages, calculators, the procurement page and pricing together, and repeats consistent facts about Quotr.
 
 **Limits (be honest in planning)**
-- Definitions are easy for AI to answer **without a click**. Treat the glossary as a source of citations and brand mentions, not traffic. Keep entries short and answer-first, and link each to a tool, benchmark or deeper guide ([geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>), §7).
-- Do not mass-produce thin pages. Google's May 2026 AI-search guide says "valuable, unique, non-commodity content" matters most, and warns against pages made mainly to catch every query variation ([verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>), claims 1–2).
+- Definitions are easy for AI to answer **without a click**. Treat the glossary as a source of citations and brand mentions, not traffic. Keep entries short and answer-first, and link each to a tool, benchmark or deeper guide ([[geo_content_playbook_b2b]], §7).
+- Do not mass-produce thin pages. Google's May 2026 AI-search guide says "valuable, unique, non-commodity content" matters most, and warns against pages made mainly to catch every query variation ([[verification_geo_evidence]], claims 1–2).
 - Schema markup (e.g. DefinedTerm) is low-priority hygiene; the evidence that schema drives AI citations is weak (verification_geo_evidence.md, summary).
 
 **What Quotr has today**
-- 55 dictionary pages under [/dictionary/](https://quotr.ai/dictionary/), published 2026-06-16 to 2026-07-15 and not updated since. The one entry reviewed in detail (AI Takeoff) is about 200 words, with no author and no sources ([quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>), §2; [../00-quotr/product-and-features.md](../00-quotr/product-and-features.md), §4).
+- 55 dictionary pages under [/dictionary/](https://quotr.ai/dictionary/), published 2026-06-16 to 2026-07-15 and not updated since. The one entry reviewed in detail (AI Takeoff) is about 200 words, with no author and no sources ([[quotr_onsite_content_audit]], §2; [[Products and features]], §4).
 - In the September 2026 tests, Quotr's dictionary pages were not cited even where they rank in web search (S8: "what is AI takeoff").
 
 **How to upgrade it (suggested)**
@@ -221,10 +226,10 @@ Also relevant (defined in the pages above or on Quotr's dictionary): **rebar** (
 
 ## Related pages
 
-- [prompt-library.md](prompt-library.md) — the prompts these terms appear in
-- [buyer-questions-by-trade.md](buyer-questions-by-trade.md) — trade questions that use these terms
-- [tracking-set.md](tracking-set.md) — prompts tracked every month
-- [../00-quotr/product-and-features.md](../00-quotr/product-and-features.md) — Quotr product facts referred to here
-- [../01-geo-fundamentals/geo-glossary.md](../01-geo-fundamentals/geo-glossary.md) — GEO and AI-search terms (a separate glossary)
-- [../06-playbooks/geo-writing-style-guide.md](../06-playbooks/geo-writing-style-guide.md) — how to write glossary entries that AI can quote
-- [../06-playbooks/schema-markup-kit.md](../06-playbooks/schema-markup-kit.md) — optional markup for glossary pages
+- [[Prompt library]] — the prompts these terms appear in
+- [[Buyer questions by trade]] — trade questions that use these terms
+- [[Tracking set]] — prompts tracked every month
+- [[Products and features]] — Quotr product facts referred to here
+- [[GEO glossary]] — GEO and AI-search terms (a separate glossary)
+- [[GEO writing style guide]] — how to write glossary entries that AI can quote
+- [[Schema markup kit]] — optional markup for glossary pages

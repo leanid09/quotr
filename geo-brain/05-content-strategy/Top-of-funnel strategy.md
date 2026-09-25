@@ -1,10 +1,16 @@
+---
+type: guide
+description: How to keep and grow early-stage reach when AI answers take the clicks.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Top-of-Funnel Strategy: Keeping and Growing Reach When AI Answers Take the Clicks
 
-**What this page is for:** How Quotr.ai keeps and grows its top-of-funnel reach (people at the early research stage who are not yet shopping for a specific product) now that AI answers in Google, ChatGPT and other engines answer many questions without a click. It covers what is happening to clicks, how to redefine "reach", seven moves to grow it, which assets still earn clicks and email sign-ups, and how to measure it. It answers the meeting question **"How do we maintain and expand top-of-funnel reach?"**
+> [!abstract] What this page is for
+> How Quotr.ai keeps and grows its top-of-funnel reach (people at the early research stage who are not yet shopping for a specific product) now that AI answers in Google, ChatGPT and other engines answer many questions without a click. It covers what is happening to clicks, how to redefine "reach", seven moves to grow it, which assets still earn clicks and email sign-ups, and how to measure it. It answers the meeting question **"How do we maintain and expand top-of-funnel reach?"**
 
-**Last updated:** 2026-09-25
-
-**Sources:** the report [audit report](<../../reports/Quotr GEO AEO strategy audit.md>) (section "Top-of-funnel reach now means being named, not just clicked"); fact-checks [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims 6–8, 21–24; M1, M2, M4, M5, M9; hype flags H1, H8) and [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (AI prompt re-runs); research notes [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§2, §4, §7), [geo_ai_citation_signals_2026.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) (§1: which search index each engine uses), [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (§3 how-to prompts), [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§3, §5); brain pages [../03-market/white-space.md](../03-market/white-space.md), [../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md), [content-priorities.md](content-priorities.md), [content-roadmap.md](content-roadmap.md). In the text, "verification file" or "Quotr fact-check" means verification_quotr_and_competitors.md, and "GEO-evidence fact-check" means verification_geo_evidence.md.
+> [!info]- Sources
+> the report [[Quotr GEO AEO strategy audit|audit report]] (section "Top-of-funnel reach now means being named, not just clicked"); fact-checks [[verification_geo_evidence]] (claims 6–8, 21–24; M1, M2, M4, M5, M9; hype flags H1, H8) and [[verification_quotr_and_competitors]] (AI prompt re-runs); research notes [[geo_content_playbook_b2b]] (§2, §4, §7), [[geo_ai_citation_signals_2026]] (§1: which search index each engine uses), [[quotr_ai_visibility_tests]] (§3 how-to prompts), [[competitor_geo_benchmark]] (§3, §5); brain pages [[White space]], [[Tracking set]], [[Content priorities]], [[Content roadmap]]. In the text, "verification file" or "Quotr fact-check" means verification_quotr_and_competitors.md, and "GEO-evidence fact-check" means verification_geo_evidence.md.
 
 ---
 
@@ -63,7 +69,7 @@ Underneath all three: classic SEO in Google **and Bing** (plus Brave), consisten
 | Quotr assets that people click through to | One ROI calculator; no trade calculators, templates or datasets |
 | Branded search, AI impressions, AI-referred sessions, demos from AI | Unknown (**TO CONFIRM** from Quotr's GSC and GA4) |
 
-Sources: [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) §3; [../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md); verification file re-run table.
+Sources: [[quotr_ai_visibility_tests]] §3; [[Tracking set]]; verification file re-run table.
 
 ---
 
@@ -94,16 +100,16 @@ Keep blog sessions as a secondary number, not the headline top-of-funnel KPI.
 | "AI takeoff reaches 94–99% on clean vector sets and drops into the 80s on scans." (how Perplexity summarized Quotr's accuracy post, without the name) | "In Quotr.ai's internal testing, AI takeoff counts reached [approved figure, e.g. 95–99%] accuracy on clean vector PDFs and dropped to roughly 80–88% on low-resolution scans." (Perplexity's summary said 94–99%, while other Quotr pages say 95–99%: use one approved figure, **TO CONFIRM with Quotr**; method page to follow) |
 | "Our index found factory-direct tile was X% cheaper." | "Quotr.ai's Q4 2026 Factory-Direct vs US Dealer Price Index found …" (numbers **TO CONFIRM** when the index is built) |
 
-- **Start with the pages AI already fetches** (list in [optimize-vs-create.md](optimize-vs-create.md), "Pages to refresh first").
+- **Start with the pages AI already fetches** (list in [[Optimize vs create]], "Pages to refresh first").
 - **Make the facts consistent everywhere** so engines stop hedging ("50+ to 220+ factories, depending on the page") and stop quoting the old $299.90 price. See the fact-fix sweep.
-- **Get the same facts stated by others** (reviews, lists, press): AI accepts a recommendation more readily when third parties agree ([offsite-earned-media-plan.md](offsite-earned-media-plan.md)).
+- **Get the same facts stated by others** (reviews, lists, press): AI accepts a recommendation more readily when third parties agree ([[Off-site earned media plan]]).
 - **Name the thing, too:** give data products a stable, brandable name ("Quotr.ai Factory-Direct Price Index") so journalists and AI answers repeat it.
 
 **Measure:** tracking prompts T12, T30, T49 move from "cited, not named" to "named".
 
 ### Move 2. Own the unclaimed topics with Quotr's own data
 
-**Why:** the biggest top-of-funnel opportunity is where no software vendor is cited yet and Quotr holds data no rival has (report conclusion; [../03-market/white-space.md](../03-market/white-space.md)):
+**Why:** the biggest top-of-funnel opportunity is where no software vendor is cited yet and Quotr holds data no rival has (report conclusion; [[White space]]):
 
 | Topic | Evidence it is open | Roadmap pieces |
 |---|---|---|
@@ -112,7 +118,7 @@ Keep blog sessions as a secondary number, not the headline top-of-funnel KPI.
 | **Multifamily costs** | P3 named no software; small vendors Meltplan and Exayard get cited next to RSMeans for cost pages | R-40, R-53 |
 | **Residential rebuild and California costs** | "Cost to rebuild after the LA fires" cited Bloomberg and local GCs; Quotr sells an LA rebuild estimate sample | R-21, R-55 |
 
-This is also where Quotr can be the **named** source, because the facts are Quotr's own (a price index, a line-item house example), not generic knowledge. Full plan: [content-roadmap.md](content-roadmap.md), clusters 1–3.
+This is also where Quotr can be the **named** source, because the facts are Quotr's own (a price index, a line-item house example), not generic knowledge. Full plan: [[Content roadmap]], clusters 1–3.
 
 **Guardrail:** the "best AI takeoff software" lists are crowded by 15-plus vendors. Top-of-funnel growth depends less on chasing them and more on becoming the named source for real construction cost numbers (report conclusion).
 
@@ -139,11 +145,11 @@ This is also where Quotr can be the **named** source, because the facts are Quot
 **Why:** GEO is mostly good SEO plus getting other people to talk about you (report). Google's May 2026 guide says a page only needs to be indexed and eligible to show in Search, and that "valuable, unique, non-commodity content" matters most ([Google](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)). The peer-reviewed C-SEO Bench found classic SEO "significantly more effective" than GEO content tricks ([arXiv](https://arxiv.org/abs/2506.11097)). About 38% of pages cited in Google AI Overviews rank in the top 10 for the same search (Ahrefs, 2026). Each AI engine grounds its answers in a search index: Google's own; **Bing** for Copilot; for ChatGPT, unnamed "third-party search providers" plus its own crawl (OpenAI has not confirmed which; Bing is often assumed); **Brave** (the only search provider named in Anthropic's subprocessor list for Claude's web search, though Anthropic has not confirmed it is the only index); and Perplexity's own index (signals notes §1; GEO-evidence fact-check, claim 29).
 
 **What to do:**
-- **Fix the technical basics** (from the fact-fix sweep): add the blog sitemap to robots.txt, real lastmod dates, server-rendered blog index, remove the staging site from search, 301 old quotr.io pages ([optimize-vs-create.md](optimize-vs-create.md), section E).
+- **Fix the technical basics** (from the fact-fix sweep): add the blog sitemap to robots.txt, real lastmod dates, server-rendered blog index, remove the staging site from search, 301 old quotr.io pages ([[Optimize vs create]], section E).
 - **Verify Quotr in Bing Webmaster Tools** and use IndexNow or URL submission after every important change; watch the AI Performance report.
 - **Check Brave** occasionally (search the key pages there), since Claude's web search appears to use it.
 - **Descriptive titles and URLs** that match the narrower questions people ask; Ahrefs found descriptive URLs were cited 89.78% of the times they appeared in ChatGPT results vs 81.11% for less descriptive ones ([Ahrefs](https://ahrefs.com/blog/why-chatgpt-cites-pages/); vendor study, not re-checked by the fact-check). Year-free URLs for recurring pages.
-- **Hubs and internal links:** each cluster pillar links to its pieces and back ([content-roadmap.md](content-roadmap.md)).
+- **Hubs and internal links:** each cluster pillar links to its pieces and back ([[Content roadmap]]).
 - **Do not opt out** of Google's generative AI features. Google added a site-level opt-out in 2026; opted-out sites get no traffic or impressions from those surfaces (GEO-evidence fact-check, M1). Quotr needs the visibility.
 - **Keep the answer-first format** Quotr already uses; it helps readers and AI alike.
 
@@ -151,13 +157,13 @@ This is also where Quotr can be the **named** source, because the facts are Quot
 
 **Why:** YouTube was the largest single source site for SaaS brands in AI answers in Aleyda Solis's August 2026 study, and YouTube mentions are the strongest correlate of AI visibility in Ahrefs' 75,000-brand study (a correlation, not proof of cause). Perplexity never cited YouTube in our tests, so expect the effect mainly in Google's AI features and ChatGPT. Video is also click-resilient for "show me how" questions.
 
-**What to do:** the "AI takeoff on real residential plans" series (V-01 to V-06), data explainers, customer jobs; "Quotr.ai" in titles and said aloud; every video embedded on its matching page with a text summary. Details: [offsite-earned-media-plan.md](offsite-earned-media-plan.md), section 6.
+**What to do:** the "AI takeoff on real residential plans" series (V-01 to V-06), data explainers, customer jobs; "Quotr.ai" in titles and said aloud; every video embedded on its matching page with a text summary. Details: [[Off-site earned media plan]], section 6.
 
 ### Move 6. Be present in communities and on third-party sites
 
 **Why:** for SaaS, 82.3% of top cited sources in AI Mode, Gemini and ChatGPT were other people's sites, most of them social, community and video (45.7%) (Aleyda Solis, as corrected in the GEO-evidence fact-check). Growth Memo reports that user-generated content absorbs roughly a third of the traffic AI Overviews leave behind (playbook notes §7; in a study commissioned by G2; not re-checked by the fact-check).
 
-**What to do:** disclosed founder answers in r/estimators and estimator groups; reviews on G2 (feeding Capterra, GetApp and Software Advice); outreach to the lists AI cites; LinkedIn founder articles; trade-press data stories. Plan: [offsite-earned-media-plan.md](offsite-earned-media-plan.md).
+**What to do:** disclosed founder answers in r/estimators and estimator groups; reviews on G2 (feeding Capterra, GetApp and Software Advice); outreach to the lists AI cites; LinkedIn founder articles; trade-press data stories. Plan: [[Off-site earned media plan]].
 
 ### Move 7. Grow brand demand and make the first visit count
 
@@ -196,7 +202,7 @@ Scored with Aleyda Solis's three questions: does the reader still need to click 
 
 | # | Number | Baseline (Sept 2026) | Suggested direction or first target | Where it comes from |
 |---|---|---|---|---|
-| 1 | **Share of AI answers that name Quotr** (unbranded tracked prompts, per engine) | Perplexity: 1 of 32 core unbranded prompts (3.1%); other engines: no baseline yet | Suggested (Perplexity, same 32 prompts): 3+ of 32 by the late-December 2026 review, 5+ of 32 by late March 2027; other engines' targets set after the October 2026 baseline ([kpis-and-dashboard.md](../07-measurement/kpis-and-dashboard.md) §4). First priority: turn T12, T30, T49 from "cited" to "named", then the white-space prompts (T09, T10, T14, T29, T33, T46, T48) | Monthly run of [../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md) across ChatGPT, Google AI Mode, Gemini, Perplexity, Claude, Copilot |
+| 1 | **Share of AI answers that name Quotr** (unbranded tracked prompts, per engine) | Perplexity: 1 of 32 core unbranded prompts (3.1%); other engines: no baseline yet | Suggested (Perplexity, same 32 prompts): 3+ of 32 by the late-December 2026 review, 5+ of 32 by late March 2027; other engines' targets set after the October 2026 baseline ([[KPIs and dashboard]] §4). First priority: turn T12, T30, T49 from "cited" to "named", then the white-space prompts (T09, T10, T14, T29, T33, T46, T48) | Monthly run of [[Tracking set]] across ChatGPT, Google AI Mode, Gemini, Perplexity, Claude, Copilot |
 | 2 | **AI impressions in Search Console** (AI Overviews and AI Mode, by page) | **TO CONFIRM** (reports live worldwide since Aug 31, 2026) | Rising month over month on data, tool and cost-guide pages | GSC generative-AI performance reports (impressions only; no clicks or queries) ([SEJ](https://www.searchenginejournal.com/google-search-console-ai-reports-rolled-out-worldwide/587836/)) |
 | 3 | **Branded search volume** | **TO CONFIRM** | Baseline Oct–Dec 2026; suggested: a rising 3-month trend (for example +25% vs the Oct–Dec 2026 average by late March 2027) after filtering out other "Quotr" products (use "quotr.ai", "quotr ai", "quotr takeoff" and similar) | GSC queries; Bing Webmaster Tools |
 | 4 | **Review count** | G2 reportedly 0; no Capterra, GetApp or Software Advice listing | 10+ honest G2 reviews by the day-90 review (report goal: 10–30); 25–30 by late March 2027 (suggested) | G2 and sister sites |
@@ -209,14 +215,14 @@ Scored with Aleyda Solis's three questions: does the reader still need to click 
 - **AI-referred sessions** (GA4 "AI Assistant" channel, added May 2026, **plus a custom rule for Perplexity**, which the default channel does not include) ([Google](https://support.google.com/analytics/answer/9164320)).
 - **Homepage sessions from chatgpt.com** (a proxy for ChatGPT's branded homepage links).
 - **Tool uses, dataset downloads and email sign-ups** by asset.
-- **Third-party mentions** (reviews, list pages, press, podcasts) from [offsite-earned-media-plan.md](offsite-earned-media-plan.md).
+- **Third-party mentions** (reviews, list pages, press, podcasts) from [[Off-site earned media plan]].
 - **Blog sessions**, kept as a secondary number.
 
 ### Setup and cadence
 
-- Set up in October 2026: GA4 AI channel plus the Perplexity rule, GSC generative-AI reports, Bing Webmaster Tools AI Performance, the form field, and a baseline run of the 53-question tracking set across six AI tools in October (report, 30-day action 10); after that, four engines monthly and Claude and Copilot quarterly ([../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md)).
+- Set up in October 2026: GA4 AI channel plus the Perplexity rule, GSC generative-AI reports, Bing Webmaster Tools AI Performance, the form field, and a baseline run of the 53-question tracking set across six AI tools in October (report, 30-day action 10); after that, four engines monthly and Claude and Copilot quarterly ([[Tracking set]]).
 - **Monthly:** re-run the tracking set (single tests can mislead; answers change from run to run and month to month). **Quarterly:** review the scorecard and move effort to what gets Quotr named.
-- Details: [../07-measurement/kpis-and-dashboard.md](../07-measurement/kpis-and-dashboard.md), [../07-measurement/tracking-setup.md](../07-measurement/tracking-setup.md), [../07-measurement/tools-comparison.md](../07-measurement/tools-comparison.md).
+- Details: [[KPIs and dashboard]], [[Tracking setup]], [[AI visibility tools compared]].
 
 ---
 
@@ -231,7 +237,7 @@ Scored with Aleyda Solis's three questions: does the reader still need to click 
 | **Feb 2027** | Big data releases | R-40 cost per sq ft by trade; R-41 accuracy benchmark; R-45 flooring calculator |
 | **Mar 2027** | Second index edition; review | R-51; R-55 California costs; scorecard review and re-plan |
 
-Full schedule: [content-roadmap.md](content-roadmap.md).
+Full schedule: [[Content roadmap]].
 
 ---
 
@@ -264,12 +270,12 @@ Full schedule: [content-roadmap.md](content-roadmap.md).
 
 ## Related pages
 
-- [content-priorities.md](content-priorities.md): which content types to invest in
-- [content-roadmap.md](content-roadmap.md): the 68 pieces behind this plan
-- [optimize-vs-create.md](optimize-vs-create.md): brand-attached rewrites and technical fixes
-- [offsite-earned-media-plan.md](offsite-earned-media-plan.md): reviews, lists, press, communities, YouTube
-- [../03-market/white-space.md](../03-market/white-space.md): the unclaimed topics
-- [../01-geo-fundamentals/traffic-and-funnel-impact.md](../01-geo-fundamentals/traffic-and-funnel-impact.md): more on how AI answers change traffic
-- [../01-geo-fundamentals/how-ai-engines-choose-sources.md](../01-geo-fundamentals/how-ai-engines-choose-sources.md): which index each engine uses
-- [../07-measurement/kpis-and-dashboard.md](../07-measurement/kpis-and-dashboard.md), [../07-measurement/tracking-setup.md](../07-measurement/tracking-setup.md), [../07-measurement/tools-comparison.md](../07-measurement/tools-comparison.md): how to measure reach
-- [../04-prompt-library/tracking-set.md](../04-prompt-library/tracking-set.md): the monthly prompts
+- [[Content priorities]]: which content types to invest in
+- [[Content roadmap]]: the 68 pieces behind this plan
+- [[Optimize vs create]]: brand-attached rewrites and technical fixes
+- [[Off-site earned media plan]]: reviews, lists, press, communities, YouTube
+- [[White space]]: the unclaimed topics
+- [[Traffic and funnel impact]]: more on how AI answers change traffic
+- [[How AI engines choose sources]]: which index each engine uses
+- [[KPIs and dashboard]], [[Tracking setup]], [[AI visibility tools compared]]: how to measure reach
+- [[Tracking set]]: the monthly prompts

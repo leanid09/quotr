@@ -1,10 +1,16 @@
+---
+type: competitor
+description: Profile of Buildxact, the residential builder platform AI names as often as STACK.
+last_verified: 2026-09-25
+verify_every_days: 90
+---
 # Competitor Profile: Buildxact
 
-**What this page is for:** A reference on Buildxact, the residential builder platform that AI engines name as often as STACK: what it offers (including dealer pricing and Home Depot ordering), what it costs, why it gets cited, and how Quotr can win residential questions against it.
+> [!abstract] What this page is for
+> A reference on Buildxact, the residential builder platform that AI engines name as often as STACK: what it offers (including dealer pricing and Home Depot ordering), what it costs, why it gets cited, and how Quotr can win residential questions against it.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (sections 1–3, 5), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (prompts C2, C4, C9, C11, C13, C15, V1, V4, V8, V10, P4), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>). Read directly on 2026-09-25: [buildxact.com/us/pricing](https://www.buildxact.com/us/pricing/), [handoff.ai/official-information-about-handoff](https://www.handoff.ai/official-information-about-handoff) (Handoff's description of Buildxact). WebSearch on 2026-09-25: Buildxact G2 and Capterra pages.
+> [!info]- Sources
+> [[competitor_geo_benchmark]] (sections 1–3, 5), [[quotr_ai_visibility_tests]] (prompts C2, C4, C9, C11, C13, C15, V1, V4, V8, V10, P4), [[quotr_onsite_content_audit]]. Read directly on 2026-09-25: [buildxact.com/us/pricing](https://www.buildxact.com/us/pricing/), [handoff.ai/official-information-about-handoff](https://www.handoff.ai/official-information-about-handoff) (Handoff's description of Buildxact). WebSearch on 2026-09-25: Buildxact G2 and Capterra pages.
 
 ---
 
@@ -120,9 +126,9 @@ Nothing found (WebSearch for Quotr on buildxact.com, 2026-09-25). Quotr has **no
 
 ## Related pages
 
-- [../competitor-landscape.md](../competitor-landscape.md): full competitor map
-- [handoff.md](handoff.md): the other residential leader (has a "Handoff vs Buildxact" page)
-- [procurement-and-sourcing.md](procurement-and-sourcing.md): factory-direct suppliers AI names instead of Quotr
-- [../white-space.md](../white-space.md): factory-direct pricing data, residential bid leveling
-- [../../00-quotr/product-and-features.md](../../00-quotr/product-and-features.md): Quotr Procurement details
-- [../../04-prompt-library/buyer-questions-by-trade.md](../../04-prompt-library/buyer-questions-by-trade.md): residential buyer questions
+- [[Competitor landscape]]: full competitor map
+- [[Handoff]]: the other residential leader (has a "Handoff vs Buildxact" page)
+- [[Procurement and sourcing players]]: factory-direct suppliers AI names instead of Quotr
+- [[White space]]: factory-direct pricing data, residential bid leveling
+- [[Products and features]]: Quotr Procurement details
+- [[Buyer questions by trade]]: residential buyer questions

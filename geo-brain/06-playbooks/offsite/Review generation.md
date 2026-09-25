@@ -1,10 +1,16 @@
+---
+type: playbook
+description: How to build honest reviews on G2 (which also feeds Capterra, GetApp and Software Advice), with scripts and rules.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Review Generation Playbook (G2, Capterra and Other Directories)
 
-**What this page is for:** How Quotr.ai builds an honest base of third-party reviews on G2, Capterra and related directories: why it matters for AI answers, when and whom to ask, ready-to-send scripts, and the platform and legal rules the team must follow.
+> [!abstract] What this page is for
+> How Quotr.ai builds an honest base of third-party reviews on G2, Capterra and related directories: why it matters for AI answers, when and whom to ask, ready-to-send scripts, and the platform and legal rules the team must follow.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (§1 directories, §6 realistic wins), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (claims 25, 30–32, 37a), [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§2 review depth), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (§2 alternatives answers), [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§3 review platforms), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #18, #20; H10); competitor profiles in [../../03-market/competitors/](../../03-market/competitors/). Platform and legal rules checked via WebSearch on 2026-09-25: [G2 Community Guidelines](https://legal.g2.com/community-guidelines), [G2 review validity](https://sell.g2.com/review-validity), [G2: claim your profile](https://sell.g2.com/claim-your-profile), [G2 help: why a LinkedIn profile or business email is needed](https://help.g2.com/hc/en-us/articles/360029549432-Why-do-I-need-a-LinkedIn-profile-or-a-business-email-to-leave-a-review), [Capterra Community Guidelines](https://www.capterra.com/legal/community-guidelines/), [FTC Consumer Reviews and Testimonials Rule Q&A](https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers), [FTC final rule press release (Aug 2024)](https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials).
+> [!info]- Sources
+> [[quotr_offsite_presence]] (§1 directories, §6 realistic wins), [[verification_quotr_and_competitors]] (claims 25, 30–32, 37a), [[competitor_geo_benchmark]] (§2 review depth), [[quotr_ai_visibility_tests]] (§2 alternatives answers), [[geo_content_playbook_b2b]] (§3 review platforms), [[verification_geo_evidence]] (claims #18, #20; H10); competitor profiles in [[Competitor profiles]]. Platform and legal rules checked via WebSearch on 2026-09-25: [G2 Community Guidelines](https://legal.g2.com/community-guidelines), [G2 review validity](https://sell.g2.com/review-validity), [G2: claim your profile](https://sell.g2.com/claim-your-profile), [G2 help: why a LinkedIn profile or business email is needed](https://help.g2.com/hc/en-us/articles/360029549432-Why-do-I-need-a-LinkedIn-profile-or-a-business-email-to-leave-a-review), [Capterra Community Guidelines](https://www.capterra.com/legal/community-guidelines/), [FTC Consumer Reviews and Testimonials Rule Q&A](https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers), [FTC final rule press release (Aug 2024)](https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials).
 
 > **Not legal advice.** Platform rules change. Re-read G2's and Capterra's current guidelines, and have Quotr's counsel review any incentive programme, before launch.
 
@@ -37,10 +43,10 @@
 
 | Product | Reviews | Source |
 |---|---|---|
-| Togal.AI | G2 4.8 from 60 (July 2026); **no Capterra reviews** seen | [Togal profile](../../03-market/competitors/togal-ai.md) |
-| Beam AI | G2 4.9 from 30 (July 2026) | [Beam AI profile](../../03-market/competitors/beam-ai.md) |
-| Kreo | G2 4.5 from 32; Capterra 4.4 from 25 | [Kreo profile](../../03-market/competitors/kreo.md) |
-| Handoff | G2 about 115 (search summary) | [Handoff profile](../../03-market/competitors/handoff.md) |
+| Togal.AI | G2 4.8 from 60 (July 2026); **no Capterra reviews** seen | [[Togal AI\|Togal profile]] |
+| Beam AI | G2 4.9 from 30 (July 2026) | [[Beam AI\|Beam AI profile]] |
+| Kreo | G2 4.5 from 32; Capterra 4.4 from 25 | [[Kreo\|Kreo profile]] |
+| Handoff | G2 about 115 (search summary) | [[Handoff\|Handoff profile]] |
 | STACK | Capterra about 1,400; G2 under 100 | Verification claim 32 |
 | Buildxact | Capterra 4.6 from 150+ (Buildxact newsroom) | Verification claim 36 |
 
@@ -50,10 +56,10 @@
 
 ## 3. Set-up (week 1)
 
-1. **Claim and rename the G2 profile.** Claim the existing quotr-io listing through G2's vendor portal (every company can claim a free profile; claims are reviewed by G2, reportedly within 1–3 business days). Ask G2 to change the product name to **Quotr.ai** and, if possible, the URL slug. Add: the canonical one-line description from the [fact sheet](../../00-quotr/entity-fact-sheet.md), current pricing (Lite $79.90 / Plus $299.90 per seat per month / Enterprise custom, 7-day trial), screenshots, the demo video, and a link to quotr.ai.
+1. **Claim and rename the G2 profile.** Claim the existing quotr-io listing through G2's vendor portal (every company can claim a free profile; claims are reviewed by G2, reportedly within 1–3 business days). Ask G2 to change the product name to **Quotr.ai** and, if possible, the URL slug. Add: the canonical one-line description from the [[Entity fact sheet|fact sheet]], current pricing (Lite $79.90 / Plus $299.90 per seat per month / Enterprise custom, 7-day trial), screenshots, the demo video, and a link to quotr.ai.
 2. **Pick categories that feed the right pages:** takeoff, construction estimating, bid management and, if G2 has one that fits, construction procurement (**check which categories exist**). Category choice decides which "alternatives" and grid pages Quotr can appear on.
 3. **Create the Capterra / GetApp / Software Advice listing** through the route G2 now offers for these former Gartner Digital Markets sites, which G2 now owns (**confirm the onboarding path with G2**), with the same description, categories and prices.
-4. **Fix the other profiles:** claim F6S and replace the Revit copy; re-categorise Product Hunt from "Real estate" to construction/AI; add free listings on SourceForge and Slashdot (both appear in AI citation lists; see [../../03-market/citation-sources-map.md](../../03-market/citation-sources-map.md)).
+4. **Fix the other profiles:** claim F6S and replace the Revit copy; re-categorise Product Hunt from "Real estate" to construction/AI; add free listings on SourceForge and Slashdot (both appear in AI citation lists; see [[Citation sources map]]).
 5. **Get the official review links** from each platform's vendor portal. Use only these links.
 6. **Name an owner** (one person) for the programme and the review replies.
 
@@ -151,7 +157,7 @@ The FTC's Endorsement Guides also say employees who promote their employer's pro
 
 ### 6d. On quotr.ai
 
-- Do **not** add review stars or ratings from G2/Capterra to quotr.ai's schema markup (Google: don't aggregate reviews from other websites; organizations can't mark up self-serving reviews) ([../schema-markup-kit.md](../schema-markup-kit.md) §4).
+- Do **not** add review stars or ratings from G2/Capterra to quotr.ai's schema markup (Google: don't aggregate reviews from other websites; organizations can't mark up self-serving reviews) ([[Schema markup kit]] §4).
 - If you quote a review on the site, check G2's or Capterra's terms for reuse first, and quote it exactly with the reviewer's name/role as shown.
 
 ---
@@ -177,9 +183,9 @@ The FTC's Endorsement Guides also say employees who promote their employer's pro
 | Average rating | Report honestly; do not chase a number | Monthly |
 | Review response time | 100% answered within 3 business days | Weekly |
 | Appears on G2/Capterra "alternatives" pages for Togal, PlanSwift, STACK, Kreo | Yes/no per page | Monthly |
-| AI answer to "Is Quotr.ai legit? reviews" (D-014) | Mentions real Quotr.ai reviews; stops borrowing Quotr Pro ratings | Monthly ([../../04-prompt-library/tracking-set.md](../../04-prompt-library/tracking-set.md)) |
+| AI answer to "Is Quotr.ai legit? reviews" (D-014) | Mentions real Quotr.ai reviews; stops borrowing Quotr Pro ratings | Monthly ([[Tracking set]]) |
 
-Once there are 10+ G2 reviews, pitch the author of the ConstructConnect guide for its next edition (see [listicle-and-pr-outreach.md](listicle-and-pr-outreach.md)).
+Once there are 10+ G2 reviews, pitch the author of the ConstructConnect guide for its next edition (see [[Listicle and PR outreach]]).
 
 ---
 
@@ -199,9 +205,9 @@ Once there are 10+ G2 reviews, pitch the author of the ConstructConnect guide fo
 
 ## Related pages
 
-- [listicle-and-pr-outreach.md](listicle-and-pr-outreach.md) — editors who rank tools by review data
-- [wikidata-and-knowledge-graph.md](wikidata-and-knowledge-graph.md) — profile consistency across directories
-- [../templates/case-study.md](../templates/case-study.md) — customer stories that pair with reviews
-- [../../02-current-state/offsite-presence.md](../../02-current-state/offsite-presence.md) — current listings in detail
-- [../../03-market/citation-sources-map.md](../../03-market/citation-sources-map.md) — which directory pages AI engines cite
-- [../../05-content-strategy/offsite-earned-media-plan.md](../../05-content-strategy/offsite-earned-media-plan.md) — the wider off-site plan
+- [[Listicle and PR outreach]] — editors who rank tools by review data
+- [[Wikidata and knowledge graph]] — profile consistency across directories
+- [[Case study template]] — customer stories that pair with reviews
+- [[Off-site presence]] — current listings in detail
+- [[Citation sources map]] — which directory pages AI engines cite
+- [[Off-site earned media plan]] — the wider off-site plan

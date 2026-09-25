@@ -1,10 +1,16 @@
+---
+type: page-template
+description: Template and rules for category roundups, including when not to publish one.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Template: "Best Of" Roundup (with Honest-Inclusion Rules)
 
-**What this page is for:** A template and rulebook for category roundups such as "best AI takeoff software for residential subcontractors", including when Quotr should *not* publish one, how to include Quotr.ai honestly, and the documented risks of self-serving lists.
+> [!abstract] What this page is for
+> A template and rulebook for category roundups such as "best AI takeoff software for residential subcontractors", including when Quotr should *not* publish one, how to include Quotr.ai honestly, and the documented risks of self-serving lists.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1, §5), [geo_ai_citation_signals_2026.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) (§2), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #2, #12, #19, #21; H3; X10, X17), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (§1, C1–C15), [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§1–3), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§2, §4), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (§2).
+> [!info]- Sources
+> [[geo_content_playbook_b2b]] (§1, §5), [[geo_ai_citation_signals_2026]] (§2), [[verification_geo_evidence]] (claims #2, #12, #19, #21; H3; X10, X17), [[quotr_ai_visibility_tests]] (§1, C1–C15), [[competitor_geo_benchmark]] (§1–3), [[quotr_onsite_content_audit]] (§2, §4), [[quotr_offsite_presence]] (§2).
 
 ---
 
@@ -25,7 +31,7 @@
 - In one WebSearch check, Quotr's roundup ranked **4th of 9** for "best AI takeoff software for subcontractors 2026", yet Perplexity did not use it and recommended other tools (visibility tests C1; the ranking was not re-checked in the fact-check).
 - The category is saturated: 15+ vendors publish dated "best AI takeoff" lists, most ranking themselves first (competitor benchmark §2, §5).
 
-**Bottom line (from the verification file, X10):** a few honest, well-maintained pages are fine; **no library of self-ranked "best X" pages**; most effort goes into getting onto **third-party** lists ([../offsite/listicle-and-pr-outreach.md](../offsite/listicle-and-pr-outreach.md)).
+**Bottom line (from the verification file, X10):** a few honest, well-maintained pages are fine; **no library of self-ranked "best X" pages**; most effort goes into getting onto **third-party** lists ([[Listicle and PR outreach]]).
 
 ---
 
@@ -35,11 +41,11 @@ Answer these before writing. If you answer "no" to any of questions 1–4, do no
 
 | # | Question | If "no" |
 |---|---|---|
-| 1 | Is there a High-priority prompt in the [prompt library](../../04-prompt-library/prompt-library.md) with no good Quotr page? | Improve an existing page instead |
-| 2 | Does Quotr already have a roundup on this topic? (It has ~16.) | Refresh or consolidate that one ([../page-refresh-checklist.md](../page-refresh-checklist.md)) |
+| 1 | Is there a High-priority prompt in the [[Prompt library\|prompt library]] with no good Quotr page? | Improve an existing page instead |
+| 2 | Does Quotr already have a roundup on this topic? (It has ~16.) | Refresh or consolidate that one ([[Page refresh checklist]]) |
 | 3 | Can the page be genuinely fair, including tools that beat Quotr for some buyers? | Write a buyer's guide instead (criteria + checklist, no ranking) |
 | 4 | Can we test or verify every tool on the list (vendor site, trial, published reviews)? | Narrow the list |
-| 5 | Is this a segment where AI answers name no clear leader (e.g., residential + procurement, multifamily developers)? | If "yes", it is a stronger candidate (see [../../03-market/white-space.md](../../03-market/white-space.md)) |
+| 5 | Is this a segment where AI answers name no clear leader (e.g., residential + procurement, multifamily developers)? | If "yes", it is a stronger candidate (see [[White space]]) |
 
 **Better formats in many cases:**
 - **Buyer's guide:** "How to choose AI takeoff software for residential subcontractors" with criteria, questions to ask vendors, a scoring sheet, and a neutral table. No rank.
@@ -87,7 +93,7 @@ Answer these before writing. If you answer "no" to any of questions 1–4, do no
 | 6 | **One H2 per tool** | Same fields for all: what it is, best for, strengths, limitations, price, source links |
 | 7 | **Buyer's checklist** | Questions to ask any vendor (accuracy on your plans, scanned PDFs, exports, integrations, data security, trial) |
 | 8 | **How to choose** | "If you… → consider…" decision table |
-| 9 | **FAQ** | 4–8 questions ([faq-block.md](faq-block.md)) |
+| 9 | **FAQ** | 4–8 questions ([[FAQ block template]]) |
 | 10 | **Sources and method** | Links, dates, correction contact |
 
 ---
@@ -128,13 +134,13 @@ Quotr has about 16 best-of and buyer's-guide posts (e.g., best-ai-construction-e
 1. **Fix facts first:** several carry the retired "Solo $299.90 / Team $499.90" pricing (verification, gaps filled #2).
 2. **Apply the honest-inclusion rules:** remove self-ranking at #1; add disclosure, method and limitations.
 3. **Consolidate overlaps** (e.g., best-ai-bid-software-for-construction and ai-bidding-software-construction; the two buyer's guides) where they target the same prompt.
-4. **Do not add new trade roundups** until the existing ones pass the rubric in [../page-refresh-checklist.md](../page-refresh-checklist.md).
+4. **Do not add new trade roundups** until the existing ones pass the rubric in [[Page refresh checklist]].
 
 ---
 
 ## 8. Schema for this page
 
-- BlogPosting (real author) + BreadcrumbList; optional `ItemList` of the tools; FAQPage only for the visible FAQ ([../schema-markup-kit.md](../schema-markup-kit.md)).
+- BlogPosting (real author) + BreadcrumbList; optional `ItemList` of the tools; FAQPage only for the visible FAQ ([[Schema markup kit]]).
 - Never add ratings for any tool (including Quotr) to markup.
 
 ---
@@ -156,9 +162,9 @@ Quotr has about 16 best-of and buyer's-guide posts (e.g., best-ai-construction-e
 
 ## Related pages
 
-- [alternatives-page.md](alternatives-page.md) and [comparison-page.md](comparison-page.md) — the other comparison formats
-- [../offsite/listicle-and-pr-outreach.md](../offsite/listicle-and-pr-outreach.md) — getting onto third-party roundups (the higher-value move)
-- [../../03-market/citation-sources-map.md](../../03-market/citation-sources-map.md) — which roundups AI engines cite
-- [../../03-market/white-space.md](../../03-market/white-space.md) — segments with no clear leader
-- [../../01-geo-fundamentals/myths-and-risks.md](../../01-geo-fundamentals/myths-and-risks.md) — risks of self-promotional content
-- [../geo-writing-style-guide.md](../geo-writing-style-guide.md) — writing and naming rules
+- [[Alternatives page template]] and [[Comparison page template]] — the other comparison formats
+- [[Listicle and PR outreach]] — getting onto third-party roundups (the higher-value move)
+- [[Citation sources map]] — which roundups AI engines cite
+- [[White space]] — segments with no clear leader
+- [[Myths and risks]] — risks of self-promotional content
+- [[GEO writing style guide]] — writing and naming rules

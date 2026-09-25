@@ -1,10 +1,16 @@
+---
+type: playbook
+description: Making Quotr one consistent entity across Wikidata, Crunchbase, PitchBook and profiles; Wikipedia cautions.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Wikidata, Knowledge Graph and Profile Consistency Playbook
 
-**What this page is for:** How to make Quotr.ai one clear, consistent "entity" across Wikidata, Crunchbase, PitchBook, directories and social profiles, so AI engines stop mixing it up with other "Quotr" products and stop repeating conflicting facts; includes a Wikidata item plan and cautions about Wikipedia.
+> [!abstract] What this page is for
+> How to make Quotr.ai one clear, consistent "entity" across Wikidata, Crunchbase, PitchBook, directories and social profiles, so AI engines stop mixing it up with other "Quotr" products and stop repeating conflicting facts; includes a Wikidata item plan and cautions about Wikipedia.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (§1, §4 entity signals and name collisions, §5 AI descriptions, §6), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (claims 19–24, 28–30; contradictions 2, 6–8; gaps filled #1, #3), [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§3 Wikipedia/Wikidata), [geo_ai_citation_signals_2026.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) (§1 parametric knowledge; §3 /disambiguation/ inference), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (H16; O4), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§4–5); [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md). Policies checked via WebSearch on 2026-09-25: [Wikidata:Notability](https://www.wikidata.org/wiki/Wikidata:Notability), [Wikipedia: Notability (organizations and companies)](https://en.wikipedia.org/wiki/Wikipedia:Notability_(organizations_and_companies)), [Wikipedia: Conflict of interest](https://en.wikipedia.org/wiki/Wikipedia:Conflict_of_interest), [Wikipedia: Paid-contribution disclosure](https://en.wikipedia.org/wiki/Wikipedia:Paid-contribution_disclosure), Wikidata properties [P4264](https://www.wikidata.org/wiki/Property:P4264), [P2088](https://www.wikidata.org/wiki/Property:P2088), [P2397](https://www.wikidata.org/wiki/Property:P2397), [P12689](https://www.wikidata.org/wiki/Property:P12689); [PitchBook: update your profile](https://pitchbook.com/help/update-your-profile); [Crunchbase: edit a profile](https://support.crunchbase.com/hc/en-us/articles/115010477107-Edit-a-Profile-on-Crunchbase).
+> [!info]- Sources
+> [[quotr_offsite_presence]] (§1, §4 entity signals and name collisions, §5 AI descriptions, §6), [[verification_quotr_and_competitors]] (claims 19–24, 28–30; contradictions 2, 6–8; gaps filled #1, #3), [[geo_content_playbook_b2b]] (§3 Wikipedia/Wikidata), [[geo_ai_citation_signals_2026]] (§1 parametric knowledge; §3 /disambiguation/ inference), [[verification_geo_evidence]] (H16; O4), [[quotr_onsite_content_audit]] (§4–5); [[Entity fact sheet]]. Policies checked via WebSearch on 2026-09-25: [Wikidata:Notability](https://www.wikidata.org/wiki/Wikidata:Notability), [Wikipedia: Notability (organizations and companies)](https://en.wikipedia.org/wiki/Wikipedia:Notability_(organizations_and_companies)), [Wikipedia: Conflict of interest](https://en.wikipedia.org/wiki/Wikipedia:Conflict_of_interest), [Wikipedia: Paid-contribution disclosure](https://en.wikipedia.org/wiki/Wikipedia:Paid-contribution_disclosure), Wikidata properties [P4264](https://www.wikidata.org/wiki/Property:P4264), [P2088](https://www.wikidata.org/wiki/Property:P2088), [P2397](https://www.wikidata.org/wiki/Property:P2397), [P12689](https://www.wikidata.org/wiki/Property:P12689); [PitchBook: update your profile](https://pitchbook.com/help/update-your-profile); [Crunchbase: edit a profile](https://support.crunchbase.com/hc/en-us/articles/115010477107-Edit-a-Profile-on-Crunchbase).
 
 ---
 
@@ -46,7 +52,7 @@ AI tools already show the effects:
 
 ## 3. Step 1: decide the canonical facts (Quotr must approve)
 
-Nothing below can be fixed until Quotr answers the open questions in [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) §6. Fill this master record once and copy it everywhere.
+Nothing below can be fixed until Quotr answers the open questions in [[Entity fact sheet]] §6. Fill this master record once and copy it everywhere.
 
 | Field | Canonical value | Status |
 |---|---|---|
@@ -71,14 +77,14 @@ Nothing below can be fixed until Quotr answers the open questions in [../../00-q
 
 | # | Profile | Fix | How |
 |---|---|---|---|
-| 1 | **quotr.ai itself** | /disambiguation/ (neutral rewrite; one audience; both founders; current handles), blog boilerplate (one HQ), /about-us/ (add founded, HQ once confirmed), schema Organization ([../schema-markup-kit.md](../schema-markup-kit.md) 5.1), llms.txt | Site edits |
+| 1 | **quotr.ai itself** | /disambiguation/ (neutral rewrite; one audience; both founders; current handles), blog boilerplate (one HQ), /about-us/ (add founded, HQ once confirmed), schema Organization ([[Schema markup kit]] 5.1), llms.txt | Site edits |
 | 2 | **Crunchbase** ([organization/quotr](https://www.crunchbase.com/organization/quotr)) | Location field and About text disagree (Berkeley vs San Francisco); factory and savings claims; legacy "Revit … architects" summary | Claim the profile ("Claim this profile" at the bottom, verified with a company email or LinkedIn), then edit fields |
 | 3 | **PitchBook** ([606944-17](https://pitchbook.com/profiles/company/606944-17)) | Founding year 2024; HQ; 10 employees; Sky Arc Capital; "BIM models" description | Use PitchBook's data-feedback / "Update this profile" route |
 | 4 | **F6S** ([software/quotr](https://www.f6s.com/software/quotr)) | Unclaimed; Revit-era description; links quotr.io | Claim; rewrite; link quotr.ai; add to the "AI-Assisted Takeoff" category |
-| 5 | **G2** (quotr-io) | Name/slug "quotr io" | Claim; rename to Quotr.ai ([review-generation.md](review-generation.md)) |
+| 5 | **G2** (quotr-io) | Name/slug "quotr io" | Claim; rename to Quotr.ai ([[Review generation]]) |
 | 6 | **Product Hunt** | Category "Real estate"; links GitHub "Quotr-io" | Re-categorise; update links |
-| 7 | **LinkedIn** | Company About (legacy positioning); duplicate company page (quotrio); flozdesign page; Hanyang Liu's two personal profiles | See [linkedin-thought-leadership.md](linkedin-thought-leadership.md) §2 |
-| 8 | **YouTube** | @QuotrIO / "QuoTrio" channel listed on /disambiguation/ | Confirm ownership; consolidate on @QuotrAI ([youtube-and-video.md](youtube-and-video.md)) |
+| 7 | **LinkedIn** | Company About (legacy positioning); duplicate company page (quotrio); flozdesign page; Hanyang Liu's two personal profiles | See [[LinkedIn thought leadership]] §2 |
+| 8 | **YouTube** | @QuotrIO / "QuoTrio" channel listed on /disambiguation/ | Confirm ownership; consolidate on @QuotrAI ([[YouTube and video]]) |
 | 9 | **X** | @quotr_io listed on /disambiguation/ and podcast notes | Use @quotr_ai everywhere; if @quotr_io is Quotr's, point it to @quotr_ai |
 | 10 | **GitHub** (Quotr-io) | Old name | Rename or add "Quotr.ai" to the profile (optional) |
 | 11 | **Podcast show notes** (MPN Episode 45) | "CEO of Quotr.io", "raised $5 million", links quotr.io | Email the host with corrections |
@@ -120,7 +126,7 @@ Wikidata's notability policy accepts an item if it "refers to an instance of a c
 | YouTube channel ID (P2397) | the channel ID of @QuotrAI (look it up in YouTube; **not** the @QuoTrio ID) | youtube.com |
 | X username (P2002) | quotr_ai | x.com |
 
-**Then:** add the Wikidata URL to the Organization schema `sameAs` on quotr.ai ([../schema-markup-kit.md](../schema-markup-kit.md) 5.1), and keep the item updated when facts change (add it to your Wikidata watchlist).
+**Then:** add the Wikidata URL to the Organization schema `sameAs` on quotr.ai ([[Schema markup kit]] 5.1), and keep the item updated when facts change (add it to your Wikidata watchlist).
 
 ---
 
@@ -129,7 +135,7 @@ Wikidata's notability policy accepts an item if it "refers to an instance of a c
 - **Notability bar:** a company is presumed notable only with "significant coverage in multiple reliable secondary sources that are independent of the subject"; the guideline is deliberately strict to stop promotion ([WP:NCORP](https://en.wikipedia.org/wiki/Wikipedia:Notability_(organizations_and_companies))). Quotr has no independent trade-press coverage yet (offsite notes §3), so an article would very likely be deleted.
 - **Conflict of interest:** Wikipedia strongly discourages people with a financial connection from editing articles about their company directly; paid contributors **must** disclose their employer, client and affiliation under the Wikimedia Terms of Use ([paid-contribution disclosure](https://en.wikipedia.org/wiki/Wikipedia:Paid-contribution_disclosure); [COI guideline](https://en.wikipedia.org/wiki/Wikipedia:Conflict_of_interest)).
 - **Treat "Wikipedia hacks" with caution.** The March 2026 podcast episode with Quotr's CEO listed "The Wikipedia Hack" as a topic (offsite notes §3). We do not know what was meant, so ask the team before anyone acts. Any undisclosed or promotional editing risks deletion, reputational damage and a permanent record on the article's talk page.
-- **What to do instead:** earn independent coverage first ([listicle-and-pr-outreach.md](listicle-and-pr-outreach.md)). If Quotr later becomes notable, request an article through Wikipedia's "Articles for Creation" process with full disclosure, or let independent editors write it.
+- **What to do instead:** earn independent coverage first ([[Listicle and PR outreach]]). If Quotr later becomes notable, request an article through Wikipedia's "Articles for Creation" process with full disclosure, or let independent editors write it.
 - **Context:** Wikipedia was a very large share of ChatGPT's top-cited sources in Aug 2024–Jun 2025 data (Profound: 47.9% of its top-10 source share; not re-checked in the verification pass). ChatGPT's Wikipedia citations dropped sharply in September 2025, so treat that figure as historical, although Muck Rack (May 2026) still found Wikipedia the top domain ChatGPT cites (`verification_geo_evidence.md` O4). Either way, Quotr cannot get there without independent coverage first.
 
 ---
@@ -159,16 +165,16 @@ Wikidata's notability policy accepts an item if it "refers to an instance of a c
 | Metric | How | Cadence |
 |---|---|---|
 | Profiles matching the canonical record | Audit table | Quarterly |
-| AI answers to D-001/D-002 ("What is Quotr(.ai)?"), D-004 (founders/funding), D-006 (Quotr.io), D-020 (Quotr Pro) accurate, no namesake mix-ups | Prompt tracking ([../../04-prompt-library/tracking-set.md](../../04-prompt-library/tracking-set.md)) | Monthly |
+| AI answers to D-001/D-002 ("What is Quotr(.ai)?"), D-004 (founders/funding), D-006 (Quotr.io), D-020 (Quotr Pro) accurate, no namesake mix-ups | Prompt tracking ([[Tracking set]]) | Monthly |
 | Wikidata item live and unchanged by others | Watchlist | Monthly |
 
 ---
 
 ## Related pages
 
-- [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) — canonical facts, inconsistency register, open questions
-- [../schema-markup-kit.md](../schema-markup-kit.md) — Organization schema and `sameAs`
-- [review-generation.md](review-generation.md) — G2 and Capterra profiles
-- [linkedin-thought-leadership.md](linkedin-thought-leadership.md) — LinkedIn profile fixes
-- [partnerships-and-marketplaces.md](partnerships-and-marketplaces.md) — marketplace and partner listings
-- [../../02-current-state/offsite-presence.md](../../02-current-state/offsite-presence.md) — full list of third-party profiles
+- [[Entity fact sheet]] — canonical facts, inconsistency register, open questions
+- [[Schema markup kit]] — Organization schema and `sameAs`
+- [[Review generation]] — G2 and Capterra profiles
+- [[LinkedIn thought leadership]] — LinkedIn profile fixes
+- [[Partnerships and marketplaces]] — marketplace and partner listings
+- [[Off-site presence]] — full list of third-party profiles

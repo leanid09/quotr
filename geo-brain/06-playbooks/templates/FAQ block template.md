@@ -1,10 +1,16 @@
+---
+type: page-template
+description: FAQ-section template plus a bank of approved Quotr answers built only from confirmed facts.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Template: FAQ Block (plus a Bank of Approved Quotr.ai Answers)
 
-**What this page is for:** How to write the FAQ section that sits at the end of a Quotr.ai page, and a ready-to-use bank of FAQ answers about Quotr.ai built only from confirmed facts, with the questions that still need Quotr's confirmation clearly marked.
+> [!abstract] What this page is for
+> How to write the FAQ section that sits at the end of a Quotr.ai page, and a ready-to-use bank of FAQ answers about Quotr.ai built only from confirmed facts, with the questions that still need Quotr's confirmation clearly marked.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) and [../../00-quotr/product-and-features.md](../../00-quotr/product-and-features.md) (all answers); [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§3 FAQ findings, §5 inconsistencies), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (claims 6, 30; re-runs B2–B4), [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§2 Gaps: no controlled FAQ study), [geo_ai_citation_signals_2026.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) (§1 Microsoft guidance); [SEJ: Google drops FAQ rich results (2026)](https://www.searchenginejournal.com/google-drops-faq-rich-results-from-search/574429/); [../../04-prompt-library/prompt-library.md](../../04-prompt-library/prompt-library.md) (Stage 3 brand prompts).
+> [!info]- Sources
+> [[Entity fact sheet]] and [[Products and features]] (all answers); [[quotr_onsite_content_audit]] (§3 FAQ findings, §5 inconsistencies), [[verification_quotr_and_competitors]] (claims 6, 30; re-runs B2–B4), [[geo_content_playbook_b2b]] (§2 Gaps: no controlled FAQ study), [[geo_ai_citation_signals_2026]] (§1 Microsoft guidance); [SEJ: Google drops FAQ rich results (2026)](https://www.searchenginejournal.com/google-drops-faq-rich-results-from-search/574429/); [[Prompt library]] (Stage 3 brand prompts).
 
 ---
 
@@ -21,7 +27,7 @@
 
 ## 2. Rules for writing an FAQ block
 
-1. **4–8 questions per page.** Pick from the [prompt library](../../04-prompt-library/prompt-library.md) and from real sales and support questions. No keyword lists.
+1. **4–8 questions per page.** Pick from the [[Prompt library|prompt library]] and from real sales and support questions. No keyword lists.
 2. **Question = the buyer's words** ("Does Quotr work on Mac?", not "Platform compatibility").
 3. **First sentence answers the question** ("Yes." / "No." / "$79.90 per seat per month."). Then 1–3 sentences of detail.
 4. **40–90 words per answer.** If it needs more, it deserves its own section or page; link to it.
@@ -29,7 +35,7 @@
 6. **Numbers with dates** for anything that changes (prices, counts).
 7. **No duplicate FAQ blocks** across many pages. The pricing questions live on /pricing/ and /software/; blog posts link there.
 8. **Visible in the HTML.** An accordion is fine if the text is in the page source.
-9. **Schema (optional):** FAQPage markup must copy the visible text exactly ([../schema-markup-kit.md](../schema-markup-kit.md) 5.4).
+9. **Schema (optional):** FAQPage markup must copy the visible text exactly ([[Schema markup kit]] 5.4).
 10. **Review the bank below whenever the fact sheet changes.**
 
 **Answer pattern:**
@@ -110,9 +116,9 @@ Do **not** publish answers to these until Quotr confirms the facts (see the fact
 
 ## Related pages
 
-- [pricing-page.md](pricing-page.md) — where pricing FAQs live
-- [product-feature-page.md](product-feature-page.md) — FAQs on product and trade pages
-- [../schema-markup-kit.md](../schema-markup-kit.md) — FAQPage markup
-- [../geo-writing-style-guide.md](../geo-writing-style-guide.md) — answer-first rule
-- [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) — the facts behind every answer
-- [../../04-prompt-library/prompt-library.md](../../04-prompt-library/prompt-library.md) — Stage 3 brand questions
+- [[Pricing page template]] — where pricing FAQs live
+- [[Product feature page template]] — FAQs on product and trade pages
+- [[Schema markup kit]] — FAQPage markup
+- [[GEO writing style guide]] — answer-first rule
+- [[Entity fact sheet]] — the facts behind every answer
+- [[Prompt library]] — Stage 3 brand questions

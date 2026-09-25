@@ -1,10 +1,19 @@
+---
+type: competitor
+description: 'Profile of Togal.AI: offer, prices, how it wins citations and how Quotr can compete.'
+aliases:
+- Togal.AI
+- Togal
+last_verified: 2026-09-25
+verify_every_days: 90
+---
 # Competitor Profile: Togal.AI
 
-**What this page is for:** Everything Quotr needs to know about Togal.AI as an AI-answer competitor: what it sells, what it costs, how it wins AI citations, and how Quotr can beat it in AI answers.
+> [!abstract] What this page is for
+> Everything Quotr needs to know about Togal.AI as an AI-answer competitor: what it sells, what it costs, how it wins AI citations, and how Quotr can beat it in AI answers.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (section 2, Togal), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (prompts C1, C3, C11, V1, V2, V3, V4, V5, V9, B4, P5), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (funding correction, re-runs), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>). Read directly on 2026-09-25: [togal.ai/pricing](https://www.togal.ai/pricing), [ConstructConnect 2026 guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026). WebSearch on 2026-09-25: Togal funding, Capterra listing, /vs/ pages.
+> [!info]- Sources
+> [[competitor_geo_benchmark]] (section 2, Togal), [[quotr_ai_visibility_tests]] (prompts C1, C3, C11, V1, V2, V3, V4, V5, V9, B4, P5), [[verification_quotr_and_competitors]] (funding correction, re-runs), [[quotr_offsite_presence]]. Read directly on 2026-09-25: [togal.ai/pricing](https://www.togal.ai/pricing), [ConstructConnect 2026 guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026). WebSearch on 2026-09-25: Togal funding, Capterra listing, /vs/ pages.
 
 ---
 
@@ -39,7 +48,7 @@ Togal.AI is the AI takeoff brand that almost every comparison is built around. W
 - Sign-up is through "book a demo". There is no self-serve free trial button on the pricing page.
 - **AI answers get Togal's price wrong sometimes.** In Quotr's branded test, Togal was quoted at "$199/user/mo or $299/user/mo depending on source". Foreman AI lists $299 ([foremanai.co](https://foremanai.co/blog/best-ai-takeoff-software-2026)).
 
-**Compare with Quotr (list prices):** Quotr Plus is $299.90 per seat per month, almost the same as Togal Growth, and it adds 2,000 sq ft of takeoff credits a month, guided onboarding and 10% off procurement. Quotr Lite is $79.90 per seat per month for basic AI takeoff tools. See [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) for exact plan contents.
+**Compare with Quotr (list prices):** Quotr Plus is $299.90 per seat per month, almost the same as Togal Growth, and it adds 2,000 sq ft of takeoff credits a month, guided onboarding and 10% off procurement. Quotr Lite is $79.90 per seat per month for basic AI takeoff tools. See [[Entity fact sheet]] for exact plan contents.
 
 ---
 
@@ -106,14 +115,14 @@ What **Quotr** says about Togal (and what AI repeats): Quotr has three Togal pag
 
 **Goal:** when anyone asks "Togal alternatives", "Togal vs X" or "AI takeoff with procurement", Quotr should be named, with the correct price and the correct difference.
 
-1. **Fix the price on the Togal pages first.** [best-togal-ai-alternatives-2026](https://quotr.ai/blog/best-togal-ai-alternatives-2026/) still says "from $299.90/month" (confirmed in the verification notes); check the other two Togal posts too. Replace any "Solo $299.90 / Team $499.90" or "from $299.90" with "Lite $79.90 / Plus $299.90 per seat per month, 7-day free trial", then fix the rest of the ~13 stale URLs listed in [../../02-current-state/website-audit.md](../../02-current-state/website-audit.md) and resubmit them for recrawl. This is the fastest single win.
+1. **Fix the price on the Togal pages first.** [best-togal-ai-alternatives-2026](https://quotr.ai/blog/best-togal-ai-alternatives-2026/) still says "from $299.90/month" (confirmed in the verification notes); check the other two Togal posts too. Replace any "Solo $299.90 / Team $499.90" or "from $299.90" with "Lite $79.90 / Plus $299.90 per seat per month, 7-day free trial", then fix the rest of the ~13 stale URLs listed in [[Website audit]] and resubmit them for recrawl. This is the fastest single win.
 2. **Merge the two "Togal alternatives" posts** into one canonical page and redirect the other. Both are being retrieved, which splits their strength.
 3. **Write one fair, dated comparison table** that an AI can lift: price per seat, free trial (Quotr yes / Togal demo-first), done-for-you service (Quotr yes / Togal not listed), procurement (Quotr factory-direct / Togal not listed), Capterra and G2 review counts with "as of" dates. Say where Togal is stronger (review base, trade breadth, peer-reviewed study). Perplexity ignores self-ranking but uses neutral facts from Quotr's pages.
-4. **Get on the G2 and Capterra "Togal alternatives" pages.** They feed the V1 answer. That needs Quotr listed in the same categories as Togal (takeoff, construction estimating) with real reviews. Togal's Capterra page showed **"No Reviews"** in search results (2026-09-25), so a Capterra listing with even 10–20 reviews gives Quotr a lane Togal has not taken. See [../citation-sources-map.md](../citation-sources-map.md).
-5. **Publish a counter-benchmark.** Togal owns "peer-reviewed accuracy". Quotr can publish a dated, method-first accuracy and time study on **residential and multifamily plan sets** (clean vector vs scanned), with Quotr's "95–99% on clean vector, 80s on scans" numbers backed by the method. Quotr's accuracy post was already the first citation for "how accurate is AI takeoff" (P5), without the brand name. A named, documented study fixes that. See [../white-space.md](../white-space.md).
+4. **Get on the G2 and Capterra "Togal alternatives" pages.** They feed the V1 answer. That needs Quotr listed in the same categories as Togal (takeoff, construction estimating) with real reviews. Togal's Capterra page showed **"No Reviews"** in search results (2026-09-25), so a Capterra listing with even 10–20 reviews gives Quotr a lane Togal has not taken. See [[Citation sources map]].
+5. **Publish a counter-benchmark.** Togal owns "peer-reviewed accuracy". Quotr can publish a dated, method-first accuracy and time study on **residential and multifamily plan sets** (clean vector vs scanned), with Quotr's "95–99% on clean vector, 80s on scans" numbers backed by the method. Quotr's accuracy post was already the first citation for "how accurate is AI takeoff" (P5), without the brand name. A named, documented study fixes that. See [[White space]].
 6. **Enrich trade pages where Togal has one.** Togal has glazing, framing & lumber, doors & hardware, flooring, drywall, painting and electrical pages. Quotr has matching trade URLs, but the drywall page carries about 25 unique words. Add real content (scope, typical quantities, example output, FAQ) to at least these 7 trades.
 7. **Use brand-attributed sentences.** Write "Quotr.ai's Plus plan costs $299.90 per seat per month and includes procurement at 10% off", not "some platforms cost…". Perplexity anonymized Quotr's facts when the wording was generic (C12, P5).
-8. **Target these prompts** (add them to [../../04-prompt-library/tracking-set.md](../../04-prompt-library/tracking-set.md)): "Togal.AI alternatives", "Togal vs Quotr", "AI takeoff software that also orders materials", "Togal alternative for residential builders", "Togal pricing vs alternatives".
+8. **Target these prompts** (add them to [[Tracking set]]): "Togal.AI alternatives", "Togal vs Quotr", "AI takeoff software that also orders materials", "Togal alternative for residential builders", "Togal pricing vs alternatives".
 
 **Do not:** claim Quotr is "more accurate than Togal" without a published method. AI engines already flag Quotr's accuracy claims as self-published (B3).
 
@@ -130,10 +139,10 @@ What **Quotr** says about Togal (and what AI repeats): Quotr has three Togal pag
 
 ## Related pages
 
-- [../competitor-landscape.md](../competitor-landscape.md): full competitor map
-- [beam-ai.md](beam-ai.md): Beam's "vs Togal" page competes for the same query
-- [kreo.md](kreo.md): the other half of the "Kreo vs Togal" prompt
-- [../citation-sources-map.md](../citation-sources-map.md): G2/Capterra alternatives pages to target
-- [../white-space.md](../white-space.md): the residential accuracy benchmark idea
-- [../../02-current-state/ai-visibility-baseline.md](../../02-current-state/ai-visibility-baseline.md): V1, V2 and B4 results
-- [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md): correct Quotr prices and claims
+- [[Competitor landscape]]: full competitor map
+- [[Beam AI]]: Beam's "vs Togal" page competes for the same query
+- [[Kreo]]: the other half of the "Kreo vs Togal" prompt
+- [[Citation sources map]]: G2/Capterra alternatives pages to target
+- [[White space]]: the residential accuracy benchmark idea
+- [[AI visibility baseline]]: V1, V2 and B4 results
+- [[Entity fact sheet]]: correct Quotr prices and claims

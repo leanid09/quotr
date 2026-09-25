@@ -1,10 +1,16 @@
+---
+type: playbook
+description: 'Taking part in Reddit and trade forums honestly: communities, accounts, reply templates and rules.'
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Reddit and Community Playbook
 
-**What this page is for:** How Quotr.ai's founders and staff can take part in Reddit and construction forums honestly and usefully: why it matters, which communities, which accounts, what to post, reply templates, the rules, and what never to do.
+> [!abstract] What this page is for
+> How Quotr.ai's founders and staff can take part in Reddit and construction forums honestly and usefully: why it matters, which communities, which accounts, what to post, reply templates, the rules, and what never to do.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§3 Reddit and communities; §6 how construction buyers research), [geo_ai_citation_signals_2026.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) (§2 domain concentration, §4 volatility), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #15, #16, #18; X4, X18; M10), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (§3 Reddit, §6), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (still-open items); [../../03-market/citation-sources-map.md](../../03-market/citation-sources-map.md) (§3f Reddit threads AI cited); [../../04-prompt-library/buyer-questions-by-trade.md](../../04-prompt-library/buyer-questions-by-trade.md) (forums where questions were found). Platform and legal rules checked via WebSearch on 2026-09-25: Reddit Content Policy Rule 2 (as quoted in Reddit's own transparency filings, e.g. [Reddit AB 587 report](https://oag.ca.gov/sites/default/files/Reddit,%20Inc.%20-%20AB%20587%20Terms%20of%20Service%20Report%20(Q4%202023).pdf/Reddit,%20Inc.%20-%20AB%20587%20Terms%20of%20Service%20Report%20(Q4%202023).pdf)); [FTC Endorsement Guides: what people are asking](https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking).
+> [!info]- Sources
+> [[geo_content_playbook_b2b]] (§3 Reddit and communities; §6 how construction buyers research), [[geo_ai_citation_signals_2026]] (§2 domain concentration, §4 volatility), [[verification_geo_evidence]] (claims #15, #16, #18; X4, X18; M10), [[quotr_offsite_presence]] (§3 Reddit, §6), [[verification_quotr_and_competitors]] (still-open items); [[Citation sources map]] (§3f Reddit threads AI cited); [[Buyer questions by trade]] (forums where questions were found). Platform and legal rules checked via WebSearch on 2026-09-25: Reddit Content Policy Rule 2 (as quoted in Reddit's own transparency filings, e.g. [Reddit AB 587 report](https://oag.ca.gov/sites/default/files/Reddit,%20Inc.%20-%20AB%20587%20Terms%20of%20Service%20Report%20(Q4%202023).pdf/Reddit,%20Inc.%20-%20AB%20587%20Terms%20of%20Service%20Report%20(Q4%202023).pdf)); [FTC Endorsement Guides: what people are asking](https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking).
 
 ---
 
@@ -37,7 +43,7 @@
 | Associations that list Quotr as a member: BIA Bay Area, Modular Building Institute (membership status **TO CONFIRM with Quotr**) | Member-to-member credibility | Offer resources and talks |
 | Quotr's own Meetup group ("Quotr.ai Construction Technology") | Owned community | Keep active or close it |
 
-Real questions per trade (with thread links) are collected in [../../04-prompt-library/buyer-questions-by-trade.md](../../04-prompt-library/buyer-questions-by-trade.md). Threads that AI engines already cite are listed in [../../03-market/citation-sources-map.md](../../03-market/citation-sources-map.md) §3f.
+Real questions per trade (with thread links) are collected in [[Buyer questions by trade]]. Threads that AI engines already cite are listed in [[Citation sources map]] §3f.
 
 ---
 
@@ -136,9 +142,9 @@ Reddit's long-standing etiquette says it is fine to be "a redditor with a websit
 
 ## Related pages
 
-- [youtube-and-video.md](youtube-and-video.md) and [linkedin-thought-leadership.md](linkedin-thought-leadership.md) — the other community channels
-- [review-generation.md](review-generation.md) — the disclosure and FTC rules, in more detail
-- [../templates/original-research-report.md](../templates/original-research-report.md) — data worth sharing in communities
-- [../../03-market/citation-sources-map.md](../../03-market/citation-sources-map.md) — Reddit threads AI engines cite
-- [../../04-prompt-library/buyer-questions-by-trade.md](../../04-prompt-library/buyer-questions-by-trade.md) — real questions from forums
-- [../../00-quotr/audiences-and-personas.md](../../00-quotr/audiences-and-personas.md) — who is in these communities
+- [[YouTube and video]] and [[LinkedIn thought leadership]] — the other community channels
+- [[Review generation]] — the disclosure and FTC rules, in more detail
+- [[Original research report template]] — data worth sharing in communities
+- [[Citation sources map]] — Reddit threads AI engines cite
+- [[Buyer questions by trade]] — real questions from forums
+- [[Audiences and personas]] — who is in these communities

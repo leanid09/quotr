@@ -1,7 +1,12 @@
+---
+type: report
+description: The plan for turning the brain into a working Obsidian vault and keeping it fresh every day with Claude.
+date: 2026-09-25
+---
 # How to make the Quotr GEO brain a better Obsidian vault, and keep it fresh every day
 
 **Date:** 2026-09-25
-**Based on:** a structural check of all 68 brain pages, plus research into Obsidian best practices ([notes](<../research_notes/obsidian_vault_best_practices.md>)).
+**Based on:** a structural check of all 68 brain pages, plus research into Obsidian best practices ([[obsidian_vault_best_practices|notes]]).
 
 ---
 

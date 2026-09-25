@@ -1,10 +1,16 @@
+---
+type: page-template
+description: Template for the pricing page, so AI quotes current prices and knows old plans are retired.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Template: Pricing Page
 
-**What this page is for:** A template for Quotr.ai's /pricing/ page (and pricing sections elsewhere) so that every AI engine quotes the current prices, understands that old plans are retired, and can answer the follow-up questions buyers ask about seats, trials and the service.
+> [!abstract] What this page is for
+> A template for Quotr.ai's /pricing/ page (and pricing sections elsewhere) so that every AI engine quotes the current prices, understands that old plans are retired, and can answer the follow-up questions buyers ask about seats, trials and the service.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) (§1b pricing, §4 inconsistency rows 1–4), [../../00-quotr/product-and-features.md](../../00-quotr/product-and-features.md) (§2 plans); [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§3 /pricing/, §5 pricing inconsistencies), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (claims 6–7, 14, 26–27; gaps filled #2; re-runs B2, B4), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (V7), [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1 pricing pages; §6 Capterra budgets), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #6, #21, #28).
+> [!info]- Sources
+> [[Entity fact sheet]] (§1b pricing, §4 inconsistency rows 1–4), [[Products and features]] (§2 plans); [[quotr_onsite_content_audit]] (§3 /pricing/, §5 pricing inconsistencies), [[verification_quotr_and_competitors]] (claims 6–7, 14, 26–27; gaps filled #2; re-runs B2, B4), [[quotr_ai_visibility_tests]] (V7), [[geo_content_playbook_b2b]] (§1 pricing pages; §6 Capterra budgets), [[verification_geo_evidence]] (claims #6, #21, #28).
 
 ---
 
@@ -82,7 +88,7 @@
 | 50,000 sq ft and above | $0.10 per sq ft | Price sent before work starts |
 | Turnaround | **TO CONFIRM** (the site shows 24 hours, 3–4 business days, 1–3 days, 5–7 days and 72 hours in different places) | |
 
-**Pricing FAQ (draft; see [faq-block.md](faq-block.md) for approved answers):**
+**Pricing FAQ (draft; see [[FAQ block template]] for approved answers):**
 - How much does Quotr.ai cost? (approved)
 - Is there a free trial? (approved)
 - What is the difference between Lite and Plus? (approved)
@@ -99,10 +105,10 @@ When any price changes, update **all** of these on the same day:
 
 - [ ] /pricing/ page copy and table
 - [ ] /software/#pricing section and FAQ
-- [ ] SoftwareApplication Offers schema ([../schema-markup-kit.md](../schema-markup-kit.md) 5.2)
+- [ ] SoftwareApplication Offers schema ([[Schema markup kit]] 5.2)
 - [ ] /disambiguation/ page copy and schema
 - [ ] llms.txt
-- [ ] Blog posts that mention prices (keep a list; today about 13 need fixing — see [../page-refresh-checklist.md](../page-refresh-checklist.md) Tier 0)
+- [ ] Blog posts that mention prices (keep a list; today about 13 need fixing — see [[Page refresh checklist]] Tier 0)
 - [ ] Comparison and alternatives pages
 - [ ] Product Hunt, Crunchbase, G2, Capterra, F6S and other profiles
 - [ ] Emails to third parties that quote Quotr's price (Nomic, Octopus Builds)
@@ -135,9 +141,9 @@ When any price changes, update **all** of these on the same day:
 
 ## Related pages
 
-- [faq-block.md](faq-block.md) — approved pricing answers
-- [product-feature-page.md](product-feature-page.md) — product pages that link here
-- [../schema-markup-kit.md](../schema-markup-kit.md) — Offers markup
-- [../page-refresh-checklist.md](../page-refresh-checklist.md) — the list of pages with stale prices
-- [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) — current prices and retired plans
-- [../../00-quotr/product-and-features.md](../../00-quotr/product-and-features.md) — what each plan includes
+- [[FAQ block template]] — approved pricing answers
+- [[Product feature page template]] — product pages that link here
+- [[Schema markup kit]] — Offers markup
+- [[Page refresh checklist]] — the list of pages with stale prices
+- [[Entity fact sheet]] — current prices and retired plans
+- [[Products and features]] — what each plan includes

@@ -1,10 +1,16 @@
+---
+type: guide
+description: Evidence-rated table of what drives AI citations and mentions (September 2026), with vendor-bias flags.
+last_verified: 2026-09-25
+verify_every_days: 90
+---
 # Signals That Matter for AI Visibility (Evidence Table, September 2026)
 
-**What this page is for:** One evidence-rated list of the factors linked to a brand being cited, mentioned or recommended by AI answer engines: how strong the evidence is, which studies say so (date, publisher, sample, link), whether the study comes from a vendor, and whether the factor is rising or falling in importance. It ends with what matters more in 2026 than in 2024, and what this means for Quotr.ai.
+> [!abstract] What this page is for
+> One evidence-rated list of the factors linked to a brand being cited, mentioned or recommended by AI answer engines: how strong the evidence is, which studies say so (date, publisher, sample, link), whether the study comes from a vendor, and whether the factor is rising or falling in importance. It ends with what matters more in 2026 than in 2024, and what this means for Quotr.ai.
 
-**Last updated:** 2026-09-25
-
-**Sources:** Research notes [geo_ai_citation_signals_2026.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) (§2–§4), [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1–§3), corrected by [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #9–#20, hype flags H1–H20, outdated items O1–O12, new items M1–M10; these corrections override the notes); Quotr test results from [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>); the final report [Quotr GEO AEO strategy audit.md](<../../reports/Quotr GEO AEO strategy audit.md>) (section "Signals: proof from others now beats on-page tricks"). Studies are linked in each row.
+> [!info]- Sources
+> Research notes [[geo_ai_citation_signals_2026]] (§2–§4), [[geo_content_playbook_b2b]] (§1–§3), corrected by [[verification_geo_evidence]] (claims #9–#20, hype flags H1–H20, outdated items O1–O12, new items M1–M10; these corrections override the notes); Quotr test results from [[quotr_ai_visibility_tests]]; the final report [[Quotr GEO AEO strategy audit]] (section "Signals: proof from others now beats on-page tricks"). Studies are linked in each row.
 
 ---
 
@@ -21,7 +27,7 @@
 
 **Vendor flag.** "Vendor" means the study comes from a company that sells SEO, AI-visibility, review or PR products, so it has a commercial interest in the result. Vendor studies are not wrong by default, but treat them as directional.
 
-**Correlation is not causation.** Nearly all large studies below are observational: they show that brands with X also tend to have AI visibility, not that adding X causes it. Big brands tend to have more of everything ([verification H7](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>)).
+**Correlation is not causation.** Nearly all large studies below are observational: they show that brands with X also tend to have AI visibility, not that adding X causes it. Big brands tend to have more of everything ([[verification_geo_evidence|verification H7]]).
 
 **Trend** compares 2026 with 2024–25: **rising** (matters more), **stable**, **falling** (matters less).
 
@@ -84,7 +90,7 @@
 - **Surfer** (46M citations, May 2026; vendor; secondary summary): YouTube ~23.3% of AI Overview citations, ahead of Wikipedia (18.4%). BrightEdge puts YouTube at 29.5% of AIO citation share. [BrightEdge](https://www.brightedge.com/blog/youtubes-growing-impact-google-ai-overviews-what-marketers-need-know)
 - **Aleyda Solis** (Aug 2026): YouTube is the largest single source domain for SaaS brands. [Aleyda Solis](https://www.aleydasolis.com/en/ai-search/ai-search-citations/)
 - **Meltwater** (July 2026; vendor): citations shifting further toward YouTube, LinkedIn and Reddit. [Meltwater](https://www.meltwater.com/en/blog/ai-search-visibility-report-july-2026)
-- **Counterpoint:** Perplexity never cited YouTube in Quotr's 45 test runs ([ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md)). The payoff is likely in Google's AI features.
+- **Counterpoint:** Perplexity never cited YouTube in Quotr's 45 test runs ([[AI visibility baseline]]). The payoff is likely in Google's AI features.
 - **Plain English:** "strongest correlate, plausible but unproven lever" (fact-check wording). Worth doing because buyers also watch demos.
 
 ### 3. Reddit and community (UGC) — Moderate, volatile · Stable overall, falling in ChatGPT
@@ -93,14 +99,14 @@
 - **Growth Memo for G2** (Feb 2026; ~35,000 ChatGPT citation URLs, US, Dec 2025; commissioned by G2): user-generated content platforms out-cite review sites at every stage of the buyer journey. [Growth Memo](https://www.growth-memo.com/p/community-signals-are-ais-largest)
 - **Ahrefs** (1.4M prompts; vendor): ChatGPT retrieves Reddit heavily but cites it only 1.93% of the time. [Ahrefs](https://ahrefs.com/blog/why-chatgpt-cites-pages/)
 - **Volatility:** Semrush (230K+ prompts, 13 weeks, 2025; vendor): ChatGPT cited Reddit in ~60% of responses in early Aug 2025, ~10% by mid-Sept 2025 (not re-checked) ([Semrush](https://www.semrush.com/blog/most-cited-domains-ai/)). Promptwatch: 3.83% → 0.52% of ChatGPT Search citations in Aug 2026 (confirmed) ([Promptwatch](https://promptwatch.com/blog/chatgpt-stop-citing-reddit)).
-- **Quotr tests:** reddit.com (mostly r/estimators) was in 6 of 32 unbranded source lists; no Reddit thread naming Quotr was found ([citation-sources-map.md](../03-market/citation-sources-map.md)).
+- **Quotr tests:** reddit.com (mostly r/estimators) was in 6 of 32 unbranded source lists; no Reddit thread naming Quotr was found ([[Citation sources map]]).
 - **Plain English:** communities matter a lot, but any one platform's share can collapse overnight. Take part honestly and spread effort.
 
 ### 4. Reviews on software review sites — Moderate · Stable to rising
 
-- **Quotr tests** (Perplexity, Sept 25, 2026): Capterra and G2 each fed **9 of 32** unbranded answers; SourceForge 8, Software Advice 7, GetApp 6 ([citation-sources-map.md](../03-market/citation-sources-map.md)).
+- **Quotr tests** (Perplexity, Sept 25, 2026): Capterra and G2 each fed **9 of 32** unbranded answers; SourceForge 8, Software Advice 7, GetApp 6 ([[Citation sources map]]).
 - **G2, "The Answer Economy"** (surveyed March 2026, published April 2026; 1,076 B2B software buyers; **G2 has a direct interest**). 51% start software research in an AI chatbot more often than Google; 45% say a review-site citation is the most confidence-inspiring signal in an AI answer (50% of daily power users). Confirmed. [G2](https://company.g2.com/news/g2-research-the-answer-economy)
-- **Counter-evidence:** Aleyda Solis puts news/review at only 10.4% of SaaS top sources; Growth Memo found UGC out-cites review sites ([verification H10](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>)).
+- **Counter-evidence:** Aleyda Solis puts news/review at only 10.4% of SaaS top sources; Growth Memo found UGC out-cites review sites ([[verification_geo_evidence|verification H10]]).
 - **Presenc AI** (vendor): top-20 G2/Capterra brands cited 3.1x more for "best [category]" queries. Method unverified; **drop or label as vendor** (H12). [Presenc AI](https://presenc.ai/research/does-g2-capterra-reviews-improve-ai-visibility-2026)
 - **Market change:** in January 2026, G2 agreed to buy Capterra, GetApp and Software Advice from Gartner, so one review program can feed all four ([PR Newswire](https://www.prnewswire.com/news-releases/g2-to-acquire-capterra-software-advice-and-getapp-from-gartner-302673901.html)).
 - **Plain English:** in Quotr's category, review directories are among the most-read sources, and list writers rank tools by review counts. Quotr's G2 profile reportedly has 0 reviews (a Perplexity report; G2 blocked direct checks), and no Capterra listing was found.
@@ -110,8 +116,8 @@
 - **Ahrefs, "Do Self-Promotional 'Best' Lists Boost ChatGPT Visibility?"** (26,283 source URLs; vendor): "best X" listicles were **43.8%** of page types ChatGPT cited; self-promotional lists were still cited. [Ahrefs](https://ahrefs.com/blog/best-lists-research/)
 - **ZeroClick Labs** (vendor/agency): listicles take 61% of citations in B2B technology services. [ZeroClick Labs](https://zeroclicklabs.ai/ai-seo-study-content-types-ai-search/)
 - **HubSpot, State of AEO 2026** (June 3, 2026; vendor; method not published): product/landing pages 68.5%, blog posts 66.75%, listicles 66% average citation rate across AIO, Gemini, ChatGPT and Perplexity. (Some notes credit AirOps; the fact-check says HubSpot.) [HubSpot](https://blog.hubspot.com/marketing/content-format-types-that-earn-citations)
-- **Quotr tests:** the same few "best of" lists recur (Construction Coverage 7 of 32, ConstructConnect's 2026 guide 7, The Digital Project Manager 6; ConstructConnect is itself a vendor, and two of the nine tools in its guide are its own). Quotr was not found on any of them (checked by site-restricted search; the pages could not be opened) ([citation-sources-map.md](../03-market/citation-sources-map.md)).
-- **Self-published lists are the risk:** see [myths-and-risks.md](myths-and-risks.md) (Lily Ray: 29–49% visibility losses; 69% omission).
+- **Quotr tests:** the same few "best of" lists recur (Construction Coverage 7 of 32, ConstructConnect's 2026 guide 7, The Digital Project Manager 6; ConstructConnect is itself a vendor, and two of the nine tools in its guide are its own). Quotr was not found on any of them (checked by site-restricted search; the pages could not be opened) ([[Citation sources map]]).
+- **Self-published lists are the risk:** see [[Myths and risks]] (Lily Ray: 29–49% visibility losses; 69% omission).
 - **Plain English:** being **on** other people's lists is one of the most direct routes into "best X" answers. Publishing your own self-ranked lists is not.
 
 ### 6. Backlinks and domain authority — Weak–moderate · Falling (relative)
@@ -133,14 +139,14 @@
 ### 8. Branded search volume — Moderate (correlation) · Stable
 
 - Ahrefs: 0.392 with AIO visibility (2025, not re-read); 0.352 for ChatGPT (Dec 2025).
-- **Plain English:** people searching for "Quotr" is both a sign and a result of being known. It is also a key top-of-funnel KPI ([traffic-and-funnel-impact.md](traffic-and-funnel-impact.md)).
+- **Plain English:** people searching for "Quotr" is both a sign and a result of being known. It is also a key top-of-funnel KPI ([[Traffic and funnel impact]]).
 
 ### 9. Freshness — Moderate, engine-dependent · Stable (rising in ChatGPT)
 
 - **Ahrefs, "Do AI assistants prefer to cite fresh content?"** (July 28, 2025; 16.975M cited URLs; vendor; read by the fact-check). AI-cited URLs averaged 1,064 days old vs ~1,416–1,432 days for organic results (Ahrefs' page gives both numbers); **ChatGPT** most recency-biased (citations 458 days newer than organic); **Google AI Overviews** least; cited pages still average **2.9 years**. [Ahrefs](https://ahrefs.com/blog/do-ai-assistants-prefer-to-cite-fresh-content/)
 - Microsoft recommends "fresh content consistent with authoritative sources" and its grounding index checks whether information is "fresh enough" ([Microsoft](https://about.ads.microsoft.com/en/blog/post/october-2025/optimizing-your-content-for-inclusion-in-ai-search-answers)).
 - **Drop these claims:** "half of AI citations are from content updated in the last 13 weeks" and "Perplexity +142% for content updated within 30 days" (source dataset not identified; H5).
-- **Plain English:** update when facts change. Date bumps without real changes can backfire ([myths-and-risks.md](myths-and-risks.md)).
+- **Plain English:** update when facts change. Date bumps without real changes can backfire ([[Myths and risks]]).
 
 ### 10. Structure (answer-first, headings, tables, self-contained sections) — Moderate as practice · Stable
 
@@ -155,7 +161,7 @@
 - **Google's May 2026 guide:** the most important factor is "valuable, unique, non-commodity content" (confirmed).
 - **Growth Memo, "Why most original data never gets cited"** (301 pages, 316 prompts, 7 verticals, 1,075 citations): only 8 primary-research pages, but **3.3x** the citations per page (11.3 vs 3.4); the format AI rewards is the benchmark that answers "which is best". [Growth Memo](https://www.growth-memo.com/p/why-most-original-data-never-gets)
 - **Growth Memo, "Why proprietary data is your most defensible AI citation asset"** (June 29, 2026): DATE and NUMBER entities best predict ChatGPT citations; proprietary data is "necessary but not sufficient". [Growth Memo](https://www.growth-memo.com/p/why-proprietary-data-is-your-most)
-- **Quotr tests:** small rivals Meltplan and Exayard get cited next to RSMeans for cost-per-sq-ft pages; Quotr's number-rich AI-accuracy post was Perplexity's first source for "how accurate is AI takeoff" (one session; the fact-check could not repeat this prompt) ([ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md); [report](<../../reports/Quotr GEO AEO strategy audit.md>)).
+- **Quotr tests:** small rivals Meltplan and Exayard get cited next to RSMeans for cost-per-sq-ft pages; Quotr's number-rich AI-accuracy post was Perplexity's first source for "how accurate is AI takeoff" (one session; the fact-check could not repeat this prompt) ([[AI visibility baseline]]; [[Quotr GEO AEO strategy audit|report]]).
 - **Plain English:** publish facts only Quotr can know, with the method and date.
 
 ### 12. Adding statistics, quotations and cited sources as a tactic — Weak · Falling
@@ -169,19 +175,19 @@
 - **Google** (May 2026): structured data is not required and there is "no special schema.org markup" for AI features; still useful for rich results.
 - **Microsoft** (Oct 2025): recommends FAQ, HowTo, Product and Review schema for Copilot.
 - **Fischman, SSRN** (cross-platform study; author runs a GEO agency): pooled **negative** association between schema and AI citation (OR = 0.546, p < .001), attributed to a confound; conclusion: schema is "an amplifier, not a driver". [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6284518)
-- **Plain English:** make schema correct and consistent; don't expect it to win citations on its own. Kit: [../06-playbooks/schema-markup-kit.md](../06-playbooks/schema-markup-kit.md).
+- **Plain English:** make schema correct and consistent; don't expect it to win citations on its own. Kit: [[Schema markup kit]].
 
 ### 14. Author expertise / E-E-A-T — Weak (no direct evidence) · Unknown
 
-- The research found **no robust quantitative study** showing that author bylines or E-E-A-T markup directly affect AI citation ([signals notes §2 gaps](<../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>)).
-- Indirect: Perplexity labelled Quotr's unsourced claims "vendor assertions", and Growth Memo finds cited pages are dense with specific entities such as a named methodology ([report](<../../reports/Quotr GEO AEO strategy audit.md>)).
+- The research found **no robust quantitative study** showing that author bylines or E-E-A-T markup directly affect AI citation ([[geo_ai_citation_signals_2026|signals notes §2 gaps]]).
+- Indirect: Perplexity labelled Quotr's unsourced claims "vendor assertions", and Growth Memo finds cited pages are dense with specific entities such as a named methodology ([[Quotr GEO AEO strategy audit|report]]).
 - **Plain English:** named human authors with real credentials are basic trust for buyers. Treat them as hygiene, not a proven AI lever.
 
 ### 15. Entity consistency — Moderate (inference supported by tests) · Rising
 
-- **Quotr tests:** when Quotr's pages disagreed, Perplexity hedged: "Quotr claims access to 50+ to 220+ factories, depending on the page"; it also mixed up funding figures and borrowed the unrelated "Quotr Pro" app's ratings ([report](<../../reports/Quotr GEO AEO strategy audit.md>)).
+- **Quotr tests:** when Quotr's pages disagreed, Perplexity hedged: "Quotr claims access to 50+ to 220+ factories, depending on the page"; it also mixed up funding figures and borrowed the unrelated "Quotr Pro" app's ratings ([[Quotr GEO AEO strategy audit|report]]).
 - Microsoft's grounding index checks whether facts are clearly sourced and consistent with authoritative sources.
-- A 2026 preprint reportedly found higher hallucination rates for entities without Wikipedia pages (15 LLMs, 7,919 entities); the exact paper is **unverified** ([playbook §3](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>)).
+- A 2026 preprint reportedly found higher hallucination rates for entities without Wikipedia pages (15 LLMs, 7,919 entities); the exact paper is **unverified** ([[geo_content_playbook_b2b|playbook §3]]).
 - **Plain English:** when the facts match everywhere, AI can state them confidently and tell Quotr apart from namesakes.
 
 ### 16. Wikipedia and Wikidata — Moderate (Wikipedia) / Weak (Wikidata) · Falling / volatile in ChatGPT
@@ -200,7 +206,7 @@
 
 - **Muck Rack, "What Is AI Reading?"** (May 7, 2026; 25M+ links; ChatGPT, Claude, Gemini; 17 industries; PR vendor; read by the fact-check): "earned" sources 84% of citations (82–89% since July 2025), journalism ~27%, paid 0.3%. "Earned" is defined broadly, so this does **not** mean 84% of citations are press coverage (H11). [Muck Rack](https://muckrack.com/blog/what-is-ai-reading-may-2026)
 - For SaaS, news/review sources were only 10.4% of top sources (Aleyda Solis).
-- **Quotr tests:** for a tariff question, Perplexity cited only government reports, trade groups, news media and large industry firms (for example Congress's Joint Economic Committee and NAHB); no software vendor was cited ([report](<../../reports/Quotr GEO AEO strategy audit.md>)).
+- **Quotr tests:** for a tariff question, Perplexity cited only government reports, trade groups, news media and large industry firms (for example Congress's Joint Economic Committee and NAHB); no software vendor was cited ([[Quotr GEO AEO strategy audit|report]]).
 - **Plain English:** press is the best route to independent validation of facts, especially with original data as the hook.
 
 ### 19. Content length — Weak (both work) · Stable
@@ -212,22 +218,22 @@
 
 - Ahrefs (Dec 2025; 75K brands): page count ~0.194, "almost no relationship between the number of site pages and AI visibility". [The Next Web](https://thenextweb.com/news/ahrefs-youtube-mentions-ai-visibility-brand-search)
 - Google: many pages made mainly to manipulate rankings or AI answers can break the scaled content abuse policy.
-- **Quotr:** 96 blog posts in about six months; AI engines read them but rarely name Quotr ([report](<../../reports/Quotr GEO AEO strategy audit.md>)).
+- **Quotr:** 96 blog posts in about six months; AI engines read them but rarely name Quotr ([[Quotr GEO AEO strategy audit|report]]).
 
 ### 21. Multimedia beyond YouTube — Weak (no data) · Unknown
 
-- No solid quantitative data was found for images, podcasts or webinars ([signals notes §2 gaps](<../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>); [playbook §3 gaps](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>)).
+- No solid quantitative data was found for images, podcasts or webinars ([[geo_ai_citation_signals_2026|signals notes §2 gaps]]; [[geo_content_playbook_b2b|playbook §3 gaps]]).
 - Video in Google AI Mode: 23.0% of SaaS cited sources vs 1.0% in ChatGPT (Aleyda Solis SaaS article; not re-read).
 - **Plain English:** video is worth it mainly through YouTube. Transcripts and text summaries make video content readable by engines that do not watch video.
 
 ### 22. Crawler access and rendering — Strong (prerequisite) · Stable
 
-- OpenAI: don't block OAI-SearchBot if you want to appear. Anthropic: blocking Claude-SearchBot "may reduce visibility". Google: must be indexed. Many AI crawlers do not run JavaScript, so server-rendered text is safer ([website-audit.md](../02-current-state/website-audit.md)).
-- Full crawler table: [how-ai-engines-choose-sources.md](how-ai-engines-choose-sources.md).
+- OpenAI: don't block OAI-SearchBot if you want to appear. Anthropic: blocking Claude-SearchBot "may reduce visibility". Google: must be indexed. Many AI crawlers do not run JavaScript, so server-rendered text is safer ([[Website audit]]).
+- Full crawler table: [[How AI engines choose sources]].
 
 ### 23. llms.txt — Myth for citations · Falling
 
-- SE Ranking (300K domains; vendor; not re-checked): no correlation with AI citations. Google: AI text files not needed. Details in [myths-and-risks.md](myths-and-risks.md).
+- SE Ranking (300K domains; vendor; not re-checked): no correlation with AI citations. Google: AI text files not needed. Details in [[Myths and risks]].
 
 ---
 
@@ -253,29 +259,29 @@ In plain words, eleven shifts:
 
 ## 4. What this means for Quotr
 
-Quotr's situation (from the [report](<../../reports/Quotr GEO AEO strategy audit.md>) and [presence-scorecard.md](../02-current-state/presence-scorecard.md)): strong on-site formatting and crawlability, 96 posts that Perplexity already reads, but **named in 1 of 32 unbranded Perplexity questions (about 3%)** against 10 each for STACK, PlanSwift and Buildxact, almost no third-party proof, and conflicting facts on its own pages. Only Perplexity was tested; ChatGPT, Google AI Overviews / AI Mode, Gemini, Claude and Copilot still need a baseline.
+Quotr's situation (from the [[Quotr GEO AEO strategy audit|report]] and [[Presence scorecard]]): strong on-site formatting and crawlability, 96 posts that Perplexity already reads, but **named in 1 of 32 unbranded Perplexity questions (about 3%)** against 10 each for STACK, PlanSwift and Buildxact, almost no third-party proof, and conflicting facts on its own pages. Only Perplexity was tested; ChatGPT, Google AI Overviews / AI Mode, Gemini, Claude and Copilot still need a baseline.
 
 - **Shift effort from pages to proof.** The weakest signals (page volume, llms.txt, schema) are where Quotr has invested most; the strongest (mentions, reviews, lists, YouTube, communities) are where it scores lowest (entity and off-site trust 1.4 of 5).
 - **Start a G2 review drive.** Review sites fed 9 of 32 answers in Quotr's category, and one program now feeds G2, Capterra, GetApp and Software Advice. Aim for 10–30 honest reviews under G2's rules.
-- **Get on the lists engines already read:** Construction Coverage, The Digital Project Manager, ConstructionPlacements, ContraVault, the F6S "AI-Assisted Takeoff" category ([citation-sources-map.md](../03-market/citation-sources-map.md)).
+- **Get on the lists engines already read:** Construction Coverage, The Digital Project Manager, ConstructionPlacements, ContraVault, the F6S "AI-Assisted Takeoff" category ([[Citation sources map]]).
 - **Make YouTube a Google-side bet:** one trade per video on real residential plans, with "Quotr" said aloud and in titles.
 - **Show up in communities honestly:** founders answering in r/estimators and Facebook estimator groups, with clear disclosure; founder LinkedIn articles.
-- **Publish original data:** a factory-direct vs US price index with tariffs, residential/multifamily cost per sq ft by trade, an LA fire-rebuild cost guide. These are topics where no software vendor is cited today ([white-space.md](../03-market/white-space.md)).
-- **Fix entity consistency first:** one fact sheet for price, HQ, founders, funding, factory count, turnaround and handles ([../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md)).
+- **Publish original data:** a factory-direct vs US price index with tariffs, residential/multifamily cost per sq ft by trade, an LA fire-rebuild cost guide. These are topics where no software vendor is cited today ([[White space]]).
+- **Fix entity consistency first:** one fact sheet for price, HQ, founders, funding, factory count, turnaround and handles ([[Entity fact sheet]]).
 - **Keep the SEO base healthy:** Google and Bing indexing, blog sitemap in robots.txt, real lastmod dates, no stale prices, staging hosts out of the index.
-- **Keep the good formatting, stop the tricks:** keep answer-first blocks and tables; remove the llms.txt "should be cited" line and bot-directed wording; stop growing self-ranked lists ([myths-and-risks.md](myths-and-risks.md)).
-- **Measure across engines and over time**, not from one snapshot ([../07-measurement/kpis-and-dashboard.md](../07-measurement/kpis-and-dashboard.md)).
+- **Keep the good formatting, stop the tricks:** keep answer-first blocks and tables; remove the llms.txt "should be cited" line and bot-directed wording; stop growing self-ranked lists ([[Myths and risks]]).
+- **Measure across engines and over time**, not from one snapshot ([[KPIs and dashboard]]).
 
 ---
 
 ## Related pages
 
-- [how-ai-engines-choose-sources.md](how-ai-engines-choose-sources.md) — how each engine retrieves and cites
-- [myths-and-risks.md](myths-and-risks.md) — tactics that waste effort or carry risk
-- [traffic-and-funnel-impact.md](traffic-and-funnel-impact.md) — clicks, referrals and top-of-funnel reach
-- [geo-glossary.md](geo-glossary.md) — plain-English definitions
-- [../02-current-state/presence-scorecard.md](../02-current-state/presence-scorecard.md) — how Quotr scores on these signals today
-- [../02-current-state/offsite-presence.md](../02-current-state/offsite-presence.md) — Quotr's reviews, lists, press and communities
-- [../03-market/citation-sources-map.md](../03-market/citation-sources-map.md) — the sources engines cite in Quotr's category
-- [../05-content-strategy/content-priorities.md](../05-content-strategy/content-priorities.md) — which content to build first
-- [../05-content-strategy/offsite-earned-media-plan.md](../05-content-strategy/offsite-earned-media-plan.md) — the off-site plan
+- [[How AI engines choose sources]] — how each engine retrieves and cites
+- [[Myths and risks]] — tactics that waste effort or carry risk
+- [[Traffic and funnel impact]] — clicks, referrals and top-of-funnel reach
+- [[GEO glossary]] — plain-English definitions
+- [[Presence scorecard]] — how Quotr scores on these signals today
+- [[Off-site presence]] — Quotr's reviews, lists, press and communities
+- [[Citation sources map]] — the sources engines cite in Quotr's category
+- [[Content priorities]] — which content to build first
+- [[Off-site earned media plan]] — the off-site plan

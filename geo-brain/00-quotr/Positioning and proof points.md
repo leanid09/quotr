@@ -1,10 +1,16 @@
+---
+type: guide
+description: Differentiators, available and missing proof, risky claims, and draft positioning lines per persona.
+last_verified: 2026-09-25
+verify_every_days: 90
+---
 # Quotr.ai Positioning and Proof Points
 
-**What this page is for:** What makes Quotr.ai different, what evidence backs that up today, which proof is missing, which claims are risky for AI trust, and draft one-line positioning statements for each buyer type.
+> [!abstract] What this page is for
+> What makes Quotr.ai different, what evidence backs that up today, which proof is missing, which claims are risky for AI trust, and draft one-line positioning statements for each buyer type.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>), [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>), [quotr_offsite_presence.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>), [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>); quotr.ai pages (/, /software/, /pricing/, /service/, /procurement/, /case-studies/, /disambiguation/, blog) as read in the notes; competitor pages cited in the notes (togal.ai, ibeam.ai, handoff.ai, buildxact.com, constructconnect.com); extra WebSearch checks on 2026-09-25 of competitor pricing pages (togal.ai, stackct.com, kreo.net, ibeam.ai), Handoff and Buildxact purchasing features, and Quotr's Feb 2025 EIN Presswire release; /software/ and /about-us/ re-read directly with a scraper on 2026-09-25.
+> [!info]- Sources
+> [[competitor_geo_benchmark]], [[quotr_ai_visibility_tests]], [[quotr_onsite_content_audit]], [[quotr_offsite_presence]], [[verification_quotr_and_competitors]], [[geo_content_playbook_b2b]]; quotr.ai pages (/, /software/, /pricing/, /service/, /procurement/, /case-studies/, /disambiguation/, blog) as read in the notes; competitor pages cited in the notes (togal.ai, ibeam.ai, handoff.ai, buildxact.com, constructconnect.com); extra WebSearch checks on 2026-09-25 of competitor pricing pages (togal.ai, stackct.com, kreo.net, ibeam.ai), Handoff and Buildxact purchasing features, and Quotr's Feb 2025 EIN Presswire release; /software/ and /about-us/ re-read directly with a scraper on 2026-09-25.
 
 ---
 
@@ -32,7 +38,7 @@ Quotr sits across six categories that AI tools usually treat separately:
 
 Sources: visibility tests §5 (32 unbranded prompts; Quotr named in 1, about 3%; its share of all brand mentions is about 0.7%); competitor benchmark §1; verification file re-runs.
 
-Full competitor detail: [../03-market/competitor-landscape.md](../03-market/competitor-landscape.md).
+Full competitor detail: [[Competitor landscape]].
 
 ---
 
@@ -61,7 +67,7 @@ Full competitor detail: [../03-market/competitor-landscape.md](../03-market/comp
 - **Buy the materials:** Quotr Procurement (DDP pricing).
 - Quotr's own homepage wording for this: three "lanes" — "hands-off estimating support, in-house software, or factory-direct procurement savings" (search-index text, WebSearch 2026-09-25). Reusing this exact phrase across the site, profiles and boilerplate would help AI tools repeat it consistently.
 - The service and software are joined up: Quotr says "every Quotr Service engagement includes the software", so the customer gets an editable project with sheet-level references, not a static spreadsheet (index-only text of the [electrical estimating services post](https://quotr.ai/blog/electrical-estimating-services/); **TO CONFIRM**). This is a strong, concrete point versus traditional estimating firms.
-- Nearest competitor pattern: Beam AI sells AI plus human-reviewed takeoffs, usually quoted as delivered "within 1–4 days" (some Beam pages say 24–48 or 24–72 hours) ([ibeam.ai/compare](https://www.ibeam.ai/compare); [PR Newswire](https://www.prnewswire.com/news-releases/beam-ai-to-showcase-instant-ai-hvac-takeoffs-at-ahr-expo-2026-302675290.html); see [../03-market/competitors/beam-ai.md](../03-market/competitors/beam-ai.md)). That mirrors Quotr Service, but no Beam procurement offer was seen in the research.
+- Nearest competitor pattern: Beam AI sells AI plus human-reviewed takeoffs, usually quoted as delivered "within 1–4 days" (some Beam pages say 24–48 or 24–72 hours) ([ibeam.ai/compare](https://www.ibeam.ai/compare); [PR Newswire](https://www.prnewswire.com/news-releases/beam-ai-to-showcase-instant-ai-hvac-takeoffs-at-ahr-expo-2026-302675290.html); see [[Beam AI]]). That mirrors Quotr Service, but no Beam procurement offer was seen in the research.
 
 ### 2.3 Transparent, low entry price
 
@@ -109,7 +115,7 @@ Full competitor detail: [../03-market/competitor-landscape.md](../03-market/comp
 
 - Quotr's own copy says residential single-family and multifamily is core (llms.txt, /faq/), and its procurement proof comes from three Bay Area residential addresses.
 - AI answers for residential and multifamily questions currently go to Handoff, Buildxact, Autodesk and cost-benchmark pages (visibility tests C2, C8, C13).
-- **Decision needed from Quotr:** which audience leads (residential/multifamily vs commercial). The site currently says both (see [entity-fact-sheet.md](entity-fact-sheet.md#4-inconsistency-register), row 18).
+- **Decision needed from Quotr:** which audience leads (residential/multifamily vs commercial). The site currently says both (see [[Entity fact sheet#4. Inconsistency register]], row 18).
 
 ---
 
@@ -129,7 +135,7 @@ Full competitor detail: [../03-market/competitor-landscape.md](../03-market/comp
 | "Raised a $4.2M seed round led by Initialized Capital … reranker zerank-1" | **Wrong** (another startup's news merged in) | WebSearch summary (offsite notes §5) |
 | "Plausibly legitimate but not independently well-validated"; "I did not find independent third-party reviews" | Fair | B3; offsite notes §5 |
 
-More detail: [../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md).
+More detail: [[AI visibility baseline]].
 
 ---
 
@@ -173,7 +179,7 @@ Ranked by how much they would help AI trust (our recommendation, based on the no
 | 8 | **Integrations page** naming real tools and export formats | The FAQ names no tools today | Onsite audit §3 |
 | 9 | **Author pages and bios** for Hanyang Liu, Junzhe Shi, Tianyi Zong and others; fix "By quotr.ai" bylines | Expertise signals; founders' credentials are strong but unused | Onsite audit §3 |
 | 10 | **Wikidata item** citing Crunchbase, PitchBook and SkyDeck (Wikidata already has a "construction estimating software" item, [Q5164452](https://www.wikidata.org/wiki/Q5164452), to link as the product category) | Consistent entity facts for knowledge graphs | Offsite notes §4 |
-| 11 | **Procurement proof pack**: sample certification documents (NFRC, CARB, cUPC), QC photos or video process, lead-time data, delivery map | Answers the materials buyer's biggest objections | [product-and-features.md](product-and-features.md), §3.11 (index-only /procurement/ text) |
+| 11 | **Procurement proof pack**: sample certification documents (NFRC, CARB, cUPC), QC photos or video process, lead-time data, delivery map | Answers the materials buyer's biggest objections | [[Products and features]], §3.11 (index-only /procurement/ text) |
 | 12 | **Customer logos** (with permission) and full-name testimonials; replace the investor testimonial | Current homepage uses first names only and an investor as a "customer perspective" | Onsite audit §4 |
 | 13 | **Changelog** with regular entries | Shows an active product; only the pricing update was seen | Onsite audit §2 |
 
@@ -213,7 +219,7 @@ AI tools and careful buyers discount these. Fix, prove or remove each one. Quotr
 
 ## 7. Positioning statements
 
-**Status: DRAFTS FOR QUOTR APPROVAL.** Built from the facts in [entity-fact-sheet.md](entity-fact-sheet.md). Numbers in [brackets] need Quotr to confirm first.
+**Status: DRAFTS FOR QUOTR APPROVAL.** Built from the facts in [[Entity fact sheet]]. Numbers in [brackets] need Quotr to confirm first.
 
 ### 7.1 Master statement (draft)
 
@@ -255,10 +261,10 @@ Short version (draft):
 
 ## Related pages
 
-- [entity-fact-sheet.md](entity-fact-sheet.md) — canonical facts and the inconsistency register
-- [product-and-features.md](product-and-features.md) — what each product does
-- [audiences-and-personas.md](audiences-and-personas.md) — full persona profiles and questions
-- [../03-market/competitor-landscape.md](../03-market/competitor-landscape.md) — competitors in detail
-- [../03-market/white-space.md](../03-market/white-space.md) — topics nobody owns yet
-- [../02-current-state/ai-visibility-baseline.md](../02-current-state/ai-visibility-baseline.md) — how AI tools answer today
-- [../05-content-strategy/offsite-earned-media-plan.md](../05-content-strategy/offsite-earned-media-plan.md) — how to earn the missing proof
+- [[Entity fact sheet]] — canonical facts and the inconsistency register
+- [[Products and features]] — what each product does
+- [[Audiences and personas]] — full persona profiles and questions
+- [[Competitor landscape]] — competitors in detail
+- [[White space]] — topics nobody owns yet
+- [[AI visibility baseline]] — how AI tools answer today
+- [[Off-site earned media plan]] — how to earn the missing proof

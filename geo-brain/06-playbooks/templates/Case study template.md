@@ -1,10 +1,16 @@
+---
+type: page-template
+description: Numbers-first customer case study template.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Template: Case Study (Numbers-First)
 
-**What this page is for:** A template for customer case studies that lead with measured, dated results, so buyers, list editors and AI engines have verifiable proof about Quotr.ai instead of vendor claims.
+> [!abstract] What this page is for
+> A template for customer case studies that lead with measured, dated results, so buyers, list editors and AI engines have verifiable proof about Quotr.ai instead of vendor claims.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§2 case-study inventory, §3 RL Electric and /procurement/ findings, §4 investor testimonial, §6 proof gaps), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (§3 YouTube, §5 "vendor assertions"), [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§2 competitor customer stats), [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1 DATE/NUMBER entities; §5 case studies; §6 buyer trust concerns), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (claim 17); [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md); FTC [Consumer Reviews and Testimonials Rule Q&A](https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers) (checked via WebSearch, 2026-09-25).
+> [!info]- Sources
+> [[quotr_onsite_content_audit]] (§2 case-study inventory, §3 RL Electric and /procurement/ findings, §4 investor testimonial, §6 proof gaps), [[quotr_offsite_presence]] (§3 YouTube, §5 "vendor assertions"), [[competitor_geo_benchmark]] (§2 competitor customer stats), [[geo_content_playbook_b2b]] (§1 DATE/NUMBER entities; §5 case studies; §6 buyer trust concerns), [[verification_quotr_and_competitors]] (claim 17); [[Entity fact sheet]]; FTC [Consumer Reviews and Testimonials Rule Q&A](https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers) (checked via WebSearch, 2026-09-25).
 
 ---
 
@@ -15,7 +21,7 @@
 - **Construction buyers want accuracy evidence.** In the Dodge/CMiC survey, data accuracy (57%) was the top AI concern, and only 19% of contractors had adapted workflows (`geo_content_playbook_b2b.md` §6).
 - **Specific numbers and dates are what get quoted:** DATE and NUMBER entities best predicted ChatGPT citations (Growth Memo, June 2026; not re-checked).
 - **Competitors publish customer numbers:** e.g., Togal cites NC Painting raising bids to about 60 a month, a "215% increase" (competitor benchmark §2).
-- **A case study also feeds off-site work:** list editors, journalists and review-site profiles all ask for customer proof ([../offsite/listicle-and-pr-outreach.md](../offsite/listicle-and-pr-outreach.md)).
+- **A case study also feeds off-site work:** list editors, journalists and review-site profiles all ask for customer proof ([[Listicle and PR outreach]]).
 
 ---
 
@@ -107,16 +113,16 @@
 
 - The case-study page on quotr.ai (with schema).
 - A short version on the relevant trade page and in comparison pages ("Proof" row).
-- The customer video on YouTube with "Quotr.ai" in the title and description ([../offsite/youtube-and-video.md](../offsite/youtube-and-video.md)).
-- A founder LinkedIn article telling the story with numbers ([../offsite/linkedin-thought-leadership.md](../offsite/linkedin-thought-leadership.md)).
-- Ask the same customer for a G2 or Capterra review afterwards ([../offsite/review-generation.md](../offsite/review-generation.md)).
+- The customer video on YouTube with "Quotr.ai" in the title and description ([[YouTube and video]]).
+- A founder LinkedIn article telling the story with numbers ([[LinkedIn thought leadership]]).
+- Ask the same customer for a G2 or Capterra review afterwards ([[Review generation]]).
 - Offer the story, with the customer's permission, to trade press.
 
 ---
 
 ## 8. Schema for this page
 
-- Article (real author, dates) + BreadcrumbList; VideoObject for the embedded video ([../schema-markup-kit.md](../schema-markup-kit.md) 5.5, 5.8).
+- Article (real author, dates) + BreadcrumbList; VideoObject for the embedded video ([[Schema markup kit]] 5.5, 5.8).
 - Do **not** add Review or AggregateRating markup for Quotr from the testimonial (Google treats reviews about an organization on its own site as self-serving).
 
 ---
@@ -138,9 +144,9 @@
 
 ## Related pages
 
-- [original-research-report.md](original-research-report.md) — aggregate data across many customers
-- [youtube-video-brief.md](youtube-video-brief.md) — customer-story video brief
-- [../offsite/review-generation.md](../offsite/review-generation.md) — turning happy customers into reviews
-- [../../00-quotr/positioning-and-proof-points.md](../../00-quotr/positioning-and-proof-points.md) — proof points that exist and those missing
-- [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) — named customers and claims
-- [../geo-writing-style-guide.md](../geo-writing-style-guide.md) — number and source rules
+- [[Original research report template]] — aggregate data across many customers
+- [[YouTube video brief template]] — customer-story video brief
+- [[Review generation]] — turning happy customers into reviews
+- [[Positioning and proof points]] — proof points that exist and those missing
+- [[Entity fact sheet]] — named customers and claims
+- [[GEO writing style guide]] — number and source rules

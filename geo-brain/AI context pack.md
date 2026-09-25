@@ -1,10 +1,18 @@
+---
+type: overview
+description: A dense briefing (about 1,750 words) to paste into any AI tool before a Quotr GEO task.
+aliases:
+- Context pack
+last_verified: 2026-09-25
+verify_every_days: 30
+---
 # Quotr.ai GEO Context Pack (paste into an AI tool first)
 
-**What this page is for:** A short, dense briefing to paste into ChatGPT, Claude, Gemini or NotebookLM before any Quotr.ai GEO task (writing, planning, checking an answer). It holds only verified facts; anything unconfirmed is marked **TO CONFIRM**.
+> [!abstract] What this page is for
+> A short, dense briefing to paste into ChatGPT, Claude, Gemini or NotebookLM before any Quotr.ai GEO task (writing, planning, checking an answer). It holds only verified facts; anything unconfirmed is marked **TO CONFIRM**.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [entity-fact-sheet.md](00-quotr/entity-fact-sheet.md), [geo-writing-style-guide.md](06-playbooks/geo-writing-style-guide.md), [ai-visibility-baseline.md](02-current-state/ai-visibility-baseline.md), [30-60-90-plan.md](08-action-plan/30-60-90-plan.md), the [audit report](<../reports/Quotr GEO AEO strategy audit.md>) and the two fact-checks ([Quotr and competitors](<../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>), [GEO evidence](<../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>)).
+> [!info]- Sources
+> [[Entity fact sheet]], [[GEO writing style guide]], [[AI visibility baseline]], [[30-60-90 plan]], the [[Quotr GEO AEO strategy audit|audit report]] and the two fact-checks ([[verification_quotr_and_competitors|Quotr and competitors]], [[verification_geo_evidence|GEO evidence]]).
 
 ---
 
@@ -89,17 +97,17 @@ GEO is mostly good SEO plus other people talking about you. Google's May 2026 gu
 
 ## 10. Where to find more
 
-- Facts and contradictions: [entity-fact-sheet.md](00-quotr/entity-fact-sheet.md)
-- Writing rules and a drafting prompt: [geo-writing-style-guide.md](06-playbooks/geo-writing-style-guide.md); templates in [06-playbooks/templates/](06-playbooks/templates/faq-block.md)
-- Test results: [ai-visibility-baseline.md](02-current-state/ai-visibility-baseline.md); monthly prompts: [tracking-set.md](04-prompt-library/tracking-set.md)
-- Competitors: [competitor-landscape.md](03-market/competitor-landscape.md); openings: [white-space.md](03-market/white-space.md)
-- Plan: [30-60-90-plan.md](08-action-plan/30-60-90-plan.md); roadmap: [content-roadmap.md](05-content-strategy/content-roadmap.md)
-- Start page: [README.md](README.md)
+- Facts and contradictions: [[Entity fact sheet]]
+- Writing rules and a drafting prompt: [[GEO writing style guide]]; templates in [[FAQ block template]]
+- Test results: [[AI visibility baseline]]; monthly prompts: [[Tracking set]]
+- Competitors: [[Competitor landscape]]; openings: [[White space]]
+- Plan: [[30-60-90 plan]]; roadmap: [[Content roadmap]]
+- Start page: [[Start here]]
 
 ## Related pages
 
-- [README.md](README.md) — how the whole brain is organised
-- [00-quotr/entity-fact-sheet.md](00-quotr/entity-fact-sheet.md) — the full, sourced fact sheet
-- [06-playbooks/geo-writing-style-guide.md](06-playbooks/geo-writing-style-guide.md) — full writing rules
-- [08-action-plan/meeting-brief.md](08-action-plan/meeting-brief.md) — the meeting summary
-- [_meta/qa-log.md](_meta/qa-log.md) — QA record and the full TO CONFIRM list
+- [[Start here]] — how the whole brain is organised
+- [[Entity fact sheet]] — the full, sourced fact sheet
+- [[GEO writing style guide]] — full writing rules
+- [[Meeting brief]] — the meeting summary
+- [[QA log]] — QA record and the full TO CONFIRM list

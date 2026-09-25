@@ -1,10 +1,15 @@
+---
+type: log
+description: What was checked on 2026-09-25, what was fixed, the link-check result and the full TO CONFIRM list.
+last_verified: 2026-09-25
+---
 # QA Log
 
-**What this page is for:** The record of the quality check run on this knowledge brain on 2026-09-25. It covers what was checked, what each QA pass fixed, what the final integration pass fixed, the link-check result, and the consolidated **TO CONFIRM with Quotr** list. That list doubles as the consultant's question list for Quotr.
+> [!abstract] What this page is for
+> The record of the quality check run on this knowledge brain on 2026-09-25. It covers what was checked, what each QA pass fixed, what the final integration pass fixed, the link-check result, and the consolidated **TO CONFIRM with Quotr** list. That list doubles as the consultant's question list for Quotr.
 
-**Last updated:** 2026-09-25
-
-**Sources:** the five section QA reports (condensed below); the fact-checks [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) and [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>); the reviewed report [Quotr GEO AEO strategy audit.md](<../../reports/Quotr GEO AEO strategy audit.md>); the raw notes in `research_notes/Quotr GEO AEO strategy audit/`; [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md).
+> [!info]- Sources
+> the five section QA reports (condensed below); the fact-checks [[verification_quotr_and_competitors]] and [[verification_geo_evidence]]; the reviewed report [[Quotr GEO AEO strategy audit]]; the raw notes in `research_notes/Quotr GEO AEO strategy audit/`; [[Entity fact sheet]].
 
 ---
 
@@ -83,8 +88,8 @@
 | 10 | `03-market/competitor-landscape.md` | "4,205 G2 reviews" for Procore is now "4,205 reviews per ConstructConnect (review site not re-checked)" | ConstructConnect mislabels review sites (it called STACK's Capterra count a G2 count) |
 | 11 | `00-quotr/positioning-and-proof-points.md` | "Reads as manipulation" became "Can read as an attempt to steer AI answers" | House tone rule |
 | 12 | 60 files | Converted **294** plain-text source references such as `<../../research_notes/…md>` into clickable Markdown links. They were not links in standard Markdown, because autolinks need a full web address | All note and report references now resolve and can be clicked |
-| 13 | `08-action-plan/*`, `00-quotr/entity-fact-sheet.md` | Restored links to the new [../README.md](../README.md) and [../ai-context-pack.md](../ai-context-pack.md); the fact sheet now links to this QA log | These files now exist |
-| 14 | New files | [../README.md](../README.md), [../ai-context-pack.md](../ai-context-pack.md), [../sources.md](../sources.md), this QA log, [changelog.md](changelog.md) | Integration deliverables |
+| 13 | `08-action-plan/*`, `00-quotr/entity-fact-sheet.md` | Restored links to the new [[Start here]] and [[AI context pack]]; the fact sheet now links to this QA log | These files now exist |
+| 14 | New files | [[Start here]], [[AI context pack]], [[Sources]], this QA log, [[Changelog]] | Integration deliverables |
 | 15 | `00-quotr/audiences-and-personas.md`, `00-quotr/entity-fact-sheet.md` | "Quotr is a BIA Bay Area member" now says the membership is listed on /disambiguation/ and is TO CONFIRM; the fact sheet's Memberships row says the same for both BIA and MBI | Same issue as #6–8, found in the final sweep |
 | 16 | `02-current-state/offsite-presence.md` and others | Final sweep for known error phrases ("Gartner network", "PitchBook shows $190K", PlanSwift "Trimble", unhedged HQ, founding year or factory counts, price variants). Only quoted or correctly labelled uses remain | Consistency |
 
@@ -115,7 +120,7 @@ Checked by searching the whole brain for each figure and its likely variants (fo
 
 **Result on 2026-09-25 (final run):** 68 files, 2,098 relative links checked, **0 broken**, 0 bare path references. This includes every link to `../research_notes/Quotr GEO AEO strategy audit/…` and to `../reports/Quotr GEO AEO strategy audit.md`.
 
-**History today:** the section passes left 0 broken links among the 63 section pages. The integrator pass converted 294 bare references into links. The new root pages were briefly broken until the files they point to were created (for example, links from [../sources.md](../sources.md) to this log). The final result is 0.
+**History today:** the section passes left 0 broken links among the 63 section pages. The integrator pass converted 294 bare references into links. The new root pages were briefly broken until the files they point to were created (for example, links from [[Sources]] to this log). The final result is 0.
 
 To repeat the check, a developer can recreate the script from the method above (about 30 lines of Python), or ask an AI tool with file access: "List every relative Markdown link in this folder whose target file does not exist."
 
@@ -123,7 +128,7 @@ To repeat the check, a developer can recreate the script from the method above (
 
 ## 6. TO CONFIRM with Quotr: the consolidated question list
 
-This list merges and de-duplicates the open items from all five QA passes and the fact sheet's §6. **Bring it to the Quotr meeting.** When an item is answered, update [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) first, then remove the item here and log it in [changelog.md](changelog.md).
+This list merges and de-duplicates the open items from all five QA passes and the fact sheet's §6. **Bring it to the Quotr meeting.** When an item is answered, update [[Entity fact sheet]] first, then remove the item here and log it in [[Changelog]].
 
 ### A. Company identity
 1. **Headquarters:** San Francisco (the /terms legal address, 495 27th Ave Unit 8; PitchBook; blog footers) or Berkeley (/disambiguation/, Crunchbase location)? Which address goes in schema?
@@ -199,8 +204,8 @@ This list merges and de-duplicates the open items from all five QA passes and th
 
 ## Related pages
 
-- [changelog.md](changelog.md) — dated change history and the entry template
-- [../README.md](../README.md) — start page and the monthly maintenance routine
-- [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) — where answered questions are recorded first
-- [../08-action-plan/meeting-brief.md](../08-action-plan/meeting-brief.md) — the meeting where these questions are asked
-- [../sources.md](../sources.md) — every source, grouped
+- [[Changelog]] — dated change history and the entry template
+- [[Start here]] — start page and the monthly maintenance routine
+- [[Entity fact sheet]] — where answered questions are recorded first
+- [[Meeting brief]] — the meeting where these questions are asked
+- [[Sources]] — every source, grouped

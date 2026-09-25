@@ -1,10 +1,16 @@
+---
+type: guide
+description: 'Every Quotr product and feature in plain English: what it does, for whom, which plan, and what proof exists.'
+last_verified: 2026-09-25
+verify_every_days: 90
+---
 # Quotr.ai Products and Features
 
-**What this page is for:** A plain-English guide to every Quotr.ai product and feature: what it does, who it is for, what goes in and comes out, which plan it belongs to, what proof exists, and what buyers ask AI tools about it.
+> [!abstract] What this page is for
+> A plain-English guide to every Quotr.ai product and feature: what it does, who it is for, what goes in and comes out, which plan it belongs to, what proof exists, and what buyers ask AI tools about it.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>), [quotr_offsite_presence.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>), [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>); quotr.ai pages /, /software/, /pricing/, /service/, /procurement/, /faq/, /tutorials/, /case-studies/, /disambiguation/, /contractors/ and blog posts (read in the notes, plus search-index text checked with WebSearch on 2026-09-25); /pricing/, /software/ and /about-us/ re-read directly with a scraper on 2026-09-25.
+> [!info]- Sources
+> [[quotr_onsite_content_audit]], [[quotr_offsite_presence]], [[verification_quotr_and_competitors]], [[quotr_ai_visibility_tests]], [[competitor_geo_benchmark]]; quotr.ai pages /, /software/, /pricing/, /service/, /procurement/, /faq/, /tutorials/, /case-studies/, /disambiguation/, /contractors/ and blog posts (read in the notes, plus search-index text checked with WebSearch on 2026-09-25); /pricing/, /software/ and /about-us/ re-read directly with a scraper on 2026-09-25.
 
 ---
 
@@ -28,7 +34,7 @@ Quotr.ai describes itself as "The all-in-one estimation platform" ([homepage](ht
 | **Quotr Service** | Done-for-you takeoffs, cost estimates and pro formas, made by Quotr's team with AI | Developers, GCs and subs who want estimates without doing them | Per project: $0.25/sq ft under 50,000 sq ft; $0.10/sq ft above 50,000 sq ft | [/service/](https://quotr.ai/service/) (also served at [/developers/](https://quotr.ai/developers/)) |
 | **Quotr Procurement** | Managed factory-direct buying of finish materials from manufacturers in China, delivered duty-paid to the jobsite | Developers, homebuilders and contractors buying windows, doors, cabinets, flooring and fixtures | Per project quote (no fixed price list published) | [/procurement/](https://quotr.ai/procurement/) |
 
-The workflow Quotr sells is: **plans → takeoff → estimate → bid → procurement**. The live /software/ page puts it as: "From the moment plans hit your inbox to the moment a supplier's PO is signed Quotr.ai owns every step" and "One platform from takeoff to purchase order". No other AI takeoff vendor in the research combines software, a done-for-you service and factory-direct procurement (see [positioning-and-proof-points.md](positioning-and-proof-points.md)).
+The workflow Quotr sells is: **plans → takeoff → estimate → bid → procurement**. The live /software/ page puts it as: "From the moment plans hit your inbox to the moment a supplier's PO is signed Quotr.ai owns every step" and "One platform from takeoff to purchase order". No other AI takeoff vendor in the research combines software, a done-for-you service and factory-direct procurement (see [[Positioning and proof points]]).
 
 ---
 
@@ -88,7 +94,7 @@ The workflow Quotr sells is: **plans → takeoff → estimate → bid → procur
 | Inputs / outputs | PDF plan sets in; plain-English answers, counts and dimensions out |
 | Plan | Lite includes a "Basic AI agent"; Plus includes "Advanced AI" (live /software/ pricing). What "advanced" adds is **TO CONFIRM with Quotr**. |
 | Positioning note | Quotr's own post says "the estimator still owns the final number" (index-only). That balanced line is good for AI trust. |
-| Name | The live /software/ page uses "Quotr AI Agent" (and "AI Agent", "Basic AI agent"). Pick one name (see [entity-fact-sheet.md](entity-fact-sheet.md#3-naming-rules)). |
+| Name | The live /software/ page uses "Quotr AI Agent" (and "AI Agent", "Basic AI agent"). Pick one name (see [[Entity fact sheet#3. Naming rules]]). |
 
 **Questions buyers ask AI tools:**
 - "Can AI read construction drawings?"
@@ -160,7 +166,7 @@ The workflow Quotr sells is: **plans → takeoff → estimate → bid → procur
 
 - Integrations: the /faq/ answer says Quotr "easily integrates with popular design software and project management tools" but names none ([/faq/](https://quotr.ai/faq/)). No Procore App Marketplace listing was found. **TO CONFIRM with Quotr:** the list of live integrations.
 - Security: one generic line, "industry-standard encryption" (llms.txt, /faq/). No security page, SOC 2 statement or data-retention policy was found. **TO CONFIRM with Quotr.**
-- Why it matters: in a Dodge/CMiC survey of 235 contractors (published Dec 2025), the top AI concerns were data accuracy (57%) and security (54%) ([geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>), §6; this survey was not re-checked in the fact-check).
+- Why it matters: in a Dodge/CMiC survey of 235 contractors (published Dec 2025), the top AI concerns were data accuracy (57%) and security (54%) ([[geo_content_playbook_b2b]], §6; this survey was not re-checked in the fact-check).
 
 ### 3.8 ROI calculator
 
@@ -180,7 +186,7 @@ The workflow Quotr sells is: **plans → takeoff → estimate → bid → procur
 | How it links to the software | "Every Quotr Service engagement includes the software": results come back as a live, editable project inside Quotr (PDF markups and adjustable line items, "not a dead 500-row spreadsheet"), and the AI agent cites the exact sheet each count came from and flags likely missing scope (index-only text of the [electrical estimating services post](https://quotr.ai/blog/electrical-estimating-services/)). **TO CONFIRM with Quotr** that this applies to all Service jobs. |
 | Coverage | "Currently spanning 26 sub-trades" (/service/ FAQ, 9 questions). Service posts cover both commercial work and residential work such as electrical takeoffs for tract and custom homes (index-only). |
 | Price | $0.25/sq ft under 50,000 sq ft; $0.10/sq ft for 50,000+ sq ft; "Pricing is sent before we process your documents" (/pricing/, scraped 2026-09-25). **Verified.** /service/ also says pricing is "project-based". /pricing/ lists "Development cost estimates delivered in 3–4 business days; Pro formas delivered in 2–3 business days". |
-| Turnaround | Conflicting: 3–4 business days (estimates) and 2–3 (pro formas) on /pricing/; "as fast as 24 hours" on homepage and /service/; 1–3 business days (llms.txt); 5–7 days (schema). See [entity-fact-sheet.md](entity-fact-sheet.md#4-inconsistency-register), row 3. |
+| Turnaround | Conflicting: 3–4 business days (estimates) and 2–3 (pro formas) on /pricing/; "as fast as 24 hours" on homepage and /service/; 1–3 business days (llms.txt); 5–7 days (schema). See [[Entity fact sheet#4. Inconsistency register]], row 3. |
 | Named service offers in the blog | "Precon on Demand" (1–3 days); "Developer Desk: underwriting-grade estimates in 72 hours"; MEP, HVAC and electrical estimating services; California estimating services ([blog sitemap](https://quotr.ai/blog/sitemap.xml)) |
 | Volume claims | "$1.2B+ in construction projects" estimated (Sep 24, 2026 post); "300+ projects a month, 4× faster" (blog teaser). Self-reported; no data published. |
 | Proof | Sample deliverables; BiltWise ("developer-stage budgets", index-only). Quotr's service-pricing post is the **first citation** Perplexity uses for "outsourced estimating price per square foot", but the answer does not name Quotr (visibility tests C12, reproduced in the verification file). |
@@ -230,7 +236,7 @@ The workflow Quotr sells is: **plans → takeoff → estimate → bid → procur
 
 ### 3.12 The live /software/ FAQ (8 questions, scraped 2026-09-25)
 
-These are the questions Quotr already answers on its main product page. They are good seeds for AI-friendly FAQ content and for FAQPage schema (the page has no FAQPage markup today; see [../06-playbooks/schema-markup-kit.md](../06-playbooks/schema-markup-kit.md)).
+These are the questions Quotr already answers on its main product page. They are good seeds for AI-friendly FAQ content and for FAQPage schema (the page has no FAQPage markup today; see [[Schema markup kit]]).
 
 1. How fast is AI takeoff with Quotr.ai?
 2. How does AI construction takeoff work?
@@ -249,7 +255,7 @@ Other live-page notes: the typo "Built for how contractors actually win x2 work"
 
 | Resource | URL | Count / detail | GEO note |
 |---|---|---|---|
-| Blog | [quotr.ai/blog/](https://quotr.ai/blog/) | 96 posts, most published Apr–Sep 2026 (peak 22–25 a month in May–June) | Largest content asset; see [../02-current-state/website-audit.md](../02-current-state/website-audit.md) |
+| Blog | [quotr.ai/blog/](https://quotr.ai/blog/) | 96 posts, most published Apr–Sep 2026 (peak 22–25 a month in May–June) | Largest content asset; see [[Website audit]] |
 | Construction dictionary | [quotr.ai/dictionary/](https://quotr.ai/dictionary/) | 55 terms (e.g. ai-takeoff, bid-leveling, scope-gap, markup-vs-margin, rfi, change-order, panel-schedule) | Short (~200 words each), no author, no sources |
 | Tutorials | [quotr.ai/tutorials/](https://quotr.ai/tutorials/) | 6 (5 videos + 1 text guide) | Transcripts not verified |
 | Case studies | [quotr.ai/case-studies/](https://quotr.ai/case-studies/) | 4: RL Electric, AlphaX, BiltWise Structures, Salisbury Moore | RL Electric page has no numbers |
@@ -279,9 +285,9 @@ Other live-page notes: the typo "Built for how contractors actually win x2 work"
 
 ## Related pages
 
-- [entity-fact-sheet.md](entity-fact-sheet.md) — canonical facts, profiles and naming rules
-- [audiences-and-personas.md](audiences-and-personas.md) — who uses each product
-- [positioning-and-proof-points.md](positioning-and-proof-points.md) — why Quotr is different and what proves it
-- [../03-market/competitor-landscape.md](../03-market/competitor-landscape.md) — how rival products compare
-- [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md) — full list of buyer prompts to track
-- [../04-prompt-library/construction-glossary.md](../04-prompt-library/construction-glossary.md) — construction terms explained
+- [[Entity fact sheet]] — canonical facts, profiles and naming rules
+- [[Audiences and personas]] — who uses each product
+- [[Positioning and proof points]] — why Quotr is different and what proves it
+- [[Competitor landscape]] — how rival products compare
+- [[Prompt library]] — full list of buyer prompts to track
+- [[Construction glossary]] — construction terms explained

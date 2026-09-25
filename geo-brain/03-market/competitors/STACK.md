@@ -1,10 +1,18 @@
+---
+type: competitor
+description: Profile of STACK, the "default all-rounder" AI names most often.
+aliases:
+- STACKCT
+last_verified: 2026-09-25
+verify_every_days: 90
+---
 # Competitor Profile: STACK (STACK Construction Technologies)
 
-**What this page is for:** A reference on STACK, the "default all-rounder" that AI engines name most often for takeoff and estimating: its offer, prices, review base, content engine, and how Quotr can win the questions STACK does not answer well.
+> [!abstract] What this page is for
+> A reference on STACK, the "default all-rounder" that AI engines name most often for takeoff and estimating: its offer, prices, review base, content engine, and how Quotr can win the questions STACK does not answer well.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (section 2, STACK), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (prompts C1, C4, C5, C8, C15, V1, V3, V4, V6, V10), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (STACK review-count contradiction), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>). Read directly on 2026-09-25: [stackct.com/pricing](https://www.stackct.com/pricing/), [ConstructConnect 2026 guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026). WebSearch on 2026-09-25: G2 and Capterra review pages.
+> [!info]- Sources
+> [[competitor_geo_benchmark]] (section 2, STACK), [[quotr_ai_visibility_tests]] (prompts C1, C4, C5, C8, C15, V1, V3, V4, V6, V10), [[verification_quotr_and_competitors]] (STACK review-count contradiction), [[quotr_offsite_presence]]. Read directly on 2026-09-25: [stackct.com/pricing](https://www.stackct.com/pricing/), [ConstructConnect 2026 guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026). WebSearch on 2026-09-25: G2 and Capterra review pages.
 
 ---
 
@@ -114,7 +122,7 @@ What Quotr says about STACK: [stack-alternative](https://quotr.ai/blog/stack-alt
 4. **Answer "free" queries honestly.** STACK owns "free estimating software". Quotr has a 7-day free trial, not a free tier. A page on "free vs paid AI takeoff: what you actually get" can be cited without pretending Quotr is free. **TO CONFIRM with Quotr:** whether any free tier or free first estimate is planned.
 5. **Get onto the G2 STACK alternatives page.** It feeds alternatives answers and needs G2 reviews in the same category.
 6. **Out-detail STACK's trade pages for Quotr's best trades.** STACK's trade pages beat Quotr's thin trade pages. Pick the 3–5 trades where Quotr has real customers (electrical, per RL Electric) and make each trade page the best answer: typical scope, units, sample output, time saved, FAQ.
-7. **Match STACK's interactive tool.** STACK has a benchmark tool; Quotr has only an ROI calculator. Trade calculators (drywall, flooring, tile) win how-to citations for BuildVision, Easy Takeoffs and Procore (P2). See [../white-space.md](../white-space.md).
+7. **Match STACK's interactive tool.** STACK has a benchmark tool; Quotr has only an ROI calculator. Trade calculators (drywall, flooring, tile) win how-to citations for BuildVision, Easy Takeoffs and Procore (P2). See [[White space]].
 8. **Target these prompts:** "STACK alternatives", "STACK vs Quotr", "cheaper alternative to STACK takeoff", "STACK takeoff alternatives for small residential subcontractors", "takeoff software with material procurement", "best takeoff software for Mac".
 
 ---
@@ -129,10 +137,10 @@ What Quotr says about STACK: [stack-alternative](https://quotr.ai/blog/stack-alt
 
 ## Related pages
 
-- [../competitor-landscape.md](../competitor-landscape.md): full competitor map
-- [planswift.md](planswift.md): STACK's most-compared rival (V6)
-- [kreo.md](kreo.md): the low-price alternative AI names against STACK
-- [../citation-sources-map.md](../citation-sources-map.md): G2/Capterra alternatives pages
-- [../white-space.md](../white-space.md): calculators, procurement and Mac/browser angles
-- [../../02-current-state/website-audit.md](../../02-current-state/website-audit.md): stale pricing on stack-alternative
-- [../../06-playbooks/page-refresh-checklist.md](../../06-playbooks/page-refresh-checklist.md): how to refresh an existing comparison page
+- [[Competitor landscape]]: full competitor map
+- [[PlanSwift]]: STACK's most-compared rival (V6)
+- [[Kreo]]: the low-price alternative AI names against STACK
+- [[Citation sources map]]: G2/Capterra alternatives pages
+- [[White space]]: calculators, procurement and Mac/browser angles
+- [[Website audit]]: stale pricing on stack-alternative
+- [[Page refresh checklist]]: how to refresh an existing comparison page

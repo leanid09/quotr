@@ -1,16 +1,22 @@
+---
+type: page-template
+description: Fill-in brief for every Quotr video.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Template: YouTube Video Brief
 
-**What this page is for:** A fill-in brief for every Quotr.ai video (demo, how-to, comparison, customer story, data explainer), so each video answers a real buyer question, says "Quotr.ai" clearly in speech, title and description, and is published with chapters, captions and a matching page on quotr.ai.
+> [!abstract] What this page is for
+> A fill-in brief for every Quotr.ai video (demo, how-to, comparison, customer story, data explainer), so each video answers a real buyer question, says "Quotr.ai" clearly in speech, title and description, and is published with chapters, captions and a matching page on quotr.ai.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1 video citation share; §3 YouTube mentions), [geo_ai_citation_signals_2026.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) (§2, §4 YouTube), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #13, #18; H7), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (§3 YouTube channels and videos), [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§2 Togal and Beam video programmes), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§2 tutorials); YouTube chapter rules as documented in 2026 guides found via WebSearch (e.g., [FrameOS: YouTube chapters in 2026](https://frameos.studio/blog/youtube-chapters), [TubeBuddy](https://www.tubebuddy.com/blog/video-chapters/)).
+> [!info]- Sources
+> [[geo_content_playbook_b2b]] (§1 video citation share; §3 YouTube mentions), [[geo_ai_citation_signals_2026]] (§2, §4 YouTube), [[verification_geo_evidence]] (claims #13, #18; H7), [[quotr_offsite_presence]] (§3 YouTube channels and videos), [[competitor_geo_benchmark]] (§2 Togal and Beam video programmes), [[quotr_onsite_content_audit]] (§2 tutorials); YouTube chapter rules as documented in 2026 guides found via WebSearch (e.g., [FrameOS: YouTube chapters in 2026](https://frameos.studio/blog/youtube-chapters), [TubeBuddy](https://www.tubebuddy.com/blog/video-chapters/)).
 
 ---
 
 ## 1. Why video, in one paragraph
 
-YouTube mentions (in video titles, transcripts and descriptions) were the **strongest correlate of AI visibility** in Ahrefs' study of 75,000 brands (~0.737 across ChatGPT, AI Mode and AI Overviews). That is a correlation, not proof that videos cause visibility (`verification_geo_evidence.md` claim #13, H7). YouTube is also a leading cited domain in Google AI Overviews (reported at about 23–30% of AIO citations by Surfer and BrightEdge; secondary summaries) and the largest source domain for SaaS in Aleyda Solis's August 2026 study (`geo_content_playbook_b2b.md` §1; `verification_geo_evidence.md` claim #18). In Quotr's Perplexity tests (the only engine tested), YouTube was never cited in any of the 45 runs, so expect the payoff mainly in Google's AI features and ChatGPT, which still need testing (see [../../03-market/citation-sources-map.md](../../03-market/citation-sources-map.md)). Buyers also learn software from demos: r/estimators threads ask whether AI takeoff tools really work, and a Togal flooring webinar surfaced in search for a flooring-takeoff question (prompt library L-059).
+YouTube mentions (in video titles, transcripts and descriptions) were the **strongest correlate of AI visibility** in Ahrefs' study of 75,000 brands (~0.737 across ChatGPT, AI Mode and AI Overviews). That is a correlation, not proof that videos cause visibility (`verification_geo_evidence.md` claim #13, H7). YouTube is also a leading cited domain in Google AI Overviews (reported at about 23–30% of AIO citations by Surfer and BrightEdge; secondary summaries) and the largest source domain for SaaS in Aleyda Solis's August 2026 study (`geo_content_playbook_b2b.md` §1; `verification_geo_evidence.md` claim #18). In Quotr's Perplexity tests (the only engine tested), YouTube was never cited in any of the 45 runs, so expect the payoff mainly in Google's AI features and ChatGPT, which still need testing (see [[Citation sources map]]). Buyers also learn software from demos: r/estimators threads ask whether AI takeoff tools really work, and a Togal flooring webinar surfaced in search for a flooring-takeoff question (prompt library L-059).
 
 **Quotr's starting point:** a channel at [youtube.com/@QuotrAI](https://www.youtube.com/@QuotrAI); a second handle listed on /disambiguation/ (@QuotrIO) resolves to a channel titled "QuoTrio" (ownership **TO CONFIRM**); known videos include a product demo, the RL Electric customer story, a legacy Revit extension video and a podcast episode; five video tutorials sit on /tutorials/ (offsite notes §3; onsite audit §2). Channel statistics were not retrievable.
 
@@ -62,7 +68,7 @@ VIDEO BRIEF — Quotr.ai
 7. **Facts match the fact sheet.** Current prices (Lite $79.90, Plus $299.90 per seat per month, September 2026); no retired plan names; no unconfirmed claims (accuracy %, factory counts, savings %, turnaround).
 8. **Honest limits on camera.** Show a flagged low-confidence item being checked. It builds trust with skeptical estimators.
 9. **One channel.** Publish on @QuotrAI only; once Quotr confirms ownership of the old channel, redirect or retire it.
-10. **Embed and mark up.** Every video lives on a relevant quotr.ai page with a text summary and VideoObject schema ([../schema-markup-kit.md](../schema-markup-kit.md) 5.8).
+10. **Embed and mark up.** Every video lives on a relevant quotr.ai page with a text summary and VideoObject schema ([[Schema markup kit]] 5.8).
 
 ---
 
@@ -110,7 +116,7 @@ VIDEO BRIEF — Quotr.ai
 5. **Length:** 3–4 minutes
 6. **Presenter:** RL Electric estimator (full name and title with permission) + short founder intro
 7. **Answer in the first 15 seconds:** "RL Electric's takeoffs used to take about 20 hours. With Quotr.ai they take 1–2 hours." (The figure is the customer's own, from the homepage testimonial; confirm period and job type with RL Electric.)
-10. **Facts:** only the numbers RL Electric approves (see [case-study.md](case-study.md)).
+10. **Facts:** only the numbers RL Electric approves (see [[Case study template]]).
 13. **Limitation:** what they still check or do by hand.
 14. **CTA:** read the full case study.
 20. **Embed:** /case-studies/rl-electric/ with transcript and VideoObject.
@@ -134,9 +140,9 @@ VIDEO BRIEF — Quotr.ai
 
 ## Related pages
 
-- [../offsite/youtube-and-video.md](../offsite/youtube-and-video.md) — the channel strategy and creator/podcast outreach
-- [trade-how-to-guide.md](trade-how-to-guide.md) — the written page each how-to video pairs with
-- [case-study.md](case-study.md) — customer-story facts
-- [../schema-markup-kit.md](../schema-markup-kit.md) — VideoObject markup
-- [../../04-prompt-library/prompt-library.md](../../04-prompt-library/prompt-library.md) — prompt IDs
-- [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) — approved facts
+- [[YouTube and video]] — the channel strategy and creator/podcast outreach
+- [[Trade how-to guide template]] — the written page each how-to video pairs with
+- [[Case study template]] — customer-story facts
+- [[Schema markup kit]] — VideoObject markup
+- [[Prompt library]] — prompt IDs
+- [[Entity fact sheet]] — approved facts

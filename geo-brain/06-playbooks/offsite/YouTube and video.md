@@ -1,10 +1,16 @@
+---
+type: playbook
+description: 'The YouTube and video strategy: channel fixes, series, creators, podcasts and measurement.'
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # YouTube and Video Playbook
 
-**What this page is for:** The video strategy for Quotr.ai: why video matters for AI visibility, how to fix and run the YouTube channel, which series to make, how to work with creators, podcasts and webinars, and how to measure it. (For the brief used for each single video, see [../templates/youtube-video-brief.md](../templates/youtube-video-brief.md).)
+> [!abstract] What this page is for
+> The video strategy for Quotr.ai: why video matters for AI visibility, how to fix and run the YouTube channel, which series to make, how to work with creators, podcasts and webinars, and how to measure it. (For the brief used for each single video, see [[YouTube video brief template]].)
 
-**Last updated:** 2026-09-25
-
-**Sources:** [geo_content_playbook_b2b.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>) (§1 video, §3 YouTube mentions, §7), [geo_ai_citation_signals_2026.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) (§2, §4 YouTube), [verification_geo_evidence.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>) (claims #13, #18; H7; M10), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (§3 YouTube, podcasts), [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (§2 Togal and Beam AI video and event programmes), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§2 tutorials); [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md) (§2b social profiles); FTC [Endorsement Guides Q&A](https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking) (checked via WebSearch, 2026-09-25).
+> [!info]- Sources
+> [[geo_content_playbook_b2b]] (§1 video, §3 YouTube mentions, §7), [[geo_ai_citation_signals_2026]] (§2, §4 YouTube), [[verification_geo_evidence]] (claims #13, #18; H7; M10), [[quotr_offsite_presence]] (§3 YouTube, podcasts), [[competitor_geo_benchmark]] (§2 Togal and Beam AI video and event programmes), [[quotr_onsite_content_audit]] (§2 tutorials); [[Entity fact sheet]] (§2b social profiles); FTC [Endorsement Guides Q&A](https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking) (checked via WebSearch, 2026-09-25).
 
 ---
 
@@ -16,7 +22,7 @@
 | YouTube is the most-cited domain in Google AI Overviews (Ahrefs, early 2026); reported at ~23% (Surfer) to ~30% (BrightEdge) of AIO citations | `geo_ai_citation_signals_2026.md` §2, §4; `geo_content_playbook_b2b.md` §1 | Secondary summaries of vendor studies |
 | YouTube was the **largest source domain** for SaaS in Aleyda Solis's August 2026 study; social/community/video made up 45.7% of top cited SaaS sources | `verification_geo_evidence.md` claim #18 | Cross-vertical sample of 15 brands |
 | Video was ~1% of cited sources in ChatGPT vs ~23% in Google AI Mode (SaaS subverticals) | `geo_content_playbook_b2b.md` §1 (Aleyda Solis) | Not re-checked in the verification pass |
-| In Quotr's own Perplexity tests, YouTube was **never** cited in any of the 45 runs | [../../03-market/citation-sources-map.md](../../03-market/citation-sources-map.md); `quotr_ai_visibility_tests.md` §5 | Only Perplexity was tested; ChatGPT and Google's AI features were not |
+| In Quotr's own Perplexity tests, YouTube was **never** cited in any of the 45 runs | [[Citation sources map]]; `quotr_ai_visibility_tests.md` §5 | Only Perplexity was tested; ChatGPT and Google's AI features were not |
 | Vendor trackers (July–Sept 2026) see citations shifting toward YouTube, LinkedIn and Reddit | `verification_geo_evidence.md` M10 | Vendor data |
 
 **Read-out:** video is most likely to pay off in **Google AI Overviews and AI Mode**, and as a brand-mention signal across engines. It also sells: contractors want to see AI takeoff work on real drawings before they trust it.
@@ -64,7 +70,7 @@
 | **Fair comparisons** | "Manual vs AI takeoff on the same plan set"; honest tool comparisons with dated prices | D-021, E-059 |
 | **Founder talks** | Architect's view of estimating; engineering view of AI accuracy | Brand + trust |
 
-Each video follows the brief in [../templates/youtube-video-brief.md](../templates/youtube-video-brief.md): answer in the first 15 seconds, "Quotr.ai" said aloud, chapters (first at 00:00, 3+ chapters, 10+ seconds each), corrected captions, facts from the fact sheet.
+Each video follows the brief in [[YouTube video brief template]]: answer in the first 15 seconds, "Quotr.ai" said aloud, chapters (first at 00:00, 3+ chapters, 10+ seconds each), corrected captions, facts from the fact sheet.
 
 ---
 
@@ -75,7 +81,7 @@ Brand mentions on **other** channels count too (the Ahrefs correlation is about 
 | Route | How | Notes |
 |---|---|---|
 | **Construction and estimating creators** | Offer a real plan set, a login and a founder interview; let them test and say what they think | Research relevant channels first (estimating educators, trade YouTubers); no scripted praise |
-| **Paid creator content** | Only with clear disclosure: FTC Endorsement Guides require disclosing material connections (payment, free product); creators should also use YouTube's paid-promotion disclosure setting | See [review-generation.md](review-generation.md) §6a |
+| **Paid creator content** | Only with clear disclosure: FTC Endorsement Guides require disclosing material connections (payment, free product); creators should also use YouTube's paid-promotion disclosure setting | See [[Review generation]] §6a |
 | **Podcasts with video** | Pitch founders to construction-tech and precon podcasts (e.g., The Preconstruction Podcast, where Togal's team has appeared; AEC Tech Journeys, where Perplexity cites an episode that appears to feature Quotr, not yet opened: **TO CONFIRM with Quotr**) | Ask hosts to write "Quotr.ai" and link quotr.ai in show notes (the MPN episode notes still say "Quotr.io" and link quotr.io) |
 | **Webinars** | Monthly or quarterly: "AI takeoff on your own plans, live"; "Tariffs and landed cost Q&A" | Record, chapter and publish on YouTube; Quotr has run an "Ask your plans AI agent" webinar before |
 | **Events** | Record short demos at trade shows (Quotr attended IBS 2026, Dallas Build Expo 2026, PCBC 2026 and others) | Publish within a week with the event name in the title |
@@ -86,15 +92,15 @@ Brand mentions on **other** channels count too (the Ahrefs correlation is about 
 
 - Embed on the matching quotr.ai page (how-to, trade page, case study) with a text summary or transcript and VideoObject schema.
 - Cut 2–4 Shorts (under 60 seconds) with one clear point each.
-- Founder LinkedIn post with a native clip ([linkedin-thought-leadership.md](linkedin-thought-leadership.md)).
+- Founder LinkedIn post with a native clip ([[LinkedIn thought leadership]]).
 - Quote the key line in the newsletter.
-- Answer a relevant Reddit or forum question with the insight, and link only if allowed ([reddit-and-community.md](reddit-and-community.md)).
+- Answer a relevant Reddit or forum question with the insight, and link only if allowed ([[Reddit and community]]).
 
 ---
 
 ## 7. Rules
 
-1. Facts match [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md); current prices only; no unconfirmed claims.
+1. Facts match [[Entity fact sheet]]; current prices only; no unconfirmed claims.
 2. Customer and data permissions in writing before filming or showing plans.
 3. Show at least one honest limitation per product video.
 4. Disclose every paid or gifted creator relationship.
@@ -110,8 +116,8 @@ Brand mentions on **other** channels count too (the Ahrefs correlation is about 
 | Videos published vs plan | Log | Monthly |
 | Views, watch time, subscribers | YouTube Studio | Monthly |
 | Videos that mention "Quotr.ai" on **other** channels and podcasts | Search + log | Monthly |
-| YouTube URLs appearing in AI Overviews/AI Mode citations for tracked prompts | Prompt tracking ([../../04-prompt-library/tracking-set.md](../../04-prompt-library/tracking-set.md)) | Monthly |
-| Generative-AI impressions for pages with embedded videos | Google Search Console generative AI report (see [../../07-measurement/tracking-setup.md](../../07-measurement/tracking-setup.md)) | Monthly |
+| YouTube URLs appearing in AI Overviews/AI Mode citations for tracked prompts | Prompt tracking ([[Tracking set]]) | Monthly |
+| Generative-AI impressions for pages with embedded videos | Google Search Console generative AI report (see [[Tracking setup]]) | Monthly |
 | Referral sessions from youtube.com | GA4 | Monthly |
 | "How did you hear about us?" = YouTube | Demo/trial form | Monthly |
 
@@ -119,9 +125,9 @@ Brand mentions on **other** channels count too (the Ahrefs correlation is about 
 
 ## Related pages
 
-- [../templates/youtube-video-brief.md](../templates/youtube-video-brief.md) — the brief for each video
-- [../templates/case-study.md](../templates/case-study.md) and [../templates/trade-how-to-guide.md](../templates/trade-how-to-guide.md) — pages the videos pair with
-- [../schema-markup-kit.md](../schema-markup-kit.md) — VideoObject markup
-- [linkedin-thought-leadership.md](linkedin-thought-leadership.md) — repurposing clips on LinkedIn
-- [../../03-market/competitors/togal-ai.md](../../03-market/competitors/togal-ai.md) — a competitor's video programme
-- [../../05-content-strategy/offsite-earned-media-plan.md](../../05-content-strategy/offsite-earned-media-plan.md) — where video fits the plan
+- [[YouTube video brief template]] — the brief for each video
+- [[Case study template]] and [[Trade how-to guide template]] — pages the videos pair with
+- [[Schema markup kit]] — VideoObject markup
+- [[LinkedIn thought leadership]] — repurposing clips on LinkedIn
+- [[Togal AI]] — a competitor's video programme
+- [[Off-site earned media plan]] — where video fits the plan

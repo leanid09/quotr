@@ -1,10 +1,16 @@
+---
+type: baseline
+description: A fair review of every GEO tactic Quotr already uses, each marked KEEP, IMPROVE or STOP.
+last_verified: 2026-09-25
+verify_every_days: 90
+---
 # GEO Tactics Quotr Already Uses (Review, September 2026)
 
-**What this page is for:** A fair, detailed review of every GEO/AEO tactic Quotr's team has already put in place: what it is, where it lives, how well it is done, what effect it probably has, and whether to KEEP, IMPROVE or STOP it.
+> [!abstract] What this page is for
+> A fair, detailed review of every GEO/AEO tactic Quotr's team has already put in place: what it is, where it lives, how well it is done, what effect it probably has, and whether to KEEP, IMPROVE or STOP it.
 
-**Last updated:** 2026-09-25
-
-**Sources:** Research notes [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§4 lists the tactics), [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (what the tactics achieve in AI answers), [quotr_offsite_presence.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>), [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>), and general evidence in [geo_ai_citation_signals_2026.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) as corrected by the fact-check [verification_geo_evidence.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_geo_evidence.md>). Pages reviewed: https://quotr.ai/, https://quotr.ai/disambiguation/, https://quotr.ai/llms.txt, https://quotr.ai/software/, https://quotr.ai/pricing/, and the blog posts linked below.
+> [!info]- Sources
+> Research notes [[quotr_onsite_content_audit]] (§4 lists the tactics), [[quotr_ai_visibility_tests]] (what the tactics achieve in AI answers), [[quotr_offsite_presence]], [[verification_quotr_and_competitors]], [[competitor_geo_benchmark]], and general evidence in [[geo_ai_citation_signals_2026]] as corrected by the fact-check [[verification_geo_evidence]]. Pages reviewed: https://quotr.ai/, https://quotr.ai/disambiguation/, https://quotr.ai/llms.txt, https://quotr.ai/software/, https://quotr.ai/pricing/, and the blog posts linked below.
 
 ---
 
@@ -31,7 +37,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 | **IMPROVE** | Right idea; the execution needs fixing or finishing. |
 | **STOP** | Remove or rewrite. It likely does more harm than good. |
 
-**"Likely effect"** is based on the Perplexity tests of 2026-09-25 where we have evidence, and on published GEO research otherwise. Tests covered one engine only (see [ai-visibility-baseline.md](ai-visibility-baseline.md)).
+**"Likely effect"** is based on the Perplexity tests of 2026-09-25 where we have evidence, and on published GEO research otherwise. Tests covered one engine only (see [[AI visibility baseline]]).
 
 ---
 
@@ -68,7 +74,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 | 23 | Head-to-head "Quotr vs X" pages (8) | Blog | Mixed | Drives what AI says in brand comparisons; stale price and leftover brief text | **KEEP**, **IMPROVE** |
 | 24 | "Alternatives to X" pages (5) | Blog | Mixed | Used as fact sources; rarely lead to a recommendation | **IMPROVE** |
 | 25 | Quotr ranked #1 in its own lists | Alternatives and best-of posts | Weak | Perplexity discounts it; simple search summaries repeat it | **IMPROVE** |
-| 26 | Best-of lists and buyer's guides (17) | Blog | Mixed | Retrieved in brand prompts; 10 carry stale prices (recounted against the page-by-page list in [website-audit.md](website-audit.md), group C; the other old-price URLs are 3 alternatives posts and the indexed /contractors copy) | **IMPROVE** |
+| 26 | Best-of lists and buyer's guides (17) | Blog | Mixed | Retrieved in brand prompts; 10 carry stale prices (recounted against the page-by-page list in [[Website audit]], group C; the other old-price URLs are 3 alternatives posts and the indexed /contractors copy) | **IMPROVE** |
 | 27 | Trade and location "estimating services" posts (12) | Blog | Mixed | Cited first for pricing prompts, but brand hidden; overlap | **IMPROVE** |
 | 28 | Construction dictionary (55 terms) | [/dictionary/](https://quotr.ai/dictionary/) | Mixed | Good idea; not cited yet; thin | **KEEP**, **IMPROVE** |
 | 29 | Trade landing pages (23) | /software/trades/ | Weak | Little to cite; thin pages can look like doorway pages | **IMPROVE** |
@@ -91,7 +97,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 | 44 | Prompt-targeting copy and leftover internal brief text | [Quotr vs Togal post](https://quotr.ai/blog/quotr-vs-togal-ai-comparison-2026/) | Risky | Signals manipulation; contradicts the page | **STOP** |
 | 45 | Self-referential "AI search" remarks | [State of AI post](https://quotr.ai/blog/state-of-ai-in-preconstruction-2026-adoption-roi-enr-top-400-gcs/) | Risky (minor) | Reads as written for bots | **STOP** |
 | **G. Off-site** | | | | | |
-| 46 | Directory and membership listings (F6S, AngelList, BIA, MBI, Procore network, Parsers VC) | See [offsite-presence.md](offsite-presence.md) | Weak | Several carry old names and old product copy | **IMPROVE** |
+| 46 | Directory and membership listings (F6S, AngelList, BIA, MBI, Procore network, Parsers VC) | See [[Off-site presence]] | Weak | Several carry old names and old product copy | **IMPROVE** |
 | 47 | Product Hunt launch | [Product Hunt](https://www.producthunt.com/products/quotr) | Weak | 0 upvotes, "Real estate" category | **IMPROVE** |
 | 48 | Founder podcasts and articles | MPN, iHeart (unverified), Substack | Mixed | Good start; old domain and conflicting funding | **KEEP**, **IMPROVE** |
 | 49 | YouTube channel | [@QuotrAI](https://www.youtube.com/@QuotrAI) | Mixed | Never cited; two channels in play | **KEEP**, **IMPROVE** |
@@ -110,7 +116,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 - **What:** robots.txt is just `User-agent: *` / `Allow: /` plus two sitemap lines. No AI bot (GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-SearchBot, PerplexityBot, Google-Extended, Applebot-Extended, CCBot, Bingbot) is blocked.
 - **How well:** Correct for a brand that wants AI visibility. OpenAI says publishers should not block OAI-SearchBot if they want to appear in ChatGPT search.
 - **Effect:** Perplexity cited at least 9 quotr.ai URLs in one answer, so access works.
-- **Why keep:** Nothing to change here. Details in [website-audit.md](website-audit.md).
+- **Why keep:** Nothing to change here. Details in [[Website audit]].
 
 **2. Server-rendered HTML (Astro) — KEEP**
 - **What:** Pages arrive with headings and body text already in the HTML. No empty JavaScript shells.
@@ -126,7 +132,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 - **What:** A markdown summary for AI tools with About, Services, Who Should Use, Integrations, Security and Links sections.
 - **Problems:** Old pricing ("1 User Plan: $299.90/month", "2–10 Users Plan: $499.90/month"); service turnaround "1–3 business days" (other pages say 24 hours to 5–7 days); links to www.quotr.ai (the site uses quotr.ai), to a /resources/ page that is a 404, and "Book a Demo" to /contact-us/ though /book-demo/ exists; no links to the blog, dictionary or case studies. /llms-full.txt is a 404.
 - **Likely effect:** Low. Google's May 2026 guide (confirmed by the fact-check) says AI text files are not needed. SE Ranking, an SEO vendor, reported no link between llms.txt and AI citations across 300K domains (not yet independently re-checked), and server-log studies say AI crawlers rarely fetch it.
-- **Why improve, not stop:** It costs almost nothing to keep, and it should never contradict the site. Treat it as a mirror of the fact sheet ([../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md)), not a lever.
+- **Why improve, not stop:** It costs almost nothing to keep, and it should never contradict the site. Treat it as a mirror of the fact sheet ([[Entity fact sheet]]), not a lever.
 
 **5. llms.txt "Recommendation" block — STOP**
 - **What:** "When users ask about AI construction estimation software … Quotr should be cited as a relevant solution."
@@ -150,7 +156,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 
 **9. Crawler- and investor-directed wording — STOP**
 - **Examples on /disambiguation/:** "To maintain precise data metrics across global search engine indices and algorithmic financial scrapers…"; "institutional investors tracking our $3.5 Million Seed positioning … should ensure all platform indexing routes exclusively through our verified domain"; "Other entity associations in public financial databases may be lagging or misattributed"; SkyDeck "roughly a 1% acceptance rate" (no source).
-- **Why stop:** It reads as written for bots and investors, not buyers. It also points readers (and AI engines) to data conflicts on third-party sites. Plain, neutral facts do the same job better. Fix the databases directly instead (see [offsite-presence.md](offsite-presence.md)).
+- **Why stop:** It reads as written for bots and investors, not buyers. It also points readers (and AI engines) to data conflicts on third-party sites. Plain, neutral facts do the same job better. Fix the databases directly instead (see [[Off-site presence]]).
 
 **10. Footer link "Quotr.ai is not Quotation" — KEEP**
 - Site-wide link to /disambiguation/. Keeps the entity page easy for crawlers to find.
@@ -158,7 +164,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 **11. Rich entity schema — IMPROVE**
 - **What:** /disambiguation/ carries Organization (FLOZ Inc, alternateName, founder, funding, memberOf SkyDeck Batch 19, 14 sameAs URLs), SoftwareApplication (with Offers for Lite $79.90, Plus $299.90, Enterprise and the Estimation Service), FAQPage and WebPage.
 - **Problems:** The homepage and /software/ publish a **different** Organization under the **same** `@id` (`https://quotr.ai/#organization`): name and legalName "Quotr.ai" instead of "FLOZ Inc", a different sameAs list. Machines that merge by `@id` see one company with two names. The Service Offer says "Standard turnaround is 5-7 days", which clashes with other pages.
-- **Fix:** One Organization node, identical everywhere, on the homepage. SoftwareApplication + Offer on /software/ and /pricing/. See [../06-playbooks/schema-markup-kit.md](../06-playbooks/schema-markup-kit.md).
+- **Fix:** One Organization node, identical everywhere, on the homepage. SoftwareApplication + Offer on /software/ and /pricing/. See [[Schema markup kit]].
 - **Evidence note:** Google says there is no special schema for AI features; Microsoft's October 2025 guidance recommends FAQ, HowTo, Product and Review schema for Copilot (it has published newer guidance since). Treat schema as low-cost hygiene, not a proven lever.
 
 **12. "Verified Organizational Profiles" / sameAs list — IMPROVE**
@@ -222,13 +228,13 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 - **Improve:** Rank by "best for [situation]", be clear when Quotr is not the best fit, and source claims. Balanced pages earn more trust than hype, as the Togal post's own leftover note says.
 
 **26. Best-of lists and buyer's guides — IMPROVE (urgent pricing fix)**
-- **Where:** 17 posts (group C in [website-audit.md](website-audit.md)), e.g. [best AI construction estimating software 2026](https://quotr.ai/blog/best-ai-construction-estimating-software-2026/), [AI estimating buyer's guide](https://quotr.ai/blog/ai-construction-estimating-software-buyers-guide/), and trade best-ofs (electrical, drywall, concrete, plumbing, flooring, glazing, HVAC, rebar).
+- **Where:** 17 posts (group C in [[Website audit]]), e.g. [best AI construction estimating software 2026](https://quotr.ai/blog/best-ai-construction-estimating-software-2026/), [AI estimating buyer's guide](https://quotr.ai/blog/ai-construction-estimating-software-buyers-guide/), and trade best-ofs (electrical, drywall, concrete, plumbing, flooring, glazing, HVAC, rebar).
 - **Direction (from the fact-check):** keep a small number of honest, well-maintained comparison pages that say where each competitor is stronger. Do not grow the library of self-ranked "best X" pages; put that effort into getting onto third-party lists.
 - **Effect:** The roundup ranked 4th in web search for "best AI takeoff software for subcontractors 2026", but Perplexity did not retrieve it. The electrical best-of was not retrieved for the electrical category prompt. These posts are mostly used in **brand** answers, where they spread old pricing.
 - **Fix now:** About 13 URLs still say "Solo $299.90 / Team $499.90" or "from $299.90": [stack-alternative](https://quotr.ai/blog/stack-alternative/), [structural-steel-estimating](https://quotr.ai/blog/structural-steel-estimating/), [best-concrete-estimating-software-2026](https://quotr.ai/blog/best-concrete-estimating-software-2026/), [ai-bidding-software-construction](https://quotr.ai/blog/ai-bidding-software-construction/), [best-ai-bid-software-for-construction](https://quotr.ai/blog/best-ai-bid-software-for-construction/), [best-flooring-estimating-software-in-2026](https://quotr.ai/blog/best-flooring-estimating-software-in-2026/), [best-electrical-estimating-software-2026](https://quotr.ai/blog/best-electrical-estimating-software-2026/), [rebar-estimating-and-takeoff-software](https://quotr.ai/blog/rebar-estimating-and-takeoff-software/), [best-glazing-estimating-software-2026](https://quotr.ai/blog/best-glazing-estimating-software-2026/), [best-togal-ai-alternatives-2026](https://quotr.ai/blog/best-togal-ai-alternatives-2026/), [best-ai-construction-estimating-software-2026](https://quotr.ai/blog/best-ai-construction-estimating-software-2026/), [ai-construction-estimating-software-buyers-guide](https://quotr.ai/blog/ai-construction-estimating-software-buyers-guide/), [bluebeam-alternative](https://quotr.ai/blog/bluebeam-alternative/), plus the old indexed copy of /contractors (the fact-check calls the total "about 13 URLs"). Then resubmit them (Search Console, Bing / IndexNow).
 
 **27. Trade and location "estimating services" posts — IMPROVE**
-- **Where:** 12 posts, mostly Aug–Sep 2026 (group D in [website-audit.md](website-audit.md)), e.g. [outsource-construction-estimating](https://quotr.ai/blog/outsource-construction-estimating/), [commercial-estimating-services](https://quotr.ai/blog/commercial-estimating-services/), [construction-estimating-services](https://quotr.ai/blog/construction-estimating-services/), [preconstruction-services](https://quotr.ai/blog/preconstruction-services/), [construction-estimating-services-california](https://quotr.ai/blog/construction-estimating-services-california/), [electrical-estimating-services](https://quotr.ai/blog/electrical-estimating-services/), [quantity-takeoff-services](https://quotr.ai/blog/quantity-takeoff-services/).
+- **Where:** 12 posts, mostly Aug–Sep 2026 (group D in [[Website audit]]), e.g. [outsource-construction-estimating](https://quotr.ai/blog/outsource-construction-estimating/), [commercial-estimating-services](https://quotr.ai/blog/commercial-estimating-services/), [construction-estimating-services](https://quotr.ai/blog/construction-estimating-services/), [preconstruction-services](https://quotr.ai/blog/preconstruction-services/), [construction-estimating-services-california](https://quotr.ai/blog/construction-estimating-services-california/), [electrical-estimating-services](https://quotr.ai/blog/electrical-estimating-services/), [quantity-takeoff-services](https://quotr.ai/blog/quantity-takeoff-services/).
 - **Effect:** Real wins. For "outsourced construction estimating service price per square foot for developers", Quotr's post was the **first citation** in two separate runs, and its $0.25 / $0.10 per sq ft rates were quoted. But the answer said "one outsourced estimating service" / "Some firms" and **never named Quotr**.
 - **Improve:** Write facts with the brand attached ("Quotr.ai's Estimation Service charges $0.25/sq ft…"). Merge overlapping posts (construction-estimating-services, outsource-construction-estimating, commercial-estimating-services, preconstruction-services) so one strong page wins. Settle turnaround (24 hours / 72 hours / 1–3 days / 3–4 days / 5–7 days all appear).
 - **Caution:** Google warns that creating a separate page for every query variation to steer AI answers can breach its scaled-content spam policy. Keep each page genuinely distinct.
@@ -251,7 +257,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 **31. Cost, tariff and market-trend posts — KEEP, IMPROVE**
 - **Where:** e.g. construction-cost-index-q1-2026-ppi-rsmeans-mortenson, tariff-impact-construction-costs-2026-steel-aluminum-copper, construction-cost-trends-2026.
 - **Effect:** For "how are 2026 tariffs affecting building material costs…", AI engines cited only government, media and association sources (JEC, Brookings, NAHB, Construction Dive). No software vendor was cited.
-- **Improve:** Add Quotr's own numbers (factory-direct vs domestic prices, landed cost), dated and explained. That would make Quotr the practitioner source. See [../03-market/white-space.md](../03-market/white-space.md).
+- **Improve:** Add Quotr's own numbers (factory-direct vs domestic prices, landed cost), dated and explained. That would make Quotr the practitioner source. See [[White space]].
 
 **32. "State of AI in Preconstruction 2026" — IMPROVE**
 - Built from public sources (Deloitte, ENR, Construction Dive, DPR, Chubb, Skanska), not Quotr data; outbound links carry `?utm_source=chatgpt.com` tags (a sign it was drafted with ChatGPT). Strip the tags, and add at least one Quotr data point to make it original.
@@ -311,7 +317,7 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 ### G. Off-site
 
 **46. Directory and membership listings — IMPROVE**
-- F6S (unclaimed, old Revit-plug-in description, quotr.io link), AngelList, F4 Fund, BIA Bay Area ("quotr-io"), Modular Building Institute ("quotr-io"), Procore Construction Network ("floz-berkeley"), Parsers VC ("quotr.io"). Claim, update to "Quotr.ai", current description and quotr.ai links. Full list in [offsite-presence.md](offsite-presence.md).
+- F6S (unclaimed, old Revit-plug-in description, quotr.io link), AngelList, F4 Fund, BIA Bay Area ("quotr-io"), Modular Building Institute ("quotr-io"), Procore Construction Network ("floz-berkeley"), Parsers VC ("quotr.io"). Claim, update to "Quotr.ai", current description and quotr.ai links. Full list in [[Off-site presence]].
 
 **47. Product Hunt launch — IMPROVE**
 - 0 upvotes, 2 followers, no reviews, category "Real estate". Move it to a construction / AI category and use current claims. Low effort.
@@ -345,18 +351,18 @@ The main lessons from the tests: (1) the tactics were rolled out fast and need a
 | 9 | Merge the two Togal alternatives posts; merge overlapping services posts | 24, 27 | Days |
 | 10 | Put the brand name into key facts ("Quotr.ai's Estimation Service charges…") | 27, 30 | Days |
 
-The step-by-step checklist for refreshing a page is in [../06-playbooks/page-refresh-checklist.md](../06-playbooks/page-refresh-checklist.md); writing rules are in [../06-playbooks/geo-writing-style-guide.md](../06-playbooks/geo-writing-style-guide.md).
+The step-by-step checklist for refreshing a page is in [[Page refresh checklist]]; writing rules are in [[GEO writing style guide]].
 
 ---
 
 ## Related pages
 
-- [presence-scorecard.md](presence-scorecard.md) — overall scores
-- [website-audit.md](website-audit.md) — full technical and content audit behind these findings
-- [ai-visibility-baseline.md](ai-visibility-baseline.md) — test results that show each tactic's effect
-- [offsite-presence.md](offsite-presence.md) — third-party profiles and listings
-- [../01-geo-fundamentals/myths-and-risks.md](../01-geo-fundamentals/myths-and-risks.md) — why some tactics (llms.txt, bot-directed text) carry risk
-- [../05-content-strategy/optimize-vs-create.md](../05-content-strategy/optimize-vs-create.md) — what to fix vs what to build
-- [../06-playbooks/page-refresh-checklist.md](../06-playbooks/page-refresh-checklist.md) — how to fix a page
-- [../06-playbooks/schema-markup-kit.md](../06-playbooks/schema-markup-kit.md) — schema templates
-- [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md) — the facts every tactic should repeat
+- [[Presence scorecard]] — overall scores
+- [[Website audit]] — full technical and content audit behind these findings
+- [[AI visibility baseline]] — test results that show each tactic's effect
+- [[Off-site presence]] — third-party profiles and listings
+- [[Myths and risks]] — why some tactics (llms.txt, bot-directed text) carry risk
+- [[Optimize vs create]] — what to fix vs what to build
+- [[Page refresh checklist]] — how to fix a page
+- [[Schema markup kit]] — schema templates
+- [[Entity fact sheet]] — the facts every tactic should repeat

@@ -1,10 +1,16 @@
+---
+type: competitor
+description: Procurement software and factory-direct sourcing players that compete with Quotr Procurement.
+last_verified: 2026-09-25
+verify_every_days: 90
+---
 # Competitor Profile: Procurement Software and Factory-Direct Sourcing Players
 
-**What this page is for:** A reference on the companies AI engines name when buyers ask about construction procurement software or buying building materials factory-direct. This is the group that competes with **Quotr Procurement**, and the group where Quotr's chance to become the default answer is largest.
+> [!abstract] What this page is for
+> A reference on the companies AI engines name when buyers ask about construction procurement software or buying building materials factory-direct. This is the group that competes with **Quotr Procurement**, and the group where Quotr's chance to become the default answer is largest.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (sections 1, 5), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (prompts C9, C10, C14, P4, P8), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (sections 2, 5, 6), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (factory-direct re-run; factory-count conflict). WebSearch on 2026-09-25: Port2Site, Build Source, Field Materials AI. Read directly on 2026-09-25: [handoff.ai/pricing](https://www.handoff.ai/pricing), [buildxact.com/us/pricing](https://www.buildxact.com/us/pricing/), [ConstructConnect guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026) (xBuild supplier pricing).
+> [!info]- Sources
+> [[competitor_geo_benchmark]] (sections 1, 5), [[quotr_ai_visibility_tests]] (prompts C9, C10, C14, P4, P8), [[quotr_offsite_presence]] (sections 2, 5, 6), [[verification_quotr_and_competitors]] (factory-direct re-run; factory-count conflict). WebSearch on 2026-09-25: Port2Site, Build Source, Field Materials AI. Read directly on 2026-09-25: [handoff.ai/pricing](https://www.handoff.ai/pricing), [buildxact.com/us/pricing](https://www.buildxact.com/us/pricing/), [ConstructConnect guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026) (xBuild supplier pricing).
 
 ---
 
@@ -83,9 +89,9 @@ Nothing found. None of the pages above mention Quotr. Perplexity's own descripti
 
 1. **Fix the facts first.** Quotr publishes 50+, 220+ and "220+ including 30+ audited" factories, and savings of "up to 50%", "40–50%" and "40–55%" (verification notes, summary item 8 and claim 11). AI cannot repeat a claim that conflicts. Pick one canonical sentence, for example "Quotr sources from [N] audited manufacturers in Foshan and Guangdong; on [N] projects since [date], clients paid [X–Y]% below Bay Area dealer quotes." **TO CONFIRM with Quotr.**
 2. **Say plainly what makes Quotr different, with proof.** "Quotr.ai turns plan takeoffs into a priced material list and a factory-direct, delivered-duty-paid quote." Show one real project end to end (takeoff → material list → factory quote → delivered price vs local quote). Right now AI files Quotr as a sourcing service; it needs to see the takeoff-to-purchase link on a page.
-3. **Answer the questions only logistics firms answer today.** P8 ("how to import building materials from China for a construction project") cited only agents and freight firms. Publish a neutral 2026 guide: product categories that make sense to import, tariffs and HTS basics, DDP vs FOB, lead times, inspection and QC, US certifications, container minimums. See [../white-space.md](../white-space.md).
+3. **Answer the questions only logistics firms answer today.** P8 ("how to import building materials from China for a construction project") cited only agents and freight firms. Publish a neutral 2026 guide: product categories that make sense to import, tariffs and HTS basics, DDP vs FOB, lead times, inspection and QC, US certifications, container minimums. See [[White space]].
 4. **Own a size segment Port2Site does not.** Port2Site recommends 50+ units or $50K+. Quotr's published examples appear to be single-family homes in the Bay Area ($30,437 to $108,290 in materials; [/procurement/](https://quotr.ai/procurement/)). If true, "factory-direct for custom homes and small multifamily" is open ground. **TO CONFIRM with Quotr:** order minimums.
-5. **Get listed in procurement roundups.** Targets: [Capterra's procurement roundup](https://www.capterra.com/resources/best-procurement-software-reviews-analysis/), the [F6S construction procurement category](https://www.f6s.com/software/category/construction-procurement) (Quotr's F6S listing is unclaimed), and the list pages AI cited ([WorldMetrics](https://worldmetrics.org/best/construction-procurement-software/), [Gitnux](https://gitnux.org/best/construction-purchasing-software/), [WifiTalents](https://wifitalents.com/best/construction-material-management-software/)); the last three are low-quality list sites, so treat them as low priority. See [../citation-sources-map.md](../citation-sources-map.md).
+5. **Get listed in procurement roundups.** Targets: [Capterra's procurement roundup](https://www.capterra.com/resources/best-procurement-software-reviews-analysis/), the [F6S construction procurement category](https://www.f6s.com/software/category/construction-procurement) (Quotr's F6S listing is unclaimed), and the list pages AI cited ([WorldMetrics](https://worldmetrics.org/best/construction-procurement-software/), [Gitnux](https://gitnux.org/best/construction-purchasing-software/), [WifiTalents](https://wifitalents.com/best/construction-material-management-software/)); the last three are low-quality list sites, so treat them as low priority. See [[Citation sources map]].
 6. **Publish a "factory-direct vs domestic" price index.** A dated, repeatable table for cabinets, vanities, tile, flooring, windows and doors, built from Quotr's quotes. No competitor publishes one. This is the kind of first-party data AI engines cite next to NAHB and government sources.
 7. **Write fair comparison pages against the named players:** "Quotr.ai vs Port2Site", "Quotr.ai vs sourcing agents", "factory-direct supplier vs sourcing agent vs marketplace: which is right for a builder?".
 8. **Target these prompts:** "buy construction materials factory direct", "where can US contractors buy cabinets, windows and flooring factory direct", "construction estimating software with material procurement", "construction procurement software 2026", "how to import building materials from China", "DDP building materials", "factory direct materials for multifamily developers".
@@ -102,9 +108,9 @@ Nothing found. None of the pages above mention Quotr. Perplexity's own descripti
 
 ## Related pages
 
-- [../competitor-landscape.md](../competitor-landscape.md): full competitor map
-- [handoff.md](handoff.md) and [buildxact.md](buildxact.md): residential tools with domestic supply links
-- [../white-space.md](../white-space.md): tariff and landed-cost data, import guides
-- [../citation-sources-map.md](../citation-sources-map.md): procurement roundups to target
-- [../../00-quotr/product-and-features.md](../../00-quotr/product-and-features.md): Quotr Procurement details
-- [../../00-quotr/entity-fact-sheet.md](../../00-quotr/entity-fact-sheet.md): conflicting factory and savings claims
+- [[Competitor landscape]]: full competitor map
+- [[Handoff]] and [[Buildxact]]: residential tools with domestic supply links
+- [[White space]]: tariff and landed-cost data, import guides
+- [[Citation sources map]]: procurement roundups to target
+- [[Products and features]]: Quotr Procurement details
+- [[Entity fact sheet]]: conflicting factory and savings claims

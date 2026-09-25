@@ -1,10 +1,16 @@
+---
+type: guide
+description: Topics, trades, personas and formats no competitor owns in AI answers, where Quotr has a right to win.
+last_verified: 2026-09-25
+verify_every_days: 90
+---
 # White Space: Topics, Trades, Personas and Formats No Competitor Owns in AI Answers
 
-**What this page is for:** The list of openings where AI engines currently cite no software vendor (or only weak ones) and where Quotr's unique mix (AI takeoff + estimating + bid comparison + factory-direct procurement, residential and multifamily, tariffs and logistics) gives it a real right to win. Each opening has its evidence and concrete content ideas.
+> [!abstract] What this page is for
+> The list of openings where AI engines currently cite no software vendor (or only weak ones) and where Quotr's unique mix (AI takeoff + estimating + bid comparison + factory-direct procurement, residential and multifamily, tariffs and logistics) gives it a real right to win. Each opening has its evidence and concrete content ideas.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (sections 3 and 5), [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (prompts C7–C15, V7, V8, P1–P8), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (factory-direct re-run; LA-fire prompt; factory-count conflict), [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (Quotr's existing content and gaps), [quotr_offsite_presence.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>). Checked on 2026-09-25: [handoff.ai/official-information-about-handoff](https://www.handoff.ai/official-information-about-handoff) (what Handoff says it does not serve), [handoff.ai/pricing](https://www.handoff.ai/pricing) (AI takeoff limits), [ibeam.ai/compare](https://www.ibeam.ai/compare) (Beam's trade list), Port2Site and Build Source via WebSearch.
+> [!info]- Sources
+> [[competitor_geo_benchmark]] (sections 3 and 5), [[quotr_ai_visibility_tests]] (prompts C7–C15, V7, V8, P1–P8), [[verification_quotr_and_competitors]] (factory-direct re-run; LA-fire prompt; factory-count conflict), [[quotr_onsite_content_audit]] (Quotr's existing content and gaps), [[quotr_offsite_presence]]. Checked on 2026-09-25: [handoff.ai/official-information-about-handoff](https://www.handoff.ai/official-information-about-handoff) (what Handoff says it does not serve), [handoff.ai/pricing](https://www.handoff.ai/pricing) (AI takeoff limits), [ibeam.ai/compare](https://www.ibeam.ai/compare) (Beam's trade list), Port2Site and Build Source via WebSearch.
 
 ---
 
@@ -69,7 +75,7 @@
 - The procurement benchmark prompt → Procore, Archdesk, Trimble Materials, Field Materials AI, Precoro, and Perplexity said no factory-direct platform showed up at all.
 - Where Quotr *was* named (a prompt copying its own blog wording), it slipped from 1st to 3rd on re-run, and was described as a sourcing service rather than an AI takeoff platform (verification notes).
 
-**Who is there now, and why they are weak.** Suppliers (Build Source), importers for big projects (Port2Site), agents (FBM, Go Global, Trillion) and marketplaces (Alibaba) have **no takeoff or estimating**. Procurement software (Field Materials, Trimble) **does not source** cheaper product. Residential estimating tools (Handoff, Buildxact, xBuild) link only to **domestic** suppliers. Details: [competitors/procurement-and-sourcing.md](competitors/procurement-and-sourcing.md).
+**Who is there now, and why they are weak.** Suppliers (Build Source), importers for big projects (Port2Site), agents (FBM, Go Global, Trillion) and marketplaces (Alibaba) have **no takeoff or estimating**. Procurement software (Field Materials, Trimble) **does not source** cheaper product. Residential estimating tools (Handoff, Buildxact, xBuild) link only to **domestic** suppliers. Details: [[Procurement and sourcing players]].
 
 **Why Quotr fits.** It is the only brand seen in these tests that claims both AI takeoff and factory-direct purchase.
 
@@ -182,7 +188,7 @@
 
 | Prompt | Who was named | Why Quotr qualifies | Fix |
 |---|---|---|---|
-| V7 "cheapest AI takeoff software" | Kreo (~$35), Easy Takeoffs ($39), Pilars, QuoteIQ ($29.99) | Lite $79.90 per seat with AI detection (TO CONFIRM features) | Dated, feature-level price table; note that Kreo's AI tools start at $175 ([competitors/kreo.md](competitors/kreo.md)) |
+| V7 "cheapest AI takeoff software" | Kreo (~$35), Easy Takeoffs ($39), Pilars, QuoteIQ ($29.99) | Lite $79.90 per seat with AI detection (TO CONFIRM features) | Dated, feature-level price table; note that Kreo's AI tools start at $175 ([[Kreo]]) |
 | V8 "AI takeoff software with free trial" | On-Screen Takeoff, PlanSwift, Kreo, Eano, eTakeoff, Intuitive Takeoff, BuildVision, Buildxact, Canaveral | 7-day free trial, cancel anytime | Put the trial in plain text high on pricing, software and comparison pages; pitch TDPM |
 | C15 "best takeoff and estimating software for Mac users" | STACK, Easy Takeoffs, Square Takeoff, Bluebeam, Buildxact | Browser-based | "AI takeoff for Mac (browser, no install)" page (TO CONFIRM browser support) |
 
@@ -199,7 +205,7 @@
 | **Modular builders** | Not tested | Quotr is in the Modular Building Institute directory and its case studies span "modular" (index summary) | Test prompts first ("estimating software for modular builders"), then build one page if open |
 | **Rebuild homeowners and owner-builders** | Local GCs, Bloomberg | Quotr has FireTips history | See white space 6 |
 
-Full persona detail: [../00-quotr/audiences-and-personas.md](../00-quotr/audiences-and-personas.md).
+Full persona detail: [[Audiences and personas]].
 
 ---
 
@@ -241,11 +247,11 @@ Full persona detail: [../00-quotr/audiences-and-personas.md](../00-quotr/audienc
 
 ## Related pages
 
-- [competitor-landscape.md](competitor-landscape.md): who owns which answers today
-- [citation-sources-map.md](citation-sources-map.md): where to pitch the data once it exists
-- [competitors/procurement-and-sourcing.md](competitors/procurement-and-sourcing.md): the factory-direct field in detail
-- [competitors/handoff.md](competitors/handoff.md): the segments Handoff says it does not serve
-- [../00-quotr/audiences-and-personas.md](../00-quotr/audiences-and-personas.md): personas and their questions
-- [../00-quotr/entity-fact-sheet.md](../00-quotr/entity-fact-sheet.md): facts to fix before publishing numbers
-- [../04-prompt-library/prompt-library.md](../04-prompt-library/prompt-library.md): prompts to track for each opening
-- [../05-content-strategy/content-priorities.md](../05-content-strategy/content-priorities.md) and [../05-content-strategy/top-of-funnel-strategy.md](../05-content-strategy/top-of-funnel-strategy.md): how these openings become the content plan
+- [[Competitor landscape]]: who owns which answers today
+- [[Citation sources map]]: where to pitch the data once it exists
+- [[Procurement and sourcing players]]: the factory-direct field in detail
+- [[Handoff]]: the segments Handoff says it does not serve
+- [[Audiences and personas]]: personas and their questions
+- [[Entity fact sheet]]: facts to fix before publishing numbers
+- [[Prompt library]]: prompts to track for each opening
+- [[Content priorities]] and [[Top-of-funnel strategy]]: how these openings become the content plan

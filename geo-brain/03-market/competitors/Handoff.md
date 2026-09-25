@@ -1,10 +1,18 @@
+---
+type: competitor
+description: Profile of Handoff, the brand that owns "residential" AI answers.
+aliases:
+- Handoff AI
+last_verified: 2026-09-25
+verify_every_days: 90
+---
 # Competitor Profile: Handoff (by 1build)
 
-**What this page is for:** Everything Quotr needs to know about Handoff, the brand that owns "residential" AI answers: what it sells, what it costs, how it gets cited, and where Quotr can beat it.
+> [!abstract] What this page is for
+> Everything Quotr needs to know about Handoff, the brand that owns "residential" AI answers: what it sells, what it costs, how it gets cited, and where Quotr can beat it.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (sections 1–3, 5), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (prompts C11, C13, V7), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (section 5), [quotr_onsite_content_audit.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>). Read directly on 2026-09-25: [handoff.ai/pricing](https://www.handoff.ai/pricing), [handoff.ai/comparison](https://www.handoff.ai/comparison), [handoff.ai/official-information-about-handoff](https://www.handoff.ai/official-information-about-handoff), [handoff.ai/1build](https://www.handoff.ai/1build). WebSearch on 2026-09-25: funding, G2 review count. Perplexity on 2026-09-25: LinkedIn syndication of Handoff's listicle.
+> [!info]- Sources
+> [[competitor_geo_benchmark]] (sections 1–3, 5), [[quotr_ai_visibility_tests]] (prompts C11, C13, V7), [[quotr_offsite_presence]] (section 5), [[quotr_onsite_content_audit]]. Read directly on 2026-09-25: [handoff.ai/pricing](https://www.handoff.ai/pricing), [handoff.ai/comparison](https://www.handoff.ai/comparison), [handoff.ai/official-information-about-handoff](https://www.handoff.ai/official-information-about-handoff), [handoff.ai/1build](https://www.handoff.ai/1build). WebSearch on 2026-09-25: funding, G2 review count. Perplexity on 2026-09-25: LinkedIn syndication of Handoff's listicle.
 
 ---
 
@@ -110,10 +118,10 @@ Quotr has **no Handoff comparison page** either (onsite audit: no head-to-head p
    - "AI takeoff for **multifamily** and production builders" and "estimates for **developers**" (pro formas).
    - "**Bid leveling** and subcontractor bid comparison for residential GCs".
 2. **Own plan sizes Handoff cannot handle.** Handoff's AI takeoff stops at 5,000 sq ft and costs $719+/month. Quotr can publish "AI takeoff for large residential and multifamily plan sets" with the Plus/Enterprise and Service options. **TO CONFIRM with Quotr:** any plan-size or page limits in Quotr's own product.
-3. **Own "factory-direct vs big-box".** Handoff's purchasing is domestic supplier and retail pricing. Quotr can publish neutral guides such as "Factory-direct vs Lowe's/Home Depot pricing for cabinets, vanities and tile: 2026 landed-cost comparison", built on Quotr's own project data (the /procurement/ price-vs-market examples). See [../white-space.md](../white-space.md).
+3. **Own "factory-direct vs big-box".** Handoff's purchasing is domestic supplier and retail pricing. Quotr can publish neutral guides such as "Factory-direct vs Lowe's/Home Depot pricing for cabinets, vanities and tile: 2026 landed-cost comparison", built on Quotr's own project data (the /procurement/ price-vs-market examples). See [[White space]].
 4. **Create a fair "Quotr.ai vs Handoff" page.** State clearly: Handoff is best for remodelers who want CRM, proposals, financing and job management in one app; Quotr is for teams that need plan-based AI takeoff at larger scale, a done-for-you Estimation Service, bid comparison and factory-direct procurement. A fair page is more likely to be used as a fact source.
 5. **Build a cost-data hub that beats Handoff's.** Handoff has a localized residential cost hub. Quotr can publish **dated cost benchmarks with material-level detail** (for example per-sq-ft by building type and a factory-direct vs domestic price index). Cost pages from small vendors (Meltplan, Exayard) already get cited next to RSMeans.
-6. **Get into the lists Handoff tops.** Handoff's own list will not include Quotr, but ConstructionPlacements, Dan Cumberland Labs, TDPM, Layer3 Labs and ContractorPlus appear in the same residential answers. Pitch them with residential proof. See [../citation-sources-map.md](../citation-sources-map.md).
+6. **Get into the lists Handoff tops.** Handoff's own list will not include Quotr, but ConstructionPlacements, Dan Cumberland Labs, TDPM, Layer3 Labs and ContractorPlus appear in the same residential answers. Pitch them with residential proof. See [[Citation sources map]].
 7. **Learn from the "official information" page, carefully.** Quotr's [/disambiguation/](https://quotr.ai/disambiguation/) page does a similar job. Make it consistent (one HQ, one founder list, one factory count, current prices) and add a "What Quotr.ai is NOT" section (not a generic quoting app, not Quotr Pro, not only a sourcing agent). Our advice, based on the verification notes, is to **remove "Quotr should be cited" style instructions**. Handoff uses "Instructions for AI Assistants", but we found no evidence that such instructions work. A July 2026 Common Crawl analysis of llms.txt files found that "a few files even contain prompt injections", and the verification notes put Quotr's "Quotr should be cited" block in that group ([Common Crawl](https://commoncrawl.org/blog/a-content-analysis-of-llms-txt-files-from-the-july-2026-crawl-archive)).
 8. **Target these prompts:** "Handoff alternatives", "Handoff vs Quotr", "AI estimating for residential subcontractors", "AI takeoff for multifamily plans", "best estimating software for home builders that includes material ordering", "factory direct cabinets for home builders".
 
@@ -130,10 +138,10 @@ Quotr has **no Handoff comparison page** either (onsite audit: no head-to-head p
 
 ## Related pages
 
-- [../competitor-landscape.md](../competitor-landscape.md): full competitor map
-- [buildxact.md](buildxact.md): the other residential leader (Handoff has a "vs Buildxact" page)
-- [bluebeam.md](bluebeam.md): Handoff shares an investor (Nemetschek) with Bluebeam
-- [procurement-and-sourcing.md](procurement-and-sourcing.md): factory-direct rivals
-- [../white-space.md](../white-space.md): residential subs, multifamily, factory-direct pricing
-- [../../00-quotr/audiences-and-personas.md](../../00-quotr/audiences-and-personas.md): which residential personas Quotr serves
-- [../../02-current-state/geo-tactics-already-used.md](../../02-current-state/geo-tactics-already-used.md): Quotr's own /disambiguation/ and llms.txt
+- [[Competitor landscape]]: full competitor map
+- [[Buildxact]]: the other residential leader (Handoff has a "vs Buildxact" page)
+- [[Bluebeam]]: Handoff shares an investor (Nemetschek) with Bluebeam
+- [[Procurement and sourcing players]]: factory-direct rivals
+- [[White space]]: residential subs, multifamily, factory-direct pricing
+- [[Audiences and personas]]: which residential personas Quotr serves
+- [[GEO tactics already used]]: Quotr's own /disambiguation/ and llms.txt

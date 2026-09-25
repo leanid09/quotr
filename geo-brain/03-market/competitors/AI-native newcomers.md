@@ -1,10 +1,21 @@
+---
+type: competitor
+description: Funded AI-native startups (xBuild, Bobyard and others) and the vendors that write the listicles AI cites.
+aliases:
+- xBuild
+- Bobyard
+- BuildVision AI
+- Easy Takeoffs
+last_verified: 2026-09-25
+verify_every_days: 90
+---
 # Competitor Profile: AI-Native Newcomers (xBuild, Bobyard, BuildVision AI, Easy Takeoffs and the listicle publishers)
 
-**What this page is for:** A reference on the fast-growing wave of AI-native takeoff and estimating startups. Some are heavily funded product rivals (xBuild, Bobyard). Others matter mainly because they **write the "best AI takeoff" listicles that AI engines cite**. This page explains who they are, how they win citations, and how Quotr should respond.
+> [!abstract] What this page is for
+> A reference on the fast-growing wave of AI-native takeoff and estimating startups. Some are heavily funded product rivals (xBuild, Bobyard). Others matter mainly because they **write the "best AI takeoff" listicles that AI engines cite**. This page explains who they are, how they win citations, and how Quotr should respond.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (sections 1–3), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (all C, V and P prompts, domain tally), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (Bobyard and xBuild facts), [geo_ai_citation_signals_2026.md](<../../../research_notes/Quotr GEO AEO strategy audit/geo_ai_citation_signals_2026.md>) (page-count study). Read directly on 2026-09-25: [ConstructConnect 2026 guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026). WebSearch on 2026-09-25: xBuild, Bobyard launches, 2026 funding.
+> [!info]- Sources
+> [[competitor_geo_benchmark]] (sections 1–3), [[quotr_ai_visibility_tests]] (all C, V and P prompts, domain tally), [[verification_quotr_and_competitors]] (Bobyard and xBuild facts), [[geo_ai_citation_signals_2026]] (page-count study). Read directly on 2026-09-25: [ConstructConnect 2026 guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026). WebSearch on 2026-09-25: xBuild, Bobyard launches, 2026 funding.
 
 ---
 
@@ -77,7 +88,7 @@ These companies sell software too, but their biggest effect on Quotr is that **t
 | **Dan Cumberland Labs** (AI consultancy blog) | "AI construction estimating software", "construction takeoff software: best picks 2026" | C1, C11, V4, V7, P5 | — | Not found |
 | Pilars ($100 per trade per plan), Civils.ai, CountBricks, Struvia, CostLogic, CyanBuild, BuildIntel, CostKit | Listicles and alternatives posts | V3, V6, V7, C3 | Some named in C3 and V7 | Not found |
 
-Sources: domain and prompt data from [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (section 5 table) and [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (sections 1–3). "Not found" means a site-restricted search did not find Quotr; it is a proxy, not proof.
+Sources: domain and prompt data from [[quotr_ai_visibility_tests]] (section 5 table) and [[competitor_geo_benchmark]] (sections 1–3). "Not found" means a site-restricted search did not find Quotr; it is a proxy, not proof.
 
 ---
 
@@ -102,11 +113,11 @@ Almost nothing. Perplexity listed PalCode's 2026 list, rconstructionsolutions.co
 
 **Strategy: do not try to out-publish 15 listicle factories. Get included where lists are fair, and win the topics they do not cover.**
 
-1. **Pitch the vendor-publishers that cover rivals fairly.** ContraVault, Aginera, PalCode, Dan Cumberland Labs and Foreman AI include competitors in their lists. Send each a one-page fact sheet (current prices, free trial, AI features, Estimation Service, procurement, review count "as of" date) and a demo login. Direct competitors with self-ranking lists (Easy Takeoffs, BuildVision) are unlikely to add Quotr; skip them. See [../citation-sources-map.md](../citation-sources-map.md).
+1. **Pitch the vendor-publishers that cover rivals fairly.** ContraVault, Aginera, PalCode, Dan Cumberland Labs and Foreman AI include competitors in their lists. Send each a one-page fact sheet (current prices, free trial, AI features, Estimation Service, procurement, review count "as of" date) and a demo login. Direct competitors with self-ranking lists (Easy Takeoffs, BuildVision) are unlikely to add Quotr; skip them. See [[Citation sources map]].
 2. **Build calculators for Quotr's material categories.** Tile, flooring, cabinet run and drywall calculators, each with a "get a factory-direct price for this quantity" link. Calculators already win how-to citations for BuildVision, Easy Takeoffs and Procore (P2).
 3. **Publish cost benchmarks newcomers cannot.** Meltplan and Exayard get cited with general cost pages. Quotr has proprietary inputs: Estimation Service jobs and factory-vs-market material quotes. A dated "2026 residential and multifamily cost benchmarks" page with material-level detail would be hard to copy. **TO CONFIRM with Quotr:** what service and procurement data can be published in aggregate.
 4. **Match Bobyard's launch rhythm with news, not just pages.** Each meaningful Quotr launch or dataset should get a short wire release (with one number) so it lands on third-party domains.
-5. **Stay out of the saturated formats.** Merge Quotr's overlapping listicles instead of adding new ones (see the duplicate Togal posts in [togal-ai.md](togal-ai.md)).
+5. **Stay out of the saturated formats.** Merge Quotr's overlapping listicles instead of adding new ones (see the duplicate Togal posts in [[Togal AI]]).
 6. **Target these prompts** where newcomers have not shown up: "AI takeoff with factory-direct procurement", "estimating software for multifamily developers", "tariff impact on residential material costs 2026", "cost to build a house per square foot 2026 by material".
 
 ---
@@ -121,9 +132,9 @@ Almost nothing. Perplexity listed PalCode's 2026 list, rconstructionsolutions.co
 
 ## Related pages
 
-- [../competitor-landscape.md](../competitor-landscape.md): full competitor map
-- [../citation-sources-map.md](../citation-sources-map.md): which newcomer lists to pitch and which to skip
-- [../white-space.md](../white-space.md): calculators, cost benchmarks and tariff data
-- [kreo.md](kreo.md): the established low-price rival that newcomers compete with
-- [../../02-current-state/ai-visibility-baseline.md](../../02-current-state/ai-visibility-baseline.md): the prompts where these names appeared
-- [../../01-geo-fundamentals/how-ai-engines-choose-sources.md](../../01-geo-fundamentals/how-ai-engines-choose-sources.md): why listicles and numbers get cited
+- [[Competitor landscape]]: full competitor map
+- [[Citation sources map]]: which newcomer lists to pitch and which to skip
+- [[White space]]: calculators, cost benchmarks and tariff data
+- [[Kreo]]: the established low-price rival that newcomers compete with
+- [[AI visibility baseline]]: the prompts where these names appeared
+- [[How AI engines choose sources]]: why listicles and numbers get cited

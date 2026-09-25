@@ -1,10 +1,18 @@
+---
+type: competitor
+description: Profile of PlanSwift and On-Screen Takeoff (both owned by ConstructConnect).
+aliases:
+- On-Screen Takeoff
+last_verified: 2026-09-25
+verify_every_days: 90
+---
 # Competitor Profile: PlanSwift and On-Screen Takeoff (ConstructConnect)
 
-**What this page is for:** A reference on PlanSwift and On-Screen Takeoff, the two legacy takeoff tools owned by ConstructConnect. They matter twice: buyers search for "alternatives" to them, and their owner ConstructConnect writes one of the guides AI engines cite most.
+> [!abstract] What this page is for
+> A reference on PlanSwift and On-Screen Takeoff, the two legacy takeoff tools owned by ConstructConnect. They matter twice: buyers search for "alternatives" to them, and their owner ConstructConnect writes one of the guides AI engines cite most.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (sections 1–3), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (prompts C1, C4, C5, C6, V1, V3, V4, V6, V8, V10, P5), [quotr_offsite_presence.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_offsite_presence.md>) (section 2), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (PlanSwift ownership error on Quotr's own page). Read directly on 2026-09-25: [ConstructConnect 2026 guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026). WebSearch on 2026-09-25: PlanSwift Capterra page.
+> [!info]- Sources
+> [[competitor_geo_benchmark]] (sections 1–3), [[quotr_ai_visibility_tests]] (prompts C1, C4, C5, C6, V1, V3, V4, V6, V8, V10, P5), [[quotr_offsite_presence]] (section 2), [[verification_quotr_and_competitors]] (PlanSwift ownership error on Quotr's own page). Read directly on 2026-09-25: [ConstructConnect 2026 guide](https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026). WebSearch on 2026-09-25: PlanSwift Capterra page.
 
 ---
 
@@ -98,7 +106,7 @@ What Quotr says about PlanSwift: [best-planswift-alternatives-2026](https://quot
 2. **Re-check and date every PlanSwift fact** ($2,000 vs $1,749; subscription date; owner is ConstructConnect, not Trimble). AI already uses Quotr's page as the source for these facts, so accuracy here builds trust in the whole page.
 3. **Add a migration guide:** "Moving from PlanSwift to a browser-based AI tool: assemblies, Excel exports, templates". PlanSwift users care about assemblies and Excel links (ConstructConnect's stated differentiators).
 4. **Create an "On-Screen Takeoff alternatives" page.** Easy Takeoffs owns this query; Quotr has no page for it.
-5. **Get onto the Capterra and G2 PlanSwift alternatives pages.** They supplied the lead picks in V3. A Capterra listing for Quotr in the takeoff category is the first step. See [../citation-sources-map.md](../citation-sources-map.md).
+5. **Get onto the Capterra and G2 PlanSwift alternatives pages.** They supplied the lead picks in V3. A Capterra listing for Quotr in the takeoff category is the first step. See [[Citation sources map]].
 6. **Pitch the next edition of the ConstructConnect guide.** It includes rivals and chooses them partly by G2 review data. Once Quotr has G2 reviews, send the author a fact sheet (prices, AI features, service, procurement, review count "as of" date). Low odds (it is a competitor), but the guide is cited in 6 of the test prompts.
 7. **Target these prompts:** "PlanSwift alternatives 2026", "PlanSwift alternative for Mac", "On-Screen Takeoff alternatives", "PlanSwift vs Quotr", "is PlanSwift still worth it in 2026".
 
@@ -114,9 +122,9 @@ What Quotr says about PlanSwift: [best-planswift-alternatives-2026](https://quot
 
 ## Related pages
 
-- [../competitor-landscape.md](../competitor-landscape.md): full competitor map
-- [stack.md](stack.md): STACK vs PlanSwift is its own AI question (V6)
-- [bluebeam.md](bluebeam.md): the other incumbent buyers switch from
-- [../citation-sources-map.md](../citation-sources-map.md): ConstructConnect guide and alternatives pages
-- [../../02-current-state/ai-visibility-baseline.md](../../02-current-state/ai-visibility-baseline.md): V3 "cited, not named" result
-- [../../06-playbooks/geo-writing-style-guide.md](../../06-playbooks/geo-writing-style-guide.md): how to write fair, citable comparisons
+- [[Competitor landscape]]: full competitor map
+- [[STACK]]: STACK vs PlanSwift is its own AI question (V6)
+- [[Bluebeam]]: the other incumbent buyers switch from
+- [[Citation sources map]]: ConstructConnect guide and alternatives pages
+- [[AI visibility baseline]]: V3 "cited, not named" result
+- [[GEO writing style guide]]: how to write fair, citable comparisons

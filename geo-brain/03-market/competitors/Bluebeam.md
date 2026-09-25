@@ -1,10 +1,18 @@
+---
+type: competitor
+description: Profile of Bluebeam Revu, named for takeoff and cited for how-to education.
+aliases:
+- Bluebeam Revu
+last_verified: 2026-09-25
+verify_every_days: 90
+---
 # Competitor Profile: Bluebeam Revu (Nemetschek)
 
-**What this page is for:** A reference on Bluebeam, the PDF markup and measurement tool that AI engines name for takeoff questions and cite for "how to do a takeoff" education, and on how Quotr can win the "Bluebeam alternatives" and how-to questions.
+> [!abstract] What this page is for
+> A reference on Bluebeam, the PDF markup and measurement tool that AI engines name for takeoff questions and cite for "how to do a takeoff" education, and on how Quotr can win the "Bluebeam alternatives" and how-to questions.
 
-**Last updated:** 2026-09-25
-
-**Sources:** [competitor_geo_benchmark.md](<../../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>) (sections 1–3), [quotr_ai_visibility_tests.md](<../../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>) (prompts C4, C6, C8, C11, C15, V1, V3, V4, V10, P1, P6), [verification_quotr_and_competitors.md](<../../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>) (B4 re-run). WebSearch on 2026-09-25: Bluebeam pricing and review pages; Handoff funding (Nemetschek). Bluebeam's own pages could not be read directly (scraper rate-limited), so prices below come from a search summary and must be re-checked.
+> [!info]- Sources
+> [[competitor_geo_benchmark]] (sections 1–3), [[quotr_ai_visibility_tests]] (prompts C4, C6, C8, C11, C15, V1, V3, V4, V10, P1, P6), [[verification_quotr_and_competitors]] (B4 re-run). WebSearch on 2026-09-25: Bluebeam pricing and review pages; Handoff funding (Nemetschek). Bluebeam's own pages could not be read directly (scraper rate-limited), so prices below come from a search summary and must be re-checked.
 
 ---
 
@@ -87,7 +95,7 @@ What Quotr says about Bluebeam: [bluebeam-alternative](https://quotr.ai/blog/blu
 1. **Rebuild [bluebeam-alternative](https://quotr.ai/blog/bluebeam-alternative/) around the V4 question.** First lines: who should stay on Bluebeam (markup and collaboration) and who should add or switch to an AI takeoff tool (counts, areas, priced estimates). Then a dated table: Bluebeam tier prices, what each alternative adds (AI detection, estimating database, done-for-you service, procurement), and the correct Quotr prices. Remove the stale Solo/Team pricing.
 2. **Publish a dated residential takeoff guide that can out-cite Bluebeam's.** "Residential Takeoff Guide 2026: from PDF plans to a priced material list", with numbered steps, units, a manual-vs-AI rule of thumb, and a human-check step. These are the features the cited pages share (competitor benchmark, section 3). Quotr's existing how-to and [/dictionary/ai-takeoff/](https://quotr.ai/dictionary/ai-takeoff/) pages were not cited for P1.
 3. **Answer "Bluebeam Max vs AI takeoff tools".** Bluebeam's new AI tier creates a fresh comparison question with few answers yet. Write a fair explainer once the tier's features are checked on bluebeam.com.
-4. **Get into the pages that answer V4.** ContraVault, Dan Cumberland Labs and SelectHub are not direct Quotr competitors in the same way Easy Takeoffs and Projul are. Pitch them with facts (see [../citation-sources-map.md](../citation-sources-map.md)).
+4. **Get into the pages that answer V4.** ContraVault, Dan Cumberland Labs and SelectHub are not direct Quotr competitors in the same way Easy Takeoffs and Projul are. Pitch them with facts (see [[Citation sources map]]).
 5. **Show a workflow, not a war.** Many estimators will keep Bluebeam. A page such as "Using Quotr.ai alongside Bluebeam" can be cited for "how to speed up Bluebeam takeoffs". **TO CONFIRM with Quotr:** any Bluebeam import/export support before writing it.
 6. **Target these prompts:** "Bluebeam alternatives for takeoff", "Bluebeam vs Quotr", "is Bluebeam good for estimating", "Bluebeam Max AI review", "how to do a takeoff in Bluebeam vs AI takeoff".
 
@@ -103,9 +111,9 @@ What Quotr says about Bluebeam: [bluebeam-alternative](https://quotr.ai/blog/blu
 
 ## Related pages
 
-- [../competitor-landscape.md](../competitor-landscape.md): full competitor map
-- [handoff.md](handoff.md): shares an investor (Nemetschek) with Bluebeam
-- [planswift.md](planswift.md): the other incumbent buyers switch from
-- [../citation-sources-map.md](../citation-sources-map.md): pages that answer "Bluebeam alternatives"
-- [../white-space.md](../white-space.md): residential how-to education
-- [../../06-playbooks/page-refresh-checklist.md](../../06-playbooks/page-refresh-checklist.md): refreshing the bluebeam-alternative post
+- [[Competitor landscape]]: full competitor map
+- [[Handoff]]: shares an investor (Nemetschek) with Bluebeam
+- [[PlanSwift]]: the other incumbent buyers switch from
+- [[Citation sources map]]: pages that answer "Bluebeam alternatives"
+- [[White space]]: residential how-to education
+- [[Page refresh checklist]]: refreshing the bluebeam-alternative post

@@ -1,14 +1,19 @@
+---
+type: reference
+description: Real buyer questions seen online, trade by trade, with links, pains and who AI cites today.
+last_verified: 2026-09-25
+verify_every_days: 180
+---
 # Buyer Questions by Trade
 
-**What this page is for:** The real questions that estimators, subcontractors, general contractors and residential/multifamily developers ask online, trade by trade, with links to where each question was seen. For each trade it also lists the key estimating terms and units, the main pains, who AI tools cite today, and how Quotr's products map to those needs. Use it to write trade pages, how-tos and FAQs in the buyer's own words.
+> [!abstract] What this page is for
+> The real questions that estimators, subcontractors, general contractors and residential/multifamily developers ask online, trade by trade, with links to where each question was seen. For each trade it also lists the key estimating terms and units, the main pains, who AI tools cite today, and how Quotr's products map to those needs. Use it to write trade pages, how-tos and FAQs in the buyer's own words.
 
-**Last updated:** 2026-09-25
-
-**Sources:**
-- New research on 2026-09-25: WebSearch (ContractorTalk, Electrician Talk, Mike Holt forum, PlumbingZone, HVAC-Talk, PaintTalk, DrywallTalk, DoItYourself, DIYChatroom, Fine Homebuilding, Houzz discussions, Quora, YouTube, cost-guide and "People also ask"-style results) and Perplexity Sonar via `mcp__Slashy__web_search` (Reddit threads from r/estimators, r/Construction, r/Flooring, r/electricians, r/plumbers, r/askaplumber, r/HVAC, plus r/Roofing, r/Contractor, r/ConstructionManagers and r/RealEstateDevelopment topic searches). Reddit cannot be searched directly from this environment, so Reddit links come from Perplexity's citation lists; the question wording is taken from the thread title in the URL.
-- Six extra AI-answer tests (N1–N6) run on 2026-09-25; see [tracking-set.md](tracking-set.md).
-- Research notes: [quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), [competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>), [quotr_onsite_content_audit.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_onsite_content_audit.md>) (§6 trade coverage), [verification_quotr_and_competitors.md](<../../research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md>).
-- Quotr product facts: [../00-quotr/product-and-features.md](../00-quotr/product-and-features.md) (built from the same notes; "index-only" facts are marked there).
+> [!info]- Sources
+> - New research on 2026-09-25: WebSearch (ContractorTalk, Electrician Talk, Mike Holt forum, PlumbingZone, HVAC-Talk, PaintTalk, DrywallTalk, DoItYourself, DIYChatroom, Fine Homebuilding, Houzz discussions, Quora, YouTube, cost-guide and "People also ask"-style results) and Perplexity Sonar via `mcp__Slashy__web_search` (Reddit threads from r/estimators, r/Construction, r/Flooring, r/electricians, r/plumbers, r/askaplumber, r/HVAC, plus r/Roofing, r/Contractor, r/ConstructionManagers and r/RealEstateDevelopment topic searches). Reddit cannot be searched directly from this environment, so Reddit links come from Perplexity's citation lists; the question wording is taken from the thread title in the URL.
+> - Six extra AI-answer tests (N1–N6) run on 2026-09-25; see [[Tracking set]].
+> - Research notes: [[quotr_ai_visibility_tests]], [[competitor_geo_benchmark]], [[quotr_onsite_content_audit]] (§6 trade coverage), [[verification_quotr_and_competitors]].
+> - Quotr product facts: [[Products and features]] (built from the same notes; "index-only" facts are marked there).
 
 ---
 
@@ -17,8 +22,8 @@
 - **"Top real questions"** are written close to how people asked them. Each has a link to where it was seen (a forum thread, a Reddit thread, a YouTube video title, or a search result). Forum threads can be old; the question is still asked today, which is why they rank.
 - **Price ranges** in the "context" notes are what cost-guide sites and forum posts quoted in search summaries on 2026-09-25. They are **for context only**. They are not Quotr data and were not independently verified. Do not publish them without checking the original page.
 - **"Who AI cites today"** comes from Perplexity Sonar tests (September 2026). Other engines were not tested.
-- **"How Quotr maps"** uses only facts from [../00-quotr/product-and-features.md](../00-quotr/product-and-features.md). Anything uncertain is marked **TO CONFIRM with Quotr**.
-- Prompt IDs (L-, E-, D-) point to [prompt-library.md](prompt-library.md).
+- **"How Quotr maps"** uses only facts from [[Products and features]]. Anything uncertain is marked **TO CONFIRM with Quotr**.
+- Prompt IDs (L-, E-, D-) point to [[Prompt library]].
 
 ### Quotr features referred to on this page (short version)
 
@@ -341,7 +346,7 @@
 | "What would you charge for labor on a replacement window?" | [ContractorTalk](https://www.contractortalk.com/threads/what-would-you-charge-for-labor-on-a-replacement-window.65275/) |
 | "Question about profit margins for siding and window replacement?" | [ContractorTalk](https://www.contractortalk.com/threads/question-about-profit-margins-for-siding-and-window-replacement.112216/) |
 | "Saved $50k with windows from China…" | [YouTube short](https://www.youtube.com/shorts/eUEi-uEzSj8) (Apr 2026; windows and exterior doors including shipping and tariffs) |
-| "Are windows from China NFRC certified?" | Persona research question ([../00-quotr/audiences-and-personas.md](../00-quotr/audiences-and-personas.md), materials buyer) |
+| "Are windows from China NFRC certified?" | Persona research question ([[Audiences and personas]], materials buyer) |
 | "Where can US contractors buy cabinets, windows and flooring factory direct at wholesale prices" | Tested prompt C14 |
 
 **Key estimating terms and units**
@@ -588,16 +593,16 @@
 | "Construction estimating: the complete step-by-step guide" / "Give me 7 minutes and I'll teach you construction estimating" | [YouTube](https://www.youtube.com/watch?v=qThAWmHIe3U), [YouTube](https://www.youtube.com/watch?v=-Mkm21tL2yA) |
 | "AI estimating software tested – what they don't tell you" | [YouTube, Apr 2026](https://www.youtube.com/watch?v=4vFOfHAPpYw) |
 
-**Key terms:** takeoff, unit cost, labor units, assemblies, overhead, profit, markup vs margin, contingency, allowance, plug number, inclusions/exclusions, scope gap, bid leveling, bid day, RFI, addendum, change order. Definitions: [construction-glossary.md](construction-glossary.md).
+**Key terms:** takeoff, unit cost, labor units, assemblies, overhead, profit, markup vs margin, contingency, allowance, plug number, inclusions/exclusions, scope gap, bid leveling, bid day, RFI, addendum, change order. Definitions: [[Construction glossary]].
 
 **Pains (from threads and surveys)**
 - Too many bids, too few estimators; estimates done after hours.
-- Accuracy doubts about AI takeoff: data accuracy was contractors' top AI worry in one survey (57%, Dodge/CMiC, [geo_content_playbook_b2b.md](<../../research_notes/Quotr GEO AEO strategy audit/geo_content_playbook_b2b.md>), §6; not re-checked by the fact-check), and r/estimators threads call AI tools "hit-or-miss".
+- Accuracy doubts about AI takeoff: data accuracy was contractors' top AI worry in one survey (57%, Dodge/CMiC, [[geo_content_playbook_b2b]], §6; not re-checked by the fact-check), and r/estimators threads call AI tools "hit-or-miss".
 - Desktop, Windows-only tools and Mac users' frustration (r/estimators "macOS takeoff app that actually works").
 - Cost of software for small or side use.
 - Scope gaps between trades; comparing sub bids that are not like for like.
 
-**Who AI cites today:** for software: G2/Capterra/SourceForge alternatives pages, independent listicles (constructioncoverage.com, thedigitalprojectmanager.com), ConstructConnect's 2026 guide and competitors' own lists; for how-tos: Bluebeam, Autodesk, Procore, estimating-service firms and r/estimators ([quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), §5).
+**Who AI cites today:** for software: G2/Capterra/SourceForge alternatives pages, independent listicles (constructioncoverage.com, thedigitalprojectmanager.com), ConstructConnect's 2026 guide and competitors' own lists; for how-tos: Bluebeam, Autodesk, Procore, estimating-service firms and r/estimators ([[quotr_ai_visibility_tests]], §5).
 
 **How Quotr maps**
 
@@ -632,14 +637,14 @@
 
 A Perplexity search for r/Contractor threads about buying cabinets or windows direct from China returned **no Reddit threads**, only supplier and trade-compliance guides. Contractors' import questions seem to live more on YouTube and supplier blogs than on Reddit (observation from one search; not conclusive).
 
-**Key terms:** DDP, FOB, EXW, CIF, Incoterms, landed cost, HTS code, Section 232, Section 301, AD/CVD, customs broker, ISF (10+2), container (20 ft / 40 ft), freight forwarder, lead time, QC inspection, certification (NFRC, CARB, cUPC). Definitions: [construction-glossary.md](construction-glossary.md).
+**Key terms:** DDP, FOB, EXW, CIF, Incoterms, landed cost, HTS code, Section 232, Section 301, AD/CVD, customs broker, ISF (10+2), container (20 ft / 40 ft), freight forwarder, lead time, QC inspection, certification (NFRC, CARB, cUPC). Definitions: [[Construction glossary]].
 
 **Facts checked on 2026-09-25 (safe to use with the source)**
 - Kitchen cabinets and vanities: 25% Section 232 tariff since Oct 14, 2025; rise to 50% delayed to Jan 1, 2027 ([Thompson Hine SmarTrade](https://www.thompsonhinesmartrade.com/2026/01/president-trump-delays-section-232-tariff-increase-on-wood-furniture-cabinets-and-vanities/)). AD/CVD orders on Chinese wooden cabinets and vanities since Apr 21, 2020, continued in 2025 ([Federal Register](https://www.federalregister.gov/documents/2025/09/17/2025-17986/wooden-cabinets-and-vanities-and-components-thereof-from-the-peoples-republic-of-china-continuation)).
 - ISF ("10+2"): the importer or its agent must file with US Customs no later than 24 hours before the cargo is loaded on the ship bound for the US; CBP can issue liquidated damages of $5,000 per violation ([CBP help article](https://www.help.cbp.gov/s/article/Article-1868); [CBP FAQ](https://www.cbp.gov/sites/default/files/documents/10_2faq_0.pdf), via WebSearch summary).
 - HTS codes are 10 digits: the first 6 are the international Harmonized System code, the last 4 are US-specific ([USITC](https://www.usitc.gov/tariff_affairs/about_hts.htm); search at [hts.usitc.gov](https://hts.usitc.gov/)).
 - Incoterms 2020 has 11 rules; FOB and CIF are for sea and inland waterway transport only, while EXW, DAP and DDP can be used for any transport mode ([ICC](https://iccwbo.org/business-solutions/incoterms-rules/incoterms-2020/)).
-- From the notes: the Joint Economic Committee (April 2026) put tariff costs at $7,500–$10,900 per home; Brookings estimated about $30B added, about 90% on new construction ([competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>), §3).
+- From the notes: the Joint Economic Committee (April 2026) put tariff costs at $7,500–$10,900 per home; Brookings estimated about $30B added, about 90% on new construction ([[competitor_geo_benchmark]], §3).
 - AGC (via Perplexity; not opened directly): in a January 2026 survey, 40% of contractors raised bid prices because of tariffs, 35% passed most or all tariff costs to owners and 32% bought early ([agc.org](https://www.agc.org/news/2026/01/14/construction-costs-rise-fastest-rate-january-2023-november-outpacing-increases-contractors-bid)); input costs rose 8.9% from August 2025 to August 2026 ([agc.org](https://www.agc.org/news/2026/09/10/construction-input-costs-climb-89-between-august-2025-and-august-2026-association-survey-finds-war)).
 
 **Pains**
@@ -649,7 +654,7 @@ A Perplexity search for r/Contractor threads about buying cabinets or windows di
 - Price volatility: bids go stale; contractors add escalation clauses and shorten bid validity (AGC and trade coverage via Perplexity).
 - Which Incoterm to use; importing guides warn newcomers about DDP when anti-dumping duties apply ([SinoEuro Ruida guide](https://www.snrida.com/blog/complete-guide-importing-building-materials-china), via WebSearch summary).
 
-**Who AI cites today:** P8 cited only sourcing agents and logistics firms; S11 and N1 cited only government, media and law/logistics firms; P4 cited NAHB, Autodesk, Buildertrend, Buildxact, Trimble and HUD, with no mention of factory-direct sourcing. **No software vendor is cited on these questions.** This is Quotr's clearest white space ([competitor_geo_benchmark.md](<../../research_notes/Quotr GEO AEO strategy audit/competitor_geo_benchmark.md>), §5).
+**Who AI cites today:** P8 cited only sourcing agents and logistics firms; S11 and N1 cited only government, media and law/logistics firms; P4 cited NAHB, Autodesk, Buildertrend, Buildxact, Trimble and HUD, with no mention of factory-direct sourcing. **No software vendor is cited on these questions.** This is Quotr's clearest white space ([[competitor_geo_benchmark]], §5).
 
 **How Quotr maps**
 
@@ -661,7 +666,7 @@ A Perplexity search for r/Contractor threads about buying cabinets or windows di
 | Tariffs | Tariff posts | [/blog/tariff-impact-construction-costs-2026-steel-aluminum-copper/](https://quotr.ai/blog/tariff-impact-construction-costs-2026-steel-aluminum-copper/), [/blog/tariff-aware-estimating-material-escalation-every-bid/](https://quotr.ai/blog/tariff-aware-estimating-material-escalation-every-bid/) | Nothing on cabinet/vanity tariffs, the finish materials Quotr sells |
 | Sourcing know-how | Trade-fair content | [/blog/sourcing-building-materials-china-cbd-fair-2026/](https://quotr.ai/blog/sourcing-building-materials-china-cbd-fair-2026/), [/blog/how-developers-source-building-materials/](https://quotr.ai/blog/how-developers-source-building-materials/) | Written for Quotr's wording, not buyers' wording (see test S6 vs C10/C14) |
 
-**Content opportunity:** a "landed cost and tariffs" hub for residential finish materials: cabinet/vanity tariff explainer, landed-cost calculator, lead-time tracker, certification FAQ and an honest "when importing pays" page (see the roll-up in [prompt-library.md](prompt-library.md#new-pages-this-library-calls-for-roll-up)). Quotr must first confirm facts: factory count (50+ vs 220+ vs 30+), delivery area, categories, lead time and how duties are handled.
+**Content opportunity:** a "landed cost and tariffs" hub for residential finish materials: cabinet/vanity tariff explainer, landed-cost calculator, lead-time tracker, certification FAQ and an honest "when importing pays" page (see the roll-up in [[Prompt library#New pages this library calls for (roll-up)]]). Quotr must first confirm facts: factory count (50+ vs 220+ vs 30+), delivery area, categories, lead time and how duties are handled.
 
 ---
 
@@ -680,10 +685,10 @@ A Perplexity search for r/Contractor threads about buying cabinets or windows di
 | "Software for multifamily developers to estimate construction costs" | Tested prompt C8 |
 | "Outsourced construction estimating service price per square foot for developers" | Tested prompt C12 |
 
-**Key terms:** hard costs, soft costs, land cost, cost per SF, cost per unit (per door), pro forma, contingency, estimate class / accuracy range, GMP, value engineering, draw schedule, underwriting. Definitions: [construction-glossary.md](construction-glossary.md).
+**Key terms:** hard costs, soft costs, land cost, cost per SF, cost per unit (per door), pro forma, contingency, estimate class / accuracy range, GMP, value engineering, draw schedule, underwriting. Definitions: [[Construction glossary]].
 
 **Context (unverified, from AI answers on 2026-09-25)**
-- P3's answer gave benchmarks of $220–$700/SF and $150k–$250k per unit ([quotr_ai_visibility_tests.md](<../../research_notes/Quotr GEO AEO strategy audit/quotr_ai_visibility_tests.md>), §3).
+- P3's answer gave benchmarks of $220–$700/SF and $150k–$250k per unit ([[quotr_ai_visibility_tests]], §3).
 - A lender's guide cited in a Perplexity answer puts early estimates at 30–50% accuracy, preliminary budgets at 15–30%, and late estimates at about 5–15% ([multifamily.loans](https://www.multifamily.loans/apartment-finance-blog/hard-vs-soft-construction-costs-for-multifamily-developers/)).
 - California ADU cost pages quote about $300–$500+/SF, with detached ADUs often $225,000–$400,000+ (WebSearch summary of builder pages; builders have an interest in these numbers).
 - LA fire rebuild answer (S12): $400–$800+/SF from Bloomberg and local GCs.
@@ -712,11 +717,11 @@ A Perplexity search for r/Contractor threads about buying cabinets or windows di
 
 ## Related pages
 
-- [prompt-library.md](prompt-library.md) — all 282 prompts, with the Quotr page for each
-- [tracking-set.md](tracking-set.md) — the prompts tracked every month
-- [construction-glossary.md](construction-glossary.md) — plain-English definitions of the terms on this page
-- [../00-quotr/product-and-features.md](../00-quotr/product-and-features.md) — full product facts behind the "How Quotr maps" tables
-- [../00-quotr/audiences-and-personas.md](../00-quotr/audiences-and-personas.md) — persona profiles
-- [../03-market/competitor-landscape.md](../03-market/competitor-landscape.md) — who the named competitors are
-- [../03-market/white-space.md](../03-market/white-space.md) — where Quotr can win
-- [../02-current-state/website-audit.md](../02-current-state/website-audit.md) — state of the Quotr pages linked here
+- [[Prompt library]] — all 282 prompts, with the Quotr page for each
+- [[Tracking set]] — the prompts tracked every month
+- [[Construction glossary]] — plain-English definitions of the terms on this page
+- [[Products and features]] — full product facts behind the "How Quotr maps" tables
+- [[Audiences and personas]] — persona profiles
+- [[Competitor landscape]] — who the named competitors are
+- [[White space]] — where Quotr can win
+- [[Website audit]] — state of the Quotr pages linked here
