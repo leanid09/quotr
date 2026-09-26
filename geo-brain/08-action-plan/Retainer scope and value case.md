@@ -44,7 +44,7 @@ verify_every_days: 60
 | 9 | We found about **20 items** outside quotr.ai in 20 months. G2 reportedly has **0 reviews**. **0** independent "best of" lists name Quotr. The 3 outside lists that do are vendor or aggregator pages | AI relies on other people's sites to recommend a brand | W-02 in [[What went wrong]]; [[Off-site presence]]; [[KPIs and dashboard]] (L8) |
 | 10 | Search Console has shown per-page **AI Overview and AI Mode impressions** for every site since **2026-08-31** (data from 2026-05-18; impressions only). The **September 2026 spam update** began on 2026-09-24 and may run to about 2026-10-08 | For the first time, Google data shows which posts appear in its AI answers. Nobody outside Quotr has looked yet | [[Google search updates 2025-2026]] |
 
-**Fair context to say out loud:** the prices were right when most posts were written. Alternatives pages are Quotr's most-used format in unbranded AI answers. The shift toward the Estimation Service looks sound: 3 of its 12 posts were already used as sources. This is a finishing job, not a rebuild ([[What went wrong]], W-01, W-06, W-14).
+**Fair context to say out loud:** the prices were right when most posts were written. Alternatives pages and Service posts are the formats AI used most in unbranded answers: 2 of 5 alternatives posts were cited. The shift toward the Estimation Service looks sound: 3 of its 12 posts were already used as sources. This is a finishing job, not a rebuild ([[What went wrong]], W-01, W-06, W-14).
 
 ---
 
@@ -385,7 +385,7 @@ The project sizes are examples, not Quotr data. Both stay under 50,000 sq ft, so
 | AI tests covered one engine (Perplexity) on one day (2026-09-25) | ChatGPT, Google AI Mode and AI Overviews, Gemini, Claude and Copilot have no baseline yet |
 | Only about 6 posts were read in full | Many findings rest on search-index text, which can lag behind the live page |
 | Post dates come from the blog sitemap | 6 posts carry a bulk-reset date, so their real publish dates are unknown |
-| Some counts are ranges | Old price: about 13 posts confirmed, up to 16. AI-cited posts: 8 confirmed as cited in unbranded answers; 4 more were flagged in the data but were retrieved only or mis-flagged |
+| Some counts are ranges | Old price: about 13 posts confirmed, up to 16. AI-cited posts: 8 were cited in unbranded answers; 2 more were only retrieved ([[BP-51 stack alternative\|BP-51]], [[BP-62 ddp construction materials\|BP-62]]) |
 
 ---
 

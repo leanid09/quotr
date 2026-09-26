@@ -242,8 +242,8 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 - Rivals were often named when their own pages were cited: STACK 5 of 7 prompts, Buildxact 5 of 8, Easy Takeoffs 5 of 7, Beam AI 4 of 7, Kreo 3 of 5. Not always: Procore 3 of 8, Bluebeam 2 of 6. quotr.ai: 1 of 6.
 - 26 of the 45 unbranded tracked prompts have a matching Quotr post. A Quotr page was used in 9 of those 26 (35%), but Quotr was named in only 2 (8%). T12 is marked "Cited, not named" ([[Tracking set]]).
 - The facts that should carry the name also differ across pages: accuracy appears as 95-99% and 80-88% on scans, and Perplexity paraphrased it as 94-99% ([[Q-18 Accuracy|Q-18]]). Brand answers call the accuracy claims "self-published".
-- Post age does not explain it. Cited and uncited posts had median ages of 82.5 and 99.5 days (p=0.27, no real difference). The Service posts had a median age of about 34 days, and 3 of 12 were already used.
-- Data note: the blog statistics list 12 "cited" posts. The test notes show that [[BP-57 bluebeam alternative|BP-57]] and [[BP-17 how to do construction takeoff pdf blueprint|BP-17]] were not retrieved in their unbranded tests (V4, S8), so the true count is 10.
+- Post age does not explain it. Cited and uncited posts had median ages of 64.5 and 98.5 days (p=0.16, could be chance). The Service posts had a median age of about 34 days, and 3 of 12 were already used.
+- Data note: on 2026-09-26 the blog data was corrected to 8 cited posts.
 - OTHER-17: since May 2026, ChatGPT links named brands straight to their homepages. A named mention adds a direct route to the site.
 
 **Why it matters**
@@ -385,7 +385,7 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 - Quotr ranks itself first in the lists we could check: by a direct read on [[BP-43 best togal ai alternatives 2026|BP-43]], and through search summaries on [[BP-32 best togal ai alternatives|BP-32]] and [[BP-81 best planswift alternatives 2026|BP-81]]. The order in the other lists was not recorded.
 - The best-of lists underperformed. Of the 7 whose prompt was tested, none was retrieved, cited or named.
 - 5 of the 17 appear in brand answers (V2, B2, B3, B4, B7), where they spread the retired price. The other 12 were not seen in any test.
-- The alternatives posts did much better. They were Quotr's most-used format in unbranded answers, and [[BP-32 best togal ai alternatives|BP-32]] produced Quotr's only unbranded naming (V1).
+- The alternatives posts did much better. 2 of the 5 were cited, the highest share of any post group, and [[BP-32 best togal ai alternatives|BP-32]] produced Quotr's only unbranded naming (V1).
 - Context: from February 2026, practitioners reported Google losses for self-ranked "best X" lists. All 22 of these posts went live after that report.
 - Fair context: analysts dispute a targeted penalty, Google has not confirmed one, and competitors publish self-ranked lists too. Handoff's list led two answers, but Handoff also has press and review listings.
 - Only Perplexity was tested. Without Search Console data, a Google loss is a risk to manage, not a measured fact.
@@ -710,7 +710,7 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 **Impact:** medium · **Effort:** M · **Confidence:** medium
 
 **What happened**
-- Alternatives pages are the Quotr format AI uses most in unbranded answers. They were cited for 2 of the 4 tested alternatives prompts (V1, V3) and retrieved for a third (V10). That is a real win.
+- Alternatives pages and Service posts are the Quotr formats AI uses most in unbranded answers. The alternatives pages were cited for 2 of the 4 tested alternatives prompts (V1, V3) and retrieved for a third (V10). That is a real win.
 - The 8 head-to-head "Quotr vs X" posts were not used in the unbranded tests.
 - Engines mostly take facts about rivals from these pages and then recommend the rivals. That is how alternatives pages usually work, unless outside sources also vouch for the author (W-02).
 - Coverage is lopsided. Togal, the closest AI-takeoff rival, has three Quotr pages, two of them near-duplicates. Kreo, Buildxact and Handoff have none, although AI names them often.
@@ -988,7 +988,7 @@ Credit where it is due. Quotr's team did more deliberate GEO work, faster, than 
 - **The right writing format.** Answer-first blocks ("Quick Answer", "Short answer"), question headings, comparison tables, FAQs, "Honest Limitations" sections and visible "Last updated" dates. This is the format AI engines lift from.
 - **A site AI can read.** robots.txt blocks no AI crawler, and pages arrive as finished HTML. Perplexity cited at least 9 quotr.ai URLs in one answer.
 - **Transparent pricing.** The /pricing/ page lists every plan. Asked "Quotr.ai pricing" directly, Perplexity got it right. The price change was announced with a post the day it went live ([[BP-93 new pricing|BP-93]]).
-- **Pages that do get used.** The alternatives posts were Quotr's most-used unbranded format and produced its only unbranded naming (V1). A Service post was the first citation for C12 within weeks. The accuracy explainer ([[BP-12 is ai takeoff actually accurate yet|BP-12]]) was the first citation for P5, even though it was not in the web-search top 9.
+- **Pages that do get used.** The alternatives posts had the highest share of posts cited in unbranded answers (2 of 5) and produced Quotr's only unbranded naming (V1). A Service post was the first citation for C12 within weeks. The accuracy explainer ([[BP-12 is ai takeoff actually accurate yet|BP-12]]) was the first citation for P5, even though it was not in the web-search top 9.
 - **Early entity work.** /disambiguation/ answers "What is Quotr.ai?" correctly, and Perplexity cites it by name. Quotr also moved early on llms.txt.
 - **Real proof to build on.** Dated procurement results on /procurement/ (Saratoga: $97,000 against a $187K-$218K market price), the ROI calculator, 9 Service sample deliverables and named expert bylines (the CTO, a PhD).
 - **Real effort off the blog, and the right aim.** Six trade shows in 2026, a founder podcast and a Product Hunt launch. The team's stated focus on unbranded search terms is exactly where the gap is.
