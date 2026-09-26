@@ -126,6 +126,8 @@ Checked by searching the whole brain for each figure and its likely variants (fo
 
 **Since the Obsidian conversion (2026-09-25)** the links are Obsidian `[[links]]`, and the check is a script in the repository: `python3 .claude/scripts/vault_check.py`. It checks that every link points to a real note and heading, every embedded live table points to a real view, note names are unique, and properties are valid and complete. Result after the conversion: 610 notes (including the 6 export files) and 6 bases, **0 problems**. Obsidian itself also reported 0 unresolved links. Ask Claude to run it after any edit session.
 
+**After the blog health audit (2026-09-26):** 734 notes (including the 96 new article notes and 7 export files) and 7 bases, **0 problems**. In Obsidian 1.13.4, all 13 views of the new `Articles.base` rendered with the expected counts (for example 96 in All articles, 8 in Cited by AI, 13 in Old price still showing, 17 in Merge or retire).
+
 ---
 
 ## 6. TO CONFIRM with Quotr: the consolidated question list

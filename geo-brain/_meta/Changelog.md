@@ -25,18 +25,39 @@ last_verified: 2026-09-25
 
 ## Entries
 
-### 2026-09-26 — Blog health audit: structure added (work in progress)
+### 2026-09-26 — Blog health audit of all 96 Quotr blog posts (v1.2)
 
-**Type:** Structure
+**Type:** New pages / Structure
 **Changed by:** Claude (AI helper), at the GEO consultant's request
-**Checked by:** the vault check script (0 problems)
+**Checked by:** skeptic and second-opinion reviewers for every page and every health score; the vault check script (0 problems); a test in Obsidian 1.13.4 (all 13 new table views render with the expected counts)
 
 **What changed**
-- New record type **article**: one note per live Quotr blog post, in `02-current-state/articles`, with its health, recommended action and refresh status. Rules are in [[CLAUDE]].
-- New live table `Articles.base` (refresh queue, all articles, by month, by cluster, cited by AI, old price, merge or retire, and more) and a new note template (`Article`).
-- New properties in `.obsidian/types.json` (for example `published`, `byline`, `health`, `health_score`, `action`, `flags`). The vault check and the export script now know about articles.
-- Added so far: 96 article notes (one per blog post, with a health score and a refresh plan), [[What went wrong]], [[Google search updates 2025-2026]], [[Search Console audit playbook]], [[Content refresh playbook]], [[Publishing beyond the blog]], [[Competitor publishing benchmark]], [[Retainer scope and value case]], and open questions Q-49 to Q-60. [[Blog health audit]], [[Publishing patterns and correlations]] and [[Refresh plan Q4 2026]] are placeholders for now.
-- Some article notes still carry first-draft scores; a second-opinion review is running. This entry will be replaced by the full entry when the work lands.
+- New record type **article**: one note per live Quotr blog post (BP-01 to BP-96) in `02-current-state/articles`. Each note has a health score, the action to take (update, rewrite, merge or keep), a priority, a place in the refresh queue (`rank`) and step-by-step "What to do". Rules are in [[CLAUDE]].
+- Result: 53 posts poor, 42 fair, 1 good. Actions: 52 update, 21 rewrite, 17 merge, 6 keep. 36 posts are high priority.
+- New live table `Articles.base` with 13 views (refresh queue, full refresh plan, cited by AI, old price still showing, merge or retire, and more), a note template (`Article`) and new properties in `.obsidian/types.json`. The vault check and the export script know about articles; the plain-text copy is `_exports/Blog articles (export).md`.
+- New pages: [[Blog health audit]] (the hub), [[What went wrong]] (19 findings, W-01 to W-19), [[Publishing patterns and correlations]], [[Google search updates 2025-2026]], [[Search Console audit playbook]], [[Content refresh playbook]], [[Refresh plan Q4 2026]], [[Publishing beyond the blog]], [[Competitor publishing benchmark]] and [[Retainer scope and value case]] (internal draft).
+- New tasks [[A17 First Search Console audit of the 96 blog posts|A17]], [[A18 Refresh the top of the blog queue, October to December|A18]], [[B13 Finish the merges from the overlap map|B13]] and [[C11 Decide on 2026 in blog web addresses and titles|C11]]. New open questions [[Q-49 Search Console and Bing set-up|Q-49]] to [[Q-60 Re-check Google claims against official sources|Q-60]].
+- Every prompt note (and the Prompt template) now shows the Quotr blog posts written for that buyer question.
+- Home has a new "Blog posts to fix next" table. [[Start here]] has a reading path for the blog work and a new step in the monthly routine.
+- Correction made during the work: the first data flagged 12 posts as cited by AI. A re-check of the test notes found 8 cited for buyer questions that do not name Quotr (2 more were only retrieved, and 2 were not cited). The data, the refresh order and all pages were updated to 8.
+
+**Why**
+- The consultant asked for a full health check of the blog: publishing cadence and patterns, correlations, what went wrong, recent Google and Search Console changes, and which posts to refresh, how and in what order.
+
+**How sure we are**
+- quotr.ai could not be opened from this session (network block), so no page was re-read today. The evidence comes from the 2026-09-25 audit, the Perplexity tests (one engine) and web searches.
+- The web search allowance ran out: 36 of 96 posts were checked in web search, 60 were not ([[Q-59 Web search checks for 60 unchecked posts|Q-59]]).
+- The Google update claims were found by web search and not re-checked against Google's own pages ([[Q-60 Re-check Google claims against official sources|Q-60]]).
+- There is no Search Console data yet. Expect the order to change once [[A17 First Search Console audit of the 96 blog posts|A17]] is done.
+
+**Files affected**
+- New: `02-current-state/articles/` (96 notes), `02-current-state/Articles.base`, the ten pages above, 4 task notes, 12 question notes, `_meta/note-templates/Article.md`, `_exports/Blog articles (export).md`.
+- Changed: `Home.md`, [[Start here]], [[CLAUDE]], `.obsidian/types.json`, `.claude/scripts/vault_check.py` and `build_exports.py`, all 282 prompt notes and the Prompt template (one new table), [[Website audit]], [[Competitor profiles]], [[30-60-90 plan]], [[KPIs and dashboard]], [[QA log]].
+
+**TO CONFIRM items resolved or added**
+- None resolved. Added Q-49 to Q-60 (10 for Quotr, 2 for us to check).
+
+**Vault check:** 0 problems (`python3 .claude/scripts/vault_check.py`).
 
 ### 2026-09-25 — Brain turned into an Obsidian vault (v1.1)
 
