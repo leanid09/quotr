@@ -35,7 +35,8 @@ last_verified: 2026-09-25
 - New record type **article**: one note per live Quotr blog post, in `02-current-state/articles`, with its health, recommended action and refresh status. Rules are in [[CLAUDE]].
 - New live table `Articles.base` (refresh queue, all articles, by month, by cluster, cited by AI, old price, merge or retire, and more) and a new note template (`Article`).
 - New properties in `.obsidian/types.json` (for example `published`, `byline`, `health`, `health_score`, `action`, `flags`). The vault check and the export script now know about articles.
-- The article notes and the audit pages are being written now. This entry will be replaced by the full entry when they land.
+- Added so far: 96 article notes (one per blog post, with a health score and a refresh plan), [[What went wrong]], [[Google search updates 2025-2026]], [[Search Console audit playbook]], [[Content refresh playbook]], [[Publishing beyond the blog]], [[Competitor publishing benchmark]], [[Retainer scope and value case]], and open questions Q-49 to Q-60. [[Blog health audit]], [[Publishing patterns and correlations]] and [[Refresh plan Q4 2026]] are placeholders for now.
+- Some article notes still carry first-draft scores; a second-opinion review is running. This entry will be replaced by the full entry when the work lands.
 
 ### 2026-09-25 — Brain turned into an Obsidian vault (v1.1)
 
