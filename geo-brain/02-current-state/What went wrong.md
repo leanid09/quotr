@@ -240,7 +240,7 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 - 8 of 51 unbranded Perplexity runs cited a Quotr blog post, and 2 more retrieved one without using it. Quotr was named in 2: V1 (about 15th of 17 brands) and S6, a prompt that copies Quotr's own wording.
 - A Quotr post was the first citation, but Quotr was not named, in C12, P5 and N2. In C12 and P5 the answer named no brand at all.
 - Rivals were often named when their own pages were cited: STACK 5 of 7 prompts, Buildxact 5 of 8, Easy Takeoffs 5 of 7, Beam AI 4 of 7, Kreo 3 of 5. Not always: Procore 3 of 8, Bluebeam 2 of 6. quotr.ai: 1 of 6.
-- 26 of the 45 unbranded tracked prompts have a matching Quotr post. A Quotr page was used in 9 of those 26 (35%), but Quotr was named in only 2 (8%). T12 is marked "Cited, not named" ([[Tracking set]]).
+- 26 of the 45 unbranded tracked prompts have a matching Quotr post. A Quotr page was used or retrieved in 9 of those 26 (35%), but Quotr was named in only 2 (8%). This count includes T10 and 2 retrieved-only results; [[Publishing patterns and correlations#K-05 A matching post is a start, not a result|K-05]] counts 25 prompts and 8 with some presence. T12 is marked "Cited, not named" ([[Tracking set]]).
 - The facts that should carry the name also differ across pages: accuracy appears as 95-99% and 80-88% on scans, and Perplexity paraphrased it as 94-99% ([[Q-18 Accuracy|Q-18]]). Brand answers call the accuracy claims "self-published".
 - Post age does not explain it. Cited and uncited posts had median ages of 64.5 and 98.5 days (p=0.16, could be chance). The Service posts had a median age of about 34 days, and 3 of 12 were already used.
 - Data note: on 2026-09-26 the blog data was corrected to 8 cited posts.
@@ -626,7 +626,7 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 
 **Evidence**
 - Real-dated posts by month (90 posts): December 2025 1, March 1, April 6, May 22, June 25, July 17, August 11, September 7. May and June together are 47 of 90 (52%).
-- Average 5.4 posts a week from May 11 to July 13, against 2.33 from August 3 to September 28. Peak week 7 posts; 9 weeks with 5 or more (blog statistics §1-2).
+- Average 5.4 posts a week in the weeks ending May 11 to July 13, against 2.33 in the weeks ending August 3 to September 28 (the last post is dated September 24). Peak week 7 posts; 9 weeks with 5 or more (blog statistics §1-2).
 - 16 days had 2 or more posts (35 posts, 39%), with 3-post days on 2026-05-07, 2026-06-02 and 2026-07-07. Only 6 of the 22 same-day pairs were in the same cluster. That points to a queue of finished drafts; same-day publishing is not the harm in itself.
 - 2026-06-16 to 2026-07-15: 23 blog posts plus 55 dictionary terms, none updated since.
 - Brief notes in [[BP-15 quotr vs togal ai comparison 2026|BP-15]], read directly: a table row "Best buyer prompt" followed by a target prompt; "Quotr.ai should win when the buyer is asking: ..." followed by a list of prompts; "should be emphasized across electrical, HVAC"; "AI Search systems trust balanced pages more than hype pages"; "Quotr.ai should not compete only on software price"; and "should be positioned around the full workflow". Its "Best For" table contradicts its own conclusion ([[GEO tactics already used]] tactics 44-45).

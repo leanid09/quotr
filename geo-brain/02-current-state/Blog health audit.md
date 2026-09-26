@@ -69,7 +69,7 @@ The Refresh queue below shows the next 15 posts to work on. The order comes from
 | Order | Post | What to do | Why |
 |---|---|---|---|
 | 1 | [[BP-81 best planswift alternatives 2026\|BP-81]] | Update. Fix the PlanSwift price, drop the self-ranking and put "Quotr.ai" inside the fact sentences. | Perplexity reads it for PlanSwift facts (V3) but never names Quotr. |
-| 2 | [[BP-32 best togal ai alternatives\|BP-32]] | Rewrite as the one fair "Togal alternatives by use case" page. Keep its address. Take in [[BP-43 best togal ai alternatives 2026\|BP-43]] later. | It is behind V1, the only unbranded answer that named Quotr (low in the list). Tracked prompt T16. |
+| 2 | [[BP-32 best togal ai alternatives\|BP-32]] | Rewrite as the one fair "Togal alternatives by use case" page. Keep its address. Take in [[BP-43 best togal ai alternatives 2026\|BP-43]] later. | It is behind V1, the only core unbranded answer that named Quotr (low in the list). Tracked prompt T16. |
 | 3 | [[BP-59 how developers source building materials\|BP-59]] | Update. Fix the factory count first. Add the words buyers use. | Cited in S6 (T43). AI already repeats Quotr's conflicting factory counts. |
 | 4 | [[BP-12 is ai takeoff actually accurate yet\|BP-12]] | Update with small, careful edits. Add the Quotr name and a method for the figures. | Perplexity's first source for "how accurate is AI takeoff" (T30), without naming Quotr. |
 | 5 | [[BP-87 quantity takeoff services\|BP-87]] | Update. Add Quotr's own confirmed takeoff price, with the brand in the same sentence. | Cited in S9 (T44) for market price ranges. |
@@ -219,6 +219,7 @@ Quotr changed its prices on 2026-09-14: Quotr.ai Lite $79.90 per seat per month,
 The detail is in [[Publishing patterns and correlations]] and [[What went wrong]]. In short:
 
 - **Output grew faster than the editing check.** 47 of the 90 posts with real dates went out in May and June, up to 7 a week. Brief notes or lines written for bots reached at least 2 live posts ([[What went wrong#W-12 Output grew faster than the editing check|W-12]]).
+- **Output halved in mid-July.** About 5.6 posts a week from May to mid-July, about 2-3 a week since. Plan for about 10 a month ([[Publishing patterns and correlations#K-01 Output more than halved in mid-July and has stayed lower|K-01]]).
 - **Topics came in waves.** Best-of lists led June (10 of 25 posts), procurement led July, and Service posts led August and September. The Service wave produced several near-identical pages ([[What went wrong#W-06 The Service pivot was built as a dozen similar pages|W-06]]).
 - **Prices were typed into each post.** When the price changed, nothing updated them. All 16 confirmed or possible cases are list or comparison posts ([[What went wrong#W-01 Old prices still showing after the September price change|W-01]]).
 - **One buyer question often got a second page.** The two Togal lists went out 14 days apart ([[What went wrong#W-11 About 12 posts duplicate another Quotr page|W-11]]).
