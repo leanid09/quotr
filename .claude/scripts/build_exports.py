@@ -152,10 +152,34 @@ def export_questions():
             [[fm['id'], fm.get('question'), fm.get('ask'), fm.get('status'), fm.get('answer'), fm.get('answered_on')] for fm, b in rows]) + '\n')
     return [('Open questions (export).md', '\n'.join(parts))]
 
+def export_articles():
+    items = sorted(notes('geo-brain/02-current-state/articles', 'article'), key=lambda x: x[0]['id'])
+    if not items:
+        return []
+    parts = [header('Blog articles (export)', 'geo-brain/02-current-state/articles', 'Articles.base and the Blog health audit page')]
+    queue = sorted([x for x in items if x[0].get('status') in ('todo', 'doing')], key=lambda x: x[0].get('rank') or 999)
+    parts.append('## Refresh queue (in order)\n')
+    parts.append(table(['Order', 'ID', 'Post', 'Action', 'Merge into', 'Priority', 'Health', 'Flags', 'Status'],
+        [[fm.get('rank'), fm['id'], fm.get('quotr_url'), fm.get('action'), fm.get('merge_into'), fm.get('priority'),
+          f"{fm.get('health')} ({fm.get('health_score')})", fm.get('flags'), fm.get('status')] for fm, b in queue]) + '\n')
+    parts.append('## All articles, by publish date\n')
+    parts.append(table(['ID', 'Title', 'Published', 'Cluster', 'Format', 'Byline', 'Main buyer question', 'In web search', 'Cited by AI', 'Old price', 'Health', 'Action', 'Status'],
+        [[fm['id'], fm.get('title'), fm.get('published'), fm.get('cluster'), fm.get('format'), fm.get('byline'), fm.get('primary_query'),
+          fm.get('web_indexed'), {True: 'Yes', False: 'No'}.get(fm.get('ai_cited'), '—'), fm.get('old_pricing'),
+          f"{fm.get('health')} ({fm.get('health_score')})", fm.get('action'), fm.get('status')]
+         for fm, b in sorted(items, key=lambda x: (str(x[0].get('published')), x[0]['id']))]) + '\n')
+    parts.append('## What to do, per article\n')
+    for fm, b in queue:
+        todo = section(b, 'What to do')
+        todo = re.sub(r'\[\[([^\]|]*)\|([^\]]*)\]\]', r'\2', todo)
+        todo = re.sub(r'\[\[([^\]]*)\]\]', r'\1', todo)
+        parts.append(f"### {fm['id']} {fm.get('quotr_url')}\n\n{todo}\n")
+    return [('Blog articles (export).md', '\n'.join(parts))]
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     changed = 0
-    for fn in (export_prompts, export_tests, export_roadmap, export_tasks, export_questions):
+    for fn in (export_prompts, export_tests, export_roadmap, export_tasks, export_questions, export_articles):
         for name, text in fn():
             changed += write(name, text)
     print(f'Exports in geo-brain/_exports: {changed} file{"s" if changed != 1 else ""} updated')

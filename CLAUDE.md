@@ -24,8 +24,9 @@ This repository is an **Obsidian vault**: the Quotr.ai GEO knowledge brain. A no
 | Content piece | `geo-brain/05-content-strategy/roadmap/` | `roadmap-item` | `R-07 DDP vs FOB for building materials …` | `id`, `title`, `cluster`, `target_prompts` (links), `priority`, `month` (`YYYY-MM`), `status`, `owner` |
 | Task | `geo-brain/08-action-plan/tasks/` | `task` | `A1 Agree and sign off one fact sheet` | `id`, `task`, `phase`, `rank`, `owner`, `effort`, `impact`, `depends_on` (links), `status`, `done_when` |
 | Open question | `geo-brain/00-quotr/open-questions/` | `question` | `Q-01 Headquarters` | `id`, `question`, `topic`, `ask` (`Quotr` or `us`), `status`, `answer`, `answered_on` |
+| Blog article (health record for a live Quotr post) | `geo-brain/02-current-state/articles/` | `article` | `BP-45 quotr vs togal ai comparison 2026` | `id`, `title`, `quotr_url`, `published`, `cluster`, `format`, `byline`, `health`, `health_score`, `action`, `merge_into`, `priority`, `rank`, `status`, `flags` |
 
-Status values: tasks `todo`, `doing`, `blocked`, `done`, `dropped` · content `planned`, `writing`, `published`, `refreshed`, `dropped` · questions `open`, `answered`.
+Status values: tasks `todo`, `doing`, `blocked`, `done`, `dropped` · content `planned`, `writing`, `published`, `refreshed`, `dropped` · questions `open`, `answered` · articles `ok` (no work needed), `todo`, `doing`, `done`, `dropped`.
 
 Every other page (guides, plans, playbooks, profiles) has `type`, a one-line `description`, `last_verified` (the date someone last checked it against its sources) and `verify_every_days` (how often to re-check), plus optional `aliases`.
 

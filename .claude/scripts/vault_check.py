@@ -22,6 +22,7 @@ REQUIRED = {
     'roadmap-item': ['id', 'title', 'cluster', 'priority', 'status'],
     'task': ['id', 'task', 'phase', 'rank', 'status'],
     'question': ['id', 'question', 'topic', 'ask', 'status'],
+    'article': ['id', 'title', 'quotr_url', 'published', 'cluster', 'health', 'action', 'priority', 'status'],
 }
 PAGE_TYPES = {'overview', 'fact-sheet', 'guide', 'baseline', 'competitor', 'hub', 'plan', 'playbook',
               'page-template', 'reference', 'log'}
@@ -29,6 +30,7 @@ STATUS = {
     'task': {'todo', 'doing', 'blocked', 'done', 'dropped'},
     'roadmap-item': {'planned', 'writing', 'published', 'refreshed', 'dropped'},
     'question': {'open', 'answered'},
+    'article': {'ok', 'todo', 'doing', 'done', 'dropped'},
 }
 problems = []
 

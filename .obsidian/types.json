@@ -66,6 +66,21 @@
     "topic": "text",
     "ask": "text",
     "answer": "text",
-    "answered_on": "date"
+    "answered_on": "date",
+    "published": "date",
+    "date_note": "text",
+    "updated_shown": "text",
+    "byline": "text",
+    "primary_query": "text",
+    "web_indexed": "text",
+    "search_check": "text",
+    "ai_cited": "checkbox",
+    "cited_in": "multitext",
+    "old_pricing": "text",
+    "flags": "multitext",
+    "health": "text",
+    "health_score": "number",
+    "action": "text",
+    "merge_into": "text"
   }
 }

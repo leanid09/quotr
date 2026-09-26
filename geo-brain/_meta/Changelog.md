@@ -25,6 +25,18 @@ last_verified: 2026-09-25
 
 ## Entries
 
+### 2026-09-26 — Blog health audit: structure added (work in progress)
+
+**Type:** Structure
+**Changed by:** Claude (AI helper), at the GEO consultant's request
+**Checked by:** the vault check script (0 problems)
+
+**What changed**
+- New record type **article**: one note per live Quotr blog post, in `02-current-state/articles`, with its health, recommended action and refresh status. Rules are in [[CLAUDE]].
+- New live table `Articles.base` (refresh queue, all articles, by month, by cluster, cited by AI, old price, merge or retire, and more) and a new note template (`Article`).
+- New properties in `.obsidian/types.json` (for example `published`, `byline`, `health`, `health_score`, `action`, `flags`). The vault check and the export script now know about articles.
+- The article notes and the audit pages are being written now. This entry will be replaced by the full entry when they land.
+
 ### 2026-09-25 — Brain turned into an Obsidian vault (v1.1)
 
 **Type:** Structure
