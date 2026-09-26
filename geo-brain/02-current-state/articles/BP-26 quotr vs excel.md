@@ -34,7 +34,7 @@ health_score: 47
 action: update
 merge_into: ''
 priority: medium
-rank: 52
+rank: 49
 status: todo
 ---
 # BP-26. Quotr vs excel
@@ -76,7 +76,7 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## What to do
 
-**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 52
+**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 49
 
 1. Read the live page and record its title, byline, dates, prices and claims. In Search Console (once Q-49 gives access), pull index status, queries, impressions and linking pages for this URL and for quotr-vs-traditional-estimating. Request indexing if needed (A9). If the page has no answer-first block or comparison table, or is written for developers, treat this as a rewrite on the same URL.
 2. Reframe it for contractors. Answer 'Should I keep estimating in Excel or switch to estimating software?' in 40–80 words first. Then add an Excel vs Quotr.ai table: cost (Quotr.ai Lite $79.90 / Plus $299.90 per seat per month, 7-day free trial), takeoff from PDF plans, price database, handling plan revisions, formula-error risk, and sharing with the team.

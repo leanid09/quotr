@@ -29,17 +29,17 @@ flags:
 - not in web search
 - overlap
 health: poor
-health_score: 43
+health_score: 47
 action: rewrite
 merge_into: ''
 priority: medium
-rank: 43
+rank: 45
 status: todo
 ---
 # BP-04. How to price construction job
 
 > [!abstract] In one line
-> This is one of the oldest posts, and search did not return it. The how-to-bid post takes its queries, and eight rivals hold the unbranded query. Its slug says 'price' while its tracked prompt L-001 asks how to 'estimate step by step'. The map keeps it separate, so it needs its own angle.
+> This is one of the oldest posts, and search did not return it. The how-to-bid post takes its queries, and eight rivals hold the unbranded query. Its slug says 'price', while its prompt L-001 asks how to 'estimate step by step'. The map keeps it separate, so it needs its own angle.
 
 **Live page:** [How to price construction job](https://quotr.ai/blog/how-to-price-construction-job/) *(title taken from the web address; the live title was not captured)*  
 **Published:** 2026-04-16 · **Cluster:** Trade how-tos and fundamentals · **Format:** how-to guide · **Funnel:** TOFU
@@ -50,19 +50,19 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## Health check
 
-**Score: 43/100 (poor).** Each area is scored 0-5 using the rubric in [[Content refresh playbook]].
+**Score: 47/100 (poor).** Each area is scored 0-5 using the rubric in [[Content refresh playbook]].
 
 | Freshness | Accuracy | Trust | Structure | Visibility | Uniqueness |
 |---|---|---|---|---|---|
-| 3 | 3 | 2 | 2 | 1 | 2 |
+| 4 | 3 | 2 | 2 | 1 | 2 |
 
-- **Visibility:** The URL did not come back in 5 targeted searches. The site: search for 'how to price a construction job' surfaced the how-to-bid post and other Quotr posts instead. *(seen in search 2026-09-26)*
-- **Visibility:** The unbranded query 'How to Price a Construction Job' is held by Buildertrend, STACK, Miter, Connecteam, Knowify, Buildxact, Projul and the Association of Professional Builders. No Quotr result appeared. *(seen in search 2026-09-26)*
-- **Structure:** The vault maps it to L-001 ('how to estimate a construction job step by step', Med), but the slug says 'price'. The vault glossary also links 'Estimate' to this post. *(from vault prompt library)*
-- **Accuracy:** A Quotr-scoped search surfaced 'Contingency … 5% to 10% of the total project cost' and a total-estimate formula. The source page is unclear; it may be the how-to-bid post. The range has no known source. *(seen in search 2026-09-26)*
-- **Uniqueness:** The agreed G13 map keeps this post separate from the how-to-bid keeper. So it must cover the pricing method for any job, not repeat the commercial bid process. *(inferred)*
-- **Freshness:** Dated 2026-04-16, one of the two oldest posts. No year in the slug. Content unknown. *(from 2026-09-25 audit)*
-- **Trust:** The title and byline are unknown. The title used here was built from the slug. *(from 2026-09-25 audit)*
+- **Visibility:** The URL did not come back in 5 targeted searches. The site: search for 'how to price a construction job' surfaced the how-to-bid post and other Quotr posts instead. That was one pass, not repeated. *(seen in search 2026-09-26)*
+- **Visibility:** Buildertrend, STACK, Miter, Connecteam, Knowify, Buildxact, Projul and the Association of Professional Builders held the unbranded query 'How to Price a Construction Job'. No Quotr result appeared. The vault's L-001 note records only a YouTube step-by-step video. *(seen in search 2026-09-26; from vault prompt library)*
+- **Structure:** The vault maps the post to L-001 ('how to estimate a construction job step by step', Med, not tracked), but the slug says 'price'. The vault glossary also links 'Estimate' to this post. The content is unseen, so the score of 2 rests on this mismatch and is inferred. *(from vault prompt library; inferred)*
+- **Accuracy:** A Quotr-scoped search surfaced 'Contingency … 5% to 10% of the total project cost' and a total-estimate formula. The source page is unclear and may be the how-to-bid post. The range has no known source. *(seen in search 2026-09-26)*
+- **Uniqueness:** The agreed map does not merge this post; it stays separate from the how-to-bid keeper (G13). So it must cover how to price any job, and not repeat the commercial bid process. *(inferred)*
+- **Freshness:** The sitemap date is 2026-04-16, one of the two oldest posts, and it is a real date with no year in the slug. The on-page date and content are unseen, so no time-bound claims are known. *(from 2026-09-25 audit)*
+- **Trust:** The title and byline are unknown. The title used here was built from the slug. The low score comes from the site pattern and the possibly unsourced contingency range. *(from 2026-09-25 audit; inferred)*
 
 ## Search and AI visibility
 
@@ -73,15 +73,15 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## What to do
 
-**Action: Rewrite** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 43
+**Action: Rewrite** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 45
 
-1. Read the live page first. Record the title and byline, and check whether the '5% to 10% contingency' range and the total-estimate formula live here or on the bid post. If the page already has a solid step-by-step, cut this plan down to an update.
-2. Re-aim the page at L-001. Use the H1 'How to Estimate and Price a Construction Job, Step by Step'. Add a Quick answer of 7 steps: scope, takeoff, materials plus waste, labor (hours × rate), equipment and subs, overhead, then profit and contingency.
-3. Add a worked example on a small residential job, with a line-item table and the markup vs margin maths. Use a Quotr Service sample deliverable such as 'All Trade Takeoff (Residential)' if Quotr agrees. Link /dictionary/markup-vs-margin/ (being deepened in R-28).
+1. Read the live page first. Record the title and byline. Check whether the '5% to 10% contingency' range and the total-estimate formula are on this page or on the bid post. If the page already has a solid step-by-step, cut this plan down to an update.
+2. Re-aim the page at L-001 with the H1 'How to Estimate and Price a Construction Job, Step by Step'. Add a 7-step Quick answer: scope, takeoff, materials plus waste, labor (hours × rate), equipment and subs, overhead, then profit and contingency.
+3. Add a worked example on a small residential job, with a line-item table and the markup vs margin maths. If Quotr agrees, base it on the 'All Trade Takeoff (Residential)' sample deliverable. Link /dictionary/markup-vs-margin/, which R-28 is deepening.
 4. Give every percentage (contingency, overhead, markup) a named source, or label it a rule of thumb. Remove any figure that has neither.
-5. Keep it separate from the how-to-bid keeper (G13). Remove bid-process sections that duplicate that post (ITB, inclusions and exclusions, submission). Cross-link both ways with anchors 'how to bid commercial work as a sub' and 'how to price the job'.
-6. Add a short 'do it yourself, use software, or outsource' section with brand-attributed facts: Quotr.ai's cost database with average costs by US zip code, Quotr Service at $0.25 or $0.10 per sq ft, and Quotr.ai Lite at $79.90 per seat per month if a price is shown.
-7. Add a named estimator author (A7) and honest dates (A9). Request indexing, then re-check L-001 and GSC queries for this URL against the bid post 2-4 weeks later, using only data after 2026-04-27 (GSC-12).
+5. Keep it separate from the how-to-bid keeper (G13). Remove sections that repeat the bid process (ITB, inclusions and exclusions, submission). Cross-link both ways, with the anchors 'how to bid commercial work as a sub' and 'how to price the job'.
+6. Add a short 'do it yourself, use software, or outsource' section with brand-attributed facts from the fact sheet. Quotr.ai Lite costs $79.90 per seat per month. Quotr Service costs $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft above. Mention 'average costs by US zip code' only after Quotr confirms it (the fact sheet marks it TO CONFIRM).
+7. Add a named estimator author or reviewer (A7) and honest dates (A9), and run the A16 fact-check. Request indexing. After 2-4 weeks, re-check L-001 and compare GSC queries for this URL with the bid post, using only data after 2026-04-27 (GSC-12).
 
 **Add to the page:**
 - 7-step Quick answer for L-001
@@ -90,11 +90,11 @@ Not captured: the post did not come up in the web searches we could run. See the
 - Do it yourself / software / outsource section with brand-attributed Quotr facts
 
 **Title:** Change it to match the tracked prompt: 'How to Estimate and Price a Construction Job, Step by Step'. No year.  
-**Web address (URL):** Keep the URL. 'how-to-price-construction-job' still fits, has no year, and a new slug would throw away what little equity it has.
+**Web address (URL):** Keep the URL. 'how-to-price-construction-job' still fits and has no year, and a new slug would throw away what little equity it has.
 
 **Related tasks:** [[A7 Named author bylines and author pages|A7]], [[A9 Sitemaps and lastmod dates|A9]], [[A16 Add a human edit and fact-check step for AI-assisted drafts|A16]]
 
-**Why now:** It is the mapped page for L-001, but search does not return it and a sibling post takes its queries. A distinct, worked-example version gives Quotr a real answer to one of the most basic estimator questions.
+**Why now:** It is the mapped page for L-001, but search does not return it and a sibling post takes its queries. A distinct version with a worked example gives Quotr a real answer to one of the most basic estimator questions.
 
 ## Overlaps with other Quotr posts
 

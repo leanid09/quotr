@@ -30,7 +30,7 @@ health_score: 57
 action: keep
 merge_into: ''
 priority: low
-rank: 90
+rank: 92
 status: ok
 ---
 # BP-09. Re forge sf 2026 recap
@@ -55,12 +55,12 @@ Not captured: the post did not come up in the web searches we could run. See the
 |---|---|---|---|---|---|
 | 3 | 4 | 3 | 2 | 2 | 3 |
 
-- **Structure:** The event name 'RE:Forge' becomes 're-forge' in the slug. The organiser's official spelling is not recorded. The claim that 'reforge' searches may miss the page is untested. *(from 2026-09-25 audit (slug); search effect inferred)*
+- **Structure:** The event name 'RE:Forge' becomes 're-forge' in the slug. The vault does not record the organiser's official spelling. The idea that searches for 'reforge' may miss the page is untested. *(from 2026-09-25 audit (slug); the search effect and the structure score are inferred)*
 - **Freshness:** It is dated 2026-05-05, the middle post in a weekly Tuesday run of three recaps. The 2026 in the slug is accurate for a recap. *(from 2026-09-25 audit (Website audit 8.6 J))*
-- **Uniqueness:** It is the only Quotr post on this event. The vault groups it with real-estate developer audiences, and it is one of the sources for the 'Events attended' fact. *(from 2026-09-25 audit (Audiences and personas; Entity fact sheet))*
-- **Visibility:** The web index was not checked. It is not mapped to any prompt and no AI test cited it. *(from 2026-09-25 AI tests and vault prompt library (no match))*
+- **Uniqueness:** It is the only Quotr post on this event. The vault lists it as a place real-estate developers research, and it is one of the sources for the 'Events attended' fact. *(from 2026-09-25 audit (Audiences and personas; Entity fact sheet))*
+- **Visibility:** The web index was not checked. It is not mapped to any prompt, and no AI test cited it. *(from 2026-09-25 AI tests and vault prompt library (no match); web index not checked)*
 - **Accuracy:** No wrong facts are known. It was written before the Sep 14, 2026 pricing change. *(inferred)*
-- **Trust:** Nobody has seen the byline. It may be 'By quotr.ai'. *(inferred)*
+- **Trust:** The byline was not seen. It may say 'quotr.ai'. *(inferred)*
 
 ## Search and AI visibility
 
@@ -70,17 +70,17 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## What to do
 
-**Action: Keep** · **Priority:** low · **Effort:** S · **Order in the refresh queue:** 90
+**Action: Keep** · **Priority:** low · **Effort:** S · **Order in the refresh queue:** 92
 
-1. Do not rewrite it. Only include it in the site-wide sweeps: old-price search (A2), leftover-text and utm search (A6), named byline (A7) and true lastmod (A9).
-2. Use the organiser's official event name once in the title and first line. The vault writes 'RE:Forge SF 2026'; the official spelling is TO CONFIRM.
-3. The audience is developers, so add one link to /service/ or /procurement/ if the post has none. These are the site's developer paths.
+1. Do not rewrite it. Only include it in the site-wide sweeps: old prices (A2), leftover text and utm tags (A6), named byline (A7) and true lastmod (A9).
+2. During the sweep, use the organiser's official event name once in the title and first line. The vault writes 'RE:Forge SF 2026'; the official spelling is TO CONFIRM.
+3. The audience is developers. If the post has no link to /service/ or /procurement/, add one. The homepage 'For developers' path leads to /service/, and /procurement/ is aimed at developer and contractor teams.
 4. Do not re-date it. The year in the slug is correct for a recap.
 
 **Add to the page:**
 - One link to /service/ or /procurement/ for developers
 
-**Title:** Nobody has seen the current title. Keep it if it names the event and year in the organiser's spelling.  
+**Title:** Nobody has recorded the current title. Keep it if it names the event and the year in the organiser's spelling.  
 **Web address (URL):** Keep the URL. The year is accurate for a dated event, and a redirect would gain nothing.
 
 **Related tasks:** [[A2 Fact-fix sweep, part 1 - remove the old pricing everywhere|A2]], [[A6 Editorial sweep|A6]], [[A7 Named author bylines and author pages|A7]], [[A9 Sitemaps and lastmod dates|A9]]

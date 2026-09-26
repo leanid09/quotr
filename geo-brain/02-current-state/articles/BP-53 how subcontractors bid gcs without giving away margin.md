@@ -32,14 +32,14 @@ health_score: 53
 action: merge
 merge_into: '[[BP-28 how to bid commercial construction projects subcontractor estimating takeoff guide]]'
 priority: medium
-rank: 62
+rank: 61
 status: todo
 updated_shown: 2026-06-29 (from one search summary; matches the sitemap date)
 ---
 # BP-53. How subcontractors bid gcs without giving away margin
 
 > [!abstract] In one line
-> A margin-protection guide for subcontractors that search does not return. The broader how-to-bid guide shows up in its place, so fold this post into that guide.
+> A margin-protection guide for subcontractors that search does not return; the broader how-to-bid guide shows up in its place. Fold its new parts into that guide and redirect it.
 
 **Live page:** [How subcontractors bid gcs without giving away margin](https://quotr.ai/blog/how-subcontractors-bid-gcs-without-giving-away-margin/) *(title taken from the web address; the live title was not captured)*  
 **Published:** 2026-06-29 · **Cluster:** Trade how-tos and fundamentals · **Format:** how-to guide · **Funnel:** TOFU
@@ -56,15 +56,16 @@ How subcontractors win GC bids without giving away margin: scope leveling, prici
 |---|---|---|---|---|---|
 | 4 | 3 | 3 | 3 | 1 | 2 |
 
-- **Visibility:** The URL did not appear in 3 targeted searches (site: plus slug words, topic plus quotr.ai, the bare URL). The how-to-bid-commercial-construction-projects guide came back each time instead. These were one researcher's searches and were not re-run. *(seen in search 2026-09-26)*
-- **Visibility:** An exact search for the likely title 'How Subcontractors Win GC Bids Without Giving Away Margin' returned only rival pages: PalCode, Bidi Contracting, Billd, Mobilization Funding, myComply and PlanHub. *(seen in search 2026-09-26)*
-- **Visibility:** Its prompt L-012 is Medium priority, is not in the tracking set, and has never been tested in an AI engine. *(from vault prompt library)*
-- **Uniqueness:** It serves the same buyer (subs bidding to GCs) as the how-to-bid guide. The agreed overlap map (G13) merges it into that guide. This replaces the vault's earlier 'KEEP' in Optimize vs create. *(from 2026-09-25 audit)*
-- **Uniqueness:** An exact search for its '6-habit playbook' phrase returns Billd's 2026 National Subcontractor Market Report, not Quotr. The risk that AI engines credit the idea to Billd is an inference. *(seen in search 2026-09-26)*
-- **Trust:** One search summary shows a byline of Junzhe Shi (Co-Founder) and Xian Li (Cost Estimator). Xian Li appears nowhere in the vault. Confirm it on the page before relying on it. *(seen in search 2026-09-26)*
-- **Accuracy:** No wrong facts are known. Pricing on the page was not checked. The page title is not confirmed. *(from 2026-09-25 audit)*
-- **Freshness:** Real sitemap date of 2026-06-29 (not a bulk date). No year in the slug. The on-page date was not seen. *(from 2026-09-25 audit)*
-- **Structure:** The page was not seen. Its description suggests a list of habits (scope leveling, pricing to the market, alternates). Structure is scored neutral. *(inferred)*
+- **Visibility:** The URL did not appear in 3 targeted searches (site: plus slug words, topic plus quotr.ai, the bare URL). The how-to-bid-commercial-construction-projects guide came back each time instead. This was one pass by one researcher and was not re-run. *(seen in search 2026-09-26)*
+- **Visibility:** An exact search for the likely title 'How Subcontractors Win GC Bids Without Giving Away Margin' returned only rival pages: PalCode, Bidi Contracting, Billd, Mobilization Funding, myComply and PlanHub. The title itself is not confirmed on the page. *(seen in search 2026-09-26)*
+- **Visibility:** Its prompt L-012 is Medium priority, is not in the tracking set, and has never been tested in an AI engine. The guide's prompt L-013 is also Medium and untested. *(from vault prompt library)*
+- **Uniqueness:** It serves the same buyer as the how-to-bid guide (subcontractors bidding to GCs), and L-012 sits next to L-013 in the prompt library. The agreed overlap map (G13) merges it into the guide. That replaces the 'KEEP' both posts have in Optimize vs create. *(from vault prompt library)*
+- **Uniqueness:** The overlap is only partial. The guide already covers inclusions, exclusions, alternates, unit prices, and overhead and profit. This post's summary adds scope leveling and pricing to the market. *(seen in search 2026-09-26)*
+- **Uniqueness:** An exact search for its '6-habit playbook' phrase returns Billd's 2026 National Subcontractor Market Report, not Quotr. We do not know whether the post borrows Billd's framing, or whether AI engines would credit the idea to Billd. *(seen in search 2026-09-26)*
+- **Trust:** One search summary shows a byline of Junzhe Shi (Co-Founder) and Xian Li (Cost Estimator). Xian Li appears nowhere in the vault and is not one of the four authors planned in A7. Confirm the byline on the page before relying on it. *(seen in search 2026-09-26)*
+- **Accuracy:** No wrong facts are known, but nobody has checked the pricing on this page. The page title is not confirmed either. *(from 2026-09-25 audit)*
+- **Freshness:** The sitemap date is 2026-06-29, a real date and not a bulk reset. One search summary showed the same date. There is no year in the slug. *(from 2026-09-25 audit)*
+- **Structure:** The page was not seen. Its summary suggests a list of habits (scope leveling, pricing to the market, alternates). Structure is scored neutral. *(inferred)*
 
 ## Search and AI visibility
 
@@ -75,28 +76,29 @@ How subcontractors win GC bids without giving away margin: scope leveling, prici
 
 ## What to do
 
-**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 62
+**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 61
 
 **Merge into:** [[BP-28 how to bid commercial construction projects subcontractor estimating takeoff guide]]
 
-1. Before changing anything, save a Search Console baseline for both URLs (clicks, impressions, top queries, inbound links) and run URL Inspection on this one to see whether Google has indexed it at all.
-2. Check this post's text for retired Solo/Team pricing using the A2 search terms before copying any of it.
-3. In the how-to-bid guide, add a new H2 using L-012's wording, 'How do subcontractors bid GCs without giving away margin?'. Move in the parts the guide lacks: scope leveling, pricing to the market, and offering alternates instead of cutting the base price. Drop the '6-habit playbook' label so it no longer echoes Billd's report.
-4. If the Junzhe Shi / Xian Li byline is real, carry it onto the how-to-bid guide as author or estimator-reviewer (A7). Confirm Xian Li's name and role with Quotr first.
-5. 301-redirect [[BP-53 how subcontractors bid gcs without giving away margin|BP-53]] (/how-subcontractors-bid-gcs-without-giving-away-margin/) to the how-to-bid guide, remove it from the blog sitemap, and repoint every internal link that points to it (crawl the blog to find them).
-6. In the vault, point L-012's Quotr page at the how-to-bid guide and log the merge in the Changelog.
-7. Re-run L-012 and L-013 in Perplexity 2-4 weeks after the redirect.
+1. Before changing anything, read both live pages. Save a Search Console baseline for both URLs (clicks, impressions, top queries, linking pages). Run URL Inspection on this one to see whether Google has indexed it.
+2. Search this post's text for the A2 terms ('Solo', 'Team', '$499.90', 'from $299.90/month') before copying any of it. Any price you carry over must read Lite $79.90, Plus $299.90, Enterprise custom.
+3. In the how-to-bid guide, add one H2 in L-012's words: 'How do subcontractors bid GCs without giving away margin?'. Move in scope leveling and pricing to the market, which the guide lacks. The guide already has an alternates section, so only add the margin point there: offer an alternate instead of cutting the base price.
+4. Deal with the '6-habit playbook'. If the post borrows Billd's framing, credit Billd's 2026 report with a dated link. If it does not, drop the label so the advice reads as Quotr's own.
+5. If the Junzhe Shi / Xian Li byline is real, carry it onto the guide as author and estimator-reviewer. Confirm Xian Li's name and role with Quotr first, and add that person to the A7 author list.
+6. 301-redirect [[BP-53 how subcontractors bid gcs without giving away margin|BP-53]] (/how-subcontractors-bid-gcs-without-giving-away-margin/) to the guide. Remove it from the blog sitemap, and crawl the blog to repoint every internal link to it.
+7. In the vault, point L-012's Quotr page to the guide and log the merge in the Changelog. Re-run L-012 and L-013 in Perplexity 2-4 weeks after the redirect.
 
 **Add to the page:**
-- Margin H2 in the how-to-bid guide: scope leveling, pricing to the market, alternates instead of price cuts
-- A worked example showing a base bid with alternates versus a cut price, and the margin kept (use a real Quotr estimate only if Quotr agrees to share one)
+- A margin H2 in the how-to-bid guide covering scope leveling and pricing to the market
+- One line in the guide's alternates section: offer an alternate instead of cutting the base price
+- A worked example: a base bid with alternates versus a cut price, and the margin kept (use a real Quotr estimate only if Quotr agrees to share one)
 
-**Title:** Retire this title with the merge and reuse its question as an H2 in the how-to-bid guide. Separately, the guide's own title is 115 characters and gets cut off. Shorten it to about 60, for example 'How to Bid Commercial Work as a Subcontractor, Step by Step'.  
-**Web address (URL):** Do not keep the URL. 301 it to the how-to-bid guide after Google's September 2026 spam update finishes (about 2026-10-08). The slug has no year, so there is no other reason to change it.
+**Title:** Retire this title with the merge and reuse its question as an H2 in the how-to-bid guide. Separately, the guide's own title is 115 characters and gets cut off in results. Shorten it to about 60 characters, for example 'How to Bid Commercial Work as a Subcontractor, Step by Step' (59 characters).  
+**Web address (URL):** Do not keep the URL. 301 it to the how-to-bid guide after Google's September 2026 spam update finishes (about 2026-10-08). The slug has no year, so the merge is the only reason to change it.
 
-**Related tasks:** [[A12 Merge duplicate pages|A12]], [[A7 Named author bylines and author pages|A7]], [[A2 Fact-fix sweep, part 1 - remove the old pricing everywhere|A2]]
+**Related tasks:** [[A12 Merge duplicate pages|A12]], [[A2 Fact-fix sweep, part 1 - remove the old pricing everywhere|A2]], [[A7 Named author bylines and author pages|A7]]
 
-**Why now:** The broader guide already takes this post's place in search, so the two URLs split signals for one buyer question. The merge is cheap and fits A12 in October. Wait until Google's September 2026 spam update ends (it started 2026-09-24 and may run to about 2026-10-08; RANK-21, seen in search 2026-09-26, not re-checked) so any ranking change can be read cleanly.
+**Why now:** The broader guide already takes this post's place in search, so two URLs split signals for one buyer question. The merge is cheap and fits the A12 work in October. Wait until Google's September 2026 spam update ends so any ranking change can be read cleanly. The update started 2026-09-24 and may run to about 2026-10-08 (RANK-21, seen in search 2026-09-26, not re-checked).
 
 ## Overlaps with other Quotr posts
 

@@ -33,13 +33,13 @@ health_score: 50
 action: merge
 merge_into: '[[BP-45 what is ai construction estimating software]]'
 priority: medium
-rank: 57
+rank: 55
 status: todo
 ---
 # BP-11. How ai construction estimating works
 
 > [!abstract] In one line
-> One of four Quotr posts explaining the same mechanism. Search does not return it, so fold it into the 'what is' explainer and redirect it.
+> One of four Quotr posts that explain the same mechanism. Search does not return it, so fold it into the 'what is' explainer and redirect it.
 
 **Live page:** [How ai construction estimating works](https://quotr.ai/blog/how-ai-construction-estimating-works/) *(title taken from the web address; the live title was not captured)*  
 **Published:** 2026-05-07 · **Cluster:** AI explainers · **Format:** explainer · **Funnel:** TOFU
@@ -56,12 +56,12 @@ Not captured: the post did not come up in the web searches we could run. See the
 |---|---|---|---|---|---|
 | 4 | 3 | 3 | 3 | 1 | 1 |
 
-- **Visibility:** It was not returned in 4 targeted searches. For the bare URL, the search tool said the exact page does not appear. *(seen in search 2026-09-26)*
+- **Visibility:** It was not returned in 4 targeted searches. For the bare URL, the search tool said the exact page does not appear. This was one pass and was not re-run. *(seen in search 2026-09-26)*
 - **Visibility:** A search for its title in quotes returned 9 rival pages and no Quotr page: Buildxact, Document Crunch, ConstructConnect, Autodesk, McCormick, On Center, RSMeans, Dan Cumberland Labs and Bidi Contracting. *(seen in search 2026-09-26)*
-- **Visibility:** Its prompt L-038 has not been tested in any AI engine. *(from vault prompt library)*
+- **Visibility:** Its prompt L-038 is Medium priority, is not tracked, and has not been tested in any AI engine. *(from vault prompt library)*
 - **Uniqueness:** It explains the same mechanism as what-is-ai-construction-estimating-software, how-ai-construction-takeoff-works-in-2026 and the 'plans into prices' post. The agreed map (G09) and the vault's Optimize vs create both say to merge it into the 'what is' post. *(from 2026-09-25 audit)*
-- **Accuracy:** /software/ states the time claim as 'up to 80%, from around 20 hours to just 1-2'. That is really a 90-95% cut. If this post repeats the claim, it is wrong. Whether it does is unknown. *(from 2026-09-25 audit)*
-- **Freshness:** Sitemap date 2026-05-07, the oldest post in its cluster. No year in the URL. *(from 2026-09-25 audit)*
+- **Accuracy:** /software/ states the time claim as 'up to 80%, from around 20 hours to just 1-2'. That is really a 90-95% cut. If this post repeats the claim, it is wrong. We do not know whether it does. *(from 2026-09-25 audit)*
+- **Freshness:** The sitemap date is 2026-05-07, a real date. It shares that date with the accuracy post; only ai-construction-proposals-takeoff-to-proposal is older in this cluster. There is no year in the URL. *(from 2026-09-25 audit)*
 - **Structure:** The page was not seen, so trust and structure are scored neutral. *(inferred)*
 
 ## Search and AI visibility
@@ -73,25 +73,25 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## What to do
 
-**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 57
+**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 55
 
 **Merge into:** [[BP-45 what is ai construction estimating software]]
 
-1. Save a Search Console baseline (clicks, impressions, queries, inbound links) and run URL Inspection, since search did not return the page.
-2. Move its step-by-step explanation (computer vision reads the plans, detects symbols, measures, turns quantities into priced line items, then a human checks) into the 'How AI takeoff works, step by step' H2 of the keep post. Drop anything the keep post already says.
-3. Check for the '80% / 20 hours to 1-2' claim and do not carry it over (A3).
+1. Save a Search Console baseline (clicks, impressions, queries, linking pages) and run URL Inspection, since search did not return the page.
+2. Read the live page. Move any step the keep post lacks into its 'How AI takeoff works, step by step' H2. Summaries of other Quotr pages describe the mechanism: computer vision reads the plans, detects symbols, measures, prices the quantities, then a human checks. This post's own text was never seen, so do not assume it matches.
+3. Before copying any text, check it for the '80% / 20 hours to 1-2' claim (A3) and for retired Solo/Team prices (A2 terms). Carry neither over.
 4. Publish the 301 to [[BP-45 what is ai construction estimating software|BP-45]] (/what-is-ai-construction-estimating-software/) in the same release as the keep post's rewrite. Remove this URL from the blog sitemap and repoint internal links.
-5. In the vault, update L-038's Quotr page and log the merge in the Changelog.
+5. In the vault, change L-038's Quotr page to the keep URL and log the merge in the Changelog.
 
 **Add to the page:**
-- Its step-by-step mechanism, moved into the keep post's 'how it works' section
+- Any mechanism steps the keep post lacks, moved into its 'how it works' section
 
 **Title:** Retire the title with the merge. Its question becomes an H2 in the keep post: 'How does AI construction estimating work?'  
 **Web address (URL):** 301 it to what-is-ai-construction-estimating-software once that rewrite is live and Google's September 2026 spam update has ended (about 2026-10-08).
 
-**Related tasks:** [[A12 Merge duplicate pages|A12]], [[A3 Fact-fix sweep, part 2 - every other conflicting fact|A3]]
+**Related tasks:** [[A12 Merge duplicate pages|A12]], [[A3 Fact-fix sweep, part 2 - every other conflicting fact|A3]], [[A2 Fact-fix sweep, part 1 - remove the old pricing everywhere|A2]]
 
-**Why now:** The post adds a fourth competing URL for one question and does not show up in search on its own. Merging now, together with the keep post's rewrite, gives the site one clear answer before the next core update, which analysts expect soon (RANK-22).
+**Why now:** The post adds a fourth competing URL for one question and does not show up in search on its own. Merging it together with the keep post's rewrite gives the site one clear answer before the next core update, which analysts expect soon (RANK-22, seen in search 2026-09-26).
 
 ## Overlaps with other Quotr posts
 

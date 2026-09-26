@@ -30,8 +30,8 @@ flags:
 - cited by AI
 - overlap
 - year in title
-health: fair
-health_score: 73
+health: good
+health_score: 77
 action: update
 merge_into: ''
 priority: high
@@ -41,7 +41,7 @@ status: todo
 # BP-82. Outsource construction estimating
 
 > [!abstract] In one line
-> Quotr's best-performing service post: first citation in the tracked C12 answer and in search for the hire-or-outsource question. The brand never appears with its prices. Protect it, add the brand, and merge construction-estimating-services into it.
+> Quotr's best-performing service post: the first citation in the tracked C12 answer, and seen once in search for the hire-or-outsource question. Its prices appear without the brand. Protect it, add the brand, and merge construction-estimating-services into it.
 
 **Live page:** [Outsource construction estimating](https://quotr.ai/blog/outsource-construction-estimating/) *(title taken from the web address; the live title was not captured)*  
 **Published:** 2026-08-11 · **Cluster:** Estimating services · **Format:** service-style post · **Funnel:** BOFU
@@ -54,19 +54,20 @@ A post on outsourcing construction estimating, including price per sq ft. It was
 
 ## Health check
 
-**Score: 73/100 (fair).** Each area is scored 0-5 using the rubric in [[Content refresh playbook]].
+**Score: 77/100 (good).** Each area is scored 0-5 using the rubric in [[Content refresh playbook]].
 
 | Freshness | Accuracy | Trust | Structure | Visibility | Uniqueness |
 |---|---|---|---|---|---|
-| 3 | 4 | 3 | 4 | 5 | 3 |
+| 4 | 4 | 3 | 4 | 5 | 3 |
 
-- **Visibility:** It was Perplexity's first citation for E-073 (C12, tracked as T12, Tier A) on both runs and the re-run. The answer repeated its $0.25 and $0.10 per sq ft rates but credited them to 'one outsourced estimating service' and 'some firms'. *(from 2026-09-25 AI tests)*
-- **Visibility:** It came back for the exact 'outsourcing vs hiring an estimator' search, with the title 'Should You Outsource Construction Estimating? Costs, Pros & Cons (2026)'. *(seen in search 2026-09-26 (recorded during the outsourcing-vs-hiring-an-estimator check; not re-verified))*
-- **Trust:** Its snippet carried hire-vs-outsource figures: loaded estimator cost of $115k-$195k a year, outsourcing at $250-$2,500 per estimate, break-even at about 12-15 estimates a month, and hire in-house at 20+ a month. Their sources are not recorded. *(seen in search 2026-09-26 (not re-verified); whether they are sourced is unknown)*
-- **Accuracy:** The rates AI repeated ($0.25/sq ft under 50,000 sq ft; $0.10 above) match /pricing/. This post's own turnaround text was never captured, and Quotr pages give 5 different turnarounds. *(from 2026-09-25 audit)*
+- **Visibility:** It was Perplexity's first citation for E-073 (C12, tracked as T12, Tier A) on the original run and on the independent re-run the same day. The answer repeated its $0.25 and $0.10 per sq ft rates, but credited them to 'one outsourced estimating service' and 'some firms'. *(from 2026-09-25 AI tests)*
+- **Visibility:** It came back for the exact 'outsourcing vs hiring an estimator' search, titled 'Should You Outsource Construction Estimating? Costs, Pros & Cons (2026)'. *(seen in search 2026-09-26 (one pass recorded in the outsourcing-vs-hiring-an-estimator profile, not re-verified))*
+- **Trust:** Its snippet carried hire-vs-outsource figures: a loaded estimator cost of $115k-$195k a year, outsourcing at $250-$2,500 per estimate, break-even at about 12-15 estimates a month, and hiring in-house at 20+ a month. Their sources are not recorded. Its byline was never seen. *(seen in search 2026-09-26 (not re-verified); whether the figures are sourced is unknown)*
+- **Accuracy:** The rates AI repeated ($0.25/sq ft under 50,000 sq ft; $0.10 above) match /pricing/. The post's own turnaround text was never captured. One unnamed Quotr service post says 'Quotr's is 3-4 business days by design', while the homepage says 'as fast as 24 hours'. *(from 2026-09-25 audit (Entity fact sheet rows 72 and 195); from 2026-09-25 AI tests)*
 - **Accuracy:** Read literally, the price tiers make a 50,000 sq ft job cheaper than a 49,000 sq ft one ($5,000 vs $12,250). Any worked example needs Quotr to confirm whether $0.10 applies to the whole project or only to the area above 50,000 sq ft. *(inferred (from the /pricing/ rates in the Entity fact sheet))*
-- **Uniqueness:** It overlaps four posts: construction-estimating-services (agreed merge, G02); commercial-estimating-services (cited in the same C12 answer); outsourcing-vs-hiring-an-estimator (R-05 also targets its prompts L-018 and L-019); and quantity-takeoff-services (same $250-$2,500 range). *(from 2026-09-25 AI tests and audit; seen in search 2026-09-26)*
-- **Freshness:** Its sitemap date (2026-08-11) falls outside the newest posts whose dates matched the blog index, so it may not be the real publish date. The title seen in search carries '(2026)'. *(from 2026-09-25 audit; seen in search 2026-09-26)*
+- **Uniqueness:** It overlaps four posts. construction-estimating-services is an agreed merge (G02). commercial-estimating-services was cited in the same C12 answer. outsourcing-vs-hiring-an-estimator owns L-018 and L-019, which R-05 also targets; the map says read both posts before deciding. quantity-takeoff-services gives the same $250-$2,500 range. R-48 (February 2027) also plans to target E-073. *(from 2026-09-25 AI tests; from 2026-09-25 audit (roadmap R-05, R-48); seen in search 2026-09-26)*
+- **Freshness:** The title seen in search carries '(2026)'. The sitemap date (2026-08-11) was not checked against the blog index, because it falls outside the 12 newest posts. It is not a bulk-reset date. *(from 2026-09-25 audit; seen in search 2026-09-26)*
+- **Structure:** Perplexity took its rates first on two runs, and its snippet shows break-even maths. The page is probably laid out numbers-first. *(inferred; the page itself was not seen)*
 
 ## Search and AI visibility
 
@@ -79,13 +80,13 @@ A post on outsourcing construction estimating, including price per sq ft. It was
 
 **Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 11
 
-1. Do not rebuild the page from scratch, even though R-05 calls it a rebuild. Keep the price section and its table where they are, since they are what Perplexity quotes, and edit sentences in place.
-2. Rewrite the key price sentence and table row with the brand in them: 'Quotr.ai's Estimation Service charges $0.25 per sq ft for projects under 50,000 sq ft and $0.10 per sq ft for 50,000 sq ft and above (Quotr pricing page, September 2026).' Confirm how the 50,000 sq ft tier applies, then add one worked example.
-3. State one turnaround, taken from the approved fact sheet (A1/Q-15), and remove every other figure.
-4. Source the hire-vs-outsource numbers ($115k-$195k loaded cost; break-even at 12-15 estimates a month) with dated links, or show the maths. Keep them on this page, because this URL is what ranks for that search, and link to outsourcing-vs-hiring-an-estimator for the detailed cost model.
-5. Merge construction-estimating-services into this page (G02, R-05). Bring over any unique section, set a 301 redirect, update internal links and remove the old URL from the sitemap.
-6. Add a 'what you get' section with the 'All Trade Takeoff (Residential)' sample. Link to quantity-takeoff-services (takeoffs only), commercial-estimating-services (commercial work) and /pricing/. Add a named author.
-7. Request a re-crawl. 2-4 weeks later, re-run C12/T12 in Perplexity, ChatGPT and Google AI Mode. Success means the answer names Quotr.ai together with the rate.
+1. Before any edit, record the baseline: Search Console data for this URL and for construction-estimating-services, plus the T12 result from the A15 October baseline, run before the fixed pages are re-crawled.
+2. Edit sentences, not structure. Do not rebuild the page from scratch, even though R-05 calls it a rebuild. Keep the price section, and any price table, where they are.
+3. Rewrite the key price sentence and any table row with the brand in them: 'Quotr.ai's Estimation Service charges $0.25 per sq ft for projects under 50,000 sq ft and $0.10 per sq ft for 50,000 sq ft and above (Quotr pricing page, September 2026).' State one turnaround from A1 (Q-15) and remove every other figure. Add a worked example once Quotr confirms how the tier applies.
+4. Source the hire-vs-outsource numbers ($115k-$195k loaded cost; break-even at 12-15 estimates a month) with dated links, or show the maths. Read this post and outsourcing-vs-hiring-an-estimator side by side, and decide which one owns L-018 and L-019 (G02 'not yet'). The other post should link to the owner instead of repeating the maths, and R-05 should drop those prompts if the other post owns them.
+5. Merge construction-estimating-services into this page (G02, R-05, A12). Bring over any unique section, and use 'construction estimating services' wording in the intro and one H2. Set a 301 redirect, update internal links and remove the old URL from the sitemap.
+6. Add a 'what you get' section with the 'All Trade Takeoff (Residential)' sample. Link to quantity-takeoff-services (takeoffs only), commercial-estimating-services (commercial work) and /pricing/. Add a named author (A7). Ask the consultant to make R-48 link here rather than answer E-073 again.
+7. Request a re-crawl. 2-4 weeks later, re-run C12/T12 in Perplexity, ChatGPT and Google AI Mode as new test runs. Success means the answer names Quotr.ai together with the rate.
 
 **Add to the page:**
 - Price sentence and table row with the brand in them
@@ -95,12 +96,12 @@ A post on outsourcing construction estimating, including price per sq ft. It was
 - 'What you get' section with the sample deliverable
 - Unique sections carried over from construction-estimating-services
 
-**Title:** Keep the title seen in search on 2026-09-26, 'Should You Outsource Construction Estimating? Costs, Pros & Cons (2026)', rather than R-05's new working title, because this one ranks and is cited. Put price-per-sq-ft wording in the intro, not in a new title. Change the year only with real changes at the January 2027 review.  
-**Web address (URL):** Keep [[BP-82 outsource construction estimating|BP-82]] (/outsource-construction-estimating/). It has no year, it is cited and it ranks. It becomes the redirect target for construction-estimating-services.
+**Title:** Keep the title seen in search on 2026-09-26, 'Should You Outsource Construction Estimating? Costs, Pros & Cons (2026)', rather than R-05's new working title, because this one ranks and is cited. It was seen in only one pass, so confirm it on the live page. Put price-per-sq-ft and 'construction estimating services' wording in the intro, not in a new title. Change the year only with real changes at the January 2027 review.  
+**Web address (URL):** Keep [[BP-82 outsource construction estimating|BP-82]] (/outsource-construction-estimating/). It has no year, it is cited, and it was seen in search. It becomes the redirect target for construction-estimating-services.
 
 **Related tasks:** [[A8 Put the Quotr name inside key facts on the pages AI already reads|A8]], [[A12 Merge duplicate pages|A12]], [[A1 Agree and sign off one fact sheet|A1]], [[A3 Fact-fix sweep, part 2 - every other conflicting fact|A3]], [[A7 Named author bylines and author pages|A7]], [[A15 Measurement setup and multi-engine baseline|A15]]
 
-**Why now:** It is the first citation for a tracked Tier A prompt (T12), and R-05 schedules its rebuild for October 2026. A heavy rebuild could lose that citation, so change sentences, not structure.
+**Why now:** It is the first citation for a tracked Tier A prompt (T12), and R-05 schedules its rebuild for October 2026. A heavy rebuild could lose that citation, so change sentences, not structure. Task A8 names this page first.
 
 ## Overlaps with other Quotr posts
 

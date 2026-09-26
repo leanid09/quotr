@@ -32,7 +32,7 @@ flags:
 - cited by AI
 - overlap
 health: fair
-health_score: 60
+health_score: 57
 action: update
 merge_into: ''
 priority: high
@@ -42,7 +42,7 @@ status: todo
 # BP-59. How developers source building materials
 
 > [!abstract] In one line
-> The only post of these eight that AI cites (S6), but only for a prompt that echoes Quotr's own copy. Fix the factory wording and add buyer wording to protect the citation.
+> The only one of these eight posts that AI cites (S6, T43), but only for a prompt that echoes Quotr's own copy. Fix its factory count first, then add buyer wording to protect and widen the citation.
 
 **Live page:** [How developers source building materials](https://quotr.ai/blog/how-developers-source-building-materials/) *(title taken from the web address; the live title was not captured)*  
 **Published:** 2026-07-07 · **Cluster:** Procurement and sourcing · **Format:** explainer · **Funnel:** TOFU/MOFU
@@ -55,21 +55,23 @@ From vault notes, not new searches: Perplexity cited it on 2026-09-25. It covers
 
 ## Health check
 
-**Score: 60/100 (fair).** Each area is scored 0-5 using the rubric in [[Content refresh playbook]].
+**Score: 57/100 (fair).** Each area is scored 0-5 using the rubric in [[Content refresh playbook]].
 
 | Freshness | Accuracy | Trust | Structure | Visibility | Uniqueness |
 |---|---|---|---|---|---|
-| 4 | 2 | 2 | 4 | 3 | 3 |
+| 4 | 1 | 2 | 4 | 3 | 3 |
 
-- **Visibility:** Perplexity cited this post for E-083 (T43). Quotr was named 1st in the first run and 3rd of 6 on the re-run, behind Trillion Sources and Go Global. *(from 2026-09-25 AI tests (S6))*
-- **Visibility:** E-083 copies Quotr's own wording, so this result overstates visibility. With buyer wording Quotr did not appear. P8 (L-109, which also maps to this post) cited only sourcing agents and logistics firms. C14 used no Quotr source. C10 retrieved ddp-construction-materials, not this post. Scored 3, not 4, because of this. *(from 2026-09-25 AI tests (P8, C10, C14); all single runs)*
-- **Visibility:** Web search status is unknown; the post was not checked. Being cited by Perplexity shows that at least Perplexity has it indexed. *(no data: not checked in search on 2026-09-26)*
-- **Accuracy:** The audit lists this post for a P0 fact fix because of how it words the factory count. Quotr's pages variously say '50+ audited manufacturers', '220+ vetted factories' and '220+ factories, including 30+ audited'. The vault did not record the exact number this page shows. Perplexity already reports '50+ to 220+ factories, depending on the page'. *(from 2026-09-25 audit (Optimize vs create, Entity fact sheet, AI visibility baseline))*
-- **Accuracy:** 'Full quote in 3–5 days' is marked TO CONFIRM with Quotr. It matches the 'about 3–5 business days' wording on other pages, so it is unconfirmed rather than conflicting. *(from 2026-09-25 audit (Products and features))*
-- **Uniqueness:** Perplexity filed Quotr under 'China factory-direct, project sourcing' and said it emphasises sourcing more than AI takeoff. The post does not seem to connect the takeoff to the purchase, which is Quotr's actual difference. *(from 2026-09-25 AI tests (S6); inferred for the post content)*
-- **Uniqueness:** Overlap group G16 keeps this post separate from the CBD Fair post (the China-sourcing keeper) and from ddp-construction-materials. But the vault also points L-109 at this post while planning a new import guide (R-09), which would create a second page for the same question. *(from vault prompt library (L-109) and the agreed overlap map)*
-- **Structure:** Perplexity lifted three short facts from it: Foshan/Guangdong sourcing, one all-in price, and a quote in 3–5 days. That suggests the sentences are easy to quote. Headings and tables were not seen. *(from 2026-09-25 AI tests; inferred)*
-- **Trust:** The byline was not seen. It may be 'By quotr.ai', like many posts on the blog. *(inferred from 2026-09-25 audit (task A7))*
+- **Visibility:** Perplexity cited this post for E-083 (T43, Tier B, High). Quotr was named 1st in the first run and 3rd of 6 on the re-run, behind Trillion Sources and Go Global Inc. *(from 2026-09-25 AI tests (S6))*
+- **Visibility:** E-083 copies Quotr's own wording ('with AI takeoff and procurement'), so this result overstates visibility. Its other prompt, L-109 (T33, Tier A), was absent in P8, where only sourcing agents and logistics firms were cited. Buyer-worded procurement prompts owned by /procurement/ were also negative: C14 used no Quotr source, and C10 retrieved ddp-construction-materials, not this post. Scored 3. *(from 2026-09-25 AI tests (P8, C10, C14; single runs); prompt owners from vault prompt library)*
+- **Visibility:** Web search status is unknown. The S6 citation shows the post is at least in Perplexity's index. *(not checked in search on 2026-09-26 (search limit reached); from 2026-09-25 AI tests (S6))*
+- **Accuracy:** The audit flags this post's factory-count wording for a P0 fix. Quotr's pages say '50+ audited manufacturers', '220+ vetted factories' or '220+ factories, including 30+ audited', so any count on this page conflicts with another Quotr page. The exact number on this page was not recorded. Scored 1, as the rubric sets for conflicting Quotr facts (the draft gave 2). *(from 2026-09-25 audit (Optimize vs create, Entity fact sheet factory network row))*
+- **Accuracy:** Perplexity already says Quotr 'claims access to 50+ to 220+ factories, depending on the page', so the conflict is being repeated in AI answers. *(from 2026-09-25 AI tests (as recorded in task A1))*
+- **Accuracy:** 'Full quote in 3–5 days' is TO CONFIRM with Quotr. It matches the 'about 3–5 business days' wording on other pages, so it is unconfirmed, not conflicting. *(from 2026-09-25 audit (Products and features))*
+- **Uniqueness:** Perplexity filed Quotr under 'China factory-direct, project sourcing' and said it stresses sourcing more than AI takeoff. The post does not seem to link the takeoff to the purchase, which is Quotr's real difference. *(from 2026-09-25 AI tests (S6); page content inferred)*
+- **Uniqueness:** Overlap group G16 keeps this post separate: its question is where developers can buy factory-direct (E-083). The CBD Fair post is the China-sourcing keeper. The map moves L-109 from this post to the import guide (R-09), which the roadmap still plans as a new page. *(agreed overlap map (G16); from vault prompt library (L-109) and 2026-09-25 audit (roadmap R-09))*
+- **Structure:** Perplexity lifted three short facts from it: Foshan/Guangdong sourcing, one all-in price, and a full quote in 3–5 days. That suggests short, quotable sentences. Headings, tables and FAQ were not seen. Scored 4 on this indirect evidence. *(from 2026-09-25 AI tests (competitor benchmark note); headings inferred)*
+- **Trust:** The byline was not seen. It may be 'By quotr.ai', like 5 of the 12 newest posts. *(inferred from 2026-09-25 audit (task A7))*
+- **Freshness:** No year in the slug. The sitemap date is 2026-07-07. *(from 2026-09-25 audit (blog sitemap))*
 
 ## Search and AI visibility
 
@@ -82,26 +84,26 @@ From vault notes, not new searches: Perplexity cited it on 2026-09-25. It covers
 
 **Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 6
 
-1. Replace every factory count on the page with the single sentence A1 approves, for example 'a network of [N] factories in China, of which [N] are audited manufacturers in Foshan and Guangdong'. Until A1 decides, remove the number.
-2. Keep 'full quote in 3–5 days' only if Quotr confirms it. Write it with the brand in the sentence: 'Quotr.ai typically sends a full quote in about 3–5 business days' (A8).
-3. Add a short answer block in plain buyer wording for E-083 and C14-style questions ('where can developers buy cabinets, windows and flooring factory-direct'). Name each route fairly (sourcing agent, Alibaba, trade fairs, managed procurement such as Quotr.ai) with one line on who it suits.
-4. Add a short 'From takeoff to factory order' section. Explain that Quotr Software's takeoff produces the material list and Quotr Procurement quotes it at one DDP price. Link /software/ and takeoff-to-buyout-construction-estimating-procurement-platform. This answers Perplexity's 'sourcing more than AI takeoff' reading.
-5. Add the three /procurement/ project prices, each introduced as 'Quotr reports…', once the '~$0 saved' bug is fixed (A6).
-6. Keep this page on the developer's buying route (E-083). Send step-by-step import questions (L-109) to the G16 keeper, the CBD Fair post rebuilt as R-09, and pricing terms to ddp-construction-materials. Link both pages and change L-109's page in the prompt library.
-7. Give the post a named author (A7) and a visible 'Updated' note. Request a re-crawl, then re-run S6/T43 and P8/T33 2–4 weeks later (B3).
+1. Protect the citation. Keep the URL, and keep the three facts Perplexity lifted near the top in short sentences. Change only what A1 corrects. Put the brand in each sentence, for example 'Quotr.ai sources from manufacturers in Foshan and Guangdong'. Add this page to A8's list, because AI already reads it.
+2. Replace every factory count with the one sentence A1 approves, for example 'a network of [N] factories in China, of which [N] are audited manufacturers in Foshan and Guangdong'. Until A1 decides, remove the number. Keep 'full quote in 3–5 days' only if Quotr confirms it, written as 'Quotr.ai typically sends a full quote in about 3–5 business days'.
+3. Add a short answer block in buyer wording for E-083, without Quotr's phrasing: 'Where can home builders and multifamily developers buy building materials factory-direct?' Name the routes fairly (sourcing agents, marketplaces such as Alibaba, trade fairs, managed procurement such as Quotr Procurement), with one line on who each suits. Link /procurement/ for the category questions it owns (E-081, E-082) instead of answering them here.
+4. Add a short 'From takeoff to factory order' section. Say that Quotr Software's takeoff produces the material list, that Quotr Procurement quotes it at one DDP price, and that the Plus plan includes 10% off procurement (fact sheet, High). Link /software/ and takeoff-to-buyout-construction-estimating-procurement-platform. Link R-08 when it is live, rather than repeating its full workflow.
+5. Add the three /procurement/ project prices, each introduced as 'Quotr reports…', once the 'Client saved ~$0' cards are fixed (A6).
+6. Hand L-109 to the G16 keeper. Link the CBD Fair post (rebuilt as R-09) for step-by-step importing and ddp-construction-materials for DDP terms. Change L-109's page in the prompt library at the same time.
+7. Name an author (A7) and request a re-crawl. Re-run T43 in the November test (B3). Add a buyer-worded version of E-083 as a supplementary prompt, so the citation is measured on buyer wording rather than Quotr's.
 
 **Add to the page:**
-- One approved sentence on the factory network
-- Buyer-worded answer block naming the buying routes
-- 'From takeoff to factory order' section
-- Project prices from /procurement/ with the brand in the sentence
+- One approved sentence on the factory network, with the brand in it
+- Buyer-worded answer block naming the buying routes fairly
+- 'From takeoff to factory order' section linking Software and Procurement
+- Project prices from /procurement/, each as 'Quotr reports'
 
-**Title:** The live title was not seen. Use buyer wording and no year, for example 'How developers buy building materials factory-direct from China (Foshan and Guangdong)'.  
-**Web address (URL):** Keep the URL. It has no year and Perplexity already cites it; a redirect would put that citation at risk.
+**Title:** The live title was not seen. If it does not already, use buyer wording and no year, for example 'How home builders and developers buy building materials factory-direct from China (Foshan and Guangdong)'. Keep the cited facts in the opening paragraph when retitling.  
+**Web address (URL):** Keep the URL. It has no year, and Perplexity already cites it; a redirect would put that citation at risk.
 
-**Related tasks:** [[A1 Agree and sign off one fact sheet|A1]], [[A3 Fact-fix sweep, part 2 - every other conflicting fact|A3]], [[A6 Editorial sweep|A6]], [[A7 Named author bylines and author pages|A7]], [[A8 Put the Quotr name inside key facts on the pages AI already reads|A8]], [[B8 Procurement and tariff decision guides|B8]], [[B3 Second monthly AI test; set engine-specific targets|B3]]
+**Related tasks:** [[A1 Agree and sign off one fact sheet|A1]], [[A3 Fact-fix sweep, part 2 - every other conflicting fact|A3]], [[A6 Editorial sweep|A6]], [[A7 Named author bylines and author pages|A7]], [[A8 Put the Quotr name inside key facts on the pages AI already reads|A8]], [[B3 Second monthly AI test; set engine-specific targets|B3]], [[B8 Procurement and tariff decision guides|B8]]
 
-**Why now:** This is the only post of the eight that an AI engine cites, and Perplexity already repeats Quotr's conflicting factory counts. Fixing it in the October fact sweep protects the citation before the next monthly test.
+**Why now:** It is the only one of these eight posts that AI cites, and Perplexity already repeats Quotr's conflicting factory counts. Fix it in the October P0 fact sweep, before the November test re-reads it.
 
 ## Overlaps with other Quotr posts
 

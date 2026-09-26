@@ -33,13 +33,13 @@ health_score: 53
 action: rewrite
 merge_into: ''
 priority: medium
-rank: 60
+rank: 59
 status: todo
 ---
 # BP-45. What is ai construction estimating software
 
 > [!abstract] In one line
-> The chosen home for 'what is AI estimating and how does AI takeoff work', but search returns other Quotr pages instead. Rebuild it so it absorbs its two sibling posts.
+> The chosen home for 'what is AI estimating and how does AI takeoff work', but search returns other Quotr pages instead. Rebuild it so it can absorb its two sibling posts.
 
 **Live page:** [What is ai construction estimating software](https://quotr.ai/blog/what-is-ai-construction-estimating-software/) *(title taken from the web address; the live title was not captured)*  
 **Published:** 2026-06-17 · **Cluster:** AI explainers · **Format:** explainer · **Funnel:** TOFU
@@ -56,13 +56,14 @@ Not captured: the post did not come up in the web searches we could run. See the
 |---|---|---|---|---|---|
 | 4 | 3 | 3 | 3 | 1 | 2 |
 
-- **Visibility:** It was not returned in 5 targeted searches. For its own title query, other Quotr pages came back instead: the buyer's guide, the 'plans into prices' post, the 2026 round-up, /software and construction-estimating-services. *(seen in search 2026-09-26)*
-- **Visibility:** L-034 has never been tested in an AI engine. *(from vault prompt library)*
-- **Uniqueness:** At least four Quotr posts explain the same mechanism. The agreed map (G09) makes this post the keeper and merges how-ai-construction-estimating-works and how-ai-construction-takeoff-works-in-2026 into it. *(from 2026-09-25 audit)*
+- **Visibility:** It was not returned in 5 targeted searches. For its own title query, other Quotr pages came back instead: the buyer's guide, the 'turns PDF plans into quotes' post, the 2026 round-up, /software and construction-estimating-services. This was one pass and was not re-run. *(seen in search 2026-09-26)*
+- **Visibility:** L-034 is Medium priority, is not tracked, and has never been tested in an AI engine. *(from vault prompt library)*
+- **Uniqueness:** At least four Quotr posts explain the same mechanism. The agreed map (G09) makes this post the keeper and merges how-ai-construction-estimating-works and how-ai-construction-takeoff-works-in-2026 into it. The accuracy post stays separate. *(from 2026-09-25 audit)*
+- **Uniqueness:** /dictionary/ai-takeoff/ also defines the topic and shows up in web search. It should stay a short definition that links to this post. *(from 2026-09-25 AI tests)*
 - **Uniqueness:** A generic 'what is AI estimating' page is commodity content unless it shows something only Quotr has. Google's May 2026 guide stresses 'valuable, unique, non-commodity content' (QUALITY-06, carried over from the vault research). Applying that to this post is an inference. *(inferred)*
-- **Accuracy:** Other Quotr pages use these figures on this topic: '95-99%' on vector PDFs, '80-88%' on scans, '6-8 hours to under 30 minutes' and 'roughly 300%' capacity. It is unknown whether this post repeats them. Only the first two appear in the vault, and even those are not approved (Q-18 is open). *(seen in search 2026-09-26)*
-- **Accuracy:** Search summaries for this title described Quotr as 'based in San Francisco'. The HQ city is TO CONFIRM. *(seen in search 2026-09-26)*
-- **Freshness:** Real sitemap date of 2026-06-17. No year in the URL. The on-page date was not seen. *(from 2026-09-25 audit)*
+- **Accuracy:** Other Quotr pages use these figures on this topic: '95-99%' on vector PDFs, '80-88%' on scans, '6-8 hours to under 30 minutes' and 'roughly 300%' capacity. We do not know whether this post repeats them. Only the first two appear in the vault, and even those are not approved (Q-18 is open). *(seen in search 2026-09-26)*
+- **Accuracy:** Search summaries for this title's query described Quotr as 'based in San Francisco'. We do not know whether that line is on this post. The HQ city is TO CONFIRM (Q-01). *(seen in search 2026-09-26)*
+- **Freshness:** The sitemap date is 2026-06-17, a real date. There is no year in the URL. The on-page date was not seen. *(from 2026-09-25 audit)*
 - **Trust:** The title, byline and layout were not seen, so trust and structure are scored neutral. *(inferred)*
 
 ## Search and AI visibility
@@ -74,29 +75,29 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## What to do
 
-**Action: Rewrite** · **Priority:** medium · **Effort:** L · **Order in the refresh queue:** 60
+**Action: Rewrite** · **Priority:** medium · **Effort:** L · **Order in the refresh queue:** 59
 
-1. Save a Search Console baseline for all three G09 URLs (this one, how-ai-construction-estimating-works and how-ai-construction-takeoff-works-in-2026). Run URL Inspection on each and confirm this URL is indexable.
-2. Rebuild the page around two questions: L-034 'what is AI construction estimating software' and L-038 'how does AI construction takeoff work'. Open with a 40-80 word answer. Then add these H2s: 'What it is', 'How AI takeoff works, step by step' (upload plans, set scale, detect symbols and areas, get quantities, price them, human check), 'AI vs manual estimating' as a table, and 'Where a human still has to check'.
-3. Add one example only Quotr can show: a screenshot of a Quotr.ai takeoff where each count links back to its sheet. Add the RL Electric quote ('20 hours ... 1-2 hours') and label it clearly as a customer quote.
-4. Do not restate accuracy percentages here. Link to is-ai-takeoff-actually-accurate-yet so the approved figure (Q-18) lives in one place. Do not reuse the /software/ line 'up to 80%, from 20 hours to 1-2': the maths is wrong (A3).
-5. Keep this page definitional. Send readers who want a tool list to best-ai-construction-estimating-software-2026 and the buyer's guide, so this page stops competing with them.
-6. Name an expert author (Junzhe Shi, PhD suits a technical explainer) with a link to his author page (A7).
-7. Once the rewrite is live, 301 the two merged URLs here and repoint internal links. For example, fix the 'What Is AI Construction Estimating Software?' anchor reported on best-concrete-estimating-software-2026, after confirming it exists.
+1. Save a Search Console baseline for all three G09 URLs: this one, how-ai-construction-estimating-works and how-ai-construction-takeoff-works-in-2026. Run URL Inspection on each and confirm this URL is indexable. G09 makes the -2026 merge conditional: if that post earns 'how AI takeoff works' impressions, flag it before redirecting.
+2. Rebuild the page around two questions: L-034 'what is AI construction estimating software' and L-038 'how does AI construction takeoff work'. Open with a 40-80 word answer. Then add these H2s: 'What it is'; 'How AI takeoff works, step by step' (upload plans, set scale, detect symbols and areas, get quantities, price them, human check); 'AI vs manual estimating' as a table; and 'Where a human still has to check'.
+3. Add one example only Quotr can show: a screenshot of a Quotr.ai takeoff where each count links back to its sheet. Add the RL Electric homepage quote ('20 hours ... 1-2 hours', Maricruz, RL Electric), labelled as a customer quote. The fact sheet allows that use.
+4. Do not restate accuracy percentages here; link to is-ai-takeoff-actually-accurate-yet so the approved figure (Q-18) lives in one place. Do not reuse the /software/ line 'up to 80%, from 20 hours to 1-2', because the maths is wrong (A3). If the page shows prices, check them against the A2 terms and use Lite $79.90, Plus $299.90, Enterprise custom.
+5. Keep this page definitional. Send readers who want a tool list to best-ai-construction-estimating-software-2026 and the buyer's guide, so this page stops competing with them. Make /dictionary/ai-takeoff/ link here.
+6. Name an expert author with a link to his author page (A7). Junzhe Shi, PhD suits a technical explainer.
+7. Once the rewrite is live, 301 the two merged URLs here. Repoint internal links that target them. The link reported on best-concrete-estimating-software-2026 already points here, so leave it. In the vault, change L-038's Quotr page to this URL.
 
 **Add to the page:**
-- A step-by-step 'how AI takeoff works' section merged from the two sibling posts
+- A step-by-step 'how AI takeoff works' section, merged from the two sibling posts
 - An AI vs manual estimating table
 - A screenshot of a Quotr.ai takeoff with counts linked to their sheets
-- The RL Electric customer quote, labelled as a customer quote
+- The RL Electric homepage quote, labelled as a customer quote
 - A link to the accuracy post in place of repeated percentages
 
-**Title:** Keep the question form and add the takeoff question. Suggested: 'What Is AI Construction Estimating Software? How AI Takeoff Works' (about 62 characters). No year.  
+**Title:** Keep the question form and add the takeoff question. Suggested: 'What Is AI Construction Estimating Software? How AI Takeoff Works' (65 characters, so the end may be cut off in results). No year. The current title was not seen; one summary suggests 'What Is AI Construction Estimating Software?'.  
 **Web address (URL):** Keep the URL. It has no year and matches L-034.
 
-**Related tasks:** [[A12 Merge duplicate pages|A12]], [[A7 Named author bylines and author pages|A7]], [[A3 Fact-fix sweep, part 2 - every other conflicting fact|A3]], [[A16 Add a human edit and fact-check step for AI-assisted drafts|A16]]
+**Related tasks:** [[A12 Merge duplicate pages|A12]], [[A7 Named author bylines and author pages|A7]], [[A3 Fact-fix sweep, part 2 - every other conflicting fact|A3]], [[A2 Fact-fix sweep, part 1 - remove the old pricing everywhere|A2]], [[A16 Add a human edit and fact-check step for AI-assisted drafts|A16]]
 
-**Why now:** Four posts on one mechanism split signals, and search already prefers other Quotr pages for this query. Google's guidance warns against separate pages for every variant of a question (INDEX-06, carried over from the vault research). Posts published after 2026-06-02 have not yet been through a core update, and analysts expect one soon (RANK-22). Rewrite in October-November and redirect the siblings after the September spam update ends.
+**Why now:** Four posts on one mechanism split signals, and search already prefers other Quotr pages for this query. Google's guidance warns against separate pages for every variant of a question (INDEX-06, carried over from the vault research). Posts published after 2026-06-02 have not yet been through a core update, and analysts expect one soon (RANK-22, seen in search 2026-09-26). Rewrite in October-November. Redirect the siblings after the September spam update ends.
 
 ## Overlaps with other Quotr posts
 

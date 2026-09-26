@@ -34,16 +34,16 @@ flags:
 - year in title
 health: poor
 health_score: 40
-action: rewrite
+action: update
 merge_into: ''
 priority: medium
-rank: 41
+rank: 38
 status: todo
 ---
 # BP-27. State of ai in preconstruction 2026 adoption roi enr top 400 gcs
 
 > [!abstract] In one line
-> A 'State of AI in Preconstruction 2026' roundup built only from public sources. Every link carries a ChatGPT tracking tag, the copy includes a line written for bots, and the byline is 'By quotr.ai'. It is the agreed keeper for how contractors use AI (G19).
+> 'State of AI in Preconstruction 2026' is a roundup of public sources with no Quotr data. Every link carries a ChatGPT tracking tag, the copy has a line written for bots, and the byline is 'By quotr.ai'. It is the G19 keeper, but the overlap map suggests L-042 belongs to the labor-shortage post.
 
 **Live page:** [State of ai in preconstruction 2026 adoption roi enr top 400 gcs](https://quotr.ai/blog/state-of-ai-in-preconstruction-2026-adoption-roi-enr-top-400-gcs/) *(title taken from the web address; the live title was not captured)*  
 **Published:** 2026-05-27 · **Cluster:** AI explainers · **Format:** data or market report · **Funnel:** TOFU
@@ -63,14 +63,14 @@ No web search could run (budget exhausted). From the vault audit, which read the
 | 2 | 3 | 1 | 3 | 2 | 1 |
 
 - **Trust:** The byline is 'By quotr.ai', with no named author. *(from 2026-09-25 audit (the page was read directly))*
-- **Trust:** Every outbound source link (Deloitte, ENR, Construction Dive, DPR, Chubb, Skanska) carries ?utm_source=chatgpt.com. That suggests the draft went live without a final edit. *(from 2026-09-25 audit)*
+- **Trust:** Every outbound source link (Deloitte, ENR, Construction Dive, DPR, Chubb, Skanska) carries ?utm_source=chatgpt.com. That suggests the draft went live without a final edit. *(from 2026-09-25 audit; the cause is inferred)*
 - **Trust:** The page contains the line 'That internal link structure matters for both readers and AI search.' The vault rates it risky and marks it STOP. *(from 2026-09-25 audit (GEO tactics already used, tactic 45))*
-- **Uniqueness:** It is framed as a 'State of' report but has no original Quotr data; it repackages public sources. Google's May 2026 guide names 'valuable, unique, non-commodity content' as the most important factor. *(from 2026-09-25 audit; the Google point is from google_claims QUALITY-06 (vault research, not re-checked))*
-- **Structure:** It uses question-style lists but has no FAQ block. *(from 2026-09-25 audit)*
-- **Accuracy:** The slug promises 'ENR Top 400 GCs' data. The audit lists ENR as a source but does not confirm the post shows Top 400 data. The public sources are linked, but the figures were not re-checked. *(from 2026-09-25 audit; whether the promise is kept is unconfirmed)*
+- **Uniqueness:** It is framed as a 'State of' report but has no original Quotr data; it repackages public sources. Google's May 2026 guide reportedly names 'valuable, unique, non-commodity content' as the most important factor for its AI features. *(from 2026-09-25 audit; the Google point is claim QUALITY-06 from the 2026-09-25 vault research, not re-checked)*
+- **Structure:** The audit rated it only 'partly' answer-first. It uses question-style lists but has no FAQ block. *(from 2026-09-25 audit (Website audit section 7, row 10))*
+- **Accuracy:** The slug promises 'ENR Top 400 GCs' data. The audit lists ENR as a source but does not say the post shows Top 400 data. The public sources are linked, but their figures were not re-checked. *(from 2026-09-25 audit; whether the promise is kept is unknown)*
 - **Freshness:** '2026' appears in the slug and the title. The page date (May 27, 2026) matches the sitemap, which is good. A yearly-report frame will look stale from January 2027. *(from 2026-09-25 audit; the staleness is inferred)*
-- **Visibility:** Not checked in web search. E-021, L-042 and L-043 have never been tested in an AI engine. The YouTube link on L-042 marks where the question was seen, not an AI answer. *(from vault prompt library)*
-- **Uniqueness:** It shares L-042 with construction-labor-shortage-ai-adoption-2026. The agreed map makes this post the keeper and keeps the labor post separate (G19). *(from vault prompt library; agreed overlap map G19)*
+- **Visibility:** Not checked in web search. E-021, L-042 and L-043 have never been tested in an AI engine. The YouTube link on L-042 shows where the question was asked, not an AI answer. *(from vault prompt library)*
+- **Uniqueness:** It shares L-042 with construction-labor-shortage-ai-adoption-2026. The overlap map keeps both (G19). It says L-042 should have one owner and that the labor post's workforce angle fits it better than an adoption roundup. It also notes that the planned GC hub R-60 (March 2027) targets E-021. *(from vault prompt library; agreed overlap map, group G19 (the fit is inferred there); from 2026-09-25 audit (roadmap))*
 
 ## Search and AI visibility
 
@@ -81,28 +81,28 @@ No web search could run (budget exhausted). From the vault audit, which read the
 
 ## What to do
 
-**Action: Rewrite** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 41
+**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 38
 
-1. In the October editorial sweep (A6), remove ?utm_source=chatgpt.com from every outbound link. Delete the line 'That internal link structure matters for both readers and AI search.'
-2. Replace 'By quotr.ai' with a named author, such as a founder, and fix the author in the schema (A7). Run the A16 edit pass.
-3. Check the ENR Top 400 promise. If the body shows no ENR Top 400 GC data, remove it from the title and H1. Keep the URL for now.
-4. Add a section for each of the three prompts, each opening with a 40-80 word answer: 'Will AI replace construction estimators?' (L-042), 'How are GCs using AI in preconstruction?' (L-043) and 'Which AI tools do preconstruction teams use?' (E-021). Add a 5-question FAQ.
-5. Give every statistic a source link and an 'as of' date. Then either add at least one Quotr data point that Quotr approves (for example Service job mix, or turnaround by project size, the data planned for R-52), or call it an honest roundup and drop 'State of'.
-6. Link to construction-labor-shortage-ai-adoption-2026 for the workforce angle, and to is-ai-takeoff-actually-accurate-yet for accuracy. Ask both to link back.
-7. If Quotr wants a yearly edition, publish the 2027 version in January 2027 at a URL with no year (for example /blog/state-of-ai-in-preconstruction/) and 301 this URL to it.
+1. In the A6 sweep, strip ?utm_source=chatgpt.com from every outbound link (Deloitte, ENR, Construction Dive, DPR, Chubb, Skanska). Delete the line 'That internal link structure matters for both readers and AI search.'
+2. Replace 'By quotr.ai' with a named author, for example a founder, and fix the author in the schema (A7). Run the A16 edit pass.
+3. Check the 'ENR Top 400 GCs' promise. If the body shows no ENR Top 400 data, take it out of the title and H1. Keep the URL for now.
+4. Focus on the two prompts only this post serves. Add a section for each that opens with a 40-80 word answer: 'How are GCs using AI in preconstruction?' (L-043) and 'Which AI tools do preconstruction teams use?' (E-021). Add a 5-question FAQ. For 'Will AI replace estimators?' (L-042), give a one-line answer and link to the labor-shortage post, which G19 suggests should own L-042.
+5. Give every statistic a source link and an 'as of' date. Then choose one of two options. Add one Quotr data point that Quotr approves, such as anonymised Estimation Service job counts by project type, if Q-57 allows it. Or call the post a roundup and drop 'State of' from the title.
+6. Link to construction-labor-shortage-ai-adoption-2026 and is-ai-takeoff-actually-accurate-yet, and ask both to link back. When the GC preconstruction hub R-60 is written (March 2027), decide which page owns E-021 so the two do not compete.
+7. If Quotr wants a yearly edition, publish the 2027 edition in January 2027 at a URL with no year (for example /blog/state-of-ai-in-preconstruction/) and 301 this URL to it.
 
 **Add to the page:**
-- Sections that answer L-042, L-043 and E-021 first, plus a FAQ
-- 'As of' dates on every statistic
+- Answer-first sections for L-043 and E-021, plus a FAQ
+- 'As of' dates and clean source links on every statistic
 - At least one Quotr-approved data point, or an honest 'roundup' label
 - Named author
 
-**Title:** Keep 'State of AI in Preconstruction 2026' only if a Quotr data point is added. Otherwise retitle it, for example 'How GCs Use AI in Preconstruction (2026): Adoption and ROI From Public Data'. Drop 'ENR Top 400' unless the body shows that data.  
-**Web address (URL):** Keep the URL for now. It has '2026' and 12 parts, but changing it would cost links. Because it is the long-term G19 keeper, move it to a URL with no year, with a 301, when the 2027 edition is written (January 2027).
+**Title:** Keep 'State of AI in Preconstruction 2026' only if a Quotr data point is added. Otherwise retitle it, for example 'How GCs Use AI in Preconstruction: 2026 Adoption and ROI From Public Data'. Drop 'ENR Top 400' unless the body shows that data.  
+**Web address (URL):** Keep the URL for now. It has '2026' and 12 hyphenated parts, but changing it would cost links, and its 2026 data is still current. Because it is the long-term G19 keeper, move it to a URL with no year, with a 301, when the 2027 edition is written (January 2027).
 
 **Related tasks:** [[A6 Editorial sweep|A6]], [[A7 Named author bylines and author pages|A7]], [[A16 Add a human edit and fact-check step for AI-assisted drafts|A16]]
 
-**Why now:** The tracking tags and the line written for bots are quick fixes already in the October A6 sweep. The '2026' report frame expires in about three months. Decide now whether Quotr will fund a yearly edition with its own data.
+**Why now:** The tracking tags and the bot line are quick fixes already listed in the A6 sweep (October, week 2). The '2026 report' frame expires in about three months, so decide now whether Quotr will pay for a yearly edition with its own data. Settle who owns L-042 with the labor post at the same time. This is an update, not a rewrite: all three prompts are medium priority and untracked, and Optimize vs create plans 'fix facts, then refresh'.
 
 ## Overlaps with other Quotr posts
 

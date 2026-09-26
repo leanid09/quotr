@@ -24,7 +24,8 @@ search_check: Not checked (the search limit was reached)
 ai_cited: false
 cited_in: []
 old_pricing: unknown
-flags: []
+flags:
+- overlap
 health: fair
 health_score: 63
 action: update
@@ -36,7 +37,7 @@ status: todo
 # BP-64. Trade estimating software
 
 > [!abstract] In one line
-> A general guide to estimating software for trade contractors that nobody has read or searched for yet. Make it the hub for Quotr's ten trade software guides, and check it for any pricing from before September.
+> A general guide to estimating software for trade contractors whose text and index status were never checked. Make it the 'how to choose by trade' hub for Quotr's ten trade software guides, and check it for pre-September pricing.
 
 **Live page:** [Trade estimating software](https://quotr.ai/blog/trade-estimating-software/) *(title taken from the web address; the live title was not captured)*  
 **Published:** 2026-07-14 · **Cluster:** Best-of lists and buyer guides · **Format:** buyer's guide · **Funnel:** MOFU
@@ -53,11 +54,11 @@ Not captured: the post did not come up in the web searches we could run. See the
 |---|---|---|---|---|---|
 | 4 | 3 | 3 | 3 | 3 | 3 |
 
-- **Visibility:** Index status was not checked, and no search result for this URL is recorded. No AI test cited it. E-018 has not been tested; the only sighting is a Reddit r/estimators thread. *(from 2026-09-25 audit; from vault prompt library (E-018))*
-- **Accuracy:** The post is not in the old-price lists, but nobody has read it. It was published on 2026-07-14, before the 2026-09-14 price change, so any Quotr price on it would be the retired one. *(from 2026-09-25 audit; the price risk is inferred)*
-- **Structure:** The slug says 'trade estimating software', but its prompt E-018 is 'best estimating software for small contractors 2026'. The page may not match that question. *(from vault prompt library (E-018); the mismatch is inferred)*
-- **Uniqueness:** It may overlap with best-ai-construction-estimating-software-2026 (inferred from slugs). The agreed overlap map (G10) keeps the two separate. The roadmap also points E-018 at the /contractors/ rebuild (R-34), so two pages are planned for the same prompt. *(from vault prompt library (E-018, R-34); the overlap is inferred)*
-- **Uniqueness:** Group C has 10 trade-specific software posts. Optimize vs create wants this post to be their hub. Whether it links to them today is unknown. *(from 2026-09-25 audit (Website audit group C; Optimize vs create))*
+- **Visibility:** Index status was not checked, and no search result for this URL is recorded. No AI test cited it. E-018 (Medium, not tracked) has not been tested; the only sighting is a Reddit r/estimators thread. *(from 2026-09-25 audit; from vault prompt library (E-018))*
+- **Accuracy:** The post is not in the old-price lists, but it was never checked for them (Q-59 lists it). It was published on 2026-07-14, before the 2026-09-14 price change, so any Quotr price on it would be the retired one. *(from 2026-09-25 audit; the price risk is inferred)*
+- **Structure:** The slug says 'trade estimating software', but its prompt E-018 is 'best estimating software for small contractors 2026'. The page may not match that question. The layout was not seen. *(from vault prompt library (E-018); the mismatch is inferred)*
+- **Uniqueness:** It may overlap with best-ai-construction-estimating-software-2026 (inferred from slugs). The overlap map (G10) keeps the two separate. The roadmap also points E-018 at the /contractors/ rebuild (R-34, January 2027), so two pages are planned for the same prompt. *(from vault prompt library (E-018, R-34); the overlap is inferred)*
+- **Uniqueness:** Group C has 10 trade-specific software posts. Optimize vs create wants this post to be their hub. Whether it links to them today is unknown. R-46 also plans a trades hub at /software/trades/ (February 2027). *(from 2026-09-25 audit (Website audit group C; Optimize vs create; roadmap R-46))*
 - **Trust:** Byline and sources were not recorded. *(from 2026-09-25 audit (fields not recorded))*
 - **Freshness:** Sitemap date is 2026-07-14. There is no year in the slug and no on-page date on record. *(from 2026-09-25 audit)*
 
@@ -72,24 +73,24 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 **Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 76
 
-1. Open the live page. Search it for 'Solo', 'Team (2', '$499.90' and 'from $299.90'. Fix any hit to Quotr.ai Lite $79.90 / Plus $299.90 per seat per month / Enterprise custom (part of the A2 sweep).
-2. Add a 'Pick by trade' table. Give one row per trade (electrical, HVAC, plumbing, drywall, concrete, rebar, structural steel, flooring, glazing), say what that trade needs from software, and link the matching Quotr guide. For electrical, link the keeper best-electrical-estimating-software-2026, not the buyer's guide that is being merged into it (G11).
-3. Add a section for small contractors that answers E-018. Cover price per seat, learning curve, browser and Mac use, and whether a cost database is included. State Quotr.ai Lite at $79.90 per seat per month, with a checked date.
-4. Keep this post distinct from best-ai-construction-estimating-software-2026. This page is about fit by trade and firm size, not an AI ranking. Link across once.
-5. Agree with the consultant which page owns E-018: this post (a neutral hub) or the /contractors/ rebuild (R-34, the product page). Update the quotr_url in the E-018 prompt note if it changes.
-6. If the byline is 'By quotr.ai', use a named author (A7). Add a disclosure line if Quotr appears in any ranking.
+1. Open the live page. Search it for 'Solo', 'Team (2', '$499.90' and 'from $299.90' (Q-59). Fix any hit to Quotr.ai Lite $79.90 / Plus $299.90 per seat per month / Enterprise custom, as part of the A2 sweep.
+2. Add a 'Pick by trade' table with one row per trade (electrical, HVAC, plumbing, drywall, concrete, rebar, structural steel, flooring, glazing). Say what that trade needs from software and link the matching Quotr guide. For electrical, link the keeper best-electrical-estimating-software-2026, not the buyer's guide being merged into it (G11).
+3. Add a section for small contractors that answers E-018. Cover price per seat (Quotr.ai Lite $79.90, Plus $299.90, with a checked date), learning curve, browser and Mac use, and whether a cost database is included (Lite: your own custom database; Plus: the full Quotr database).
+4. Keep this post distinct from best-ai-construction-estimating-software-2026 (G10). This page is about fit by trade and firm size, not an AI ranking. Link across once.
+5. Agree with the consultant which page owns E-018: this post (a neutral guide) or the /contractors/ rebuild (R-34, the product page). Update quotr_url in the E-018 note if it changes. When R-46 launches, link to it: this post explains how to choose, and R-46 shows Quotr's trade workflows, so they should not repeat each other.
+6. Replace a 'By quotr.ai' byline with a named author (A7). Add a disclosure line if Quotr appears in any ranking.
 
 **Add to the page:**
 - 'Pick by trade' table linking the ten trade software guides
 - Small-contractor buying section with Quotr.ai Lite pricing
 - Publisher disclosure if Quotr is ranked
 
-**Title:** Nobody has seen the live title. Use a year-free title that matches E-018, for example 'Estimating software for trade and small contractors: how to choose, by trade'.  
+**Title:** Nobody has seen the live title. Use a year-free title that matches E-018, for example 'Estimating software for trade and small contractors: how to choose, by trade'. Hold the retitle until Google's September 2026 spam update ends (about 2026-10-08).  
 **Web address (URL):** Keep the URL. It has no year and suits a hub page.
 
-**Related tasks:** [[A2 Fact-fix sweep, part 1 - remove the old pricing everywhere|A2]], [[A7 Named author bylines and author pages|A7]]
+**Related tasks:** [[A2 Fact-fix sweep, part 1 - remove the old pricing everywhere|A2]], [[A7 Named author bylines and author pages|A7]], [[D5 Persona hubs and deep trade pages|D5]]
 
-**Why now:** The urgency is low: there are no known wrong facts and no tracked prompt. Do it after the A2 sweep and before the R-34 /contractors/ rebuild (January 2027), so the two pages do not compete for E-018.
+**Why now:** Low urgency: there are no known wrong facts and E-018 is not tracked. Do it after the A2 sweep and before the R-34 /contractors/ rebuild (January 2027), so the two pages do not compete for E-018.
 
 ## Overlaps with other Quotr posts
 

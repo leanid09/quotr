@@ -43,7 +43,7 @@ status: todo
 # BP-62. Ddp construction materials
 
 > [!abstract] In one line
-> Quotr's only DDP post. Perplexity already retrieves it for tracked prompt T10 but does not use it. It needs the planned R-07 rebuild into an honest DDP vs FOB guide with a real worked example.
+> Quotr's only DDP post. It is the only Quotr URL Perplexity retrieved for tracked prompt T10, but the answer did not use it. It needs the planned R-07 rebuild: an honest DDP vs FOB guide with a real landed-cost example and Quotr's name inside the key facts.
 
 **Live page:** [Ddp construction materials](https://quotr.ai/blog/ddp-construction-materials/) *(title taken from the web address; the live title was not captured)*  
 **Published:** 2026-07-09 · **Cluster:** Procurement and sourcing · **Format:** explainer · **Funnel:** TOFU/MOFU
@@ -62,12 +62,12 @@ Not captured: the post did not come up in the web searches we could run. See the
 |---|---|---|---|---|---|
 | 3 | 3 | 2 | 2 | 3 | 3 |
 
-- **Visibility:** For C10, 'buy construction materials direct from factories overseas platform' (E-081 / T10), Perplexity listed this URL among its sources but did not use it. The answer named Alibaba, Global Trade Plaza, Port2Site, AGTS, Marteu, BRKZ, ZeroGap and Commervia, not Quotr. Single run; not re-run. *(from 2026-09-25 AI tests (C10))*
-- **Visibility:** Not checked in web search because the search budget was used up. It serves one tracked prompt (T10, Tier B) and two High-priority prompts (L-110, L-111). *(from vault prompt library)*
-- **Structure:** The slug and topic do not mention 'FOB' or 'vs', yet L-111 asks 'DDP vs FOB'. The post has no comparison table, no worked example and no calculator. *(from vault prompt library (L-111 marked 'optimize'; Buyer questions by trade))*
-- **Trust:** It risks reading as one-sided. Third-party import guides (Gerudo Logistics, SinoEuro Ruida) say FOB is the norm and warn about how DDP allocates duties, and the post offers no honest comparison. The byline is unknown. *(from vault prompt library (L-111 sighting); the SinoEuro point came via a search summary and was not re-checked)*
-- **Accuracy:** The items Quotr says the DDP price covers (factory cost, export packing, ocean freight, US customs and duties, final-mile delivery, NFRC/CARB/cUPC documents) come only from search-index text and are TO CONFIRM (Q-12). The delivery area is also open (Q-11). We do not know if this post states them. *(from 2026-09-25 audit (Products and features; Construction glossary))*
-- **Uniqueness:** It is the only Quotr post on DDP. Quotr actually sells on DDP terms, so it can show a real landed-cost example that rival articles lack. It overlaps only by topic with how-developers-source-building-materials (no shared prompt), and the agreed map keeps them separate (G16). *(from 2026-09-25 audit; agreed overlap map G16)*
+- **Visibility:** For C10 / T10, 'buy construction materials direct from factories overseas platform' (E-081), Perplexity listed this URL among its sources but did not use it. The answer named Alibaba, Global Trade Plaza, Port2Site, AGTS, Marteu, BRKZ, ZeroGap and Commervia, not Quotr. It was a single run and was not re-run. *(from 2026-09-25 AI tests (C10))*
+- **Visibility:** Not checked in web search. It serves two High-priority prompts (L-110, L-111), and R-07 aims it at T10 (Tier B). But the E-081 prompt note names /procurement/ as Quotr's page for T10, and R-08 and R-20 also target it. So T10 has no single owner yet. *(from vault prompt library; from 2026-09-25 audit (roadmap))*
+- **Structure:** The vault records no honest DDP vs FOB comparison and no calculator. R-07 plans 'a real worked example', which suggests there is none. The slug has no 'FOB' or 'vs', yet L-111 asks 'DDP vs FOB'. *(from vault prompt library (L-111 note; Buyer questions by trade); 'no worked example' is inferred from R-07; not re-checked on the live page)*
+- **Trust:** It risks reading as one-sided. Third-party import guides (Gerudo Logistics, SinoEuro Ruida) say FOB is the norm and warn about how DDP splits duties, and the post offers no honest comparison. The byline is unknown. *(from vault prompt library (L-111 'Seen' note); the SinoEuro point came from a search summary and was not re-checked)*
+- **Accuracy:** The items Quotr says the DDP price covers (factory cost, export packing, ocean freight, US customs and duties, final-mile delivery, NFRC/CARB/cUPC documents) come from search-index text of the homepage and /procurement/. They are TO CONFIRM (Q-12). The delivery area is also open (Q-11). We do not know if this post states them. *(from 2026-09-25 audit (Products and features; Construction glossary))*
+- **Uniqueness:** It is Quotr's only post on DDP. Quotr actually sells on DDP terms, so it can show a real landed-cost example that rival articles lack. The overlap map keeps it apart from how-developers-source-building-materials and the CBD Fair post (G16); they share no prompt. *(from 2026-09-25 audit; agreed overlap map, group G16)*
 - **Freshness:** No year in the slug; the sitemap date is 2026-07-09. Statements about duties and tariffs go out of date quickly in 2026. *(from 2026-09-25 audit; how fast they date is inferred)*
 
 ## Search and AI visibility
@@ -79,29 +79,29 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## What to do
 
-**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 5
+**Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 5
 
-1. Through A1, get Quotr's answers to Q-12 (what the DDP price covers, including tariffs and AD/CVD duties) and Q-11 (delivery area) before writing any list of what is included.
-2. Retitle the post. Open with a 40-80 word answer that defines DDP for building materials and names Quotr: 'Quotr.ai Procurement quotes one delivered-duty-paid price to your jobsite that covers ...', listing approved items only.
-3. Add an honest DDP vs FOB table: who books freight, who is the importer of record, who pays duties and tariffs, who carries the risk at each step, when you pay, and who each option suits. Say plainly that FOB is the norm for repeat importers who have their own forwarder and customs broker, and cite the Gerudo Logistics and SinoEuro Ruida guides with dates.
-4. Add one worked landed-cost example from a real Quotr order, for example Myren Dr, Saratoga ($97,000 against a Bay Area market price of $187K-$218K, labelled 'Quotr reports'). Break it into factory price, freight, duties and tariffs, brokerage and delivery. Date it and get Quotr's sign-off.
-5. Add a 'Risks of DDP' section covering duty allocation, tariffs that change during shipping, and importer-of-record questions. Link and date each tariff fact to a primary source, and have a customs or trade expert review it (as B8 requires).
-6. Link to /procurement/, how-developers-source-building-materials, sourcing-building-materials-china-cbd-fair-2026 (G16 keeper), construction-procurement-process and the glossary terms DDP and Incoterms. Link the R-20 landed-cost calculator when it ships (C3, December 2026). Add a named author (A7) and a FAQ in the wording of L-110, L-111 and E-081.
-7. 2-4 weeks after publishing, re-run T10 (E-081), L-110 and L-111 in Perplexity and one other engine. Record whether Quotr is named and whether Port2Site still leads.
+1. Through A1, get Quotr's answers to Q-12 (what the DDP price includes, including tariffs and AD/CVD duties) and Q-11 (delivery area) before writing any list of inclusions.
+2. Retitle the post. Open with a 40-80 word answer to L-110 that puts the brand inside the fact (A8): 'Quotr Procurement, Quotr.ai's factory-direct buying program, quotes one delivered-duty-paid (DDP) price to your jobsite that covers …'. List approved items only.
+3. Add an honest DDP vs FOB table. Rows: who books freight, who is importer of record, who pays duties and tariffs, where risk passes, when you pay, and who each option suits. Say plainly that FOB is the norm for repeat importers with their own forwarder and customs broker. Cite the Gerudo Logistics and SinoEuro Ruida guides with dates.
+4. Add one worked landed-cost example from a real Quotr order, such as Myren Dr, Saratoga: $97,000 against a Bay Area market price of $187K-$218K, labelled 'Quotr reports'. Split it into factory price, freight, duties and tariffs, brokerage and delivery. Date it, get Quotr's sign-off, and link the R-16 Saratoga case study when it goes live in November.
+5. Add a section, 'Risks of DDP': how duties are split, tariffs that change while goods are at sea, and importer-of-record questions. Date each tariff fact and link a primary source. Have a customs or trade expert review it, as B8 requires.
+6. Give T10 one owner. The E-081 note points to /procurement/, and R-08 also targets it. Here, keep one short 'Buying factory-direct on DDP terms' section that links to /procurement/, and add a FAQ in the words of L-110 and L-111. Link how-developers-source-building-materials, sourcing-building-materials-china-cbd-fair-2026 (G16 keeper), construction-procurement-process, and glossary terms 81 (landed cost) and 82 (Incoterms). Link the R-20 landed-cost calculator when C3 ships it (December 2026).
+7. Add a named author (A7) and run the A16 edit pass. 2-4 weeks after publishing, re-run T10, L-110 and L-111 in Perplexity and one other engine. Record whether Quotr is named, and whether Port2Site, the closest rival offer, is still named.
 
 **Add to the page:**
-- Answer-first definition of DDP that names Quotr.ai (approved items only)
+- Answer-first definition of DDP with Quotr Procurement named in the key sentence (approved items only)
 - Honest DDP vs FOB comparison table
 - Worked landed-cost example from a real Quotr order
 - 'Risks of DDP' section with dated tariff sources and expert review
-- FAQ in the words of L-110, L-111 and E-081
+- FAQ in the words of L-110 and L-111, plus a short link section to /procurement/ for T10
 
 **Title:** Change the title, not the URL: 'DDP vs FOB for Building Materials: Which Is Better, and When?' (the R-07 working title). Answer what DDP means in the first lines, for L-110.  
 **Web address (URL):** Keep [[BP-62 ddp construction materials|BP-62]] (/ddp-construction-materials/). Perplexity already retrieves this exact URL, and a new slug with 'fob' in it would throw that away.
 
-**Related tasks:** [[A1 Agree and sign off one fact sheet|A1]], [[A3 Fact-fix sweep, part 2 - every other conflicting fact|A3]], [[A7 Named author bylines and author pages|A7]], [[B8 Procurement and tariff decision guides|B8]], [[C3 Ship the first free tools|C3]]
+**Related tasks:** [[A1 Agree and sign off one fact sheet|A1]], [[A3 Fact-fix sweep, part 2 - every other conflicting fact|A3]], [[A7 Named author bylines and author pages|A7]], [[A8 Put the Quotr name inside key facts on the pages AI already reads|A8]], [[A16 Add a human edit and fact-check step for AI-assisted drafts|A16]], [[B8 Procurement and tariff decision guides|B8]], [[C3 Ship the first free tools|C3]]
 
-**Why now:** It is the only post serving tracked prompt T10, and Perplexity already reads it, so better content could turn a retrieval into a named mention. The R-07 rebuild is P1 for October 2026, and the November procurement guides (B8) assume it is done.
+**Why now:** High. Perplexity already reads this URL for T10, so better content could turn a retrieval into a named mention. It serves two High-priority prompts, so the vault's rule points to a rewrite rather than an update. R-07 is P1 for October 2026, and the November procurement guides (B8) and the Saratoga case study (R-16) assume it is done.
 
 ## Overlaps with other Quotr posts
 

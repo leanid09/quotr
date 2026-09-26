@@ -32,7 +32,7 @@ health_score: 43
 action: merge
 merge_into: '[[BP-26 quotr vs excel]]'
 priority: medium
-rank: 44
+rank: 39
 status: todo
 ---
 # BP-06. Quotr vs traditional estimating
@@ -71,7 +71,7 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## What to do
 
-**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 44
+**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 39
 
 **Merge into:** [[BP-26 quotr vs excel]]
 

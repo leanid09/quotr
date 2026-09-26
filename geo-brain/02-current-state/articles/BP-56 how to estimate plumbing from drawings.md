@@ -39,7 +39,7 @@ status: todo
 # BP-56. How to estimate plumbing from drawings
 
 > [!abstract] In one line
-> Quotr's strongest trade how-to: Perplexity's first citation for 'how to estimate plumbing from drawings' (T49), but Quotr is never named. Keep the steps as they are, add the brand, and add the missing per-fixture pricing section.
+> Quotr's only trade how-to that AI cites first: Perplexity's first source for 'how to estimate plumbing from drawings' (T49), without naming Quotr. Protect the citation: keep the steps, add Quotr-only proof and a per-fixture pricing section.
 
 **Live page:** [How to estimate plumbing from drawings](https://quotr.ai/blog/how-to-estimate-plumbing-from-drawings/) *(title taken from the web address; the live title was not captured)*  
 **Published:** 2026-07-01 · **Cluster:** Trade how-tos and fundamentals · **Format:** how-to guide · **Funnel:** TOFU
@@ -56,12 +56,14 @@ Not captured: the post did not come up in the web searches we could run. See the
 |---|---|---|---|---|---|
 | 4 | 4 | 3 | 4 | 4 | 3 |
 
-- **Visibility:** The post was the first citation in Perplexity for L-097 (N2; tracking T49, Tier A) and supplied most of the steps. The answer did not name Quotr. This was one run on one engine. *(from 2026-09-25 AI tests)*
-- **Visibility:** Web index status, title and byline are unknown. No web search ran. *(not checked: no web search ran (search limit reached 2026-09-26))*
+- **Visibility:** The post was Perplexity's first citation for L-097 (N2; tracking T49, Tier A) and supplied most of the steps. The answer did not name Quotr. This was one run on one engine. *(from 2026-09-25 AI tests)*
+- **Visibility:** The vault files N2 under 'used for general facts, where no name is expected'. How-to answers rarely name a vendor. So keeping the first citation is the main goal, and being named is a stretch goal. *(from 2026-09-25 audit (What went wrong, W-04))*
+- **Visibility:** Web index status, live title and byline are unknown. *(not checked (web search limit reached 2026-09-26))*
 - **Uniqueness:** The brand is not written into the key steps, so engines reuse the method without crediting Quotr.ai. *(from vault prompt library (Buyer questions by trade, plumbing gap column))*
-- **Uniqueness:** There is no per-fixture pricing section, so L-098 ('plumbing price per fixture for new construction 2026') gets no answer from this page. *(from vault prompt library (L-098 note; Optimize vs create: REFRESH, P1))*
-- **Structure:** Perplexity lifted a step list from this page, which suggests clear, quotable steps. The post cross-checks fixture-schedule counts against plan counts. *(from 2026-09-25 AI tests (the structure itself is inferred; the page was not opened))*
-- **Trust:** N2 also cited RSMeans, Easy Takeoffs, ServiceTitan and Anvilfield. The vault's fuller list adds competitor trade pages from Bobyard, Exayard, BuildVision, Beam AI and PlanSwift, all competing for the same answer. *(from 2026-09-25 AI tests; fuller list from vault prompt library)*
+- **Uniqueness:** There is no per-fixture pricing section, so L-098 ('plumbing price per fixture for new construction 2026') gets no answer from this page. *(from vault prompt library (L-098 note); from 2026-09-25 audit (Optimize vs create: REFRESH, P1))*
+- **Uniqueness:** R-44 (February 2027) also targets L-097 and L-098. If it repeats the steps, Quotr will have two pages for one question. *(from 2026-09-25 audit (roadmap R-44))*
+- **Uniqueness:** The N2 test note records RSMeans, Easy Takeoffs, ServiceTitan and Anvilfield as also cited. The vault's fuller list adds trade pages from Bobyard, Exayard, BuildVision, Beam AI and PlanSwift, all competing for the same answer. *(from 2026-09-25 AI tests; fuller list from vault prompt library)*
+- **Structure:** Perplexity lifted a step list from this page, which suggests clear, quotable steps. The post cross-checks fixture-schedule counts against plan counts. *(from 2026-09-25 AI tests (the layout itself is inferred; the page was not opened))*
 - **Accuracy:** No wrong facts are known, and the post is not on the retired-price list. Any prices or labor numbers on the page have not been checked. *(from 2026-09-25 audit; page content inferred)*
 
 ## Search and AI visibility
@@ -75,20 +77,20 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 **Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 10
 
-1. Save a copy of the current page first. Keep its step order and headings, because Perplexity reused them in N2. Do not change the URL or restructure the steps.
-2. Write Quotr.ai into the two or three key step sentences, for example: 'Quotr.ai's AI takeoff counts fixture symbols and measures pipe runs across the plan set; check that count against the fixture schedule.' Symbol counting and length measuring are fact-sheet features.
-3. Add an H2 'What does plumbing cost per fixture in new construction?' to answer L-098. Include a short table of per-fixture ranges for residential and light commercial work, each with a linked source and an 'as of' month. Add Quotr fixture-package prices only if Quotr confirms them; R-44 marks them TO CONFIRM.
-4. Add one worked example from a real plan: fixture count by type, pipe length by size from the riser or isometric, labor hours and a priced total, with a screenshot of the Quotr.ai takeoff. This is the Quotr-only element that the competing pages cited in N2 appear to lack (inferred).
-5. Replace any 'By quotr.ai' byline with a named author and an estimator as reviewer (A7). Add a 4-6 question FAQ: per-fixture vs per-sq-ft pricing, rough-in vs trim, counting from riser diagrams. The FAQ is for AI quoting only; Google reportedly stopped showing FAQ rich results in May 2026 (INDEX-08, not re-checked).
-6. Link out to /software/trades/plumbing/, the rough-in dictionary term, mep-estimating-services and the plumbing best-of post. When R-44 ships (February 2027), it should link here for the how-to instead of repeating the steps.
-7. Request a re-crawl in Search Console and Bing. 2-4 weeks later, re-run T49 (L-097) and a first L-098 test in Perplexity plus one other engine. Success means Quotr.ai is named and this post is still cited first.
+1. Before editing, save a copy of the page and record the October multi-engine baseline for T49 (A15). If Search Console access exists (Q-49), check the URL in URL Inspection; the GSC audit playbook lists it among the cited posts to check first. Publish the edit after the spam update ends (about 2026-10-08). Keep the step order and headings that Perplexity reused in N2.
+2. Write Quotr.ai into two or three key step sentences, for example: 'Quotr.ai's AI takeoff counts fixture symbols and measures pipe runs across the plan set; check that count against the fixture schedule.' Symbol counting and length measuring are fact-sheet features.
+3. Add an H2 'What does plumbing cost per fixture in new construction?' to answer L-098. Add a short table of per-fixture ranges for residential and light commercial work. Give each range a linked primary source and an 'as of' month. Do not reuse the unverified $250-$800 per fixture point from Buyer questions by trade. Add Quotr fixture-package prices only if Quotr confirms them (R-44 marks them TO CONFIRM).
+4. Add one worked example from a real plan: fixture count by type, pipe length by size from the riser or isometric, labor hours and a priced total, with a Quotr.ai takeoff screenshot. The competing pages cited in N2 appear to lack this Quotr-only element (inferred).
+5. Replace any 'By quotr.ai' byline with a named author, plus an estimator as reviewer if Q-56 confirms one (A7). Add a 4-6 question FAQ: per-fixture vs per-sq-ft pricing, rough-in vs trim, counting from riser diagrams. It is for AI quoting only; Google reportedly stopped showing FAQ rich results in May 2026 (INDEX-08, not re-checked).
+6. Make this post the owner of L-097 and L-098. Take both off R-44's target list, and brief R-44 to link here for the method. Link out to /software/trades/plumbing/, /dictionary/rough-in-plumbing/ and mep-estimating-services. Link to best-plumbing-estimating-software-2026 only after it has been checked for retired pricing; it never has been (Q-59).
+7. Change the visible 'Last updated' date and the sitemap lastmod only because of this real edit (A9). Request a re-crawl in Search Console and Bing. 2-4 weeks later, re-run T49 and a first L-098 test in Perplexity plus one other engine. Success means the post is still cited first; Quotr.ai being named is a bonus.
 
-**Title:** Keep the core wording 'How to estimate plumbing from drawings', because it matches the tracked prompt word for word. A short qualifier is fine, such as 'fixture counts, pipe runs and per-fixture pricing'. Do not add '2026'; date the pricing table instead.  
+**Title:** Keep it. 'How to estimate plumbing from drawings' matches the tracked prompt word for word, and the page is already cited first. Do not add a qualifier or '2026' now. Put per-fixture pricing in an H2 and date the pricing table instead.  
 **Web address (URL):** Keep the URL. It is already the first citation for its tracked prompt.
 
-**Related tasks:** [[A8 Put the Quotr name inside key facts on the pages AI already reads|A8]], [[A7 Named author bylines and author pages|A7]], [[A15 Measurement setup and multi-engine baseline|A15]], [[B3 Second monthly AI test; set engine-specific targets|B3]]
+**Related tasks:** [[A8 Put the Quotr name inside key facts on the pages AI already reads|A8]], [[A15 Measurement setup and multi-engine baseline|A15]], [[A7 Named author bylines and author pages|A7]], [[A9 Sitemaps and lastmod dates|A9]], [[B3 Second monthly AI test; set engine-specific targets|B3]], [[C8 YouTube episodes 3-4 and a price-index explainer|C8]]
 
-**Why now:** This is the only trade how-to that AI already cites first, and it is on the A8 list for October 2026. Naming Quotr.ai in the key steps is the quickest way to move T49 from 'cited, not named' before the November re-test (B3). Edit carefully: the risk is losing the citation.
+**Why now:** This is the only trade how-to that AI already cites first, it serves a tracked Tier A prompt, and it is on the A8 list for October 2026. The November re-test (B3) will show whether the edit held the citation. Edit carefully: the main risk is losing the citation, so change as little of the step text as possible.
 
 ## Sources
 

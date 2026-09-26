@@ -30,17 +30,17 @@ flags:
 - not in web search
 - overlap
 health: poor
-health_score: 40
+health_score: 47
 action: merge
 merge_into: '[[BP-17 how to do construction takeoff pdf blueprint]]'
 priority: medium
-rank: 39
+rank: 46
 status: todo
 ---
 # BP-05. Construction takeoff guide
 
 > [!abstract] In one line
-> This is a third Quotr page on 'what is a takeoff'. Search did not return it, and its own query returned the PDF-blueprint post instead. The agreed G12 map folds it into that post.
+> This is a third Quotr page answering 'what is a takeoff'. Search did not return it, and its own query returned the PDF-blueprint post instead. The agreed G12 map folds it into that post.
 
 **Live page:** [Construction takeoff guide](https://quotr.ai/blog/construction-takeoff-guide/) *(title taken from the web address; the live title was not captured)*  
 **Published:** 2026-04-21 · **Cluster:** Trade how-tos and fundamentals · **Format:** explainer · **Funnel:** TOFU
@@ -51,19 +51,19 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## Health check
 
-**Score: 40/100 (poor).** Each area is scored 0-5 using the rubric in [[Content refresh playbook]].
+**Score: 47/100 (poor).** Each area is scored 0-5 using the rubric in [[Content refresh playbook]].
 
 | Freshness | Accuracy | Trust | Structure | Visibility | Uniqueness |
 |---|---|---|---|---|---|
-| 3 | 3 | 2 | 2 | 1 | 1 |
+| 4 | 3 | 2 | 3 | 1 | 1 |
 
-- **Visibility:** The URL did not come back in 5 targeted searches. Site: searches for 'construction takeoff guide' returned how-to-do-construction-takeoff-pdf-blueprint and the how-to-bid post instead, which looks like cannibalization. A second pass could not repeat the check. *(seen in search 2026-09-26)*
-- **Visibility:** For L-030 ('what is a construction takeoff'), the vault records STACK, Buildxact and Procore at the top of results and no Quotr page. *(from vault prompt library)*
-- **Uniqueness:** Three Quotr pages answer the same question: /dictionary/quantity-takeoff/ (L-030's main URL), this post, and the PDF-blueprint post. This post is also the mapped page for L-045 (takeoff vs estimate, Low priority). *(from vault prompt library)*
-- **Structure:** The content is unknown. A Quotr-scoped search surfaced the line 'A takeoff tells you what is needed. An estimate tells you what it may cost.', but which page it comes from is unclear. *(seen in search 2026-09-26)*
-- **Freshness:** Dated 2026-04-21, making it one of the oldest posts. No year in the slug. *(from 2026-09-25 audit)*
-- **Trust:** The title and byline are unknown. The title used here was built from the slug. *(from 2026-09-25 audit)*
-- **Uniqueness:** The vault's Optimize vs create table says KEEP with no overlap noted. That conflicts with the agreed G12 map and needs updating. *(from 2026-09-25 audit)*
+- **Visibility:** The URL did not come back in 5 targeted searches. Site: searches for 'construction takeoff guide' returned how-to-do-construction-takeoff-pdf-blueprint and the how-to-bid post instead, which looks like cannibalization. That was one pass, and a second pass could not repeat it. *(seen in search 2026-09-26)*
+- **Visibility:** For L-030 ('what is a construction takeoff', Med), the vault records STACK, Buildxact and Procore at the top of results. It records no Quotr page. *(from vault prompt library)*
+- **Uniqueness:** Three Quotr pages answer the same question: /dictionary/quantity-takeoff/ (L-030's main URL), this post and the PDF-blueprint post. This post is also the mapped page for L-045 (takeoff vs estimate, Low priority). *(from vault prompt library; seen in search 2026-09-26)*
+- **Uniqueness:** The Optimize vs create table says KEEP and notes no overlap. That conflicts with the agreed G12 map, so the vault needs updating. *(from 2026-09-25 audit)*
+- **Structure:** The content is unknown. A Quotr-scoped search surfaced the line 'A takeoff tells you what is needed. An estimate tells you what it may cost.', but which page it comes from is unclear. The score of 3 assumes the site's usual format. *(seen in search 2026-09-26; score inferred)*
+- **Freshness:** The sitemap date is 2026-04-21, one of the oldest posts, and it is a real date, not a bulk reset. There is no year in the slug. The on-page date and any time-bound claims were not seen. *(from 2026-09-25 audit)*
+- **Trust:** The title and byline are unknown. The title used here was built from the slug. The low score comes from the site pattern of 'By quotr.ai' bylines and missing sources. *(from 2026-09-25 audit; inferred)*
 
 ## Search and AI visibility
 
@@ -74,23 +74,22 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## What to do
 
-**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 39
+**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 46
 
 **Merge into:** [[BP-17 how to do construction takeoff pdf blueprint]]
 
-1. Before redirecting, run GSC URL Inspection, then pull clicks, impressions, queries and backlinks for this URL. Use only data after 2026-04-27, because a GSC logging error over-reported impressions until then (GSC-12). If this URL turns out to beat the keeper, raise it with the consultant before the 301.
-2. Read the live page and copy anything the keeper lacks: the takeoff vs estimate distinction (for L-045), the types of takeoff (count, linear, area, volume) and who does takeoffs. Put this into the keeper's new 'Takeoff vs estimate' H2.
-3. Move the pure definition to /dictionary/quantity-takeoff/ as part of R-28 (glossary deepening, Dec 2026), which already targets L-030.
-4. 301 the URL to [[BP-17 how to do construction takeoff pdf blueprint|BP-17]] (/how-to-do-construction-takeoff-pdf-blueprint/). Update every internal link to it, and remove it from the blog sitemap.
-5. Wait until the September 2026 spam update has finished before redirecting. It started 2026-09-24 and can take up to two weeks (RANK-21), and waiting keeps the GSC effect readable.
-6. Ask the vault owner to update the vault to match: L-045 quotr_url, the L-030 body link, the Optimize vs create row (KEEP to MERGE INTO), A12's scope, and a changelog line. Request re-crawl of the keeper and re-check L-030 and L-045 2-4 weeks later.
+1. Before redirecting, run GSC URL Inspection. Then pull clicks, impressions, queries and backlinks for this URL. Use only data after 2026-04-27, because a GSC logging error over-reported impressions until then (GSC-12). As the oldest post in G12, it may hold backlinks. If it beats the keeper on clicks or links, raise that with the consultant before the 301.
+2. Read the live page. Copy what the keeper lacks into its new 'Takeoff vs estimate' H2 for L-045: the takeoff vs estimate distinction, the types of takeoff (count, linear, area, volume) and who does takeoffs.
+3. Until R-28 rebuilds /dictionary/quantity-takeoff/ (Dec 2026), have the keeper link to that term for the definition. Add any stronger definition text from this post to the R-28 brief, which already targets L-030.
+4. Once the September 2026 spam update has finished, 301 the URL to [[BP-17 how to do construction takeoff pdf blueprint|BP-17]] (/how-to-do-construction-takeoff-pdf-blueprint/). The update started 2026-09-24 and can take up to two weeks (RANK-21). Update every internal link to this URL, remove it from the blog sitemap and request a re-crawl of the keeper.
+5. Ask the vault owner to update the vault to match: L-045 quotr_url, the L-030 body link, the Optimize vs create row (KEEP to MERGE INTO), A12's scope, and a changelog line. Re-check L-030 and L-045 2-4 weeks after the redirect.
 
 **Add to the page:**
 - 'Takeoff vs estimate' H2 in the keeper
-- Definition moved to /dictionary/quantity-takeoff/
+- Definition text handed to R-28 for /dictionary/quantity-takeoff/
 
 **Title:** No title work. The post is merged, and its topic becomes a 'Takeoff vs estimate' H2 in the keeper.  
-**Web address (URL):** 301 the URL to [[BP-17 how to do construction takeoff pdf blueprint|BP-17]] (/how-to-do-construction-takeoff-pdf-blueprint/) after the GSC check. Do it once the September 2026 spam update has finished (started 2026-09-24).
+**Web address (URL):** After the GSC check, 301 the URL to [[BP-17 how to do construction takeoff pdf blueprint|BP-17]] (/how-to-do-construction-takeoff-pdf-blueprint/). Wait until the September 2026 spam update has finished (it started 2026-09-24).
 
 **Related tasks:** [[A12 Merge duplicate pages|A12]]
 

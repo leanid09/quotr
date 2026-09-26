@@ -35,7 +35,7 @@ status: todo
 # BP-75. The architects survival guide unlocking new revenue streams in pre construction
 
 > [!abstract] In one line
-> This is Quotr's only architect post. It has a bulk date and a long headline slug that misses its prompt, and it may repeat the unconfirmed Revit story. It needs a fact check, an answer-first section and a byline from the architect co-founder.
+> This is Quotr's only architect post. Its date is a bulk reset, its long slug does not match its prompt, and it may repeat the unconfirmed Revit story. It needs a Revit fact check first, then an answer-first section and a byline from the architect co-founder.
 
 **Live page:** [The architects survival guide unlocking new revenue streams in pre construction](https://quotr.ai/blog/the-architects-survival-guide-unlocking-new-revenue-streams-in-pre-construction/) *(title taken from the web address; the live title was not captured)*  
 **Published:** 2026-07-24 (bulk date, real date unknown) · **Cluster:** Developer, architect and investor personas · **Format:** opinion or thought leadership · **Funnel:** TOFU/MOFU
@@ -54,11 +54,11 @@ Not captured: the post did not come up in the web searches we could run. See the
 |---|---|---|---|---|---|
 | 3 | 3 | 3 | 2 | 3 | 3 |
 
-- **Freshness:** The sitemap date 2026-07-24 is a bulk date, so the real publish date is unknown. *(from 2026-09-25 audit (§8.6))*
-- **Structure:** The slug is 11 tokens long. Its wording ('survival guide', 'unlocking revenue streams') does not match L-144: 'how can architects estimate construction cost during design'. *(seen in the slug; from vault prompt library (L-144))*
-- **Accuracy:** Positioning risk. Off-site profiles still describe Quotr as a Revit tool for architects, and whether the Revit add-in is still sold is TO CONFIRM. An architect post may repeat that story. The content was not seen. *(from 2026-09-25 audit (Entity fact sheet rows on the Revit add-in); the risk to this page is inferred)*
-- **Trust:** Co-founder Hanyang Liu is a trained architect (fact sheet, High confidence), so a first-hand expert byline is available. The current byline is unknown. *(from 2026-09-25 audit (Entity fact sheet); byline not checked)*
-- **Visibility:** L-144 is Low priority and has never been tested. No architect hub exists. Web indexing was not checked. *(from vault prompt library; from 2026-09-25 audit (§9.3); web search not run (limit reached 2026-09-26))*
+- **Freshness:** The sitemap date 2026-07-24 is a bulk date, so the real publish date is unknown. Quotr has been asked for it (Q-52, open). *(from 2026-09-25 audit (§8.6))*
+- **Structure:** The slug has 11 words. Its wording ('survival guide', 'unlocking revenue streams') does not match L-144: 'how can architects estimate construction cost during design'. The page format is unknown. *(seen in the slug; from vault prompt library (L-144); format inferred)*
+- **Accuracy:** There is a positioning risk. Off-site profiles and search summaries still describe Quotr as a Revit tool for architects. Whether the Revit add-in is still sold is TO CONFIRM (Q-20, open). An architect post may repeat that story. The content was not seen. *(from 2026-09-25 audit (Entity fact sheet rows on the Revit add-in and off-site descriptions); the risk to this page is inferred)*
+- **Trust:** Co-founder Hanyang Liu is a trained architect (fact sheet, High confidence), so a first-hand expert byline is available. His former firms and degree are not yet cleared for use (Q-04). The current byline is unknown. *(from 2026-09-25 audit (Entity fact sheet); byline not checked)*
+- **Visibility:** L-144 is Low priority and has never been tested. There is no architect hub. Web indexing was not checked. *(from vault prompt library; from 2026-09-25 audit (§9.3); not checked in search on 2026-09-26)*
 
 ## Search and AI visibility
 
@@ -71,24 +71,24 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 **Action: Update** · **Priority:** low · **Effort:** S · **Order in the refresh queue:** 85
 
-1. Open the live page. Look for the Revit add-in ('Quotr Estimate', 'Quotr Connector') or wording that calls Quotr a Revit tool for architects. The add-in's status is TO CONFIRM, so remove or hold those lines until Quotr confirms (A1, A3).
-2. Add a 40-80 word answer and an H2 in L-144's words: 'How can architects estimate construction cost during design?' Show methods by design phase in a table: schematic design uses $/sq ft and elemental estimates, design development uses assemblies, and construction documents use quantity takeoff. Give accuracy ranges only if they are sourced.
-3. Make the 'new revenue' angle concrete: architects can offer cost estimating as an added service, or buy it in. Name Quotr Service with fact-sheet pricing ($0.25 per sq ft under 50,000 sq ft; $0.10 above).
-4. Byline it to co-founder Hanyang Liu, a trained architect (High confidence; do not name his former firms until Quotr confirms them) (A7).
-5. Replace the bulk sitemap date with the real publish date and a matching 'Last updated' date (A9).
-6. Link to preconstruction-services (G03 keeper), outsource-construction-estimating (G02 keeper) and the design-build and guaranteed-maximum-price dictionary terms. Run L-144 once for a baseline.
+1. During the October A3 sweep, open the live page. Look for 'Quotr Estimate', 'Quotr Connector', 'Revit', or wording that calls Quotr a tool for architects. The add-in's status is open (Q-20), so remove or hold those lines until Quotr answers (A1, A3). Also search for the retired prices ('Solo', 'Team', '$499.90', 'from $299.90') and fix any hit (A2).
+2. Add a 40-80 word answer and an H2 in L-144's words: 'How can architects estimate construction cost during design?' Show methods by design phase in a table: $/sq ft and elemental estimates at schematic design, assemblies at design development, and quantity takeoff at construction documents. Give accuracy ranges only with a source.
+3. Make the 'new revenue' angle concrete: architects can offer cost estimating as an added service, or buy it in. Describe Quotr with the fact sheet's one-line category, and name Quotr Service with fact-sheet rates ($0.25 per sq ft under 50,000 sq ft; $0.10 above). Do not present Quotr as a design tool for architects.
+4. Byline it to co-founder Hanyang Liu, a trained architect (A7). Do not name his former firms or degree until Quotr clears them (Q-04).
+5. Replace the bulk sitemap date with the real publish date once Quotr supplies it (Q-52). Add a matching 'Last updated' date (A9).
+6. Link to preconstruction-services (the G03 keeper), outsource-construction-estimating (the G02 keeper), /dictionary/design-build/ and /dictionary/guaranteed-maximum-price/. Run L-144 once and record it as a test run.
 
 **Add to the page:**
 - 40-80 word answer to L-144
-- Design-phase estimating methods table
+- Table of estimating methods by design phase
 - Architect byline (Hanyang Liu)
 
-**Title:** The current title was not seen; the one on file comes from the slug. Rewrite it to the buyer question, for example: 'How Architects Can Estimate Construction Cost During Design (and Turn It Into Pre-Construction Revenue)'.  
+**Title:** The live title was not seen; the one on file comes from the slug. Rewrite it to the buyer question, for example: 'How Architects Can Estimate Construction Cost During Design (and Turn It Into Pre-Construction Revenue)'.  
 **Web address (URL):** Keep the URL. It is long but has no year, and a redirect is not worth it for a low-priority post.
 
-**Related tasks:** [[A1 Agree and sign off one fact sheet|A1]], [[A3 Fact-fix sweep, part 2 - every other conflicting fact|A3]], [[A7 Named author bylines and author pages|A7]], [[A9 Sitemaps and lastmod dates|A9]]
+**Related tasks:** [[A1 Agree and sign off one fact sheet|A1]], [[A2 Fact-fix sweep, part 1 - remove the old pricing everywhere|A2]], [[A3 Fact-fix sweep, part 2 - every other conflicting fact|A3]], [[A7 Named author bylines and author pages|A7]], [[A9 Sitemaps and lastmod dates|A9]]
 
-**Why now:** The Revit check fits into the October A3 fact sweep at almost no extra cost. The content update is low priority (L-144 Low, secondary persona) and can wait for Q1 2027.
+**Why now:** The Revit check fits into the October A3 fact sweep at almost no extra cost. The content update is low priority (L-144 is Low, and architects are a secondary persona) and can wait for Q1 2027.
 
 ## Sources
 

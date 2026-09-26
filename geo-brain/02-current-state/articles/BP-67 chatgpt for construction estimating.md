@@ -57,14 +57,15 @@ The title asks whether ChatGPT can be used for construction estimating and takeo
 |---|---|---|---|---|---|
 | 3 | 3 | 3 | 3 | 3 | 2 |
 
-- **Visibility:** It appeared in WebSearch results for a query asking for AI takeoff software recommendations (the exact query was not recorded). It was not re-checked on 2026-09-26. *(from 2026-09-25 audit)*
+- **Visibility:** It appeared in web search results for a query asking for AI takeoff software recommendations. The exact query was not recorded. It was not re-checked on 2026-09-26. *(from 2026-09-25 audit)*
 - **Visibility:** No AI answer cited it in the September tests. *(from 2026-09-25 AI tests)*
-- **Visibility:** L-037, 'can ChatGPT do a construction takeoff' (High priority), has not been tested. *(from vault prompt library)*
-- **Structure:** The title, 'ChatGPT for Construction Estimating: Can It Do Takeoff?', asks a real question. But the slug and the first half of the title say 'estimating', while L-037 asks about 'takeoff'. *(from 2026-09-25 audit)*
-- **Uniqueness:** Togal runs a competing page: 'ChatGPT and Construction Takeoffs Thanks to Togal.AI'. *(from 2026-09-25 audit)*
-- **Uniqueness:** The planned rebuild (R-49) adds a dated test on a real plan, which suggests the current post has no such test. This is not verified. *(inferred)*
+- **Visibility:** L-037, 'can ChatGPT do a construction takeoff' (High priority, not tracked), has not been tested. *(from vault prompt library)*
+- **Structure:** The title, 'ChatGPT for Construction Estimating: Can It Do Takeoff?', asks a real question. The slug and the first half of the title say 'estimating', while L-037 asks about 'takeoff'. *(from 2026-09-25 audit)*
+- **Uniqueness:** Togal runs a competing page: 'ChatGPT and Construction Takeoffs Thanks to Togal.AI'. Its date was not checked. *(from 2026-09-25 audit)*
+- **Uniqueness:** R-49 targets both L-037 and E-069. E-069 ('is there a ChatGPT for blueprints') already points to the chat-with-blueprints post, so the planned rebuild would compete with the G17 keeper. *(from vault prompt library)*
+- **Uniqueness:** The planned rebuild (R-49) adds a dated test on a real plan. That suggests the current post has no such test, but this is not verified. *(inferred)*
 - **Freshness:** Claims about what ChatGPT can do go out of date fast. Without a test date, a July 2026 post (sitemap 2026-07-16) will lose value quickly. *(inferred)*
-- **Accuracy:** The byline and body were not seen, so accuracy and trust are scored neutral. The vault gives two priorities for the rebuild: P2 in Optimize vs create, and P3 for February 2027 in R-49. *(from 2026-09-25 audit)*
+- **Accuracy:** The byline and body were not seen, so accuracy and trust are scored neutral. The vault gives the rebuild two priorities: P2 in Optimize vs create, and P3 for February 2027 in R-49. *(from 2026-09-25 audit)*
 
 ## Search and AI visibility
 
@@ -77,13 +78,13 @@ The title asks whether ChatGPT can be used for construction estimating and takeo
 
 **Action: Rewrite** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 66
 
-1. Run a dated test. Give ChatGPT (record the model name and the date) one real plan set that Quotr is allowed to show, such as an electrical sheet and a floor plan. Ask it for device counts, wall lengths and floor areas.
+1. Run a dated test. Give ChatGPT one real plan set that Quotr is allowed to show, such as an electrical sheet and a floor plan, and record the model name and the date. Ask it for device counts, wall lengths and floor areas.
 2. Check the answers against a manual or Quotr.ai takeoff of the same sheets. Publish a results table with four columns: item, ChatGPT's answer, checked answer, error.
 3. Open with a 40-80 word answer to L-037 that states the test date, the model and the result.
-4. Add two sections drawn from the test: 'Where ChatGPT helps estimators' (for example drafting scope letters, RFIs and proposal text, or reading specs) and 'Where it fails' (for example scaled measurements and symbol counts on dense sheets).
-5. If you compare, describe Togal's ChatGPT page fairly, with a dated link.
-6. Leave E-069 ('ChatGPT for blueprints') to the chat-with-blueprints post. Link to that post and to is-ai-takeoff-actually-accurate-yet, and remove E-069 from R-49's targets so two posts stop competing.
-7. Name the author (A7). Add a 'last tested on' line, and plan to repeat the test whenever ChatGPT changes a lot.
+4. Add two sections drawn from the test. 'Where ChatGPT helps estimators' could cover drafting scope letters, RFIs and proposal text, or reading specs. 'Where it fails' could cover scaled measurements and symbol counts on dense sheets.
+5. If you compare with Togal, describe its ChatGPT page fairly and give a dated link.
+6. Leave E-069 ('ChatGPT for blueprints') to the chat-with-blueprints post. Link to that post and to is-ai-takeoff-actually-accurate-yet, and remove E-069 from R-49's targets in the vault so the two posts stop competing.
+7. Name the author (A7). Add a 'last tested on' line, and repeat the test whenever ChatGPT changes a lot.
 
 **Add to the page:**
 - A dated test of ChatGPT on a real plan set
@@ -91,12 +92,12 @@ The title asks whether ChatGPT can be used for construction estimating and takeo
 - 'Where it helps' and 'Where it fails' sections
 - A 'last tested on' line and a re-test plan
 
-**Title:** Change the title to match L-037: 'Can ChatGPT Do a Construction Takeoff? We Tested It' (about 51 characters). Put the test date in the body, not the title, so the title does not expire.  
+**Title:** Once the dated test is published, change the title to match L-037: 'Can ChatGPT Do a Construction Takeoff? We Tested It' (51 characters). Do not use 'We Tested It' before the test is on the page. Put the test date in the body, not the title, so the title does not expire.  
 **Web address (URL):** Keep [[BP-67 chatgpt for construction estimating|BP-67]] (/chatgpt-for-construction-estimating/). Search already shows it, it has no year, and it still matches the query 'ChatGPT for construction estimating'.
 
 **Related tasks:** [[A7 Named author bylines and author pages|A7]], [[A16 Add a human edit and fact-check step for AI-assisted drafts|A16]]
 
-**Why now:** It is one of the few posts in this set that search already shows, so a stronger version starts with an advantage. ChatGPT changes quickly, so an undated answer loses value every month. Settle the vault's P2 versus P3 conflict, and consider moving R-49 from February 2027 to November-December 2026, after the September spam update ends.
+**Why now:** It is one of the few posts in this set that search already shows, so a stronger version starts with an advantage. ChatGPT changes quickly, so an undated answer loses value every month. Settle the vault's P2 versus P3 conflict. Consider moving R-49 from February 2027 to November-December 2026, after the September spam update ends.
 
 ## Overlaps with other Quotr posts
 

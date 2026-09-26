@@ -27,20 +27,19 @@ ai_cited: false
 cited_in: []
 old_pricing: unknown
 flags:
-- no Quotr data
 - overlap
 health: fair
-health_score: 63
+health_score: 60
 action: update
 merge_into: ''
 priority: medium
-rank: 75
+rank: 71
 status: todo
 ---
 # BP-31. Tariff aware estimating material escalation every bid
 
 > [!abstract] In one line
-> A how-to on protecting bids from price swings. It is probably sound, but it does not use the buyer's words ('escalation clause', 'bid valid') and has no Quotr example. A targeted update will make it the clear answer to L-020 and L-021.
+> This is a how-to on building price escalation into bids. The page was not read. Its slug does not use the buyer's words ('escalation clause', 'bid valid'), and no Quotr example is known. A targeted update can make it the single answer for L-020, L-021 and L-123.
 
 **Live page:** [Tariff aware estimating material escalation every bid](https://quotr.ai/blog/tariff-aware-estimating-material-escalation-every-bid/) *(title taken from the web address; the live title was not captured)*  
 **Published:** 2026-06-01 · **Cluster:** Cost and market data · **Format:** how-to guide · **Funnel:** TOFU
@@ -51,18 +50,18 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## Health check
 
-**Score: 63/100 (fair).** Each area is scored 0-5 using the rubric in [[Content refresh playbook]].
+**Score: 60/100 (fair).** Each area is scored 0-5 using the rubric in [[Content refresh playbook]].
 
 | Freshness | Accuracy | Trust | Structure | Visibility | Uniqueness |
 |---|---|---|---|---|---|
-| 4 | 3 | 3 | 3 | 3 | 3 |
+| 3 | 3 | 3 | 3 | 3 | 3 |
 
-- **Structure:** The slug does not contain the words the mapped prompts use: 'escalation clause' (L-020) and 'bid valid' (L-021). The page may not have headings for those questions. *(from vault prompt library (seen in the slug); the heading gap is inferred)*
-- **Visibility:** No AI test exists for L-020 or L-021, and no test run cites this post. For L-020 the vault saw Perplexity cite AGC's January 2026 survey coverage (40% of contractors raised bids because of tariffs, 32% bought early). Whether Quotr was cited was not recorded. Web indexing was not checked. *(from vault prompt library (L-020, L-021 notes); from 2026-09-25 AI tests (no run for these prompts); web search not run)*
-- **Uniqueness:** The escalation topic is split three ways. L-020 and L-021 map here. L-123 ('how are contractors handling material price escalation in 2026') maps to construction-cost-trends-2026, and roadmap R-12 also targets L-123. *(from vault prompt library and roadmap R-12)*
-- **Uniqueness:** The audit says posts in the cost cluster carry no Quotr data. That was not checked on this page. *(from 2026-09-25 audit (cluster H note))*
-- **Freshness:** There is no year in the slug, and the sitemap date is 2026-06-01. The topic ages slowly, but any tariff rates it quotes would now be four months old. *(from 2026-09-25 audit (sitemap date); stale rates inferred)*
-- **Trust:** The vault plan is KEEP with no action. That plan was never checked against the page or search. The byline and sources are unknown. *(from 2026-09-25 audit (Optimize vs create); byline not checked)*
+- **Structure:** The slug does not use the words of its prompts: 'escalation clause' (L-020) and 'bid valid' (L-021). The page may not have headings for those questions. *(slug seen in the sitemap; from vault prompt library (L-020, L-021); the heading gap is inferred)*
+- **Visibility:** No test run exists for L-020 or L-021, and no run cites this post. For L-020 the vault recorded an informal Perplexity sighting of coverage of AGC's January 2026 survey: 40% of contractors raised bids because of tariffs, and 32% bought early. That sighting did not record whether Quotr was cited. Web indexing was not checked. *(from vault prompt library (L-020, L-021); from 2026-09-25 AI tests (no run for these prompts); not checked in search on 2026-09-26)*
+- **Uniqueness:** The escalation topic is split three ways. L-020 and L-021 map here. L-123 ('how are contractors handling material price escalation in 2026') maps to construction-cost-trends-2026, and R-12 also targets it. The G07 note says L-123's wording fits this post best. The vault glossary already links its 'escalation' term here. *(from vault prompt library (L-123 note; Construction glossary row 19); from 2026-09-25 audit (roadmap R-12); agreed overlap map G07 note (the fit is inferred))*
+- **Uniqueness:** No Quotr data or worked example is known. The audit's 'no own data' finding names other cost posts, not this one. *(inferred from the 2026-09-25 audit (GEO tactics item 31); not checked on this page)*
+- **Freshness:** There is no year in the slug. The sitemap date is 2026-06-01 and is not a bulk date. The method ages slowly, but the post is about tariffs, and the vault records tariff changes since June: 50% on Canadian wood in September, and the cabinet and vanity rise delayed to 1 January 2027. Any rates it quotes may be out of date. *(from 2026-09-25 audit (sitemap date; roadmap R-10; Citation sources map); stale rates inferred)*
+- **Trust:** The byline and sources are unknown. The audit saw 'By quotr.ai' on 5 of the 11 newest posts whose byline it recorded. This older post was not opened. Escalation clauses are contract advice, so the post needs a named reviewer and a 'not legal advice' line. *(from 2026-09-25 audit (Website audit, bylines on the newest posts); byline on this page not checked; the reviewer need is inferred)*
 
 ## Search and AI visibility
 
@@ -73,28 +72,29 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## What to do
 
-**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 75
+**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 71
 
-1. Open the live page and record its title, byline, dates and any tariff rates or percentages it cites. None of this was seen on 2026-09-26.
-2. Add an H2 in the buyer's words: 'How do you protect a bid from material price increases?' Answer in the first two sentences. Then explain the parts of an escalation clause: base date, named price index (for example a specific PPI series), trigger threshold, cap and required paperwork. Have a construction contracts lawyer review it, and add a 'not legal advice' line.
-3. Add an H2 for L-021: 'How long should a construction bid be valid when prices keep changing?' Include a short table of validity periods by material volatility. Source it, or label it as Quotr estimator practice once Quotr confirms it.
-4. Cite AGC's January 2026 survey (40% raised bids because of tariffs, 32% bought early) with its date and link. Re-check it at agc.org first, because the vault saw it only through Perplexity.
-5. Add one Quotr worked example: a line-item bid that shows supplier quote-expiry dates and an escalation allowance, built in Quotr Software. Only claim features the Entity fact sheet confirms.
-6. Add an FAQ using the exact wording of L-020, L-021 and L-123. Link to the tariff-impact post (what tariffs do to costs) and to construction-cost-trends-2026. Add a named author (A7) and matching dates (A9). Then run L-020 and L-021 in Perplexity to get a first baseline.
+1. Open the live page. Record its title, byline, dates and every tariff rate or percentage it cites. Search it for the retired prices ('Solo', 'Team', '$499.90', 'from $299.90') and fix any hit under A2. Note any 'based in San Francisco' footer for A3.
+2. Add an H2 in L-020's words: 'How do you protect a bid from material price increases?' Answer in the first two sentences. Then list the parts of an escalation clause: base date, named price index (a specific PPI series), trigger threshold, cap and required paperwork. Have a construction lawyer or a named Quotr estimator review it (Q-56), and add a 'not legal advice' line.
+3. Add an H2 in L-021's words: 'How long should a construction bid be valid when prices keep changing?' Add a short table of validity periods by how volatile the material is. Source each period, or label it as Quotr estimator practice once Quotr confirms it.
+4. Take over L-123. Add an H2: 'How are contractors handling material price escalation in 2026?' Answer with AGC's January 2026 survey (40% raised bids, 32% bought early), with its date and link. Re-check it at agc.org, because the vault saw it only through Perplexity. Then point the L-123 note here, take L-123 off R-12, and ask the construction-cost-trends-2026 rewrite to link here.
+5. Add one worked example: a bid built in Quotr Software that compares supplier prices side by side (a feature the fact sheet confirms) and includes a dated escalation-allowance line. Do not claim quote-expiry tracking or any feature the Entity fact sheet does not list.
+6. Add an FAQ in the exact words of L-020, L-021 and L-123. Link to the tariff-impact post (what tariffs do to costs) and to construction-cost-trends-2026 (why costs rose). Add a named author (A7), matching dates (A9) and the A16 check. Run L-020, L-021 and L-123 once in Perplexity and record them as test runs.
 
 **Add to the page:**
-- H2: How do you protect a bid from material price increases? (escalation clause parts)
-- H2: How long should a construction bid be valid? (validity table)
+- H2 for L-020 on protecting a bid, listing the parts of an escalation clause
+- H2 for L-021 with a bid-validity table
+- H2 for L-123 on how contractors are handling escalation in 2026
 - Dated AGC survey figures with links
-- One Quotr worked bid example
-- FAQ using L-020, L-021 and L-123 wording
+- One worked bid example in Quotr Software, using confirmed features only
+- FAQ in the exact words of L-020, L-021 and L-123
 
-**Title:** The current title was not seen; the one on file comes from the slug. Use the buyer's words, for example: 'Material Price Escalation Clauses and Bid Validity: How to Protect Construction Bids From Tariffs and Price Swings'.  
-**Web address (URL):** Keep the URL. It has no year, it already contains 'material-escalation', and changing it would cost whatever rankings it has.
+**Title:** The live title was not seen; the one on file comes from the slug. Use the buyer's words, for example: 'Escalation Clauses and Bid Validity: How to Protect Construction Bids From Material Price Increases'. Put the year in the text and the 'Last updated' date, not in the title.  
+**Web address (URL):** Keep the URL. It has no year and already contains 'material-escalation'. A change would cost whatever rankings it has.
 
-**Related tasks:** [[A7 Named author bylines and author pages|A7]], [[A9 Sitemaps and lastmod dates|A9]], [[A16 Add a human edit and fact-check step for AI-assisted drafts|A16]]
+**Related tasks:** [[A2 Fact-fix sweep, part 1 - remove the old pricing everywhere|A2]], [[A3 Fact-fix sweep, part 2 - every other conflicting fact|A3]], [[A7 Named author bylines and author pages|A7]], [[A9 Sitemaps and lastmod dates|A9]], [[A16 Add a human edit and fact-check step for AI-assisted drafts|A16]]
 
-**Why now:** L-020 is a High-priority library prompt with no Quotr test yet (from vault prompt library). The fix is small and should ship alongside the November R-12 tariff rebuild, so the two tariff posts have clear, separate jobs. It is not urgent: no wrong facts are known.
+**Why now:** L-020 is a High-priority prompt with no test yet, and this post should also take L-123 (from vault prompt library). Ship it with the November R-12 rebuild so the two tariff posts have clear, separate jobs. The vault plan says KEEP with no action, but that plan was never checked against the page. No wrong facts are known, so it is not urgent.
 
 ## Sources
 

@@ -32,13 +32,13 @@ health_score: 60
 action: rewrite
 merge_into: ''
 priority: high
-rank: 32
+rank: 31
 status: todo
 ---
 # BP-50. Construction procurement software
 
 > [!abstract] In one line
-> Quotr's category post for procurement software, but Perplexity left Quotr out of every procurement-software answer it gave. Rebuild it as an honest buyer's guide that includes factory-direct sourcing (R-27).
+> Quotr's category post for procurement software, but Perplexity left Quotr out of all three procurement-software answers it gave. Rebuild it as an honest buyer's guide for E-013 with a factory-direct section (R-27).
 
 **Live page:** [Construction procurement software](https://quotr.ai/blog/construction-procurement-software/) *(title taken from the web address; the live title was not captured)*  
 **Published:** 2026-06-24 · **Cluster:** Best-of lists and buyer guides · **Format:** buyer's guide · **Funnel:** MOFU
@@ -59,10 +59,12 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 - **Visibility:** In the Perplexity tests, Quotr was absent and no quotr.ai URL was cited for S5/T42 (E-013), C9/T09 (E-006) or O5 (E-015). S5 named Procore, Archdesk, Trimble Materials, Buildertrend, Field Materials AI and Precoro. C9 named Buildertrend, Procore, Buildxact, esti-mate and ConWize. *(from 2026-09-25 AI tests)*
 - **Visibility:** Web index status was not checked, and no search result for this URL is recorded. *(from 2026-09-25 audit)*
-- **Uniqueness:** The O5 answer said no platform is 'explicitly marketed as a factory-direct marketplace'. Quotr Procurement could fill that gap. *(from 2026-09-25 AI tests (O5))*
-- **Uniqueness:** R-27 plans to target E-006 with this post, but E-006 already belongs to takeoff-to-buyout-construction-estimating-procurement-platform (R-13). The agreed overlap map (G06) keeps the two separate, so each needs its own prompts. *(from vault prompt library (E-006, R-27, R-13))*
-- **Trust:** The AI answers cited procurement lists from Capterra, Field Materials, Archdesk, WorldMetrics, Gitnux and WifiTalents. None of them names Quotr. Quotr's own page alone may not win this prompt. *(from 2026-09-25 AI tests; from 2026-09-25 audit (Off-site presence))*
-- **Accuracy:** Nobody has read the post. Quotr's procurement facts conflict elsewhere (50+ vs 220+ factories; 40-55% vs 'up to 50%' savings). If this post repeats them, it inherits the conflict. *(inferred (Entity fact sheet 1c))*
+- **Visibility:** The answers cited procurement lists from Capterra, Field Materials, Archdesk, WorldMetrics, Gitnux and WifiTalents. None of them names Quotr. Field Materials and Archdesk are vendors with their own products in the category. Quotr's own page alone may not win this prompt. *(from 2026-09-25 AI tests; from 2026-09-25 audit (Off-site presence))*
+- **Uniqueness:** The O5 answer said no platform is 'explicitly marketed as a factory-direct marketplace'. Quotr Procurement could fill that gap. E-015 itself points to /procurement/, not to this post. *(from 2026-09-25 AI tests (O5); from vault prompt library (E-015))*
+- **Uniqueness:** R-27 plans to target E-006 with this post, but E-006 already belongs to takeoff-to-buyout-construction-estimating-procurement-platform (R-13). The overlap map (G06) keeps the two posts separate and gives E-006 to the keeper only. *(from vault prompt library (E-006); from 2026-09-25 audit (roadmap R-27, R-13))*
+- **Accuracy:** Nobody has read the post. Quotr's procurement facts conflict elsewhere (50+ vs 220+ factories; 40-55% vs 'up to 50%' savings). If this post repeats them, it inherits the conflict. It was also never checked for retired software prices. *(inferred (Entity fact sheet; Q-59))*
+- **Trust:** Byline and sources were not recorded. *(from 2026-09-25 audit (fields not recorded))*
+- **Structure:** The layout was not seen. The structure score is a placeholder. *(inferred)*
 - **Freshness:** Sitemap date is 2026-06-24, and there is no year in the slug. *(from 2026-09-25 audit)*
 
 ## Search and AI visibility
@@ -74,15 +76,15 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## What to do
 
-**Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 32
+**Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 31
 
-1. Re-scope before writing. Target E-013 (T42) and the factory-direct question E-015. Leave E-006 (T09) to the takeoff-to-buyout post and link to it. If the consultant agrees, update R-27's target_prompts in the vault.
-2. Open the live page and write down the title, byline, date, the tools listed and every Quotr claim (factory count, savings, delivery area).
+1. Re-scope before writing. Target E-013 (T42). Leave E-006 (T09) to the takeoff-to-buyout post (R-13) and link to it. Cover the factory-direct angle in one section, but leave E-015 to /procurement/. If the consultant agrees, remove E-006 from R-27's target_prompts in the vault.
+2. Open the live page and write down the title, byline, date, the tools listed and every Quotr claim (factory count, savings, delivery area). Search it for 'Solo', 'Team (2', '$499.90' and 'from $299.90' too.
 3. Build a neutral comparison table of the tools AI named: Procore, Archdesk, Trimble, Buildertrend, Field Materials AI, Precoro, Buildxact, esti-mate and ConWize. Group them by type: PO and ERP purchasing, supplier marketplace, or estimating with procurement. Check each on the vendor's site and date it.
 4. Add a 'Factory-direct sourcing' section. Describe Quotr Procurement as a managed sourcing program that sits alongside the software. Use the /procurement/ project examples, labelled 'Quotr reports' (for example Myren Dr, Saratoga: $97,000 against a $187K-$218K Bay Area market price). Leave out factory counts, savings percentages and the $354K / $396K-$626K totals until A1 and A3 settle them (Q-09, Q-10).
 5. Add a 'When another tool fits better' section (for example, self-performing GCs who need ERP purchasing and inventory). Add a publisher disclosure line and a named author (A7).
-6. Link to /procurement/, takeoff-to-buyout-construction-estimating-procurement-platform, construction-procurement-process, ddp-construction-materials and how-developers-source-building-materials.
-7. Pair the rebuild with off-site work. Under C5, pitch Quotr to the procurement lists AI cited (Capterra, Field Materials, WorldMetrics, Gitnux, WifiTalents).
+6. Link to /procurement/, takeoff-to-buyout-construction-estimating-procurement-platform, construction-procurement-process, ddp-construction-materials and how-developers-source-building-materials (cited in S6). Link R-08, the factory-direct explainer, when it goes live (B8).
+7. Pair the rebuild with off-site work. Under C5, pitch the independent lists AI cited (WorldMetrics, Gitnux, WifiTalents). Skip Field Materials and Archdesk, which list their own products. Create the Capterra listing with a procurement category (A14).
 
 **Add to the page:**
 - Neutral tool table grouped by type, with dated facts
@@ -93,9 +95,9 @@ Not captured: the post did not come up in the web searches we could run. See the
 **Title:** Nobody has seen the live title. R-27's working title works without the year: 'Construction procurement software: a buyer's guide, including factory-direct options', with a visible 'Checked [month year]' line. Add '2026' only if every entry is re-checked that year.  
 **Web address (URL):** Keep the URL. It has no year; do not add one in the rebuild.
 
-**Related tasks:** [[A3 Fact-fix sweep, part 2 - every other conflicting fact|A3]], [[A7 Named author bylines and author pages|A7]], [[C5 Tier B and procurement-category list outreach|C5]], [[B8 Procurement and tariff decision guides|B8]]
+**Related tasks:** [[A3 Fact-fix sweep, part 2 - every other conflicting fact|A3]], [[A7 Named author bylines and author pages|A7]], [[A14 Launch the G2 review program|A14]], [[B8 Procurement and tariff decision guides|B8]], [[C5 Tier B and procurement-category list outreach|C5]]
 
-**Why now:** E-013 is tracked every month (T42, baseline Absent), so each month without a real page is another Absent result. The rebuild is booked for December 2026 (R-27), the same month as the C5 list outreach.
+**Why now:** E-013 is in the monthly tracking set (T42) and was Absent at baseline. Until the page changes, the next runs will likely stay Absent (inferred). The rebuild is booked for December 2026 (R-27, P2), the same month as the C5 list outreach. Settle the E-006 split with R-13 in November first.
 
 ## Overlaps with other Quotr posts
 

@@ -33,13 +33,13 @@ health_score: 43
 action: merge
 merge_into: '[[BP-45 what is ai construction estimating software]]'
 priority: medium
-rank: 48
+rank: 43
 status: todo
 ---
 # BP-71. How ai construction takeoff works in 2026
 
 > [!abstract] In one line
-> A bulk-dated '2026' explainer that has not been seen in search or AI tests. Merge it into the 'what is' explainer now instead of re-slugging it in 2027.
+> A bulk-dated '2026' explainer that has not been checked in search and never appeared in AI tests. Merge it into the 'what is' explainer now, rather than re-slugging it in 2027.
 
 **Live page:** [How ai construction takeoff works in 2026](https://quotr.ai/blog/how-ai-construction-takeoff-works-in-2026/) *(title taken from the web address; the live title was not captured)*  
 **Published:** 2026-07-24 (bulk date, real date unknown) · **Cluster:** AI explainers · **Format:** explainer · **Funnel:** TOFU
@@ -56,11 +56,11 @@ Not captured: the post did not come up in the web searches we could run. See the
 |---|---|---|---|---|---|
 | 1 | 3 | 3 | 3 | 2 | 1 |
 
-- **Freshness:** The slug carries '2026', so the URL will look dated in about three months. *(from 2026-09-25 audit)*
+- **Freshness:** The slug carries '2026', so the URL will look dated in about three months. Whether the title also has the year is unknown. *(from 2026-09-25 audit)*
 - **Freshness:** Its sitemap date (2026-07-24) is a bulk-reset date, so the real publish date is unknown. *(from 2026-09-25 audit)*
 - **Freshness:** Reported 2026 visibility losses hit posts that were 'lightly refreshed with 2026 in the title' (QUALITY-11, RANK-07). Re-dating this post would fit that pattern. Applying this to this post is an inference. *(inferred)*
-- **Visibility:** It was not checked in web search (search limit reached). No AI test or search sighting is recorded, and L-038 is marked 'not tested or seen yet'. Visibility is unknown. *(from vault prompt library)*
-- **Uniqueness:** L-038 is mapped to both this post and how-ai-construction-estimating-works. The agreed map (G09) merges both into the 'what is' post. This replaces the vault's earlier plan: 'KEEP, real update in 2027 with a year-free URL'. *(from 2026-09-25 audit)*
+- **Visibility:** It was not checked in web search, because the search limit had been reached. No AI test or search sighting is recorded, and L-038 is marked 'not tested or seen yet'. Visibility is unknown, so it is scored 2. *(from vault prompt library)*
+- **Uniqueness:** L-038 is mapped to both this post and how-ai-construction-estimating-works, and its note points here. The agreed map (G09) merges both into the 'what is' post, but only if Search Console shows this post earns nothing the keeper cannot hold. This replaces the vault's earlier plan: 'KEEP, real update in 2027 with a year-free URL'. *(from vault prompt library)*
 - **Accuracy:** The page, title and byline were not seen, so accuracy, trust and structure are scored neutral. *(inferred)*
 
 ## Search and AI visibility
@@ -72,25 +72,25 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## What to do
 
-**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 48
+**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 43
 
 **Merge into:** [[BP-45 what is ai construction estimating software]]
 
-1. Run URL Inspection and pull Search Console data. Indexing is unknown, and this URL is currently L-038's mapped page.
-2. Read the live page. Move any takeoff detail the other two posts lack (for example setting scale, matching the symbol legend, area detection) into the keep post's 'How AI takeoff works' H2. Leave out all '2026' wording.
+1. Run URL Inspection and pull 3 months of Search Console data. G09 attaches a condition to this merge. If the post earns 'how AI takeoff works' impressions the keeper cannot hold, stop: keep it as L-038's page and move it to a year-free URL at its first real update.
+2. Read the live page. Move any takeoff detail the other two posts lack into the keep post's 'How AI takeoff works' H2, for example setting scale, matching the symbol legend or area detection. Leave out all '2026' wording, and check for retired Solo/Team prices (A2 terms) before copying.
 3. 301 it to [[BP-45 what is ai construction estimating software|BP-45]] (/what-is-ai-construction-estimating-software/) in the same release as the keep post's rewrite. Remove it from the blog sitemap and repoint internal links.
-4. In the vault, change L-038's Quotr page to the keep URL. Update the Optimize vs create row that says 'KEEP (real update in 2027)' and log the change.
+4. In the vault, change L-038's Quotr page to the keep URL. Update the Optimize vs create row that says 'KEEP (real update in 2027)', and log the change in the Changelog.
 5. Until the merge, do not re-date or retitle this post.
 
 **Add to the page:**
 - Any takeoff-specific steps not already in the keep post, without year wording
 
 **Title:** Retire the title. Do not carry '2026' into any heading of the merged page.  
-**Web address (URL):** 301 it to what-is-ai-construction-estimating-software. That removes the year-in-URL problem before 2027 without a separate re-slug. Do it after the September 2026 spam update ends (about 2026-10-08).
+**Web address (URL):** 301 it to what-is-ai-construction-estimating-software after the September 2026 spam update ends (about 2026-10-08). That removes the year-in-URL problem before 2027 without a separate re-slug. If Search Console says to keep it, move it to a year-free URL at its first real update instead.
 
-**Related tasks:** [[A12 Merge duplicate pages|A12]]
+**Related tasks:** [[A12 Merge duplicate pages|A12]], [[A2 Fact-fix sweep, part 1 - remove the old pricing everywhere|A2]]
 
-**Why now:** The '2026' slug expires in three months, and the vault's plan to re-slug it in 2027 would mean a second redirect later. Merging now fixes both the overlap and the year in one move, at little cost.
+**Why now:** The '2026' slug expires in three months. The vault's plan to re-slug it in 2027 would mean a second redirect later. Merging now fixes both the overlap and the year in one move, at little cost.
 
 ## Overlaps with other Quotr posts
 

@@ -11,112 +11,114 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 | 3 | BP-81 | https://quotr.ai/blog/best-planswift-alternatives-2026/ | update |  | high | poor (50) | cited by AI, no Quotr data, overlap, self-ranked first, year in URL, year in title | todo |
 | 4 | BP-32 | https://quotr.ai/blog/best-togal-ai-alternatives/ | rewrite |  | high | poor (53) | cited by AI, no Quotr data, overlap, self-ranked first, year in title | todo |
 | 5 | BP-62 | https://quotr.ai/blog/ddp-construction-materials/ | rewrite |  | high | poor (53) | cited by AI, no Quotr data | todo |
-| 6 | BP-59 | https://quotr.ai/blog/how-developers-source-building-materials/ | update |  | high | fair (60) | cited by AI, overlap | todo |
+| 6 | BP-59 | https://quotr.ai/blog/how-developers-source-building-materials/ | update |  | high | fair (57) | cited by AI, overlap | todo |
 | 7 | BP-12 | https://quotr.ai/blog/is-ai-takeoff-actually-accurate-yet/ | update |  | high | fair (67) | cited by AI, unsourced stats | todo |
 | 8 | BP-17 | https://quotr.ai/blog/how-to-do-construction-takeoff-pdf-blueprint/ | update |  | high | fair (70) | cited by AI, no Quotr data, overlap | todo |
 | 9 | BP-87 | https://quotr.ai/blog/quantity-takeoff-services/ | update |  | high | fair (70) | cited by AI, overlap, year in title | todo |
 | 10 | BP-56 | https://quotr.ai/blog/how-to-estimate-plumbing-from-drawings/ | update |  | high | fair (73) | cited by AI | todo |
-| 11 | BP-82 | https://quotr.ai/blog/outsource-construction-estimating/ | update |  | high | fair (73) | cited by AI, overlap, year in title | todo |
+| 11 | BP-82 | https://quotr.ai/blog/outsource-construction-estimating/ | update |  | high | good (77) | cited by AI, overlap, year in title | todo |
 | 12 | BP-43 | https://quotr.ai/blog/best-togal-ai-alternatives-2026/ | merge | BP-32 best togal ai alternatives | high | poor (37) | brand byline, cited by AI, date mismatch, old price, overlap, self-ranked first, unsourced stats, year in URL, year in title | todo |
 | 13 | BP-80 | https://quotr.ai/blog/best-ai-bid-software-for-construction/ | merge | BP-47 ai bidding software construction | high | poor (37) | old price, overlap | todo |
-| 14 | BP-46 | https://quotr.ai/blog/best-electrical-estimating-software-2026/ | rewrite |  | high | poor (40) | old price, overlap, year in URL | todo |
+| 14 | BP-46 | https://quotr.ai/blog/best-electrical-estimating-software-2026/ | rewrite |  | high | poor (40) | cited by AI, old price, overlap, year in URL | todo |
 | 15 | BP-24 | https://quotr.ai/blog/best-ai-construction-estimating-software-2026/ | rewrite |  | high | poor (43) | cited by AI, old price, overlap, self-ranked first, unsourced stats, year in URL | todo |
 | 16 | BP-48 | https://quotr.ai/blog/best-flooring-estimating-software-in-2026/ | rewrite |  | high | poor (43) | old price, year in URL | todo |
 | 17 | BP-85 | https://quotr.ai/blog/commercial-estimating-services/ | update |  | high | fair (67) | cited by AI, overlap, year in title | todo |
 | 18 | BP-19 | https://quotr.ai/blog/ai-construction-estimating-software-buyers-guide/ | merge | BP-24 best ai construction estimating software 2026 | high | poor (37) | cited by AI, old price, overlap | todo |
-| 19 | BP-47 | https://quotr.ai/blog/ai-bidding-software-construction/ | rewrite |  | high | poor (40) | cited by AI, old price, overlap | todo |
+| 19 | BP-47 | https://quotr.ai/blog/ai-bidding-software-construction/ | update |  | high | poor (40) | cited by AI, old price, overlap | todo |
 | 20 | BP-23 | https://quotr.ai/blog/tariff-impact-construction-costs-2026-steel-aluminum-copper/ | rewrite |  | high | poor (47) | no Quotr data, overlap, year in URL | todo |
-| 21 | BP-54 | https://quotr.ai/blog/best-concrete-estimating-software-2026/ | update |  | high | poor (47) | old price, overlap, year in URL | todo |
+| 21 | BP-54 | https://quotr.ai/blog/best-concrete-estimating-software-2026/ | update |  | high | poor (47) | old price, year in URL | todo |
 | 22 | BP-76 | https://quotr.ai/blog/best-glazing-estimating-software-2026/ | update |  | high | poor (47) | old price, year in URL | todo |
 | 23 | BP-33 | https://quotr.ai/blog/hvac-estimating-software-2026-buyers-guide/ | rewrite |  | high | poor (50) | year in URL | todo |
 | 24 | BP-55 | https://quotr.ai/blog/best-drywall-estimating-software-in-2026/ | rewrite |  | high | poor (50) | year in URL, year in title | todo |
 | 25 | BP-15 | https://quotr.ai/blog/quotr-vs-togal-ai-comparison-2026/ | update |  | high | poor (53) | brand byline, cited by AI, leftover brief text, no Quotr data, overlap, unsourced stats, year in URL, year in title | todo |
 | 26 | BP-34 | https://quotr.ai/blog/quotr-ai-vs-stack-browser-first-takeoff-procurement/ | update |  | high | poor (53) | brand byline, cited by AI, overlap | todo |
 | 27 | BP-83 | https://quotr.ai/blog/rebar-estimating-and-takeoff-software/ | update |  | high | poor (53) | old price | todo |
-| 28 | BP-61 | https://quotr.ai/blog/reduce-construction-material-costs/ | rewrite |  | high | fair (57) | no Quotr data | todo |
+| 28 | BP-18 | https://quotr.ai/blog/ai-that-reads-construction-drawings-chat-with-blueprints/ | update |  | high | fair (57) | overlap, unsourced stats | todo |
 | 29 | BP-77 | https://quotr.ai/blog/structural-steel-estimating/ | update |  | high | fair (57) | cited by AI, old price | todo |
-| 30 | BP-18 | https://quotr.ai/blog/ai-that-reads-construction-drawings-chat-with-blueprints/ | update |  | high | fair (60) | overlap, unsourced stats | todo |
-| 31 | BP-38 | https://quotr.ai/blog/takeoff-to-buyout-construction-estimating-procurement-platform/ | rewrite |  | high | fair (60) | overlap | todo |
-| 32 | BP-50 | https://quotr.ai/blog/construction-procurement-software/ | rewrite |  | high | fair (60) | overlap | todo |
+| 30 | BP-38 | https://quotr.ai/blog/takeoff-to-buyout-construction-estimating-procurement-platform/ | rewrite |  | high | fair (60) | overlap | todo |
+| 31 | BP-50 | https://quotr.ai/blog/construction-procurement-software/ | rewrite |  | high | fair (60) | overlap | todo |
+| 32 | BP-61 | https://quotr.ai/blog/reduce-construction-material-costs/ | rewrite |  | high | fair (60) | no Quotr data | todo |
 | 33 | BP-20 | https://quotr.ai/blog/quotr-ai-vs-planswift-ai-takeoff-procurement-comparison-2026/ | update |  | high | poor (43) | cited by AI, date mismatch, old price (to check), overlap, unsourced stats, year in URL, year in title | todo |
 | 34 | BP-39 | https://quotr.ai/blog/quotr-ai-vs-beam-ai-takeoff-estimating-comparison/ | update |  | high | poor (50) | cited by AI, not in web search, overlap | todo |
-| 35 | BP-89 | https://quotr.ai/blog/precon-on-demand-outsource-bid-cost-estimation/ | merge | BP-86 preconstruction services | high | poor (50) | overlap | todo |
-| 36 | BP-91 | https://quotr.ai/blog/electrical-estimating-services/ | update |  | high | fair (57) | overlap | todo |
-| 37 | BP-93 | https://quotr.ai/blog/new-pricing/ | update |  | high | fair (73) | cited by AI | todo |
-| 38 | BP-70 | https://quotr.ai/blog/construction-costs-surged-12-6-in-2026-how-ai-estimation-helps/ | merge | BP-03 construction cost trends 2026 | medium | poor (37) | no Quotr data, overlap, unsourced stats, year in URL | todo |
-| 39 | BP-05 | https://quotr.ai/blog/construction-takeoff-guide/ | merge | BP-17 how to do construction takeoff pdf blueprint | medium | poor (40) | not in web search, overlap | todo |
-| 40 | BP-13 | https://quotr.ai/blog/blueprint-to-priced-estimate-workflow/ | merge | BP-17 how to do construction takeoff pdf blueprint | medium | poor (40) | not in web search, overlap | todo |
-| 41 | BP-27 | https://quotr.ai/blog/state-of-ai-in-preconstruction-2026-adoption-roi-enr-top-400-gcs/ | rewrite |  | medium | poor (40) | brand byline, leftover brief text, no Quotr data, overlap, year in URL, year in title | todo |
-| 42 | BP-66 | https://quotr.ai/blog/ai-construction-estimating-software-that-turns-plans-into-prices-in-minutes/ | rewrite |  | medium | poor (40) | date mismatch, overlap | todo |
-| 43 | BP-04 | https://quotr.ai/blog/how-to-price-construction-job/ | rewrite |  | medium | poor (43) | not in web search, overlap | todo |
-| 44 | BP-06 | https://quotr.ai/blog/quotr-vs-traditional-estimating/ | merge | BP-26 quotr vs excel | medium | poor (43) | not in web search, overlap | todo |
-| 45 | BP-25 | https://quotr.ai/blog/quotr-developer-desk-underwriting-grade-estimates-72-hours/ | rewrite |  | medium | poor (43) |  | todo |
-| 46 | BP-44 | https://quotr.ai/blog/flooring-trades-how-to-quote-flooring-jobs-and-win-more-work/ | update |  | medium | poor (43) | no Quotr data, not in web search, overlap | todo |
-| 47 | BP-60 | https://quotr.ai/blog/what-is-construction-procurement-2026-guide/ | merge | BP-69 construction procurement process | medium | poor (43) | overlap, year in URL | todo |
-| 48 | BP-71 | https://quotr.ai/blog/how-ai-construction-takeoff-works-in-2026/ | merge | BP-45 what is ai construction estimating software | medium | poor (43) | overlap, year in URL | todo |
-| 49 | BP-74 | https://quotr.ai/blog/metric-imperial-construction-takeoff/ | update |  | medium | poor (43) | date mismatch, not in web search | todo |
-| 50 | BP-02 | https://quotr.ai/blog/the-takeoff-to-transaction-gap/ | merge | BP-38 takeoff to buyout construction estimating procurement platform | medium | poor (47) | overlap | todo |
-| 51 | BP-10 | https://quotr.ai/blog/construction-estimating-mistakes-to-avoid/ | rewrite |  | medium | poor (47) | not in web search, overlap | todo |
-| 52 | BP-26 | https://quotr.ai/blog/quotr-vs-excel/ | update |  | medium | poor (47) | not in web search, overlap | todo |
-| 53 | BP-37 | https://quotr.ai/blog/electrical-estimating-software-buyers-guide/ | merge | BP-46 best electrical estimating software 2026 | medium | poor (47) | overlap | todo |
-| 54 | BP-72 | https://quotr.ai/blog/how-rl-electric-cut-estimating-time-with-ai-powered-takeoffs/ | merge |  | medium | poor (47) | date mismatch, overlap, thin | todo |
-| 55 | BP-03 | https://quotr.ai/blog/construction-cost-trends-2026/ | rewrite |  | medium | poor (50) | no Quotr data, overlap, year in URL | todo |
-| 56 | BP-08 | https://quotr.ai/blog/ai-construction-proposals-takeoff-to-proposal/ | update |  | medium | poor (50) | overlap | todo |
-| 57 | BP-11 | https://quotr.ai/blog/how-ai-construction-estimating-works/ | merge | BP-45 what is ai construction estimating software | medium | poor (50) | not in web search, overlap | todo |
-| 58 | BP-35 | https://quotr.ai/blog/construction-cost-index-q1-2026-ppi-rsmeans-mortenson/ | rewrite |  | medium | poor (50) | no Quotr data, year in URL | todo |
-| 59 | BP-88 | https://quotr.ai/blog/sourcing-building-materials-china-cbd-fair-2026/ | rewrite |  | medium | poor (50) | event recap, overlap, year in URL | todo |
-| 60 | BP-45 | https://quotr.ai/blog/what-is-ai-construction-estimating-software/ | rewrite |  | medium | poor (53) | not in web search, overlap | todo |
-| 61 | BP-49 | https://quotr.ai/blog/construction-proforma-software/ | merge | BP-22 real estate pro forma software comparison | medium | poor (53) | overlap | todo |
-| 62 | BP-53 | https://quotr.ai/blog/how-subcontractors-bid-gcs-without-giving-away-margin/ | merge | BP-28 how to bid commercial construction projects subcontractor estimating takeoff guide | medium | poor (53) | not in web search, overlap | todo |
-| 63 | BP-79 | https://quotr.ai/blog/construction-estimating-services/ | merge | BP-82 outsource construction estimating | medium | poor (53) | overlap | todo |
+| 35 | BP-88 | https://quotr.ai/blog/sourcing-building-materials-china-cbd-fair-2026/ | rewrite |  | high | poor (50) | event recap, overlap, year in URL | todo |
+| 36 | BP-93 | https://quotr.ai/blog/new-pricing/ | update |  | high | fair (73) | cited by AI | todo |
+| 37 | BP-70 | https://quotr.ai/blog/construction-costs-surged-12-6-in-2026-how-ai-estimation-helps/ | merge | BP-03 construction cost trends 2026 | medium | poor (37) | overlap, unsourced stats, year in URL | todo |
+| 38 | BP-27 | https://quotr.ai/blog/state-of-ai-in-preconstruction-2026-adoption-roi-enr-top-400-gcs/ | update |  | medium | poor (40) | brand byline, leftover brief text, no Quotr data, overlap, year in URL, year in title | todo |
+| 39 | BP-06 | https://quotr.ai/blog/quotr-vs-traditional-estimating/ | merge | BP-26 quotr vs excel | medium | poor (43) | not in web search, overlap | todo |
+| 40 | BP-25 | https://quotr.ai/blog/quotr-developer-desk-underwriting-grade-estimates-72-hours/ | rewrite |  | medium | poor (43) |  | todo |
+| 41 | BP-60 | https://quotr.ai/blog/what-is-construction-procurement-2026-guide/ | merge | BP-69 construction procurement process | medium | poor (43) | overlap, year in URL | todo |
+| 42 | BP-66 | https://quotr.ai/blog/ai-construction-estimating-software-that-turns-plans-into-prices-in-minutes/ | update |  | medium | poor (43) | date mismatch, overlap | todo |
+| 43 | BP-71 | https://quotr.ai/blog/how-ai-construction-takeoff-works-in-2026/ | merge | BP-45 what is ai construction estimating software | medium | poor (43) | overlap, year in URL | todo |
+| 44 | BP-74 | https://quotr.ai/blog/metric-imperial-construction-takeoff/ | update |  | medium | poor (43) | date mismatch, not in web search | todo |
+| 45 | BP-04 | https://quotr.ai/blog/how-to-price-construction-job/ | rewrite |  | medium | poor (47) | not in web search, overlap | todo |
+| 46 | BP-05 | https://quotr.ai/blog/construction-takeoff-guide/ | merge | BP-17 how to do construction takeoff pdf blueprint | medium | poor (47) | not in web search, overlap | todo |
+| 47 | BP-10 | https://quotr.ai/blog/construction-estimating-mistakes-to-avoid/ | rewrite |  | medium | poor (47) | not in web search, overlap | todo |
+| 48 | BP-13 | https://quotr.ai/blog/blueprint-to-priced-estimate-workflow/ | merge | BP-17 how to do construction takeoff pdf blueprint | medium | poor (47) | not in web search, overlap | todo |
+| 49 | BP-26 | https://quotr.ai/blog/quotr-vs-excel/ | update |  | medium | poor (47) | not in web search, overlap | todo |
+| 50 | BP-37 | https://quotr.ai/blog/electrical-estimating-software-buyers-guide/ | merge | BP-46 best electrical estimating software 2026 | medium | poor (47) | overlap | todo |
+| 51 | BP-44 | https://quotr.ai/blog/flooring-trades-how-to-quote-flooring-jobs-and-win-more-work/ | update |  | medium | poor (47) | no Quotr data, not in web search, overlap | todo |
+| 52 | BP-72 | https://quotr.ai/blog/how-rl-electric-cut-estimating-time-with-ai-powered-takeoffs/ | merge | https://quotr.ai/case-studies/rl-electric/ | medium | poor (47) | date mismatch, overlap | todo |
+| 53 | BP-02 | https://quotr.ai/blog/the-takeoff-to-transaction-gap/ | merge | BP-38 takeoff to buyout construction estimating procurement platform | medium | poor (50) | overlap | todo |
+| 54 | BP-03 | https://quotr.ai/blog/construction-cost-trends-2026/ | rewrite |  | medium | poor (50) | no Quotr data, overlap, year in URL | todo |
+| 55 | BP-11 | https://quotr.ai/blog/how-ai-construction-estimating-works/ | merge | BP-45 what is ai construction estimating software | medium | poor (50) | not in web search, overlap | todo |
+| 56 | BP-35 | https://quotr.ai/blog/construction-cost-index-q1-2026-ppi-rsmeans-mortenson/ | rewrite |  | medium | poor (50) | no Quotr data, year in URL | todo |
+| 57 | BP-89 | https://quotr.ai/blog/precon-on-demand-outsource-bid-cost-estimation/ | merge | BP-86 preconstruction services | medium | poor (50) | overlap | todo |
+| 58 | BP-08 | https://quotr.ai/blog/ai-construction-proposals-takeoff-to-proposal/ | update |  | medium | poor (53) | overlap | todo |
+| 59 | BP-45 | https://quotr.ai/blog/what-is-ai-construction-estimating-software/ | rewrite |  | medium | poor (53) | not in web search, overlap | todo |
+| 60 | BP-52 | https://quotr.ai/blog/best-plumbing-estimating-software-2026/ | update |  | medium | poor (53) | year in URL | todo |
+| 61 | BP-53 | https://quotr.ai/blog/how-subcontractors-bid-gcs-without-giving-away-margin/ | merge | BP-28 how to bid commercial construction projects subcontractor estimating takeoff guide | medium | poor (53) | not in web search, overlap | todo |
+| 62 | BP-79 | https://quotr.ai/blog/construction-estimating-services/ | merge | BP-82 outsource construction estimating | medium | poor (53) | overlap | todo |
+| 63 | BP-92 | https://quotr.ai/blog/scope-gap-construction/ | update |  | medium | poor (53) | broken link, date mismatch, named author, not in web search, unsourced stats | todo |
 | 64 | BP-22 | https://quotr.ai/blog/real-estate-pro-forma-software-comparison/ | update |  | medium | fair (57) | overlap | todo |
-| 65 | BP-52 | https://quotr.ai/blog/best-plumbing-estimating-software-2026/ | update |  | medium | fair (57) | year in URL | todo |
+| 65 | BP-49 | https://quotr.ai/blog/construction-proforma-software/ | merge | BP-22 real estate pro forma software comparison | medium | fair (57) | overlap | todo |
 | 66 | BP-67 | https://quotr.ai/blog/chatgpt-for-construction-estimating/ | rewrite |  | medium | fair (57) | overlap | todo |
 | 67 | BP-69 | https://quotr.ai/blog/construction-procurement-process/ | update |  | medium | fair (57) | overlap | todo |
 | 68 | BP-90 | https://quotr.ai/blog/outsourcing-vs-hiring-an-estimator/ | update |  | medium | fair (57) | not in web search, overlap | todo |
-| 69 | BP-92 | https://quotr.ai/blog/scope-gap-construction/ | update |  | medium | fair (57) | broken link, date mismatch, named author, not in web search, unsourced stats | todo |
-| 70 | BP-96 | https://quotr.ai/blog/quotr-service-estimates/ | update |  | medium | fair (57) | unsourced stats | todo |
-| 71 | BP-29 | https://quotr.ai/blog/the-proforma-that-never-stops-changing/ | update |  | medium | fair (60) | overlap | todo |
+| 69 | BP-96 | https://quotr.ai/blog/quotr-service-estimates/ | update |  | medium | fair (57) | unsourced stats | todo |
+| 70 | BP-29 | https://quotr.ai/blog/the-proforma-that-never-stops-changing/ | update |  | medium | fair (60) | overlap | todo |
+| 71 | BP-31 | https://quotr.ai/blog/tariff-aware-estimating-material-escalation-every-bid/ | update |  | medium | fair (60) | overlap | todo |
 | 72 | BP-84 | https://quotr.ai/blog/construction-estimating-services-california/ | update |  | medium | fair (60) | overlap | todo |
 | 73 | BP-86 | https://quotr.ai/blog/preconstruction-services/ | update |  | medium | fair (60) | overlap, year in title | todo |
-| 74 | BP-94 | https://quotr.ai/blog/hvac-estimating-services/ | update |  | medium | fair (60) | overlap | todo |
-| 75 | BP-31 | https://quotr.ai/blog/tariff-aware-estimating-material-escalation-every-bid/ | update |  | medium | fair (63) | no Quotr data, overlap | todo |
-| 76 | BP-64 | https://quotr.ai/blog/trade-estimating-software/ | update |  | medium | fair (63) |  | todo |
+| 74 | BP-91 | https://quotr.ai/blog/electrical-estimating-services/ | update |  | medium | fair (60) | overlap | todo |
+| 75 | BP-94 | https://quotr.ai/blog/hvac-estimating-services/ | update |  | medium | fair (60) | overlap | todo |
+| 76 | BP-64 | https://quotr.ai/blog/trade-estimating-software/ | update |  | medium | fair (63) | overlap | todo |
 | 77 | BP-95 | https://quotr.ai/blog/mep-estimating-services/ | update |  | medium | fair (63) | overlap | todo |
 | 78 | BP-21 | https://quotr.ai/blog/how-to-estimate-electrical-work-from-drawings-conduit-devices-labor/ | update |  | medium | fair (67) |  | todo |
 | 79 | BP-42 | https://quotr.ai/blog/how-to-estimate-hvac-sheet-metal-mechanical-plan/ | update |  | medium | fair (67) |  | todo |
 | 80 | BP-28 | https://quotr.ai/blog/how-to-bid-commercial-construction-projects-subcontractor-estimating-takeoff-guide/ | update |  | medium | fair (70) | no Quotr data, overlap | todo |
 | 81 | BP-36 | https://quotr.ai/blog/how-to-estimate-drywall-framing-commercial-floor-plan/ | update |  | low | fair (63) |  | todo |
 | 82 | BP-16 | https://quotr.ai/blog/construction-labor-shortage-ai-adoption-2026/ | update |  | low | poor (47) | overlap, year in URL | todo |
-| 83 | BP-65 | https://quotr.ai/blog/ai-agent-for-construction/ | update |  | low | poor (50) | overlap | todo |
+| 83 | BP-65 | https://quotr.ai/blog/ai-agent-for-construction/ | update |  | low | poor (53) | overlap | todo |
 | 84 | BP-73 | https://quotr.ai/blog/ibs-2026-from-the-magic-of-orlando-to-the-reality-of-ai-implementation/ | update |  | low | poor (53) | date mismatch, event recap, year in URL | todo |
 | 85 | BP-75 | https://quotr.ai/blog/the-architects-survival-guide-unlocking-new-revenue-streams-in-pre-construction/ | update |  | low | fair (57) |  | todo |
 | 86 | BP-78 | https://quotr.ai/blog/pcbc-2026-recap-quotr-ai-takeoff-service/ | update |  | low | fair (57) | event recap, year in URL | todo |
 | 87 | BP-01 | https://quotr.ai/blog/vanderbilt-classroom/ | update |  | low | fair (60) |  | todo |
-| 88 | BP-41 | https://quotr.ai/blog/data-center-construction-estimating-mep-subcontractor-choke-point/ | update |  | low | fair (60) | no Quotr data | todo |
+| 88 | BP-41 | https://quotr.ai/blog/data-center-construction-estimating-mep-subcontractor-choke-point/ | update |  | low | fair (60) |  | todo |
+| 89 | BP-63 | https://quotr.ai/blog/ai-agents-for-construction-procurement-and-buyout/ | update |  | low | fair (63) |  | todo |
+| 90 | BP-68 | https://quotr.ai/blog/hospitality-procurement-consolidated-sourcing/ | update |  | low | fair (67) |  | todo |
 
 ## All articles, by publish date
 
 | ID | Title | Published | Cluster | Format | Byline | Main buyer question | In web search | Cited by AI | Old price | Health | Action | Status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | BP-01 | Vanderbilt classroom | 2025-12-19 | Company news, customer stories and event recaps | customer story | unknown | AI construction estimating software for construction education | not checked | No | unknown | fair (60) | update | todo |
-| BP-02 | The takeoff to transaction gap | 2026-03-24 | Procurement and sourcing | opinion or thought leadership | unknown | software that goes from takeoff all the way to purchase order | not checked | No | unknown | poor (47) | merge | todo |
+| BP-02 | The takeoff to transaction gap | 2026-03-24 | Procurement and sourcing | opinion or thought leadership | unknown | software that goes from takeoff all the way to purchase order | not checked | No | unknown | poor (50) | merge | todo |
 | BP-03 | Construction cost trends 2026 | 2026-04-02 | Cost and market data | data or market report | unknown | construction cost trends 2026 | not checked | No | unknown | poor (50) | rewrite | todo |
-| BP-04 | How to price construction job | 2026-04-16 | Trade how-tos and fundamentals | how-to guide | unknown | how to price a construction job | no | No | unknown | poor (43) | rewrite | todo |
-| BP-05 | Construction takeoff guide | 2026-04-21 | Trade how-tos and fundamentals | explainer | unknown | what is a construction takeoff | no | No | unknown | poor (40) | merge | todo |
+| BP-04 | How to price construction job | 2026-04-16 | Trade how-tos and fundamentals | how-to guide | unknown | how to price a construction job | no | No | unknown | poor (47) | rewrite | todo |
+| BP-05 | Construction takeoff guide | 2026-04-21 | Trade how-tos and fundamentals | explainer | unknown | what is a construction takeoff | no | No | unknown | poor (47) | merge | todo |
 | BP-06 | Quotr vs traditional estimating | 2026-04-23 | Head-to-head comparisons | head-to-head comparison | unknown | AI construction estimating vs traditional estimating | no | No | unknown | poor (43) | merge | todo |
 | BP-07 | Dallas build expo 2026 recap | 2026-04-28 | Company news, customer stories and event recaps | event recap | unknown | Dallas Build Expo 2026 recap | not checked | No | unknown | fair (57) | keep | ok |
-| BP-08 | Ai construction proposals takeoff to proposal | 2026-04-30 | AI explainers | explainer | unknown | AI construction proposal software | not checked | No | unknown | poor (50) | update | todo |
+| BP-08 | Ai construction proposals takeoff to proposal | 2026-04-30 | AI explainers | explainer | unknown | AI construction proposal software | not checked | No | unknown | poor (53) | update | todo |
 | BP-09 | Re forge sf 2026 recap | 2026-05-05 | Company news, customer stories and event recaps | event recap | unknown | RE:Forge SF 2026 recap | not checked | No | unknown | fair (57) | keep | ok |
 | BP-10 | Construction estimating mistakes to avoid | 2026-05-07 | Trade how-tos and fundamentals | how-to guide | unknown | common construction estimating mistakes | no | No | unknown | poor (47) | rewrite | todo |
 | BP-11 | How ai construction estimating works | 2026-05-07 | AI explainers | explainer | unknown | how does AI construction estimating work | no | No | unknown | poor (50) | merge | todo |
 | BP-12 | Is ai takeoff actually accurate yet | 2026-05-07 | AI explainers | explainer | unknown | how accurate is AI takeoff | not checked | Yes | unknown | fair (67) | update | todo |
-| BP-13 | Blueprint to priced estimate workflow | 2026-05-11 | Trade how-tos and fundamentals | how-to guide | unknown | how to turn construction plans into a priced estimate | no | No | unknown | poor (40) | merge | todo |
+| BP-13 | Blueprint to priced estimate workflow | 2026-05-11 | Trade how-tos and fundamentals | how-to guide | unknown | how to turn construction plans into a priced estimate | no | No | unknown | poor (47) | merge | todo |
 | BP-14 | Nhca build the builder 2026 recap | 2026-05-12 | Company news, customer stories and event recaps | event recap | unknown | NHCA Build the Builder 2026 recap | not checked | No | unknown | fair (57) | keep | ok |
 | BP-15 | Quotr.ai vs Togal.AI: Which AI Takeoff Platform Is Better for Contractors in 2026? | 2026-05-12 | Head-to-head comparisons | head-to-head comparison | quotr.ai | Quotr vs Togal AI | yes | No | unknown | poor (53) | update | todo |
 | BP-16 | Construction labor shortage ai adoption 2026 | 2026-05-13 | AI explainers | explainer | unknown | how AI helps with the construction labor shortage | not checked | No | unknown | poor (47) | update | todo |
 | BP-17 | How to Do a Construction Takeoff From a PDF Blueprint: Step-by-Step Manual vs AI Guide | 2026-05-14 | Trade how-tos and fundamentals | how-to guide | unknown | how to do a quantity takeoff from PDF plans | yes | Yes | unknown | fair (70) | update | todo |
-| BP-18 | AI That Reads Construction Drawings: Chat With Your Blueprints Using Quotr.ai | 2026-05-18 | AI explainers | explainer | unknown | can AI read construction drawings | not checked | No | unknown | fair (60) | update | todo |
+| BP-18 | AI That Reads Construction Drawings: Chat With Your Blueprints Using Quotr.ai | 2026-05-18 | AI explainers | explainer | unknown | can AI read construction drawings | not checked | No | unknown | fair (57) | update | todo |
 | BP-19 | Ai construction estimating software buyers guide | 2026-05-19 | Best-of lists and buyer guides | buyer's guide | unknown | how to choose AI construction estimating software | not checked | No | yes | poor (37) | merge | todo |
 | BP-20 | Quotr.ai vs PlanSwift: Why Estimators Are Leaving Desktop Takeoff for AI + Procurement (2026) | 2026-05-19 | Head-to-head comparisons | head-to-head comparison | unknown | Quotr vs PlanSwift | yes | No | possible | poor (43) | update | todo |
 | BP-21 | How to estimate electrical work from drawings conduit devices labor | 2026-05-20 | Trade how-tos and fundamentals | how-to guide | unknown | how to estimate electrical work from drawings | not checked | No | unknown | fair (67) | update | todo |
@@ -125,11 +127,11 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 | BP-24 | Best ai construction estimating software 2026 | 2026-05-22 | Best-of lists and buyer guides | best-of list | unknown | best AI construction estimating software 2026 | yes | No | yes | poor (43) | rewrite | todo |
 | BP-25 | Quotr developer desk underwriting grade estimates 72 hours | 2026-05-25 | Estimating services | service-style post | unknown | fast construction cost estimate for a land deal | not checked | No | unknown | poor (43) | rewrite | todo |
 | BP-26 | Quotr vs excel | 2026-05-26 | Head-to-head comparisons | head-to-head comparison | unknown | Excel vs construction estimating software | no | No | unknown | poor (47) | update | todo |
-| BP-27 | State of ai in preconstruction 2026 adoption roi enr top 400 gcs | 2026-05-27 | AI explainers | data or market report | quotr.ai | how are general contractors using AI in preconstruction | not checked | No | unknown | poor (40) | rewrite | todo |
+| BP-27 | State of ai in preconstruction 2026 adoption roi enr top 400 gcs | 2026-05-27 | AI explainers | data or market report | quotr.ai | how are general contractors using AI in preconstruction | not checked | No | unknown | poor (40) | update | todo |
 | BP-28 | How to Bid Commercial Construction Projects as a Subcontractor: Step-by-Step Estimating, Takeoff, and Bid-Win Guide | 2026-05-28 | Trade how-tos and fundamentals | how-to guide | unknown | how to bid commercial construction projects as a subcontractor | yes | No | unknown | fair (70) | update | todo |
 | BP-29 | The proforma that never stops changing | 2026-05-28 | Developer, architect and investor personas | opinion or thought leadership | unknown | how to update a development pro forma when construction costs change | not checked | No | unknown | fair (60) | update | todo |
 | BP-30 | Commercial electrical takeoff drawings to proposal | 2026-05-29 | Trade how-tos and fundamentals | how-to guide | unknown | how to do a commercial electrical takeoff from drawings to proposal | not checked | No | unknown | fair (67) | keep | ok |
-| BP-31 | Tariff aware estimating material escalation every bid | 2026-06-01 | Cost and market data | how-to guide | unknown | how to protect a bid from material price increases | not checked | No | unknown | fair (63) | update | todo |
+| BP-31 | Tariff aware estimating material escalation every bid | 2026-06-01 | Cost and market data | how-to guide | unknown | how to protect a bid from material price increases | not checked | No | unknown | fair (60) | update | todo |
 | BP-32 | The Best Togal.AI Alternative by Trade (2026) | 2026-06-02 | Alternatives to X | alternatives list | unknown | Togal AI alternatives | yes | Yes | possible | poor (53) | rewrite | todo |
 | BP-33 | Hvac estimating software 2026 buyers guide | 2026-06-02 | Best-of lists and buyer guides | buyer's guide | unknown | best HVAC estimating software 2026 | not checked | No | unknown | poor (50) | rewrite | todo |
 | BP-34 | Quotr.ai vs STACK: Browser-First Takeoff With and Without Procurement | 2026-06-02 | Head-to-head comparisons | head-to-head comparison | quotr.ai | Quotr vs STACK | yes | No | unknown | poor (53) | update | todo |
@@ -142,31 +144,31 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 | BP-41 | Data center construction estimating mep subcontractor choke point | 2026-06-11 | Cost and market data | opinion or thought leadership | unknown | how to estimate MEP costs on a data center project | not checked | No | unknown | fair (60) | update | todo |
 | BP-42 | How to estimate hvac sheet metal mechanical plan | 2026-06-12 | Trade how-tos and fundamentals | how-to guide | unknown | how to estimate HVAC ductwork from a mechanical plan | not checked | No | unknown | fair (67) | update | todo |
 | BP-43 | Top 10 Togal AI Alternatives for Construction Takeoff and Estimating (2026) | 2026-06-16 | Alternatives to X | alternatives list | unknown | Togal AI alternatives | yes | No | yes | poor (37) | merge | todo |
-| BP-44 | Flooring trades how to quote flooring jobs and win more work | 2026-06-16 | Trade how-tos and fundamentals | how-to guide | unknown | how to quote a flooring job | no | No | unknown | poor (43) | update | todo |
+| BP-44 | Flooring trades how to quote flooring jobs and win more work | 2026-06-16 | Trade how-tos and fundamentals | how-to guide | unknown | how to quote a flooring job | no | No | unknown | poor (47) | update | todo |
 | BP-45 | What is ai construction estimating software | 2026-06-17 | AI explainers | explainer | unknown | what is AI construction estimating software | no | No | unknown | poor (53) | rewrite | todo |
 | BP-46 | Best electrical estimating software 2026 | 2026-06-18 | Best-of lists and buyer guides | best-of list | unknown | best electrical estimating software 2026 | yes | No | yes | poor (40) | rewrite | todo |
-| BP-47 | Ai bidding software construction | 2026-06-19 | Best-of lists and buyer guides | buyer's guide | unknown | AI bidding software for construction | yes | No | yes | poor (40) | rewrite | todo |
+| BP-47 | Ai bidding software construction | 2026-06-19 | Best-of lists and buyer guides | buyer's guide | unknown | AI bidding software for construction | yes | No | yes | poor (40) | update | todo |
 | BP-48 | Best flooring estimating software in 2026 | 2026-06-23 | Best-of lists and buyer guides | best-of list | unknown | best flooring estimating software 2026 | yes | No | yes | poor (43) | rewrite | todo |
-| BP-49 | Construction proforma software | 2026-06-23 | Best-of lists and buyer guides | buyer's guide | unknown | real estate development pro forma software | not checked | No | unknown | poor (53) | merge | todo |
+| BP-49 | Construction proforma software | 2026-06-23 | Best-of lists and buyer guides | buyer's guide | unknown | real estate development pro forma software | not checked | No | unknown | fair (57) | merge | todo |
 | BP-50 | Construction procurement software | 2026-06-24 | Best-of lists and buyer guides | buyer's guide | unknown | construction procurement software | not checked | No | unknown | fair (60) | rewrite | todo |
 | BP-51 | Stack alternative | 2026-06-25 | Alternatives to X | alternatives list | unknown | STACK takeoff software alternatives | yes | Yes | yes | poor (37) | rewrite | todo |
-| BP-52 | Best plumbing estimating software 2026 | 2026-06-26 | Best-of lists and buyer guides | best-of list | unknown | best plumbing estimating software 2026 | not checked | No | unknown | fair (57) | update | todo |
+| BP-52 | Best plumbing estimating software 2026 | 2026-06-26 | Best-of lists and buyer guides | best-of list | unknown | best plumbing estimating software 2026 | not checked | No | unknown | poor (53) | update | todo |
 | BP-53 | How subcontractors bid gcs without giving away margin | 2026-06-29 | Trade how-tos and fundamentals | how-to guide | Junzhe Shi | how to win GC bids as a subcontractor without cutting your price | no | No | unknown | poor (53) | merge | todo |
 | BP-54 | Best concrete estimating software 2026 | 2026-06-30 | Best-of lists and buyer guides | best-of list | unknown | best concrete estimating software 2026 | yes | No | yes | poor (47) | update | todo |
 | BP-55 | Best Drywall Estimating Software in 2026 | 2026-06-30 | Best-of lists and buyer guides | best-of list | unknown | best drywall estimating software 2026 | not checked | No | unknown | poor (50) | rewrite | todo |
 | BP-56 | How to estimate plumbing from drawings | 2026-07-01 | Trade how-tos and fundamentals | how-to guide | unknown | how to estimate plumbing from drawings | not checked | Yes | unknown | fair (73) | update | todo |
 | BP-57 | Bluebeam alternative | 2026-07-02 | Alternatives to X | alternatives list | unknown | Bluebeam alternatives for takeoff | no | Yes | yes | poor (40) | rewrite | todo |
 | BP-58 | House flipping math 2026 | 2026-07-07 | Developer, architect and investor personas | explainer | unknown | how to calculate a house flip renovation budget | not checked | No | unknown | fair (57) | keep | ok |
-| BP-59 | How developers source building materials | 2026-07-07 | Procurement and sourcing | explainer | unknown | where can developers buy building materials factory direct from China | not checked | Yes | unknown | fair (60) | update | todo |
+| BP-59 | How developers source building materials | 2026-07-07 | Procurement and sourcing | explainer | unknown | where can developers buy building materials factory direct from China | not checked | Yes | unknown | fair (57) | update | todo |
 | BP-60 | What is construction procurement 2026 guide | 2026-07-07 | Procurement and sourcing | explainer | unknown | what is construction procurement | not checked | No | unknown | poor (43) | merge | todo |
-| BP-61 | Reduce construction material costs | 2026-07-08 | Procurement and sourcing | how-to guide | unknown | how to reduce building material costs | not checked | No | unknown | fair (57) | rewrite | todo |
+| BP-61 | Reduce construction material costs | 2026-07-08 | Procurement and sourcing | how-to guide | unknown | how to reduce building material costs | not checked | No | unknown | fair (60) | rewrite | todo |
 | BP-62 | Ddp construction materials | 2026-07-09 | Procurement and sourcing | explainer | unknown | what does DDP mean when buying building materials | not checked | Yes | unknown | poor (53) | rewrite | todo |
-| BP-63 | Ai agents for construction procurement and buyout | 2026-07-14 | Procurement and sourcing | explainer | unknown | AI agents for construction procurement | not checked | No | unknown | fair (60) | keep | ok |
+| BP-63 | Ai agents for construction procurement and buyout | 2026-07-14 | Procurement and sourcing | explainer | unknown | AI agents for construction procurement | not checked | No | unknown | fair (63) | update | todo |
 | BP-64 | Trade estimating software | 2026-07-14 | Best-of lists and buyer guides | buyer's guide | unknown | best estimating software for trade contractors | not checked | No | unknown | fair (63) | update | todo |
-| BP-65 | Ai agent for construction | 2026-07-15 | AI explainers | explainer | unknown | what is an AI agent for construction | not checked | No | unknown | poor (50) | update | todo |
-| BP-66 | Ai construction estimating software that turns plans into prices in minutes | 2026-07-15 | AI explainers | explainer | unknown | AI estimating software that turns construction plans into a priced estimate | not checked | No | unknown | poor (40) | rewrite | todo |
+| BP-65 | Ai agent for construction | 2026-07-15 | AI explainers | explainer | unknown | what is an AI agent for construction | not checked | No | unknown | poor (53) | update | todo |
+| BP-66 | Ai construction estimating software that turns plans into prices in minutes | 2026-07-15 | AI explainers | explainer | unknown | AI estimating software that turns construction plans into a priced estimate | not checked | No | unknown | poor (43) | update | todo |
 | BP-67 | ChatGPT for Construction Estimating: Can It Do Takeoff? | 2026-07-16 | AI explainers | explainer | unknown | can ChatGPT do a construction takeoff | yes | No | unknown | fair (57) | rewrite | todo |
-| BP-68 | Hospitality procurement consolidated sourcing | 2026-07-21 | Procurement and sourcing | explainer | unknown | how to source hotel FF&E and finishes in one consolidated order | not checked | No | unknown | fair (67) | keep | ok |
+| BP-68 | Hospitality procurement consolidated sourcing | 2026-07-21 | Procurement and sourcing | explainer | unknown | how to source hotel FF&E and finishes in one consolidated order | not checked | No | unknown | fair (67) | update | todo |
 | BP-69 | Construction procurement process | 2026-07-22 | Procurement and sourcing | explainer | unknown | construction procurement process steps | not checked | No | unknown | fair (57) | update | todo |
 | BP-70 | Construction costs surged 12 6 in 2026 how ai estimation helps | 2026-07-24 | Cost and market data | explainer | unknown | why did construction costs go up so much in 2026 | not checked | No | unknown | poor (37) | merge | todo |
 | BP-71 | How ai construction takeoff works in 2026 | 2026-07-24 | AI explainers | explainer | unknown | how does AI construction takeoff work | not checked | No | unknown | poor (43) | merge | todo |
@@ -180,7 +182,7 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 | BP-79 | Construction estimating services | 2026-08-04 | Estimating services | service-style post | unknown | construction estimating services | not checked | No | unknown | poor (53) | merge | todo |
 | BP-80 | Best ai bid software for construction | 2026-08-05 | Best-of lists and buyer guides | best-of list | unknown | best AI bid software for construction | yes | No | yes | poor (37) | merge | todo |
 | BP-81 | Top 7 PlanSwift Alternatives for 2026 (AI Takeoff & Estimating) | 2026-08-07 | Alternatives to X | alternatives list | unknown | PlanSwift alternatives | yes | Yes | possible | poor (50) | update | todo |
-| BP-82 | Outsource construction estimating | 2026-08-11 | Estimating services | service-style post | unknown | outsourced construction estimating service price per square foot | not checked | Yes | unknown | fair (73) | update | todo |
+| BP-82 | Outsource construction estimating | 2026-08-11 | Estimating services | service-style post | unknown | outsourced construction estimating service price per square foot | not checked | Yes | unknown | good (77) | update | todo |
 | BP-83 | Rebar estimating and takeoff software | 2026-08-11 | Best-of lists and buyer guides | buyer's guide | unknown | best rebar takeoff software | yes | No | yes | poor (53) | update | todo |
 | BP-84 | Construction estimating services california | 2026-08-14 | Estimating services | location service post | unknown | best construction estimating services in California | not checked | No | unknown | fair (60) | update | todo |
 | BP-85 | Commercial Estimating Services: A 2026 Contractor Guide | 2026-08-18 | Estimating services | buyer's guide | unknown | commercial construction estimating services cost | not checked | Yes | unknown | fair (67) | update | todo |
@@ -189,8 +191,8 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 | BP-88 | Sourcing building materials china cbd fair 2026 | 2026-08-27 | Procurement and sourcing | how-to guide | unknown | how to source building materials from China | not checked | No | unknown | poor (50) | rewrite | todo |
 | BP-89 | Precon on demand outsource bid cost estimation | 2026-08-28 | Estimating services | service-style post | unknown | preconstruction estimating services for general contractors | not checked | No | unknown | poor (50) | merge | todo |
 | BP-90 | Outsourcing vs hiring an estimator | 2026-09-01 | Head-to-head comparisons | head-to-head comparison | unknown | outsourcing construction estimating vs hiring an estimator | no | No | unknown | fair (57) | update | todo |
-| BP-91 | Electrical estimating services | 2026-09-02 | Estimating services | service-style post | unknown | electrical estimating services | not checked | No | unknown | fair (57) | update | todo |
-| BP-92 | Scope gap construction | 2026-09-10 | Trade how-tos and fundamentals | explainer | unknown | what is a scope gap in construction | no | No | unknown | fair (57) | update | todo |
+| BP-91 | Electrical estimating services | 2026-09-02 | Estimating services | service-style post | unknown | electrical estimating services | not checked | No | unknown | fair (60) | update | todo |
+| BP-92 | Scope gap construction | 2026-09-10 | Trade how-tos and fundamentals | explainer | unknown | what is a scope gap in construction | no | No | unknown | poor (53) | update | todo |
 | BP-93 | New pricing | 2026-09-14 | Company news, customer stories and event recaps | company news | unknown | Quotr.ai pricing | not checked | No | unknown | fair (73) | update | todo |
 | BP-94 | Hvac estimating services | 2026-09-18 | Estimating services | service-style post | unknown | HVAC estimating services | not checked | No | unknown | fair (60) | update | todo |
 | BP-95 | Mep estimating services | 2026-09-18 | Estimating services | service-style post | unknown | MEP estimating services | not checked | No | unknown | fair (63) | update | todo |
@@ -276,66 +278,66 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 
 ### BP-62 https://quotr.ai/blog/ddp-construction-materials/
 
-**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 5
+**Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 5
 
-1. Through A1, get Quotr's answers to Q-12 (what the DDP price covers, including tariffs and AD/CVD duties) and Q-11 (delivery area) before writing any list of what is included.
-2. Retitle the post. Open with a 40-80 word answer that defines DDP for building materials and names Quotr: 'Quotr.ai Procurement quotes one delivered-duty-paid price to your jobsite that covers ...', listing approved items only.
-3. Add an honest DDP vs FOB table: who books freight, who is the importer of record, who pays duties and tariffs, who carries the risk at each step, when you pay, and who each option suits. Say plainly that FOB is the norm for repeat importers who have their own forwarder and customs broker, and cite the Gerudo Logistics and SinoEuro Ruida guides with dates.
-4. Add one worked landed-cost example from a real Quotr order, for example Myren Dr, Saratoga ($97,000 against a Bay Area market price of $187K-$218K, labelled 'Quotr reports'). Break it into factory price, freight, duties and tariffs, brokerage and delivery. Date it and get Quotr's sign-off.
-5. Add a 'Risks of DDP' section covering duty allocation, tariffs that change during shipping, and importer-of-record questions. Link and date each tariff fact to a primary source, and have a customs or trade expert review it (as B8 requires).
-6. Link to /procurement/, how-developers-source-building-materials, sourcing-building-materials-china-cbd-fair-2026 (G16 keeper), construction-procurement-process and the glossary terms DDP and Incoterms. Link the R-20 landed-cost calculator when it ships (C3, December 2026). Add a named author (A7) and a FAQ in the wording of L-110, L-111 and E-081.
-7. 2-4 weeks after publishing, re-run T10 (E-081), L-110 and L-111 in Perplexity and one other engine. Record whether Quotr is named and whether Port2Site still leads.
+1. Through A1, get Quotr's answers to Q-12 (what the DDP price includes, including tariffs and AD/CVD duties) and Q-11 (delivery area) before writing any list of inclusions.
+2. Retitle the post. Open with a 40-80 word answer to L-110 that puts the brand inside the fact (A8): 'Quotr Procurement, Quotr.ai's factory-direct buying program, quotes one delivered-duty-paid (DDP) price to your jobsite that covers …'. List approved items only.
+3. Add an honest DDP vs FOB table. Rows: who books freight, who is importer of record, who pays duties and tariffs, where risk passes, when you pay, and who each option suits. Say plainly that FOB is the norm for repeat importers with their own forwarder and customs broker. Cite the Gerudo Logistics and SinoEuro Ruida guides with dates.
+4. Add one worked landed-cost example from a real Quotr order, such as Myren Dr, Saratoga: $97,000 against a Bay Area market price of $187K-$218K, labelled 'Quotr reports'. Split it into factory price, freight, duties and tariffs, brokerage and delivery. Date it, get Quotr's sign-off, and link the R-16 Saratoga case study when it goes live in November.
+5. Add a section, 'Risks of DDP': how duties are split, tariffs that change while goods are at sea, and importer-of-record questions. Date each tariff fact and link a primary source. Have a customs or trade expert review it, as B8 requires.
+6. Give T10 one owner. The E-081 note points to /procurement/, and R-08 also targets it. Here, keep one short 'Buying factory-direct on DDP terms' section that links to /procurement/, and add a FAQ in the words of L-110 and L-111. Link how-developers-source-building-materials, sourcing-building-materials-china-cbd-fair-2026 (G16 keeper), construction-procurement-process, and glossary terms 81 (landed cost) and 82 (Incoterms). Link the R-20 landed-cost calculator when C3 ships it (December 2026).
+7. Add a named author (A7) and run the A16 edit pass. 2-4 weeks after publishing, re-run T10, L-110 and L-111 in Perplexity and one other engine. Record whether Quotr is named, and whether Port2Site, the closest rival offer, is still named.
 
 **Add to the page:**
-- Answer-first definition of DDP that names Quotr.ai (approved items only)
+- Answer-first definition of DDP with Quotr Procurement named in the key sentence (approved items only)
 - Honest DDP vs FOB comparison table
 - Worked landed-cost example from a real Quotr order
 - 'Risks of DDP' section with dated tariff sources and expert review
-- FAQ in the words of L-110, L-111 and E-081
+- FAQ in the words of L-110 and L-111, plus a short link section to /procurement/ for T10
 
 **Title:** Change the title, not the URL: 'DDP vs FOB for Building Materials: Which Is Better, and When?' (the R-07 working title). Answer what DDP means in the first lines, for L-110.  
 **Web address (URL):** Keep BP-62 (/ddp-construction-materials/). Perplexity already retrieves this exact URL, and a new slug with 'fob' in it would throw that away.
 
-**Related tasks:** A1, A3, A7, B8, C3
+**Related tasks:** A1, A3, A7, A8, A16, B8, C3
 
-**Why now:** It is the only post serving tracked prompt T10, and Perplexity already reads it, so better content could turn a retrieval into a named mention. The R-07 rebuild is P1 for October 2026, and the November procurement guides (B8) assume it is done.
+**Why now:** High. Perplexity already reads this URL for T10, so better content could turn a retrieval into a named mention. It serves two High-priority prompts, so the vault's rule points to a rewrite rather than an update. R-07 is P1 for October 2026, and the November procurement guides (B8) and the Saratoga case study (R-16) assume it is done.
 
 ### BP-59 https://quotr.ai/blog/how-developers-source-building-materials/
 
 **Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 6
 
-1. Replace every factory count on the page with the single sentence A1 approves, for example 'a network of [N] factories in China, of which [N] are audited manufacturers in Foshan and Guangdong'. Until A1 decides, remove the number.
-2. Keep 'full quote in 3–5 days' only if Quotr confirms it. Write it with the brand in the sentence: 'Quotr.ai typically sends a full quote in about 3–5 business days' (A8).
-3. Add a short answer block in plain buyer wording for E-083 and C14-style questions ('where can developers buy cabinets, windows and flooring factory-direct'). Name each route fairly (sourcing agent, Alibaba, trade fairs, managed procurement such as Quotr.ai) with one line on who it suits.
-4. Add a short 'From takeoff to factory order' section. Explain that Quotr Software's takeoff produces the material list and Quotr Procurement quotes it at one DDP price. Link /software/ and takeoff-to-buyout-construction-estimating-procurement-platform. This answers Perplexity's 'sourcing more than AI takeoff' reading.
-5. Add the three /procurement/ project prices, each introduced as 'Quotr reports…', once the '~$0 saved' bug is fixed (A6).
-6. Keep this page on the developer's buying route (E-083). Send step-by-step import questions (L-109) to the G16 keeper, the CBD Fair post rebuilt as R-09, and pricing terms to ddp-construction-materials. Link both pages and change L-109's page in the prompt library.
-7. Give the post a named author (A7) and a visible 'Updated' note. Request a re-crawl, then re-run S6/T43 and P8/T33 2–4 weeks later (B3).
+1. Protect the citation. Keep the URL, and keep the three facts Perplexity lifted near the top in short sentences. Change only what A1 corrects. Put the brand in each sentence, for example 'Quotr.ai sources from manufacturers in Foshan and Guangdong'. Add this page to A8's list, because AI already reads it.
+2. Replace every factory count with the one sentence A1 approves, for example 'a network of [N] factories in China, of which [N] are audited manufacturers in Foshan and Guangdong'. Until A1 decides, remove the number. Keep 'full quote in 3–5 days' only if Quotr confirms it, written as 'Quotr.ai typically sends a full quote in about 3–5 business days'.
+3. Add a short answer block in buyer wording for E-083, without Quotr's phrasing: 'Where can home builders and multifamily developers buy building materials factory-direct?' Name the routes fairly (sourcing agents, marketplaces such as Alibaba, trade fairs, managed procurement such as Quotr Procurement), with one line on who each suits. Link /procurement/ for the category questions it owns (E-081, E-082) instead of answering them here.
+4. Add a short 'From takeoff to factory order' section. Say that Quotr Software's takeoff produces the material list, that Quotr Procurement quotes it at one DDP price, and that the Plus plan includes 10% off procurement (fact sheet, High). Link /software/ and takeoff-to-buyout-construction-estimating-procurement-platform. Link R-08 when it is live, rather than repeating its full workflow.
+5. Add the three /procurement/ project prices, each introduced as 'Quotr reports…', once the 'Client saved ~$0' cards are fixed (A6).
+6. Hand L-109 to the G16 keeper. Link the CBD Fair post (rebuilt as R-09) for step-by-step importing and ddp-construction-materials for DDP terms. Change L-109's page in the prompt library at the same time.
+7. Name an author (A7) and request a re-crawl. Re-run T43 in the November test (B3). Add a buyer-worded version of E-083 as a supplementary prompt, so the citation is measured on buyer wording rather than Quotr's.
 
 **Add to the page:**
-- One approved sentence on the factory network
-- Buyer-worded answer block naming the buying routes
-- 'From takeoff to factory order' section
-- Project prices from /procurement/ with the brand in the sentence
+- One approved sentence on the factory network, with the brand in it
+- Buyer-worded answer block naming the buying routes fairly
+- 'From takeoff to factory order' section linking Software and Procurement
+- Project prices from /procurement/, each as 'Quotr reports'
 
-**Title:** The live title was not seen. Use buyer wording and no year, for example 'How developers buy building materials factory-direct from China (Foshan and Guangdong)'.  
-**Web address (URL):** Keep the URL. It has no year and Perplexity already cites it; a redirect would put that citation at risk.
+**Title:** The live title was not seen. If it does not already, use buyer wording and no year, for example 'How home builders and developers buy building materials factory-direct from China (Foshan and Guangdong)'. Keep the cited facts in the opening paragraph when retitling.  
+**Web address (URL):** Keep the URL. It has no year, and Perplexity already cites it; a redirect would put that citation at risk.
 
-**Related tasks:** A1, A3, A6, A7, A8, B8, B3
+**Related tasks:** A1, A3, A6, A7, A8, B3, B8
 
-**Why now:** This is the only post of the eight that an AI engine cites, and Perplexity already repeats Quotr's conflicting factory counts. Fixing it in the October fact sweep protects the citation before the next monthly test.
+**Why now:** It is the only one of these eight posts that AI cites, and Perplexity already repeats Quotr's conflicting factory counts. Fix it in the October P0 fact sweep, before the November test re-reads it.
 
 ### BP-12 https://quotr.ai/blog/is-ai-takeoff-actually-accurate-yet/
 
 **Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 7
 
-1. Before editing, save the current page (HTML and text) and mark the sentence Perplexity quoted. Keep that answer in the same place near the top.
-2. Get Q-18 answered as part of A1: one accuracy figure with its conditions. Until then, label every figure 'Quotr.ai internal benchmarking' and make the vector-PDF lower bound (94% or 95%) match the other Quotr pages.
+1. Before editing, save a copy of the current page (HTML and text) and mark the sentence Perplexity quoted. Keep that answer in the same place near the top.
+2. Get Q-18 answered as part of A1: one accuracy figure, with its conditions. Until then, label every figure 'Quotr.ai internal benchmarking', and make the vector-PDF lower bound (94% or 95%) match the other Quotr pages.
 3. Rewrite the key sentence so the brand travels with the number (A8): 'In Quotr.ai's internal testing, AI takeoff counts were [approved %] accurate on clean vector PDFs and [approved %] on low-resolution scans.'
-4. Add a short 'How we tested' box now: how many plan sets and what type, what was counted or measured, how errors were scored, the test date, and who ran it (Junzhe Shi, PhD). Link it to the full benchmark when R-41 ships (D3).
-5. Add an H2 for L-039, 'Does AI takeoff work on scanned PDFs?', and one for L-041, 'Are there AI takeoff tools that actually work?'. Give honest limits and a fair, dated mention of outside evidence such as Togal's University of Kansas study (check the source first).
-6. Name the author (Junzhe Shi, PhD) and link to his author page (A7, R-03). Change 'Last updated' only for these real edits, and make the sitemap lastmod match (A9).
-7. Re-run T30 in Perplexity 2-4 weeks after the re-crawl and again in the November test (B3). Record whether Quotr is named, not just cited.
+4. Add a short 'How we tested' box now. Give the number and type of plan sets, what was counted or measured, how errors were scored, the test date, and who ran it (Junzhe Shi, PhD). This also answers D-019. When R-41 ships (D3), link to it as the data this post cites, not as a second answer page.
+5. Add an H2 for L-039, 'Does AI takeoff work on scanned PDFs?', and one for L-041, 'Are there AI takeoff tools that actually work?'. Give honest limits, and a fair, dated mention of outside evidence such as Togal's University of Kansas study (check the source first).
+6. Name the author (Junzhe Shi, PhD) and link to his author page (A7, R-03). Change 'Last updated' only because of these real edits, and make the sitemap lastmod match (A9).
+7. Re-run T30 in Perplexity 2-4 weeks after the re-crawl, and again in the November test (B3). Record whether Quotr is named, not just cited.
 
 **Add to the page:**
 - An accuracy sentence with Quotr.ai named and one approved figure
@@ -344,94 +346,94 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 - An H2 on whether AI takeoff tools work (L-041)
 - A dated link to outside evidence
 
-**Title:** Keep 'Is AI Takeoff Actually Accurate Yet?'. It matches how buyers ask (the title is from vault link text; confirm it on the page). Once the method box is live, add a short subtitle such as 'What Quotr.ai's Testing Shows', as R-06 plans. Do not add a year.  
+**Title:** Keep 'Is AI Takeoff Actually Accurate Yet?' (36 characters). It matches how buyers ask. The title comes from vault link text, so confirm it on the page. Once the method box is live, add a short subtitle such as 'What Quotr.ai's Testing Shows', as R-06 plans. Do not add a year.  
 **Web address (URL):** Keep the URL. AI already cites it and it has no year. Do not change the slug, even if the title changes.
 
 **Related tasks:** A8, A1, A7, A9, D3, B3
 
-**Why now:** It is the only post in this set that an AI engine already cites, and it serves a Tier A tracked prompt (T30). The refresh is planned for October (R-06, P1). Keep the edits small and careful so the quoted answer stays near the top. Make them after Google's September 2026 spam update ends (about 2026-10-08; RANK-21, seen in search 2026-09-26), so the November test can show the effect.
+**Why now:** It is the only post in this set that an AI engine already cites, and it serves a Tier A tracked prompt (T30). The refresh is planned for October (R-06, P1). Keep the edits small and careful so the quoted answer stays near the top. Make them after Google's September 2026 spam update ends (about 2026-10-08; RANK-21, seen in search 2026-09-26, not re-checked), so the November test can show the effect.
 
 ### BP-17 https://quotr.ai/blog/how-to-do-construction-takeoff-pdf-blueprint/
 
 **Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 8
 
-1. Correct the record first. The September baseline for T26 is Absent (P1), and S8 did not cite the post. Pull 6 months of GSC data (queries, clicks, impressions) and backlinks for this URL and for the two posts merging into it, and store it as the pre-merge baseline.
-2. Put a Quick answer under the H1: 6-7 numbered steps, each opening with its unit (set scale; counts in EA; lengths in LF; areas in SF; volumes in CY; add waste; price). This matches the structure of the cited Bluebeam, BuildVision and ruh.ai pages.
-3. Replace the prose comparison with a 'Manual vs AI takeoff' table (time, what AI does well, what a human must check). Add one brand-attributed sentence ('In Quotr.ai, …') and a plain human-check caveat. Do not add accuracy percentages until Q-18 is answered. Link is-ai-takeoff-actually-accurate-yet instead.
-4. Fold in the unique parts of the two G12 merge posts. Add a 'Takeoff vs estimate' H2 (serves L-045) from construction-takeoff-guide. Add a 'Turn quantities into a priced estimate' section (cost database or Quotr's average costs by US zip code, overhead, profit) from blueprint-to-priced-estimate-workflow. Then 301 both here.
-5. Add a worked example on one real or clearly labelled sample sheet: scale set from the title block, a quantity table and Quotr.ai screenshots with alt text. Add the short video the vault plan calls for.
-6. Add a named author or estimator reviewer (A7), visible Published and Last updated dates, and a matching sitemap lastmod (A9).
-7. Link to /dictionary/quantity-takeoff/, /dictionary/ai-takeoff/, construction-estimating-mistakes-to-avoid (scale errors) and ai-construction-estimating-software-that-turns-plans-into-prices-in-minutes (kept separate under G12). Request re-crawl, then re-run T26 in Perplexity plus the A15 engines 2-4 weeks later.
+1. Correct the record first: the data file's ai_cited flag for this post is wrong (P1 and S8 both Absent). Then snapshot GSC for this URL and the two G12 merge posts: queries, clicks, impressions and backlinks since 2026-05-14. Save the week of 17-23 September as the baseline from before the spam update (RANK-21).
+2. Put a Quick answer under the H1: 6-7 numbered steps, each with its unit (set and check the scale; counts in EA; lengths in LF; areas in SF; volumes in CY; add waste; price). This matches the shape of the answer Perplexity built for L-031 and L-032.
+3. Replace the prose comparison with a 'Manual vs AI takeoff' table (time, what AI does well, what a human must check). Add one brand-attributed sentence based on the live /software/ wording ('In Quotr.ai, every extracted quantity stays editable') and a plain human-check caveat. Add no accuracy percentages until Q-18 is answered. Link is-ai-takeoff-actually-accurate-yet instead.
+4. Before the 301s, fold in the unique parts of the two G12 merge posts. Add a 'Takeoff vs estimate' H2 for L-045 from construction-takeoff-guide. Add a 'Turn quantities into a priced estimate' section from blueprint-to-priced-estimate-workflow (line items, your own cost database or the Quotr database, overhead, profit). Do not write 'average costs by US zip code' until Quotr confirms it (the fact sheet marks it TO CONFIRM).
+5. Add a worked example on one clearly labelled sample sheet: the scale set from the title block, a quantity table, and Quotr.ai screenshots with alt text. Link Quotr's 'How to Set a Custom Drawing Scale' tutorial from the scale step. Add the short video that the Optimize vs create plan calls for.
+6. Add a named author or estimator reviewer (A7), visible Published and Last updated dates, and a matching sitemap lastmod (A9). Run the A16 fact-check before republishing.
+7. Link to /dictionary/quantity-takeoff/, /dictionary/ai-takeoff/, metric-imperial-construction-takeoff (from the scale step), construction-estimating-mistakes-to-avoid and ai-construction-estimating-software-that-turns-plans-into-prices-in-minutes (kept separate under G12). Request a re-crawl. Re-run T26 and L-032 in Perplexity and the A15 engines 2-4 weeks later.
 
 **Add to the page:**
 - Answer-first numbered steps with units (EA, LF, SF, CY)
 - Manual vs AI table with a human-check caveat and one 'In Quotr.ai…' sentence
 - 'Takeoff vs estimate' H2 (from construction-takeoff-guide)
 - Pricing section (from blueprint-to-priced-estimate-workflow)
-- Worked example with screenshots, plus a video
+- Worked example with screenshots, a scale-tutorial link and a video
 
-**Title:** Keep the substance but cut the title to about 60 characters and use the tracked prompt's words: 'How to Do a Quantity Takeoff From PDF Plans (Manual vs AI)'. Do not add a year.  
-**Web address (URL):** Keep the URL. It ranks, has no year, and is about to receive two 301s. Changing it would add a redirect chain.
+**Title:** Keep the substance, but cut the title to about 60 characters and use the tracked prompt's words: 'How to Do a Quantity Takeoff From PDF Plans (Manual vs AI)'. Do not add a year.  
+**Web address (URL):** Keep the URL. It ranks, has no year and is about to receive two 301s. Changing it would create a redirect chain.
 
 **Related tasks:** A7, A9, A12, A15, A16
 
-**Why now:** It is the only Quotr page for a tracked High prompt (T26), and it already ranks, so the AI-citation gap is the cheapest one to close. The two G12 merges will also send their signals here, so the page should be ready before the redirects.
+**Why now:** It is the only Quotr page for a tracked High prompt (T26). It already ranks, so its AI-citation gap is the cheapest one to close. The two G12 merges will also send their signals here, so the page should be ready before the redirects.
 
 ### BP-87 https://quotr.ai/blog/quantity-takeoff-services/
 
 **Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 9
 
-1. Keep the cited ranges ($0.03-$0.10/sq ft; $250-$2,500 per estimate) where they are. Add a source link and 'as of September 2026' to each, and label them 'market range for takeoff-only work' if that is what they are.
-2. Directly under the ranges, add: 'Quotr.ai's Estimation Service charges $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft above (Quotr pricing page, September 2026).' Say what the price includes. Ask Quotr (Q-16) whether a takeoff-only job is priced differently.
-3. Add a table of pricing models (per sq ft, per sheet, per estimate, per trade) with dated, linked examples and a row showing where Quotr sits. For Bobyard's '$39 per billed sheet', check Bobyard's own site before using it.
-4. Add a worked example based on the 'All Trade Takeoff (Residential)' sample deliverable: plan size, number of sheets, what was counted, and the cost at Quotr's rate.
-5. Keep the page about takeoffs only. Keep the $250-$2,500 range, because it was cited, but make sure its figure and source match outsource-construction-estimating. Link to that post for full estimates and the hire-or-outsource maths (map G02 keeps both posts).
-6. Add links to the quantity-takeoff dictionary term, how-to-do-construction-takeoff-pdf-blueprint and /pricing/.
-7. 2-4 weeks after the re-crawl, re-run E-074 (T44) as a new test run and record whether Quotr is named.
+1. Before editing, record the page's baseline: its Search Console data, plus the T44 result from the A15 October baseline. This lets you measure the effect of the edit.
+2. Keep the cited ranges ($0.03-$0.10/sq ft; $250-$2,500 per estimate) where they are. Add a source link and 'as of September 2026' to each. Label them 'market range for takeoff-only work' if that is what they cover.
+3. Ask Quotr whether a takeoff-only job is priced at $0.25 / $0.10 per sq ft or differently; add this to Q-16 (Scope). Directly under the ranges, publish the confirmed price with the brand in the sentence, for example 'Quotr.ai's Estimation Service charges ... (Quotr pricing page, September 2026)', and say what it includes.
+4. Add a table of pricing models (per sq ft, per sheet, per estimate, per trade), with dated, linked examples and a row showing where Quotr sits. Before using Bobyard's '$39 per billed sheet', check it on Bobyard's own site.
+5. Add a worked example based on the 'All Trade Takeoff (Residential)' sample deliverable: plan size, number of sheets, what was counted, and the cost at the confirmed rate.
+6. Keep this page about takeoffs only (G02). Make its $250-$2,500 figure and source match outsource-construction-estimating, and link there for full estimates. Ask the consultant to make R-48 link here rather than answer E-074 again. Add links to /dictionary/quantity-takeoff/, how-to-do-construction-takeoff-pdf-blueprint and /pricing/.
+7. 2-4 weeks after the re-crawl, re-run E-074 (T44) as a new test run, and record whether Quotr is named.
 
 **Add to the page:**
-- Quotr price sentence with the brand in it, next to the market ranges
+- Quotr takeoff price sentence with the brand in it, next to the market ranges, once Quotr confirms the takeoff-only rate
 - Source links and 'as of' dates on the cited ranges
-- Pricing-model table (per sq ft, per sheet, per estimate)
+- Pricing-model table (per sq ft, per sheet, per estimate, per trade)
 - Worked example from the 'All Trade Takeoff (Residential)' sample
 
-**Title:** Keep the current title, partly seen as 'Quantity Takeoff Services ... (2026)', because the page is cited. Check that it contains 'cost' or 'price'. Keep '(2026)' until the January 2027 review, and change the year only with a real update.  
+**Title:** The page is cited, so keep the current title, partly seen as 'Quantity Takeoff Services ... (2026)'. Read the full title and check that it contains 'cost' or 'price'. Keep '(2026)' until the January 2027 review, and change the year only with a real update.  
 **Web address (URL):** Keep BP-87 (/quantity-takeoff-services/). It has no year and is cited by AI.
 
 **Related tasks:** A8, A1, A7, A15
 
-**Why now:** It is one of three Quotr posts cited in unbranded answers about service prices, and its prompt is in the monthly tracking set (T44). Naming the brand next to the price is the cheapest way to move from 'cited' to 'named'. Task A8 lists this page.
+**Why now:** It is one of three Quotr posts cited in unbranded answers about service prices, and its prompt is in the monthly tracking set (T44). Putting the brand next to a confirmed price is the cheapest way to move from 'cited' to 'named'. Task A8 lists this page for October.
 
 ### BP-56 https://quotr.ai/blog/how-to-estimate-plumbing-from-drawings/
 
 **Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 10
 
-1. Save a copy of the current page first. Keep its step order and headings, because Perplexity reused them in N2. Do not change the URL or restructure the steps.
-2. Write Quotr.ai into the two or three key step sentences, for example: 'Quotr.ai's AI takeoff counts fixture symbols and measures pipe runs across the plan set; check that count against the fixture schedule.' Symbol counting and length measuring are fact-sheet features.
-3. Add an H2 'What does plumbing cost per fixture in new construction?' to answer L-098. Include a short table of per-fixture ranges for residential and light commercial work, each with a linked source and an 'as of' month. Add Quotr fixture-package prices only if Quotr confirms them; R-44 marks them TO CONFIRM.
-4. Add one worked example from a real plan: fixture count by type, pipe length by size from the riser or isometric, labor hours and a priced total, with a screenshot of the Quotr.ai takeoff. This is the Quotr-only element that the competing pages cited in N2 appear to lack (inferred).
-5. Replace any 'By quotr.ai' byline with a named author and an estimator as reviewer (A7). Add a 4-6 question FAQ: per-fixture vs per-sq-ft pricing, rough-in vs trim, counting from riser diagrams. The FAQ is for AI quoting only; Google reportedly stopped showing FAQ rich results in May 2026 (INDEX-08, not re-checked).
-6. Link out to /software/trades/plumbing/, the rough-in dictionary term, mep-estimating-services and the plumbing best-of post. When R-44 ships (February 2027), it should link here for the how-to instead of repeating the steps.
-7. Request a re-crawl in Search Console and Bing. 2-4 weeks later, re-run T49 (L-097) and a first L-098 test in Perplexity plus one other engine. Success means Quotr.ai is named and this post is still cited first.
+1. Before editing, save a copy of the page and record the October multi-engine baseline for T49 (A15). If Search Console access exists (Q-49), check the URL in URL Inspection; the GSC audit playbook lists it among the cited posts to check first. Publish the edit after the spam update ends (about 2026-10-08). Keep the step order and headings that Perplexity reused in N2.
+2. Write Quotr.ai into two or three key step sentences, for example: 'Quotr.ai's AI takeoff counts fixture symbols and measures pipe runs across the plan set; check that count against the fixture schedule.' Symbol counting and length measuring are fact-sheet features.
+3. Add an H2 'What does plumbing cost per fixture in new construction?' to answer L-098. Add a short table of per-fixture ranges for residential and light commercial work. Give each range a linked primary source and an 'as of' month. Do not reuse the unverified $250-$800 per fixture point from Buyer questions by trade. Add Quotr fixture-package prices only if Quotr confirms them (R-44 marks them TO CONFIRM).
+4. Add one worked example from a real plan: fixture count by type, pipe length by size from the riser or isometric, labor hours and a priced total, with a Quotr.ai takeoff screenshot. The competing pages cited in N2 appear to lack this Quotr-only element (inferred).
+5. Replace any 'By quotr.ai' byline with a named author, plus an estimator as reviewer if Q-56 confirms one (A7). Add a 4-6 question FAQ: per-fixture vs per-sq-ft pricing, rough-in vs trim, counting from riser diagrams. It is for AI quoting only; Google reportedly stopped showing FAQ rich results in May 2026 (INDEX-08, not re-checked).
+6. Make this post the owner of L-097 and L-098. Take both off R-44's target list, and brief R-44 to link here for the method. Link out to /software/trades/plumbing/, /dictionary/rough-in-plumbing/ and mep-estimating-services. Link to best-plumbing-estimating-software-2026 only after it has been checked for retired pricing; it never has been (Q-59).
+7. Change the visible 'Last updated' date and the sitemap lastmod only because of this real edit (A9). Request a re-crawl in Search Console and Bing. 2-4 weeks later, re-run T49 and a first L-098 test in Perplexity plus one other engine. Success means the post is still cited first; Quotr.ai being named is a bonus.
 
-**Title:** Keep the core wording 'How to estimate plumbing from drawings', because it matches the tracked prompt word for word. A short qualifier is fine, such as 'fixture counts, pipe runs and per-fixture pricing'. Do not add '2026'; date the pricing table instead.  
+**Title:** Keep it. 'How to estimate plumbing from drawings' matches the tracked prompt word for word, and the page is already cited first. Do not add a qualifier or '2026' now. Put per-fixture pricing in an H2 and date the pricing table instead.  
 **Web address (URL):** Keep the URL. It is already the first citation for its tracked prompt.
 
-**Related tasks:** A8, A7, A15, B3
+**Related tasks:** A8, A15, A7, A9, B3, C8
 
-**Why now:** This is the only trade how-to that AI already cites first, and it is on the A8 list for October 2026. Naming Quotr.ai in the key steps is the quickest way to move T49 from 'cited, not named' before the November re-test (B3). Edit carefully: the risk is losing the citation.
+**Why now:** This is the only trade how-to that AI already cites first, it serves a tracked Tier A prompt, and it is on the A8 list for October 2026. The November re-test (B3) will show whether the edit held the citation. Edit carefully: the main risk is losing the citation, so change as little of the step text as possible.
 
 ### BP-82 https://quotr.ai/blog/outsource-construction-estimating/
 
 **Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 11
 
-1. Do not rebuild the page from scratch, even though R-05 calls it a rebuild. Keep the price section and its table where they are, since they are what Perplexity quotes, and edit sentences in place.
-2. Rewrite the key price sentence and table row with the brand in them: 'Quotr.ai's Estimation Service charges $0.25 per sq ft for projects under 50,000 sq ft and $0.10 per sq ft for 50,000 sq ft and above (Quotr pricing page, September 2026).' Confirm how the 50,000 sq ft tier applies, then add one worked example.
-3. State one turnaround, taken from the approved fact sheet (A1/Q-15), and remove every other figure.
-4. Source the hire-vs-outsource numbers ($115k-$195k loaded cost; break-even at 12-15 estimates a month) with dated links, or show the maths. Keep them on this page, because this URL is what ranks for that search, and link to outsourcing-vs-hiring-an-estimator for the detailed cost model.
-5. Merge construction-estimating-services into this page (G02, R-05). Bring over any unique section, set a 301 redirect, update internal links and remove the old URL from the sitemap.
-6. Add a 'what you get' section with the 'All Trade Takeoff (Residential)' sample. Link to quantity-takeoff-services (takeoffs only), commercial-estimating-services (commercial work) and /pricing/. Add a named author.
-7. Request a re-crawl. 2-4 weeks later, re-run C12/T12 in Perplexity, ChatGPT and Google AI Mode. Success means the answer names Quotr.ai together with the rate.
+1. Before any edit, record the baseline: Search Console data for this URL and for construction-estimating-services, plus the T12 result from the A15 October baseline, run before the fixed pages are re-crawled.
+2. Edit sentences, not structure. Do not rebuild the page from scratch, even though R-05 calls it a rebuild. Keep the price section, and any price table, where they are.
+3. Rewrite the key price sentence and any table row with the brand in them: 'Quotr.ai's Estimation Service charges $0.25 per sq ft for projects under 50,000 sq ft and $0.10 per sq ft for 50,000 sq ft and above (Quotr pricing page, September 2026).' State one turnaround from A1 (Q-15) and remove every other figure. Add a worked example once Quotr confirms how the tier applies.
+4. Source the hire-vs-outsource numbers ($115k-$195k loaded cost; break-even at 12-15 estimates a month) with dated links, or show the maths. Read this post and outsourcing-vs-hiring-an-estimator side by side, and decide which one owns L-018 and L-019 (G02 'not yet'). The other post should link to the owner instead of repeating the maths, and R-05 should drop those prompts if the other post owns them.
+5. Merge construction-estimating-services into this page (G02, R-05, A12). Bring over any unique section, and use 'construction estimating services' wording in the intro and one H2. Set a 301 redirect, update internal links and remove the old URL from the sitemap.
+6. Add a 'what you get' section with the 'All Trade Takeoff (Residential)' sample. Link to quantity-takeoff-services (takeoffs only), commercial-estimating-services (commercial work) and /pricing/. Add a named author (A7). Ask the consultant to make R-48 link here rather than answer E-073 again.
+7. Request a re-crawl. 2-4 weeks later, re-run C12/T12 in Perplexity, ChatGPT and Google AI Mode as new test runs. Success means the answer names Quotr.ai together with the rate.
 
 **Add to the page:**
 - Price sentence and table row with the brand in them
@@ -441,12 +443,12 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 - 'What you get' section with the sample deliverable
 - Unique sections carried over from construction-estimating-services
 
-**Title:** Keep the title seen in search on 2026-09-26, 'Should You Outsource Construction Estimating? Costs, Pros & Cons (2026)', rather than R-05's new working title, because this one ranks and is cited. Put price-per-sq-ft wording in the intro, not in a new title. Change the year only with real changes at the January 2027 review.  
-**Web address (URL):** Keep BP-82 (/outsource-construction-estimating/). It has no year, it is cited and it ranks. It becomes the redirect target for construction-estimating-services.
+**Title:** Keep the title seen in search on 2026-09-26, 'Should You Outsource Construction Estimating? Costs, Pros & Cons (2026)', rather than R-05's new working title, because this one ranks and is cited. It was seen in only one pass, so confirm it on the live page. Put price-per-sq-ft and 'construction estimating services' wording in the intro, not in a new title. Change the year only with real changes at the January 2027 review.  
+**Web address (URL):** Keep BP-82 (/outsource-construction-estimating/). It has no year, it is cited, and it was seen in search. It becomes the redirect target for construction-estimating-services.
 
 **Related tasks:** A8, A12, A1, A3, A7, A15
 
-**Why now:** It is the first citation for a tracked Tier A prompt (T12), and R-05 schedules its rebuild for October 2026. A heavy rebuild could lose that citation, so change sentences, not structure.
+**Why now:** It is the first citation for a tracked Tier A prompt (T12), and R-05 schedules its rebuild for October 2026. A heavy rebuild could lose that citation, so change sentences, not structure. Task A8 names this page first.
 
 ### BP-43 https://quotr.ai/blog/best-togal-ai-alternatives-2026/
 
@@ -492,25 +494,25 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 
 **Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 14
 
-1. This week (A2): replace the indexed 'Solo from $299.90/month, Team (2–6 seats) $499.90/month' with 'Quotr.ai Lite $79.90 and Plus $299.90 per seat per month; Enterprise custom; 7-day free trial (as of September 2026)'. Then request a re-crawl.
-2. Merge group G11 (A12): first check Search Console for both URLs. Move the unique 'how to choose' material from electrical-estimating-software-buyers-guide into a new H2, 'How to choose electrical estimating software'. Then 301 the guide here.
-3. Add the electrical depth the C6 answer rewarded: criteria for device and fixture counts, conduit and wire runs, panel schedules, labour units and assemblies, and per-opening vs per-square-foot pricing. Cover the tools Perplexity named (ConEst IntelliBid, Countfire, PlanSwift, Trimble AccuBid, McCormick) with dated, linked facts (A6).
-4. Write the Quotr.ai entry with honest limits and electrical proof: the RL Electric quote (about 20 hours to 1–2 hours per takeoff, credited to the customer) and a screenshot of a symbol count. Remove any #1 self-ranking, and add a disclosure line and a method.
-5. Link to how-to-estimate-electrical-work-from-drawings-conduit-devices-labor, commercial-electrical-takeoff-drawings-to-proposal, electrical-estimating-services, the RL Electric case study, /software/trades/electrical/ and the panel-schedule dictionary term.
-6. Add a named author (A7), honest dates (A9) and the human fact check (A16). When the deep electrical page R-23 (December 2026, task C6) and the V-01 video go live, link and embed them.
-7. Two to four weeks after the re-crawl, re-run E-028 (T06) in two engines (B3).
+1. Now, as part of A2: replace the indexed 'Solo from $299.90/month, Team (2–6 seats) $499.90/month' with 'Quotr.ai Lite $79.90 and Quotr.ai Plus $299.90 per seat per month; Enterprise custom; 7-day free trial (as of September 2026)'. Request a re-crawl in Search Console and Bing, and add a Search Console annotation.
+2. Before the rewrite, read both electrical posts and pull Search Console data for each. G11 keeps this URL. If the guide clearly has more impressions or links, raise it with the consultant. Then move the guide's unique material into a new H2, 'How to choose electrical estimating software', and 301 the guide here (A12; G11 is last in the merge order, after the spam update ends).
+3. Add the electrical depth the C6 answer rewarded: device and fixture counts, conduit and wire runs, panel schedules, labour units and assemblies, and per-opening vs per-square-foot pricing (L-092). Compare the tools Perplexity named (ConEst IntelliBid, Countfire, PlanSwift, Trimble AccuBid, McCormick) with dated, linked facts (A6), and say where each is stronger.
+4. Write the Quotr.ai entry with honest limits and electrical proof: the RL Electric quote (about 20 hours to 1–2 hours per takeoff, credited to the customer, not the '80%' claim from /software/) and a screenshot of an AI symbol count. Remove any #1 self-ranking. Add a disclosure line and a method.
+5. Link to how-to-estimate-electrical-work-from-drawings-conduit-devices-labor, commercial-electrical-takeoff-drawings-to-proposal, electrical-estimating-services, /software/trades/electrical/ and /dictionary/panel-schedule/. Link R-15 (B4) and R-23 (C6) when they go live, and embed the V-01 electrical episode. Keep the roles clear: R-23 gives the product answer for E-028, and this post stays the comparison.
+6. Add a named author (A7), make the visible date, schema date and sitemap lastmod agree (A9), and run the human fact check (A16).
+7. 2–4 weeks after the re-crawl, during B3: re-run E-028 (T06) in two engines, and check that brand prompts V2 and B4 no longer quote 'from $299.90'.
 
 **Add to the page:**
-- Electrical criteria (devices, runs, panel schedules, labour units, per-opening pricing)
-- The RL Electric result, credited to the customer
+- Electrical criteria (devices, runs, panel schedules, labour units, per-opening vs per-square-foot pricing)
+- The RL Electric result, credited to the customer, with a symbol-count screenshot
 - A 'how to choose' section taken from the merged guide
 
-**Title:** The live title was never recorded; the current one is derived from the web address. Match the tracked prompt wording: 'Best Takeoff and Estimating Software for Electrical Contractors'. Keep '2026' in the title only if every tool is re-checked this year. Otherwise show a 'Last checked' date.  
-**Web address (URL):** Keep the URL for now. It is indexed and brand prompts retrieve it. It is the long-term keeper with a year in the slug, so at the January 2027 refresh, 301 it to a yearless slug such as /blog/best-electrical-estimating-software/. At the same time, point the old guide's redirect straight at the new slug so there is no redirect chain.
+**Title:** The live title was never recorded; the current one comes from the web address. Match the tracked prompt wording, for example 'Best Takeoff and Estimating Software for Electrical Contractors'. Retitle after the spam update ends. Keep '2026' only if every tool is re-checked this year; otherwise show a 'Last checked' date.  
+**Web address (URL):** Keep the URL through the price fix and re-crawl. It has '2026' in the slug and is the long-term keeper. So when the full rewrite is published (after the spam update, ideally in November, before R-23 links here), move it to /blog/best-electrical-estimating-software/ with a 301, but only if every tool was re-checked. Point the guide's 301 straight at the new slug in the same release, so there is no redirect chain, and update E-028's quotr_url. If the rewrite slips past mid-December, leave the URL for the first 2027 batch.
 
-**Related tasks:** A2, A6, A7, A9, A12, A16, B3, C6
+**Related tasks:** A2, A6, A7, A9, A12, A16, B3, B4, C6
 
-**Why now:** It serves tracked prompt T06, and the retired price is in the search index today. The A2 fix is due in October. The merge should land before the deep electrical page (R-23) goes live in December, so that new links point to one URL.
+**Why now:** It serves tracked prompt T06, where Quotr is absent, and the retired price is in the search index. It is also a source for Quotr brand answers, one of which quoted 'from $299.90'. Fix the price now (A2, October). Do the rewrite and the G11 merge after the spam update and before R-23 goes live in December, so new links point to one final URL.
 
 ### BP-24 https://quotr.ai/blog/best-ai-construction-estimating-software-2026/
 
@@ -535,36 +537,37 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 
 **Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 16
 
-1. This week (A2): replace the indexed Solo/Team pricing with 'Quotr.ai Lite $79.90 and Plus $299.90 per seat per month; Enterprise custom; 7-day free trial'. Then request a re-crawl.
-2. Re-aim the title, H1 and answer-first block at E-027 'best takeoff software for flooring contractors' (T05). Drop 'in 2026' from the title.
-3. Add flooring criteria: net area by room and material, carpet in square yards, a waste factor with rounding up to full cartons, linear feet of transitions and base, stairs, and subfloor prep. Compare the tools Perplexity named in C5 (The EDGE, MeasureSquare, PlanSwift, STACK, Autodesk Takeoff, QuoteIQ, On Center) with dated, linked facts. Say fairly where flooring-specialist tools are stronger (A6).
-4. Add a room-by-room Quotr.ai area takeoff example with screenshots. Mention factory-direct flooring only after Quotr confirms flooring as a Procurement category. Link flooring-trades-how-to-quote-flooring-jobs-and-win-more-work and /software/trades/flooring/.
-5. Apply the honest-inclusion rules (a disclosure line, a method, no Quotr #1). Add a named author (A7), honest dates (A9) and the human fact check (A16).
-6. When the flooring bundle R-45 (waste-factor calculator, February 2027) and the V-04 video go live, link them. Re-run E-027 (T05) 2–4 weeks after the re-crawl (B3).
+1. Now, as part of A2: replace the indexed Solo/Team pricing with 'Quotr.ai Lite $79.90 and Quotr.ai Plus $299.90 per seat per month; Enterprise custom; 7-day free trial (as of September 2026)'. Request a re-crawl and add a Search Console annotation.
+2. After the spam update ends, read the page, pull Search Console data, and re-aim the title, H1 and answer-first block at E-027 'best takeoff software for flooring contractors' (T05). Drop 'in 2026' from the title.
+3. Add flooring criteria: net area by room and material, carpet in square yards, a waste factor with rounding up to full cartons, linear feet of transitions and base, stairs, and subfloor prep. Compare the tools Perplexity named in C5 (The EDGE, MeasureSquare, PlanSwift, STACK, Autodesk Takeoff, QuoteIQ, On Center) with dated, linked facts, and say fairly where flooring-specialist tools are stronger (A6).
+4. Add a room-by-room Quotr.ai area takeoff example with screenshots. Mention factory-direct flooring only after Quotr confirms flooring is still a Procurement category.
+5. Link flooring-trades-how-to-quote-flooring-jobs-and-win-more-work both ways, and give each page a clear role. Quoting, labour pricing and waste detail belongs on the how-to; software choice belongs here. Also link /software/trades/flooring/.
+6. Apply the honest-inclusion rules (a disclosure line, a method, no Quotr #1). Add a named author (A7), make the dates agree (A9), and run the human fact check (A16).
+7. When the flooring bundle R-45 (waste-factor calculator, February 2027, D5) and the V-04 flooring episode go live, link them; R-45 gives the product answer for E-027. Re-run E-027 (T05) in two engines 2–4 weeks after the re-crawl (B3).
 
 **Add to the page:**
 - Flooring criteria (room-by-room area, waste factor, cartons, transitions)
 - A Quotr.ai room-by-room takeoff example
 - A disclosure line and a published method
 
-**Title:** The live title was never recorded; the current one is derived from the web address. Use the prompt wording: 'Best Flooring Takeoff and Estimating Software for Contractors'. Drop 'in 2026' unless every tool is re-checked, and show a 'Last checked' date.  
-**Web address (URL):** Keep the URL for now, because it is indexed. The '-in-2026' slug will expire and breaks the sibling pattern. 301 it to a yearless slug such as /blog/best-flooring-takeoff-software/ at the January 2027 refresh. Do it earlier, when the rewrite is published, only if Search Console shows almost no impressions.
+**Title:** The live title was never recorded; the current one comes from the web address. Use the prompt wording, for example 'Best Flooring Takeoff and Estimating Software for Contractors'. Drop 'in 2026' unless every tool is re-checked, and show a 'Last checked' date. Retitle after the spam update ends.  
+**Web address (URL):** Keep the URL through the price fix and re-crawl. The '-in-2026' slug will expire and breaks the sibling pattern, and this is an evergreen page Quotr will keep. So move it to a year-free slug such as /blog/best-flooring-takeoff-software/ with a 301 when the rewrite is published, after the spam update, so it changes only once. Update E-027's quotr_url. If the rewrite slips past mid-December, leave the URL for the first 2027 batch.
 
 **Related tasks:** A2, A6, A7, A9, A16, B3, D5
 
-**Why now:** It serves tracked prompt T05, where Quotr is absent, and its retired price is in the search index now. The price fix belongs to task A2, due in October.
+**Why now:** It serves tracked prompt T05, where Quotr is absent, and its retired price is in the search index now. The price fix belongs to A2 in October and can go ahead during the spam update. The retitle and rewrite follow after the update ends.
 
 ### BP-85 https://quotr.ai/blog/commercial-estimating-services/
 
 **Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 17
 
-1. Put the brand in the key price sentence and in the table row: 'Quotr.ai's Estimation Service charges $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft above (Quotr pricing page, September 2026).'
-2. Make the page commercial-only. Add a table of commercial project types (office fit-out, retail, warehouse, mixed-use) with what an estimate covers, typical sizes and the cost at Quotr's rates. First ask Quotr whether $0.10 applies to the whole project or only above 50,000 sq ft. Read literally, a 49,000 sq ft job costs $12,250 and a 50,000 sq ft job costs $5,000.
-3. Use the commercial sample deliverables, for example 'HVAC Cost Estimation (Commercial)', as proof. Add a screenshot and a link to /service/.
-4. Leave the generic 'price per sq ft for developers' question (E-073) to outsource-construction-estimating. Keep a one-line summary here with a link. Ask the consultant to drop E-080 from R-05, so each page owns one prompt.
-5. Add the approved turnaround (A1/Q-15) and a short section on when an outsourced commercial estimate is not the right fit.
-6. Add links to preconstruction-services, how-to-bid-commercial-construction-projects-subcontractor-estimating-takeoff-guide and quantity-takeoff-services.
-7. Test E-080 directly for the first time. Re-run C12 (T12) after the re-crawl.
+1. Before editing, record the page's Search Console baseline and the T12 result from the A15 October baseline. This page is already cited, so the effect of each change needs to be measurable.
+2. Check whether the page states Quotr's rates. Rewrite the key price sentence and any table row with the brand in them, or add them under the market figures: 'Quotr.ai's Estimation Service charges $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft above (Quotr pricing page, September 2026).'
+3. Make the page commercial-only. Add a table of commercial project types (office fit-out, retail, warehouse, mixed-use) showing what an estimate covers and the cost at Quotr's rates. First ask Quotr whether $0.10 applies to the whole project or only to the area above 50,000 sq ft. Read literally, a 49,000 sq ft job costs $12,250 and a 50,000 sq ft job costs $5,000.
+4. Use the commercial sample deliverables, for example 'HVAC Cost Estimation (Commercial)', as proof. Add a screenshot and a link to /service/.
+5. Leave the developer price-per-sq-ft question (E-073) to outsource-construction-estimating: keep a one-line summary here with a link. Ask the consultant to take E-080 off R-05 and drop E-073 from this post's row in Optimize vs create, so each page owns one prompt (G02).
+6. Add the approved turnaround (A1/Q-15) and a short section on when an outsourced commercial estimate is not the right fit. Add links to preconstruction-services, how-to-bid-commercial-construction-projects-subcontractor-estimating-takeoff-guide and quantity-takeoff-services.
+7. Test E-080 directly for the first time. Re-run C12 (T12) 2-4 weeks after the re-crawl, and record both as new test runs.
 
 **Add to the page:**
 - Price sentence and table row with the brand in them
@@ -572,12 +575,12 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 - Commercial sample deliverable screenshot
 - Short 'not the right fit' section
 
-**Title:** Keep 'Commercial Estimating Services: A 2026 Contractor Guide' for now. At this refresh, consider adding cost wording to match E-080, for example 'Commercial Estimating Services: Cost, Scope and Turnaround (2026 Contractor Guide)'. Change the year only with a real update in January 2027.  
+**Title:** Keep 'Commercial Estimating Services: A 2026 Contractor Guide' for now. Put cost wording to match E-080 in the H1 or intro. Do not change the title in the same edit as the brand fix, so any change in citations can be traced to one cause (inferred). Revisit the title and year at the January 2027 review, and change the year only with a real update.  
 **Web address (URL):** Keep BP-85 (/commercial-estimating-services/). It has no year and is cited by AI. The map keeps it separate (G02).
 
 **Related tasks:** A8, A1, A3, A7, A15
 
-**Why now:** It is already cited in the tracked C12 answer. One sentence with the brand in it could turn an anonymous citation into a named one. Task A8 schedules this for October.
+**Why now:** It is already cited in the tracked C12 answer. One sentence with the brand in it could turn an anonymous citation into a named one. Task A8 schedules this page for October.
 
 ### BP-19 https://quotr.ai/blog/ai-construction-estimating-software-buyers-guide/
 
@@ -601,88 +604,89 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 
 ### BP-47 https://quotr.ai/blog/ai-bidding-software-construction/
 
-**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 19
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 19
 
-1. This week (A2): replace 'Solo from $299.90/month, Team (2–6 seats) $499.90/month' and any 'Enterprise (7+ users)' line with 'Quotr.ai Lite $79.90 and Quotr.ai Plus $299.90 per seat per month; Enterprise custom; 7-day free trial (as of September 2026)'. Link /pricing/ and the new-pricing post. Make the same fix on best-ai-bid-software-for-construction, because it stays live until the merge. Then request a re-crawl in Search Console and Bing (IndexNow).
-2. Merge group G04 (A12): pull 3 months of Search Console clicks and impressions for both URLs to confirm the keeper. Move any unique tools, tables or FAQs from best-ai-bid-software-for-construction into this post. Then 301 that URL here, update the internal links that point to it, and remove it from the blog sitemap.
-3. Answer both buyer questions in the first screen: E-025 'AI bidding software for construction' and E-004 'construction bid management software for general contractors' (T07). Split the tools into bid-invitation platforms and estimate-to-bid tools. The bid-invitation group is the one Perplexity named for C7: ConstructConnect, BuildingConnected, SmartBid, PlanHub and Procore. Say plainly where Quotr.ai fits.
-4. Apply the honest-inclusion rules from the Best-of roundup template: a disclosure line, a published method, and 'best for' groups instead of a numbered #1. Give Quotr.ai its own section with its limits (few third-party reviews so far). Link and date every competitor fact (A6).
-5. Add proof only Quotr has: a worked example that goes takeoff → estimate → bid comparison → proposal in Quotr.ai, with screenshots. Add the RL Electric quote (takeoff cut from about 20 hours to 1–2 hours), credited to the customer. Link to ai-construction-proposals-takeoff-to-proposal (a separate page, not merged) and to /software/.
-6. Replace any 'By quotr.ai' byline with a named author (A7). Show Published and Last updated dates that match the sitemap lastmod (A9). Run the human fact-check pass before publishing (A16).
-7. Two to four weeks after the re-crawl, run E-025, E-004 (T07) and brand prompt B4 in at least two engines. Confirm that no answer still cites this post for Solo/Team pricing (B3).
+1. Now, as part of A2: replace 'Solo from $299.90/month, Team (2–6 seats) $499.90/month' and any 'Enterprise (7+ users)' line with 'Quotr.ai Lite $79.90 and Quotr.ai Plus $299.90 per seat per month; Enterprise custom; 7-day free trial (as of September 2026)'. Link /pricing/ and the new-pricing post. Make the same fix on best-ai-bid-software-for-construction the same day. Request a re-crawl in Search Console and Bing (IndexNow). Fact fixes may go ahead during Google's September spam update; add a Search Console annotation.
+2. Before any other edit, read both bid posts and pull 3 months of Search Console clicks, impressions and linking pages for each. Run E-025 once in two engines to get a baseline, because it has never been tested (Page refresh checklist, step 1).
+3. Merge group G04 after the spam update ends (about 2026-10-08) (A12). Add G04 to A12's list, which today names only the Togal and services merges. Move any unique tools, tables or FAQs from best-ai-bid-software-for-construction into this post. Then 301 that URL here, update internal links to it, and remove it from the blog sitemap.
+4. Keep E-025 as this page's question. Add a short section on proposal software for subcontractors (E-020), and link to ai-construction-proposals-takeoff-to-proposal, which stays a separate page. Do not turn this page into the E-004 answer. Give GC bid-board platforms one short, fair paragraph (ConstructConnect, BuildingConnected, SmartBid, PlanHub and Procore, as named in C7). In the vault, point E-004's quotr_url to R-60 or mark it as needing a page, and log the change in the Changelog.
+5. Apply the honest-inclusion rules (Best-of roundup template §3): a disclosure line, a published method with a check date, 'best for' groups instead of a numbered #1, and a Quotr.ai entry that states its limits (few third-party reviews so far). Link and date every competitor fact (A6).
+6. Add proof only Quotr has: screenshots of the Quotr.ai bid workflow (manage bids, compare supplier prices side by side, export a proposal, all listed in the fact sheet). Embed or link the existing 'How to Manage Bids' and 'How to Export a Proposal' tutorials. Add a named author (A7), make the visible date, schema date and sitemap lastmod agree (A9), and run the human fact check (A16).
+7. 2–4 weeks after the re-crawl, during B3: check that brand prompts B4 and V2 no longer give Solo/Team prices or 'from $299.90'. Re-run E-025 in two engines.
 
 **Add to the page:**
-- A worked takeoff-to-proposal example with Quotr.ai screenshots
-- A table that splits bid-invitation platforms from estimate-to-bid tools
 - A disclosure line and a published method
+- Screenshots of the Quotr.ai bid workflow, plus the 'How to Manage Bids' tutorial
+- A short section on proposal software (E-020) and one fair paragraph on GC bid-board platforms
 
-**Title:** The live title was never recorded; the current one is derived from the web address. Rewrite it to cover both questions this page will own after the merge, for example 'AI Bidding Software for Construction: Estimate-to-Bid Tools vs Bid Management Platforms'. Keep the year out of the title unless every tool is re-checked. Show a 'Last checked' date in the body instead.  
-**Web address (URL):** Keep the URL. It has no year in it, it is indexed, and AI engines already read it. It is the keeper in overlap group G04, so best-ai-bid-software-for-construction should 301 here.
+**Title:** The live title was never recorded; the current one comes from the web address. Read it first. Keep it if it already leads with 'AI bidding software for construction'. If not, retitle after the spam update, for example 'AI Bidding Software for Construction: Tools to Take Off, Price and Submit Bids'. Do not promise GC bid-management coverage, because E-004 goes to R-60. Leave the year out unless every tool is re-checked.  
+**Web address (URL):** Keep the URL. It has no year, it is indexed, AI engines already read it, and it is the G04 keeper. best-ai-bid-software-for-construction should 301 here after the spam update ends.
 
 **Related tasks:** A2, A6, A7, A9, A12, A16, B3
 
-**Why now:** While this post is live, Perplexity can keep quoting Solo $299.90 as Quotr's entry price. That is nearly four times the real Lite price of $79.90. The fix belongs to task A2, due in October 2026.
+**Why now:** On 2026-09-25 Perplexity cited this post when it gave Quotr's plans as Solo $299.90 and Team $499.90. The real entry price, Quotr.ai Lite at $79.90, is about a quarter of that. The price fix can go ahead now (A2, October). The merge waits until the spam update ends. A full rewrite is not justified yet: E-025 is a Medium, untested prompt, and E-004 belongs to the planned GC hub.
 
 ### BP-23 https://quotr.ai/blog/tariff-impact-construction-costs-2026-steel-aluminum-copper/
 
 **Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 20
 
-1. Before rewriting, open the live page and record its title, byline, on-page dates, every tariff rate it states, and whether it shows old pricing. None of this could be checked on 2026-09-26. Confirm indexing with Search Console URL Inspection.
-2. Add a lumber section that answers L-056 word for word ('how are tariffs on Canadian lumber affecting framing costs in 2026'). Use AGC's figure (lumber and plywood up 9.9% year on year by July 2026) and CT Public's 2026-09-11 report on 50% tariffs on Canadian wood. Re-check both at the source first; the vault saw them through Perplexity.
-3. Add a residential finishes section for L-113 (cabinets, vanities, porcelain tile, LVP, windows, plumbing fixtures). Use Quotr Procurement landed-cost quotes with method, sample size and date. The data is TO CONFIRM with Quotr (B5, R-19). Mention the cabinet and vanity tariff step that the prompt library dates to 1 January 2027, but only after an expert re-check.
-4. Open with a 40-80 word answer for home builders and multifamily developers. Cite the sources Perplexity already uses: JEC ($7,500-$10,900 added per home) and Brookings (about $30B, about 90% of it on new construction). Then give Quotr's practitioner number in a sentence that names Quotr.ai.
-5. Add a dated table with these columns: material, tariff rule, effective date, typical cost effect, source link. Show 'Published' and 'Last updated' dates that match schema dateModified and the sitemap lastmod (A9). Set the next quarterly update date, as R-12 requires.
-6. Give each cost post one job. This page answers 'what are tariffs doing to material costs'. Link to tariff-aware-estimating-material-escalation-every-bid (protecting a bid), construction-cost-trends-2026 (overall trend) and construction-cost-index-q1-2026-ppi-rsmeans-mortenson (index data). Decide whether this page or cost-trends owns L-123, and update R-12 and the L-123 note to match.
-7. Add a named author, a customs or trade expert reviewer and a 'not legal advice' line (A7, B8). Publish after the September 2026 spam update ends. Re-run L-113 (T46) and L-056 two to four weeks later.
+1. In October, before any rewrite, open the live page. Record its title, byline, on-page dates and every tariff rate it states. Search it for the retired prices ('Solo', 'Team', '$499.90', 'from $299.90'; 'Plus $299.90' is correct) and fix any hit under A2. Note any 'based in San Francisco' footer for A3, but leave it until Q-01 is answered. Confirm indexing with Search Console URL Inspection once access exists (Q-49).
+2. Open with a 40-80 word answer to L-113 for home builders and multifamily developers. Cite JEC's April 2026 report ($7,500-$10,900 added per home) and Brookings (about $30B added, about 90% of it on new construction). The vault saw both only through Perplexity, so open the JEC PDF and the Brookings article and confirm the figures before quoting them.
+3. Add an H2 in L-056's words: 'How are tariffs on Canadian lumber affecting framing costs in 2026?' Use AGC's figure (lumber and plywood up 9.9% year on year by July 2026) and CT Public's 2026-09-11 report on 50% tariffs on Canadian wood. Re-check both at agc.org and ctpublic.org first.
+4. Add a short residential finishes section: cabinets, vanities, tile, LVP, windows and plumbing fixtures. Give each one dated line and a source. For cabinets and vanities, link to R-10 (November) and do not repeat its detail. R-10 also covers the rise to 50% that was delayed to 1 January 2027. Add two or three Quotr Procurement landed-price examples only if Quotr approves publishing price data (Q-14). Otherwise, add the R-19 index link when it launches in December (C1).
+5. Add a dated table with these columns: material, tariff rule, effective date, typical cost effect, source link. Show 'Published' and 'Last updated' dates that match the schema dateModified and the sitemap lastmod (A9). State the next quarterly update date, as R-12 requires.
+6. Give each prompt one owner. This page owns L-113 and L-056. Take L-123 off R-12 and give it to tariff-aware-estimating-material-escalation-every-bid, as the G07 note suggests. Set R-19 and R-29 to support this page, not compete with it. Link out to the tariff-aware post (protecting a bid), construction-cost-trends-2026 (the overall trend) and construction-cost-index-q1-2026-ppi-rsmeans-mortenson (index data).
+7. Add a named author (A7). Add a customs or trade expert as reviewer, with a 'not legal advice' line (B8, Q-56). Put the draft through the A16 fact-check. Read T46 in the December monthly run (C9), and run L-056 once and record it as a test run.
 
 **Add to the page:**
-- 40-80 word answer for home builders and multifamily developers
-- Canadian lumber and framing-cost section (L-056)
-- Residential finishes section with Quotr landed-cost data (method, sample, date)
-- Dated tariff-rate table with source links
-- Expert reviewer line and next-update date
+- 40-80 word answer to L-113 for home builders and multifamily developers
+- H2 in L-056's words on Canadian lumber and framing costs
+- Short residential finishes section that links to R-10 for cabinets and vanities
+- Dated tariff table (material, rule, effective date, cost effect, source)
+- Expert reviewer line, 'not legal advice' line and next-update date
+- Quotr landed-price examples, only if Q-14 is approved
 
-**Title:** The current title was not seen; the one on file comes from the slug. Rewrite it to match L-113 and L-056, for example: 'How 2026 Tariffs Are Raising Building Material Costs: Lumber, Steel, Aluminum, Copper and Finishes (Updated [Month Year])'. Keep '2026' only while each quarterly update re-checks every rate. Early-2026 visibility losses hit posts that were only lightly re-dated with '2026' (QUALITY-11, a practitioner observation, not a Google rule).  
-**Web address (URL):** Keep the URL for the November 2026 rebuild. R-12 and tracked prompt T46 both point here, and L-113 itself says '2026'. The slug names only three metals and will carry an expired year from January 2027. If Quotr commits to quarterly updates, move it at the first 2027 update to a year-free slug such as /blog/tariffs-building-material-costs/ with a 301. Check Search Console links and impressions first, and update the R-12, L-113 and L-056 notes at the same time.
+**Title:** The live title was not seen; the one on file comes from the slug. Match R-12's working title and the buyer's words, for example: '2026 Tariffs and Building Material Costs for Home Builders: Lumber, Steel, Copper and Finishes (Updated November 2026)'. Keep '2026' only if every quarterly update re-checks each rate. Posts 'lightly refreshed with 2026 in the title' were among the patterns hit in early 2026 (QUALITY-11, from the 2026-09-25 research; a practitioner observation, not a Google rule).  
+**Web address (URL):** Keep the URL for the November rebuild. R-12 and T46 both point here, and L-113 itself says '2026'. From January 2027 the slug will carry last year's date and still name only three metals. If Quotr commits to quarterly updates, move the page at the first 2027 update (about February 2027) to a year-free slug such as /blog/tariffs-building-material-costs/, with a 301. Check Search Console first. Update R-12, L-113 and L-056 in the same change.
 
-**Related tasks:** B8, B5, C1, A7, A9, A16
+**Related tasks:** B8, A2, A3, A7, A9, A16, B5, C1, C9
 
-**Why now:** It serves tracked prompt T46 (L-113, High priority, Tier A). There, Perplexity cited no software vendor on 2026-09-25, so the source slot is open (from 2026-09-25 AI tests). R-12 schedules the rebuild for November 2026. Publish after the September 2026 spam update, which started 2026-09-24 and may run to about 2026-10-08 (RANK-21, seen in search 2026-09-26).
+**Why now:** It serves tracked prompt T46 (L-113: High priority, Tier A). On 2026-09-25 Perplexity cited no vendor for that prompt, so no competitor holds the practitioner slot yet (from 2026-09-25 AI tests, one run). R-12 schedules the rebuild for November 2026, after the September 2026 spam update ends (about 2026-10-08; RANK-21, seen in search 2026-09-26). The page check in step 1 fits into the October A2 and A3 sweeps.
 
 ### BP-54 https://quotr.ai/blog/best-concrete-estimating-software-2026/
 
 **Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 21
 
-1. This week (A2): replace 'Solo from $299.90/month, Team (2–6 seats) $499.90/month' with 'Quotr.ai Lite $79.90 and Quotr.ai Plus $299.90 per seat per month; Enterprise custom; 7-day free trial'. Always name Plus next to $299.90, so no one reads it as the entry price. Fix rebar-estimating-and-takeoff-software the same day, then request a re-crawl.
-2. Add concrete criteria a buyer can check: cubic yards from length × width × thickness ÷ 27, slab thickness, rebar by weight or linear feet, formwork contact area, and flatwork priced per square foot vs per yard.
-3. Apply the honest-inclusion rules: a disclosure line, a method, and 'best for' groups. Give each tool dated, linked facts, including STACK (A6).
-4. Add one Quotr.ai example: an AI area and length takeoff on a slab or foundation plan, with screenshots. Link rebar-estimating-and-takeoff-software (kept as a separate page), the rebar, formwork and cubic-yard dictionary terms, and /software/trades/concrete/.
-5. Add a named author (A7), Published and Last updated dates that match the sitemap (A9), and the human fact check (A16).
-6. Run E-031 once in two engines to set a baseline, because it has never been tested.
+1. Now, as part of A2: replace 'Solo from $299.90/month, Team (2–6 seats) $499.90/month' with 'Quotr.ai Lite $79.90 and Quotr.ai Plus $299.90 per seat per month; Enterprise custom; 7-day free trial (as of September 2026)'. Always name Plus next to $299.90, so no one reads it as the entry price. Fix rebar-estimating-and-takeoff-software the same day, then request re-crawls for both.
+2. Before the content refresh, read the live page and run E-031 once in two engines to set a baseline, because it has never been tested (Page refresh checklist, step 1).
+3. Add concrete criteria a buyer can check: cubic yards (length × width × thickness in feet ÷ 27), slab thickness, rebar by weight or linear feet, formwork contact area, short-load fees, and flatwork priced per square foot vs per yard.
+4. Apply the honest-inclusion rules: a disclosure line, a method and 'best for' groups. Give each tool, including STACK, dated and linked facts (A6).
+5. Add one Quotr.ai example: an AI area and length takeoff on a slab or foundation plan, with screenshots. Link rebar-estimating-and-takeoff-software, /dictionary/rebar/, the formwork and cubic-yard dictionary terms (confirm their slugs; the audit did not record them), and /software/trades/concrete/.
+6. Add a named author (A7), make the visible date, schema date and sitemap lastmod agree (A9), and run the human fact check (A16).
 
 **Add to the page:**
 - Concrete criteria (cubic yards, rebar, formwork, flatwork pricing)
 - A Quotr.ai slab or foundation takeoff example
 - A cross-link to the rebar post
 
-**Title:** The live title was never recorded; the current one is derived from the web address. Use 'Best Concrete Estimating and Takeoff Software'. Keep '2026' only if every tool is re-checked this year, and plan a real update in January 2027.  
-**Web address (URL):** Keep the URL for now, because it is indexed. It has '2026' in the slug, so if the post stays long-term, 301 it to /blog/best-concrete-estimating-software/ at the January 2027 refresh.
+**Title:** The live title was never recorded; the current one comes from the web address. Use 'Best Concrete Estimating and Takeoff Software'. Keep '2026' only if every tool is re-checked this year. Retitle after the spam update ends.  
+**Web address (URL):** Keep the URL for now, because it is indexed. It has '2026' in the slug. If the content refresh re-checks every tool, move it to /blog/best-concrete-estimating-software/ with a 301 at that time and update E-031's quotr_url. Otherwise leave the URL and decide by mid-December.
 
 **Related tasks:** A2, A6, A7, A9, A16
 
-**Why now:** The retired price is live in the search index, and the fix is part of the A2 sweep due in October. AI engines already quote 'from $299.90' as Quotr's price in brand answers.
+**Why now:** The retired price is in the search index now, and brand answers still quote 'from $299.90' for Quotr. This post is one of about 13 pages carrying the old price; which one feeds those answers is not known. The price fix is part of A2 in October. The content refresh can wait (P3 in Optimize vs create), because E-031 is Medium and untracked.
 
 ### BP-76 https://quotr.ai/blog/best-glazing-estimating-software-2026/
 
 **Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 22
 
-1. Fix the price (A2). Confirm the live page first. Replace every 'Solo $299.90', 'Team (2-6 seats) $499.90' and 'Enterprise 7+' line with 'Quotr.ai Lite $79.90 and Plus $299.90 per seat per month; Enterprise custom; 7-day free trial (checked on /pricing/ on [date])'. Then request a re-crawl in Search Console and in Bing (or IndexNow), even if the live page was already correct.
-2. Open the live page and write down: the exact title, the byline, the on-page dates, where Quotr is ranked, and every competitor price or claim. Check each competitor fact on the vendor's own site and add 'as of [month year]'.
-3. If Quotr is ranked #1, add a one-line publisher disclosure. Add a 'How we chose' box with the criteria (window and door schedule support, storefront and curtain wall, plan-set types, price per seat). Give each tool a fair 'best for' line.
-4. Add a section on the Quotr-specific workflow: window and door schedule takeoff straight to a factory quote (the R-58 angle). Use confirmed facts only, such as Plus including '10% off procurement'. Do not state savings percentages on windows (the fact sheet rates them Low).
-5. Cover the wording of E-037: add a short section on door hardware and storefront/curtain wall, or link clearly to /software/trades/doors-hardware/. Also link to /software/trades/glazing/ and /pricing/, and to the R-58 how-to when it goes live.
-6. If the byline is 'By quotr.ai', replace it with a named author (A7). Make the visible date, the schema dateModified and the sitemap lastmod match (A9).
-7. Keep '2026' in the title only if every tool was really re-checked in 2026. Decide on the slug in January 2027 (see the URL advice).
+1. Fix the price in October under A2. First open the live page and search it for 'Solo', 'Team (2', '$499.90' and 'from $299.90' (Q-59). Replace every hit with 'Quotr.ai Lite $79.90 and Plus $299.90 per seat per month; Enterprise custom; 7-day free trial (checked on /pricing/ on [date])'. Then request a re-crawl in Search Console and Bing or IndexNow (needs access, Q-49), even if the live page was already correct, so the index copy updates.
+2. While the page is open, write down the exact title, byline, on-page dates, where Quotr is ranked, and every competitor price or claim. Check each competitor fact on the vendor's own site and add a link and 'as of [month year]' (A6).
+3. If Quotr is ranked #1, add a one-line publisher disclosure and a 'How we chose' box with the criteria: window and door schedule support, storefront and curtain wall, plan-set types, price per seat. Give each tool a fair 'best for' line.
+4. Add a short 'Quotr.ai for windows and doors' section with confirmed facts only, for example that Plus includes '10% off procurement'. Before describing takeoff straight to a factory quote (the R-58 angle), ask Quotr to confirm that windows and doors are still a procurement category, because the fact sheet marks that list TO CONFIRM. Leave out window savings percentages (rated Low).
+5. Cover the wording of E-037: add a short door hardware and storefront/curtain wall section, or link clearly to /software/trades/doors-hardware/. Also link to /software/trades/glazing/ and /pricing/, and to the R-58 how-to when it goes live.
+6. Replace a 'By quotr.ai' byline with a named author (A7). Have a named editor check the edited post against the fact sheet (A16). Make the visible date, the schema dateModified and the sitemap lastmod match (A9).
+7. Hold any retitle until Google's September 2026 spam update ends (about 2026-10-08, RANK-21). The price fix can go ahead now, with a Search Console annotation.
 
 **Add to the page:**
 - Correct Quotr.ai pricing with a checked date
@@ -690,59 +694,59 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 - Door hardware and storefront/curtain wall section
 - Links to the glazing and doors-hardware trade pages
 
-**Title:** Nobody has seen the live title (this one comes from the web address), so read it first. Keep a year in the title only while every entry is re-checked that year. Otherwise use a year-free title such as 'Glazing, window and storefront estimating software compared', with a visible 'Checked [month year]' line.  
-**Web address (URL):** Keep the URL for now. It is indexed, and changing it costs rankings. The '2026' slug will date. If the post is kept long-term, 301 it in January 2027 (after checking Search Console clicks and links) to a year-free slug such as /blog/best-glazing-estimating-software/. Update internal links and the sitemap in the same release.
+**Title:** Nobody has seen the live title (this one comes from the web address), so read it first. Keep a year in the title only while every entry is re-checked that year. Otherwise use a year-free title such as 'Glazing, window and storefront estimating software compared', with a visible 'Checked [month year]' line. Never bulk-rename to 2027 (FRESH-08, QUALITY-11).  
+**Web address (URL):** Keep the URL for now. It is indexed, and the October price fix does not need a new address. Decide by mid-December 2026 (the vault's suggested deadline). If the post gets a real refresh with every entry re-checked (it could be done with the R-58 rebuild, planned for March 2027), move it at that time to a year-free slug such as /blog/best-glazing-estimating-software/ with a 301, after checking Search Console clicks and links. Update internal links and the sitemap in the same release, and do not move it while a Google update is rolling out. If nothing is re-checked by January, leave the address alone and put it in the first 2027 batch.
 
 **Related tasks:** A2, A6, A7, A9, A16
 
-**Why now:** AI engines already quote Quotr's retired $299.90 entry price, taken from other Quotr posts. A2 (October 2026) lists this URL as a Tier 0 fix, and the year in the slug adds a January 2027 deadline.
+**Why now:** Perplexity quoted Quotr's retired '$299.90' entry price in 2 of 8 brand answers on 2026-09-25, citing other Quotr posts. This URL is on A2's list (October 2026) and on the Tier 0 list in the Page refresh checklist. The year in the slug needs a decision by mid-December 2026.
 
 ### BP-33 https://quotr.ai/blog/hvac-estimating-software-2026-buyers-guide/
 
 **Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 23
 
-1. During the A2 sweep, check the page for retired Solo/Team pricing. Use Search Console URL Inspection to confirm it is indexed, because web indexing was never checked.
-2. Rewrite the answer-first block for E-030 (T50) and split the market honestly. Field-service quoting apps (QuoteIQ, ServiceTitan and FieldPulse, as named in N3) suit service and replacement jobs. Plan-based takeoff and estimating tools suit new-construction and commercial mechanical bids. Say when a field-service app is the better choice.
-3. Add HVAC criteria a buyer can check: duct takeoff by size in linear feet, fittings, diffusers and grilles, equipment schedules, sheet-metal weight, per-ton pricing, and the Manual J/S/D handoff. Give every vendor row a dated, linked source (A6).
-4. Add proof only Quotr has: an AI takeoff of a mechanical sheet with screenshots, and the Quotr Service 'HVAC Cost Estimation (Commercial)' sample from /service/. Link how-to-estimate-hvac-sheet-metal-mechanical-plan, hvac-estimating-services, mep-estimating-services and /software/trades/hvac/.
-5. Apply the honest-inclusion rules: a disclosure line, a method, and no Quotr #1. Add a named author (A7) and run the human fact check (A16).
-6. When the deep HVAC page R-43 (February 2027, task D5) and the V-02 HVAC video go live, link them. Re-run E-030 (T50) in two engines 2–4 weeks after the re-crawl (B3).
+1. During the A2 sweep, check the page for retired Solo/Team pricing. Use Search Console URL Inspection to confirm it is indexed, because web indexing was never checked. Pull its queries to see whether it already earns 'HVAC takeoff' searches.
+2. After the spam update ends, rewrite the answer-first block for E-030 (T50) and split the market honestly. Field-service quoting apps (QuoteIQ, ServiceTitan and FieldPulse, as named in N3) suit service and replacement jobs. Plan-based takeoff tools suit new-construction and commercial mechanical bids. Check what WenDuct does on its own site before placing it, and include Beam AI's HVAC takeoff. Say when a field-service app is the better choice.
+3. Add HVAC criteria a buyer can check: duct takeoff by size in linear feet, fittings, diffusers, grilles and registers, equipment schedules, sheet-metal weight, tons and CFM, per-ton pricing, and the Manual J/S/D handoff. Give every vendor row a dated, linked source (A6).
+4. Add proof only Quotr has: an AI takeoff of a mechanical sheet with screenshots, and the Quotr Service sample deliverable 'HVAC Cost Estimation (Commercial)'. Link how-to-estimate-hvac-sheet-metal-mechanical-plan, hvac-estimating-services, mep-estimating-services and /software/trades/hvac/.
+5. Apply the honest-inclusion rules: a disclosure line, a method, and no Quotr #1. Add a named author (A7), make the dates agree (A9), and run the human fact check (A16).
+6. Keep this post as the comparison answer for E-030. When R-43 (February 2027, D5) ships as the product page, link the two both ways, and embed the V-02 HVAC episode (December 2026). Re-run E-030 (T50) in two engines 2–4 weeks after the re-crawl (B3).
 
 **Add to the page:**
-- A table comparing field-service apps with plan-based takeoff tools
+- A table comparing field-service quoting apps with plan-based takeoff tools
 - Quotr's HVAC sample deliverable and a mechanical-sheet takeoff screenshot
-- HVAC-specific criteria (duct linear feet, fittings, per-ton pricing)
+- HVAC criteria (duct linear feet, fittings, tons and CFM, per-ton pricing, Manual J/S/D)
 
-**Title:** The live title was never recorded. Keep a buyer's-guide title but lead with the prompt wording, for example 'Best HVAC Estimating Software: Plan Takeoff Tools vs Field-Service Apps'. Keep '2026' only if every tool is re-checked this year. Otherwise drop it and show a 'Last checked' date.  
-**Web address (URL):** The slug has '2026' in it. Pull Search Console data first. If the URL has few impressions and no external links, move it to a yearless slug such as /blog/hvac-estimating-software-buyers-guide/ with a 301 when the rewrite is published, so it changes only once. If it has real traffic, keep it and move it at the January 2027 refresh.
+**Title:** The live title was never recorded; the current one comes from the web address. Lead with the prompt wording, for example 'Best HVAC Estimating Software: Plan Takeoff Tools vs Field-Service Apps'. Retitle after the spam update. Keep '2026' only if every tool is re-checked this year; otherwise drop it and show a 'Last checked' date.  
+**Web address (URL):** The slug has '2026' in it, and this is an evergreen page Quotr will keep. Keep the URL for the A2 check. Move it to a year-free slug such as /blog/hvac-estimating-software-buyers-guide/ with a 301 when the rewrite is published, so the address changes only once. Do not move it while a Google update is rolling out, and update E-030's quotr_url. If the rewrite slips past mid-December, leave the URL for the first 2027 batch.
 
-**Related tasks:** A2, A6, A7, A16, B3, D5
+**Related tasks:** A2, A6, A7, A9, A16, B3, D5
 
-**Why now:** T50 is in the monthly tracking set, and Quotr is absent from its answer. The page shows no update in nearly four months, and its '2026' framing expires in three.
+**Why now:** T50 is in the monthly tracking set, and Quotr is absent from its answer. The page shows no update since June, and its '2026' framing expires in three months. Plan the rewrite for November, after the spam update, so the retitle and slug change happen together.
 
 ### BP-55 https://quotr.ai/blog/best-drywall-estimating-software-in-2026/
 
 **Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 24
 
-1. During the A2 sweep, check the page for retired pricing, because vault notes disagree on whether it needs a pricing fix. Use Search Console URL Inspection to confirm it is indexed.
-2. Re-aim the title, H1 and answer-first block at E-026 'best takeoff software for drywall contractors' (T04, Tier A). Drop 'in 2026' from the title.
-3. Add drywall-specific criteria: wall vs ceiling square feet, sheet counts (a 4×8 sheet is 32 sq ft), hang vs finish, finish levels, Type X and moisture-resistant board, linear feet of corner bead, and a waste allowance. Compare the tools Perplexity named in C4 (STACK, The EDGE, QuoteIQ, Bluebeam, Houzz Pro, Buildxact, PlanSwift) with dated, linked facts (A6).
-4. Apply the honest-inclusion rules: a disclosure line, a method, 'best for' groups, and a Quotr.ai entry that states its limits. Remove any #1 self-ranking. Industry reports tie visibility losses to this pattern (claims RANK-07, RANK-15, QUALITY-10; reported but not re-checked).
-5. Add a worked Quotr.ai takeoff on a real residential plan with screenshots (the R-24 angle). Link how-to-estimate-drywall-framing-commercial-floor-plan, scope-gap-construction and /software/trades/drywall/. That trade page is itself thin; its fate is decided under B10.
-6. Add a named author (A7) and honest dates (A9). When the drywall calculator (C3) and the V-01 drywall video go live, link and embed them.
-7. Re-run E-026 (T04) 2–4 weeks after the re-crawl (B3). Pair the rewrite with outreach to the third-party lists AI cites for this category (B2).
+1. During the A2 sweep, check the page for retired pricing, because the vault notes disagree on whether it needs a price fix. Use Search Console URL Inspection to confirm it is indexed, and pull its queries.
+2. After the spam update ends, re-aim the title, H1 and answer-first block at E-026 'best takeoff software for drywall contractors' (T04, Tier A). Drop 'in 2026' from the title.
+3. Add drywall-specific criteria: wall vs ceiling square feet, sheet counts (a 4×8 sheet is 32 sq ft, a 4×12 is 48), hang vs finish, finish levels 0–5, Type X and moisture-resistant board, linear feet of corner bead, and a waste allowance (about 10% is common). Compare the tools Perplexity named in C4 (STACK, The EDGE, QuoteIQ, Bluebeam, Houzz Pro, Buildxact, PlanSwift) with dated, linked facts (A6).
+4. Apply the honest-inclusion rules: a disclosure line, a method, 'best for' groups, and a Quotr.ai entry that states its limits. Remove any #1 self-ranking. Industry reports tie 2026 visibility losses to that pattern (RANK-07, RANK-15, QUALITY-10; reported, not confirmed by Google).
+5. Add a worked Quotr.ai takeoff on a real residential plan with screenshots (the R-24 angle). Link how-to-estimate-drywall-framing-commercial-floor-plan, scope-gap-construction and /software/trades/drywall/. Re-check that trade page first; its fate is decided under B10. Add a named author (A7), make the dates agree (A9), and run the human fact check (A16).
+6. When the drywall bundle R-24 and its calculator (C3, December 2026) and the V-01 drywall episode (November 2026) go live, link and embed them. R-24 gives the product answer for E-026, and this post stays the comparison.
+7. Re-run E-026 (T04) in two engines 2–4 weeks after the re-crawl (B3). In the B2 outreach, note that Construction Coverage, cited in C4, is already a Tier A target. The other C4 list sources are a competitor's own list (QuoteIQ) and list farms (gitnux, worldmetrics).
 
 **Add to the page:**
-- Drywall-specific criteria (sheets, hang vs finish, finish levels, waste)
+- Drywall-specific criteria (sheets, hang vs finish, finish levels, board types, waste)
 - A worked Quotr.ai takeoff on a real residential plan
 - A disclosure line and a published method
 
-**Title:** Change the title to the buyer's wording, for example 'Best Drywall Takeoff and Estimating Software for Contractors'. Drop 'in 2026': it expires in three months, and reports link lightly re-dated '2026' titles to losses. Show a 'Last checked' date in the body instead.  
-**Web address (URL):** The '-in-2026' slug will date the page and breaks the sibling pattern. Check Search Console first. If impressions and links are low, move it to a yearless slug such as /blog/best-drywall-takeoff-software/ with a 301 when the rewrite is published, so the slug changes only once. If it has real traffic, keep it and move it at the January 2027 refresh.
+**Title:** Change the title to the buyer's wording, for example 'Best Drywall Takeoff and Estimating Software for Contractors'. Drop 'in 2026': it expires in three months, E-026 has no year, and reports link lightly re-dated '2026' titles to losses (QUALITY-11). Show a 'Last checked' date in the body instead. Retitle after the spam update ends.  
+**Web address (URL):** The '-in-2026' slug will date the page and breaks the sibling pattern. Keep it for the A2 check. When the rewrite is published, after the spam update, move it to a year-free slug such as /blog/best-drywall-takeoff-software/ with a 301, so it changes only once. Update E-026's quotr_url. If the rewrite slips past mid-December, leave the URL for the first 2027 batch.
 
 **Related tasks:** A2, A6, A7, A9, A16, B2, B3, B10, C3
 
-**Why now:** T04 is a Tier A tracked prompt and Quotr is absent from its answer. The '2026' title expires in three months. Reports tie early-2026 visibility losses to self-promotional 'best X' lists that were only re-dated (RANK-07, QUALITY-11, not re-checked), so a real rework is safer than a date change.
+**Why now:** T04 is a Tier A tracked prompt, and Quotr is absent from its answer. The '2026' title expires in three months. Reports tie early-2026 losses to self-promotional 'best X' lists that were only re-dated (RANK-07, QUALITY-11; not confirmed by Google), so a real rework is safer than a date change. Start after the spam update ends (about 2026-10-08).
 
 ### BP-15 https://quotr.ai/blog/quotr-vs-togal-ai-comparison-2026/
 
@@ -796,13 +800,13 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 
 **Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 27
 
-1. Fix the price (A2). Confirm the live page first. Replace the Solo/Team lines with 'Quotr.ai Lite $79.90 and Plus $299.90 per seat per month; Enterprise custom; 7-day free trial', with a checked date. Then request a re-crawl in Search Console and in Bing (or IndexNow).
-2. Open the live page and write down the title, format, byline, dates and where Quotr is ranked. Check each competitor price on the vendor's own site and add an 'as of' date.
-3. Add an 'How to estimate rebar for a foundation' section with a worked example for L-071. Go from footing size to bar count from spacing, then add lap splices and hooks, then weight by bar size (cite the ASTM A615 / CRSI bar-weight table), then a waste allowance. Name the source of every factor.
+1. Fix the price under A2. First open the live page and search it for 'Solo', 'Team (2', '$499.90' and 'from $299.90' (Q-59). Replace each hit with 'Quotr.ai Lite $79.90 and Plus $299.90 per seat per month; Enterprise custom; 7-day free trial', with a checked date. Then request a re-crawl in Search Console and Bing or IndexNow (needs access, Q-49).
+2. While the page is open, write down the title, format, byline, dates and where Quotr is ranked. Check each competitor price on the vendor's own site and add a link and an 'as of' date (A6).
+3. Add a 'How to estimate rebar for a foundation' section with a worked example for L-071. Go from footing length and width to bar count from spacing, then add lap splices and hooks, then weight by bar size (cite the ASTM A615 or CRSI bar-weight table), then a waste allowance. Name the source of every factor. Ask Quotr for an estimator to review it (Q-56).
 4. Add a table of the rebar tools buyers compare. Run E-041 in two engines first and list the tools they name. Say what each tool does: takeoff only, bar lists and bending schedules, or detailing.
-5. Say plainly what Quotr does for rebar. Nobody knows yet whether Quotr produces bar bending schedules, so ask Quotr before claiming it.
+5. Say plainly what Quotr does for rebar. Nobody knows yet whether Quotr produces bar lists or bending schedules, so ask Quotr before claiming it.
 6. Link to /dictionary/rebar/, best-concrete-estimating-software-2026, /software/trades/concrete/ and /pricing/.
-7. Add a named author or estimator reviewer (A7). Make the visible date, the schema and the sitemap lastmod match (A9).
+7. Replace a 'By quotr.ai' byline with a named author or estimator reviewer (A7). Make the visible date, the schema and the sitemap lastmod match (A9).
 
 **Add to the page:**
 - Correct Quotr.ai pricing with a checked date
@@ -810,73 +814,24 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 - Table of rebar tools by what they do
 - Links to /dictionary/rebar/ and the concrete pages
 
-**Title:** Nobody has seen the live title, so read it first. Keep the core words 'rebar estimating and takeoff software' and add the how-to, for example 'Rebar takeoff and estimating software, plus how to estimate foundation rebar'. It needs no year.  
+**Title:** Nobody has seen the live title, so read it first. Keep the core words 'rebar estimating and takeoff software' and add the how-to, for example 'Rebar takeoff and estimating software, plus how to estimate foundation rebar'. It needs no year. Hold the retitle until Google's September 2026 spam update ends (about 2026-10-08).  
 **Web address (URL):** Keep the URL. It has no year and matches the query.
 
-**Related tasks:** A2, A7, A9, A16
+**Related tasks:** A2, A6, A7, A9, A16
 
-**Why now:** The retired price is a Tier 0 fix in A2 (October 2026). While the page is open, one extra section can also answer L-071, a Medium-priority how-to prompt. Today L-071 maps only to this software post and a glossary term.
-
-### BP-61 https://quotr.ai/blog/reduce-construction-material-costs/
-
-**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 28
-
-1. Read the live page. Note its title, byline, date and any savings or factory numbers. Run L-108 in Perplexity and ChatGPT to record a baseline.
-2. Rebuild the post as R-11 on the same URL. Open with a 40–80 word answer that lists the main levers, for example accurate takeoff and waste allowance, early buyout and price locks, consolidated orders, substitutions and factory-direct buying.
-3. Add a 'Buy factory-direct' section with the three /procurement/ projects, each introduced as 'Quotr reports': Myren Dr, Saratoga, $97,000 vs a $187K–$218K Bay Area market price; Stratford Ct, Monte Sereno, $108,290 vs $195K–$245K; Skyfarm Dr, Hillsborough, $30,437 vs $58K–$76K. Say what was bought and what the DDP price covers. Fix the '~$0 saved' display bug on /procurement/ first (A6).
-4. Leave out every savings percentage ('up to 50%', '40–55%') until A1 approves one figure. Leave out the 90-day delivery time until Quotr confirms it.
-5. Add a table of the levers with four columns: what it is, when it works, main risk and source. Give every outside number a dated source link.
-6. Add a 'When factory-direct is not worth it' section covering small orders, tight schedules and items that need US certification. Link to ddp-construction-materials for landed cost and to how-developers-source-building-materials for how to buy, instead of repeating them.
-7. Give the post a named author (A7) and a visible 'Updated' note. Request a re-crawl, then re-run T29 2–4 weeks later (B3).
-
-**Add to the page:**
-- Factory-direct lever backed by the three /procurement/ project prices
-- Table of cost levers with dated sources
-- 'When factory-direct is not worth it' section
-- FAQ built from L-108 and its secondary queries
-
-**Title:** The live title was not seen; the record takes it from the web address. Use the buyer's words and no year: 'How to reduce building material costs: the levers that work, with real project numbers' (the R-11 working title).  
-**Web address (URL):** Keep the URL. It has no year and it matches the buyer question.
-
-**Related tasks:** B8, A1, A3, A6, A7, B3
-
-**Why now:** T29 is a Tier A tracked prompt where Quotr was absent on 2026-09-25. R-11 is planned for November 2026, and the next monthly test will re-run T29.
-
-### BP-77 https://quotr.ai/blog/structural-steel-estimating/
-
-**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 29
-
-1. Do A2 first, this week. Replace the Solo/Team/'Enterprise 7+ users' block with 'Quotr.ai Lite $79.90 and Plus $299.90 per seat per month; Enterprise custom pricing; 7-day free trial', with a checked date. On the same day, request a re-crawl in Search Console (URL Inspection) and in Bing (or IndexNow).
-2. AI already reads this page for brand prompts, so put 'Quotr.ai' inside the key fact sentences (A8).
-3. Open the live page and settle the format. If it is a how-to, add a 'Structural steel estimating software compared' section for E-040. If it is a roundup, add a short worked steel estimate with sourced factors: tonnage from the member schedule (length times weight per foot), an allowance for connections and misc. metals, and erection labor per ton.
-4. Describe what Quotr does on steel drawings using confirmed features only. Anything not on /software/ or /pricing/ goes to Quotr as a question first (Q-23).
-5. Link this post and /software/trades/structural-steel/ to each other, and link to /pricing/.
-6. If the byline is 'By quotr.ai', use a named author (A7). Make the visible date, the schema and the sitemap lastmod match (A9).
-7. Two to four weeks after the re-crawl, re-run the branded price prompts and E-040 in Perplexity and at least one other engine (B3). Record whether this URL is still retrieved and which price is quoted.
-
-**Add to the page:**
-- Correct Quotr.ai pricing with 'Quotr.ai' in the sentence
-- E-040 software comparison section or a worked steel estimate, depending on the format
-- Two-way link with the structural-steel trade page
-
-**Title:** Nobody has seen the live title, so read it first. If the page stays a guide, make the H1 answer the buyer question, for example 'Structural steel estimating: how to estimate steel and which software to use'. It needs no year.  
-**Web address (URL):** Keep the URL. It is indexed and AI already retrieves it. Do not add 'software' or a year to the slug. Fix the match to E-040 through the title and H1.
-
-**Related tasks:** A2, A8, A7, A9, B3
-
-**Why now:** Perplexity already fetches this page for brand questions. The retired price on it can go straight into answers about what Quotr costs, so it should be the first URL fixed under A2 in October 2026.
+**Why now:** The retired price is on A2's list (October 2026) and on the Tier 0 list in the Page refresh checklist. The price fix opens the page anyway, so one extra section can answer L-071, a Medium-priority how-to that today maps only to this software post and the /dictionary/rebar/ term.
 
 ### BP-18 https://quotr.ai/blog/ai-that-reads-construction-drawings-chat-with-blueprints/
 
-**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 30
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 28
 
-1. Open with a neutral 40-80 word answer to 'Can AI read construction drawings?': what AI reads well on vector PDFs (text, schedules, symbol counts, areas), what it reads badly (scans, handwritten markups, non-standard symbols), and that the estimator checks the result. Put 'How the Quotr.ai AI Agent does it' after that.
-2. Add 3 worked examples from a real plan set, each with a screenshot of the answer and its link back to the sheet. Examples could be a device count on an electrical sheet, the linear feet of a rated wall type, and the hardware sets from a door schedule. Use real outputs only.
+1. Open with a neutral 40-80 word answer to 'Can AI read construction drawings?'. Say what AI reads well on vector PDFs (text, schedules, symbol counts, areas), what it reads badly (scans, handwritten markups, non-standard symbols), and that the estimator checks the result. Put 'How the Quotr.ai AI Agent does it' after that.
+2. Add 3 worked examples from a real plan set. Show a screenshot of each answer with its link back to the sheet. For example: a device count on an electrical sheet, the linear feet of a rated wall type, and the hardware sets from a door schedule. Use real outputs only.
 3. Add a 'What AI can't read reliably yet' section. Replace 'roughly 80-88% on low-resolution scans' with the Q-18 approved figure, labelled 'Quotr.ai internal benchmarking', and link to is-ai-takeoff-actually-accurate-yet for the detail.
-4. Use one feature name throughout. The fact sheet suggests 'Quotr.ai AI Agent'; confirm it through Q-23 and A1, and apply it site-wide in A3.
-5. Add an H2, 'Is there a ChatGPT for blueprints?', that answers E-069 briefly: general chatbots versus drawing-aware tools. Link to chatgpt-for-construction-estimating for the full test and to ai-agent-for-construction for the product workflow, keeping those posts separate as G17 requires.
+4. Use one feature name throughout. The fact sheet suggests 'Quotr.ai AI Agent'; confirm it through Q-23 and A1 and apply it site-wide in A3. Because the page sells the product, also check it for retired Solo/Team prices (A2 terms).
+5. Add an H2, 'Is there a ChatGPT for blueprints?', that answers E-069 briefly: general chatbots versus drawing-aware tools. Link to chatgpt-for-construction-estimating for the full test and to ai-agent-for-construction for the product workflow. G17 keeps those posts separate.
 6. Name the author (A7). Embed the existing product demo (youtube.com/watch?v=I0dsjz7Y_kc) or a new short clip from B6.
-7. After the re-crawl, re-run T31 in the November test (B3) and compare with the P6 sources.
+7. After the re-crawl, re-run T31 in the November test (B3) and compare the result with the P6 sources.
 
 **Add to the page:**
 - A neutral answer-first paragraph for 'can AI read construction drawings'
@@ -885,51 +840,76 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 - A short H2 answering 'Is there a ChatGPT for blueprints?'
 - An embedded demo video
 
-**Title:** Lead with the buyer's question: 'Can AI Read Construction Drawings? Chat With Your Blueprints' (about 58 characters). Name Quotr.ai in the first sentence rather than in the title. The current title comes from the vault and is not confirmed on the live page, so check it first.  
+**Title:** Lead with the buyer's question: 'Can AI Read Construction Drawings? Chat With Your Blueprints' (60 characters). Name Quotr.ai in the first sentence rather than in the title. The current title comes from the vault and is not confirmed on the live page, so check it first.  
 **Web address (URL):** Keep the URL. It has no year, and the slug already contains both 'AI that reads construction drawings' and 'chat with blueprints'.
 
-**Related tasks:** A1, A3, A7, B3, B6
+**Related tasks:** A1, A2, A3, A7, B3, B6
 
 **Why now:** T31 is a tracked prompt where Quotr is absent, and E-069 is High priority. Perplexity's choice of neutral explainers shows which format wins. Refresh before the November test (B3) so there is a change to measure. Make the edits after the September 2026 spam update ends (about 2026-10-08).
 
+### BP-77 https://quotr.ai/blog/structural-steel-estimating/
+
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 29
+
+1. Do A2 on this URL first. Open the live page and search it for 'Solo', 'Team (2', '$499.90', 'Enterprise 7+' and 'from $299.90' (Q-59). Replace the block with 'Quotr.ai Lite $79.90 and Plus $299.90 per seat per month; Enterprise custom pricing; 7-day free trial', with a checked date. On the same day, request a re-crawl in Search Console (URL Inspection) and Bing or IndexNow (needs access, Q-49).
+2. Write the new pricing sentence and the one-line description of what Quotr does on steel drawings with 'Quotr.ai' inside the sentence (A8 style). This page is not on A8's list, so add it there.
+3. Settle the format. If it is a how-to, add a 'Structural steel estimating software compared' section for E-040. If it is a roundup, add a short worked steel estimate: tonnage from the member schedule (length times weight per foot, read from the shape size, for example W12x26 = 26 lb per foot, AISC shapes table), an allowance for connections and misc. metals, and erection labor per ton. Source every factor and ask for an estimator reviewer (Q-56).
+4. Describe what Quotr does on steel drawings using confirmed features only. Anything not on /software/ or /pricing/ goes to Quotr as a question before it is published.
+5. Link this post and /software/trades/structural-steel/ to each other, and link to /pricing/.
+6. Replace a 'By quotr.ai' byline with a named author (A7). Make the visible date, the schema and the sitemap lastmod match (A9).
+7. Two to four weeks after the re-crawl, re-run the branded price prompts and E-040 in Perplexity and at least one other engine (B3). Record whether this URL is still used and which price is quoted.
+
+**Add to the page:**
+- Correct Quotr.ai pricing with 'Quotr.ai' in the sentence
+- E-040 software comparison section or a worked steel estimate, depending on the format
+- Two-way link with the structural-steel trade page
+
+**Title:** Nobody has seen the live title, so read it first. If the page stays a guide, make the H1 answer the buyer question, for example 'Structural steel estimating: how to estimate steel and which software to use'. It needs no year. Do the price fix now, but hold the retitle until Google's September 2026 spam update ends (about 2026-10-08).  
+**Web address (URL):** Keep the URL. It is indexed and Perplexity already uses it. Do not add 'software' or a year to the slug. Fix the match to E-040 through the title and H1.
+
+**Related tasks:** A2, A8, A7, A9, B3
+
+**Why now:** Perplexity already reads this page for brand questions, so the retired price on it can go straight into answers about what Quotr costs (inferred). Make it the first URL fixed under A2 in October 2026.
+
 ### BP-38 https://quotr.ai/blog/takeoff-to-buyout-construction-estimating-procurement-platform/
 
-**Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 31
+**Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 30
 
-1. Rebuild the post as R-13 on the same URL. Open with a 40–80 word answer that puts Quotr.ai in the key sentence: takeoff, material list, factory quote, quality check and DDP delivery in one workflow. Use only facts from the fact sheet.
-2. Add a numbered workflow with screenshots from a real plan set: takeoff, quantities, material list, quote request, purchase order, delivery. Show where Quotr Software ends and Quotr Procurement starts. Mention that the Plus plan includes 10% off procurement (fact sheet, High confidence).
-3. Add a dated, fair table showing how Buildertrend, Procore, Buildxact, esti-mate and ConWize (the tools Perplexity named for C9) handle material ordering. Link each row to the vendor's own page. Do not rank Quotr first; say where each tool fits.
-4. Add a short 'What is buyout in construction?' section for L-126: a two-sentence definition, then how buyout connects to the estimate.
-5. Move the unique parts of the-takeoff-to-transaction-gap into this page and 301 that URL here (G06). Link to construction-procurement-software as the separate category guide (R-27) instead of repeating it.
-6. Add one proof point, introduced as 'Quotr reports': the Saratoga project, $97,000 vs a $187K–$218K Bay Area market price. Fix the '~$0 saved' bug first (A6).
-7. Add an FAQ from E-006, E-066 and L-126, a named author (A7) and a visible 'Updated' note. Request a re-crawl and re-run T09 2–4 weeks later (B3). Add R-13 to the action plan so it has an owner and a date.
+1. Before paying for R-13, make this page the only owner of E-006 (T09). Take E-006 off R-08 and R-27 in the roadmap and have those pages link here. Point R-33 at this page for E-066. Add R-13 to the action plan with an owner and a date.
+2. Read the live page and pull Search Console data for this URL and the-takeoff-to-transaction-gap (A15). Then rebuild on the same URL. Open with a 40–80 word answer with Quotr.ai in the key sentence: takeoff, material list, factory quote, quality check and DDP delivery in one workflow. Use only facts from the approved fact sheet (A1).
+3. Add a numbered workflow with screenshots from a real plan set: takeoff, quantities, material list, quote request, purchase order, delivery. Show where Quotr Software ends and Quotr Procurement starts. State that the Plus plan includes 10% off procurement (fact sheet, High confidence).
+4. Add a dated, fair table showing how Buildertrend, Procore, Buildxact, esti-mate and ConWize (the tools Perplexity named for C9) handle material ordering. Link each row to the vendor's own page. Do not rank Quotr first; say where each tool fits.
+5. Add a short 'What is buyout in construction?' section for L-126: a two-sentence definition, then how buyout follows the estimate.
+6. Move the unique parts of the-takeoff-to-transaction-gap into a section headed 'From takeoff to purchase order'. Name 'the takeoff-to-transaction gap' in its first line, because the PlanSwift comparison uses the phrase. 301 the old URL here (G06, A12). Link construction-procurement-software as the separate category guide.
+7. Add the Saratoga project as 'Quotr reports': $97,000 vs a $187K–$218K Bay Area market price, after the '~$0' cards on /procurement/ are fixed (A6). Add an FAQ from E-006, E-066 and L-126, a named author (A7) and the A16 edit check. Request a re-crawl and compare T09 in the next monthly test (B3).
 
 **Add to the page:**
 - Answer-first block with Quotr.ai in the key sentence
 - Workflow from takeoff to purchase order, with screenshots
-- Fair, dated comparison table of the tools named for C9
+- Fair, dated table of the tools Perplexity named for C9
 - Section defining buyout
+- 'From takeoff to purchase order' section carrying the merged post's ideas
 - Saratoga project as a proof point
 - FAQ from E-006, E-066 and L-126
 
 **Title:** The live title was not seen. Retitle it in the buyer's words and with no year: 'Construction estimating software with material procurement: how takeoff-to-buyout works' (the R-13 working title).  
 **Web address (URL):** Keep the URL. It is long, but it has no year, it describes the page, and it will receive the 301 from the-takeoff-to-transaction-gap. A new slug would throw away the signals it already has.
 
-**Related tasks:** A6, A7, A8, A12, A16, B3
+**Related tasks:** A1, A3, A6, A7, A12, A15, A16, B3
 
-**Why now:** T09 is a Tier A tracked prompt where Quotr was absent on both runs, and this page carries Quotr's main difference from its rivals. R-13 is planned for November 2026, but no task schedules it yet.
+**Why now:** T09 is a Tier A tracked prompt where Quotr was absent on both runs, and this page carries Quotr's main difference. R-13 is set for November 2026, but no task schedules it, and two other planned pages target the same prompt.
 
 ### BP-50 https://quotr.ai/blog/construction-procurement-software/
 
-**Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 32
+**Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 31
 
-1. Re-scope before writing. Target E-013 (T42) and the factory-direct question E-015. Leave E-006 (T09) to the takeoff-to-buyout post and link to it. If the consultant agrees, update R-27's target_prompts in the vault.
-2. Open the live page and write down the title, byline, date, the tools listed and every Quotr claim (factory count, savings, delivery area).
+1. Re-scope before writing. Target E-013 (T42). Leave E-006 (T09) to the takeoff-to-buyout post (R-13) and link to it. Cover the factory-direct angle in one section, but leave E-015 to /procurement/. If the consultant agrees, remove E-006 from R-27's target_prompts in the vault.
+2. Open the live page and write down the title, byline, date, the tools listed and every Quotr claim (factory count, savings, delivery area). Search it for 'Solo', 'Team (2', '$499.90' and 'from $299.90' too.
 3. Build a neutral comparison table of the tools AI named: Procore, Archdesk, Trimble, Buildertrend, Field Materials AI, Precoro, Buildxact, esti-mate and ConWize. Group them by type: PO and ERP purchasing, supplier marketplace, or estimating with procurement. Check each on the vendor's site and date it.
 4. Add a 'Factory-direct sourcing' section. Describe Quotr Procurement as a managed sourcing program that sits alongside the software. Use the /procurement/ project examples, labelled 'Quotr reports' (for example Myren Dr, Saratoga: $97,000 against a $187K-$218K Bay Area market price). Leave out factory counts, savings percentages and the $354K / $396K-$626K totals until A1 and A3 settle them (Q-09, Q-10).
 5. Add a 'When another tool fits better' section (for example, self-performing GCs who need ERP purchasing and inventory). Add a publisher disclosure line and a named author (A7).
-6. Link to /procurement/, takeoff-to-buyout-construction-estimating-procurement-platform, construction-procurement-process, ddp-construction-materials and how-developers-source-building-materials.
-7. Pair the rebuild with off-site work. Under C5, pitch Quotr to the procurement lists AI cited (Capterra, Field Materials, WorldMetrics, Gitnux, WifiTalents).
+6. Link to /procurement/, takeoff-to-buyout-construction-estimating-procurement-platform, construction-procurement-process, ddp-construction-materials and how-developers-source-building-materials (cited in S6). Link R-08, the factory-direct explainer, when it goes live (B8).
+7. Pair the rebuild with off-site work. Under C5, pitch the independent lists AI cited (WorldMetrics, Gitnux, WifiTalents). Skip Field Materials and Archdesk, which list their own products. Create the Capterra listing with a procurement category (A14).
 
 **Add to the page:**
 - Neutral tool table grouped by type, with dated facts
@@ -940,9 +920,35 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 **Title:** Nobody has seen the live title. R-27's working title works without the year: 'Construction procurement software: a buyer's guide, including factory-direct options', with a visible 'Checked [month year]' line. Add '2026' only if every entry is re-checked that year.  
 **Web address (URL):** Keep the URL. It has no year; do not add one in the rebuild.
 
-**Related tasks:** A3, A7, C5, B8
+**Related tasks:** A3, A7, A14, B8, C5
 
-**Why now:** E-013 is tracked every month (T42, baseline Absent), so each month without a real page is another Absent result. The rebuild is booked for December 2026 (R-27), the same month as the C5 list outreach.
+**Why now:** E-013 is in the monthly tracking set (T42) and was Absent at baseline. Until the page changes, the next runs will likely stay Absent (inferred). The rebuild is booked for December 2026 (R-27, P2), the same month as the C5 list outreach. Settle the E-006 split with R-13 in November first.
+
+### BP-61 https://quotr.ai/blog/reduce-construction-material-costs/
+
+**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 32
+
+1. Read the live page before rebuilding. Record its title, byline, date and any savings, factory or delivery claims. Use the October A15 baseline for T29 across six engines as the 'before' result.
+2. Rebuild it as R-11 on the same URL. Open with a 40–80 word answer that lists the main levers: accurate takeoff and waste factors, early buyout and price locks, consolidated orders, value-engineering substitutions, and factory-direct buying.
+3. Add a 'Buy factory-direct' section with the three /procurement/ projects, each introduced as 'Quotr reports': Myren Dr, Saratoga, $97,000 vs a $187K–$218K Bay Area market price; Stratford Ct, Monte Sereno, $108,290 vs $195K–$245K; Skyfarm Dr, Hillsborough, $30,437 vs $58K–$76K. Fix the 'Client saved ~$0' cards on /procurement/ first (A6). Link the Saratoga case study (R-16) once it is live.
+4. Quote no savings percentage ('up to 50%', '40–55%') until A1 approves one figure. Leave out the '90-day' delivery time and the delivery area (California only or nationwide) until Quotr confirms them (A3).
+5. Add a table of levers with four columns: what it is, when it works, main risk, source. Give every outside number a dated source link, for example NAHB or HUD User, which Perplexity already cites for this question.
+6. Add a short 'When factory-direct is not worth it' section: small orders, tight schedules, and items that need US certification. Link ddp-construction-materials for what a DDP price covers and how-developers-source-building-materials for the buying route, instead of repeating them.
+7. Name an author (A7) and run the A16 edit check. Show an 'Updated' date that matches the sitemap lastmod (A9). Request a re-crawl, then compare T29 in the November test (B3).
+
+**Add to the page:**
+- Answer-first block listing the main cost levers
+- Factory-direct lever backed by the three /procurement/ project prices, each as 'Quotr reports'
+- Table of levers with dated sources
+- 'When factory-direct is not worth it' section
+- FAQ built from L-108 and its secondary queries
+
+**Title:** The live title was not seen; the record takes it from the web address. Use the buyer's words and no year: 'How to reduce building material costs: the levers that work, with real project numbers' (the R-11 working title).  
+**Web address (URL):** Keep the URL. It has no year and it matches the buyer question.
+
+**Related tasks:** A1, A3, A6, A7, A9, A15, A16, B3, B8
+
+**Why now:** T29 is a Tier A tracked prompt where Quotr was absent on 2026-09-25. R-11 is planned for November 2026, and the November test will re-run T29.
 
 ### BP-20 https://quotr.ai/blog/quotr-ai-vs-planswift-ai-takeoff-procurement-comparison-2026/
 
@@ -992,222 +998,105 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 
 **Why now:** Perplexity already uses this post for a High-priority brand comparison (D-025). Beam is well funded ($48M) and says it will move into estimating and bid management, so a 'takeoff-only Beam' framing may soon be wrong. Unchecked Beam facts, or a retired Quotr price, get repeated as if Quotr had confirmed them.
 
-### BP-89 https://quotr.ai/blog/precon-on-demand-outsource-bid-cost-estimation/
+### BP-88 https://quotr.ai/blog/sourcing-building-materials-china-cbd-fair-2026/
 
-**Action: Merge** · **Priority:** high · **Effort:** S · **Order in the refresh queue:** 35
+**Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 35
 
-**Merge into:** BP-86 preconstruction services
-
-1. During the October fact sweep, change '1-3 days' in the post and its blog-index teaser to the value approved in A1 (Q-15). Do this even if the merge slips.
-2. Ask Quotr whether 'Precon on Demand' is still a named offer. If it is, move a one-paragraph definition (what it includes, who it is for) into preconstruction-services as an H2. If it is not, drop the name.
-3. Copy any unique FAQ, example or table into preconstruction-services. Do not copy the turnaround line.
-4. Set a 301 redirect from BP-89 (/precon-on-demand-outsource-bid-cost-estimation/) to BP-86 (/preconstruction-services/). Remove the old URL from the blog sitemap, and update internal links and the blog-index teaser.
-5. First look in Search Console, as the vault plan asks. If this URL has more impressions or links, still merge it as the agreed map says, but carry its best-performing heading into preconstruction-services.
-6. Point E-079 to preconstruction-services only, and request a re-crawl of preconstruction-services.
-
-**Title:** The page is being merged, so it needs no new title. If Quotr still sells 'Precon on Demand', use the name as an H2 on preconstruction-services, not in a title.  
-**Web address (URL):** Redirect (301) to BP-86 (/preconstruction-services/) in October as part of A12. Do not keep this long slug.
-
-**Related tasks:** A12, A1, A3
-
-**Why now:** Two Quotr pages split one High-priority GC prompt (E-079), and this one carries a clashing turnaround. The merge fixes both problems in one step.
-
-### BP-91 https://quotr.ai/blog/electrical-estimating-services/
-
-**Action: Update** · **Priority:** high · **Effort:** S · **Order in the refresh queue:** 36
-
-1. Replace 'Scope quote in 1 day, takeoffs in 1-2' in the post and in its blog-index teaser with the turnaround approved in A1 (Q-15). If the 1-day scope quote is a real, separate step, say exactly what it is ('price quote before work starts') and give the takeoff time from the fact sheet.
-2. Remove or soften 'every Quotr Service engagement includes the software' until Quotr confirms it. Once confirmed, add it to the Entity fact sheet with its source.
-3. Add one sentence that names the brand next to the price ($0.25 per sq ft under 50,000 sq ft, $0.10 above). Add one worked example for a typical electrical job, after Quotr confirms how the 50,000 sq ft tier applies.
-4. Add a table of what the electrical takeoff covers: devices by type, home runs and branch runs, panel schedules, fixtures, and low voltage if included. Split it into residential (tract and custom homes) and commercial, since the index text mentions both.
-5. Answer the 'near me' question honestly in one short section: the work is done remotely from PDF plans. Name the regions served only after Quotr confirms them; this question is not yet in the open-question list, so add it.
-6. Link to the RL Electric case study once B4 rebuilds it with numbers. Also link to best-electrical-estimating-software-2026, the panel-schedule dictionary term, /software/trades/electrical/ and mep-estimating-services. Link to R-23 when it ships.
-7. After the re-crawl, test E-078 and one non-local version ('outsourced electrical takeoff service cost'), and record both as new test runs.
+1. In the October P0 sweep (A3), read the page. Replace any factory count with the A1-approved sentence, or remove it. Check the savings and delivery-area claims too.
+2. Agree with Quotr to build R-09 on this page, not at a new URL, because G16 makes this post the China-sourcing keeper. Drop '(2026 guide)' from the R-09 title and set R-09's page to this post.
+3. Rewrite it as a lasting import guide for L-109 (T33) and L-122, in numbered steps: find and vet factories, samples, quality checks, FOB vs DDP, customs broker (L-116), HTS codes and duties, freight and transit time to California (L-118), container cost (L-119, as a dated table) and lead time. Source every step and have a customs expert review it (B8).
+4. Keep the fair as a dated first-hand box, 'What we saw at CBD Fair 2026': categories, factories visited, sample prices and photos.
+5. Add Quotr's own practice only where Quotr confirms it: the categories it sources, its quality checks and what the DDP price covers. Include the roughly 90-day delivery figure only if Quotr confirms it. Add a tile section for L-065 only if tile is a confirmed category.
+6. When the rewrite goes live, move it to a year-free URL with a 301 from the current slug. Update internal links, the sitemap (A9) and the page recorded for L-109 and L-122 in the prompt library. Link how-developers-source-building-materials and ddp-construction-materials instead of repeating them.
+7. Credit a named author who attended the fair (A7). T33 is already in the monthly set; add L-122 as a supplementary prompt in the first test after launch (B3).
 
 **Add to the page:**
-- The approved turnaround in one sentence
-- Price sentence with the brand in it
-- Residential vs commercial electrical scope table
-- Short 'Do I need a local estimator?' section, once the service area is confirmed
-- Links to the RL Electric case study and the deep electrical page (R-23)
+- Numbered import steps, each with a source and expert review
+- Dated first-hand box on CBD Fair 2026
+- Dated container-cost and transit-time table
+- Confirmed facts about how Quotr sources
+- Links to how-developers-source-building-materials and ddp-construction-materials
 
-**Title:** The title has not been seen. Make sure it contains 'takeoff' as well as 'estimating', to match E-078, for example 'Electrical Estimating and Takeoff Services: What You Get, Price and Turnaround'. Do not add a year.  
-**Web address (URL):** Keep BP-91 (/electrical-estimating-services/). It has no year and is in the index.
+**Title:** The live title was not seen. Take the year and the event out of the main title and lead with the Tier A buyer question: 'How to import building materials from China for a US project: sourcing in Foshan and Guangdong, step by step'. Mention CBD Fair 2026 in a section heading.  
+**Web address (URL):** Move it to a year-free URL, for example /blog/how-to-import-building-materials-from-china/, with a 301 from the current slug when the R-09 rewrite goes live (planned for November 2026). Its sitemap date is 2026-08-27 and it will be kept long-term, so a one-time move now costs little; a later move would cost more.
 
-**Related tasks:** A1, A3, A7, A15, B4, C6
+**Related tasks:** A1, A3, A7, A9, B3, B8
 
-**Why now:** Turnaround is a High-priority buyer question (D-046), and this page adds one of the clashing figures. The fix is a few lines. No AI test has yet caught an engine repeating this figure, so that risk is inferred.
+**Why now:** The factory-number check belongs in the October P0 sweep. R-09 is due in November: deciding now to build it here avoids a third Quotr page on the same question and gives tracked prompt T33 one owner. Raised to high priority for that reason.
 
 ### BP-93 https://quotr.ai/blog/new-pricing/
 
-**Action: Update** · **Priority:** high · **Effort:** S · **Order in the refresh queue:** 37
+**Action: Update** · **Priority:** high · **Effort:** S · **Order in the refresh queue:** 36
 
-1. Open the live post and check every price against /pricing/ and the Entity fact sheet: Quotr.ai Lite $79.90 and Plus $299.90 per seat per month, Enterprise custom ('for complex teams and higher volume'), 7-day free trial, per seat, no setup fee. Fix any difference as part of the A2 sweep.
-2. Search the post for 'Solo', 'Team', '$499.90', '1 User Plan', '2–10 Users', '$249' and '$41'. Old plans may appear only in one plain sentence: 'Solo and Team plans were retired on Sep 14, 2026. The entry price is now Quotr.ai Lite at $79.90 per seat per month.' Do not map old plans to new ones unless Quotr confirms the mapping.
-3. Add a 2–3 sentence answer under the H1 with 'Quotr.ai' in the key price sentence. Then add a plan table using /software/#pricing. Plus adds advanced AI, the full Quotr database, 2 hours of guided onboarding, project sharing, 2,000 sq ft of takeoff credits per month and 10% off procurement. Enterprise adds priority support, a dedicated success manager and on-site onboarding. Mark the table 'as of Sep 2026'. The table also answers D-011 'Quotr Lite vs Plus'.
-4. Leave out annual pricing and SSO until Quotr answers (fact sheet TO CONFIRM; prompt D-013). Add one line saying current prices live on /pricing/, with a link.
-5. If the post says 'By quotr.ai', replace it with a named founder (A7). Keep the published date as 2026-09-14. Show 'Last updated' only after real edits, and make it match the sitemap lastmod (A9).
-6. After the edit, request a re-crawl in Google Search Console and Bing (IndexNow) together with the A2 pages. Re-run D-008 (T35) and D-011 in Perplexity 2–4 weeks later. Check that the 'older Solo and Team tiers' remark is gone and that the entry price is quoted as $79.90.
+1. Open the live post. Check every price and plan detail against /pricing/ and the fact sheet: Quotr.ai Lite $79.90 and Plus $299.90 per seat per month, Enterprise custom ('for complex teams and higher volume'), 7-day free trial, per seat, no setup fee. Change nothing else, because AI already cites this page.
+2. Search the post for 'Solo', 'Team', '$499.90', '1 User Plan', '2–10 Users', '$249', '$41' and 'from $299.90'. Remove them, as the fact-sheet naming rule says. Write 'These plans replace Quotr.ai's previous plans' instead. If Quotr wants one sentence that names the retired plans, agree the exact wording in A1 and list this URL as an A2 exception.
+3. Add a 2–3 sentence answer under the H1: 'Quotr.ai Lite starts at $79.90 per seat per month. Quotr.ai Plus is $299.90. Enterprise is custom.' Then add a price table marked 'as of Sep 14, 2026'. Copy the features from /software/#pricing: Plus adds advanced AI, the full Quotr database, 2 hours of guided onboarding, project sharing, 2,000 sq ft of takeoff credits per month and 10% off procurement. Enterprise adds priority support, a dedicated success manager and on-site onboarding. Do not explain 'takeoff credits' until Quotr answers Q-24.
+4. Leave out annual pricing and SSO until Quotr answers Q-24 (prompt D-013). Add one line that links to /pricing/ as the live source of prices.
+5. If the byline says 'quotr.ai', change it to a named founder (A7). Keep the published date 2026-09-14. Show 'Last updated' only for these real edits, and make it match the sitemap lastmod (A9).
+6. Make the edit after the September 2026 spam update ends (about 2026-10-08, RANK-21), in the A2 week. Then ask for a re-crawl along with the other A2 pages: Bing through IndexNow now, and Google Search Console once access is confirmed (Q-49).
+7. Check T35 in the November monthly run (B3), and run D-011 once. It passes if the answer still gives Quotr.ai Lite at $79.90 and no longer cites this post next to the Solo/Team remark.
 
 **Add to the page:**
-- A 2–3 sentence answer naming Quotr.ai Lite $79.90 as the entry price
-- A plan table: Lite / Plus / Enterprise, price per seat per month, what each includes, 'as of Sep 2026'
-- One sentence saying Solo and Team were retired on Sep 14, 2026
+- A 2–3 sentence answer naming Quotr.ai Lite at $79.90 per seat per month as the entry price
+- A price table (Lite / Plus / Enterprise), per seat per month, marked 'as of Sep 14, 2026'
+- One line saying these plans replace the previous plans, without naming the old plans unless A1 agrees an exception
 - A link to /pricing/ as the live source
 
-**Title:** Keep the title the audit recorded: 'Introduces New Software Pricing: Lite, Plus, and Enterprise' (not re-seen in search). Optionally add the brand and month, for example 'Quotr.ai introduces new software pricing: Lite, Plus and Enterprise (September 2026)'. A month in an announcement title is simply accurate. It is not a freshness trick.  
-**Web address (URL):** Keep BP-93 (/new-pricing/) with no redirect. At the next price change, publish a new dated announcement. Add a one-line 'superseded' note at the top of this post linking to /pricing/ and the new post. Do not overwrite the old prices in place.
+**Title:** Keep the title the audit recorded: 'Introduces New Software Pricing: Lite, Plus, and Enterprise' (not re-seen in search). If the live H1 has no brand, put 'Quotr.ai' in front. Kreo also sells plans called Lite and Plus, so the brand stops AI mixing them up. Do not add a year or month, because the post date already dates it.  
+**Web address (URL):** Keep BP-93 (/new-pricing/) with no redirect. It is already cited, so moving it would put that at risk. At the next price change, publish a new dated announcement. Then add a one-line 'superseded' note at the top of this post, linking to /pricing/ and the new post, and leave the old prices as they are.
 
-**Related tasks:** A2, A7, A9
+**Related tasks:** A1, A2, A7, A9, B3
 
-**Why now:** AI engines are cited to this post for a tracked price prompt (T35) while still repeating retired prices. Do the fix in the October 2026 A2 old-price sweep, alongside the R-02 pricing-page rebuild.
+**Why now:** It is the only blog post Perplexity cited for the tracked price prompt T35, and that answer is correct today. A light check in the October 2026 A2 sweep protects it while R-02 rebuilds /pricing/.
 
 ### BP-70 https://quotr.ai/blog/construction-costs-surged-12-6-in-2026-how-ai-estimation-helps/
 
-**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 38
+**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 37
 
 **Merge into:** BP-03 construction cost trends 2026
 
-1. Find the source of '12.6%': who published it, what it measures and for which period. Give the answer to whoever rewrites construction-cost-trends-2026.
-2. Compare Search Console clicks, impressions and linking pages for this URL and for construction-cost-trends-2026. Under G07 the merge goes into the trends post either way; this check only shows what to carry over.
-3. Move only useful, non-duplicate content into the keeper. Rewrite the 'how AI estimation helps' pitch as a short, balanced paragraph on what estimators can control, or drop it. Carry '12.6%' over only with its source.
-4. 301 this URL to BP-03 (/construction-cost-trends-2026/), remove it from the blog sitemap, and update every internal link that points here (A12).
-5. Update the L-029 prompt note so the keeper is its only answer page, and add a changelog line.
-6. Request re-indexing of the keeper in Search Console and Bing Webmaster Tools after the September 2026 spam update ends (about 2026-10-08).
+1. Find the source of '12.6%': who published it, what it measures and for which period. Quotr has been asked (Q-58). Pass the answer to whoever rewrites construction-cost-trends-2026.
+2. Read both pages. Compare Search Console clicks, impressions and linking pages once access exists (Q-49). G07 merges this post into the trends post either way; the data only shows what to carry over.
+3. Move only useful content that does not repeat the keeper. Cut the 'how AI estimation helps' pitch to one balanced paragraph on what estimators can control, or drop it. If it quotes a Quotr price, carry over only the current fact-sheet prices (Quotr.ai Lite $79.90 and Plus $299.90 per seat per month; Enterprise custom). Never carry over 'from $299.90' as the entry price (A2).
+4. 301 this URL to BP-03 (/construction-cost-trends-2026/). Remove it from the blog sitemap, and update every internal link that points here (A12, A9). First confirm who can add redirects (Q-55).
+5. Update the L-029 note so the keeper is its only answer page. Add a changelog line.
+6. After the spam update ends (about 2026-10-08), request re-indexing of the keeper in Search Console and Bing Webmaster Tools.
 
-**Title:** No title work: the post is being merged. Do not reuse '12.6%' in the keeper's title unless its source is found.  
-**Web address (URL):** 301 to BP-03 (/construction-cost-trends-2026/) (G07). This slug cannot be refreshed because it hard-codes a year and a number. If the keeper later moves to a year-free URL, re-point this redirect straight to the final URL.
+**Title:** No title work, because the post is being merged. Do not reuse '12.6%' in the keeper's title unless its source is found.  
+**Web address (URL):** 301 to BP-03 (/construction-cost-trends-2026/) (G07). This slug cannot be refreshed, because it hard-codes a year and a number. If the keeper later moves to a year-free URL, point this redirect straight to the final URL.
 
-**Related tasks:** A12, A9
+**Related tasks:** A12, A9, A2
 
-**Why now:** An unsourced number in a URL is a fact risk that AI engines could repeat, though no repetition has been observed. The duplicate also splits L-029 between two pages. The merge is cheap, and it belongs in A12 (October 2026), after the spam update ends.
-
-### BP-05 https://quotr.ai/blog/construction-takeoff-guide/
-
-**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 39
-
-**Merge into:** BP-17 how to do construction takeoff pdf blueprint
-
-1. Before redirecting, run GSC URL Inspection, then pull clicks, impressions, queries and backlinks for this URL. Use only data after 2026-04-27, because a GSC logging error over-reported impressions until then (GSC-12). If this URL turns out to beat the keeper, raise it with the consultant before the 301.
-2. Read the live page and copy anything the keeper lacks: the takeoff vs estimate distinction (for L-045), the types of takeoff (count, linear, area, volume) and who does takeoffs. Put this into the keeper's new 'Takeoff vs estimate' H2.
-3. Move the pure definition to /dictionary/quantity-takeoff/ as part of R-28 (glossary deepening, Dec 2026), which already targets L-030.
-4. 301 the URL to BP-17 (/how-to-do-construction-takeoff-pdf-blueprint/). Update every internal link to it, and remove it from the blog sitemap.
-5. Wait until the September 2026 spam update has finished before redirecting. It started 2026-09-24 and can take up to two weeks (RANK-21), and waiting keeps the GSC effect readable.
-6. Ask the vault owner to update the vault to match: L-045 quotr_url, the L-030 body link, the Optimize vs create row (KEEP to MERGE INTO), A12's scope, and a changelog line. Request re-crawl of the keeper and re-check L-030 and L-045 2-4 weeks later.
-
-**Add to the page:**
-- 'Takeoff vs estimate' H2 in the keeper
-- Definition moved to /dictionary/quantity-takeoff/
-
-**Title:** No title work. The post is merged, and its topic becomes a 'Takeoff vs estimate' H2 in the keeper.  
-**Web address (URL):** 301 the URL to BP-17 (/how-to-do-construction-takeoff-pdf-blueprint/) after the GSC check. Do it once the September 2026 spam update has finished (started 2026-09-24).
-
-**Related tasks:** A12
-
-**Why now:** Three Quotr URLs split one question, and search already prefers the keeper. Merging is cheap and removes a near-duplicate. Google warns against separate pages for every variant of a question (INDEX-06, carried from the vault research).
-
-### BP-13 https://quotr.ai/blog/blueprint-to-priced-estimate-workflow/
-
-**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 40
-
-**Merge into:** BP-17 how to do construction takeoff pdf blueprint
-
-1. Run GSC URL Inspection, then pull clicks, impressions, queries and backlinks for this URL, to confirm it has less traffic than the keeper.
-2. Read the live page. Move its pricing step into the keeper's 'Turn quantities into a priced estimate' section: line items, your own cost database or Quotr's average costs by US zip code, overhead and profit, and the bid-ready estimate.
-3. Search the page for 'under 12 minutes' and '95-99%'. Carry neither into the keeper unless Quotr confirms it and it goes into the Entity fact sheet with a source (Q-18; Rule 4).
-4. 301 the URL to BP-17 (/how-to-do-construction-takeoff-pdf-blueprint/), update internal links, and remove it from the blog sitemap. Do this after the September 2026 spam update has finished (RANK-21).
-5. Link the kept-separate 'plans into prices in minutes' post to the keeper for the step-by-step method, and the keeper back to it for the tool question (E-072).
-6. Ask the vault owner to update the vault to match: E-072 quotr_url, the Optimize vs create rows 448 and 468 (the reverse merge is cancelled), A12's scope, and a changelog line.
-
-**Add to the page:**
-- Pricing step folded into the keeper
-- Cross-links between the keeper and the 'plans into prices' post
-
-**Title:** No title work. The post is merged.  
-**Web address (URL):** 301 the URL to BP-17 (/how-to-do-construction-takeoff-pdf-blueprint/) once the GSC check is done and the September 2026 spam update has finished.
-
-**Related tasks:** A12
-
-**Why now:** The post duplicates the keeper's workflow and does not surface for its own phrase. It may also hold unconfirmed speed and accuracy claims, and merging removes that risk along with the duplicate.
+**Why now:** An unsourced number in a URL is a fact risk that AI engines could pick up, though no engine has been seen repeating it. The duplicate also splits L-029 across two pages. The merge is cheap. Do it in the A12 batch that includes G07, after the spam update ends.
 
 ### BP-27 https://quotr.ai/blog/state-of-ai-in-preconstruction-2026-adoption-roi-enr-top-400-gcs/
 
-**Action: Rewrite** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 41
+**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 38
 
-1. In the October editorial sweep (A6), remove ?utm_source=chatgpt.com from every outbound link. Delete the line 'That internal link structure matters for both readers and AI search.'
-2. Replace 'By quotr.ai' with a named author, such as a founder, and fix the author in the schema (A7). Run the A16 edit pass.
-3. Check the ENR Top 400 promise. If the body shows no ENR Top 400 GC data, remove it from the title and H1. Keep the URL for now.
-4. Add a section for each of the three prompts, each opening with a 40-80 word answer: 'Will AI replace construction estimators?' (L-042), 'How are GCs using AI in preconstruction?' (L-043) and 'Which AI tools do preconstruction teams use?' (E-021). Add a 5-question FAQ.
-5. Give every statistic a source link and an 'as of' date. Then either add at least one Quotr data point that Quotr approves (for example Service job mix, or turnaround by project size, the data planned for R-52), or call it an honest roundup and drop 'State of'.
-6. Link to construction-labor-shortage-ai-adoption-2026 for the workforce angle, and to is-ai-takeoff-actually-accurate-yet for accuracy. Ask both to link back.
-7. If Quotr wants a yearly edition, publish the 2027 version in January 2027 at a URL with no year (for example /blog/state-of-ai-in-preconstruction/) and 301 this URL to it.
+1. In the A6 sweep, strip ?utm_source=chatgpt.com from every outbound link (Deloitte, ENR, Construction Dive, DPR, Chubb, Skanska). Delete the line 'That internal link structure matters for both readers and AI search.'
+2. Replace 'By quotr.ai' with a named author, for example a founder, and fix the author in the schema (A7). Run the A16 edit pass.
+3. Check the 'ENR Top 400 GCs' promise. If the body shows no ENR Top 400 data, take it out of the title and H1. Keep the URL for now.
+4. Focus on the two prompts only this post serves. Add a section for each that opens with a 40-80 word answer: 'How are GCs using AI in preconstruction?' (L-043) and 'Which AI tools do preconstruction teams use?' (E-021). Add a 5-question FAQ. For 'Will AI replace estimators?' (L-042), give a one-line answer and link to the labor-shortage post, which G19 suggests should own L-042.
+5. Give every statistic a source link and an 'as of' date. Then choose one of two options. Add one Quotr data point that Quotr approves, such as anonymised Estimation Service job counts by project type, if Q-57 allows it. Or call the post a roundup and drop 'State of' from the title.
+6. Link to construction-labor-shortage-ai-adoption-2026 and is-ai-takeoff-actually-accurate-yet, and ask both to link back. When the GC preconstruction hub R-60 is written (March 2027), decide which page owns E-021 so the two do not compete.
+7. If Quotr wants a yearly edition, publish the 2027 edition in January 2027 at a URL with no year (for example /blog/state-of-ai-in-preconstruction/) and 301 this URL to it.
 
 **Add to the page:**
-- Sections that answer L-042, L-043 and E-021 first, plus a FAQ
-- 'As of' dates on every statistic
+- Answer-first sections for L-043 and E-021, plus a FAQ
+- 'As of' dates and clean source links on every statistic
 - At least one Quotr-approved data point, or an honest 'roundup' label
 - Named author
 
-**Title:** Keep 'State of AI in Preconstruction 2026' only if a Quotr data point is added. Otherwise retitle it, for example 'How GCs Use AI in Preconstruction (2026): Adoption and ROI From Public Data'. Drop 'ENR Top 400' unless the body shows that data.  
-**Web address (URL):** Keep the URL for now. It has '2026' and 12 parts, but changing it would cost links. Because it is the long-term G19 keeper, move it to a URL with no year, with a 301, when the 2027 edition is written (January 2027).
+**Title:** Keep 'State of AI in Preconstruction 2026' only if a Quotr data point is added. Otherwise retitle it, for example 'How GCs Use AI in Preconstruction: 2026 Adoption and ROI From Public Data'. Drop 'ENR Top 400' unless the body shows that data.  
+**Web address (URL):** Keep the URL for now. It has '2026' and 12 hyphenated parts, but changing it would cost links, and its 2026 data is still current. Because it is the long-term G19 keeper, move it to a URL with no year, with a 301, when the 2027 edition is written (January 2027).
 
 **Related tasks:** A6, A7, A16
 
-**Why now:** The tracking tags and the line written for bots are quick fixes already in the October A6 sweep. The '2026' report frame expires in about three months. Decide now whether Quotr will fund a yearly edition with its own data.
-
-### BP-66 https://quotr.ai/blog/ai-construction-estimating-software-that-turns-plans-into-prices-in-minutes/
-
-**Action: Rewrite** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 42
-
-1. Read the page. Record its title, byline, on-page date and every speed or price claim. Set the sitemap lastmod to the date of the last real change (A9).
-2. Replace 'in minutes' with a claim that is sourced and states its conditions. Keep the time for AI detection separate from the time for a full priced estimate. Use 'RL Electric cut takeoff time from about 20 hours to 1-2 hours' as a customer quote (the fact sheet says it is safe as a quote). Drop 'up to 80%' (A3).
-3. Add a timed worked example with new Quotr data: one real plan set, the AI counts, pricing with the user's own cost database, then the proposal export. Show screenshots and the minutes each step took. Do not mention 'average costs by US zip code' until Quotr confirms it.
-4. Add a price line with the current plans only: Quotr.ai Lite $79.90 and Plus $299.90 per seat per month, Enterprise custom, 7-day free trial (A2).
-5. Add a section, 'When it takes longer', covering scanned or low-resolution plans. Link it to is-ai-takeoff-actually-accurate-yet, and label any accuracy figure 'Quotr internal benchmarking'.
-6. Link to how-to-do-construction-takeoff-pdf-blueprint (G12 keeper, already cited by Perplexity), what-is-ai-construction-estimating-software (G09 keeper) and best-ai-construction-estimating-software-2026 (G10 keeper). After the G12 merge (A12), update any links that still point to blueprint-to-priced-estimate-workflow.
-7. Ask the consultant to update the Optimize vs create row and the E-072 prompt note. They should stop saying 'merge into blueprint-to-priced-estimate-workflow', because the agreed map G12 replaces that plan.
-
-**Add to the page:**
-- Timed worked example from one real plan set, with screenshots
-- RL Electric customer quote in place of the 'minutes' promise
-- Current Lite / Plus / Enterprise prices
-- 'When it takes longer' section on scanned plans
-
-**Title:** Retitle it in buyer wording, for example 'AI Software That Turns Construction Plans Into a Priced Estimate: How It Works and How Long It Really Takes'. Take out 'in minutes' unless a timed test backs it.  
-**Web address (URL):** Keep the URL even though it is long. It has no year, and changing it would cost links. Do not redirect it into the workflow post; the agreed map keeps it separate.
-
-**Related tasks:** A2, A3, A7, A9, A12
-
-**Why now:** The agreed map reverses the vault's earlier plan to merge this post away, so it now needs a job of its own. Rewrite it before the G12 redirects go live, so internal links end up pointing to the right pages.
-
-### BP-04 https://quotr.ai/blog/how-to-price-construction-job/
-
-**Action: Rewrite** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 43
-
-1. Read the live page first. Record the title and byline, and check whether the '5% to 10% contingency' range and the total-estimate formula live here or on the bid post. If the page already has a solid step-by-step, cut this plan down to an update.
-2. Re-aim the page at L-001. Use the H1 'How to Estimate and Price a Construction Job, Step by Step'. Add a Quick answer of 7 steps: scope, takeoff, materials plus waste, labor (hours × rate), equipment and subs, overhead, then profit and contingency.
-3. Add a worked example on a small residential job, with a line-item table and the markup vs margin maths. Use a Quotr Service sample deliverable such as 'All Trade Takeoff (Residential)' if Quotr agrees. Link /dictionary/markup-vs-margin/ (being deepened in R-28).
-4. Give every percentage (contingency, overhead, markup) a named source, or label it a rule of thumb. Remove any figure that has neither.
-5. Keep it separate from the how-to-bid keeper (G13). Remove bid-process sections that duplicate that post (ITB, inclusions and exclusions, submission). Cross-link both ways with anchors 'how to bid commercial work as a sub' and 'how to price the job'.
-6. Add a short 'do it yourself, use software, or outsource' section with brand-attributed facts: Quotr.ai's cost database with average costs by US zip code, Quotr Service at $0.25 or $0.10 per sq ft, and Quotr.ai Lite at $79.90 per seat per month if a price is shown.
-7. Add a named estimator author (A7) and honest dates (A9). Request indexing, then re-check L-001 and GSC queries for this URL against the bid post 2-4 weeks later, using only data after 2026-04-27 (GSC-12).
-
-**Add to the page:**
-- 7-step Quick answer for L-001
-- Worked residential example with a line-item table
-- Sourced overhead, contingency and markup figures
-- Do it yourself / software / outsource section with brand-attributed Quotr facts
-
-**Title:** Change it to match the tracked prompt: 'How to Estimate and Price a Construction Job, Step by Step'. No year.  
-**Web address (URL):** Keep the URL. 'how-to-price-construction-job' still fits, has no year, and a new slug would throw away what little equity it has.
-
-**Related tasks:** A7, A9, A16
-
-**Why now:** It is the mapped page for L-001, but search does not return it and a sibling post takes its queries. A distinct, worked-example version gives Quotr a real answer to one of the most basic estimator questions.
+**Why now:** The tracking tags and the bot line are quick fixes already listed in the A6 sweep (October, week 2). The '2026 report' frame expires in about three months, so decide now whether Quotr will pay for a yearly edition with its own data. Settle who owns L-042 with the labor post at the same time. This is an update, not a rewrite: all three prompts are medium priority and untracked, and Optimize vs create plans 'fix facts, then refresh'.
 
 ### BP-06 https://quotr.ai/blog/quotr-vs-traditional-estimating/
 
-**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 44
+**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 39
 
 **Merge into:** BP-26 quotr vs excel
 
@@ -1228,162 +1117,215 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 
 ### BP-25 https://quotr.ai/blog/quotr-developer-desk-underwriting-grade-estimates-72-hours/
 
-**Action: Rewrite** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 45
+**Action: Rewrite** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 40
 
 1. Get Q-15 answered through A1: the standard and rush turnaround for estimates and for pro formas. Update the Entity fact sheet first.
-2. In the October A3 fact sweep, change '72 hours' in the title and body to the confirmed turnaround. If Q-15 is not answered by then, remove the number.
+2. In the October A3 sweep, replace '72 hours' in the body with the confirmed value, or remove the number if Q-15 is still open. This single-page fact fix can go ahead during the spam update. Leave the title and URL change until the update ends (about 2026-10-08).
 3. Rewrite the top of the page to answer L-136 in 40-80 words. Then give the method as steps: cost per sq ft benchmark for the building type, conceptual estimate from schematic plans, hard vs soft costs, contingency, and when to buy an outside estimate. Move the Developer Desk offer to a labelled section near the end.
-4. Add Quotr facts with the brand attached: 'Quotr.ai's Estimation Service charges $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft above; the price is sent before work starts' (fact sheet, High confidence). Before showing a worked price, ask Quotr how the two rates apply to a project over 50,000 sq ft. No open question covers this yet.
-5. Add one real developer example with a hard/soft cost table, such as the 'Fast Cost Estimation (Residential LA Fire Rebuilding)' sample from the /service/ sample library, if Quotr approves. Do not name BiltWise until Quotr confirms it.
-6. Link to /service/ and /pricing/ as the offer pages, to real-estate-pro-forma-software-comparison for pro formas, and later to the R-22 developer hub. Let /service/ answer E-087 and this page answer L-136, so the two do not compete.
-7. Replace the byline with a named author (A7). Then run L-136, E-087 and E-023 as recorded test runs; none has been formally tested.
+4. Add the rate with the brand attached: 'Quotr.ai's Estimation Service charges $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft above; pricing is sent before work starts' (fact sheet, High). Do not use the 'project-based' wording from /service/. Before showing a worked price, ask Quotr how the two rates apply above 50,000 sq ft; no open question covers this yet.
+5. Add one worked example with a hard/soft cost table, such as the 'Fast Cost Estimation (Residential LA Fire Rebuilding)' sample from /service/, if Quotr approves. Describe BiltWise's results only after Q-29 is answered.
+6. Set one owner per prompt: this page owns L-136, /service/ (and later R-22) owns E-087, and R-22 owns E-023. Take L-136 off R-53's target list, or brief R-53 to link here for the pre-purchase step. Link to /service/, /pricing/ and real-estate-pro-forma-software-comparison.
+7. If the URL changes, 301 old to new and update quotr_url in the L-136 and E-023 notes, the E-087 secondary link, the sitemap and llms.txt. Add a named author (A7). Then run L-136, E-087 and E-023 as recorded test runs; none has been formally tested.
 
-**Title:** Change it. Lead with the buyer's method question, for example 'How developers estimate construction costs before buying land'. Keep 'Quotr.ai Developer Desk' as a section name. Drop '72 hours' unless Q-15 confirms it.  
-**Web address (URL):** The slug carries the conflicting '72 hours'. If Q-15 confirms 72 hours as a real standard or rush offer, keep the URL. If not, publish the rewritten page at a slug without the number (for example /blog/how-developers-estimate-construction-costs-before-buying-land/) and 301 the old URL, in the same release as the rewrite. Aim for Q4 2026, before the R-22 hub in December. Check Search Console first. The vault records no traffic or citations for this URL, so the ranking cost is probably small (inferred).
+**Title:** Change it, after the spam update ends. Lead with the buyer's method question, for example 'How developers estimate construction costs before buying land'. Keep 'Quotr.ai Developer Desk' as a section name. Drop '72 hours' unless Q-15 confirms it.  
+**Web address (URL):** The slug carries the conflicting '72 hours'. If Q-15 confirms 72 hours as a real standard or rush offer, keep the URL. If not, publish the rewrite at a slug without the number (for example /blog/how-developers-estimate-construction-costs-before-buying-land/) and 301 the old URL in the same release. Do this after the spam update ends, and before the R-22 hub in December 2026. Check Search Console first if access exists (Q-49). The vault records no traffic or citations for this URL, so the ranking cost is probably small (inferred).
 
-**Related tasks:** A1, A3, A7, C6
+**Related tasks:** A1, A3, A7, A9, C6
 
-**Why now:** Turnaround is one of the core facts that conflict across Quotr pages, and this is the only place the conflict sits in a URL. The A3 fact sweep is due in October 2026 and the R-22 developer hub in December, so this page's role must be settled before then. Priority is medium, not high: no engine is known to repeat the 72-hour claim, and no mapped prompt is in the tracking set.
-
-### BP-44 https://quotr.ai/blog/flooring-trades-how-to-quote-flooring-jobs-and-win-more-work/
-
-**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 46
-
-1. Open the live page and its meta description. Record the real title, byline and date. Check whether it really has a waste-factor section (the vault and the search snippets disagree). Delete 'in 2026' from the description, and delete any 'current' material price that has no date or source.
-2. Put a Quick answer (40-80 words) under the H1 for L-058: material SF + waste % + labor per SF by install type + subfloor prep as its own line + trim and transitions + overhead and profit, with units.
-3. Add a waste-factor table by material (LVP, tile, engineered hardwood, carpet). Give each row a manufacturer or trade-association source and an 'as of' date. Do not invent 'typical' values (Trade how-to guide template rule).
-4. Add a worked example: one sample floor plan measured with Quotr.ai area detection, showing SF by room, waste, labor line and subfloor prep line, clearly labelled as a sample. Link /software/trades/flooring/.
-5. Split it cleanly from best-flooring-estimating-software-in-2026. Link to that post once, for choosing software. Make sure the list post's meta description no longer carries this post's how-to text when A2 fixes its retired pricing.
-6. Add a named author or reviewer with flooring estimating experience (A7). When R-45 (flooring waste-factor calculator, Feb 2027) and V-04 (flooring video) ship, link them here.
-7. Run GSC URL Inspection before and after the edit and request indexing. Log the change in the refresh log.
-
-**Add to the page:**
-- Quick answer for 'how to price flooring installation per square foot'
-- Sourced waste-factor table by material
-- Worked example measured in Quotr.ai
-- Link to /software/trades/flooring/ and, later, the R-45 calculator
-
-**Title:** First confirm the live title, because the current one is built from the slug. Rewrite it in the buyer's words, with no year: 'How to Price a Flooring Job per Square Foot (Waste, Labor, Prep)'.  
-**Web address (URL):** Keep the URL. It has no year, and a redirect for a slightly awkward 'flooring-trades-' prefix is not worth the risk.
-
-**Related tasks:** A7, A9, A16
-
-**Why now:** This is the only Quotr page for L-058, and search may not find it. Its text may even be credited to a sister post that shows retired pricing. The fix is cheap and fits alongside A2's fix of that sister post.
+**Why now:** Turnaround is a core fact that conflicts across Quotr pages, and this is the only place the conflict sits in a URL. The A3 sweep is due in October 2026 and R-22 in December, and R-53 also targets L-136, so this page's role must be settled first. Priority is medium, not high: no engine is known to repeat the 72-hour claim, and no mapped prompt is in the tracking set.
 
 ### BP-60 https://quotr.ai/blog/what-is-construction-procurement-2026-guide/
 
-**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 47
+**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 41
 
 **Merge into:** BP-69 construction procurement process
 
-1. Pull Search Console clicks, impressions and backlinks for both URLs. If this URL is clearly stronger, raise it with the consultant before redirecting, since the agreed map keeps the other URL.
-2. Copy anything unique into construction-procurement-process: the definition, plus any section on procurement methods or delivery models (for example design-bid-build vs design-build), if the post has one.
-3. Set a 301 from BP-60 (/what-is-construction-procurement-2026-guide/) to BP-69 (/construction-procurement-process/), and remove this URL from the blog sitemap (A12, A9).
-4. Point every internal link, the glossary term 75 'Procurement' link and the L-125 prompt note at the keeper only.
-5. Ask Search Console and Bing to re-index the keeper, then check the redirect after 2-4 weeks.
+1. Once Search Console access is set up (Q-49), pull clicks, impressions and backlinks for both URLs. If this URL is clearly stronger, raise it with the consultant before redirecting, because G05 keeps the other URL.
+2. Read this page. Copy anything the keeper lacks into construction-procurement-process: the short definition, and any section on procurement methods or delivery models (for example design-bid-build vs design-build), if it has one.
+3. After the September 2026 spam update finishes (about 2026-10-08, per the refresh playbook), set a 301 from BP-60 (/what-is-construction-procurement-2026-guide/) to BP-69 (/construction-procurement-process/). Take this URL out of the blog sitemap (A12, A9).
+4. Point every internal link, the glossary term 75 'Procurement' link and any llms.txt entry at the keeper. Remove this URL from the L-125 prompt note.
+5. Request a re-crawl of both URLs in Search Console and Bing. Check the redirect and the keeper's impressions after 2-4 weeks.
 
 **Add to the page:**
-- Its unique definition and any procurement-methods section, moved into the keeper
+- Its definition and any procurement-methods section, moved into the keeper
 
 **Title:** No new title is needed. The page is folded into the keeper.  
-**Web address (URL):** 301 it to BP-69 (/construction-procurement-process/). This also removes a '2026' URL before it ages.
+**Web address (URL):** 301 it to BP-69 (/construction-procurement-process/). This also retires a '2026' URL before it ages.
 
 **Related tasks:** A9, A12
 
-**Why now:** Two posts now split one question. The merge is small, it removes a year-dated URL before 2027, and it fits the October A12 merge batch.
+**Why now:** Two posts now split one question. The merge is small, removes a year-dated URL before 2027, and fits the October A12 merge batch once the spam update has finished.
+
+### BP-66 https://quotr.ai/blog/ai-construction-estimating-software-that-turns-plans-into-prices-in-minutes/
+
+**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 42
+
+1. Read the page. Record its title, byline, on-page date and every speed, accuracy or price claim. Ask Quotr for its real publish date (Q-52), then set the sitemap lastmod to the date of the last real change (A9).
+2. Replace 'in minutes' with a claim that has a source and says under what conditions it holds. Use 'RL Electric cut takeoff time from about 20 hours to 1-2 hours' as a customer quote, as the fact sheet allows. Remove 'up to 80%' and any other unsourced timing figure until Quotr answers Q-19 (A3).
+3. Add a timed worked example from one real plan set: upload, AI counts and areas, pricing with the user's own cost database, and proposal export. Show a screenshot and the minutes for each step, dated and labelled 'Quotr test'. Keep the AI detection time separate from the time to a finished priced estimate. Do not mention 'average costs by US zip code'; the fact sheet marks it TO CONFIRM.
+4. Add one price line with the current plans: Quotr.ai Lite $79.90 and Plus $299.90 per seat per month, Enterprise custom, 7-day free trial.
+5. Add a section, 'When it takes longer', covering scanned or low-resolution plans and missing sheets. Link it to is-ai-takeoff-actually-accurate-yet, and label any accuracy figure 'Quotr internal benchmarking'.
+6. Link to how-to-do-construction-takeoff-pdf-blueprint (the G12 keeper; it ranks in web search but was not cited in the S8 test), what-is-ai-construction-estimating-software (G09 keeper) and best-ai-construction-estimating-software-2026 (G10 keeper, after A2 removes its retired price). After the G12 merge (A12), repoint links that still go to blueprint-to-priced-estimate-workflow. Link the RL Electric case study (R-15, November 2026) when it goes live.
+7. Update the vault. The Optimize vs create rows for this post and for blueprint-to-priced-estimate-workflow still say 'merge into the workflow post'. Mark both as replaced by G12, and remove the workflow URL from the E-072 prompt note after the redirect.
+
+**Add to the page:**
+- Timed worked example from one real plan set, with screenshots
+- RL Electric customer quote in place of the 'minutes' promise
+- Current Lite / Plus / Enterprise prices
+- 'When it takes longer' section on scanned plans
+
+**Title:** Retitle it in buyer wording, for example 'AI Software That Turns Construction Plans Into a Priced Estimate: How It Works and How Long It Really Takes'. Take 'in minutes' out unless the timed test backs it.  
+**Web address (URL):** Keep the URL even though it is long. It has no year, and G12 keeps it separate. Changing it would cost links, and 'in minutes' in the slug is acceptable once the page explains the conditions. Do not redirect it into the workflow post.
+
+**Related tasks:** A2, A3, A7, A9, A12
+
+**Why now:** Medium. The G12 merges (A12) will move links around this topic, so the post needs a clear, honest job first. Scope it as a large update, not a rewrite: E-072 is a medium-priority, untracked prompt, and the vault's decision rule keeps rewrites for tracked or High prompts. The unsupported speed promise is the kind of claim A3 is meant to remove.
 
 ### BP-71 https://quotr.ai/blog/how-ai-construction-takeoff-works-in-2026/
 
-**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 48
+**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 43
 
 **Merge into:** BP-45 what is ai construction estimating software
 
-1. Run URL Inspection and pull Search Console data. Indexing is unknown, and this URL is currently L-038's mapped page.
-2. Read the live page. Move any takeoff detail the other two posts lack (for example setting scale, matching the symbol legend, area detection) into the keep post's 'How AI takeoff works' H2. Leave out all '2026' wording.
+1. Run URL Inspection and pull 3 months of Search Console data. G09 attaches a condition to this merge. If the post earns 'how AI takeoff works' impressions the keeper cannot hold, stop: keep it as L-038's page and move it to a year-free URL at its first real update.
+2. Read the live page. Move any takeoff detail the other two posts lack into the keep post's 'How AI takeoff works' H2, for example setting scale, matching the symbol legend or area detection. Leave out all '2026' wording, and check for retired Solo/Team prices (A2 terms) before copying.
 3. 301 it to BP-45 (/what-is-ai-construction-estimating-software/) in the same release as the keep post's rewrite. Remove it from the blog sitemap and repoint internal links.
-4. In the vault, change L-038's Quotr page to the keep URL. Update the Optimize vs create row that says 'KEEP (real update in 2027)' and log the change.
+4. In the vault, change L-038's Quotr page to the keep URL. Update the Optimize vs create row that says 'KEEP (real update in 2027)', and log the change in the Changelog.
 5. Until the merge, do not re-date or retitle this post.
 
 **Add to the page:**
 - Any takeoff-specific steps not already in the keep post, without year wording
 
 **Title:** Retire the title. Do not carry '2026' into any heading of the merged page.  
-**Web address (URL):** 301 it to what-is-ai-construction-estimating-software. That removes the year-in-URL problem before 2027 without a separate re-slug. Do it after the September 2026 spam update ends (about 2026-10-08).
+**Web address (URL):** 301 it to what-is-ai-construction-estimating-software after the September 2026 spam update ends (about 2026-10-08). That removes the year-in-URL problem before 2027 without a separate re-slug. If Search Console says to keep it, move it to a year-free URL at its first real update instead.
 
-**Related tasks:** A12
+**Related tasks:** A12, A2
 
-**Why now:** The '2026' slug expires in three months, and the vault's plan to re-slug it in 2027 would mean a second redirect later. Merging now fixes both the overlap and the year in one move, at little cost.
+**Why now:** The '2026' slug expires in three months. The vault's plan to re-slug it in 2027 would mean a second redirect later. Merging now fixes both the overlap and the year in one move, at little cost.
 
 ### BP-74 https://quotr.ai/blog/metric-imperial-construction-takeoff/
 
-**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 49
+**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 44
 
-1. Confirm with Quotr that 'International Measurement' is live, and what it does (metric and imperial on one plan set; reading metric-scaled drawings). Add it to the Entity fact sheet and Products and features with a source (A1). Do not expand the claim until then.
-2. Find the real publish date. Show Published and Last updated on the page, and make the sitemap lastmod match (A9).
-3. Add a Quick answer for L-028 under the H1. Cover what changes between systems: scale notation (1:100 vs 1/8" = 1'-0"), units (m, m², m³ vs LF, SF, CY), the risk of mixed-unit plan sets, and how to set scale on a metric sheet.
-4. Add a conversion table (1 m = 3.2808 ft; 1 m² = 10.764 SF; 1 m³ = 1.308 CY) citing NIST, and a table of common metric and imperial drawing scales.
-5. Keep the feature news as a 'How Quotr.ai handles metric and imperial' H2 with one screenshot and a short 'limits' note. This serves E-070.
-6. Link here from the scale step in how-to-do-construction-takeoff-pdf-blueprint and from the vault glossary's 'quantity surveyor' term target. Link out to the keeper how-to and /software/.
-7. Run GSC URL Inspection and request indexing. Check whether /blog/software/ is taking its impressions.
+1. Add metric and imperial support to the Entity fact sheet, sourced to the live /software/ FAQ answer (A1). Ask Quotr only whether 'International Measurement' is the official feature name (raise it with Q-23 Feature names). Until then, describe the feature in plain words.
+2. Find the real publish date in the CMS, because the audit and Optimize vs create disagree. Show Published and Last updated dates, make the sitemap lastmod match (A9), and add a named author (A7).
+3. Add a Quick answer for L-028 under the H1. Cover what changes between the two systems: scale notation (1:100 vs 1/8" = 1'-0"), units (m, m², m³ vs LF, SF, CY), the risk of plan sets that mix units, and how to set scale on a metric sheet.
+4. Add a conversion table citing NIST (1 m = 3.2808 ft; 1 m² = 10.764 SF; 1 m³ = 1.308 CY) and a table of common metric and imperial drawing scales.
+5. Keep the feature news as an H2, 'How Quotr.ai handles metric and imperial', with one screenshot and a short limits note (a human should check sheets that mix units). This H2 serves E-070.
+6. Link here from the scale step of how-to-do-construction-takeoff-pdf-blueprint and from the /software/ FAQ answer on metric and imperial units. Link out to that how-to and /software/. If Quotr adds a 'quantity surveyor' dictionary term (vault glossary row 3 points to this post), link that here too.
+7. Run GSC URL Inspection and request indexing. Check whether /blog/software/ is taking the impressions for metric/imperial takeoff searches.
 
 **Add to the page:**
-- Sourced fact-sheet entry for the metric/imperial feature
+- Sourced fact-sheet entry for metric and imperial support
 - Quick answer for L-028
 - Unit-conversion and drawing-scale tables (NIST source)
 - 'How Quotr.ai handles metric and imperial' H2 with a screenshot
 
-**Title:** Retitle to answer the buyer question, not to announce a feature: 'Metric vs Imperial Units in Construction Takeoff'. Name Quotr.ai in an H2, not the title.  
+**Title:** Retitle it to answer the buyer question, not to announce a feature: 'Metric vs Imperial Units in Construction Takeoff'. Name Quotr.ai in an H2, not in the title.  
 **Web address (URL):** Keep the URL. It has no year and already matches the question.
 
 **Related tasks:** A1, A7, A9
 
-**Why now:** Nothing on the page is known to be wrong, and both prompts are Low priority, so schedule it last in this batch. It is still worth doing: this is a real Quotr feature with no citable page behind it, and the fact sheet should record the feature before anyone repeats it.
+**Why now:** Nothing on the page is known to be wrong, and both prompts are Low priority, so schedule it last in this batch. It is still worth doing. It is a real Quotr feature with no citable page behind it, and a fact-sheet entry stops the feature being described in different ways.
 
-### BP-02 https://quotr.ai/blog/the-takeoff-to-transaction-gap/
+### BP-04 https://quotr.ai/blog/how-to-price-construction-job/
 
-**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 50
+**Action: Rewrite** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 45
 
-**Merge into:** BP-38 takeoff to buyout construction estimating procurement platform
+1. Read the live page first. Record the title and byline. Check whether the '5% to 10% contingency' range and the total-estimate formula are on this page or on the bid post. If the page already has a solid step-by-step, cut this plan down to an update.
+2. Re-aim the page at L-001 with the H1 'How to Estimate and Price a Construction Job, Step by Step'. Add a 7-step Quick answer: scope, takeoff, materials plus waste, labor (hours × rate), equipment and subs, overhead, then profit and contingency.
+3. Add a worked example on a small residential job, with a line-item table and the markup vs margin maths. If Quotr agrees, base it on the 'All Trade Takeoff (Residential)' sample deliverable. Link /dictionary/markup-vs-margin/, which R-28 is deepening.
+4. Give every percentage (contingency, overhead, markup) a named source, or label it a rule of thumb. Remove any figure that has neither.
+5. Keep it separate from the how-to-bid keeper (G13). Remove sections that repeat the bid process (ITB, inclusions and exclusions, submission). Cross-link both ways, with the anchors 'how to bid commercial work as a sub' and 'how to price the job'.
+6. Add a short 'do it yourself, use software, or outsource' section with brand-attributed facts from the fact sheet. Quotr.ai Lite costs $79.90 per seat per month. Quotr Service costs $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft above. Mention 'average costs by US zip code' only after Quotr confirms it (the fact sheet marks it TO CONFIRM).
+7. Add a named estimator author or reviewer (A7) and honest dates (A9), and run the A16 fact-check. Request indexing. After 2-4 weeks, re-check L-001 and compare GSC queries for this URL with the bid post, using only data after 2026-04-27 (GSC-12).
 
-1. Check Search Console clicks, impressions and backlinks for both URLs, as the vault asks. If this post turns out much stronger, raise that before merging; otherwise follow G06.
-2. Read the post. Move any unique argument, example or quote into a section of the rebuilt takeoff-to-buyout page (R-13). Head that section with the buyer phrase 'From takeoff to purchase order', not 'takeoff-to-transaction gap'.
-3. When R-13 goes live, 301-redirect BP-02 (/the-takeoff-to-transaction-gap/) to BP-38 (/takeoff-to-buyout-construction-estimating-procurement-platform/).
-4. Update internal links that point to the old URL. Remove it from the blog sitemap (A9). On the E-066 prompt note, list only the keeper.
-5. Request re-indexing of the keeper, log the merge in the refresh log, and watch the keeper in Search Console for 4–8 weeks.
+**Add to the page:**
+- 7-step Quick answer for L-001
+- Worked residential example with a line-item table
+- Sourced overhead, contingency and markup figures
+- Do it yourself / software / outsource section with brand-attributed Quotr facts
 
-**Title:** No title work: the page will redirect.  
-**Web address (URL):** Retire the URL with a 301 to the keeper at the same time as the R-13 rebuild (planned for November 2026).
+**Title:** Change it to match the tracked prompt: 'How to Estimate and Price a Construction Job, Step by Step'. No year.  
+**Web address (URL):** Keep the URL. 'how-to-price-construction-job' still fits and has no year, and a new slug would throw away what little equity it has.
 
-**Related tasks:** A12, A9
+**Related tasks:** A7, A9, A16
 
-**Why now:** Merging during the R-13 rebuild moves this post's content and links to the keeper in one step. It also stops two Quotr pages competing for E-066. Google's May 2026 guidance warns against separate pages for each variation of a question.
+**Why now:** It is the mapped page for L-001, but search does not return it and a sibling post takes its queries. A distinct version with a worked example gives Quotr a real answer to one of the most basic estimator questions.
+
+### BP-05 https://quotr.ai/blog/construction-takeoff-guide/
+
+**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 46
+
+**Merge into:** BP-17 how to do construction takeoff pdf blueprint
+
+1. Before redirecting, run GSC URL Inspection. Then pull clicks, impressions, queries and backlinks for this URL. Use only data after 2026-04-27, because a GSC logging error over-reported impressions until then (GSC-12). As the oldest post in G12, it may hold backlinks. If it beats the keeper on clicks or links, raise that with the consultant before the 301.
+2. Read the live page. Copy what the keeper lacks into its new 'Takeoff vs estimate' H2 for L-045: the takeoff vs estimate distinction, the types of takeoff (count, linear, area, volume) and who does takeoffs.
+3. Until R-28 rebuilds /dictionary/quantity-takeoff/ (Dec 2026), have the keeper link to that term for the definition. Add any stronger definition text from this post to the R-28 brief, which already targets L-030.
+4. Once the September 2026 spam update has finished, 301 the URL to BP-17 (/how-to-do-construction-takeoff-pdf-blueprint/). The update started 2026-09-24 and can take up to two weeks (RANK-21). Update every internal link to this URL, remove it from the blog sitemap and request a re-crawl of the keeper.
+5. Ask the vault owner to update the vault to match: L-045 quotr_url, the L-030 body link, the Optimize vs create row (KEEP to MERGE INTO), A12's scope, and a changelog line. Re-check L-030 and L-045 2-4 weeks after the redirect.
+
+**Add to the page:**
+- 'Takeoff vs estimate' H2 in the keeper
+- Definition text handed to R-28 for /dictionary/quantity-takeoff/
+
+**Title:** No title work. The post is merged, and its topic becomes a 'Takeoff vs estimate' H2 in the keeper.  
+**Web address (URL):** After the GSC check, 301 the URL to BP-17 (/how-to-do-construction-takeoff-pdf-blueprint/). Wait until the September 2026 spam update has finished (it started 2026-09-24).
+
+**Related tasks:** A12
+
+**Why now:** Three Quotr URLs split one question, and search already prefers the keeper. Merging is cheap and removes a near-duplicate. Google warns against separate pages for every variant of a question (INDEX-06, carried from the vault research).
 
 ### BP-10 https://quotr.ai/blog/construction-estimating-mistakes-to-avoid/
 
-**Action: Rewrite** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 51
+**Action: Rewrite** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 47
 
 1. Read the live page. Confirm the title and byline, and check whether 'seen most in 2026', 'neural pattern recognition' and 'semantic cost mapping' are on it. Remove the year framing. Replace the jargon with the fact-sheet description: Quotr.ai reads PDF plan sets, counts symbols and measures lengths and areas.
-2. Open with a Quick answer to L-017 that lists the top mistakes in one line each: scope gaps, wrong or unchecked scale, missed addenda, no waste factor, stale material prices, optimistic labor rates, no contingency. Follow with a table: mistake, how it happens, how to catch it before you bid.
-3. Add a Quotr-only angle. Ask Quotr Service for anonymised counts of the errors its estimators catch in client plan sets, published as 'Quotr Service data, [period], [n] projects'. If Quotr cannot supply it, use one labelled worked example from a sample deliverable instead.
-4. Link out instead of repeating. Send scope gaps to scope-gap-construction, stale pricing to construction-cost-trends-2026, and scale errors to how-to-do-construction-takeoff-pdf-blueprint. Link back from each.
-5. Give every percentage or cost impact a source. Add a named estimator author or reviewer (A7), and run the A16 human edit and fact-check before republishing.
+2. Open with a Quick answer to L-017 that gives each top mistake in one line: scope gaps, wrong or unchecked scale, missed addenda, no waste factor, stale material prices, optimistic labor rates, no contingency. Follow it with a table: mistake, how it happens, how to catch it before you bid.
+3. Add an angle only Quotr has. Ask Quotr Service for anonymised counts of the errors its estimators catch in client plan sets, published as 'Quotr Service data, [period], [n] projects'. Make the request with the R-52 data pull. If Quotr cannot supply it, use one labelled worked example from a sample deliverable instead.
+4. Link out rather than repeating content. Send scope gaps to scope-gap-construction and /dictionary/scope-gap/, stale pricing to construction-cost-trends-2026, and scale errors to how-to-do-construction-takeoff-pdf-blueprint. Link back from each of those pages.
+5. Give every percentage or cost impact a source. Add a named estimator author or reviewer (A7), and run the A16 edit and fact-check before republishing.
 6. Run GSC URL Inspection and request indexing. Re-test L-017 2-4 weeks later.
 
 **Add to the page:**
 - Quick answer plus a mistake / cause / check table
 - Anonymised Quotr Service error counts, or a labelled worked example
-- Cross-links to scope-gap-construction and the takeoff keeper
+- Cross-links to scope-gap-construction, /dictionary/scope-gap/ and the takeoff keeper
 
-**Title:** Keep the topic, but drop any year and use a number only if it is the real count in the post: 'Construction Estimating Mistakes: The Most Common Errors and How to Catch Them'.  
+**Title:** Use the L-017 wording, drop any year, and use a number only if it is the real count in the post: 'Most Common Construction Estimating Mistakes (and How to Catch Them)'.  
 **Web address (URL):** Keep the URL. It has no year and matches the query.
 
 **Related tasks:** A7, A16
 
-**Why now:** At present it adds nothing that rival posts lack, and search does not return it. Google's May 2026 guide rewards non-commodity content (INDEX-01). Quotr Service's own error data is the one angle that could make the page citable.
+**Why now:** Right now it adds nothing that rival posts lack, and search does not return it. Google's May 2026 guide rewards non-commodity content (INDEX-01). Quotr Service's own error data is the one angle that could make the page worth citing.
+
+### BP-13 https://quotr.ai/blog/blueprint-to-priced-estimate-workflow/
+
+**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 48
+
+**Merge into:** BP-17 how to do construction takeoff pdf blueprint
+
+1. Run GSC URL Inspection. Then pull clicks, impressions, queries and backlinks for this URL since 2026-05-11. Confirm it has less than the keeper. If it has more, raise it with the consultant before the 301.
+2. Read the live page. Move its pricing step into the keeper's 'Turn quantities into a priced estimate' section: line items, your own cost database or the Quotr database, overhead and profit, and the bid-ready estimate. Leave out 'average costs by US zip code' until Quotr confirms it (the fact sheet marks it TO CONFIRM).
+3. Search the page for 'under 12 minutes' and '95-99%'. Carry neither into the keeper unless Quotr confirms it and it goes into the Entity fact sheet with a source (Q-18; vault Rule 4).
+4. Once the September 2026 spam update has finished (RANK-21), 301 the URL to BP-17 (/how-to-do-construction-takeoff-pdf-blueprint/). Update internal links and remove the URL from the blog sitemap.
+5. Link the 'plans into prices in minutes' post to the keeper for the step-by-step method. Link the keeper back to it for the software question (E-072).
+6. Ask the vault owner to update the vault to match: remove this URL from E-072's body, change this post's Optimize vs create row from KEEP to MERGE INTO the PDF-blueprint post, change the 'plans into prices' row from MERGE to KEEP (check GSC), extend A12's scope, and add a changelog line.
+
+**Add to the page:**
+- Pricing step folded into the keeper
+- Cross-links between the keeper and the 'plans into prices' post
+
+**Title:** No title work. The post is merged.  
+**Web address (URL):** 301 the URL to BP-17 (/how-to-do-construction-takeoff-pdf-blueprint/) once the GSC check is done and the September 2026 spam update has finished.
+
+**Related tasks:** A12
+
+**Why now:** The post appears to duplicate the keeper's workflow, and it does not surface for its own phrase. Quotr results for its phrase also carry unconfirmed speed and accuracy claims. Merging removes the duplicate, and the claim check stops those claims moving into the keeper.
 
 ### BP-26 https://quotr.ai/blog/quotr-vs-excel/
 
-**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 52
+**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 49
 
 1. Read the live page and record its title, byline, dates, prices and claims. In Search Console (once Q-49 gives access), pull index status, queries, impressions and linking pages for this URL and for quotr-vs-traditional-estimating. Request indexing if needed (A9). If the page has no answer-first block or comparison table, or is written for developers, treat this as a rewrite on the same URL.
 2. Reframe it for contractors. Answer 'Should I keep estimating in Excel or switch to estimating software?' in 40–80 words first. Then add an Excel vs Quotr.ai table: cost (Quotr.ai Lite $79.90 / Plus $299.90 per seat per month, 7-day free trial), takeoff from PDF plans, price database, handling plan revisions, formula-error risk, and sharing with the team.
@@ -1407,264 +1349,326 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 
 ### BP-37 https://quotr.ai/blog/electrical-estimating-software-buyers-guide/
 
-**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 53
+**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 50
 
 **Merge into:** BP-46 best electrical estimating software 2026
 
-1. During the A2 sweep, search the live page for '$299.90', '$499.90', 'Solo' and 'Team (2'. Fix any retired pricing at once, because the page stays live until the merge.
-2. Pull Search Console clicks, impressions and linking pages for this URL and for best-electrical-estimating-software-2026. The overlap map keeps the best-of. If this guide is clearly stronger, raise that with the consultant before redirecting.
-3. Copy the guide's unique parts into the keeper under 'How to choose electrical estimating software': its selection criteria, its questions to ask vendors, and any scoring sheet.
-4. Set up a 301 to the keeper and update internal links from the electrical trade page, electrical-estimating-services and the electrical how-tos. Remove this URL from the blog sitemap and request a re-crawl of the keeper (A12).
-5. Log the merge in the refresh log and the Changelog. Record in Optimize vs create that the agreed overlap map replaces the earlier 'keep unless Search Console shows overlap' decision.
+1. During the A2 sweep, search the live page for 'Solo', 'Personal', 'Team (2', '$499.90' and 'from $299.90'. Fix any retired pricing at once, because the page stays live until the merge.
+2. Read this guide and the best-of side by side, and pull Search Console clicks, impressions and linking pages for both. The map keeps the best-of. If this guide is clearly stronger, raise it with the consultant before redirecting, because G11 allows the guide to become the keeper.
+3. Copy whatever is unique here into the keeper's new 'How to choose electrical estimating software' H2. What that is (a checklist, vendor questions, a scoring sheet) is unknown until the page is read.
+4. Do the 301 only after the keeper's rewrite is live and the spam update has ended; G11 is last in the merge order. If the keeper moves to a year-free slug in the same release, point this redirect straight at the new slug. Update internal links from electrical-estimating-services, the electrical how-tos and /software/trades/electrical/, remove this URL from the blog sitemap, and request a re-crawl of the keeper (A12; add G11 to A12's list).
+5. Log the merge in the refresh log and the Changelog. In Optimize vs create, note that the overlap map replaces row 405's 'keep unless Search Console shows overlap' decision.
 
 **Title:** No new title is needed, because this page will redirect. Reuse its 'how to choose' angle as an H2 in the keeper.  
-**Web address (URL):** 301 this URL to BP-46 (/best-electrical-estimating-software-2026/) when the keeper is rewritten. If the keeper later moves to a yearless slug (January 2027), point this redirect straight at the new slug to avoid a redirect chain.
+**Web address (URL):** 301 this URL to the keeper when the keeper's rewrite is published: BP-46 (/best-electrical-estimating-software-2026/), or straight to the keeper's year-free slug if it moves in the same release. Never chain two redirects.
 
 **Related tasks:** A2, A12
 
-**Why now:** Two Quotr pages split signals on one electrical question, and Quotr is absent from the T06 answer. The merge is cheap. Doing it now gives the keeper one clear URL before R-23 links to it in December.
+**Why now:** The merge is cheap and low risk: the guide has no prompt of its own and no recorded traffic or AI use. That the two pages split signals is an inference. The merge waits for the keeper's rewrite, because G11 is last in the merge order. Until then, the only urgent job is the A2 price check.
+
+### BP-44 https://quotr.ai/blog/flooring-trades-how-to-quote-flooring-jobs-and-win-more-work/
+
+**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 51
+
+1. Open the live page and its meta description. Record the real title, byline and date. Check which of the two flooring posts really carries the 'accurately in 2026 … waste factors' description. Delete 'in 2026' from this post's description, and delete any 'current' material price that has no date or source.
+2. Put a Quick answer (40-80 words) under the H1 for L-058. Installed price per SF = material SF with waste + labor per SF by install type + subfloor prep as its own line + trim and transitions + overhead and profit. Show the units.
+3. Add a short waste-factor table by material (LVP, tile, engineered hardwood, carpet). Give each row a manufacturer or trade-association source and an 'as of' date. Do not invent 'typical' values (Trade how-to guide template rule). Keep it short: the R-45 calculator (Feb 2027) will own L-057 ('how much waste for LVP'), so link to it when it ships rather than growing a second waste page.
+4. Add one worked example: a sample floor plan measured with Quotr.ai area detection (a Lite feature in the fact sheet). Show SF by room, waste, the labor line and the subfloor prep line, and label it as a sample. Link /software/trades/flooring/ (the L-059 page) and /dictionary/cost-per-square-foot/.
+5. Keep it separate from best-flooring-estimating-software-in-2026. Once A2 has removed that post's retired pricing, link to it once for choosing software. Check that its meta description no longer carries this post's how-to text.
+6. Add a named author or reviewer with flooring estimating experience (A7). Show Published and Last updated dates that match the sitemap (A9). Run the A16 fact-check. When V-04 (flooring video, Feb 2027) ships, embed it here.
+7. Run GSC URL Inspection before the edit, request indexing after it, and log the change in the refresh log.
+
+**Add to the page:**
+- Quick answer for 'how to price flooring installation per square foot'
+- Short, sourced waste-factor table by material (link the R-45 calculator later)
+- Worked example measured in Quotr.ai with area detection
+- Links to /software/trades/flooring/ and /dictionary/cost-per-square-foot/
+
+**Title:** First confirm the live title, because the current one is built from the slug. Then rewrite it in the buyer's words, with no year: 'How to Price a Flooring Job per Square Foot (Waste, Labor, Prep)'.  
+**Web address (URL):** Keep the URL. It has no year, and a redirect just to drop the awkward 'flooring-trades-' prefix is not worth the risk.
+
+**Related tasks:** A2, A7, A9, A16
+
+**Why now:** It is the only Quotr page for L-058, and search may not return it. Its text may even be credited to a sister post that shows retired pricing. Checking which post owns that description takes minutes, so do it during A2's October fix of the sister post. The rest of the refresh can follow.
 
 ### BP-72 https://quotr.ai/blog/how-rl-electric-cut-estimating-time-with-ai-powered-takeoffs/
 
-**Action: Merge** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 54
+**Action: Merge** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 52
 
-1. Before any redirect, read the post. List anything /case-studies/rl-electric/ lacks, such as quotes, workflow detail, trade detail or a number. Note whether it states '20 hours to 1–2 hours'.
-2. Get Q-29 answered by Quotr. We need RL Electric's approval to name 'Maricruz' with full name and role, plus the measured before-and-after takeoff hours, project type and date.
-3. In the R-15 rebuild of the case study, give the result as takeoff time: 'about 20 hours to 1–2 hours, a 90–95% cut', credited to the customer. Do not reuse the '/software/ up to 80%' or 'cut estimation time by 90%' wording (A3).
-4. Embed the YouTube video 'RL Electric's Quotr Journey' on the case study, with a text summary under it.
-5. Once R-15 is live, 301 this URL to /case-studies/rl-electric/. Remove it from the blog sitemap and repoint internal links, following Page refresh checklist §5 and the A12 method.
-6. Link the rebuilt case study from best-electrical-estimating-software-2026 and /software/trades/electrical/. R-15 targets E-028 (tracked T06) and L-094.
-7. Until then, leave the post as it is. Do not re-date it.
+1. Before any redirect, read the post. List what /case-studies/rl-electric/ lacks, such as quotes, workflow detail, project types or a number. Note whether it states '20 hours to 1–2 hours' or an 'estimating time' figure.
+2. Raise Q-29 and Q-19 in the October Quotr call. We need permission to name 'Maricruz' with full name and role. We also need the measured before-and-after takeoff hours, with project type, period and method.
+3. In the R-15 rebuild, use the fact-sheet wording 'RL Electric cut takeoff time from about 20 hours to 1–2 hours', credited to the customer, but only after Q-19 and Q-29 confirm it. Say 'takeoff time', not 'estimating time'. Do not reuse 'up to 80%' or 'cut estimation time by 90%' (A3).
+4. The case study already embeds the 'RL Electric's Quotr Journey' video. Keep it, and add a 150–300 word summary and the transcript under it (Case study template §5).
+5. When R-15 is live, follow Page refresh checklist §5 and the A12 method. 301 this URL to /case-studies/rl-electric/, remove it from the blog sitemap and repoint internal links. First confirm who can add redirects (Q-55).
+6. Link the rebuilt case study from best-electrical-estimating-software-2026 and /software/trades/electrical/. Those pages serve E-028 (tracked T06) and L-094, the prompts R-15 targets.
+7. Until then, do not edit or re-date this post. If Q-52 gives its real first date, note it in the refresh log when you merge.
 
 **Add to the page:**
-- Customer full name and role (with permission)
-- Before-and-after takeoff hours with date and method
-- Embedded RL Electric video with a text summary
+- The customer's full name and role (with permission)
+- Before-and-after takeoff hours, with the period and how they were measured
+- A text summary and transcript under the existing RL Electric video
 
-**Title:** Do not retitle this URL, because it will be redirected. The case study takes R-15's title, 'How RL Electric cut takeoff time from about 20 hours to 1–2 hours', but only once Quotr confirms the numbers and permission.  
+**Title:** Do not retitle this URL, because it will be redirected. The case study takes R-15's title, 'How RL Electric cut takeoff time from about 20 hours to 1–2 hours', but only after Quotr confirms the numbers and the permission.  
 **Web address (URL):** Do not keep this URL long term. 301 it to /case-studies/rl-electric/ only after R-15 is live (planned Nov 2026), so the story is never lost.
 
 **Related tasks:** B4, A3, A12
 
-**Why now:** The merge is blocked by the R-15 rebuild and the Q-29 permissions, both planned for Nov 2026. Ask about permissions now so the case study is not held up.
+**Why now:** Nothing needs doing on this URL before November. The merge waits for the R-15 rebuild (task B4, Nov 2026), and that needs Q-29 answered. Ask in October so November is not held up.
+
+### BP-02 https://quotr.ai/blog/the-takeoff-to-transaction-gap/
+
+**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 53
+
+**Merge into:** BP-38 takeoff to buyout construction estimating procurement platform
+
+1. Before the merge, pull Search Console clicks, impressions and backlinks for both URLs (A15). If this post turns out clearly stronger, raise it with the consultant before following G06.
+2. Read the post. Move any unique argument, example or quote into the rebuilt takeoff-to-buyout page (R-13), in a section headed 'From takeoff to purchase order', with 'the takeoff-to-transaction gap' named in its first line.
+3. When R-13 goes live, 301-redirect BP-02 (/the-takeoff-to-transaction-gap/) to BP-38 (/takeoff-to-buyout-construction-estimating-procurement-platform/) (A12).
+4. Update internal links to the old URL, starting with the Quotr vs PlanSwift comparison. Remove the old URL from the blog sitemap (A9) and from llms.txt if it is listed (A4). On the E-066 prompt note, list only the keeper.
+5. Request re-indexing of the keeper, log the merge in the refresh log, and watch the keeper in Search Console for 4–8 weeks.
+
+**Title:** No title work: the page will redirect.  
+**Web address (URL):** Retire the URL with a 301 to the keeper when R-13 goes live (planned for November 2026). This is earlier than the vault's P3 slot (January–March 2027), so the content moves only once.
+
+**Related tasks:** A4, A9, A12, A15
+
+**Why now:** Merging during the R-13 rebuild moves the content and any links in one step and leaves one Quotr page for E-066. Google's May 2026 guide warns against separate pages for every variation of a question made mainly to sway AI answers (INDEX-06; carried from the 2026-09-25 research, not re-checked). Two posts on one question is a mild case, but one page is cleaner.
 
 ### BP-03 https://quotr.ai/blog/construction-cost-trends-2026/
 
-**Action: Rewrite** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 55
+**Action: Rewrite** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 54
 
-1. Pull Search Console clicks, impressions and linking pages for this URL and for the 12.6% post (the vault plan says 'check GSC'). Overlap map G07 already names this post as the keeper.
-2. Replace the April forecasts with 2026 actual figures. Lead with AGC's input costs up 8.9% from August 2025 to August 2026, and lumber and plywood up 9.9% year on year by July 2026. Re-check both at agc.org, because the vault saw them through Perplexity. Put them in a dated table with these columns: cost driver, change, period, source.
-3. Add a short section for L-123: 'How are contractors handling material price escalation in 2026?' Use AGC's January 2026 survey (40% raised bids, 32% bought early). Link to the tariff-aware post for escalation clauses rather than repeating it.
-4. Fold in the 12.6% post (A12). Keep '12.6%' only if its source and what it measures are found; otherwise drop it. Then 301 that URL here, and update the L-029 prompt note to point only here.
-5. Add one Quotr data point, for example the change in Quotr Service estimate cost per sq ft across 2026 jobs, with method and sample size (TO CONFIRM with Quotr). If Quotr cannot share data, call the page a roundup, and link R-40 when it goes live.
-6. Link to, but do not repeat, construction-cost-index-q1-2026-ppi-rsmeans-mortenson (index data) and the tariff-impact post (tariffs). G07 keeps both separate.
-7. Open with a 40-80 word answer to 'why did construction costs go up so much in 2026'. Add a named author (A7) and matching dates (A9). Re-run L-029 and L-123 two to four weeks after publishing.
+1. Before the A12 merge, read both pages. Pull Search Console clicks, impressions and linking pages for this URL and for the 12.6% post once access exists (Q-49). G07 keeps this URL either way; the data only shows what to carry over. Search both pages for the retired prices ('Solo', 'Team', '$499.90', 'from $299.90') and fix any hit under A2.
+2. Replace the April forecasts with 2026 actual figures. Lead with AGC's input costs, up 8.9% from August 2025 to August 2026, and lumber and plywood, up 9.9% year on year by July 2026. Re-check both at agc.org, because the vault saw them only through Perplexity. Put them in a dated table with these columns: cost driver, change, period, source.
+3. Cover L-123 in two sentences only. Cite AGC's January 2026 survey (40% raised bids, 32% bought early), then link to tariff-aware-estimating-material-escalation-every-bid, which should own L-123 (G07 note).
+4. Fold in the 12.6% post (A12). Keep '12.6%' only if Quotr or the rewriter finds its source and what it measures (Q-58); otherwise drop it. Then 301 that URL here, and update the L-029 note to point only here.
+5. Add one Quotr data point, for example the change in Quotr Service estimate cost per sq ft across 2026 jobs, with method and sample size, if Quotr agrees to share it (Q-57). If not, call the page a roundup of third-party data, and link R-40 when it goes live in February 2027.
+6. Link to construction-cost-index-q1-2026-ppi-rsmeans-mortenson (index data) and the tariff-impact post (tariffs), but do not repeat them. G07 keeps both separate.
+7. Open with a 40-80 word answer to L-029: 'why did construction costs go up so much in 2026'. Add a named author (A7), matching dates (A9) and the A16 check. Run L-029 once, two to four weeks after publishing, and record it as a test run.
 
 **Add to the page:**
-- 40-80 word answer to 'why did construction costs go up so much in 2026'
+- 40-80 word answer to L-029
 - Dated table of 2026 actual figures (cost driver, change, period, source)
-- Short L-123 section on how contractors handle escalation
-- One Quotr data point with method, or an honest 'roundup' label
+- Two-sentence L-123 summary that links to the tariff-aware post
+- One Quotr data point with its method, or an honest 'roundup' label
 
-**Title:** The current title was not seen; the one on file comes from the slug. Suggested: 'Construction Cost Trends 2026: What Rose, Why, and How Contractors Are Handling Escalation (Updated [Month] 2026)'. Keep '2026' because the page is about that year and its prompts say 2026, but only if every figure is re-checked. Do not just re-date it (QUALITY-11).  
-**Web address (URL):** Keep BP-03 (/construction-cost-trends-2026/) for now. It is the G07 keeper and will receive the 301 from the 12.6% post, so do not move it in the same month. In January 2027, choose one of two options. (a) Keep it as the 2026 year-in-review and publish a separate 2027 outlook. (b) If Quotr will update it quarterly, move it to a year-free /blog/construction-cost-trends/ with a 301, and re-point the 12.6% redirect straight there to avoid a redirect chain. Check Search Console before choosing.
+**Title:** The live title was not seen; the one on file comes from the slug. Suggested: 'Construction Cost Trends 2026: What Rose, Why, and How Contractors Are Responding (Updated [Month] 2026)'. Keep '2026', because the page is about that year and L-029 says 2026. But only do so if every figure is re-checked. Do not just re-date it (QUALITY-11).  
+**Web address (URL):** Keep BP-03 (/construction-cost-trends-2026/) for now. It is the G07 keeper and will receive the 301 from the 12.6% post, so do not move it in the same month. In January 2027, choose one of two options. (a) Keep it as the 2026 year in review and publish a separate 2027 outlook on a year-free URL. (b) If Quotr will update it every quarter, move it to /blog/construction-cost-trends/ with a 301, and point the 12.6% redirect straight there to avoid a redirect chain. Check Search Console before choosing.
 
-**Related tasks:** A12, A7, A9, A16
+**Related tasks:** A12, A2, A7, A9, A16
 
-**Why now:** The '2026' trends answer has about three months left as a current answer. It must be ready before it absorbs the 12.6% post under A12, which is planned for October. Wait until the September 2026 spam update has finished (about 2026-10-08; RANK-21, seen in search 2026-09-26), so the effect of the merge and rewrite can be read cleanly.
-
-### BP-08 https://quotr.ai/blog/ai-construction-proposals-takeoff-to-proposal/
-
-**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 56
-
-1. Read the live page. Record its title, byline, date and any price. Include it in the A2 search for old-price text.
-2. Make L-026 the main question. Add a table, 'What a subcontractor proposal should include', with rows for scope, inclusions, exclusions, clarifications, alternates, pricing basis, validity date, schedule assumptions and payment terms. Give one example line per row for an electrical job.
-3. Add a section, 'From takeoff to proposal in Quotr.ai', using live /software/ wording: 'Turn any estimate into a polished proposal PDF in one click ... your scope, exclusions & pricing.' Add a screenshot of a real exported proposal and embed the existing 'How to Export a Proposal' tutorial. Describe Quotr as takeoff and estimating software first, not proposal software (fact sheet naming rule).
-4. Cover E-020 in one honest paragraph. Name 3-4 tools that can create proposals, with dated facts, and link to ai-bidding-software-construction (the G04 keeper) for the full list. Do not rank Quotr first.
-5. Add a 5-6 question FAQ in the wording of L-025 and L-026, for example 'What are clarifications in a bid?' and 'Should exclusions be priced?'.
-6. Link out to commercial-electrical-takeoff-drawings-to-proposal (a worked trade example), how-to-bid-commercial-construction-projects-subcontractor-estimating-takeoff-guide (the G13 keeper) and the glossary term 'Bid / proposal / quote'. When the residential GC hub (R-14, the planned page for T13) goes live, link to this post from it.
-7. Add a named author with estimating experience (A7) and run the human edit pass (A16).
-
-**Add to the page:**
-- Table of what a subcontractor proposal should include, with an example line per row
-- Quotr.ai takeoff-to-proposal section with a screenshot and the existing tutorial video
-- Short, honest paragraph on proposal tools that links to the G04 keeper
-- FAQ in the words of L-025 and L-026
-
-**Title:** The only title on file is the slug. Retitle it to the L-026 question, for example 'What Should a Subcontractor Proposal Include? Inclusions, Exclusions, Clarifications, and How to Build One From Your Takeoff'.  
-**Web address (URL):** Keep the URL. It has no year, and the vault glossary already links to it.
-
-**Related tasks:** A2, A7, A16
-
-**Why now:** Proposals are where Quotr lost to Handoff in the tracked C13 test (T13, Tier A). This is Quotr's only proposal post, and the planned residential GC hub (R-14) will need it as a supporting page.
+**Why now:** As a '2026' trends answer, it stays current for only about three more months. It must be rewritten before, or together with, the A12 merge of the 12.6% post. The refresh playbook puts G07 in the second merge batch, after the September 2026 spam update ends (about 2026-10-08; RANK-21, seen in search 2026-09-26).
 
 ### BP-11 https://quotr.ai/blog/how-ai-construction-estimating-works/
 
-**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 57
+**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 55
 
 **Merge into:** BP-45 what is ai construction estimating software
 
-1. Save a Search Console baseline (clicks, impressions, queries, inbound links) and run URL Inspection, since search did not return the page.
-2. Move its step-by-step explanation (computer vision reads the plans, detects symbols, measures, turns quantities into priced line items, then a human checks) into the 'How AI takeoff works, step by step' H2 of the keep post. Drop anything the keep post already says.
-3. Check for the '80% / 20 hours to 1-2' claim and do not carry it over (A3).
+1. Save a Search Console baseline (clicks, impressions, queries, linking pages) and run URL Inspection, since search did not return the page.
+2. Read the live page. Move any step the keep post lacks into its 'How AI takeoff works, step by step' H2. Summaries of other Quotr pages describe the mechanism: computer vision reads the plans, detects symbols, measures, prices the quantities, then a human checks. This post's own text was never seen, so do not assume it matches.
+3. Before copying any text, check it for the '80% / 20 hours to 1-2' claim (A3) and for retired Solo/Team prices (A2 terms). Carry neither over.
 4. Publish the 301 to BP-45 (/what-is-ai-construction-estimating-software/) in the same release as the keep post's rewrite. Remove this URL from the blog sitemap and repoint internal links.
-5. In the vault, update L-038's Quotr page and log the merge in the Changelog.
+5. In the vault, change L-038's Quotr page to the keep URL and log the merge in the Changelog.
 
 **Add to the page:**
-- Its step-by-step mechanism, moved into the keep post's 'how it works' section
+- Any mechanism steps the keep post lacks, moved into its 'how it works' section
 
 **Title:** Retire the title with the merge. Its question becomes an H2 in the keep post: 'How does AI construction estimating work?'  
 **Web address (URL):** 301 it to what-is-ai-construction-estimating-software once that rewrite is live and Google's September 2026 spam update has ended (about 2026-10-08).
 
-**Related tasks:** A12, A3
+**Related tasks:** A12, A3, A2
 
-**Why now:** The post adds a fourth competing URL for one question and does not show up in search on its own. Merging now, together with the keep post's rewrite, gives the site one clear answer before the next core update, which analysts expect soon (RANK-22).
+**Why now:** The post adds a fourth competing URL for one question and does not show up in search on its own. Merging it together with the keep post's rewrite gives the site one clear answer before the next core update, which analysts expect soon (RANK-22, seen in search 2026-09-26).
 
 ### BP-35 https://quotr.ai/blog/construction-cost-index-q1-2026-ppi-rsmeans-mortenson/
 
-**Action: Rewrite** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 58
+**Action: Rewrite** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 56
 
-1. Replace the Q1 figures with the latest release of each index (BLS PPI for construction inputs, RSMeans, Mortenson), each with its release date and a link. Add a table with five columns: index, what it measures, latest value, change since Q1 2026, release date.
-2. Open with a 40–80 word answer to L-124 ('construction materials price index 2026 (PPI)'): the latest PPI change, what it means for material prices, and its date.
-3. Add a 'How to use an index in a bid' section with one worked example of adjusting a price for inflation. Link tariff-aware-estimating-material-escalation-every-bid.
-4. Link construction-cost-trends-2026 for why costs moved and tariff-impact-construction-costs-2026-steel-aluminum-copper for tariffs. These stay separate under G07, so do not repeat their content.
-5. Move the page to a URL without year or quarter, for example /blog/construction-cost-index/, with a 301 from the Q1 slug at the first real update. After that, update the same URL each quarter with a dated 'What changed' note. Do not publish a new post each quarter.
+1. Replace the Q1 figures with the latest release of each index (BLS PPI for construction inputs, RSMeans, Mortenson), each with its release date and a link. Consider adding ENR's cost indexes, since ENR's cost page is where L-124 was seen. Use one table with five columns: index, what it measures, latest value, change since Q1 2026, release date.
+2. Open with a 40–80 word answer to L-124 ('construction materials price index 2026 (PPI)'): the latest PPI change, what it means for material prices, and its 'as of' date.
+3. Add a 'How to use an index in a bid' section with one worked example of adjusting a material price for escalation. Link tariff-aware-estimating-material-escalation-every-bid.
+4. Link construction-cost-trends-2026 for why costs moved and tariff-impact-construction-costs-2026-steel-aluminum-copper for tariffs. Both stay separate under G07, so do not repeat their content.
+5. At the first real data update, move the page to a URL without year or quarter, for example /blog/construction-cost-index/, with a 301 from the Q1 slug. Update the page recorded for L-124. After that, update the same URL each quarter with a dated 'What changed' note, and keep the sitemap lastmod equal to the real update date (A9).
 6. When Quotr's Factory-Direct vs US Dealer Price Index launches (R-19, planned for December 2026, task C1), add a section comparing it with the public indexes. Until then, make no claims about Quotr prices.
-7. Add a named author. If Quotr confirms it has an in-house estimator, add them as reviewer: one search summary shows a 'Cost Estimator, Quotr.ai' byline on another post (TO CONFIRM). Keep the sitemap lastmod equal to the date of each real update (A9).
+7. Add a named author (A7). Add an in-house estimator as reviewer only if Quotr confirms one. One search summary names a 'Cost Estimator, Quotr.ai' on another post, but this is unconfirmed.
 
 **Add to the page:**
 - Table of the latest index values with release dates
-- Answer-first block for L-124
+- Answer-first block for L-124 with an 'as of' date
 - Worked example of using an index in a bid
 - Section linking Quotr's price index once R-19 is live
 
-**Title:** The live title was not seen. Take the quarter out of the main title, for example 'Construction cost index tracker: PPI, RSMeans and Mortenson compared'. Show the latest quarter and 'Updated [date]' under the H1. Do not just swap 'Q1' for 'Q3' without new data.  
-**Web address (URL):** Move it to a URL without year or quarter, with a 301, at the next real data update (about October–November 2026). This follows the vault's rule that recurring pages get URLs without a year. Keep that URL for every later edition.
+**Title:** The live title was not seen. Take the quarter out of the main title, for example 'Construction cost index tracker: PPI, RSMeans and Mortenson compared'. Show the latest quarter and 'Updated [date]' under the H1. Do not swap 'Q1' for 'Q3' without new data.  
+**Web address (URL):** Move it to a URL without year or quarter, with a 301, at the next real data update (about October–November 2026). This follows the vault's rule that recurring pages get year-free URLs. Keep that URL for every later edition.
 
-**Related tasks:** A7, A9, C1, D4
+**Related tasks:** A7, A9, C1
 
-**Why now:** Its Q1 2026 numbers are two quarters old and Q3 closes on 2026-09-30. The next index releases are the natural moment to move to a single, living URL before Quotr's own index launches in December.
+**Why now:** Its Q1 2026 numbers are two quarters old, and Q3 closes on 2026-09-30. The next index releases are the natural moment to move to one living URL, before Quotr's own index launches in December.
 
-### BP-88 https://quotr.ai/blog/sourcing-building-materials-china-cbd-fair-2026/
+### BP-89 https://quotr.ai/blog/precon-on-demand-outsource-bid-cost-estimation/
 
-**Action: Rewrite** · **Priority:** medium · **Effort:** L · **Order in the refresh queue:** 59
+**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 57
 
-1. In the October sweep (A3), read the page. Replace any factory count with the A1-approved sentence or remove it. Check the savings and delivery-area claims too.
-2. Agree with Quotr to build R-09 on this URL rather than as a new page, because G16 makes this post the China-sourcing keeper. Drop '(2026 guide)' from the R-09 title.
-3. Rewrite it as a lasting guide for L-122 and L-109. Use numbered steps: find and vet factories, samples, quality checks, FOB vs DDP, customs broker, HTS code and duties, freight, lead time. Give each step a source, and have a customs expert review it (B8).
-4. Keep the fair as a dated first-hand section, 'What we saw at CBD Fair 2026': categories, factories visited, sample prices and lessons, with photos.
-5. Add Quotr's own practice only where Quotr confirms it: the categories it sources, its quality checks and what the DDP price covers. Include the roughly 90-day delivery figure only if Quotr confirms it.
-6. Link to how-developers-source-building-materials for the developer's buying route and to ddp-construction-materials for pricing terms, instead of repeating them. Add a tile section for L-065 only if Quotr confirms tile is a category it sources.
-7. Credit a named author who attended the fair (A7). Add L-122 and L-109 to the next monthly test (B3).
+**Merge into:** BP-86 preconstruction services
+
+1. In the A3 sweep, change '1-3 days' in the post and its blog-index teaser to the value approved in A1 (Q-15). Do this even if the merge slips.
+2. Ask Quotr whether 'Precon on Demand' is still a named offer. No open question covers it, so add one. If it is, move a one-paragraph definition (what it includes, who it is for) into preconstruction-services as an H2. If it is not, drop the name.
+3. Read the live page, which was never captured. Copy any unique FAQ, example or table into preconstruction-services. Do not copy the turnaround line.
+4. Pull Search Console data for both URLs, as A12 asks. Both are under 8 weeks old, so expect little data, and decide on fit as G03 says. Carry over any heading from this post that already earns impressions.
+5. Set a 301 redirect from BP-89 (/precon-on-demand-outsource-bid-cost-estimation/) to BP-86 (/preconstruction-services/). Remove the old URL from the blog sitemap, and update internal links and the blog-index teaser.
+6. Edit the E-079 prompt note so it lists only preconstruction-services. Then request a re-crawl of preconstruction-services.
+
+**Title:** The page is being merged, so it needs no new title. If Quotr still sells 'Precon on Demand', use the name as an H2 on preconstruction-services, not in a title.  
+**Web address (URL):** Redirect (301) to BP-86 (/preconstruction-services/) in October as part of A12 (week 3), after the fact fix. Do not keep this long slug.
+
+**Related tasks:** A12, A1, A3
+
+**Why now:** Two Quotr pages split one High-priority GC prompt (E-079), and this one carries a clashing turnaround. Merging before the newer URL gathers links is cheapest (inferred). Under the rubric it is medium: the prompt is not tracked, the page is not cited, and no engine has been seen repeating '1-3 days'. The vault still rates the fact fix P0, so do it first.
+
+### BP-08 https://quotr.ai/blog/ai-construction-proposals-takeoff-to-proposal/
+
+**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 58
+
+1. Read the live page. Record its title, byline, date and any price. Include it in the A2 search for old-price text.
+2. Make L-026 the lead question. Add a table, 'What a subcontractor proposal should include', with rows for scope, inclusions, exclusions, clarifications, alternates, pricing basis, validity date, schedule assumptions and payment terms. Give one example line per row for an electrical job.
+3. Add a section, 'From takeoff to proposal in Quotr.ai', in the live /software/ wording: 'Turn any estimate into a polished proposal PDF in one click … Your scope, exclusions & pricing'. Add a screenshot of a real exported proposal and embed the existing 'How to Export a Proposal' tutorial. Describe Quotr.ai as AI takeoff and estimating first, with the proposal as the export step (fact sheet naming rule).
+4. Follow the G04 split: change the E-020 prompt note's page to ai-bidding-software-construction. Here, keep one short paragraph on proposal tools that links to that list. Add the link only after A2 removes the retired Solo/Team price from that list, so it does not send readers to the old price.
+5. Add a 5-6 question FAQ in the words of L-025 and L-026, for example 'How do I write a bid proposal that wins?', 'What are clarifications in a bid?' and 'Should exclusions be priced?'.
+6. Link to commercial-electrical-takeoff-drawings-to-proposal (a worked trade example) and the glossary term 'Bid / proposal / quote'. The G13 bid guide (how-to-bid-commercial-construction-projects-subcontractor-estimating-takeoff-guide) already covers inclusions and exclusions (seen in search 2026-09-26). So make this post the full checklist, and have the bid guide link here instead of carrying a second table. When the residential hub R-14 (the planned page for T13) goes live, link to this post from it.
+7. Add a named author with estimating experience (A7) and run the human edit pass (A16).
 
 **Add to the page:**
-- Numbered steps for importing, each with a source
-- Dated first-hand section on CBD Fair 2026
-- Confirmed facts about how Quotr sources
-- Links to how-developers-source-building-materials and ddp-construction-materials
+- Table of what a subcontractor proposal should include, with one example line per row
+- 'From takeoff to proposal in Quotr.ai' section with a screenshot and the existing tutorial video
+- Short paragraph on proposal tools that links to the G04 list (after A2)
+- FAQ in the words of L-025 and L-026
 
-**Title:** The live title was not seen. Take the year and the event out of the main title: 'How to source building materials from China: what to know before you buy in Foshan and Guangdong'. Mention CBD Fair 2026 in a section heading instead.  
-**Web address (URL):** Move it to a URL without the year, for example /blog/how-to-source-building-materials-from-china/, with a 301 from the current slug when the rewrite goes live (R-09, planned for November 2026). This page will be kept long-term, and it went live only on 2026-08-27, so a one-time move now costs little.
+**Title:** Only the slug is on file. Retitle it to the L-026 question, for example 'What Should a Subcontractor Proposal Include? Inclusions, Exclusions, Clarifications, and How to Build One From Your Takeoff'.  
+**Web address (URL):** Keep the URL. It has no year, and the vault glossary (term 54) already links to it.
 
-**Related tasks:** A1, A3, A7, A9, B8, B3
+**Related tasks:** A2, A7, A16
 
-**Why now:** The factory-number check belongs in the October fact sweep. The '2026' event framing will look dated once the next fair is held. Building R-09 as a separate page in November would create a second page for the same question.
+**Why now:** Medium. It is Quotr's only proposal page, and the planned residential hub (R-14, for T13, where Handoff won in C13) will need it as a supporting page. Moving E-020 to the G04 list now stops two Quotr pages from answering the same 'best software' question.
 
 ### BP-45 https://quotr.ai/blog/what-is-ai-construction-estimating-software/
 
-**Action: Rewrite** · **Priority:** medium · **Effort:** L · **Order in the refresh queue:** 60
+**Action: Rewrite** · **Priority:** medium · **Effort:** L · **Order in the refresh queue:** 59
 
-1. Save a Search Console baseline for all three G09 URLs (this one, how-ai-construction-estimating-works and how-ai-construction-takeoff-works-in-2026). Run URL Inspection on each and confirm this URL is indexable.
-2. Rebuild the page around two questions: L-034 'what is AI construction estimating software' and L-038 'how does AI construction takeoff work'. Open with a 40-80 word answer. Then add these H2s: 'What it is', 'How AI takeoff works, step by step' (upload plans, set scale, detect symbols and areas, get quantities, price them, human check), 'AI vs manual estimating' as a table, and 'Where a human still has to check'.
-3. Add one example only Quotr can show: a screenshot of a Quotr.ai takeoff where each count links back to its sheet. Add the RL Electric quote ('20 hours ... 1-2 hours') and label it clearly as a customer quote.
-4. Do not restate accuracy percentages here. Link to is-ai-takeoff-actually-accurate-yet so the approved figure (Q-18) lives in one place. Do not reuse the /software/ line 'up to 80%, from 20 hours to 1-2': the maths is wrong (A3).
-5. Keep this page definitional. Send readers who want a tool list to best-ai-construction-estimating-software-2026 and the buyer's guide, so this page stops competing with them.
-6. Name an expert author (Junzhe Shi, PhD suits a technical explainer) with a link to his author page (A7).
-7. Once the rewrite is live, 301 the two merged URLs here and repoint internal links. For example, fix the 'What Is AI Construction Estimating Software?' anchor reported on best-concrete-estimating-software-2026, after confirming it exists.
+1. Save a Search Console baseline for all three G09 URLs: this one, how-ai-construction-estimating-works and how-ai-construction-takeoff-works-in-2026. Run URL Inspection on each and confirm this URL is indexable. G09 makes the -2026 merge conditional: if that post earns 'how AI takeoff works' impressions, flag it before redirecting.
+2. Rebuild the page around two questions: L-034 'what is AI construction estimating software' and L-038 'how does AI construction takeoff work'. Open with a 40-80 word answer. Then add these H2s: 'What it is'; 'How AI takeoff works, step by step' (upload plans, set scale, detect symbols and areas, get quantities, price them, human check); 'AI vs manual estimating' as a table; and 'Where a human still has to check'.
+3. Add one example only Quotr can show: a screenshot of a Quotr.ai takeoff where each count links back to its sheet. Add the RL Electric homepage quote ('20 hours ... 1-2 hours', Maricruz, RL Electric), labelled as a customer quote. The fact sheet allows that use.
+4. Do not restate accuracy percentages here; link to is-ai-takeoff-actually-accurate-yet so the approved figure (Q-18) lives in one place. Do not reuse the /software/ line 'up to 80%, from 20 hours to 1-2', because the maths is wrong (A3). If the page shows prices, check them against the A2 terms and use Lite $79.90, Plus $299.90, Enterprise custom.
+5. Keep this page definitional. Send readers who want a tool list to best-ai-construction-estimating-software-2026 and the buyer's guide, so this page stops competing with them. Make /dictionary/ai-takeoff/ link here.
+6. Name an expert author with a link to his author page (A7). Junzhe Shi, PhD suits a technical explainer.
+7. Once the rewrite is live, 301 the two merged URLs here. Repoint internal links that target them. The link reported on best-concrete-estimating-software-2026 already points here, so leave it. In the vault, change L-038's Quotr page to this URL.
 
 **Add to the page:**
-- A step-by-step 'how AI takeoff works' section merged from the two sibling posts
+- A step-by-step 'how AI takeoff works' section, merged from the two sibling posts
 - An AI vs manual estimating table
 - A screenshot of a Quotr.ai takeoff with counts linked to their sheets
-- The RL Electric customer quote, labelled as a customer quote
+- The RL Electric homepage quote, labelled as a customer quote
 - A link to the accuracy post in place of repeated percentages
 
-**Title:** Keep the question form and add the takeoff question. Suggested: 'What Is AI Construction Estimating Software? How AI Takeoff Works' (about 62 characters). No year.  
+**Title:** Keep the question form and add the takeoff question. Suggested: 'What Is AI Construction Estimating Software? How AI Takeoff Works' (65 characters, so the end may be cut off in results). No year. The current title was not seen; one summary suggests 'What Is AI Construction Estimating Software?'.  
 **Web address (URL):** Keep the URL. It has no year and matches L-034.
 
-**Related tasks:** A12, A7, A3, A16
+**Related tasks:** A12, A7, A3, A2, A16
 
-**Why now:** Four posts on one mechanism split signals, and search already prefers other Quotr pages for this query. Google's guidance warns against separate pages for every variant of a question (INDEX-06, carried over from the vault research). Posts published after 2026-06-02 have not yet been through a core update, and analysts expect one soon (RANK-22). Rewrite in October-November and redirect the siblings after the September spam update ends.
+**Why now:** Four posts on one mechanism split signals, and search already prefers other Quotr pages for this query. Google's guidance warns against separate pages for every variant of a question (INDEX-06, carried over from the vault research). Posts published after 2026-06-02 have not yet been through a core update, and analysts expect one soon (RANK-22, seen in search 2026-09-26). Rewrite in October-November. Redirect the siblings after the September spam update ends.
 
-### BP-49 https://quotr.ai/blog/construction-proforma-software/
+### BP-52 https://quotr.ai/blog/best-plumbing-estimating-software-2026/
 
-**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 61
+**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 60
 
-**Merge into:** BP-22 real estate pro forma software comparison
-
-1. Pull Search Console clicks, impressions and linking pages for this URL and for the keeper (this is the merge condition in Optimize vs create). If this URL is clearly stronger, raise it with the consultant before redirecting.
-2. Copy anything unique from this post into the keeper: tools beyond Aprao and Excel, a feature checklist, FAQs. Check Aprao's facts on its own site and date them.
-3. Move any step-by-step 'how to build a pro forma' content to the-proforma-that-never-stops-changing, which stays separate and takes over L-138. R-54's template can join it later.
-4. 301 BP-49 (/construction-proforma-software/) to BP-22 (/real-estate-pro-forma-software-comparison/). Update internal links, remove the old URL from the blog sitemap, and request re-indexing of the keeper (A12, A9).
-5. In the vault, change L-138's quotr_url to the-proforma-that-never-stops-changing and log the merge in the Changelog.
-6. In the keeper, state Quotr Service facts from the fact sheet only: $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft at 50,000+. Leave out the pro forma turnaround until Q-15 is answered.
+1. During the A2 sweep, search the page for 'Solo', 'Personal', 'Team (2', '$499.90' and 'from $299.90', because its pricing status is unknown. Use Search Console URL Inspection to confirm it is indexed.
+2. Before editing, run E-029 once in two engines to set a baseline, because it has never been tested (Page refresh checklist, step 1).
+3. Link this post and how-to-estimate-plumbing-from-drawings to each other. On the how-to, which AI already uses, add only the link and one brand-in-fact sentence (A8), for example 'In Quotr.ai, the AI counts fixtures from the schedule and checks them against the floor plans.' Do not restructure that page. Use the same kind of sentence here.
+4. Add plumbing criteria: fixture counts from the schedule vs the plans, pipe length by system (cold, hot, waste, vent) and material, fittings and valves, rough-in vs trim-out, and per-fixture pricing. Give each tool a dated, linked source (A6).
+5. Apply the honest-inclusion rules (a disclosure line, a method, no Quotr #1) and add a Quotr.ai entry that states its limits. Add a named author (A7) and run the human fact check (A16).
+6. Link /software/trades/plumbing/ and /dictionary/rough-in-plumbing/ now. Embed the V-02 plumbing episode (December 2026). When R-44 ships (February 2027, D5), make it the product answer for E-029 and keep this post as the comparison.
 
 **Add to the page:**
-- 301 redirect to the keeper
-- L-138 re-pointed to the-proforma-that-never-stops-changing
+- Two-way links with how-to-estimate-plumbing-from-drawings, with the brand in the key sentence
+- Plumbing criteria (fixture counts, pipe by system, rough-in vs trim-out, per-fixture pricing)
 
-**Title:** This post's title stops mattering after the merge. For the keeper, consider a title that answers E-022 directly, for example 'Real estate development pro forma software compared: Quotr.ai, Aprao and Excel'.  
-**Web address (URL):** After the merge, 301 this URL to real-estate-pro-forma-software-comparison. Keep the keeper's URL as it is.
+**Title:** The live title was never recorded. 'Best Plumbing Estimating and Takeoff Software' matches E-029 and the 'plumbing takeoff software' wording buyers also use. E-029 includes '2026', but keep the year in the title only while every entry is checked for 2026.  
+**Web address (URL):** Keep the URL for now. It has '2026' in the slug. If a later refresh re-checks every tool, move it to /blog/best-plumbing-estimating-software/ with a 301 at that time and update E-029's quotr_url. Otherwise decide by mid-December.
 
-**Related tasks:** A12, A9
+**Related tasks:** A2, A6, A7, A8, A16, D5
 
-**Why now:** Two Quotr pages split one question, and a third shares the how-to prompt. Merging before the R-22 developer hub (December 2026) gives that hub one clear pro forma page to link to.
+**Why now:** Not urgent. The cheap wins are the A2 price check in October and a two-way link with the plumbing how-to, which Perplexity already cites first for tracked prompt T49.
 
 ### BP-53 https://quotr.ai/blog/how-subcontractors-bid-gcs-without-giving-away-margin/
 
-**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 62
+**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 61
 
 **Merge into:** BP-28 how to bid commercial construction projects subcontractor estimating takeoff guide
 
-1. Before changing anything, save a Search Console baseline for both URLs (clicks, impressions, top queries, inbound links) and run URL Inspection on this one to see whether Google has indexed it at all.
-2. Check this post's text for retired Solo/Team pricing using the A2 search terms before copying any of it.
-3. In the how-to-bid guide, add a new H2 using L-012's wording, 'How do subcontractors bid GCs without giving away margin?'. Move in the parts the guide lacks: scope leveling, pricing to the market, and offering alternates instead of cutting the base price. Drop the '6-habit playbook' label so it no longer echoes Billd's report.
-4. If the Junzhe Shi / Xian Li byline is real, carry it onto the how-to-bid guide as author or estimator-reviewer (A7). Confirm Xian Li's name and role with Quotr first.
-5. 301-redirect BP-53 (/how-subcontractors-bid-gcs-without-giving-away-margin/) to the how-to-bid guide, remove it from the blog sitemap, and repoint every internal link that points to it (crawl the blog to find them).
-6. In the vault, point L-012's Quotr page at the how-to-bid guide and log the merge in the Changelog.
-7. Re-run L-012 and L-013 in Perplexity 2-4 weeks after the redirect.
+1. Before changing anything, read both live pages. Save a Search Console baseline for both URLs (clicks, impressions, top queries, linking pages). Run URL Inspection on this one to see whether Google has indexed it.
+2. Search this post's text for the A2 terms ('Solo', 'Team', '$499.90', 'from $299.90/month') before copying any of it. Any price you carry over must read Lite $79.90, Plus $299.90, Enterprise custom.
+3. In the how-to-bid guide, add one H2 in L-012's words: 'How do subcontractors bid GCs without giving away margin?'. Move in scope leveling and pricing to the market, which the guide lacks. The guide already has an alternates section, so only add the margin point there: offer an alternate instead of cutting the base price.
+4. Deal with the '6-habit playbook'. If the post borrows Billd's framing, credit Billd's 2026 report with a dated link. If it does not, drop the label so the advice reads as Quotr's own.
+5. If the Junzhe Shi / Xian Li byline is real, carry it onto the guide as author and estimator-reviewer. Confirm Xian Li's name and role with Quotr first, and add that person to the A7 author list.
+6. 301-redirect BP-53 (/how-subcontractors-bid-gcs-without-giving-away-margin/) to the guide. Remove it from the blog sitemap, and crawl the blog to repoint every internal link to it.
+7. In the vault, point L-012's Quotr page to the guide and log the merge in the Changelog. Re-run L-012 and L-013 in Perplexity 2-4 weeks after the redirect.
 
 **Add to the page:**
-- Margin H2 in the how-to-bid guide: scope leveling, pricing to the market, alternates instead of price cuts
-- A worked example showing a base bid with alternates versus a cut price, and the margin kept (use a real Quotr estimate only if Quotr agrees to share one)
+- A margin H2 in the how-to-bid guide covering scope leveling and pricing to the market
+- One line in the guide's alternates section: offer an alternate instead of cutting the base price
+- A worked example: a base bid with alternates versus a cut price, and the margin kept (use a real Quotr estimate only if Quotr agrees to share one)
 
-**Title:** Retire this title with the merge and reuse its question as an H2 in the how-to-bid guide. Separately, the guide's own title is 115 characters and gets cut off. Shorten it to about 60, for example 'How to Bid Commercial Work as a Subcontractor, Step by Step'.  
-**Web address (URL):** Do not keep the URL. 301 it to the how-to-bid guide after Google's September 2026 spam update finishes (about 2026-10-08). The slug has no year, so there is no other reason to change it.
+**Title:** Retire this title with the merge and reuse its question as an H2 in the how-to-bid guide. Separately, the guide's own title is 115 characters and gets cut off in results. Shorten it to about 60 characters, for example 'How to Bid Commercial Work as a Subcontractor, Step by Step' (59 characters).  
+**Web address (URL):** Do not keep the URL. 301 it to the how-to-bid guide after Google's September 2026 spam update finishes (about 2026-10-08). The slug has no year, so the merge is the only reason to change it.
 
-**Related tasks:** A12, A7, A2
+**Related tasks:** A12, A2, A7
 
-**Why now:** The broader guide already takes this post's place in search, so the two URLs split signals for one buyer question. The merge is cheap and fits A12 in October. Wait until Google's September 2026 spam update ends (it started 2026-09-24 and may run to about 2026-10-08; RANK-21, seen in search 2026-09-26, not re-checked) so any ranking change can be read cleanly.
+**Why now:** The broader guide already takes this post's place in search, so two URLs split signals for one buyer question. The merge is cheap and fits the A12 work in October. Wait until Google's September 2026 spam update ends so any ranking change can be read cleanly. The update started 2026-09-24 and may run to about 2026-10-08 (RANK-21, seen in search 2026-09-26, not re-checked).
 
 ### BP-79 https://quotr.ai/blog/construction-estimating-services/
 
-**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 63
+**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 62
 
 **Merge into:** BP-82 outsource construction estimating
 
-1. Before the merge, pull Search Console clicks, impressions and linking pages for both URLs for the last 3 months, as A12 requires. Record them in the refresh log. G02 keeps outsource-construction-estimating either way.
-2. Read the live post and list anything the outsourcing post lacks, such as a list of deliverables or trade coverage. Move only those parts into outsource-construction-estimating, under a 'What you get' heading built around the R-05 sample deliverable 'All Trade Takeoff (Residential)'.
-3. In the merged text, attach the brand to the price: 'Quotr.ai's Estimation Service charges $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft above' (fact sheet, High confidence). Do not carry over any turnaround figure from this post. Use only the single value agreed through Q-15 and A1.
-4. 301-redirect BP-79 (/construction-estimating-services/) to BP-82 (/outsource-construction-estimating/) in the same release as the R-05 rebuild (October 2026), and remove it from the blog sitemap (A9).
-5. Update internal links that point here so they go straight to the merged page. Check commercial-estimating-services, preconstruction-services, construction-estimating-services-california, /service/ and the blog 'service' hub.
-6. Keep the posts that G02 keeps separate (outsourcing-vs-hiring-an-estimator, commercial-estimating-services, quantity-takeoff-services, construction-estimating-services-california). Link each one from the merged page, with one line on its angle.
-7. Log the merge in the changelog and the refresh log. Re-run T12 (E-073) 2-4 weeks later. Check that the merged page is still the first citation and now names Quotr.ai.
+1. Wait until Google confirms the September 2026 spam update is complete (expected about 2026-10-08; RANK-21). Finish A2 first (A12 depends on it) and settle one turnaround through A1/A3, as G02 requires.
+2. Read both live pages. If Search Console access exists (Q-49), pull 6 months of clicks, impressions, linking pages and generative AI impressions for both URLs. Record them in the refresh log (Page refresh checklist §7).
+3. Move across only what outsource-construction-estimating lacks, such as a deliverables list or trade coverage. Put it under a 'What you get' heading built on the 'All Trade Takeoff (Residential)' sample from /service/, as R-05 plans.
+4. In the merged text, attach the brand to the price: 'Quotr.ai's Estimation Service charges $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft above; pricing is sent before work starts' (fact sheet, High). Carry over no turnaround from this post; use only the A1 value from Q-15.
+5. In the R-05 release, 301 BP-79 (/construction-estimating-services/) to BP-82 (/outsource-construction-estimating/). The same day: remove the old URL from the blog sitemap (A9) and llms.txt if listed; update internal links from commercial-estimating-services, preconstruction-services, construction-estimating-services-california, /service/ and /blog/service/; request a re-crawl of both URLs.
+6. From the merged page, link to the posts G02 keeps separate for now, with one line on each angle: commercial-estimating-services, quantity-takeoff-services and construction-estimating-services-california. Also link outsourcing-vs-hiring-an-estimator; G02 left its merge as 'not yet', pending a read of both pages.
+7. Drop E-075 from the BP-79 article note, and log the merge in the Changelog. Re-run T12 (E-073) 2-4 weeks later, checking that the keeper is still the first citation and now names Quotr.ai. Watch the keeper in Search Console for 4-8 weeks.
 
-**Title:** No title work on this URL, because it is being retired. On the surviving outsource-construction-estimating page, use R-05's working title but drop '(2026)' and date the price table instead. Posts lightly refreshed with '2026' in the title were among the early-2026 losers (QUALITY-11; a practitioner report, not re-checked).  
-**Web address (URL):** Retire this URL with a 301 to BP-82 (/outsource-construction-estimating/), released together with the R-05 rebuild in October 2026. Do not create a replacement URL.
+**Title:** No title work on this URL, because it is being retired. On the keeper, use R-05's working title without '(2026)', and date the price table instead. Posts lightly refreshed with '2026' in the title were among the early-2026 losers (QUALITY-11; a practitioner report, not re-checked). This slug is the head term, so put 'construction estimating services' in the keeper's title or H1 (inferred).  
+**Web address (URL):** Retire this URL with a 301 to BP-82 (/outsource-construction-estimating/). Release it with the R-05 rebuild in October 2026, and only after the spam update has ended. Do not create a replacement URL.
 
-**Related tasks:** A12, A8, A9, A1
+**Related tasks:** A12, A2, A3, A1, A8, A9
 
-**Why now:** The R-05 rebuild of the AI-cited outsourcing post (T12) is planned for October 2026. Merging this duplicate in the same release sends one clean signal to Google and AI engines and avoids a second round of redirects. Priority is medium, not high, because this post itself serves no tracked prompt and has no known wrong facts.
+**Why now:** R-05 rebuilds the AI-cited keeper (T12) in October 2026. Merging this duplicate in the same release means one change and one redirect. Priority is medium, not high. This post serves no tracked prompt, no AI answer cites it, and no wrong fact is known. The services cluster is the likeliest target of the running spam update (inferred), which is one more reason to consolidate as soon as it ends.
+
+### BP-92 https://quotr.ai/blog/scope-gap-construction/
+
+**Action: Update** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 63
+
+1. Ask Quotr where the four statistics came from (Q-58 is open). For each one, link a primary source with its year, or delete it. For '$177 billion', check the 2018 FMI/PlanGrid 'Construction Disconnected' report. If it measures non-productive labour time, say that or drop it. Never call it a rework or scope-gap cost.
+2. Change the /blog/plug-number-estimating/ link to /dictionary/plug-number/. Have the developer 301 the dead URL to the same place (A10).
+3. Take 'based in San Francisco' out of the boilerplate until Q-01 is answered and A1 approves one HQ city. Then use that city on every page (A3).
+4. Turn the worked $2M bid example into a small table with three columns: scope item, which trade assumed it, cost of the gap. In the lead sentence, name Quotr.ai and say whether this is a real Quotr.ai estimate or an illustration.
+5. If the post has no checklist yet, add a short 'Scope gaps by trade' checklist for the common hand-offs (electrical and low-voltage, drywall and framing, HVAC and plumbing). R-33 (January 2027) plans to reuse a scope-gap checklist from this post, so build it once, here.
+6. Cross-link this post with the inclusions/exclusions section of the how-to-bid guide. Link /dictionary/scope-gap/ back to this post as the full answer for L-011.
+7. Once the edits are live, make the on-page date, schema dateModified and sitemap lastmod all show the same real edit date (A9). Request indexing in Search Console and Bing, and re-run L-011 in Perplexity 2-4 weeks later.
+
+**Add to the page:**
+- A primary-source link for each statistic, or remove it
+- A scope-gaps-by-trade checklist that R-33 can reuse
+- A table version of the $2M bid example, labelled as real or illustrative, with Quotr.ai named in the lead sentence
+
+**Title:** Keep the hook, but lead with the buyer's question. Suggested: 'What Is a Scope Gap? How to Avoid Gaps Between Trades' (53 characters). Use 'Scope gaps cost more than pricing errors' as the first line of the short answer.  
+**Web address (URL):** Keep BP-92 (/scope-gap-construction/). It has no year and matches the query.
+
+**Related tasks:** A10, A9, A3, A1, A16
+
+**Why now:** The vault already lists these fixes as Tier 0 and P1, and they take days, not weeks. The post may not be indexed yet (inferred), so fixing it before a full crawl costs nothing in rankings. Fix the 404 link, the statistics and the HQ line now. Hold the date change and the indexing request until Google's September 2026 spam update ends (about 2026-10-08; RANK-21, seen in search 2026-09-26, not re-checked).
 
 ### BP-22 https://quotr.ai/blog/real-estate-pro-forma-software-comparison/
 
@@ -1689,39 +1693,42 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 
 **Why now:** It is the only Quotr page the web search tool shows for developer pro forma software, a low-competition topic. It must absorb construction-proforma-software. The service-vs-software framing should be fixed before the developer hub (C6) links to it in December.
 
-### BP-52 https://quotr.ai/blog/best-plumbing-estimating-software-2026/
+### BP-49 https://quotr.ai/blog/construction-proforma-software/
 
-**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 65
+**Action: Merge** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 65
 
-1. During the A2 sweep, search the page for '$299.90', '$499.90', 'Solo' and 'Team (2', because its pricing status is unknown. Use Search Console URL Inspection to confirm it is indexed.
-2. Link this post and how-to-estimate-plumbing-from-drawings to each other; Perplexity cited the how-to first for N2. In both posts, write the key step with the brand attached, for example 'In Quotr.ai, the AI counts fixtures from the schedule and checks them against the floor plans.'
-3. Add plumbing criteria: fixture counts from the schedule vs the plans, pipe length by system and material, fittings and valves, rough-in vs trim-out, and per-fixture pricing. Give each tool a dated, linked source (A6).
-4. Apply the honest-inclusion rules (a disclosure line, a method, no Quotr #1) and add a Quotr.ai entry that states its limits. Add a named author (A7) and run the human fact check (A16).
-5. Link /software/trades/plumbing/ and the rough-in-plumbing dictionary term now. Link the deep plumbing page R-44 when it ships (February 2027, task D5).
-6. Run E-029 once in two engines to set a baseline, because it has never been tested.
+**Merge into:** BP-22 real estate pro forma software comparison
+
+1. Pull Search Console clicks, impressions and linking pages for this URL and for the keeper (the merge condition in Optimize vs create; needs access, Q-49). If this URL is clearly stronger, raise it with the consultant before redirecting.
+2. Read both live pages. Copy anything unique from this post into the keeper: tools beyond Aprao and Excel, a feature checklist, FAQs. Check Aprao's facts on its own site and date them.
+3. Settle L-138 before the redirect. It is High priority and will have no fitting page after the merge. Either add a real step-by-step 'how to build a development pro forma' section to the-proforma-that-never-stops-changing, or bring the R-54 template forward from March 2027. Then change L-138's quotr_url to that page.
+4. After Google's September 2026 spam update ends (about 2026-10-08), 301 BP-49 (/construction-proforma-software/) to BP-22 (/real-estate-pro-forma-software-comparison/). Update internal links, remove the old URL from the blog sitemap and llms.txt, and request a re-crawl of both (A12, A9).
+5. In the keeper, state Quotr Service facts from the fact sheet only: $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft at 50,000+. Say plainly that Quotr's pro forma is a per-project service, compared here with self-serve tools. Leave out the turnaround until A1 and Q-15 settle it.
+6. Use both spellings, 'pro forma' and 'proforma', on the keeper. Log the merge in the Changelog and in the refresh log.
 
 **Add to the page:**
-- Links to and from how-to-estimate-plumbing-from-drawings, with the brand attached
-- Plumbing criteria (fixture counts, pipe by system, per-fixture pricing)
+- 301 redirect to the keeper
+- L-138 given a real how-to home
+- Per-project service wording on the keeper
 
-**Title:** The live title was never recorded. 'Best Plumbing Estimating Software' matches prompt E-029, which includes '2026'. Keep the year in the title only while every entry is checked for 2026, and re-check in January 2027.  
-**Web address (URL):** Keep the URL for now. If the post stays long-term, 301 it to /blog/best-plumbing-estimating-software/ at the January 2027 refresh.
+**Title:** This post's title stops mattering after the merge. Its reported title, 'The Construction Proforma Software Every Developer Should Use', is unconfirmed. For the keeper, consider a title that answers E-022 directly, for example 'Real estate development pro forma software compared: Quotr.ai, Aprao and Excel'.  
+**Web address (URL):** After the merge, 301 this URL to real-estate-pro-forma-software-comparison. Keep the keeper's URL as it is.
 
-**Related tasks:** A2, A6, A7, A16, D5
+**Related tasks:** A12, A9, C6
 
-**Why now:** This post is not urgent. The cheap win is to link it to the plumbing how-to that AI already cites first, and to include it in the A2 price sweep in October.
+**Why now:** Two Quotr pages seem to split one question, and a third shares the how-to prompt. Merging before the R-22 developer hub (December 2026, C6) gives that hub one clear pro forma page to link to. Do the redirect after the spam update ends.
 
 ### BP-67 https://quotr.ai/blog/chatgpt-for-construction-estimating/
 
 **Action: Rewrite** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 66
 
-1. Run a dated test. Give ChatGPT (record the model name and the date) one real plan set that Quotr is allowed to show, such as an electrical sheet and a floor plan. Ask it for device counts, wall lengths and floor areas.
+1. Run a dated test. Give ChatGPT one real plan set that Quotr is allowed to show, such as an electrical sheet and a floor plan, and record the model name and the date. Ask it for device counts, wall lengths and floor areas.
 2. Check the answers against a manual or Quotr.ai takeoff of the same sheets. Publish a results table with four columns: item, ChatGPT's answer, checked answer, error.
 3. Open with a 40-80 word answer to L-037 that states the test date, the model and the result.
-4. Add two sections drawn from the test: 'Where ChatGPT helps estimators' (for example drafting scope letters, RFIs and proposal text, or reading specs) and 'Where it fails' (for example scaled measurements and symbol counts on dense sheets).
-5. If you compare, describe Togal's ChatGPT page fairly, with a dated link.
-6. Leave E-069 ('ChatGPT for blueprints') to the chat-with-blueprints post. Link to that post and to is-ai-takeoff-actually-accurate-yet, and remove E-069 from R-49's targets so two posts stop competing.
-7. Name the author (A7). Add a 'last tested on' line, and plan to repeat the test whenever ChatGPT changes a lot.
+4. Add two sections drawn from the test. 'Where ChatGPT helps estimators' could cover drafting scope letters, RFIs and proposal text, or reading specs. 'Where it fails' could cover scaled measurements and symbol counts on dense sheets.
+5. If you compare with Togal, describe its ChatGPT page fairly and give a dated link.
+6. Leave E-069 ('ChatGPT for blueprints') to the chat-with-blueprints post. Link to that post and to is-ai-takeoff-actually-accurate-yet, and remove E-069 from R-49's targets in the vault so the two posts stop competing.
+7. Name the author (A7). Add a 'last tested on' line, and repeat the test whenever ChatGPT changes a lot.
 
 **Add to the page:**
 - A dated test of ChatGPT on a real plan set
@@ -1729,37 +1736,37 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 - 'Where it helps' and 'Where it fails' sections
 - A 'last tested on' line and a re-test plan
 
-**Title:** Change the title to match L-037: 'Can ChatGPT Do a Construction Takeoff? We Tested It' (about 51 characters). Put the test date in the body, not the title, so the title does not expire.  
+**Title:** Once the dated test is published, change the title to match L-037: 'Can ChatGPT Do a Construction Takeoff? We Tested It' (51 characters). Do not use 'We Tested It' before the test is on the page. Put the test date in the body, not the title, so the title does not expire.  
 **Web address (URL):** Keep BP-67 (/chatgpt-for-construction-estimating/). Search already shows it, it has no year, and it still matches the query 'ChatGPT for construction estimating'.
 
 **Related tasks:** A7, A16
 
-**Why now:** It is one of the few posts in this set that search already shows, so a stronger version starts with an advantage. ChatGPT changes quickly, so an undated answer loses value every month. Settle the vault's P2 versus P3 conflict, and consider moving R-49 from February 2027 to November-December 2026, after the September spam update ends.
+**Why now:** It is one of the few posts in this set that search already shows, so a stronger version starts with an advantage. ChatGPT changes quickly, so an undated answer loses value every month. Settle the vault's P2 versus P3 conflict. Consider moving R-49 from February 2027 to November-December 2026, after the September spam update ends.
 
 ### BP-69 https://quotr.ai/blog/construction-procurement-process/
 
 **Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 67
 
-1. Before the merge, pull Search Console clicks, impressions and backlinks for this URL and for what-is-construction-procurement-2026-guide, as the vault asks.
-2. Open with a 40-80 word definition of construction procurement, moved from the what-is guide. Then add a numbered process: scope and quantities, RFQs, bid leveling, award and purchase orders, submittals and approvals, logistics and customs (for imports), delivery and receiving, closeout.
-3. Add a table, 'Where Quotr.ai fits'. Show takeoff, RFQs and bid comparison in Quotr Software (live /software/ wording: 'RFQs and bid comparison when you need them'), and factory-direct buying through Quotr Procurement at a DDP price. Leave out the factory count, savings % and delivery area until A1 signs them off (Q-11, Q-12).
-4. Replace procurement@quotr.ai with the address Quotr approves under Q-05, and use that one address across the site (A3).
-5. Add one worked example from /procurement/, labelled 'Quotr reports': Myren Dr, Saratoga, $97,000 against a Bay Area market price of $187K-$218K.
-6. Redirect the what-is guide here with a 301 (A12). Update internal links and the link on the glossary term 'Procurement'. Link out to ddp-construction-materials, takeoff-to-buyout-construction-estimating-procurement-platform (G06 keeper) and construction-procurement-software.
-7. Add a named author, ideally someone who runs Quotr Procurement orders (A7).
+1. Once Search Console access is set up (Q-49), pull clicks, impressions and backlinks for this URL and for what-is-construction-procurement-2026-guide, as Optimize vs create asks before the merge.
+2. Open with a 40-80 word definition of construction procurement, moved from the what-is guide. Then add numbered steps: scope and quantities, RFQs, bid leveling, award and purchase orders, submittals and approvals, logistics and customs for imports, delivery and receiving, closeout.
+3. Add a 'Where Quotr.ai fits' table. Show takeoff, RFQs and bid comparison in Quotr Software, in the live /software/ wording 'RFQs and bid comparison when you need them'. Show factory-direct buying through Quotr Procurement at a DDP price. Leave out the factory count, savings range and delivery area until A1 settles them (Q-09, Q-10, Q-11).
+4. Settle the contact address. Keep procurement@quotr.ai only if Quotr confirms it under Q-05. Then make /terms and the schema match the approved address (A3).
+5. Add one short project line from /procurement/, labelled 'Quotr reports', for example 'Stratford Ct, Monte Sereno: $108,290 against a Bay Area market price of $195K-$245K'. Leave the Myren Dr breakdown to the DDP post and the R-16 case study, so two posts do not repeat one example.
+6. After the September 2026 spam update finishes, 301 the what-is guide here (A12). The update began 2026-09-24, and the refresh playbook waits until about 2026-10-08. Update internal links and the glossary term 75 'Procurement' link. Link out to ddp-construction-materials, takeoff-to-buyout-construction-estimating-procurement-platform (G06 keeper) and construction-procurement-software.
+7. Add a named author, ideally someone who runs Quotr Procurement orders (A7), and run the A16 edit pass.
 
 **Add to the page:**
 - 40-80 word definition, moved from the what-is guide
 - Numbered procurement steps
 - 'Where Quotr.ai fits' table
-- Worked example from a /procurement/ project card, labelled 'Quotr reports'
+- One 'Quotr reports' project line (Stratford Ct), with a link to the DDP post's full example
 
-**Title:** The only title on file is the slug. Suggested: 'Construction Procurement Process: What It Is and the Steps From Takeoff to Delivery'.  
-**Web address (URL):** Keep it. The slug is clean with no year, and this is the agreed keeper.
+**Title:** Only the slug is on file. Suggested: 'Construction Procurement Process: What It Is and the Steps From Takeoff to Delivery'. It answers both the 'what is' and the 'steps' wording of L-125.  
+**Web address (URL):** Keep it. The slug is clean, has no year, and this is the agreed keeper.
 
-**Related tasks:** A1, A3, A7, A12
+**Related tasks:** A1, A3, A7, A12, A16
 
-**Why now:** It is the G05 merge target, so the merge and this refresh should go out together. It also carries one of the conflicting contact addresses that the October fact sheet (A1) must settle.
+**Why now:** Medium. It is the G05 merge target, so the merge and this refresh should go out together in the October A12 batch. It also carries one of the two conflicting contact addresses that A1 must settle.
 
 ### BP-90 https://quotr.ai/blog/outsourcing-vs-hiring-an-estimator/
 
@@ -1785,40 +1792,16 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 
 **Why now:** R-05 is scheduled for October 2026 and targets the same two High-priority prompts. Decide which page owns them now, before both are rebuilt to compete. The vault rates this refresh P1.
 
-### BP-92 https://quotr.ai/blog/scope-gap-construction/
+### BP-96 https://quotr.ai/blog/quotr-service-estimates/
 
 **Action: Update** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 69
 
-1. Find a primary source for each of the four statistics and link it with its year, or delete the number. For '$177 billion', check the 2018 FMI/PlanGrid 'Construction Disconnected' report. If it measures non-productive labour time, describe it that way or drop it. Never call it a rework or scope-gap cost.
-2. Change the /blog/plug-number-estimating/ link to /dictionary/plug-number/, and have the developer 301 the dead URL to the same place (A10).
-3. Replace the 'based in San Francisco' boilerplate with the HQ approved in A1. Until Q-01 is answered, leave the city out.
-4. Put 'Quotr.ai' inside the sentence that introduces the worked $2M bid example. Turn the example into a small table with three columns: scope item, which trade assumed it, cost of the gap.
-5. Add a short 'Scope gaps by trade' checklist covering the common hand-offs (electrical and low-voltage, drywall and framing, HVAC and plumbing). The vault's R-33 plan already wants to reuse a scope-gap checklist from this post.
-6. Cross-link this post to the inclusions/exclusions section of the how-to-bid guide and to /dictionary/scope-gap/, and link the dictionary term back here.
-7. Make the on-page date, schema dateModified and sitemap lastmod all show the date of these real edits (A9). Then request indexing in Search Console and Bing, and re-run L-011 2-4 weeks later.
-
-**Add to the page:**
-- A primary-source link for each statistic, or remove it
-- A scope-gap-by-trade checklist
-- A table version of the $2M bid example, with Quotr.ai named in the lead sentence
-
-**Title:** Keep the hook, but lead with the buyer's question. Suggested: 'What Is a Scope Gap? How to Avoid Gaps Between Trades' (53 characters). Use 'Scope gaps cost more than pricing errors' as the first line of the short answer.  
-**Web address (URL):** Keep BP-92 (/scope-gap-construction/). It has no year and matches the query.
-
-**Related tasks:** A10, A9, A3, A1, A16
-
-**Why now:** The post may not be indexed yet, so fixing it before Google's first full crawl costs nothing in rankings. The vault already lists these fixes as Tier 0. The 404 link and the statistics can be fixed now. Hold the date change and the indexing request until Google's September 2026 spam update ends (about 2026-10-08; RANK-21, seen in search 2026-09-26).
-
-### BP-96 https://quotr.ai/blog/quotr-service-estimates/
-
-**Action: Update** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 70
-
-1. Send Q-17 to Quotr now. Ask what the $1.2B+ counts (total construction value of the projects estimated?), how many projects that covers, and over what date range.
-2. When Quotr answers, add a 'How we count this' paragraph under the headline with the count, the date range and what is included. Put 'as of [date]' on the figure. If Quotr cannot back it, change the headline to a number it can back (for example, estimates delivered since a stated month).
-3. Remove '4x faster' unless Quotr names the baseline. Tie '300+ projects a month' to a month and a count, or drop it.
+1. Send Q-17 to Quotr now. Ask what the $1.2B+ counts (the total construction value of the projects estimated?), how many projects it covers, and over what date range.
+2. When Quotr answers, add a 'How we count this' paragraph under the headline with the count, the date range and what is included. Put 'as of [date]' on the figure. If Quotr cannot back it, change the headline to a number it can back (for example, estimates delivered since a stated month), and change the blog index teaser to match.
+3. If the post says '4x faster', remove it unless Quotr names the baseline. Tie '300+ projects a month' to a month and a count, or drop it.
 4. Add the confirmed Service facts with the brand in the sentence: 'Quotr.ai's Estimation Service charges $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft at 50,000+.' Do not state a turnaround until Q-15 is answered.
-5. If the byline is 'quotr.ai', add a named author (A7). Link to /service/, /case-studies/, the MEP, HVAC and electrical service posts, and outsource-construction-estimating (the G02 keeper). Link R-52 when it goes live.
-6. Make the visible date, the schema dateModified and the sitemap lastmod match (A9). Then request indexing in Search Console.
+5. Replace a 'quotr.ai' byline with a named author (A7). Link to /service/, /case-studies/, mep-estimating-services, hvac-estimating-services, electrical-estimating-services and outsource-construction-estimating (the G02 keeper). Link R-52 when it goes live.
+6. Make the visible date, the schema dateModified and the sitemap lastmod match (A9). Then request indexing in Search Console (needs access, Q-49).
 
 **Add to the page:**
 - 'How we count this' method note with a date range
@@ -1830,68 +1813,94 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 
 **Related tasks:** A1, A7, A9, D7
 
-**Why now:** The post is two days old, so fixing the claim now costs little. Doing it now stops search engines and AI answers from picking up an unsupported '$1.2B+' about Quotr.
+**Why now:** The post is two days old, so fixing the claim now costs little. It lowers the chance that search engines and AI answers repeat an unsupported '$1.2B+' about Quotr.
 
 ### BP-29 https://quotr.ai/blog/the-proforma-that-never-stops-changing/
 
-**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 71
+**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 70
 
-1. Open the live page and record its title, byline, dates and any numbers. Nothing was seen on 2026-09-26.
-2. Add an answer-first H2 in L-138's words: 'How to build a development pro forma for a small multifamily project'. Show the blocks (land, hard costs, soft costs, financing, contingency, rents, exit) in a table, with a 12-unit example clearly labelled as illustrative.
-3. Keep the post's own angle as the second half: how to update hard costs when prices move. Cover takeoff-based estimates versus $/sq ft, when to refresh, and escalation allowances.
-4. Name Quotr Service in the key sentence, using only fact-sheet values: $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft above. Do not quote a pro forma turnaround until A1 settles the turnaround conflict.
-5. When construction-proforma-software is 301'd into real-estate-pro-forma-software-comparison (G08, A12), point L-138 to this post. Cross-link the two posts: the software question (E-022) goes to the comparison, and the how-to stays here.
+1. Open the live page. Record its title, byline, dates and any numbers. Check whether it quotes a Quotr turnaround or a retired price ('Solo', 'Team', '$499.90', 'from $299.90'), and fix any hit under A2 and A3.
+2. Add an answer-first H2 in L-138's words: 'How to build a development pro forma for a small multifamily project'. Show the building blocks in a table: land, hard costs, soft costs, financing, contingency, rents and exit. Add a 12-unit example, clearly labelled as illustrative.
+3. Keep the post's own angle as the second half: how to update hard costs when prices move. Cover takeoff-based estimates versus $/sq ft, when to refresh them, and escalation allowances.
+4. Name Quotr Service in the key sentence, using only fact-sheet rates: $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft above. /pricing/ says pro formas take 2-3 business days, but other pages say 24 or 72 hours. Quote no turnaround until A1 signs one off (Q-15).
+5. When construction-proforma-software is 301'd into real-estate-pro-forma-software-comparison (G08, A12), point the L-138 note here. Also update the glossary's 'Pro forma' row, which links to the merged post. Cross-link the two posts: the software question (E-022) goes to the comparison, and the how-to stays here.
 6. Use 'pro forma' in the title, H1 and headings to match the vault prompts. Keep the slug.
-7. Add links to the developer hub (R-22, due December 2026 under C6) and the pro forma template (R-54, due March 2027) when they go live. Add a named author (A7).
+7. Link to the developer hub (R-22, due December 2026 under C6) and the pro forma template (R-54, due March 2027) when they go live. Add a named author (A7). Run L-138 once after publishing and record it as a test run.
 
 **Add to the page:**
 - Answer-first H2 in L-138's words, with a pro forma line-item table
 - Illustrative small-multifamily example, clearly labelled
-- Quotr Service sentence with fact-sheet pricing
+- Quotr Service sentence with fact-sheet rates and no turnaround until Q-15 is answered
 - Cross-link to real-estate-pro-forma-software-comparison
 
-**Title:** The current title was not seen; the one on file comes from the slug. Keep the hook and add the question, for example: 'The Pro Forma That Never Stops Changing: How to Build and Update a Development Pro Forma for Small Multifamily'. Use the 'pro forma' spelling.  
+**Title:** The live title was not seen; the one on file comes from the slug. Keep the hook and add the question, for example: 'The Pro Forma That Never Stops Changing: How to Build and Update a Development Pro Forma for Small Multifamily'. Use the 'pro forma' spelling.  
 **Web address (URL):** Keep the URL. It has no year, and a redirect only to fix the spelling would cost more than it gains.
 
-**Related tasks:** A12, C6, A1, A7
+**Related tasks:** A12, A1, A2, A3, A7, C6
 
-**Why now:** The planned A12 merge (October 2026) takes away L-138's current answer page. L-138 is a High-priority prompt, so this post should be ready to take it over in the same cycle.
+**Why now:** The G08 merge under A12 takes away L-138's current answer page. L-138 is High priority, and R-54 is not due until March 2027. So this post should be ready in the same batch as the merge.
+
+### BP-31 https://quotr.ai/blog/tariff-aware-estimating-material-escalation-every-bid/
+
+**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 71
+
+1. Open the live page. Record its title, byline, dates and every tariff rate or percentage it cites. Search it for the retired prices ('Solo', 'Team', '$499.90', 'from $299.90') and fix any hit under A2. Note any 'based in San Francisco' footer for A3.
+2. Add an H2 in L-020's words: 'How do you protect a bid from material price increases?' Answer in the first two sentences. Then list the parts of an escalation clause: base date, named price index (a specific PPI series), trigger threshold, cap and required paperwork. Have a construction lawyer or a named Quotr estimator review it (Q-56), and add a 'not legal advice' line.
+3. Add an H2 in L-021's words: 'How long should a construction bid be valid when prices keep changing?' Add a short table of validity periods by how volatile the material is. Source each period, or label it as Quotr estimator practice once Quotr confirms it.
+4. Take over L-123. Add an H2: 'How are contractors handling material price escalation in 2026?' Answer with AGC's January 2026 survey (40% raised bids, 32% bought early), with its date and link. Re-check it at agc.org, because the vault saw it only through Perplexity. Then point the L-123 note here, take L-123 off R-12, and ask the construction-cost-trends-2026 rewrite to link here.
+5. Add one worked example: a bid built in Quotr Software that compares supplier prices side by side (a feature the fact sheet confirms) and includes a dated escalation-allowance line. Do not claim quote-expiry tracking or any feature the Entity fact sheet does not list.
+6. Add an FAQ in the exact words of L-020, L-021 and L-123. Link to the tariff-impact post (what tariffs do to costs) and to construction-cost-trends-2026 (why costs rose). Add a named author (A7), matching dates (A9) and the A16 check. Run L-020, L-021 and L-123 once in Perplexity and record them as test runs.
+
+**Add to the page:**
+- H2 for L-020 on protecting a bid, listing the parts of an escalation clause
+- H2 for L-021 with a bid-validity table
+- H2 for L-123 on how contractors are handling escalation in 2026
+- Dated AGC survey figures with links
+- One worked bid example in Quotr Software, using confirmed features only
+- FAQ in the exact words of L-020, L-021 and L-123
+
+**Title:** The live title was not seen; the one on file comes from the slug. Use the buyer's words, for example: 'Escalation Clauses and Bid Validity: How to Protect Construction Bids From Material Price Increases'. Put the year in the text and the 'Last updated' date, not in the title.  
+**Web address (URL):** Keep the URL. It has no year and already contains 'material-escalation'. A change would cost whatever rankings it has.
+
+**Related tasks:** A2, A3, A7, A9, A16
+
+**Why now:** L-020 is a High-priority prompt with no test yet, and this post should also take L-123 (from vault prompt library). Ship it with the November R-12 rebuild so the two tariff posts have clear, separate jobs. The vault plan says KEEP with no action, but that plan was never checked against the page. No wrong facts are known, so it is not urgent.
 
 ### BP-84 https://quotr.ai/blog/construction-estimating-services-california/
 
 **Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 72
 
-1. Read the page and compare it with construction-estimating-services and outsource-construction-estimating. If most paragraphs match apart from the state name, rewrite the body rather than patching it (effort L).
-2. Add an LA fire-rebuild estimating section built on the 'Fast Cost Estimation (Residential LA Fire Rebuilding)' sample. Link the R-21 rebuild cost guide when it ships (C4).
-3. Add a short 'what makes California estimates different' section. Candidate topics are Title 24 energy compliance, CALGreen, and the labor-rate gap between the Bay Area, LA and the Central Valley. Each claim needs a primary-source link.
-4. Answer E-075 honestly with a 'how to choose a California estimating service' checklist. If you list firms, rank them by 'best for' with dated facts, and do not put Quotr first.
-5. Add the price sentence with the brand in it and the approved turnaround. Do not state a headquarters city until Q-01 is answered.
-6. Link to the Saratoga project case study (R-16) and R-55 (California build costs) when they go live. Do not create more city pages.
+1. Read the page and compare it with outsource-construction-estimating and construction-estimating-services, before the latter is redirected. If most paragraphs match apart from the state name, rewrite the body (effort L). If Quotr cannot supply California-specific material, merge this page into outsource-construction-estimating instead, as the G02 fallback says.
+2. Add an LA fire-rebuild estimating section built on the 'Fast Cost Estimation (Residential LA Fire Rebuilding)' sample, with a link to the FireTips app. Link the R-21 rebuild cost guide when it ships in December (C4).
+3. Add a short 'what makes California estimates different' section. Candidate topics are the Title 24 energy code, CALGreen, and the labor-rate gap between the Bay Area, LA and the Central Valley. These topics are inferred, not in the vault, so every claim needs a primary-source link.
+4. Answer E-075 with a 'how to choose a California estimating service' checklist. If you list firms, label each 'best for' with dated facts, and do not put Quotr first.
+5. Add the price sentence with the brand in it and the approved turnaround (A1). Do not state a headquarters city until Q-01 is answered. Use the Bay Area procurement project cards only after A3 fixes the savings figures and the '~$0' bug.
+6. Link R-16 (Saratoga case study, November) and R-55 (California build costs, March 2027) when they go live. Test E-075 as an extra prompt alongside the A15 October baseline. Do not create more city pages.
 
 **Add to the page:**
-- LA fire-rebuild estimating section with the sample deliverable
-- California code and labor-rate section with sources
+- LA fire-rebuild estimating section with the sample deliverable and the FireTips app
+- California code and labor-rate section with primary sources
 - 'How to choose' checklist instead of a self-ranked list
 - Links to R-21, R-16 and R-55 when live
 
 **Title:** The title has not been seen. Make it clearly Californian rather than a template swap, for example 'Construction Estimating Services in California: Costs, Code Factors and LA Rebuild Estimates'. Do not add a year.  
-**Web address (URL):** Keep BP-84 (/construction-estimating-services-california/). It has no year, and the map keeps it separate (G02).
+**Web address (URL):** Keep BP-84 (/construction-estimating-services-california/). It has no year, and the map keeps it separate (G02) as long as it gets real California content. If it is merged instead, 301 it to BP-82 (/outsource-construction-estimating/).
 
 **Related tasks:** A1, A3, A7, A15, C4
 
-**Why now:** There is no evidence that it hurts today, and its High-priority prompt is untested. Do it after the P0/P1 pages, but before anyone adds more city pages.
+**Why now:** There is no evidence that it hurts today, and its High-priority prompt is untested. Do it after the cited service pages, but before anyone adds more city pages.
 
 ### BP-86 https://quotr.ai/blog/preconstruction-services/
 
 **Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 73
 
-1. Absorb precon-on-demand (G03). If Quotr still sells 'Precon on Demand', bring over its definition with the A1 turnaround, not '1-3 days'. Then set up the 301 redirect (A12).
-2. Add a 40-80 word answer to E-079 at the top: who does outsourced precon estimating for GCs, and what Quotr.ai delivers. Include the price sentence with the brand ($0.25 / $0.10 per sq ft) and the approved turnaround.
-3. Add a GC-specific section: bid-day budget estimates, trade-by-trade takeoffs, a scope-gap check, and how the results feed sub-bid leveling. Bid-leveling features are TO CONFIRM (see the R-60 note), so do not publish them before Quotr confirms.
-4. Keep the 'precon estimator vs on-demand capacity' comparison to one short table. Link to outsourcing-vs-hiring-an-estimator for the full cost maths, so that three posts are not answering the same hire-or-outsource question.
+1. Absorb precon-on-demand-outsource-bid-cost-estimation (G03, A12). Bring over its 'Precon on Demand' definition only if Quotr confirms the offer, and use the A1 turnaround, not '1-3 days'. The 301 redirect then lands here.
+2. Add a 40-80 word answer to E-079 at the top: who it is for, and what Quotr.ai delivers for GCs. Include the price sentence with the brand in it ($0.25 / $0.10 per sq ft) and the approved turnaround.
+3. Add a GC-specific section: bid-day budget estimates, trade-by-trade takeoffs, a scope-gap check, and how the results feed sub-bid leveling. GC-side bid leveling is TO CONFIRM (Products and features; R-60), so describe the estimate, not a leveling feature, until Quotr confirms it.
+4. Keep the 'precon estimator vs on-demand capacity' comparison to one short table. After the G02 read decides which page owns L-018 and L-019, link to that page for the full cost maths instead of repeating it.
 5. Add proof: one commercial sample deliverable from /service/ now, and a GC case study with numbers once B4 or D7 delivers one.
-6. Add links to commercial-estimating-services, scope-gap-construction, how-to-bid-commercial-construction-projects-subcontractor-estimating-takeoff-guide and /service/.
-7. Suggest to the consultant that R-60 becomes a software persona hub that links here, rather than another answer to E-079. Test E-079 in the October baseline.
+6. Add links to commercial-estimating-services, scope-gap-construction, how-to-bid-commercial-construction-projects-subcontractor-estimating-takeoff-guide, /dictionary/bid-leveling/, /dictionary/scope-gap/ and /service/.
+7. Ask the consultant to make R-60 a software persona hub that links here, not another answer to E-079. Test E-079 as an extra prompt alongside the A15 October baseline, since it is not in the 53-prompt set.
 
 **Add to the page:**
 - 40-80 word answer for E-079 with the brand next to the price
@@ -1899,96 +1908,97 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 - 'Precon on Demand' H2 carried over from the merged post, if the offer still exists
 - Commercial sample deliverable as proof
 
-**Title:** Keep 'Preconstruction Services for General Contractors: Precon Capacity Without the Headcount (2026)' (seen 2026-09-25, not re-checked). At the January 2027 review, either drop '(2026)' or change the year only if the content really changes.  
-**Web address (URL):** Keep BP-86 (/preconstruction-services/). It has no year, it is in the index, and it becomes the redirect target for precon-on-demand.
+**Title:** Keep 'Preconstruction Services for General Contractors: Precon Capacity Without the Headcount (2026)' (seen 2026-09-25, not re-checked). At the January 2027 review, drop '(2026)', or change the year only if the content really changes.  
+**Web address (URL):** Keep BP-86 (/preconstruction-services/). It has no year, it is in the search tool's index, and it becomes the redirect target for precon-on-demand.
 
 **Related tasks:** A12, A1, A3, A7, A15, D5
 
-**Why now:** It receives the October merge of Precon on Demand, so update it in the same pass. Its prompt is High priority but untested, so there is no AI citation to protect yet.
+**Why now:** It receives the October merge of Precon on Demand, so update it in the same pass. Its prompt is High priority but untested and not tracked, so there is no AI citation to protect yet.
 
-### BP-94 https://quotr.ai/blog/hvac-estimating-services/
+### BP-91 https://quotr.ai/blog/electrical-estimating-services/
 
 **Action: Update** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 74
 
-1. Read the live page. Record its title, byline, any turnaround and any prices in the vault profile, because none of these were ever captured.
-2. Swap any turnaround wording for the single value approved in A1 (answer to Q-15). The fact sheet recommends '3-4 business days for cost estimates'. The 24-hour rush claim is TO CONFIRM, so do not publish it yet.
-3. Add one sentence that names the brand next to the price: 'Quotr.ai's Estimation Service charges $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft above (Quotr pricing page, September 2026).'
-4. Add an HVAC-only section that the MEP post lacks. Cover what an HVAC takeoff counts and measures: duct runs and fittings by size, equipment schedule, diffusers and grilles, tonnage. Illustrate it with an excerpt from the 'HVAC Cost Estimation (Commercial)' sample deliverable.
-5. Cross-link in both directions. Link this page to mep-estimating-services, how-to-estimate-hvac-sheet-metal-mechanical-plan, hvac-estimating-software-2026-buyers-guide and /software/trades/hvac/. Add a link from the MEP post back to this page.
-6. Run E-077 in at least two engines during the October baseline. After 8-12 weeks, check in Search Console whether the HVAC and MEP pages rank for the same queries. If they do, make their intents more distinct. Do not merge them, because map G18 keeps them separate.
+1. Replace 'Scope quote in 1 day, takeoffs in 1-2' in the post and its blog-index teaser with the turnaround approved in A1 (Q-15). If the 1-day step is the price quote (the fact sheet says 'Pricing is sent before we process your documents'), call it that and give the takeoff time from the fact sheet.
+2. Remove 'every Quotr Service engagement includes the software' until Quotr confirms it. No open question covers this, so add one. Once it is confirmed, add it to the Entity fact sheet with its source.
+3. Ask Quotr whether the $0.25 / $0.10 per sq ft rate applies to an electrical-only job; add this to Q-16. Then add a price sentence that names Quotr.ai, and one worked example for a typical electrical job.
+4. Add a table of what the electrical takeoff covers: devices by type, home runs and branch circuits, panel schedules, fixtures, and low voltage if Quotr includes it. Split it into residential (tract and custom homes) and commercial.
+5. Add a short 'Do I need a local estimator?' section. Say the service works from uploaded plan documents. Name the regions served only after Quotr confirms them; no open question covers this yet.
+6. Link now to /case-studies/rl-electric/ (R-15 adds numbers in November under B4), /dictionary/panel-schedule/, /software/trades/electrical/, how-to-estimate-electrical-work-from-drawings-conduit-devices-labor and mep-estimating-services. Link best-electrical-estimating-software-2026 only after A2 removes its retired pricing. Link R-23 when it ships in December.
+7. After the re-crawl, test E-078 and one non-local version ('outsourced electrical takeoff service cost'). Record both as new test runs.
+
+**Add to the page:**
+- The approved turnaround in one sentence
+- Price sentence with the brand in it, once Quotr confirms it applies to electrical-only jobs
+- Residential vs commercial electrical scope table
+- Short 'Do I need a local estimator?' section, once the service area is confirmed
+- Links to the RL Electric case study and the deep electrical page (R-23)
+
+**Title:** The title has not been seen. Make sure it contains 'takeoff' as well as 'estimating', to match E-078, for example 'Electrical Estimating and Takeoff Services: What You Get, Price and Turnaround'. Do not add a year.  
+**Web address (URL):** Keep BP-91 (/electrical-estimating-services/). It has no year and is in the search tool's index.
+
+**Related tasks:** A1, A3, A7, A15, B4, C6
+
+**Why now:** The vault rates this fact fix P0, and it takes a few lines, so do it in the October A3 sweep. Under the rubric it is medium, not high: no AI test has caught an engine repeating the figure, and E-078 is not tracked. Turnaround is a High-priority branded question (D-046), so each clashing figure is likely to muddy that answer (inferred).
+
+### BP-94 https://quotr.ai/blog/hvac-estimating-services/
+
+**Action: Update** · **Priority:** medium · **Effort:** S · **Order in the refresh queue:** 75
+
+1. Read the live page. Record its title, byline, turnaround and any prices in the vault, because none of them were ever captured. Note whether the title carries '(2026)'.
+2. Replace any turnaround wording with the value approved in A1 (Q-15). The fact sheet recommends 'Cost estimates in 3-4 business days; pro formas in 2-3 business days'. The 24-hour rush option is TO CONFIRM, so do not publish it yet.
+3. Ask Quotr whether the $0.25 / $0.10 per sq ft rate applies to an HVAC-only estimate. Add this to Q-16 (Scope). If it does, add: 'Quotr.ai's Estimation Service charges $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft above (Quotr pricing page, September 2026).' If it does not, publish the HVAC rule Quotr gives.
+4. Add an HVAC-only section that the MEP post should not repeat. Say what an HVAC takeoff counts and measures: duct runs and fittings by size, the equipment schedule, diffusers and grilles, and tonnage. Illustrate it with an excerpt from the 'HVAC Cost Estimation (Commercial)' sample.
+5. Add links from this page to mep-estimating-services, how-to-estimate-hvac-sheet-metal-mechanical-plan, hvac-estimating-software-2026-buyers-guide and /software/trades/hvac/. Add a link from the MEP post back to this page. Link R-43 (deep HVAC page, Feb 2027) when it goes live.
+6. Test E-077 in at least two engines as an extra prompt alongside the A15 October baseline, since it is not in the 53-prompt set, and record each run. After 8-12 weeks, compare the HVAC and MEP queries in Search Console. If they share most queries, make their intents more distinct first. Merge into MEP only if the overlap remains, as the vault rule says.
 
 **Add to the page:**
 - HVAC scope table: what is counted and measured
 - Excerpt from the 'HVAC Cost Estimation (Commercial)' sample deliverable
-- Price sentence with the brand in it ($0.25 / $0.10 per sq ft)
+- Price sentence with the brand in it, once Quotr confirms the rate applies to HVAC-only jobs
 - Short FAQ (turnaround, file types, residential vs commercial HVAC) answered from the approved fact sheet
 
 **Title:** The title has never been seen; only the slug is known. If the live title is just 'HVAC Estimating Services', change it to answer E-077, for example 'HVAC Estimating Services for Contractors: What You Get, Cost and Turnaround'. Do not add a year.  
-**Web address (URL):** Keep BP-94 (/hvac-estimating-services/). It has no year and is not a merge candidate.
+**Web address (URL):** Keep BP-94 (/hvac-estimating-services/). It has no year. It is a merge candidate only if Search Console later shows overlap with MEP.
 
 **Related tasks:** A1, A3, A7, A15
 
-**Why now:** The risk today is low, but the post is new and untested. A quick fact check now stops yet another turnaround figure spreading. Schedule it after the P0/P1 service pages.
-
-### BP-31 https://quotr.ai/blog/tariff-aware-estimating-material-escalation-every-bid/
-
-**Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 75
-
-1. Open the live page and record its title, byline, dates and any tariff rates or percentages it cites. None of this was seen on 2026-09-26.
-2. Add an H2 in the buyer's words: 'How do you protect a bid from material price increases?' Answer in the first two sentences. Then explain the parts of an escalation clause: base date, named price index (for example a specific PPI series), trigger threshold, cap and required paperwork. Have a construction contracts lawyer review it, and add a 'not legal advice' line.
-3. Add an H2 for L-021: 'How long should a construction bid be valid when prices keep changing?' Include a short table of validity periods by material volatility. Source it, or label it as Quotr estimator practice once Quotr confirms it.
-4. Cite AGC's January 2026 survey (40% raised bids because of tariffs, 32% bought early) with its date and link. Re-check it at agc.org first, because the vault saw it only through Perplexity.
-5. Add one Quotr worked example: a line-item bid that shows supplier quote-expiry dates and an escalation allowance, built in Quotr Software. Only claim features the Entity fact sheet confirms.
-6. Add an FAQ using the exact wording of L-020, L-021 and L-123. Link to the tariff-impact post (what tariffs do to costs) and to construction-cost-trends-2026. Add a named author (A7) and matching dates (A9). Then run L-020 and L-021 in Perplexity to get a first baseline.
-
-**Add to the page:**
-- H2: How do you protect a bid from material price increases? (escalation clause parts)
-- H2: How long should a construction bid be valid? (validity table)
-- Dated AGC survey figures with links
-- One Quotr worked bid example
-- FAQ using L-020, L-021 and L-123 wording
-
-**Title:** The current title was not seen; the one on file comes from the slug. Use the buyer's words, for example: 'Material Price Escalation Clauses and Bid Validity: How to Protect Construction Bids From Tariffs and Price Swings'.  
-**Web address (URL):** Keep the URL. It has no year, it already contains 'material-escalation', and changing it would cost whatever rankings it has.
-
-**Related tasks:** A7, A9, A16
-
-**Why now:** L-020 is a High-priority library prompt with no Quotr test yet (from vault prompt library). The fix is small and should ship alongside the November R-12 tariff rebuild, so the two tariff posts have clear, separate jobs. It is not urgent: no wrong facts are known.
+**Why now:** There is no known harm today, and its Med-priority prompt is untested. The fact check is cheap and stops yet another turnaround figure from spreading. Do it in the A3 sweep, after the pages AI already cites.
 
 ### BP-64 https://quotr.ai/blog/trade-estimating-software/
 
 **Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 76
 
-1. Open the live page. Search it for 'Solo', 'Team (2', '$499.90' and 'from $299.90'. Fix any hit to Quotr.ai Lite $79.90 / Plus $299.90 per seat per month / Enterprise custom (part of the A2 sweep).
-2. Add a 'Pick by trade' table. Give one row per trade (electrical, HVAC, plumbing, drywall, concrete, rebar, structural steel, flooring, glazing), say what that trade needs from software, and link the matching Quotr guide. For electrical, link the keeper best-electrical-estimating-software-2026, not the buyer's guide that is being merged into it (G11).
-3. Add a section for small contractors that answers E-018. Cover price per seat, learning curve, browser and Mac use, and whether a cost database is included. State Quotr.ai Lite at $79.90 per seat per month, with a checked date.
-4. Keep this post distinct from best-ai-construction-estimating-software-2026. This page is about fit by trade and firm size, not an AI ranking. Link across once.
-5. Agree with the consultant which page owns E-018: this post (a neutral hub) or the /contractors/ rebuild (R-34, the product page). Update the quotr_url in the E-018 prompt note if it changes.
-6. If the byline is 'By quotr.ai', use a named author (A7). Add a disclosure line if Quotr appears in any ranking.
+1. Open the live page. Search it for 'Solo', 'Team (2', '$499.90' and 'from $299.90' (Q-59). Fix any hit to Quotr.ai Lite $79.90 / Plus $299.90 per seat per month / Enterprise custom, as part of the A2 sweep.
+2. Add a 'Pick by trade' table with one row per trade (electrical, HVAC, plumbing, drywall, concrete, rebar, structural steel, flooring, glazing). Say what that trade needs from software and link the matching Quotr guide. For electrical, link the keeper best-electrical-estimating-software-2026, not the buyer's guide being merged into it (G11).
+3. Add a section for small contractors that answers E-018. Cover price per seat (Quotr.ai Lite $79.90, Plus $299.90, with a checked date), learning curve, browser and Mac use, and whether a cost database is included (Lite: your own custom database; Plus: the full Quotr database).
+4. Keep this post distinct from best-ai-construction-estimating-software-2026 (G10). This page is about fit by trade and firm size, not an AI ranking. Link across once.
+5. Agree with the consultant which page owns E-018: this post (a neutral guide) or the /contractors/ rebuild (R-34, the product page). Update quotr_url in the E-018 note if it changes. When R-46 launches, link to it: this post explains how to choose, and R-46 shows Quotr's trade workflows, so they should not repeat each other.
+6. Replace a 'By quotr.ai' byline with a named author (A7). Add a disclosure line if Quotr appears in any ranking.
 
 **Add to the page:**
 - 'Pick by trade' table linking the ten trade software guides
 - Small-contractor buying section with Quotr.ai Lite pricing
 - Publisher disclosure if Quotr is ranked
 
-**Title:** Nobody has seen the live title. Use a year-free title that matches E-018, for example 'Estimating software for trade and small contractors: how to choose, by trade'.  
+**Title:** Nobody has seen the live title. Use a year-free title that matches E-018, for example 'Estimating software for trade and small contractors: how to choose, by trade'. Hold the retitle until Google's September 2026 spam update ends (about 2026-10-08).  
 **Web address (URL):** Keep the URL. It has no year and suits a hub page.
 
-**Related tasks:** A2, A7
+**Related tasks:** A2, A7, D5
 
-**Why now:** The urgency is low: there are no known wrong facts and no tracked prompt. Do it after the A2 sweep and before the R-34 /contractors/ rebuild (January 2027), so the two pages do not compete for E-018.
+**Why now:** Low urgency: there are no known wrong facts and E-018 is not tracked. Do it after the A2 sweep and before the R-34 /contractors/ rebuild (January 2027), so the two pages do not compete for E-018.
 
 ### BP-95 https://quotr.ai/blog/mep-estimating-services/
 
 **Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 77
 
 1. Open the live page and list every turnaround and price statement. Until Q-15 is answered, remove specific turnaround promises or use the single wording approved in A1.
-2. Put the answer to E-076 in the first 60 words, with the brand in the sentence: 'Quotr.ai's Estimation Service charges $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft at 50,000+, and sends the price before work starts.' First confirm with Quotr that MEP-only scopes use the same rate (Q-16).
+2. Put the answer to E-076 in the first 60 words, with the brand in the sentence: 'Quotr.ai's Estimation Service charges $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft at 50,000+, and sends the price before work starts.' First ask Quotr to confirm that MEP-only scopes use the same rate (add it to Q-16).
 3. Add a worked cost example below the 50,000 sq ft break (for example, 20,000 sq ft at $0.25 = $5,000). Ask Quotr whether the $0.10 rate applies to the whole project or only to the area above 50,000 sq ft before giving an example above the break.
 4. Add a table of what an MEP estimate includes by system (HVAC, plumbing, electrical, fire protection). Link the 'HVAC Cost Estimation (Commercial)' sample deliverable.
-5. Make this post the MEP hub. Add short HVAC and electrical sections that link to hvac-estimating-services and electrical-estimating-services, which stay separate (G18). Do not fold them in under A12's wider services merge.
-6. Add a named estimator as author or reviewer (A7). Link to /service/, quotr-service-estimates (after its fix) and the HVAC, plumbing and electrical how-to posts.
-7. Add E-076 to the next monthly AI test (B3) to get a baseline.
+5. Make this post the combined-scope MEP page. Add one or two lines per trade that link to hvac-estimating-services and electrical-estimating-services for trade detail, without repeating their content (G18). Plumbing and fire protection have no service post, so cover them here. Do not fold HVAC or electrical in under A12's wider services merge.
+6. Replace a 'By quotr.ai' byline with a named estimator as author or reviewer (A7, Q-56). Link to /service/, quotr-service-estimates (after its fix) and the HVAC, plumbing and electrical how-to posts.
+7. Run E-076 once in two engines to get a baseline, and add it to the next monthly test if there is room (B3).
 
 **Add to the page:**
 - Answer-first cost paragraph with Quotr.ai Service rates
@@ -2001,65 +2011,66 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 
 **Related tasks:** A1, A3, A7, A12, B3
 
-**Why now:** E-076 is a High-priority buying prompt with no baseline yet, and the vault marks the turnaround check P0. The page is new, so fixing it now is cheap.
+**Why now:** E-076 is a High-priority buying prompt with no baseline yet, and the vault marks the turnaround check P0. The page is eight days old, so fixing it now is cheap.
 
 ### BP-21 https://quotr.ai/blog/how-to-estimate-electrical-work-from-drawings-conduit-devices-labor/
 
 **Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 78
 
-1. Add an H2 'Residential electrical pricing: per opening vs per square foot' to answer L-092. Define an 'opening' and say when each method is used. Give sourced ranges with an 'as of' month, and price one sample house both ways in a small table.
+1. Add an H2 'Residential electrical pricing: per opening vs per square foot' to answer L-092. Define an 'opening' and say when each method is used. Give ranges from linked primary sources with an 'as of' month, and price one sample house both ways in a small table. Do not reuse the unverified $65-per-opening or $4-$9 per sq ft figures from Buyer questions by trade.
 2. Write Quotr.ai into the takeoff step: 'Quotr.ai's AI takeoff counts device symbols and measures conduit runs across the plan set; check the counts against the panel schedule.'
-3. If the post quotes labor units, name their source and edition (for example NECA's Manual of Labor Units), or label them as Quotr's own estimator data with a short method note.
-4. Once B4 and R-15 get RL Electric's permission (Q-29), add one line of proof linked to the rebuilt case study: 'RL Electric cut takeoff time from about 20 hours to 1-2 hours with Quotr.ai'. Until then, do not quote the number.
-5. Read both electrical posts side by side. Keep this one as the method (counts, conduit, labor) and let commercial-electrical-takeoff-drawings-to-proposal own the proposal workflow. Cut any repeated takeoff section and cross-link both ways.
-6. Link to /software/trades/electrical/, the panel-schedule dictionary term, electrical-estimating-services and the RL Electric case study. Link to best-electrical-estimating-software-2026 only after A2 has removed its retired $299.90/$499.90 pricing.
-7. Add a named author (A7). Embed the V-01 electrical episode once it is live (November 2026). Record first test runs for L-091 and L-092.
+3. If the post quotes labor units, name their source and edition (for example NECA's Manual of Labor Units). Or label them as Quotr's own estimator data, with a short method note.
+4. Until B4/R-15 (November 2026) and Q-29 are done, quote the RL Electric line only as the customer's words from the homepage testimonial, with a link. Once approved, add one line linked to the rebuilt case study: 'RL Electric cut takeoff time from about 20 hours to 1-2 hours with Quotr.ai'.
+5. Read both electrical posts side by side. Keep this one as the method (counts, conduit, labor), and let commercial-electrical-takeoff-drawings-to-proposal own the proposal workflow. Cut any repeated takeoff section, and cross-link both ways.
+6. Make this post the owner of L-091 and L-092. Take L-092 off R-23's target list, and brief R-23 to link here for per-opening pricing. Link to /software/trades/electrical/, /dictionary/panel-schedule/, electrical-estimating-services and the RL Electric case study. Link to best-electrical-estimating-software-2026 only after A2 has removed its retired $299.90/$499.90 pricing.
+7. Add a named author (A7). Embed the V-01 electrical episode once it is live (November 2026, B6). Record first test runs for L-091 and L-092 (A15) before the edit, and again 2-4 weeks after.
 
-**Title:** Keep it. The title already covers 'from drawings', conduit, devices and labor, which matches L-091. After the pricing section is added, a subtitle such as '... with residential per-opening pricing' is optional. Do not add a year.  
+**Title:** Keep it. The title already covers 'from drawings', conduit, devices and labor, which matches L-091. A subtitle such as '... with residential per-opening pricing' is optional after the new section is live. Do not add a year.  
 **Web address (URL):** Keep the URL.
 
-**Related tasks:** A2, A7, B4, B6
+**Related tasks:** A2, A7, A15, B4, B6
 
-**Why now:** Electrical is Quotr's deepest trade, and the RL Electric proof is being rebuilt in November 2026 (R-15). Updating this post right after lets the proof and the how-to support each other before the R-23 electrical page in December.
+**Why now:** Electrical is Quotr's deepest trade, and the RL Electric proof is rebuilt in November 2026 (R-15). Updating this post right after lets the proof and the how-to support each other. It also settles who owns L-092 before R-23 is written for December.
 
 ### BP-42 https://quotr.ai/blog/how-to-estimate-hvac-sheet-metal-mechanical-plan/
 
 **Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 79
 
-1. Put 'ductwork' in the H1 and the first answer sentence, for example 'How to estimate HVAC ductwork and sheet metal from a mechanical plan'. Keep 'sheet metal' as the second term.
-2. Add a residential section for L-103: Manual J load, tonnage, equipment, duct system and labor. Give price-per-ton ranges from linked sources with an 'as of' month, and cite ACCA Manual J, S and D as the method references.
-3. Add a worked commercial example table: duct length by size, fittings count, sheet-metal weight by gauge, labor hours and a priced total. If Quotr allows, base it on the 'HVAC Cost Estimation (Commercial)' sample deliverable from the /service/ sample library.
+1. Read the live page first. If its title and H1 lack 'ductwork', change them to something like 'How to estimate HVAC ductwork and sheet metal from a mechanical plan', and keep 'sheet metal' as the second term. Make the retitle after the spam update ends (about 2026-10-08).
+2. Add a residential section for L-103: Manual J load, tonnage, equipment, duct system and labor. Give price-per-ton ranges from linked sources with an 'as of' month. Cite ACCA Manual J, S and D as the method references.
+3. Add a worked commercial example table: duct length by size, fittings count, sheet-metal weight by gauge, labor hours and a priced total. If Quotr allows, base it on the 'HVAC Cost Estimation (Commercial)' sample from /service/.
 4. Attach the brand to the takeoff step: 'Quotr.ai's AI takeoff counts diffusers and grilles and measures duct runs on the mechanical sheets' (Buyer questions by trade: AI counts and lengths on mechanical sheets).
-5. Link to /software/trades/hvac/, hvac-estimating-services, mep-estimating-services and hvac-estimating-software-2026-buyers-guide. Brief the R-43 writer (February 2027) to link here for the how-to rather than repeat it.
-6. Add a named author with an HVAC estimator as reviewer (A7). Embed the V-02 HVAC episode once it exists (December 2026).
-7. Record first test runs for L-102 and L-103 in Perplexity plus one more engine, once before the edit and again 2-4 weeks after, for a clean before/after.
+5. Set one owner per prompt: this post owns L-102 and L-103, and R-43 keeps E-030 and L-104 and links here for the method. Update R-43's target list. Link to /software/trades/hvac/, hvac-estimating-services, mep-estimating-services and hvac-estimating-software-2026-buyers-guide.
+6. Add a named author, plus an HVAC estimator as reviewer if Q-56 confirms one (A7). Embed the V-02 HVAC episode once it is live (December 2026, C8).
+7. Record first test runs for L-102 and L-103 in Perplexity plus one more engine, as part of A15, before the edit. Run them again 2-4 weeks after. If Search Console access exists, check the URL in URL Inspection; the GSC audit playbook lists posts published 2026-06-11 to 07-03 (GSC-17 report freeze) for this check.
 
-**Title:** Revise lightly: add 'ductwork', the buyer's word, for example 'How to estimate HVAC ductwork and sheet metal from a mechanical plan'. Do not add a year.  
+**Title:** Revise lightly, and only if the live title lacks 'ductwork'. Add the buyer's word, for example 'How to estimate HVAC ductwork and sheet metal from a mechanical plan'. Do not add a year. Retitle after the spam update ends.  
 **Web address (URL):** Keep the URL. 'sheet-metal' in the slug is fine; fix the wording in the title and headings instead.
 
 **Related tasks:** A7, A15, C8, D5
 
-**Why now:** L-102 is a High-priority prompt with no test yet, so testing first and then making a targeted edit gives a clean before/after. It is not urgent: no wrong facts are known and the prompt is not in the tracking set.
+**Why now:** L-102 is a High-priority prompt with no test yet, so test first and then make a targeted edit for a clean before/after. The owner decision with R-43 should be made now, before R-43 is briefed. It is not urgent: no wrong facts are known, and the prompt is not in the tracking set.
 
 ### BP-28 https://quotr.ai/blog/how-to-bid-commercial-construction-projects-subcontractor-estimating-takeoff-guide/
 
 **Action: Update** · **Priority:** medium · **Effort:** M · **Order in the refresh queue:** 80
 
 1. Pull GSC data (queries, clicks, impressions, backlinks) for this URL and for how-subcontractors-bid-gcs-without-giving-away-margin. Confirm that the margin post's queries already land here.
-2. Merge the margin post in as an H2, 'How to protect your margin when bidding to GCs': markup vs margin maths, using exclusions and clarifications to protect margin, unit prices and alternates, and when to walk away. 301 the margin post here after the September 2026 spam update has finished. Ask the vault owner to point L-012 at this URL.
-3. Put a Quick answer (40-80 words) under the H1 with the 8-9 steps. Add a downloadable sub-bid proposal checklist (inclusions, exclusions, alternates, addenda acknowledged, unit prices, allowances, validity date). The audit lists bid-proposal templates as a missing format.
-4. Give any markup or overhead range a named source, or remove it. Do not reuse the '10 and 10' or '15% to 35%' figures from the search summary unsourced.
-5. Add one brand-attributed sentence on how Quotr.ai goes from takeoff to priced estimate to exported proposal (fact sheet). Link ai-construction-proposals-takeoff-to-proposal, how-to-price-construction-job (kept separate), how-to-do-construction-takeoff-pdf-blueprint and /pricing/.
-6. Add a named author with estimating or subcontracting experience (A7), visible Published and Last updated dates, and a matching lastmod (A9). Request re-crawl and test L-013 and L-012 2-4 weeks later.
+2. Merge the margin post in as an H2, 'How to protect your margin when bidding to GCs': markup vs margin maths, exclusions and clarifications, unit prices and alternates, and when to walk away. Drop the '6-habit playbook' framing unless it credits Billd's 2026 report. Once the September 2026 spam update has finished, 301 the margin post here and ask the vault owner to point L-012 at this URL.
+3. Put a Quick answer (40-80 words) with the 8-9 steps under the H1. Add a downloadable sub-bid proposal checklist covering inclusions, exclusions, alternates, addenda acknowledged, unit prices, allowances and validity date. The audit lists bid templates as a missing format.
+4. Give any markup or overhead range a named source, or remove it. Do not reuse the '10 and 10' or '15% to 35%' figures from the search summary without a source.
+5. Add one brand-attributed sentence from Products and features: in Quotr.ai, an estimate becomes a proposal PDF with your scope, exclusions and pricing. Link ai-construction-proposals-takeoff-to-proposal, how-to-price-construction-job (kept separate), how-to-do-construction-takeoff-pdf-blueprint, /dictionary/unit-price/, /dictionary/markup-vs-margin/, /dictionary/bid-leveling/ and /pricing/.
+6. Add a named author with estimating or subcontracting experience (A7). If Quotr confirms the margin post's byline (Junzhe Shi and Xian Li, Cost Estimator), carry both over. Add visible Published and Last updated dates and a matching lastmod (A9), and run the A16 fact-check. Request a re-crawl, then test L-013 and L-012 2-4 weeks later.
 
 **Add to the page:**
-- Margin-protection H2 (from the merged margin post)
+- Margin-protection H2 (from the merged margin post, without the uncredited Billd framing)
 - Quick answer with the bid steps
 - Downloadable sub-bid proposal checklist
 - Shorter title
+- Links to the unit-price, markup-vs-margin and bid-leveling dictionary terms
 
-**Title:** Shorten to the L-013 wording: 'How to Bid Commercial Construction Projects as a Subcontractor' (about 62 characters). 'Step-by-step' can move to the H1 or intro. No year.  
-**Web address (URL):** Keep the URL despite the 82-character slug. It is indexed and about to receive a 301 from the margin post, so a new slug would create a redirect chain for little gain.
+**Title:** Shorten it to the L-013 wording: 'How to Bid Commercial Construction Projects as a Subcontractor' (62 characters). 'Step-by-step' can move to the H1 or intro. No year.  
+**Web address (URL):** Keep the URL despite its 82-character slug. It is indexed and about to receive a 301 from the margin post, so a new slug would create a redirect chain for little gain.
 
 **Related tasks:** A7, A9, A12, A16
 
@@ -2069,171 +2080,216 @@ Plain-text copy generated on 2026-09-26 from the notes in `geo-brain/02-current-
 
 **Action: Update** · **Priority:** low · **Effort:** S · **Order in the refresh queue:** 81
 
-1. Read the live page first. If it does not open with a direct answer, add a 40-80 word answer for commercial drywall and metal-stud takeoff: wall length by partition type times height, board area by layer, studs at the drawn spacing, track length, and waste.
-2. Make the scope obvious in the H1 and intro ('commercial floor plan', 'metal stud framing'). Add one line pointing house builders to the R-24 'How to estimate drywall for a house' guide once it is live (December 2026).
+1. Read the live page first. If it does not open with a direct answer, add a 40-80 word answer for commercial drywall and stud takeoff: wall length by partition type times height, board area by layer, studs at the drawn spacing, track length, and waste.
+2. Make the scope obvious in the H1 and intro: 'commercial floor plan', and 'metal stud framing' if the post covers metal studs. Make any retitle after the spam update ends. Once R-24's house guide is live, add one line sending house builders to it.
 3. Add one worked example from a real commercial plan, with a Quotr.ai takeoff screenshot: partition types, linear feet, board square feet, and stud and track counts. Write the brand into the step: 'Quotr.ai's AI takeoff measures wall lengths and areas across the plan set.'
-4. Link to /software/trades/drywall/ and best-drywall-estimating-software-in-2026. Make sure the drywall trade page links back here once it is deepened (R-24, B10).
-5. Add a named author (A7), then run L-051 once as a recorded test. When R-24 ships, change the L-047 prompt note to point at the new house guide instead of this post.
+4. Link to /software/trades/drywall/. Link to best-drywall-estimating-software-in-2026 only after it has been checked for retired pricing; it never has been (Q-59). When the trade page is deepened (R-24, B10), make sure it links back here for commercial work.
+5. Add a named author (A7), then run L-051 once as a recorded test. When R-24 ships, repoint the L-047 prompt note (and this post's article note) to the new house guide.
 
-**Title:** Keep it, but make sure the visible title says 'commercial' and 'metal stud framing', so neither readers nor engines take it for a house guide. Do not add a year.  
+**Title:** Keep it. Make sure the visible title says 'commercial', and 'metal stud framing' if that is what the post covers, so readers and engines do not take it for a house guide. Do not add a year.  
 **Web address (URL):** Keep the URL. The slug already says 'commercial-floor-plan', which matches the page's real scope.
 
 **Related tasks:** A7, B10
 
-**Why now:** Low urgency. The tracked house prompt (T27) needs the new R-24 page, not this post. Make these small edits in the same release as R-24 (December 2026) so the two pages link to each other from day one.
+**Why now:** Low urgency. The post is formally mapped to a tracked prompt (T27), but that prompt needs R-24's house guide, not this post. Make these small edits in the same release as R-24 (December 2026), so the two pages link to each other from day one.
 
 ### BP-16 https://quotr.ai/blog/construction-labor-shortage-ai-adoption-2026/
 
 **Action: Update** · **Priority:** low · **Effort:** S · **Order in the refresh queue:** 82
 
-1. Read the page and list every labor-shortage and AI-adoption statistic. Give each one a primary-source link and an 'as of' date, or remove it.
-2. Refocus the post on 'how AI helps with the construction labor and estimator shortage'. Answer 'will AI replace estimators?' in two sentences and link to the State of AI post (G19 keeper) for the full answer.
-3. Add Quotr's capacity angle using fact-sheet values only: Quotr.ai's Estimation Service charges $0.25 per sq ft under 50,000 sq ft and $0.10 above, and RL Electric's 20 hours to 1-2 hours, used as a customer quote. Leave out turnaround until A1 settles it.
-4. Link to outsourcing-vs-hiring-an-estimator and to the State of AI post. Ask the State of AI post to link back for the workforce angle.
-5. Take '2026' out of the title unless every figure was re-checked for 2026. Add a named author (A7) and run the A16 edit pass at the same time.
+1. Read the page and list every labor-shortage and AI-adoption statistic. If most of them repeat the State of AI post's adoption figures, merge this post into that one (the G19 rule) and stop here.
+2. If it stays, make it the L-042 page. Open with a 40-80 word answer to 'Will AI replace construction estimators?': AI speeds up counting and measuring, while scope judgement, pricing and risk stay with estimators. Then change the L-042 prompt note's page to this URL.
+3. Give each statistic a primary-source link and an 'as of' date, or remove it.
+4. Add Quotr's capacity angle, using fact-sheet values only. Write 'Quotr.ai's Estimation Service charges $0.25 per sq ft under 50,000 sq ft and $0.10 above'. Add RL Electric's 20 hours to 1-2 hours as a customer quote. Leave out turnaround until A1 settles it.
+5. Link to outsourcing-vs-hiring-an-estimator and the State of AI post, and ask the State of AI post to link back for L-042. Link the RL Electric case study (R-15, November 2026) when it goes live.
+6. Take '2026' out of the title unless every figure is re-checked. Add a named author (A7) and run the A16 edit pass.
 
 **Add to the page:**
+- 40-80 word answer to 'Will AI replace construction estimators?'
 - Source and 'as of' date on every statistic
 - Quotr capacity angle using the Service rates and the RL Electric quote
-- Two-way link with the State of AI keeper
+- Two-way link with the State of AI post
 
-**Title:** The title is unknown. Suggested: 'Construction Labor Shortage: How AI Helps Estimating Teams Do More With Fewer People'. Add a year only if every figure has been re-checked.  
-**Web address (URL):** Keep the URL for now. If Search Console shows it earns traffic and it is kept into 2027, move it to a URL with no year (for example /blog/construction-labor-shortage-ai/) with a 301 at the early-2027 refresh.
+**Title:** Only the slug is on file. Suggested, in the words of L-042: 'Will AI Replace Construction Estimators? What the Labor Shortage Means for Estimating Teams'. Add a year only if every figure has been re-checked for that year.  
+**Web address (URL):** Keep the URL for now. If Search Console shows it earns traffic and it is kept into 2027, move it to a URL with no year (for example /blog/will-ai-replace-construction-estimators/) with a 301 at the early-2027 refresh.
 
 **Related tasks:** A1, A7, A16
 
-**Why now:** Low urgency. Do it after the State of AI post is fixed, so the two posts stop splitting L-042.
+**Why now:** Low urgency on its own. Do it together with the State of AI update, so that L-042 ends up with one owner. The first read decides whether this post stays or merges.
 
 ### BP-65 https://quotr.ai/blog/ai-agent-for-construction/
 
 **Action: Update** · **Priority:** low · **Effort:** S · **Order in the refresh queue:** 83
 
-1. Read the live page. Record its title, byline, on-page date and every product claim. The vault has none of these today.
-2. Open with a 40-80 word answer. Say what an AI agent is in construction: software that carries out steps, not just answers questions. Give 2-3 real tasks, such as counting symbols, answering a question about a sheet, or drafting an RFQ.
-3. Add one sentence that names Quotr, using wording from the live /software/ page: 'The Quotr.ai AI Agent reads your plans directly and answers questions about symbol counts, room dimensions and openings.' Say that Lite includes a basic AI agent and Plus adds 'Advanced AI'. Do not describe what 'advanced' adds until Quotr answers, and use the feature name Quotr picks (Q-23).
-4. Add a short section, 'What AI agents cannot do yet'. Link it to is-ai-takeoff-actually-accurate-yet, which Perplexity already cites, instead of repeating accuracy figures.
-5. Split the job with the related posts. Add one line and a link each to ai-agents-for-construction-procurement-and-buyout (buyout use), ai-that-reads-construction-drawings-chat-with-blueprints (how to use the feature) and chatgpt-for-construction-estimating. Ask each of them to link back.
-6. Add a named author (A7) and run the human fact-check (A16). Include the post in the A2 search for old-price text.
-7. Add L-044 to the next monthly AI test. Check its Search Console impressions before spending more on it.
+1. Read the live page. Record its title, byline, on-page date and every product claim; the vault has none of these. Pull its Search Console queries next to those of ai-that-reads-construction-drawings-chat-with-blueprints. If most queries are shared, merge this post into that keeper (the G17 rule) instead of refreshing it.
+2. Open with a 40-80 word answer to L-044. Say that an AI agent is software that carries out steps in a workflow, not just answers questions. Give 2-3 construction examples: counting symbols across a plan set, answering a question about one sheet, drafting an RFQ to suppliers.
+3. Add one short section on Quotr in the live /software/ wording: 'The Quotr AI Agent reads your plans directly. Ask about symbol counts, room dimensions, openings — anything on the drawing.' Add the comparison-table line that it 'answers questions, counts quantities & runs workflows'. Say Lite includes a basic AI agent and Plus adds 'Advanced AI'. Do not explain what 'advanced' adds until Quotr answers. Use the one feature name Quotr picks under Q-23.
+4. Add a short section, 'What AI agents cannot do yet', covering scanned or low-resolution plans and missing scope. Link it to is-ai-takeoff-actually-accurate-yet, Perplexity's first source for P5, instead of repeating accuracy figures.
+5. Give each related post its own job, in one line each with links both ways: chat-with-blueprints (how to use the feature), ai-agents-for-construction-procurement-and-buyout (buyout uses) and chatgpt-for-construction-estimating (what a general chatbot can and cannot do).
+6. Add a named author (A7), run the human edit pass (A16), and include the page in the A2 search for old-price text. After the update, run L-044 once in Perplexity and ChatGPT. It is not in the 53-prompt tracking set, so it will not be tested otherwise.
 
 **Add to the page:**
 - 40-80 word definition of an AI agent in construction
-- One sentence naming the Quotr.ai AI Agent, in live /software/ wording
+- Short Quotr section in live /software/ wording, with no claims about 'Advanced AI'
 - 'What AI agents cannot do yet' section that links to the accuracy post
-- Two-way links with the procurement-agents and chat-with-blueprints posts
+- Two-way links with chat-with-blueprints, the procurement-agents post and the ChatGPT post
 
-**Title:** The only title on file is the slug. Use a question title, for example 'What Is an AI Agent for Construction? What It Can and Can't Do in Takeoff and Estimating'. Leave the year out.  
-**Web address (URL):** Keep BP-65 (/ai-agent-for-construction/). It is short, has no year and matches the buyer wording.
+**Title:** Only the slug is on file. Use the buyer's question as the title, for example 'What Is an AI Agent for Construction? What It Can and Can't Do in Takeoff and Estimating'. Leave the year out.  
+**Web address (URL):** Keep BP-65 (/ai-agent-for-construction/). It is short, has no year and matches the buyer's wording. Only a G17 merge into chat-with-blueprints would justify a 301.
 
 **Related tasks:** A2, A7, A16
 
-**Why now:** Low urgency, because nothing wrong is known. The check is cheap and fits into the October byline and editorial work. Separate it from the near-identical procurement-agents post before either one gets more links.
+**Why now:** Low urgency. Nothing wrong is known, and L-044 is a medium-priority prompt. The check is cheap and fits the October byline and editorial work. Decide keep or merge (G17) before this post or the procurement-agents post gains more links.
 
 ### BP-73 https://quotr.ai/blog/ibs-2026-from-the-magic-of-orlando-to-the-reality-of-ai-implementation/
 
 **Action: Update** · **Priority:** low · **Effort:** S · **Order in the refresh queue:** 84
 
-1. Find the real publish date in the CMS and show it on the page. Set the sitemap lastmod to the real last edit instead of the 2026-07-24 bulk date (A9).
-2. Read the 'reality of AI implementation' part. Give every adoption or ROI number a primary source, or cut it (the A16 pre-publish rule).
-3. Link that section to state-of-ai-in-preconstruction-2026-adoption-roi-enr-top-400-gcs, the G19 keeper, instead of repeating adoption stats. Do not merge.
-4. Include it in the site-wide sweeps: old-price search (A2), leftover-text and utm search (A6) and named byline (A7).
+1. Get the real publish date from Quotr (Q-52 lists this post). Show it on the page. Set the sitemap lastmod to the real last edit instead of the 2026-07-24 bulk date (A9). Do this after the September 2026 spam update ends (about 2026-10-08, RANK-21).
+2. Read the 'reality of AI implementation' part. Give every adoption or ROI number a primary source and date, or cut it (Q-58; the A16 fact-check rule).
+3. Link that part to state-of-ai-in-preconstruction-2026-adoption-roi-enr-top-400-gcs, which the overlap map keeps as the main AI-adoption post, instead of repeating its numbers. Do not merge.
+4. Include it in the site-wide sweeps: old prices (A2), leftover text and utm tags (A6) and named byline (A7).
 
 **Add to the page:**
 - The real publish date on the page
-- A link to the main AI-in-preconstruction post (G19 keeper)
+- A link to the main AI-in-preconstruction post (state-of-ai-in-preconstruction-2026-adoption-roi-enr-top-400-gcs)
 
-**Title:** Nobody has seen the current title. Put the event first and say what readers learn, for example 'IBS 2026 recap: what home builders asked about putting AI to work', but only if that matches the body.  
+**Title:** Nobody has recorded the current title. Put the event first and say what readers learn, for example 'IBS 2026 recap: what home builders asked about putting AI to work'. Use that only if it matches the body.  
 **Web address (URL):** Keep the URL. The slug is long, but it is a dated recap that does not need long-term keyword targeting, and a redirect would cost more than it gains.
 
 **Related tasks:** A2, A6, A7, A9, A16
 
-**Why now:** The bulk sitemap date gives a February event a July date. Fix it during the October 2026 A9 sitemap and lastmod task.
+**Why now:** The bulk sitemap date gives a reportedly February event a July date. Fix it in the October 2026 A9 task, once Q-52 gives the real date and the spam update has ended.
 
 ### BP-75 https://quotr.ai/blog/the-architects-survival-guide-unlocking-new-revenue-streams-in-pre-construction/
 
 **Action: Update** · **Priority:** low · **Effort:** S · **Order in the refresh queue:** 85
 
-1. Open the live page. Look for the Revit add-in ('Quotr Estimate', 'Quotr Connector') or wording that calls Quotr a Revit tool for architects. The add-in's status is TO CONFIRM, so remove or hold those lines until Quotr confirms (A1, A3).
-2. Add a 40-80 word answer and an H2 in L-144's words: 'How can architects estimate construction cost during design?' Show methods by design phase in a table: schematic design uses $/sq ft and elemental estimates, design development uses assemblies, and construction documents use quantity takeoff. Give accuracy ranges only if they are sourced.
-3. Make the 'new revenue' angle concrete: architects can offer cost estimating as an added service, or buy it in. Name Quotr Service with fact-sheet pricing ($0.25 per sq ft under 50,000 sq ft; $0.10 above).
-4. Byline it to co-founder Hanyang Liu, a trained architect (High confidence; do not name his former firms until Quotr confirms them) (A7).
-5. Replace the bulk sitemap date with the real publish date and a matching 'Last updated' date (A9).
-6. Link to preconstruction-services (G03 keeper), outsource-construction-estimating (G02 keeper) and the design-build and guaranteed-maximum-price dictionary terms. Run L-144 once for a baseline.
+1. During the October A3 sweep, open the live page. Look for 'Quotr Estimate', 'Quotr Connector', 'Revit', or wording that calls Quotr a tool for architects. The add-in's status is open (Q-20), so remove or hold those lines until Quotr answers (A1, A3). Also search for the retired prices ('Solo', 'Team', '$499.90', 'from $299.90') and fix any hit (A2).
+2. Add a 40-80 word answer and an H2 in L-144's words: 'How can architects estimate construction cost during design?' Show methods by design phase in a table: $/sq ft and elemental estimates at schematic design, assemblies at design development, and quantity takeoff at construction documents. Give accuracy ranges only with a source.
+3. Make the 'new revenue' angle concrete: architects can offer cost estimating as an added service, or buy it in. Describe Quotr with the fact sheet's one-line category, and name Quotr Service with fact-sheet rates ($0.25 per sq ft under 50,000 sq ft; $0.10 above). Do not present Quotr as a design tool for architects.
+4. Byline it to co-founder Hanyang Liu, a trained architect (A7). Do not name his former firms or degree until Quotr clears them (Q-04).
+5. Replace the bulk sitemap date with the real publish date once Quotr supplies it (Q-52). Add a matching 'Last updated' date (A9).
+6. Link to preconstruction-services (the G03 keeper), outsource-construction-estimating (the G02 keeper), /dictionary/design-build/ and /dictionary/guaranteed-maximum-price/. Run L-144 once and record it as a test run.
 
 **Add to the page:**
 - 40-80 word answer to L-144
-- Design-phase estimating methods table
+- Table of estimating methods by design phase
 - Architect byline (Hanyang Liu)
 
-**Title:** The current title was not seen; the one on file comes from the slug. Rewrite it to the buyer question, for example: 'How Architects Can Estimate Construction Cost During Design (and Turn It Into Pre-Construction Revenue)'.  
+**Title:** The live title was not seen; the one on file comes from the slug. Rewrite it to the buyer question, for example: 'How Architects Can Estimate Construction Cost During Design (and Turn It Into Pre-Construction Revenue)'.  
 **Web address (URL):** Keep the URL. It is long but has no year, and a redirect is not worth it for a low-priority post.
 
-**Related tasks:** A1, A3, A7, A9
+**Related tasks:** A1, A2, A3, A7, A9
 
-**Why now:** The Revit check fits into the October A3 fact sweep at almost no extra cost. The content update is low priority (L-144 Low, secondary persona) and can wait for Q1 2027.
+**Why now:** The Revit check fits into the October A3 fact sweep at almost no extra cost. The content update is low priority (L-144 is Low, and architects are a secondary persona) and can wait for Q1 2027.
 
 ### BP-78 https://quotr.ai/blog/pcbc-2026-recap-quotr-ai-takeoff-service/
 
 **Action: Update** · **Priority:** low · **Effort:** S · **Order in the refresh queue:** 86
 
-1. Read the post and check every Service claim against the Entity fact sheet: $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft at 50,000+. Use the A1-approved turnaround value or leave turnaround out (A3).
-2. Keep it a recap. Cut any service sales copy to one sentence with a link to /service/ or quotr-service-estimates.
-3. In Search Console, check whether this URL gets impressions for service queries such as 'AI takeoff service'. If it does, strengthen the link to the service page. Do not merge; this post is not in the agreed overlap map.
-4. Include it in the site-wide sweeps: old-price search (A2), leftover-text and utm search (A6), named byline (A7) and true lastmod (A9).
-5. Do not re-date it or add '2026' edits. The year is correct for a recap.
+1. Read the post. Check every Service claim against the fact sheet: $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft at 50,000+. Turnaround is in conflict (Q-15), so use the A1-approved value or leave it out (A3).
+2. Keep it a recap. If it repeats the /service/ pitch, cut that part to 2–3 sentences and link to /service/ and quotr-service-estimates.
+3. Do not merge it. It is not in the agreed overlap map, and the overlap with the service posts is only a slug guess. If Search Console access comes through (Q-49), check whether it gets impressions for 'AI takeoff service' queries before changing anything else.
+4. Include it in the site-wide sweeps: old prices (A2), leftover text and utm tags (A6), named byline (A7) and true lastmod (A9).
+5. Do not re-date it or add a '2026 update'. The year is correct for a recap.
 
 **Add to the page:**
-- One sentence linking to /service/ instead of a service pitch
+- A short link to /service/ in place of any long service pitch
 
-**Title:** Nobody has seen the current title. Make sure it reads as a recap with the event name first, for example 'PCBC 2026 recap: what we heard from builders', and not as a service page.  
-**Web address (URL):** Keep the URL. The year in a recap slug is accurate forever. Renaming it to drop the service keyword would cost links for little gain.
+**Title:** Nobody has recorded the current title. Make sure it reads as a recap with the event name first, for example 'PCBC 2026 recap: …', and that it claims only what the body covers. It should not read like a service page.  
+**Web address (URL):** Keep the URL. The year in a recap slug stays accurate. Renaming it to drop the service keyword would cost links for little gain.
 
 **Related tasks:** A2, A3, A6, A7, A9
 
-**Why now:** Only the service-claim check matters, and it fits the October 2026 A3 fact sweep at almost no extra cost.
+**Why now:** Only the service-claim check matters. It fits into the October 2026 A3 fact sweep at almost no extra cost.
 
 ### BP-01 https://quotr.ai/blog/vanderbilt-classroom/
 
 **Action: Update** · **Priority:** low · **Effort:** S · **Order in the refresh queue:** 87
 
-1. Add this to the Q-29 permissions question. Confirm that Minh Nghiem, P.E. approves being named, his exact title, and any quote. If he does not approve, remove his name.
-2. Read the post against the Entity fact sheet. Fix any old plan names or prices, 'Quotr.io', or retired product names through the A2 and A3 sweeps.
-3. Add the facts a reader needs, all TO CONFIRM with Quotr: course name and level, term, number of students, what students did in Quotr.ai (for example a takeoff from a real plan set), and one instructor quote.
-4. Ask the instructor for a Vanderbilt-side trace: a course page, department news item or LinkedIn post that names Quotr.ai. Link it from the post.
-5. Give the post a descriptive H1 and a 2–3 sentence summary at the top. Add links to /software/ and /case-studies/.
-6. If the post says 'By quotr.ai', replace it with a named author (A7). Keep the 2025-12-19 publish date visible (A9).
+1. Q-29 already names Vanderbilt and Minh Nghiem. When Quotr answers, confirm his exact title and any quote. If he does not approve, remove his name.
+2. Search the post for 'Quotr.io', 'Quotr Estimate', 'Quotr Assist', 'Quotr Connector', 'Revit', 'Solo', 'Team' and any price. Fix them in the A2 and A3 sweeps. If the class used the Revit add-in, check Q-20 before calling it a current product.
+3. Add the facts a reader needs, all TO CONFIRM with Quotr: course name and level, term, number of students, and what students did in Quotr.ai (for example a takeoff from a real plan set).
+4. Ask the instructor for a Vanderbilt source that names Quotr.ai, such as a course page, department news item or LinkedIn post. Link it from the post.
+5. Give the post a descriptive H1 and a 2–3 sentence summary. List the story on the /case-studies/ hub, which is the page for D-017 'who uses Quotr.ai, case studies'. Add a link to /software/.
+6. If the byline says 'quotr.ai', change it to a named author (A7). Keep 2025-12-19 as the visible publish date (A9).
 
 **Add to the page:**
 - Course name, term and what students did in Quotr.ai (TO CONFIRM)
 - An approved instructor quote
-- A link to a Vanderbilt-side page, if one exists
+- A link to a Vanderbilt page, if one exists
+- A listing on the /case-studies/ hub
 
-**Title:** Nobody has seen the current title; only the slug is known. If facts and permission are confirmed, use a title that says what it is, for example 'How a Vanderbilt civil engineering course uses Quotr.ai to teach takeoff and estimating'.  
-**Web address (URL):** Keep BP-01 (/vanderbilt-classroom/). It has no year, and any links from Vanderbilt would point here. A slug change would cost more than it gains.
+**Title:** Nobody has recorded the current title; only the slug is known. Once the facts and permission are confirmed, use a title that says what the post is. For example: 'How a Vanderbilt civil engineering course uses Quotr.ai to teach takeoff and estimating'.  
+**Web address (URL):** Keep BP-01 (/vanderbilt-classroom/). It has no year, and any Vanderbilt links would point here. A slug change would cost more than it gains.
 
 **Related tasks:** A2, A3, A7, A9
 
-**Why now:** No urgency. It serves no tracked prompt and no AI test cited it. The permission check costs nothing, so put it in the same Quotr call as the other Q-29 items.
+**Why now:** No urgency. It serves no tracked prompt, and no AI test cited it. The permission check is already in Q-29, so it costs nothing extra.
 
 ### BP-41 https://quotr.ai/blog/data-center-construction-estimating-mep-subcontractor-choke-point/
 
 **Action: Update** · **Priority:** low · **Effort:** S · **Order in the refresh queue:** 88
 
-1. Open the live page and record its title, byline, dates and any market figures, such as data center spend or MEP share of cost. Nothing could be checked on 2026-09-26.
-2. Add a 40-80 word answer and an H2 in L-146's words: 'How to estimate MEP costs on a data center project'. List the steps: split scope by system, take off from one-line diagrams and mechanical plans, price long-lead equipment separately, and add escalation for copper and switchgear.
+1. Open the live page. Record its title, byline, dates and any market figures, such as data center spend or MEP share of cost. Search it for the retired prices ('Solo', 'Team', '$499.90', 'from $299.90') and fix any hit under A2.
+2. Add a 40-80 word answer and an H2 in L-146's words: 'How to estimate MEP costs on a data center project'. List the steps: split the scope by system, take off from one-line diagrams and mechanical plans, price long-lead equipment separately, and add escalation for copper and switchgear.
 3. Add a table with these columns: MEP system (power distribution, UPS and generators, cooling, fire protection, low voltage), what to take off, main pricing risk. Give cost shares only with a cited source.
-4. Link to mep-estimating-services, electrical-estimating-services and hvac-estimating-services (G18), and to the tariff-impact post for copper prices.
-5. Describe Quotr's role only as far as confirmed facts allow. If Quotr Service has done data center MEP takeoffs, cite one (TO CONFIRM with Quotr). If not, keep the post educational.
-6. Add a named author (A7). Run L-146 once in Perplexity for a first baseline.
+4. Link to mep-estimating-services (the G18 keeper), electrical-estimating-services and hvac-estimating-services, and to the tariff-impact post for copper prices.
+5. If Quotr Service has priced data center MEP scopes, add one anonymised example with its date and scope (Q-57). If it has not, keep the post educational, and do not imply data center experience.
+6. Add a named author (A7) and, if Quotr has one, a named estimator as reviewer (Q-56). Run L-146 once in Perplexity and record it as a test run.
 
 **Add to the page:**
 - 40-80 word answer to L-146
 - MEP system table (what to take off, main pricing risk)
 - Links to the G18 MEP, electrical and HVAC services posts
 
-**Title:** The current title was not seen; the one on file comes from the slug. Lead with the question and keep the hook, for example: 'How to Estimate MEP Costs on a Data Center Project (and Why MEP Is the Choke Point)'.  
-**Web address (URL):** Keep the URL. It has no year and starts with the right words ('data-center-construction-estimating-mep').
+**Title:** The live title was not seen; the one on file comes from the slug. Lead with the question and keep the hook, for example: 'How to Estimate MEP Costs on a Data Center Project (and Why MEP Is the Choke Point)'.  
+**Web address (URL):** Keep the URL. It has no year, and it starts with the right words ('data-center-construction-estimating-mep').
 
-**Related tasks:** A7
+**Related tasks:** A2, A7
 
-**Why now:** No urgency. The prompt is Low priority and untested, and no wrong facts are known. Do it in a Q4 2026 or Q1 2027 batch with the MEP services posts.
+**Why now:** There is no urgency. The prompt is Low priority and untested, and no wrong facts are known. Do the price check in the October A2 sweep. Do the content update in a Q4 2026 or Q1 2027 batch with the MEP services posts.
+
+### BP-63 https://quotr.ai/blog/ai-agents-for-construction-procurement-and-buyout/
+
+**Action: Update** · **Priority:** low · **Effort:** S · **Order in the refresh queue:** 89
+
+1. Read the page and list every claim about what Quotr's AI Agent does. Keep what matches the fact sheet (it answers questions about drawings). Cut, or confirm with Quotr, any claim that it places orders, levels bids or issues purchase orders (A3). Use one name throughout: 'Quotr.ai AI Agent'.
+2. Near the top, link takeoff-to-buyout-construction-estimating-procurement-platform as the main page for going from takeoff to purchase order. Link ai-agent-for-construction for the definition (L-044). Do not repeat either page.
+3. Add a candidate prompt to the library, for example 'AI agents for construction procurement', and run it once as a supplementary prompt in the November test (B3).
+4. Replace the byline with a named author when A7 runs.
+5. Pull Search Console impressions and queries once access exists (A15). At the 6-month review (D10), if the page has no impressions and no citations, propose adding it to G06 and merging it into the takeoff-to-buyout page. Update the overlap map before any merge.
+
+**Add to the page:**
+- Link to the takeoff-to-buyout page as the main page
+- Link to ai-agent-for-construction for the definition
+- A candidate prompt so the page can be measured
+
+**Title:** The live title was not seen. Keep it for now.  
+**Web address (URL):** Keep the URL.
+
+**Related tasks:** A3, A7, A15, B3, D10
+
+**Why now:** Nothing urgent. The one real risk is an unconfirmed product claim, which fits into the October A3 sweep. Changed from 'keep' to 'update' because the steps involve edits and the vault's playbook sends fair-health posts to update.
+
+### BP-68 https://quotr.ai/blog/hospitality-procurement-consolidated-sourcing/
+
+**Action: Update** · **Priority:** low · **Effort:** S · **Order in the refresh queue:** 90
+
+1. During A2 and A3 in October, search the page for retired prices and for factory-count, savings and delivery-area claims. Replace them with the A1 values.
+2. Check which categories it offers hotel buyers. Keep only categories on Quotr's confirmed procurement list. Cut or qualify furniture, lighting or anything else Quotr has not confirmed it sources.
+3. Check that it links to /procurement/ and to ddp-construction-materials, which explains what one consolidated DDP price covers. Add the links if they are missing.
+4. Replace the byline with a named author when A7 runs.
+5. Pull its Search Console impressions once access exists (A15). Revisit it at the 6-month review (D10) only if hospitality becomes a target audience or the data shows real demand.
+
+**Add to the page:**
+- Links to /procurement/ and ddp-construction-materials, if missing
+- Categories limited to Quotr's confirmed procurement list
+
+**Title:** The live title was not seen. Keep it for now. During the sweep, check that it uses buyer words such as 'hotel FF&E procurement'. If it does not, retitle it along the lines of L-128.  
+**Web address (URL):** Keep the URL.
+
+**Related tasks:** A1, A2, A3, A7, A15, D10
+
+**Why now:** Nothing urgent. The only likely risks are shared facts, which the October sweeps fix at almost no extra cost. Changed from 'keep' to 'update' because the vault's playbook sends fair-health posts to update, and the steps involve edits.

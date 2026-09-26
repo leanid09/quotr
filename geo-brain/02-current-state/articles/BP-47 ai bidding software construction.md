@@ -31,7 +31,7 @@ flags:
 - overlap
 health: poor
 health_score: 40
-action: rewrite
+action: update
 merge_into: ''
 priority: high
 rank: 19
@@ -40,7 +40,7 @@ status: todo
 # BP-47. Ai bidding software construction
 
 > [!abstract] In one line
-> Keeper page for the AI bidding question, but its indexed text still shows retired Solo/Team pricing and Perplexity repeats it in Quotr brand answers. Fix the price now, then fold in the duplicate bid-software list.
+> The page to keep for the AI bidding question (G04). Perplexity cited it when giving Quotr's retired Solo/Team prices in a brand answer, so fix the price now. Then fold in best-ai-bid-software-for-construction with a targeted update. A full rewrite is not justified yet, because its own prompt (E-025) is Medium and untested.
 
 **Live page:** [Ai bidding software construction](https://quotr.ai/blog/ai-bidding-software-construction/) *(title taken from the web address; the live title was not captured)*  
 **Published:** 2026-06-19 · **Cluster:** Best-of lists and buyer guides · **Format:** buyer's guide · **Funnel:** MOFU
@@ -59,15 +59,17 @@ A post on AI bidding software for construction. Its indexed text carries Quotr's
 |---|---|---|---|---|---|
 | 2 | 0 | 2 | 3 | 3 | 2 |
 
-- **Accuracy:** Indexed text says 'Solo from $299.90/month, Team (2–6 seats) $499.90/month'. Current plans are Quotr.ai Lite $79.90 and Plus $299.90 per seat per month, and Enterprise is custom. *(from 2026-09-25 audit)*
-- **Accuracy:** Perplexity answered 'Solo: $299.90/month … Team (2–6 seats): $499.90/month … Enterprise (7+ users): custom' and cited this post and the AI estimating buyer's guide as sources. So this post actively spreads the wrong entry price. This was a brand answer, not an unbranded one. *(from 2026-09-25 AI tests)*
-- **Visibility:** It was returned by a web search for the old plan names, so it is indexed. Perplexity retrieved it only for Quotr brand prompts. *(from 2026-09-25 audit)*
-- **Visibility:** Its own prompt E-025 ('AI bidding software for construction 2026') has never been tested. So its category visibility is unknown, not failed. *(from vault prompt library)*
-- **Visibility:** The duplicate post best-ai-bid-software-for-construction serves tracked prompt E-004 (T07, 'construction bid management software for general contractors'). Quotr was absent there. Perplexity named ConstructConnect, BuildingConnected, SmartBid, PlanHub, Procore, Kahua and Dodge. After the merge, this URL inherits that prompt. *(from 2026-09-25 AI tests)*
-- **Uniqueness:** It answers the same buyer question as best-ai-bid-software-for-construction (sitemap date 2026-08-05), which also shows old pricing. Overlap group G04 keeps this URL and merges the other one into it. *(from 2026-09-25 audit)*
-- **Freshness:** Its sitemap date is 2026-06-19. That is before the pricing change announced on 2026-09-14, and nothing shows an update since. *(from 2026-09-25 audit)*
-- **Trust:** No one has recorded the byline, the sources, or whether the post ranks Quotr first. The list posts that were read, such as the Togal alternatives post, were signed 'By quotr.ai' and put Quotr at #1. So the same is likely here, but it has not been seen. *(inferred)*
-- **Structure:** The format (buyer's guide) is inferred from the slug. The page itself was never opened. *(inferred)*
+- **Accuracy:** Indexed text says 'Solo from $299.90/month, Team (2–6 seats) $499.90/month'. Current plans are Quotr.ai Lite $79.90 and Quotr.ai Plus $299.90 per seat per month, Enterprise custom, with a 7-day free trial. The page itself was not read. *(from 2026-09-25 audit)*
+- **Accuracy:** On 2026-09-25 Perplexity gave Quotr's plans as 'Solo: $299.90/month … Team (2–6 seats): $499.90/month … Enterprise (7+ users): custom'. It cited this post and ai-construction-estimating-software-buyers-guide. This was a brand answer about Quotr, not a category answer. *(from 2026-09-25 AI tests)*
+- **Visibility:** A web search for the old plan names returned this URL, so it is indexed. That search was not repeated on 2026-09-26. *(from 2026-09-25 audit)*
+- **Visibility:** In the September tests Perplexity used this post only for Quotr brand prompts, never for a category prompt. *(from 2026-09-25 AI tests)*
+- **Visibility:** Its own prompt, E-025 'AI bidding software for construction 2026', is Medium priority, is not in the tracking set, and has never been tested. So its category visibility is unknown, not failed. *(from vault prompt library)*
+- **Uniqueness:** best-ai-bid-software-for-construction (sitemap date 2026-08-05) targets nearly the same head term and also shows the old price. Overlap group G04 keeps this URL and merges that one into it. Neither page was read, so the overlap rests on the slugs and the shared price text. *(from 2026-09-25 audit)*
+- **Uniqueness:** The post being merged in is the vault's page for tracked prompt E-004 (T07, 'construction bid management software for general contractors'). In C7 Quotr was absent. Perplexity named ConstructConnect, BuildingConnected, SmartBid, PlanHub, Procore, Kahua and Dodge. *(from 2026-09-25 AI tests)*
+- **Uniqueness:** E-004 is a GC bid-board question, and roadmap R-60 (GC preconstruction hub, March 2027) already targets it. The overlap map says not to move E-004 here by default. G04 also suggests this page take E-020 ('best software to create construction bid proposals for subcontractors'), while the proposals post stays separate. Both fit judgements are inferred. *(from vault prompt library)*
+- **Freshness:** Its sitemap date is 2026-06-19, before the 2026-09-14 price change. The blog sitemap seems to record publish dates, not edits, so this does not prove the page was never edited. The old price still in the index suggests it was not. *(from 2026-09-25 audit)*
+- **Trust:** The byline, sources and ranking order were never recorded. Other Quotr list posts that were read were signed 'By quotr.ai' and put Quotr first. The same is likely here, but it was not seen. *(inferred)*
+- **Structure:** The format (buyer's guide) and layout are inferred from the slug. The page was never opened. *(inferred)*
 
 ## Search and AI visibility
 
@@ -78,27 +80,27 @@ A post on AI bidding software for construction. Its indexed text carries Quotr's
 
 ## What to do
 
-**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 19
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 19
 
-1. This week (A2): replace 'Solo from $299.90/month, Team (2–6 seats) $499.90/month' and any 'Enterprise (7+ users)' line with 'Quotr.ai Lite $79.90 and Quotr.ai Plus $299.90 per seat per month; Enterprise custom; 7-day free trial (as of September 2026)'. Link /pricing/ and the new-pricing post. Make the same fix on best-ai-bid-software-for-construction, because it stays live until the merge. Then request a re-crawl in Search Console and Bing (IndexNow).
-2. Merge group G04 (A12): pull 3 months of Search Console clicks and impressions for both URLs to confirm the keeper. Move any unique tools, tables or FAQs from best-ai-bid-software-for-construction into this post. Then 301 that URL here, update the internal links that point to it, and remove it from the blog sitemap.
-3. Answer both buyer questions in the first screen: E-025 'AI bidding software for construction' and E-004 'construction bid management software for general contractors' (T07). Split the tools into bid-invitation platforms and estimate-to-bid tools. The bid-invitation group is the one Perplexity named for C7: ConstructConnect, BuildingConnected, SmartBid, PlanHub and Procore. Say plainly where Quotr.ai fits.
-4. Apply the honest-inclusion rules from the Best-of roundup template: a disclosure line, a published method, and 'best for' groups instead of a numbered #1. Give Quotr.ai its own section with its limits (few third-party reviews so far). Link and date every competitor fact (A6).
-5. Add proof only Quotr has: a worked example that goes takeoff → estimate → bid comparison → proposal in Quotr.ai, with screenshots. Add the RL Electric quote (takeoff cut from about 20 hours to 1–2 hours), credited to the customer. Link to ai-construction-proposals-takeoff-to-proposal (a separate page, not merged) and to /software/.
-6. Replace any 'By quotr.ai' byline with a named author (A7). Show Published and Last updated dates that match the sitemap lastmod (A9). Run the human fact-check pass before publishing (A16).
-7. Two to four weeks after the re-crawl, run E-025, E-004 (T07) and brand prompt B4 in at least two engines. Confirm that no answer still cites this post for Solo/Team pricing (B3).
+1. Now, as part of A2: replace 'Solo from $299.90/month, Team (2–6 seats) $499.90/month' and any 'Enterprise (7+ users)' line with 'Quotr.ai Lite $79.90 and Quotr.ai Plus $299.90 per seat per month; Enterprise custom; 7-day free trial (as of September 2026)'. Link /pricing/ and the new-pricing post. Make the same fix on best-ai-bid-software-for-construction the same day. Request a re-crawl in Search Console and Bing (IndexNow). Fact fixes may go ahead during Google's September spam update; add a Search Console annotation.
+2. Before any other edit, read both bid posts and pull 3 months of Search Console clicks, impressions and linking pages for each. Run E-025 once in two engines to get a baseline, because it has never been tested (Page refresh checklist, step 1).
+3. Merge group G04 after the spam update ends (about 2026-10-08) (A12). Add G04 to A12's list, which today names only the Togal and services merges. Move any unique tools, tables or FAQs from best-ai-bid-software-for-construction into this post. Then 301 that URL here, update internal links to it, and remove it from the blog sitemap.
+4. Keep E-025 as this page's question. Add a short section on proposal software for subcontractors (E-020), and link to ai-construction-proposals-takeoff-to-proposal, which stays a separate page. Do not turn this page into the E-004 answer. Give GC bid-board platforms one short, fair paragraph (ConstructConnect, BuildingConnected, SmartBid, PlanHub and Procore, as named in C7). In the vault, point E-004's quotr_url to R-60 or mark it as needing a page, and log the change in the Changelog.
+5. Apply the honest-inclusion rules (Best-of roundup template §3): a disclosure line, a published method with a check date, 'best for' groups instead of a numbered #1, and a Quotr.ai entry that states its limits (few third-party reviews so far). Link and date every competitor fact (A6).
+6. Add proof only Quotr has: screenshots of the Quotr.ai bid workflow (manage bids, compare supplier prices side by side, export a proposal, all listed in the fact sheet). Embed or link the existing 'How to Manage Bids' and 'How to Export a Proposal' tutorials. Add a named author (A7), make the visible date, schema date and sitemap lastmod agree (A9), and run the human fact check (A16).
+7. 2–4 weeks after the re-crawl, during B3: check that brand prompts B4 and V2 no longer give Solo/Team prices or 'from $299.90'. Re-run E-025 in two engines.
 
 **Add to the page:**
-- A worked takeoff-to-proposal example with Quotr.ai screenshots
-- A table that splits bid-invitation platforms from estimate-to-bid tools
 - A disclosure line and a published method
+- Screenshots of the Quotr.ai bid workflow, plus the 'How to Manage Bids' tutorial
+- A short section on proposal software (E-020) and one fair paragraph on GC bid-board platforms
 
-**Title:** The live title was never recorded; the current one is derived from the web address. Rewrite it to cover both questions this page will own after the merge, for example 'AI Bidding Software for Construction: Estimate-to-Bid Tools vs Bid Management Platforms'. Keep the year out of the title unless every tool is re-checked. Show a 'Last checked' date in the body instead.  
-**Web address (URL):** Keep the URL. It has no year in it, it is indexed, and AI engines already read it. It is the keeper in overlap group G04, so best-ai-bid-software-for-construction should 301 here.
+**Title:** The live title was never recorded; the current one comes from the web address. Read it first. Keep it if it already leads with 'AI bidding software for construction'. If not, retitle after the spam update, for example 'AI Bidding Software for Construction: Tools to Take Off, Price and Submit Bids'. Do not promise GC bid-management coverage, because E-004 goes to R-60. Leave the year out unless every tool is re-checked.  
+**Web address (URL):** Keep the URL. It has no year, it is indexed, AI engines already read it, and it is the G04 keeper. best-ai-bid-software-for-construction should 301 here after the spam update ends.
 
 **Related tasks:** [[A2 Fact-fix sweep, part 1 - remove the old pricing everywhere|A2]], [[A6 Editorial sweep|A6]], [[A7 Named author bylines and author pages|A7]], [[A9 Sitemaps and lastmod dates|A9]], [[A12 Merge duplicate pages|A12]], [[A16 Add a human edit and fact-check step for AI-assisted drafts|A16]], [[B3 Second monthly AI test; set engine-specific targets|B3]]
 
-**Why now:** While this post is live, Perplexity can keep quoting Solo $299.90 as Quotr's entry price. That is nearly four times the real Lite price of $79.90. The fix belongs to task A2, due in October 2026.
+**Why now:** On 2026-09-25 Perplexity cited this post when it gave Quotr's plans as Solo $299.90 and Team $499.90. The real entry price, Quotr.ai Lite at $79.90, is about a quarter of that. The price fix can go ahead now (A2, October). The merge waits until the spam update ends. A full rewrite is not justified yet: E-025 is a Medium, untested prompt, and E-004 belongs to the planned GC hub.
 
 ## Overlaps with other Quotr posts
 

@@ -57,12 +57,12 @@ Not captured: the post did not come up in the web searches we could run. See the
 |---|---|---|---|---|---|
 | 2 | 3 | 2 | 3 | 2 | 3 |
 
-- **Visibility:** It was not retrieved for C4 'best takeoff software for drywall contractors' (T04, Tier A, High priority). Perplexity named STACK, The EDGE, QuoteIQ, Bluebeam, Houzz Pro, Buildxact and PlanSwift. It cited QuoteIQ's list, STACK's drywall page, gitnux, worldmetrics and r/estimators. This was a single run. *(from 2026-09-25 AI tests)*
-- **Structure:** The recorded title, 'Best Drywall Estimating Software in 2026', says 'estimating', while the tracked buyer prompt says 'takeoff'. The title comes from the earlier audit and was not re-checked. *(from 2026-09-25 audit)*
+- **Visibility:** It was not retrieved for C4 'best takeoff software for drywall contractors' (T04, Tier A, High priority). Perplexity named STACK, The EDGE, QuoteIQ, Bluebeam, Houzz Pro, Buildxact and PlanSwift. It cited QuoteIQ's list, STACK's drywall page, Construction Coverage, gitnux, worldmetrics and r/estimators. This was a single run. *(from 2026-09-25 AI tests)*
+- **Structure:** The recorded title, 'Best Drywall Estimating Software in 2026', says 'estimating', while the tracked prompt says 'takeoff'. The title comes from the earlier audit and was not re-checked. *(from 2026-09-25 audit)*
 - **Freshness:** 'in 2026' is in both the title and the slug. The '-in-2026' pattern also differs from sibling posts, which use '-2026'. *(from 2026-09-25 audit)*
 - **Accuracy:** The vault notes disagree. A page template links this post 'after its pricing fix', but the audit does not flag old pricing here. Its pricing status is unknown. *(from 2026-09-25 audit)*
 - **Trust:** The vault's drywall notes say self-ranked lists rarely get Quotr recommended, and that third-party lists matter more. Whether this page ranks Quotr first was not observed. *(from vault prompt library)*
-- **Uniqueness:** Quotr's drywall trade page had about 25 unique words. The only other drywall post covers commercial work only. No Quotr-specific content on this post is recorded. *(from 2026-09-25 audit)*
+- **Uniqueness:** At audit time Quotr's drywall trade page had about 25 words of its own text. Some trade pages may have been expanded since. The only other drywall post covers commercial floor plans only. No Quotr-specific content on this post is recorded. *(from 2026-09-25 audit)*
 - **Visibility:** No one has checked whether it appears in web search. *(from 2026-09-25 audit)*
 
 ## Search and AI visibility
@@ -76,25 +76,25 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 **Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 24
 
-1. During the A2 sweep, check the page for retired pricing, because vault notes disagree on whether it needs a pricing fix. Use Search Console URL Inspection to confirm it is indexed.
-2. Re-aim the title, H1 and answer-first block at E-026 'best takeoff software for drywall contractors' (T04, Tier A). Drop 'in 2026' from the title.
-3. Add drywall-specific criteria: wall vs ceiling square feet, sheet counts (a 4×8 sheet is 32 sq ft), hang vs finish, finish levels, Type X and moisture-resistant board, linear feet of corner bead, and a waste allowance. Compare the tools Perplexity named in C4 (STACK, The EDGE, QuoteIQ, Bluebeam, Houzz Pro, Buildxact, PlanSwift) with dated, linked facts (A6).
-4. Apply the honest-inclusion rules: a disclosure line, a method, 'best for' groups, and a Quotr.ai entry that states its limits. Remove any #1 self-ranking. Industry reports tie visibility losses to this pattern (claims RANK-07, RANK-15, QUALITY-10; reported but not re-checked).
-5. Add a worked Quotr.ai takeoff on a real residential plan with screenshots (the R-24 angle). Link how-to-estimate-drywall-framing-commercial-floor-plan, scope-gap-construction and /software/trades/drywall/. That trade page is itself thin; its fate is decided under B10.
-6. Add a named author (A7) and honest dates (A9). When the drywall calculator (C3) and the V-01 drywall video go live, link and embed them.
-7. Re-run E-026 (T04) 2–4 weeks after the re-crawl (B3). Pair the rewrite with outreach to the third-party lists AI cites for this category (B2).
+1. During the A2 sweep, check the page for retired pricing, because the vault notes disagree on whether it needs a price fix. Use Search Console URL Inspection to confirm it is indexed, and pull its queries.
+2. After the spam update ends, re-aim the title, H1 and answer-first block at E-026 'best takeoff software for drywall contractors' (T04, Tier A). Drop 'in 2026' from the title.
+3. Add drywall-specific criteria: wall vs ceiling square feet, sheet counts (a 4×8 sheet is 32 sq ft, a 4×12 is 48), hang vs finish, finish levels 0–5, Type X and moisture-resistant board, linear feet of corner bead, and a waste allowance (about 10% is common). Compare the tools Perplexity named in C4 (STACK, The EDGE, QuoteIQ, Bluebeam, Houzz Pro, Buildxact, PlanSwift) with dated, linked facts (A6).
+4. Apply the honest-inclusion rules: a disclosure line, a method, 'best for' groups, and a Quotr.ai entry that states its limits. Remove any #1 self-ranking. Industry reports tie 2026 visibility losses to that pattern (RANK-07, RANK-15, QUALITY-10; reported, not confirmed by Google).
+5. Add a worked Quotr.ai takeoff on a real residential plan with screenshots (the R-24 angle). Link how-to-estimate-drywall-framing-commercial-floor-plan, scope-gap-construction and /software/trades/drywall/. Re-check that trade page first; its fate is decided under B10. Add a named author (A7), make the dates agree (A9), and run the human fact check (A16).
+6. When the drywall bundle R-24 and its calculator (C3, December 2026) and the V-01 drywall episode (November 2026) go live, link and embed them. R-24 gives the product answer for E-026, and this post stays the comparison.
+7. Re-run E-026 (T04) in two engines 2–4 weeks after the re-crawl (B3). In the B2 outreach, note that Construction Coverage, cited in C4, is already a Tier A target. The other C4 list sources are a competitor's own list (QuoteIQ) and list farms (gitnux, worldmetrics).
 
 **Add to the page:**
-- Drywall-specific criteria (sheets, hang vs finish, finish levels, waste)
+- Drywall-specific criteria (sheets, hang vs finish, finish levels, board types, waste)
 - A worked Quotr.ai takeoff on a real residential plan
 - A disclosure line and a published method
 
-**Title:** Change the title to the buyer's wording, for example 'Best Drywall Takeoff and Estimating Software for Contractors'. Drop 'in 2026': it expires in three months, and reports link lightly re-dated '2026' titles to losses. Show a 'Last checked' date in the body instead.  
-**Web address (URL):** The '-in-2026' slug will date the page and breaks the sibling pattern. Check Search Console first. If impressions and links are low, move it to a yearless slug such as /blog/best-drywall-takeoff-software/ with a 301 when the rewrite is published, so the slug changes only once. If it has real traffic, keep it and move it at the January 2027 refresh.
+**Title:** Change the title to the buyer's wording, for example 'Best Drywall Takeoff and Estimating Software for Contractors'. Drop 'in 2026': it expires in three months, E-026 has no year, and reports link lightly re-dated '2026' titles to losses (QUALITY-11). Show a 'Last checked' date in the body instead. Retitle after the spam update ends.  
+**Web address (URL):** The '-in-2026' slug will date the page and breaks the sibling pattern. Keep it for the A2 check. When the rewrite is published, after the spam update, move it to a year-free slug such as /blog/best-drywall-takeoff-software/ with a 301, so it changes only once. Update E-026's quotr_url. If the rewrite slips past mid-December, leave the URL for the first 2027 batch.
 
 **Related tasks:** [[A2 Fact-fix sweep, part 1 - remove the old pricing everywhere|A2]], [[A6 Editorial sweep|A6]], [[A7 Named author bylines and author pages|A7]], [[A9 Sitemaps and lastmod dates|A9]], [[A16 Add a human edit and fact-check step for AI-assisted drafts|A16]], [[B2 Outreach to the best of lists AI cites (Tier A)|B2]], [[B3 Second monthly AI test; set engine-specific targets|B3]], [[B10 Residential hub; decide on the thin trade pages|B10]], [[C3 Ship the first free tools|C3]]
 
-**Why now:** T04 is a Tier A tracked prompt and Quotr is absent from its answer. The '2026' title expires in three months. Reports tie early-2026 visibility losses to self-promotional 'best X' lists that were only re-dated (RANK-07, QUALITY-11, not re-checked), so a real rework is safer than a date change.
+**Why now:** T04 is a Tier A tracked prompt, and Quotr is absent from its answer. The '2026' title expires in three months. Reports tie early-2026 losses to self-promotional 'best X' lists that were only re-dated (RANK-07, QUALITY-11; not confirmed by Google), so a real rework is safer than a date change. Start after the spam update ends (about 2026-10-08).
 
 ## Sources
 

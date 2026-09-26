@@ -43,7 +43,7 @@ updated_shown: 2026-05-14 (one search summary cited 'Quotr (May 14, 2026)'. It m
 # BP-17. How to Do a Construction Takeoff From a PDF Blueprint: Step-by-Step Manual vs AI Guide
 
 > [!abstract] In one line
-> This is the strongest post in the group. It ranks in web search, serves tracked prompt T26 (High) and is the agreed keeper for G12. It was not cited in either Perplexity test, and it lacks the answer-first steps with units and the Quotr example that cited rivals have.
+> This is the strongest post in the group. It ranks in web search, it is the mapped page for tracked prompt T26 (L-031, High) and for L-032 (High), and it is the agreed G12 keeper. Perplexity did not cite it in either test. It lacks an answer-first block with units and a Quotr worked example.
 
 **Live page:** [How to Do a Construction Takeoff From a PDF Blueprint: Step-by-Step Manual vs AI Guide](https://quotr.ai/blog/how-to-do-construction-takeoff-pdf-blueprint/)  
 **Published:** 2026-05-14 · **Cluster:** Trade how-tos and fundamentals · **Format:** how-to guide · **Funnel:** TOFU
@@ -62,14 +62,14 @@ A step-by-step guide to doing a takeoff from a PDF: set the scale from the title
 |---|---|---|---|---|---|
 | 4 | 4 | 3 | 4 | 3 | 3 |
 
-- **Visibility:** It ranks in web search. Its title was seen as 'How to Do a Construction Takeoff From a PDF Blueprint: Step-by-Step Manual vs AI Guide'. *(from 2026-09-25 audit; seen in search 2026-09-26)*
-- **Visibility:** It was not cited in Perplexity P1 (L-031, tracking ID T26, quotr_sources none) or S8 (L-032). The data file marks it ai_cited = true and lists S8 as a citing test. That is wrong: the S8 note says it 'exists and ranks in web search, but was not cited'. *(from 2026-09-25 AI tests)*
-- **Structure:** It already has a step-by-step method (set the scale, check each sheet, measure, apply waste, make line items, price), a manual vs AI comparison, and a 10-step AI workflow that runs through to procurement. *(seen in search 2026-09-26)*
-- **Structure:** The answers Perplexity built for this prompt used numbered steps with units (EA, LF, SF, CY), a manual-vs-AI rule of thumb and a 'still needs human checking' caveat. That mirrors the Bluebeam, BuildVision and ruh.ai pages it cited. Quotr's post is not known to have these as an answer-first block. *(from 2026-09-25 AI tests)*
-- **Uniqueness:** It came back first or second for searches aimed at construction-takeoff-guide and blueprint-to-priced-estimate-workflow, and neither of those URLs surfaced. The agreed map (G12) makes this the keeper for both. *(seen in search 2026-09-26)*
-- **Accuracy:** No wrong facts are known. The '95-99% on vector PDFs / 80-88% on scans' accuracy figures seen on this topic come from other posts. Accuracy percentages are still TO CONFIRM (Q-18). *(from 2026-09-25 audit)*
+- **Visibility:** It ranks in web search, according to the audit and the S8 note. One search pass saw the title 'How to Do a Construction Takeoff From a PDF Blueprint: Step-by-Step Manual vs AI Guide'. The vault does not record the title. *(from 2026-09-25 audit; seen in search 2026-09-26)*
+- **Visibility:** It was not cited in Perplexity P1 (L-031, T26, quotr_sources none) or S8 (L-032). The data file marks it ai_cited = true and lists S8 as a citing test. That is wrong: the S8 note says the post 'exists and ranks in web search, but was not cited'. *(from 2026-09-25 AI tests)*
+- **Structure:** Search summaries describe a step-by-step method (set the scale from the title block, check each sheet, measure, apply waste, make line items, price), a manual vs AI comparison, and a 10-step AI workflow through to procurement. The page layout itself (answer block, tables, FAQ) was not seen. *(seen in search 2026-09-26)*
+- **Structure:** For this prompt, the cited answer used numbered steps with units (each, LF, SF, CY), a manual-vs-AI rule of thumb and a 'still needs human checking' caveat. Perplexity cited Bluebeam, Autodesk, BuildVision and Kreo in P1, and Bluebeam, Buildxact, BuildVision AI, Houzz Pro, Autodesk and ruh.ai in S8. Nobody knows whether Quotr's post has such a block. *(from 2026-09-25 AI tests; inferred)*
+- **Uniqueness:** In one search pass, it came back first or second for searches aimed at construction-takeoff-guide and blueprint-to-priced-estimate-workflow. Neither of those URLs surfaced. The agreed map (G12) makes this post the keeper for both. No Quotr data or worked example was seen. *(seen in search 2026-09-26)*
+- **Accuracy:** No wrong facts are known. The vault traces the '95-99% on vector PDFs / 80-88% on scans' figures to other posts (the Togal alternatives and chat-with-blueprints posts). Whether this post repeats them is unknown. Accuracy percentages are still TO CONFIRM (Q-18). *(from 2026-09-25 audit)*
 - **Trust:** No byline or read time appeared in any result, so the byline is unknown. The advice is balanced: it recommends AI-assisted takeoff with human review and names manual tools (Bluebeam, PlanSwift). *(seen in search 2026-09-26)*
-- **Freshness:** The date is 2026-05-14 and matches the sitemap. There is no year in the title or slug. No 'Last updated' date was seen. *(from 2026-09-25 audit)*
+- **Freshness:** The date 2026-05-14 matches the sitemap. There is no year in the title or slug. No 'Last updated' date was seen. *(from 2026-09-25 audit)*
 
 ## Search and AI visibility
 
@@ -82,27 +82,27 @@ A step-by-step guide to doing a takeoff from a PDF: set the scale from the title
 
 **Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 8
 
-1. Correct the record first. The September baseline for T26 is Absent (P1), and S8 did not cite the post. Pull 6 months of GSC data (queries, clicks, impressions) and backlinks for this URL and for the two posts merging into it, and store it as the pre-merge baseline.
-2. Put a Quick answer under the H1: 6-7 numbered steps, each opening with its unit (set scale; counts in EA; lengths in LF; areas in SF; volumes in CY; add waste; price). This matches the structure of the cited Bluebeam, BuildVision and ruh.ai pages.
-3. Replace the prose comparison with a 'Manual vs AI takeoff' table (time, what AI does well, what a human must check). Add one brand-attributed sentence ('In Quotr.ai, …') and a plain human-check caveat. Do not add accuracy percentages until Q-18 is answered. Link is-ai-takeoff-actually-accurate-yet instead.
-4. Fold in the unique parts of the two G12 merge posts. Add a 'Takeoff vs estimate' H2 (serves L-045) from construction-takeoff-guide. Add a 'Turn quantities into a priced estimate' section (cost database or Quotr's average costs by US zip code, overhead, profit) from blueprint-to-priced-estimate-workflow. Then 301 both here.
-5. Add a worked example on one real or clearly labelled sample sheet: scale set from the title block, a quantity table and Quotr.ai screenshots with alt text. Add the short video the vault plan calls for.
-6. Add a named author or estimator reviewer (A7), visible Published and Last updated dates, and a matching sitemap lastmod (A9).
-7. Link to /dictionary/quantity-takeoff/, /dictionary/ai-takeoff/, construction-estimating-mistakes-to-avoid (scale errors) and ai-construction-estimating-software-that-turns-plans-into-prices-in-minutes (kept separate under G12). Request re-crawl, then re-run T26 in Perplexity plus the A15 engines 2-4 weeks later.
+1. Correct the record first: the data file's ai_cited flag for this post is wrong (P1 and S8 both Absent). Then snapshot GSC for this URL and the two G12 merge posts: queries, clicks, impressions and backlinks since 2026-05-14. Save the week of 17-23 September as the baseline from before the spam update (RANK-21).
+2. Put a Quick answer under the H1: 6-7 numbered steps, each with its unit (set and check the scale; counts in EA; lengths in LF; areas in SF; volumes in CY; add waste; price). This matches the shape of the answer Perplexity built for L-031 and L-032.
+3. Replace the prose comparison with a 'Manual vs AI takeoff' table (time, what AI does well, what a human must check). Add one brand-attributed sentence based on the live /software/ wording ('In Quotr.ai, every extracted quantity stays editable') and a plain human-check caveat. Add no accuracy percentages until Q-18 is answered. Link is-ai-takeoff-actually-accurate-yet instead.
+4. Before the 301s, fold in the unique parts of the two G12 merge posts. Add a 'Takeoff vs estimate' H2 for L-045 from construction-takeoff-guide. Add a 'Turn quantities into a priced estimate' section from blueprint-to-priced-estimate-workflow (line items, your own cost database or the Quotr database, overhead, profit). Do not write 'average costs by US zip code' until Quotr confirms it (the fact sheet marks it TO CONFIRM).
+5. Add a worked example on one clearly labelled sample sheet: the scale set from the title block, a quantity table, and Quotr.ai screenshots with alt text. Link Quotr's 'How to Set a Custom Drawing Scale' tutorial from the scale step. Add the short video that the Optimize vs create plan calls for.
+6. Add a named author or estimator reviewer (A7), visible Published and Last updated dates, and a matching sitemap lastmod (A9). Run the A16 fact-check before republishing.
+7. Link to /dictionary/quantity-takeoff/, /dictionary/ai-takeoff/, metric-imperial-construction-takeoff (from the scale step), construction-estimating-mistakes-to-avoid and ai-construction-estimating-software-that-turns-plans-into-prices-in-minutes (kept separate under G12). Request a re-crawl. Re-run T26 and L-032 in Perplexity and the A15 engines 2-4 weeks later.
 
 **Add to the page:**
 - Answer-first numbered steps with units (EA, LF, SF, CY)
 - Manual vs AI table with a human-check caveat and one 'In Quotr.ai…' sentence
 - 'Takeoff vs estimate' H2 (from construction-takeoff-guide)
 - Pricing section (from blueprint-to-priced-estimate-workflow)
-- Worked example with screenshots, plus a video
+- Worked example with screenshots, a scale-tutorial link and a video
 
-**Title:** Keep the substance but cut the title to about 60 characters and use the tracked prompt's words: 'How to Do a Quantity Takeoff From PDF Plans (Manual vs AI)'. Do not add a year.  
-**Web address (URL):** Keep the URL. It ranks, has no year, and is about to receive two 301s. Changing it would add a redirect chain.
+**Title:** Keep the substance, but cut the title to about 60 characters and use the tracked prompt's words: 'How to Do a Quantity Takeoff From PDF Plans (Manual vs AI)'. Do not add a year.  
+**Web address (URL):** Keep the URL. It ranks, has no year and is about to receive two 301s. Changing it would create a redirect chain.
 
 **Related tasks:** [[A7 Named author bylines and author pages|A7]], [[A9 Sitemaps and lastmod dates|A9]], [[A12 Merge duplicate pages|A12]], [[A15 Measurement setup and multi-engine baseline|A15]], [[A16 Add a human edit and fact-check step for AI-assisted drafts|A16]]
 
-**Why now:** It is the only Quotr page for a tracked High prompt (T26), and it already ranks, so the AI-citation gap is the cheapest one to close. The two G12 merges will also send their signals here, so the page should be ready before the redirects.
+**Why now:** It is the only Quotr page for a tracked High prompt (T26). It already ranks, so its AI-citation gap is the cheapest one to close. The two G12 merges will also send their signals here, so the page should be ready before the redirects.
 
 ## Overlaps with other Quotr posts
 
