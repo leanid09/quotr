@@ -29,7 +29,6 @@ ai_cited: false
 cited_in: []
 old_pricing: unknown
 flags:
-- cited by AI
 - not in web search
 - overlap
 health: poor

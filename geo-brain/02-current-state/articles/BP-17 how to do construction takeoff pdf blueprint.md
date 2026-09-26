@@ -23,12 +23,11 @@ target_prompts:
 - '[[L-032 how do I do a quantity takeoff from PDF plans - what is AI takeoff|L-032]]'
 web_indexed: 'yes'
 search_check: Found in web search (2026-09-25 or 2026-09-26)
-ai_cited: true
+ai_cited: false
 cited_in:
 - '[[2026-09-25 Perplexity S8]]'
 old_pricing: unknown
 flags:
-- cited by AI
 - no Quotr data
 - overlap
 health: fair
@@ -36,7 +35,7 @@ health_score: 70
 action: update
 merge_into: ''
 priority: high
-rank: 8
+rank: 32
 status: todo
 updated_shown: 2026-05-14 (one search summary cited 'Quotr (May 14, 2026)'. It matches the sitemap date. Unclear whether it is the publish or the update date.)
 ---
@@ -74,13 +73,13 @@ A step-by-step guide to doing a takeoff from a PDF: set the scale from the title
 ## Search and AI visibility
 
 - **Web search:** Found in web search (2026-09-25 or 2026-09-26).
-- **Cited in the September AI tests:** yes, in [[2026-09-25 Perplexity S8]].
+- **Cited in the September AI tests:** no. The test notes mention it, but it was not cited: [[2026-09-25 Perplexity S8]].
 - **Main buyer question it targets:** how to do a quantity takeoff from PDF plans.
 - **Buyer questions in the prompt library it serves:** [[L-031 how to do a quantity takeoff from PDF plans|L-031]], [[L-032 how do I do a quantity takeoff from PDF plans - what is AI takeoff|L-032]].
 
 ## What to do
 
-**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 8
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 32
 
 1. Correct the record first: the data file's ai_cited flag for this post is wrong (P1 and S8 both Absent). Then snapshot GSC for this URL and the two G12 merge posts: queries, clicks, impressions and backlinks since 2026-05-14. Save the week of 17-23 September as the baseline from before the spam update (RANK-21).
 2. Put a Quick answer under the H1: 6-7 numbered steps, each with its unit (set and check the scale; counts in EA; lengths in LF; areas in SF; volumes in CY; add waste; price). This matches the shape of the answer Perplexity built for L-031 and L-032.
@@ -114,7 +113,7 @@ See the full map in [[Blog health audit#Posts that compete with each other]].
 
 - [[Website audit#8.6 Blog posts (all 96), grouped by cluster]] (2026-09-25 audit: sitemap date, cluster, notes)
 - [[Blog health audit]] (method, limits and the overlap map)
-- AI test runs: [[2026-09-25 Perplexity S8]]
+- AI test runs that mention it: [[2026-09-25 Perplexity S8]]
 - Web search results used: <https://quotr.ai/blog/how-to-do-construction-takeoff-pdf-blueprint/>
 
 ## Log

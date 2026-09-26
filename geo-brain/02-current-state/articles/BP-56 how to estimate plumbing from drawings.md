@@ -33,7 +33,7 @@ health_score: 73
 action: update
 merge_into: ''
 priority: high
-rank: 10
+rank: 6
 status: todo
 ---
 # BP-56. How to estimate plumbing from drawings
@@ -69,13 +69,13 @@ Not captured: the post did not come up in the web searches we could run. See the
 ## Search and AI visibility
 
 - **Web search:** Not checked (the search limit was reached).
-- **Cited in the September AI tests:** yes, in [[2026-09-25 Perplexity N2]].
+- **Cited in the September AI tests:** yes, as a source in [[2026-09-25 Perplexity N2]].
 - **Main buyer question it targets:** how to estimate plumbing from drawings.
 - **Buyer questions in the prompt library it serves:** [[L-097 how to estimate plumbing from drawings|L-097]], [[L-098 plumbing price per fixture for new construction 2026|L-098]].
 
 ## What to do
 
-**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 10
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 6
 
 1. Before editing, save a copy of the page and record the October multi-engine baseline for T49 (A15). If Search Console access exists (Q-49), check the URL in URL Inspection; the GSC audit playbook lists it among the cited posts to check first. Publish the edit after the spam update ends (about 2026-10-08). Keep the step order and headings that Perplexity reused in N2.
 2. Write Quotr.ai into two or three key step sentences, for example: 'Quotr.ai's AI takeoff counts fixture symbols and measures pipe runs across the plan set; check that count against the fixture schedule.' Symbol counting and length measuring are fact-sheet features.
@@ -96,7 +96,7 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 - [[Website audit#8.6 Blog posts (all 96), grouped by cluster]] (2026-09-25 audit: sitemap date, cluster, notes)
 - [[Blog health audit]] (method, limits and the overlap map)
-- AI test runs: [[2026-09-25 Perplexity N2]]
+- AI test runs that mention it: [[2026-09-25 Perplexity N2]]
 - Web search results used: <https://quotr.ai/blog/how-to-estimate-plumbing-from-drawings/>
 
 ## Log

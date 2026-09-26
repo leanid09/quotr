@@ -24,12 +24,11 @@ target_prompts:
 - '[[E-062 Bluebeam vs PlanSwift for takeoff|E-062]]'
 web_indexed: 'no'
 search_check: Not returned by 3-7 targeted web searches on 2026-09-26
-ai_cited: true
+ai_cited: false
 cited_in:
 - '[[2026-09-25 Perplexity V4]]'
 old_pricing: 'yes'
 flags:
-- cited by AI
 - not in web search
 - old price
 health: poor
@@ -37,7 +36,7 @@ health_score: 40
 action: rewrite
 merge_into: ''
 priority: high
-rank: 2
+rank: 12
 status: todo
 ---
 # BP-57. Bluebeam alternative
@@ -73,13 +72,13 @@ Not captured: the post did not come up in the web searches we could run. See the
 ## Search and AI visibility
 
 - **Web search:** Not returned by 3-7 targeted web searches on 2026-09-26.
-- **Cited in the September AI tests:** yes, in [[2026-09-25 Perplexity V4]].
+- **Cited in the September AI tests:** no. The test notes mention it, but it was not cited: [[2026-09-25 Perplexity V4]].
 - **Main buyer question it targets:** Bluebeam alternatives for takeoff.
 - **Buyer questions in the prompt library it serves:** [[D-032 Quotr vs Bluebeam|D-032]], [[E-046 Bluebeam alternatives for takeoff|E-046]], [[E-062 Bluebeam vs PlanSwift for takeoff|E-062]].
 
 ## What to do
 
-**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 2
+**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 12
 
 1. Check indexing first. Run URL Inspection in Google Search Console and Bing Webmaster Tools. Confirm a 200 status, a self-referencing canonical, no noindex, and that the URL is in the blog sitemap, which robots.txt does not list today (A9). Then request indexing.
 2. Read the page and replace any 'Solo', 'Team' or 'from $299.90' pricing with 'Quotr.ai Lite $79.90 per seat per month; Quotr.ai Plus $299.90; Enterprise custom; 7-day free trial' (A2).
@@ -100,7 +99,7 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 - [[Website audit#8.6 Blog posts (all 96), grouped by cluster]] (2026-09-25 audit: sitemap date, cluster, notes)
 - [[Blog health audit]] (method, limits and the overlap map)
-- AI test runs: [[2026-09-25 Perplexity V4]]
+- AI test runs that mention it: [[2026-09-25 Perplexity V4]]
 - Web search results used: <https://www.fieldwire.com/blog/bluebeam-alternatives/>, <https://www.ingenious.build/blog-posts/bluebeam-alternatives>, <https://revizto.com/resources/blog/bluebeam-alternatives>, <https://easytakeoffs.com/blog/best-bluebeam-alternatives>, <https://www.ibeam.ai/compare/vs-bluebeam>, <https://support.bluebeam.com/revu/resources/revu-20-eol.html>
 
 ## Log

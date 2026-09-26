@@ -26,7 +26,6 @@ ai_cited: false
 cited_in: []
 old_pricing: 'yes'
 flags:
-- cited by AI
 - old price
 - overlap
 health: poor
@@ -34,7 +33,7 @@ health_score: 40
 action: update
 merge_into: ''
 priority: high
-rank: 19
+rank: 17
 status: todo
 ---
 # BP-47. Ai bidding software construction
@@ -80,7 +79,7 @@ A post on AI bidding software for construction. Its indexed text carries Quotr's
 
 ## What to do
 
-**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 19
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 17
 
 1. Now, as part of A2: replace 'Solo from $299.90/month, Team (2–6 seats) $499.90/month' and any 'Enterprise (7+ users)' line with 'Quotr.ai Lite $79.90 and Quotr.ai Plus $299.90 per seat per month; Enterprise custom; 7-day free trial (as of September 2026)'. Link /pricing/ and the new-pricing post. Make the same fix on best-ai-bid-software-for-construction the same day. Request a re-crawl in Search Console and Bing (IndexNow). Fact fixes may go ahead during Google's September spam update; add a Search Console annotation.
 2. Before any other edit, read both bid posts and pull 3 months of Search Console clicks, impressions and linking pages for each. Run E-025 once in two engines to get a baseline, because it has never been tested (Page refresh checklist, step 1).

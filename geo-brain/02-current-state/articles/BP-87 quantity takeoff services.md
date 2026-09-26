@@ -34,7 +34,7 @@ health_score: 70
 action: update
 merge_into: ''
 priority: high
-rank: 9
+rank: 5
 status: todo
 ---
 # BP-87. Quantity takeoff services
@@ -71,13 +71,13 @@ No new searches were possible (budget exhausted). The post covers outsourced qua
 ## Search and AI visibility
 
 - **Web search:** Not checked (the search limit was reached).
-- **Cited in the September AI tests:** yes, in [[2026-09-25 Perplexity S9]].
+- **Cited in the September AI tests:** yes, as a source in [[2026-09-25 Perplexity S9]].
 - **Main buyer question it targets:** quantity takeoff services.
 - **Buyer questions in the prompt library it serves:** [[E-074 how much does it cost to outsource a quantity takeoff|E-074]].
 
 ## What to do
 
-**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 9
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 5
 
 1. Before editing, record the page's baseline: its Search Console data, plus the T44 result from the A15 October baseline. This lets you measure the effect of the edit.
 2. Keep the cited ranges ($0.03-$0.10/sq ft; $250-$2,500 per estimate) where they are. Add a source link and 'as of September 2026' to each. Label them 'market range for takeoff-only work' if that is what they cover.
@@ -110,7 +110,7 @@ See the full map in [[Blog health audit#Posts that compete with each other]].
 
 - [[Website audit#8.6 Blog posts (all 96), grouped by cluster]] (2026-09-25 audit: sitemap date, cluster, notes)
 - [[Blog health audit]] (method, limits and the overlap map)
-- AI test runs: [[2026-09-25 Perplexity S9]]
+- AI test runs that mention it: [[2026-09-25 Perplexity S9]]
 - Web search results used: <https://constructem.com/affordable-construction-takeoff-services-cost-pricing-models/>, <https://www.powerkh.com/how-much-quantity-takeoff-cost/>, <https://www.takeoffmonkey.com/how-much-do-construction-takeoff-services-cost/>, <https://www.bobyard.com/blogs/bobyard-vs-takeoff-monkey/>
 
 ## Log

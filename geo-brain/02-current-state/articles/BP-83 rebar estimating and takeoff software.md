@@ -33,7 +33,7 @@ health_score: 53
 action: update
 merge_into: ''
 priority: high
-rank: 27
+rank: 26
 status: todo
 ---
 # BP-83. Rebar estimating and takeoff software
@@ -74,7 +74,7 @@ Observed: a 2026-09-25 WebSearch for Quotr's old plan names returned this URL, a
 
 ## What to do
 
-**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 27
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 26
 
 1. Fix the price under A2. First open the live page and search it for 'Solo', 'Team (2', '$499.90' and 'from $299.90' (Q-59). Replace each hit with 'Quotr.ai Lite $79.90 and Plus $299.90 per seat per month; Enterprise custom; 7-day free trial', with a checked date. Then request a re-crawl in Search Console and Bing or IndexNow (needs access, Q-49).
 2. While the page is open, write down the title, format, byline, dates and where Quotr is ranked. Check each competitor price on the vendor's own site and add a link and an 'as of' date (A6).

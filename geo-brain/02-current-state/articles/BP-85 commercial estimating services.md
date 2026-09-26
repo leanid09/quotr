@@ -34,7 +34,7 @@ health_score: 67
 action: update
 merge_into: ''
 priority: high
-rank: 17
+rank: 15
 status: todo
 ---
 # BP-85. Commercial Estimating Services: A 2026 Contractor Guide
@@ -72,13 +72,13 @@ A guide for contractors on buying commercial estimating services. Perplexity cit
 ## Search and AI visibility
 
 - **Web search:** Not checked (the search limit was reached).
-- **Cited in the September AI tests:** yes, in [[2026-09-25 Perplexity C12]].
+- **Cited in the September AI tests:** yes, as a source in [[2026-09-25 Perplexity C12]].
 - **Main buyer question it targets:** commercial construction estimating services cost.
 - **Buyer questions in the prompt library it serves:** [[E-080 commercial construction estimating services cost|E-080]].
 
 ## What to do
 
-**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 17
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 15
 
 1. Before editing, record the page's Search Console baseline and the T12 result from the A15 October baseline. This page is already cited, so the effect of each change needs to be measurable.
 2. Check whether the page states Quotr's rates. Rewrite the key price sentence and any table row with the brand in them, or add them under the market figures: 'Quotr.ai's Estimation Service charges $0.25 per sq ft under 50,000 sq ft and $0.10 per sq ft above (Quotr pricing page, September 2026).'
@@ -111,7 +111,7 @@ See the full map in [[Blog health audit#Posts that compete with each other]].
 
 - [[Website audit#8.6 Blog posts (all 96), grouped by cluster]] (2026-09-25 audit: sitemap date, cluster, notes)
 - [[Blog health audit]] (method, limits and the overlap map)
-- AI test runs: [[2026-09-25 Perplexity C12]]
+- AI test runs that mention it: [[2026-09-25 Perplexity C12]]
 - Web search results used: <https://quotr.ai/blog/commercial-estimating-services/>
 
 ## Log

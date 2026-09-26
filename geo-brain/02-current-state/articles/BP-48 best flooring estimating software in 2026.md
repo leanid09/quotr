@@ -32,7 +32,7 @@ health_score: 43
 action: rewrite
 merge_into: ''
 priority: high
-rank: 16
+rank: 14
 status: todo
 ---
 # BP-48. Best flooring estimating software in 2026
@@ -75,7 +75,7 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## What to do
 
-**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 16
+**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 14
 
 1. Now, as part of A2: replace the indexed Solo/Team pricing with 'Quotr.ai Lite $79.90 and Quotr.ai Plus $299.90 per seat per month; Enterprise custom; 7-day free trial (as of September 2026)'. Request a re-crawl and add a Search Console annotation.
 2. After the spam update ends, read the page, pull Search Console data, and re-aim the title, H1 and answer-first block at E-027 'best takeoff software for flooring contractors' (T05). Drop 'in 2026' from the title.

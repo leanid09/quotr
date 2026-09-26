@@ -32,7 +32,6 @@ cited_in: []
 old_pricing: unknown
 flags:
 - brand byline
-- cited by AI
 - leftover brief text
 - no Quotr data
 - overlap
@@ -44,7 +43,7 @@ health_score: 53
 action: update
 merge_into: ''
 priority: high
-rank: 25
+rank: 23
 status: todo
 updated_shown: May 12, 2026 (date shown in a search summary; no later update date seen)
 ---
@@ -96,7 +95,7 @@ Says Togal.AI is a strong AI takeoff tool for detecting, measuring, counting and
 
 ## What to do
 
-**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 25
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 23
 
 1. Now (single-page fact fixes may go live during the Google spam update, with a Search Console note): delete every leftover brief line. That means 'Best buyer prompt | …', 'Quotr.ai should win when the buyer is asking…', 'Trade-specific workflows | Yes, should be emphasized…', '…AI Search systems trust balanced pages more than hype pages', 'Quotr.ai should not compete only on software price' and '…should be positioned around the full workflow'. Rewrite the 'Best For Summary' table to match the conclusion: Togal.AI = fast AI takeoff (detect, measure, count, label); Quotr.ai = takeoff through estimate, bid, supplier quotes and procurement (A6, A16).
 2. Now: replace 'See Quotr.ai pricing' with a dated price table that names the brand. Row 1: 'Quotr.ai Lite $79.90 and Quotr.ai Plus $299.90 per seat per month; Enterprise custom; 7-day free trial (quotr.ai/pricing, as of [date])'. Row 2: 'Togal.AI Growth $299 per user per month, billed yearly; Business custom for 4+ users (togal.ai/pricing, as of [date])'. Add that Plus includes 2,000 sq ft of takeoff credits a month, 2 hours of guided onboarding and 10% off procurement. Write 'Quotr.ai Lite', not just 'Lite', because Kreo sells plans with the same names (A2, A8).

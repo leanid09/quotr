@@ -25,7 +25,6 @@ ai_cited: false
 cited_in: []
 old_pricing: 'yes'
 flags:
-- cited by AI
 - old price
 - overlap
 - year in URL
@@ -34,7 +33,7 @@ health_score: 40
 action: rewrite
 merge_into: ''
 priority: high
-rank: 14
+rank: 11
 status: todo
 ---
 # BP-46. Best electrical estimating software 2026
@@ -79,7 +78,7 @@ A 2026 best-of list of electrical estimating software. Its indexed text carries 
 
 ## What to do
 
-**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 14
+**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 11
 
 1. Now, as part of A2: replace the indexed 'Solo from $299.90/month, Team (2–6 seats) $499.90/month' with 'Quotr.ai Lite $79.90 and Quotr.ai Plus $299.90 per seat per month; Enterprise custom; 7-day free trial (as of September 2026)'. Request a re-crawl in Search Console and Bing, and add a Search Console annotation.
 2. Before the rewrite, read both electrical posts and pull Search Console data for each. G11 keeps this URL. If the guide clearly has more impressions or links, raise it with the consultant. Then move the guide's unique material into a new H2, 'How to choose electrical estimating software', and 301 the guide here (A12; G11 is last in the merge order, after the spam update ends).

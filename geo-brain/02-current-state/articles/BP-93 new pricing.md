@@ -25,8 +25,7 @@ search_check: Not checked (the search limit was reached)
 ai_cited: false
 cited_in: []
 old_pricing: unknown
-flags:
-- cited by AI
+flags: []
 health: fair
 health_score: 73
 action: update

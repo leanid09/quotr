@@ -38,7 +38,7 @@ health_score: 50
 action: update
 merge_into: ''
 priority: high
-rank: 3
+rank: 1
 status: todo
 ---
 # BP-81. Top 7 PlanSwift Alternatives for 2026 (AI Takeoff & Estimating)
@@ -77,13 +77,13 @@ Ranks 7 PlanSwift alternatives: Quotr.ai first, then STACK ("best established cl
 ## Search and AI visibility
 
 - **Web search:** Found in web search (2026-09-25 or 2026-09-26).
-- **Cited in the September AI tests:** yes, in [[2026-09-25 Perplexity V3]].
+- **Cited in the September AI tests:** yes, as a source in [[2026-09-25 Perplexity V3]].
 - **Main buyer question it targets:** PlanSwift alternatives.
 - **Buyer questions in the prompt library it serves:** [[E-044 PlanSwift alternatives 2026|E-044]].
 
 ## What to do
 
-**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 3
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 1
 
 1. Read the page directly and search it for 'Solo', 'Team (2', '$499.90' and 'cheaper entry point'. Replace any hit with 'Quotr.ai Lite $79.90 per seat per month; Quotr.ai Plus $299.90; Enterprise custom; 7-day free trial' (A2). Do the same on quotr-ai-vs-planswift-ai-takeoff-procurement-comparison-2026, and add both URLs to A2's named list.
 2. Fix the PlanSwift price. Replace '$1,749/user/year' with 'annual subscriptions from $2,000 for the first seat, less for extra seats (ConstructConnect, July 2026)', with a link and date. Keep the Windows-only, no-Mac and subscription sentences near the top, because Perplexity lifts them. Source the '2025 move' or cut it.
@@ -110,7 +110,7 @@ See the full map in [[Blog health audit#Posts that compete with each other]].
 
 - [[Website audit#8.6 Blog posts (all 96), grouped by cluster]] (2026-09-25 audit: sitemap date, cluster, notes)
 - [[Blog health audit]] (method, limits and the overlap map)
-- AI test runs: [[2026-09-25 Perplexity V3]]
+- AI test runs that mention it: [[2026-09-25 Perplexity V3]]
 - Web search results used: <https://quotr.ai/blog/best-planswift-alternatives-2026/>, <https://quotr.ai/blog/quotr-ai-vs-planswift-ai-takeoff-procurement-comparison-2026/>, <https://quotr.ai/blog/stack-alternative/>, <https://www.capterra.com/p/70808/PlanSwift/alternatives/>, <https://downtobid.com/blog/planswift-alternatives>, <https://oneestimate.ai/en/blog/planswift-alternatives-2026>
 
 ## Log

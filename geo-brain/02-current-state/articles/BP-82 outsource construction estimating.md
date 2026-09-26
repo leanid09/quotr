@@ -35,7 +35,7 @@ health_score: 77
 action: update
 merge_into: ''
 priority: high
-rank: 11
+rank: 7
 status: todo
 ---
 # BP-82. Outsource construction estimating
@@ -72,13 +72,13 @@ A post on outsourcing construction estimating, including price per sq ft. It was
 ## Search and AI visibility
 
 - **Web search:** Not checked (the search limit was reached).
-- **Cited in the September AI tests:** yes, in [[2026-09-25 Perplexity C12]].
+- **Cited in the September AI tests:** yes, as a source in [[2026-09-25 Perplexity C12]].
 - **Main buyer question it targets:** outsourced construction estimating service price per square foot.
 - **Buyer questions in the prompt library it serves:** [[E-073 outsourced construction estimating service price per square foot for developers|E-073]].
 
 ## What to do
 
-**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 11
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 7
 
 1. Before any edit, record the baseline: Search Console data for this URL and for construction-estimating-services, plus the T12 result from the A15 October baseline, run before the fixed pages are re-crawled.
 2. Edit sentences, not structure. Do not rebuild the page from scratch, even though R-05 calls it a rebuild. Keep the price section, and any price table, where they are.
@@ -113,7 +113,7 @@ See the full map in [[Blog health audit#Posts that compete with each other]].
 
 - [[Website audit#8.6 Blog posts (all 96), grouped by cluster]] (2026-09-25 audit: sitemap date, cluster, notes)
 - [[Blog health audit]] (method, limits and the overlap map)
-- AI test runs: [[2026-09-25 Perplexity C12]]
+- AI test runs that mention it: [[2026-09-25 Perplexity C12]]
 - Web search results used: <https://quotr.ai/blog/outsource-construction-estimating/>
 
 ## Log

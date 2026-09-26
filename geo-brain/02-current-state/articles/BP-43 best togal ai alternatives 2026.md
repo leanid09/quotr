@@ -28,7 +28,6 @@ cited_in: []
 old_pricing: 'yes'
 flags:
 - brand byline
-- cited by AI
 - date mismatch
 - old price
 - overlap
@@ -41,7 +40,7 @@ health_score: 37
 action: merge
 merge_into: '[[BP-32 best togal ai alternatives]]'
 priority: high
-rank: 12
+rank: 8
 status: todo
 ---
 # BP-43. Top 10 Togal AI Alternatives for Construction Takeoff and Estimating (2026)
@@ -86,7 +85,7 @@ A ranked list of 10 Togal.AI alternatives with Quotr.ai at #1. It describes Toga
 
 ## What to do
 
-**Action: Merge** · **Priority:** high · **Effort:** S · **Order in the refresh queue:** 12
+**Action: Merge** · **Priority:** high · **Effort:** S · **Order in the refresh queue:** 8
 
 **Merge into:** [[BP-32 best togal ai alternatives]]
 

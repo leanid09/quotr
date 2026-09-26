@@ -25,19 +25,18 @@ target_prompts:
 - '[[L-111 DDP vs FOB for importing building materials, which is better|L-111]]'
 web_indexed: not checked
 search_check: Not checked (the search limit was reached)
-ai_cited: true
+ai_cited: false
 cited_in:
 - '[[2026-09-25 Perplexity C10]]'
 old_pricing: unknown
 flags:
-- cited by AI
 - no Quotr data
 health: poor
 health_score: 53
 action: rewrite
 merge_into: ''
 priority: high
-rank: 5
+rank: 25
 status: todo
 ---
 # BP-62. Ddp construction materials
@@ -73,13 +72,13 @@ Not captured: the post did not come up in the web searches we could run. See the
 ## Search and AI visibility
 
 - **Web search:** Not checked (the search limit was reached).
-- **Cited in the September AI tests:** yes, in [[2026-09-25 Perplexity C10]].
+- **Cited in the September AI tests:** no. Perplexity looked at it but did not use it as a source (retrieved only) in [[2026-09-25 Perplexity C10]].
 - **Main buyer question it targets:** what does DDP mean when buying building materials.
 - **Buyer questions in the prompt library it serves:** [[E-081 buy construction materials direct from factories overseas platform|E-081]], [[L-110 what does DDP mean when buying building materials|L-110]], [[L-111 DDP vs FOB for importing building materials, which is better|L-111]].
 
 ## What to do
 
-**Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 5
+**Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 25
 
 1. Through A1, get Quotr's answers to Q-12 (what the DDP price includes, including tariffs and AD/CVD duties) and Q-11 (delivery area) before writing any list of inclusions.
 2. Retitle the post. Open with a 40-80 word answer to L-110 that puts the brand inside the fact (A8): 'Quotr Procurement, Quotr.ai's factory-direct buying program, quotes one delivered-duty-paid (DDP) price to your jobsite that covers …'. List approved items only.
@@ -113,7 +112,7 @@ See the full map in [[Blog health audit#Posts that compete with each other]].
 
 - [[Website audit#8.6 Blog posts (all 96), grouped by cluster]] (2026-09-25 audit: sitemap date, cluster, notes)
 - [[Blog health audit]] (method, limits and the overlap map)
-- AI test runs: [[2026-09-25 Perplexity C10]]
+- AI test runs that mention it: [[2026-09-25 Perplexity C10]]
 - Web search results used: <https://quotr.ai/blog/ddp-construction-materials/>
 
 ## Log

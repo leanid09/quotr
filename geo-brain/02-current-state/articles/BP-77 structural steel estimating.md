@@ -25,14 +25,13 @@ ai_cited: false
 cited_in: []
 old_pricing: 'yes'
 flags:
-- cited by AI
 - old price
 health: fair
 health_score: 57
 action: update
 merge_into: ''
 priority: high
-rank: 29
+rank: 28
 status: todo
 ---
 # BP-77. Structural steel estimating
@@ -74,7 +73,7 @@ Observed: a WebSearch summary of this post quoted Quotr pricing as 'Solo from $2
 
 ## What to do
 
-**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 29
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 28
 
 1. Do A2 on this URL first. Open the live page and search it for 'Solo', 'Team (2', '$499.90', 'Enterprise 7+' and 'from $299.90' (Q-59). Replace the block with 'Quotr.ai Lite $79.90 and Plus $299.90 per seat per month; Enterprise custom pricing; 7-day free trial', with a checked date. On the same day, request a re-crawl in Search Console (URL Inspection) and Bing or IndexNow (needs access, Q-49).
 2. Write the new pricing sentence and the one-line description of what Quotr does on steel drawings with 'Quotr.ai' inside the sentence (A8 style). This page is not on A8's list, so add it there.

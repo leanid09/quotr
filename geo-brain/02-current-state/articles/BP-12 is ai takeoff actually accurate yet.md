@@ -36,7 +36,7 @@ health_score: 67
 action: update
 merge_into: ''
 priority: high
-rank: 7
+rank: 4
 status: todo
 ---
 # BP-12. Is ai takeoff actually accurate yet
@@ -76,7 +76,7 @@ The post covers how accurate AI takeoff is today. On 2026-09-25, Perplexity used
 ## Search and AI visibility
 
 - **Web search:** Not checked (the search limit was reached).
-- **Cited in the September AI tests:** yes, in [[2026-09-25 Perplexity P5]].
+- **Cited in the September AI tests:** yes, as a source in [[2026-09-25 Perplexity P5]].
 - **Main buyer question it targets:** how accurate is AI takeoff.
 - **Buyer questions in the prompt library it serves:** [[L-035 how accurate is AI takeoff|L-035]], [[L-039 does AI takeoff work on scanned PDFs|L-039]], [[L-041 are there actually any AI takeoff tools that work|L-041]].
 
@@ -88,7 +88,7 @@ The post covers how accurate AI takeoff is today. On 2026-09-25, Perplexity used
 
 ## What to do
 
-**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 7
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 4
 
 1. Before editing, save a copy of the current page (HTML and text) and mark the sentence Perplexity quoted. Keep that answer in the same place near the top.
 2. Get Q-18 answered as part of A1: one accuracy figure, with its conditions. Until then, label every figure 'Quotr.ai internal benchmarking', and make the vector-PDF lower bound (94% or 95%) match the other Quotr pages.
@@ -122,7 +122,7 @@ See the full map in [[Blog health audit#Posts that compete with each other]].
 
 - [[Website audit#8.6 Blog posts (all 96), grouped by cluster]] (2026-09-25 audit: sitemap date, cluster, notes)
 - [[Blog health audit]] (method, limits and the overlap map)
-- AI test runs: [[2026-09-25 Perplexity P5]]
+- AI test runs that mention it: [[2026-09-25 Perplexity P5]]
 - Web search results used: <https://quotr.ai/blog/is-ai-takeoff-actually-accurate-yet/>
 
 ## Log

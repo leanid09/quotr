@@ -36,7 +36,7 @@ health_score: 60
 action: rewrite
 merge_into: ''
 priority: high
-rank: 30
+rank: 29
 status: todo
 ---
 # BP-38. Takeoff to buyout construction estimating procurement platform
@@ -80,7 +80,7 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## What to do
 
-**Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 30
+**Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 29
 
 1. Before paying for R-13, make this page the only owner of E-006 (T09). Take E-006 off R-08 and R-27 in the roadmap and have those pages link here. Point R-33 at this page for E-066. Add R-13 to the action plan with an owner and a date.
 2. Read the live page and pull Search Console data for this URL and the-takeoff-to-transaction-gap (A15). Then rebuild on the same URL. Open with a 40–80 word answer with Quotr.ai in the key sentence: takeoff, material list, factory quote, quality check and DDP delivery in one workflow. Use only facts from the approved fact sheet (A1).

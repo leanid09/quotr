@@ -43,7 +43,7 @@ health_score: 53
 action: rewrite
 merge_into: ''
 priority: high
-rank: 4
+rank: 2
 status: todo
 ---
 # BP-32. The Best Togal.AI Alternative by Trade (2026)
@@ -81,13 +81,13 @@ Names Quotr.ai as the best overall Togal.AI alternative, then picks tools by tra
 ## Search and AI visibility
 
 - **Web search:** Found in web search (2026-09-25 or 2026-09-26).
-- **Cited in the September AI tests:** yes, in [[2026-09-25 Perplexity V1]].
+- **Cited in the September AI tests:** yes, as a source in [[2026-09-25 Perplexity V1]].
 - **Main buyer question it targets:** Togal AI alternatives.
 - **Buyer questions in the prompt library it serves:** [[E-043 Togal.AI alternatives|E-043]].
 
 ## What to do
 
-**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 4
+**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 2
 
 1. Read the live page and search it for '$299.90', '$499.90', 'Personal', 'Solo' and 'Team (2'. Replace any hit with 'Quotr.ai Lite $79.90 per seat per month; Quotr.ai Plus $299.90; Enterprise custom; 7-day free trial' (A2). While reading, check for Kreo 'as low as $35/month' and the unsourced Togal 'layout logic' line.
 2. Rebuild it following R-04 and the Alternatives page template. Put a disclosure line at the top, then organise by use case instead of 'best overall = Quotr'. Keep the trade picks (The EDGE, MeasureSquare, On-Screen Takeoff, Kreo) and add the tools V1 named: STACK, PlanSwift, Bluebeam, Beam AI and Buildxact.
@@ -114,7 +114,7 @@ See the full map in [[Blog health audit#Posts that compete with each other]].
 
 - [[Website audit#8.6 Blog posts (all 96), grouped by cluster]] (2026-09-25 audit: sitemap date, cluster, notes)
 - [[Blog health audit]] (method, limits and the overlap map)
-- AI test runs: [[2026-09-25 Perplexity V1]]
+- AI test runs that mention it: [[2026-09-25 Perplexity V1]]
 - Web search results used: <https://quotr.ai/blog/best-togal-ai-alternatives/>, <https://quotr.ai/blog/best-togal-ai-alternatives-2026/>, <https://quotr.ai/blog/quotr-vs-togal-ai-comparison-2026/>, <https://quotr.ai/blog/best-flooring-estimating-software-in-2026/>, <https://sourceforge.net/software/product/Togal.AI/alternatives>
 
 ## Log

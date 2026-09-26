@@ -36,7 +36,7 @@ health_score: 47
 action: rewrite
 merge_into: ''
 priority: high
-rank: 20
+rank: 18
 status: todo
 ---
 # BP-23. Tariff impact construction costs 2026 steel aluminum copper
@@ -77,7 +77,7 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## What to do
 
-**Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 20
+**Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 18
 
 1. In October, before any rewrite, open the live page. Record its title, byline, on-page dates and every tariff rate it states. Search it for the retired prices ('Solo', 'Team', '$499.90', 'from $299.90'; 'Plus $299.90' is correct) and fix any hit under A2. Note any 'based in San Francisco' footer for A3, but leave it until Q-01 is answered. Confirm indexing with Search Console URL Inspection once access exists (Q-49).
 2. Open with a 40-80 word answer to L-113 for home builders and multifamily developers. Cite JEC's April 2026 report ($7,500-$10,900 added per home) and Brookings (about $30B added, about 90% of it on new construction). The vault saw both only through Perplexity, so open the JEC PDF and the Brookings article and confirm the figures before quoting them.

@@ -33,7 +33,7 @@ health_score: 37
 action: merge
 merge_into: '[[BP-47 ai bidding software construction]]'
 priority: high
-rank: 13
+rank: 10
 status: todo
 ---
 # BP-80. Best ai bid software for construction
@@ -74,7 +74,7 @@ A best-of list of AI bid software for construction. Its indexed text still carri
 
 ## What to do
 
-**Action: Merge** · **Priority:** high · **Effort:** S · **Order in the refresh queue:** 13
+**Action: Merge** · **Priority:** high · **Effort:** S · **Order in the refresh queue:** 10
 
 **Merge into:** [[BP-47 ai bidding software construction]]
 

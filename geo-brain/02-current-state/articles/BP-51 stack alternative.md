@@ -22,12 +22,11 @@ target_prompts:
 - '[[E-047 STACK takeoff alternatives for small residential subcontractors|E-047]]'
 web_indexed: 'yes'
 search_check: Found in web search (2026-09-25 or 2026-09-26)
-ai_cited: true
+ai_cited: false
 cited_in:
 - '[[2026-09-25 Perplexity V10]]'
 old_pricing: 'yes'
 flags:
-- cited by AI
 - date mismatch
 - no Quotr data
 - old price
@@ -38,7 +37,7 @@ health_score: 37
 action: rewrite
 merge_into: ''
 priority: high
-rank: 1
+rank: 9
 status: todo
 updated_shown: June 30, 2026 (on-page 'Last updated', read directly in the 2026-09-25 verification notes; the sitemap says 2026-06-25)
 ---
@@ -76,13 +75,13 @@ A page that sets Quotr.ai up as an alternative to STACK takeoff software. It quo
 ## Search and AI visibility
 
 - **Web search:** Found in web search (2026-09-25 or 2026-09-26).
-- **Cited in the September AI tests:** yes, in [[2026-09-25 Perplexity V10]].
+- **Cited in the September AI tests:** no. Perplexity looked at it but did not use it as a source (retrieved only) in [[2026-09-25 Perplexity V10]].
 - **Main buyer question it targets:** STACK takeoff software alternatives.
 - **Buyer questions in the prompt library it serves:** [[E-047 STACK takeoff alternatives for small residential subcontractors|E-047]].
 
 ## What to do
 
-**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 1
+**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 9
 
 1. October week 2 (A2): replace the Solo/Team/Enterprise (7+) line in the body with 'Quotr.ai Lite $79.90 per seat per month; Quotr.ai Plus $299.90; Enterprise custom; 7-day free trial'. Rewrite the FAQ line 'cheaper entry point at $299.90/month': say Quotr.ai Lite ($79.90) lists below STACK's paid tier ($249), but STACK has a free version and Quotr does not.
 2. Same week (A6): change 'PlanSwift … a Trimble product' to 'PlanSwift (ConstructConnect)'. Replace '$2,599–$2,999/year' with dated, linked STACK prices: from $249 per user per month plus a free version (stackct.com/pricing, Sep 2026); Premium $249 and Pro $299 per user per month billed annually, plus the FloorPlan AI add-on at $899 per user (ConstructConnect guide, July 2026).
@@ -109,7 +108,7 @@ See the full map in [[Blog health audit#Posts that compete with each other]].
 
 - [[Website audit#8.6 Blog posts (all 96), grouped by cluster]] (2026-09-25 audit: sitemap date, cluster, notes)
 - [[Blog health audit]] (method, limits and the overlap map)
-- AI test runs: [[2026-09-25 Perplexity V10]]
+- AI test runs that mention it: [[2026-09-25 Perplexity V10]]
 - Web search results used: <https://quotr.ai/blog/stack-alternative/ (read directly, per /home/user/quotr/research_notes/Quotr GEO AEO strategy audit/verification_quotr_and_competitors.md, claims 4, 7, 10, 12 and Gaps filled 2 and 5)>, <https://easytakeoffs.com/blog/best-stack-alternatives>, <https://projul.com/blog/best-stack-alternatives-estimating/>, <https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026>
 
 ## Log

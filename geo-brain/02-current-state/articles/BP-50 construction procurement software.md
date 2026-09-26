@@ -32,7 +32,7 @@ health_score: 60
 action: rewrite
 merge_into: ''
 priority: high
-rank: 31
+rank: 30
 status: todo
 ---
 # BP-50. Construction procurement software
@@ -76,7 +76,7 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## What to do
 
-**Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 31
+**Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 30
 
 1. Re-scope before writing. Target E-013 (T42). Leave E-006 (T09) to the takeoff-to-buyout post (R-13) and link to it. Cover the factory-direct angle in one section, but leave E-015 to /procurement/. If the consultant agrees, remove E-006 from R-27's target_prompts in the vault.
 2. Open the live page and write down the title, byline, date, the tools listed and every Quotr claim (factory count, savings, delivery area). Search it for 'Solo', 'Team (2', '$499.90' and 'from $299.90' too.

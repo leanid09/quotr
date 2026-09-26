@@ -32,7 +32,7 @@ health_score: 50
 action: rewrite
 merge_into: ''
 priority: high
-rank: 24
+rank: 22
 status: todo
 ---
 # BP-55. Best Drywall Estimating Software in 2026
@@ -74,7 +74,7 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## What to do
 
-**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 24
+**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 22
 
 1. During the A2 sweep, check the page for retired pricing, because the vault notes disagree on whether it needs a price fix. Use Search Console URL Inspection to confirm it is indexed, and pull its queries.
 2. After the spam update ends, re-aim the title, H1 and answer-first block at E-026 'best takeoff software for drywall contractors' (T04, Tier A). Drop 'in 2026' from the title.

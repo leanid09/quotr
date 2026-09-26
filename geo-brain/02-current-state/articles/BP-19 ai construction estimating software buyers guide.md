@@ -25,7 +25,6 @@ ai_cited: false
 cited_in: []
 old_pricing: 'yes'
 flags:
-- cited by AI
 - old price
 - overlap
 health: poor
@@ -33,7 +32,7 @@ health_score: 37
 action: merge
 merge_into: '[[BP-24 best ai construction estimating software 2026]]'
 priority: high
-rank: 18
+rank: 16
 status: todo
 ---
 # BP-19. Ai construction estimating software buyers guide
@@ -73,7 +72,7 @@ A buyer's guide to choosing AI construction estimating software. AI answers use 
 
 ## What to do
 
-**Action: Merge** · **Priority:** high · **Effort:** S · **Order in the refresh queue:** 18
+**Action: Merge** · **Priority:** high · **Effort:** S · **Order in the refresh queue:** 16
 
 **Merge into:** [[BP-24 best ai construction estimating software 2026]]
 

@@ -32,7 +32,7 @@ health_score: 60
 action: rewrite
 merge_into: ''
 priority: high
-rank: 32
+rank: 31
 status: todo
 ---
 # BP-61. Reduce construction material costs
@@ -76,7 +76,7 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## What to do
 
-**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 32
+**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 31
 
 1. Read the live page before rebuilding. Record its title, byline, date and any savings, factory or delivery claims. Use the October A15 baseline for T29 across six engines as the 'before' result.
 2. Rebuild it as R-11 on the same URL. Open with a 40–80 word answer that lists the main levers: accurate takeoff and waste factors, early buyout and price locks, consolidated orders, value-engineering substitutions, and factory-direct buying.

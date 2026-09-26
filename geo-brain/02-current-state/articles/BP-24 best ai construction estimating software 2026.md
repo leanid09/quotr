@@ -27,7 +27,6 @@ ai_cited: false
 cited_in: []
 old_pricing: 'yes'
 flags:
-- cited by AI
 - old price
 - overlap
 - self-ranked first
@@ -38,7 +37,7 @@ health_score: 43
 action: rewrite
 merge_into: ''
 priority: high
-rank: 15
+rank: 13
 status: todo
 ---
 # BP-24. Best ai construction estimating software 2026
@@ -88,7 +87,7 @@ Quotr's 2026 roundup of AI construction estimating and takeoff tools. It ranks Q
 
 ## What to do
 
-**Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 15
+**Action: Rewrite** · **Priority:** high · **Effort:** L · **Order in the refresh queue:** 13
 
 1. October week 2 (A2): read the page and replace any 'Solo $299.90', 'Team $499.90' or 'from $299.90' with 'Quotr.ai Lite $79.90 per seat per month; Quotr.ai Plus $299.90; Enterprise custom; 7-day free trial'. Request a re-crawl.
 2. Fix the 'Procurement Wedge' numbers. '220+ vetted factories' and '40–50% below retail markup' conflict with '50+ audited manufacturers' and '40–55%' elsewhere. Use the wording approved under A1/A3, or cut the numbers until Quotr confirms them.

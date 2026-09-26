@@ -31,7 +31,7 @@ health_score: 50
 action: rewrite
 merge_into: ''
 priority: high
-rank: 23
+rank: 21
 status: todo
 ---
 # BP-33. Hvac estimating software 2026 buyers guide
@@ -73,7 +73,7 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## What to do
 
-**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 23
+**Action: Rewrite** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 21
 
 1. During the A2 sweep, check the page for retired Solo/Team pricing. Use Search Console URL Inspection to confirm it is indexed, because web indexing was never checked. Pull its queries to see whether it already earns 'HVAC takeoff' searches.
 2. After the spam update ends, rewrite the answer-first block for E-030 (T50) and split the market honestly. Field-service quoting apps (QuoteIQ, ServiceTitan and FieldPulse, as named in N3) suit service and replacement jobs. Plan-based takeoff tools suit new-construction and commercial mechanical bids. Check what WenDuct does on its own site before placing it, and include Beam AI's HVAC takeoff. Say when a field-service app is the better choice.

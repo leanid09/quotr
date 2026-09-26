@@ -34,7 +34,7 @@ health_score: 57
 action: update
 merge_into: ''
 priority: high
-rank: 28
+rank: 27
 status: todo
 ---
 # BP-18. AI That Reads Construction Drawings: Chat With Your Blueprints Using Quotr.ai
@@ -77,7 +77,7 @@ The post presents Quotr.ai's AI Agent, which lets users ask questions about cons
 
 ## What to do
 
-**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 28
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 27
 
 1. Open with a neutral 40-80 word answer to 'Can AI read construction drawings?'. Say what AI reads well on vector PDFs (text, schedules, symbol counts, areas), what it reads badly (scans, handwritten markups, non-standard symbols), and that the estimator checks the result. Put 'How the Quotr.ai AI Agent does it' after that.
 2. Add 3 worked examples from a real plan set. Show a screenshot of each answer with its link back to the sheet. For example: a device count on an electrical sheet, the linear feet of a rated wall type, and the hardware sets from a door schedule. Use real outputs only.

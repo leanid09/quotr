@@ -36,7 +36,7 @@ health_score: 57
 action: update
 merge_into: ''
 priority: high
-rank: 6
+rank: 3
 status: todo
 ---
 # BP-59. How developers source building materials
@@ -76,13 +76,13 @@ From vault notes, not new searches: Perplexity cited it on 2026-09-25. It covers
 ## Search and AI visibility
 
 - **Web search:** Not checked (the search limit was reached).
-- **Cited in the September AI tests:** yes, in [[2026-09-25 Perplexity S6]].
+- **Cited in the September AI tests:** yes, as a source in [[2026-09-25 Perplexity S6]].
 - **Main buyer question it targets:** where can developers buy building materials factory direct from China.
 - **Buyer questions in the prompt library it serves:** [[E-083 where can home builders and multifamily developers buy building materials factory-direct|E-083]], [[L-109 how to import building materials from China for a construction project|L-109]].
 
 ## What to do
 
-**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 6
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 3
 
 1. Protect the citation. Keep the URL, and keep the three facts Perplexity lifted near the top in short sentences. Change only what A1 corrects. Put the brand in each sentence, for example 'Quotr.ai sources from manufacturers in Foshan and Guangdong'. Add this page to A8's list, because AI already reads it.
 2. Replace every factory count with the one sentence A1 approves, for example 'a network of [N] factories in China, of which [N] are audited manufacturers in Foshan and Guangdong'. Until A1 decides, remove the number. Keep 'full quote in 3–5 days' only if Quotr confirms it, written as 'Quotr.ai typically sends a full quote in about 3–5 business days'.
@@ -115,7 +115,7 @@ See the full map in [[Blog health audit#Posts that compete with each other]].
 
 - [[Website audit#8.6 Blog posts (all 96), grouped by cluster]] (2026-09-25 audit: sitemap date, cluster, notes)
 - [[Blog health audit]] (method, limits and the overlap map)
-- AI test runs: [[2026-09-25 Perplexity S6]]
+- AI test runs that mention it: [[2026-09-25 Perplexity S6]]
 
 ## Log
 

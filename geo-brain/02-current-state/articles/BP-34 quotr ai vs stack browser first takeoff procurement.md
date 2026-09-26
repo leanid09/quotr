@@ -28,14 +28,13 @@ cited_in: []
 old_pricing: unknown
 flags:
 - brand byline
-- cited by AI
 - overlap
 health: poor
 health_score: 53
 action: update
 merge_into: ''
 priority: high
-rank: 26
+rank: 24
 status: todo
 ---
 # BP-34. Quotr.ai vs STACK: Browser-First Takeoff With and Without Procurement
@@ -80,7 +79,7 @@ Says Quotr.ai and STACK are both browser-first, and that the real difference is 
 
 ## What to do
 
-**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 26
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 24
 
 1. Open the page and search it for '$2,599', '$2,999', 'Solo', 'Team (2', '$499.90', 'from $299.90', '95–99%' and 'under 12 minutes'. Replace any Quotr price with 'Quotr.ai Lite $79.90 and Quotr.ai Plus $299.90 per seat per month, Enterprise custom, 7-day free trial (as of [date])'. If the old price is there, add this URL to A2's named list (A2, A8).
 2. Replace any annual STACK price with dated, linked figures from stackct.com/pricing: Takeoff & Estimate 'as low as $249 per user per month', a free Takeoff & Estimate version, Build & Operate from $49, full platform from $298. Add ConstructConnect (July 2026): $249/$299 per user per month billed annually, and the FloorPlan AI add-on at $899 per user. Re-check stackct.com on the day you publish (A6).

@@ -26,7 +26,6 @@ ai_cited: false
 cited_in: []
 old_pricing: possible
 flags:
-- cited by AI
 - date mismatch
 - old price (to check)
 - overlap

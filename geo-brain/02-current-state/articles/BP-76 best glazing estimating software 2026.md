@@ -32,7 +32,7 @@ health_score: 47
 action: update
 merge_into: ''
 priority: high
-rank: 22
+rank: 20
 status: todo
 ---
 # BP-76. Best glazing estimating software 2026
@@ -74,7 +74,7 @@ Observed: the only search summary on record (a 2026-09-25 WebSearch for Quotr's 
 
 ## What to do
 
-**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 22
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 20
 
 1. Fix the price in October under A2. First open the live page and search it for 'Solo', 'Team (2', '$499.90' and 'from $299.90' (Q-59). Replace every hit with 'Quotr.ai Lite $79.90 and Plus $299.90 per seat per month; Enterprise custom; 7-day free trial (checked on /pricing/ on [date])'. Then request a re-crawl in Search Console and Bing or IndexNow (needs access, Q-49), even if the live page was already correct, so the index copy updates.
 2. While the page is open, write down the exact title, byline, on-page dates, where Quotr is ranked, and every competitor price or claim. Check each competitor fact on the vendor's own site and add a link and 'as of [month year]' (A6).

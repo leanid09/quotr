@@ -32,7 +32,7 @@ health_score: 47
 action: update
 merge_into: ''
 priority: high
-rank: 21
+rank: 19
 status: todo
 ---
 # BP-54. Best concrete estimating software 2026
@@ -75,7 +75,7 @@ Not captured: the post did not come up in the web searches we could run. See the
 
 ## What to do
 
-**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 21
+**Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 19
 
 1. Now, as part of A2: replace 'Solo from $299.90/month, Team (2–6 seats) $499.90/month' with 'Quotr.ai Lite $79.90 and Quotr.ai Plus $299.90 per seat per month; Enterprise custom; 7-day free trial (as of September 2026)'. Always name Plus next to $299.90, so no one reads it as the entry price. Fix rebar-estimating-and-takeoff-software the same day, then request re-crawls for both.
 2. Before the content refresh, read the live page and run E-031 once in two engines to set a baseline, because it has never been tested (Page refresh checklist, step 1).
