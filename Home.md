@@ -13,7 +13,7 @@ cssclasses:
 >
 > New here? Read [[Start here]] first. It explains everything in plain words.
 
-**Go to:** [[Start here]] · [[Entity fact sheet|Fact sheet]] · [[Meeting brief]] · [[30-60-90 plan]] · [[Prompt library]] · [[Tracking set]] · [[Content roadmap]] · [[KPIs and dashboard|KPIs]] · [[AI context pack]]
+**Go to:** [[Start here]] · [[Entity fact sheet|Fact sheet]] · [[Meeting brief]] · [[30-60-90 plan]] · [[Blog health audit|Blog health]] · [[Refresh plan Q4 2026|Refresh plan]] · [[Prompt library]] · [[Tracking set]] · [[Content roadmap]] · [[KPIs and dashboard|KPIs]] · [[AI context pack]]
 
 ## Next up: tasks
 
@@ -24,6 +24,12 @@ cssclasses:
 ![[Open questions.base#Open questions for Quotr (short)]]
 
 See every question, grouped by topic: [[Open questions.base|all open questions]].
+
+## Blog posts to fix next
+
+![[Articles.base#Refresh queue]]
+
+Every one of Quotr's 96 blog posts has a health note. The full picture, with what to fix first and why, is in [[Blog health audit]]. When you fix a post, change its **status** here from `todo` to `done`.
 
 ## Content coming up
 
@@ -45,7 +51,7 @@ See every question, grouped by topic: [[Open questions.base|all open questions]]
 |---|---|
 | `geo-brain/00-quotr` | Who Quotr is: the fact sheet, products, buyers, positioning and the open questions |
 | `geo-brain/01-geo-fundamentals` | How AI search works, in plain words |
-| `geo-brain/02-current-state` | Where Quotr stands today (the September 2026 baseline) |
+| `geo-brain/02-current-state` | Where Quotr stands today (the September 2026 baseline), plus a health note for every blog post |
 | `geo-brain/03-market` | Competitors and the gaps nobody owns yet |
 | `geo-brain/04-prompt-library` | The questions buyers ask AI tools, one note per question |
 | `geo-brain/05-content-strategy` | What to publish, one note per planned piece |

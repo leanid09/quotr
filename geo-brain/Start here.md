@@ -78,7 +78,8 @@ The things you track are one small note each, in their own folders. Each has a l
 | AI test runs | `07-measurement/test-runs` | [[Test runs.base\|All test runs]] | [[AI visibility baseline]], [[Tracking set]] |
 | Planned content pieces (68) | `05-content-strategy/roadmap` | [[Content roadmap.base\|All content pieces]] | [[Content roadmap]] |
 | Tasks in the 30-60-90 plan (48) | `08-action-plan/tasks` | [[Tasks.base\|All tasks]] | [[30-60-90 plan]] |
-| Open questions (48) | `00-quotr/open-questions` | [[Open questions.base\|All questions]] | [[QA log]] |
+| Open questions (60) | `00-quotr/open-questions` | [[Open questions.base\|All questions]] | [[QA log]] |
+| Quotr's blog posts (96), each with a health score and a fix plan | `02-current-state/articles` | [[Articles.base\|All articles]] | [[Blog health audit]] |
 
 Plain-text copies of these tables, for AI tools and for reading on GitHub, are in `geo-brain/_exports`.
 
@@ -92,7 +93,8 @@ Plain-text copies of these tables, for AI tools and for reading on GitHub, are i
 |---|---|---|
 | **The GEO consultant** (preparing the Quotr meeting) | This page → [[AI context pack]] → [[Meeting brief]] → [[Presence scorecard]] → [[AI visibility baseline]] → [[Entity fact sheet]] §4 and §6 → [[GEO tactics already used]] → [[30-60-90 plan]] → [[Signals that matter]] and [[Myths and risks]] for the evidence questions | 2–3 hours |
 | **Quotr's marketing lead** | This page → [[Meeting brief]] → [[Entity fact sheet]] (decide the TO CONFIRM items) → [[30-60-90 plan]] → [[Optimize vs create]] (the fact-fix sweep) → [[Content roadmap]] → [[Off-site earned media plan]] → [[KPIs and dashboard]] | 2 hours |
-| **A content writer** | [[AI context pack]] → [[GEO writing style guide]] → [[Entity fact sheet]] §1, §3, §5 → the template for your page type in [[Page templates]] → target prompts in [[Prompt library]] → [[Buyer questions by trade]] and [[Construction glossary]] → [[Page refresh checklist]] when updating an old page | 1 hour, then per task |
+| **A content writer** | [[AI context pack]] → [[GEO writing style guide]] → [[Entity fact sheet]] §1, §3, §5 → the template for your page type in [[Page templates]] → target prompts in [[Prompt library]] → [[Buyer questions by trade]] and [[Construction glossary]] → [[Page refresh checklist]] and the post's article note (see [[Blog health audit]]) when updating an old page | 1 hour, then per task |
+| **The GEO consultant** (selling and running the blog work) | [[Blog health audit]] → [[What went wrong]] → [[Publishing patterns and correlations]] → [[Google search updates 2025-2026]] → [[Refresh plan Q4 2026]] → [[Retainer scope and value case]] (internal draft) | 1 hour |
 | **A developer** | [[Website audit]] (crawler access, sitemaps, llms.txt, hosts) → [[Schema markup kit]] → [[Tracking setup]] → [[How AI engines choose sources]] (crawlers and what blocking them does) → tasks A9–A12 and A15 in [[30-60-90 plan]] → [[Entity fact sheet]] §2a (hosts and domains) | 1–2 hours |
 
 ### Conventions used on every page
@@ -115,7 +117,7 @@ Plain-text copies of these tables, for AI tools and for reading on GitHub, are i
 3. Tell the tool: *"Use only facts marked High confidence in the fact sheet. Where a fact is missing or marked TO CONFIRM, write [TO CONFIRM] instead of guessing. Follow the style guide."*
 4. Check every number in the output against [[Entity fact sheet]] before anything is published.
 
-The live tables (prompts, test runs, roadmap, tasks, open questions) are empty outside Obsidian. For AI tools, use the plain-text copies in `geo-brain/_exports` instead; Claude refreshes them after every change. If a tool will not accept `.md` files, save a copy as `.txt`; the content is plain text. Upload and file-count limits change often, so check the tool's current limits. If you hit one, drop the long reference files first ([[Prompt library]], [[Buyer questions by trade]], [[Sources]], [[Website audit]]).
+The live tables (prompts, test runs, roadmap, tasks, open questions, blog articles) are empty outside Obsidian. For AI tools, use the plain-text copies in `geo-brain/_exports` instead; Claude refreshes them after every change. If a tool will not accept `.md` files, save a copy as `.txt`; the content is plain text. Upload and file-count limits change often, so check the tool's current limits. If you hit one, drop the long reference files first ([[Prompt library]], [[Buyer questions by trade]], [[Sources]], [[Website audit]]).
 
 ### Setting up a standing workspace
 
@@ -152,10 +154,11 @@ Do this in the first week of each month. It takes about half a day, plus the pro
 1. **Re-run the tracking set.** Follow [[Tracking set]] §3: the same 53 prompts, the same session rules and the same scoring. October 2026 is the first multi-engine month: run all six tools that month, then Claude and Copilot once a quarter.
 2. **Update the baseline and dashboard.** Add the month's numbers to [[KPIs and dashboard]], re-score [[Presence scorecard]], and save every run as a test-run note from the **Test run** template (the September 2026 notes stay unchanged as the "before" picture; see [[AI visibility baseline]]). Log any new outside page that names Quotr in [[Off-site presence]].
 3. **Update the fact sheet.** When Quotr confirms a **TO CONFIRM** item or a fact changes (price, plans, customers, funding), change [[Entity fact sheet]] first. Then search the whole folder for the old value (for example "220+" or "Berkeley") and fix every page, including [[AI context pack]] and the TO CONFIRM list in [[QA log]].
-4. **Check what was fixed on quotr.ai.** Tick off finished items in [[Optimize vs create]] (fact-fix sweep) and [[30-60-90 plan]], and note any page that went live.
-5. **Log the changes.** Add a dated entry to [[Changelog]]: what changed, why, which files, and who checked it. Update `last_verified` on every page you re-checked.
-6. **Check the links.** Ask Claude to run the vault check (`python3 .claude/scripts/vault_check.py`). The target is 0 problems: no broken links, no missing properties.
-7. **Every quarter,** also re-check the competitor profiles (prices, reviews, funding), the tool prices in [[AI visibility tools compared]], and the evidence in [[Signals that matter]]. AI search changes fast, so date every new study you add.
+4. **Check the blog.** Open [[Blog health audit]] and work down the refresh queue in [[Refresh plan Q4 2026]]. Mark each post you fixed as `done` in its article note and add a line to its Log. Once Quotr gives Search Console access, run the monthly check in [[Search Console audit playbook]].
+5. **Check what was fixed on quotr.ai.** Tick off finished items in [[Optimize vs create]] (fact-fix sweep) and [[30-60-90 plan]], and note any page that went live.
+6. **Log the changes.** Add a dated entry to [[Changelog]]: what changed, why, which files, and who checked it. Update `last_verified` on every page you re-checked.
+7. **Check the links.** Ask Claude to run the vault check (`python3 .claude/scripts/vault_check.py`). The target is 0 problems: no broken links, no missing properties.
+8. **Every quarter,** also re-check the competitor profiles (prices, reviews, funding), the tool prices in [[AI visibility tools compared]], and the evidence in [[Signals that matter]]. AI search changes fast, so date every new study you add.
 
 ---
 
@@ -168,3 +171,4 @@ Do this in the first week of each month. It takes about half a day, plus the pro
 - [[Sources]]: every outside source, grouped
 - [[QA log]]: quality checks and the full TO CONFIRM list
 - [[Changelog]]: change history
+- [[Blog health audit]]: the health of every blog post and what to fix first

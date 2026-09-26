@@ -319,3 +319,4 @@ Decisions or help needed from Quotr leadership:
 - [[Traffic and funnel impact]] — why reach is now measured as presence, not just clicks
 - [[30-60-90 plan]] — the plan these targets track
 - [[Entity fact sheet]] — the correct facts for checking branded answers
+- [[Blog health audit]] and [[Search Console audit playbook]] — blog health numbers and the Search Console checks to add to the monthly report

@@ -344,6 +344,9 @@ Funnel: TOFU. All published 2026-06-16 to 2026-07-15, definition-first, about 20
 
 **Source:** the [blog sitemap](https://quotr.ai/blog/sitemap.xml), re-read for this page on 2026-09-25. It lists 8 hub pages ([/blog/](https://quotr.ai/blog/), [industry-insights](https://quotr.ai/blog/industry-insights/), [cost-estimation-series](https://quotr.ai/blog/cost-estimation-series/), [product-updates](https://quotr.ai/blog/product-updates/), [customer-case-studies](https://quotr.ai/blog/customer-case-studies/), [software](https://quotr.ai/blog/software/), [service](https://quotr.ai/blog/service/), [procurement](https://quotr.ai/blog/procurement/)) and 96 posts.
 
+> [!tip] Each post now has its own note
+> Since 2026-09-26, every post below has an article note with a health score and a fix plan. See [[Blog health audit]] and the live table [[Articles.base|All articles]].
+
 **How to read the tables:**
 - **Date** = sitemap lastmod. For the 12 newest posts it matches the date on the blog index, so it is a fair proxy for the publish date. Dates marked **(bulk)** are 2026-07-15 or 2026-07-24 on posts listed out of date order; their real publish date is unknown.
 - **Funnel:** TOFU = learning, MOFU = comparing, BOFU = buying / proof.

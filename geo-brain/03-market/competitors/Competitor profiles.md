@@ -14,3 +14,4 @@ description: One list of every competitor profile. Each covers the offer, prices
 - [[Competitor landscape]]: who wins AI answers, side by side
 - [[Citation sources map]]: the sites AI cites in this category
 - [[White space]]: where no competitor is strong yet
+- [[Competitor publishing benchmark]]: how often competitors publish, compared with Quotr
