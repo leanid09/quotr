@@ -44,7 +44,7 @@ aliases:
 | Priority | **36 high, 44 medium, 16 low** | Health review. |
 | Effort | **37 small, 52 medium, 7 large** | Health review. Our estimates. |
 | Old price still showing | **13 confirmed, 3 possible** | Confirmed = on the vault list from the 2026-09-25 fact-check. Only 2 were read on the live page. 4 more list posts were never checked ([[What went wrong#W-01 Old prices still showing after the September price change\|W-01]]). |
-| Cited in the September AI tests | **8 posts cited** | Perplexity (an AI answer engine) tests of 2026-09-25, one engine. 2 more were only retrieved (looked at, not used). 2 appear in the test notes but were not cited. Data corrected on 2026-09-26 after a re-check of the test notes. |
+| Cited in the September AI tests | **8 posts cited** | Perplexity (an AI answer engine) tests of 2026-09-25, one engine. "Cited" here means used as a source for a buyer question that does not name Quotr. 2 more were only retrieved (looked at, not used). 2 appear in the test notes but were not cited. Data corrected on 2026-09-26 after a re-check of the test notes. |
 | Found in web search | **36 checked: 21 found, 15 not found. 60 not checked.** | Targeted searches on 2026-09-25 and 2026-09-26. The tool is not Google, the sample was not random, and the search allowance ran out. Low to medium. |
 | Posts that compete | **20 overlap groups (59 posts); 17 merges** | Overlap map, checked by a skeptic reviewer. 16 merges sit inside the groups. The 17th folds the RL Electric story ([[BP-72 how rl electric cut estimating time with ai powered takeoffs\|BP-72]]) into its case study page, once that page is rebuilt with numbers. |
 | Year in the web address | **27 posts** have "2026" in the URL (web address) | Post data. About 15 are evergreen topics, about 5 are year-bound market pieces and 7 are events or editions ([[What went wrong#W-16 Date signals disagree, and years in evergreen URLs\|W-16]]). |
@@ -166,7 +166,8 @@ Credit where it is due. Several posts already do the job a GEO blog should do (G
 - **Why they work (our reading):** each answers one clear buyer question. Each gives something AI can lift: a price per square foot, a step list, an accuracy figure or a list of rivals' facts.
 - **All 8 cited posts match a buyer prompt in the library.** None of the 14 posts with no matching prompt was cited.
 - **Age did not decide it.** The 8 cited posts had been live a median of 64.5 days at the test date, the others 98.5 days. That gap could be chance (p = 0.16). If anything, newer posts were cited slightly more often.
-- **No post with a confirmed old price was cited** (0 of 13). The numbers are small, so this could be chance.
+- **No post with a confirmed old price was cited** for a question that does not name Quotr (0 of 13). The numbers are small, so this could be chance.
+- **Questions that name Quotr are different.** There, Perplexity used many more Quotr posts, including ones with the retired price, and repeated that price in 2 of 8 brand answers ([[What went wrong#W-01 Old prices still showing after the September price change|W-01]]).
 - **The catch:** AI used Quotr's facts but rarely said "Quotr". Only V1 named Quotr in an unbranded answer, low in the list. S6 named Quotr, but its prompt echoes Quotr's own wording. The fix is to put "Quotr.ai" inside each key fact ([[A8 Put the Quotr name inside key facts on the pages AI already reads|A8]]; [[What went wrong#W-04 AI uses Quotr's figures but drops the Quotr name|W-04]]).
 - **One engine, small samples.** Only Perplexity was tested, with one or two runs per prompt.
 

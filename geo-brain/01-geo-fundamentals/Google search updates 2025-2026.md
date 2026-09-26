@@ -236,7 +236,7 @@ More on risky tactics: [[Myths and risks]].
 - **Lists still get cited by ChatGPT.** In an Ahrefs study (date unknown), "best X" lists were 43.8% of the page types ChatGPT cited (FRESH-11). Inference: a few honest, maintained lists are safer than many self-ranked ones.
 - **A test for a real update.** A refresh should add something new that only Quotr has: its own prices, test results, customer numbers or trade detail (FRESH-12). Growth Memo found dates and numbers are the details that best predict ChatGPT citations (FRESH-14, low confidence).
 - **Measure it.** The Generative AI reports let you compare AI impressions per post before and after each refresh or merge (FRESH-13).
-- **Quotr's dates.** On 2026-09-25 the main sitemap showed the fetch day as every URL's lastmod, and the 96-post blog sitemap was not listed in robots.txt (FRESH-15). A second fetch is needed to prove lastmod always equals the fetch day. The two Togal alternatives posts ([[BP-32 best togal ai alternatives|BP-32]] and [[BP-43 best togal ai alternatives 2026|BP-43]]) are near-duplicates, and both were cited in the vault's AI tests (FRESH-16).
+- **Quotr's dates.** On 2026-09-25 the main sitemap showed the fetch day as every URL's lastmod, and the 96-post blog sitemap was not listed in robots.txt (FRESH-15). A second fetch is needed to prove lastmod always equals the fetch day. The two Togal alternatives posts ([[BP-32 best togal ai alternatives|BP-32]] and [[BP-43 best togal ai alternatives 2026|BP-43]]) are near-duplicates, and both were cited in the vault's AI tests: BP-32 for a buyer question, BP-43 only for questions that name Quotr (FRESH-16).
 - **Not covered.** Google's guidance on visible dates and dateModified, what Google counts as a meaningful update, pruning experiments, merge-plus-redirect versus canonical, and how to handle "-2026" URLs at year end.
 
 How to refresh: [[Content refresh playbook]] and [[Refresh plan Q4 2026]].
@@ -425,7 +425,7 @@ Setup steps for Bing and the crawler checks: [[Tracking setup]] (sections 4 and 
 > | FRESH-13 | Generative AI reports allow before/after checks of AI impressions per page. | 2026-06-03 to 2026-08-31 | Carried · medium · FC | [Search Central blog](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports) |
 > | FRESH-14 | Growth Memo: dates and numbers best predict ChatGPT citations. | 2026-06-29 | Carried · low | [Growth Memo](https://www.growth-memo.com/p/why-proprietary-data-is-your-most) |
 > | FRESH-15 | Quotr: main sitemap lastmod equalled the fetch day (one fetch); blog sitemap not in robots.txt. | 2026-09-25 | Carried · medium · FC | [quotr.ai](https://quotr.ai/sitemap.xml) |
-> | FRESH-16 | Quotr: two near-duplicate Togal alternatives posts, both cited in AI tests. | 2026-06-16 | Carried · medium | [quotr.ai](https://quotr.ai/blog/best-togal-ai-alternatives-2026/) |
+> | FRESH-16 | Quotr: two near-duplicate Togal alternatives posts, both cited in AI tests (BP-43 only in brand questions). | 2026-06-16 | Carried · medium | [quotr.ai](https://quotr.ai/blog/best-togal-ai-alternatives-2026/) |
 >
 > **Other engines and webmaster tools (OTHER)**: 20 claims, carried over from 2026-09-25.
 >

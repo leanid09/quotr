@@ -14,7 +14,7 @@ depends_on:
 - '[[A16 Add a human edit and fact-check step for AI-assisted drafts|A16]]'
 depends_on_text: A2 first; A16 edit step in use; A1 for any new Quotr fact
 status: todo
-done_when: the 12 refreshes scheduled in Refresh plan Q4 2026 are live, signed off by a named editor, re-crawled and logged in their article notes, each with a 28-day before-and-after check done or dated.
+done_when: the 12 refreshes scheduled in Refresh plan Q4 2026 are live (11 by 18 December, BP-24 in the week of 4 January 2027), signed off by a named editor, re-crawled and logged in their article notes, each with a 28-day before-and-after check done or dated.
 ---
 # A18. Refresh the top of the blog queue, October to December
 
