@@ -34,6 +34,10 @@ Seen: [r/HVAC "at what point do you do the Manual J"](https://www.reddit.com/r/H
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#1.3 Trade questions|Prompt library › 1.3 Trade questions]]

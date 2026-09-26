@@ -35,6 +35,10 @@ Seen: same Perplexity answer (30% margin = about 42.9% markup)
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#1.1 General estimating and bidding|Prompt library › 1.1 General estimating and bidding]]

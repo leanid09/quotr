@@ -47,6 +47,10 @@ tracking_group: extension
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#1.4 Material costs, sourcing, tariffs and importing|Prompt library › 1.4 Material costs, sourcing, tariffs and importing]]

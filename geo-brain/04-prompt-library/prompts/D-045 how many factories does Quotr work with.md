@@ -35,6 +35,10 @@ Perplexity already reports the conflict
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#3.6 Quotr Procurement and Quotr Service specifics|Prompt library › 3.6 Quotr Procurement and Quotr Service specifics]]

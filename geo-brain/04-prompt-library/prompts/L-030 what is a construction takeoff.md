@@ -34,6 +34,10 @@ Seen: search results led by [STACK](https://www.stackct.com/blog/what-is-a-const
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#1.2 Takeoff and AI|Prompt library › 1.2 Takeoff and AI]]

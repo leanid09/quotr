@@ -46,6 +46,10 @@ tracking_group: core
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#1.2 Takeoff and AI|Prompt library › 1.2 Takeoff and AI]]

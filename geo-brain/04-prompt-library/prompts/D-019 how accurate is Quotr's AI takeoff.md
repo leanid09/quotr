@@ -34,6 +34,10 @@ Both B3 runs flagged Quotr's accuracy claims as self-published
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#3.3 Trust, reviews and accuracy|Prompt library › 3.3 Trust, reviews and accuracy]]

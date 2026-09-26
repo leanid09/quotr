@@ -45,6 +45,10 @@ NEW PAGE NEEDED: neutral AI takeoff comparison table (Kreo, Togal, Beam, Quotr)
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#2.4 Head-to-head prompts (competitors only)|Prompt library › 2.4 Head-to-head prompts (competitors only)]]

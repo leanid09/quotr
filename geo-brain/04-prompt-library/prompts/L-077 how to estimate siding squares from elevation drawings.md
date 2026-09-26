@@ -33,6 +33,10 @@ Seen: [Hover "How to bid a siding job"](https://hover.to/blog/how-to-bid-a-sidin
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#1.3 Trade questions|Prompt library › 1.3 Trade questions]]

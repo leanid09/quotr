@@ -34,6 +34,10 @@ Seen: [multifamily.loans](https://www.multifamily.loans/apartment-finance-blog/h
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#1.5 Developer, preconstruction and residential cost questions|Prompt library › 1.5 Developer, preconstruction and residential cost questions]]

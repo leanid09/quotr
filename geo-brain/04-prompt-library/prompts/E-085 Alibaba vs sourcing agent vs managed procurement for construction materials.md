@@ -34,6 +34,10 @@ Alibaba named in C10
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#2.6 Services and procurement comparisons|Prompt library › 2.6 Services and procurement comparisons]]

@@ -48,6 +48,10 @@ tracking_group: extension
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#2.1 Category prompts (all trades and personas)|Prompt library › 2.1 Category prompts (all trades and personas)]]

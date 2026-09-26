@@ -34,6 +34,10 @@ Seen: [build-folio roofing pricing guide](https://build-folio.com/contractor-gui
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#1.3 Trade questions|Prompt library › 1.3 Trade questions]]

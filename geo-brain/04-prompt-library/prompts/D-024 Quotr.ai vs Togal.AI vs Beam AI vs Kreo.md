@@ -35,6 +35,10 @@ NEW PAGE NEEDED: honest four-way comparison (with E-057)
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#3.4 Quotr vs a named competitor|Prompt library › 3.4 Quotr vs a named competitor]]

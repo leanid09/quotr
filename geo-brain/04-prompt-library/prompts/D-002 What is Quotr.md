@@ -36,6 +36,10 @@ baseline_result: Named after namesakes
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#3.1 Brand facts|Prompt library › 3.1 Brand facts]]

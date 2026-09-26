@@ -33,6 +33,10 @@ Seen: Perplexity summary of EagleView vs Hover sources: aerial reports "can stru
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#1.3 Trade questions|Prompt library › 1.3 Trade questions]]

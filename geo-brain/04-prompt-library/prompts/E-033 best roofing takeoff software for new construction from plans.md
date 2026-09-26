@@ -45,6 +45,10 @@ NEW PAGE NEEDED (with L-074)
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#2.2 Category prompts by trade|Prompt library › 2.2 Category prompts by trade]]

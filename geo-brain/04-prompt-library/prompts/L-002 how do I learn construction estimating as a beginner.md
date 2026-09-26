@@ -34,6 +34,10 @@ Seen: [r/estimators "best tools to learn estimating"](https://www.reddit.com/r/e
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#1.1 General estimating and bidding|Prompt library › 1.1 General estimating and bidding]]

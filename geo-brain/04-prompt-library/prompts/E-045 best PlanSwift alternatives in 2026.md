@@ -35,6 +35,10 @@ Same as E-044
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#2.3 Alternatives prompts|Prompt library › 2.3 Alternatives prompts]]

@@ -34,6 +34,10 @@ Seen: builder pages such as [cali-adu.com](https://cali-adu.com/blog/cost-to-bui
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#1.5 Developer, preconstruction and residential cost questions|Prompt library › 1.5 Developer, preconstruction and residential cost questions]]

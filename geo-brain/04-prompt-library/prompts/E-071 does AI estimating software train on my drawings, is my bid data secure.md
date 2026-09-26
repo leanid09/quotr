@@ -35,6 +35,10 @@ Contractors' top AI worries: accuracy 57%, security 54% (Dodge/CMiC survey, play
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#2.5 Feature and fit prompts (unbranded)|Prompt library › 2.5 Feature and fit prompts (unbranded)]]

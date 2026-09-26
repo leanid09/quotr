@@ -34,6 +34,10 @@ Seen: [piper-ai.com](https://piper-ai.com/resources/bid-tabulation-vs-bid-leveli
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#1.1 General estimating and bidding|Prompt library › 1.1 General estimating and bidding]]

@@ -35,6 +35,10 @@ Seen: common r/Contractor topic; answer cites Procore, JobTread, Projul, Groundp
 
 ![[Content roadmap.base#For this prompt]]
 
+## Quotr blog posts for this prompt
+
+![[Articles.base#For this prompt]]
+
 ---
 
 Part of [[Prompt library#1.1 General estimating and bidding|Prompt library › 1.1 General estimating and bidding]]
