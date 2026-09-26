@@ -9,7 +9,7 @@ aliases:
 # What went wrong
 
 > [!abstract] What this page is for
-> A fair, evidence-based list of what held back Quotr's blog and GEO (generative engine optimisation: getting named in AI answers) work from March to September 2026. Each item says what happened, how we know, why it matters and what to do, with links to the task that fixes it. Use it to explain the starting point to Quotr and to justify the plan, alongside the credit in "What Quotr got right".
+> A fair, evidence-based list of what held back Quotr's blog and GEO (generative engine optimisation: getting named in AI answers) work from March to September 2026. Each item says what happened, how we know, why it matters and what to do, with links to the task that fixes it. Use it to explain the starting point to Quotr and to justify the plan, alongside the credit in [[#What Quotr got right]].
 
 > [!info]- Sources
 > Vault notes: [[GEO tactics already used]], [[AI visibility baseline]], [[Website audit]], [[Off-site presence]], [[Presence scorecard]], [[Entity fact sheet]], [[Tracking set]], [[Optimize vs create]], [[Content priorities]], [[30-60-90 plan]], [[GEO writing style guide]], [[KPIs and dashboard]], [[Togal AI]], [[STACK]], the task notes in the action plan and the open questions ([[Q-15 Turnaround]], [[Q-26 Primary audience]], [[Q-40 Access and history]] and others named below).
@@ -21,17 +21,22 @@ aliases:
 
 - **We found 19 problems. All 19 held up under review,** but most were softened: the evidence was weaker, or the context fairer, than the first draft said. This page uses the corrected versions.
 - **Most urgent (small fix):** retired prices still showed on about 13 posts (up to 16) and in llms.txt 11 days after the 14 September price change. In 2 of 8 brand prompts, Perplexity quoted an entry price about 3.75 times the real one ([[#W-01 Old prices still showing after the September price change|W-01]]).
-- **Biggest (large fix):** almost all online effort went into Quotr's own posts. AI engines read them but rarely name Quotr: 1 of 32 unbranded prompts, about 0.7% share of voice. Reviews, neutral lists and press are missing ([[#W-02 Almost no third-party proof|W-02]]).
+- **Biggest (large fix):** outside quotr.ai there is almost no proof from others: no reviews, no place in neutral lists, no press. AI engines read Quotr's posts but rarely name Quotr: 1 of 32 unbranded prompts, and about 0.7% of all brand mentions ([[#W-02 Almost no third-party proof|W-02]]).
 - **Facts and naming:** Quotr's own pages give different turnaround, factory and savings numbers. When AI uses Quotr's figures, it often drops the Quotr name (W-03, W-04, W-05).
-- **Format bets:** the 17 best-of lists were not used for any tested unbranded prompt. The alternatives posts and the Service posts did get used (W-06, W-07, W-14).
-- **Housekeeping:** the blog sitemap is missing from robots.txt, dates disagree, test-site copies are still in search indexes, and many posts are signed by the company (W-15 to W-19).
-- **Fair view:** these are common growing pains for a seed-stage team that published 96 posts in about six months. Most fixes are already tasks in the [[30-60-90 plan]]. Fix facts now; hold merges and redirects until Google's September spam update ends, around 2026-10-08 (RANK-21).
+- **Format bets:** 7 of the 17 best-of lists had a tested unbranded prompt, and none of the 7 was used. The alternatives posts and the Service posts did get used (W-06, W-07, W-14).
+- **Housekeeping:** the blog sitemap is missing from robots.txt, date signals disagree, test-site copies still show up in search, at least 8 posts are signed by the company, and llms.txt is out of date (W-15 to W-19).
+- **Fair view:** these are common growing pains for a seed-stage team that published 96 posts in about six months. Most fixes are already tasks in the [[30-60-90 plan]]. Fix facts now; hold merges and redirects until Google's September spam update ends, around 2026-10-08 (RANK-21; found by web search on 2026-09-26, not re-checked).
 
 > [!note] Words used on this page
 > - **Prompt:** a question typed into an AI tool. **Unbranded prompt:** one that does not name Quotr.
 > - **Retrieved / cited / named:** the AI looked at a Quotr page / used it as a source / said "Quotr" in the answer.
 > - **Test IDs:** B, C, N, O, P, S and V codes (for example C12) are prompts from the 2026-09-25 Perplexity tests in [[AI visibility baseline]]. T01-T53 are tracked prompts in [[Tracking set]]. E-### and L-### are prompt library IDs.
 > - **p value:** how likely a pattern is to be chance. Below 0.05 usually means "probably not chance". Small samples still need caution.
+> - **Search Console:** Google's free tool that shows which pages Google has stored and can show, and how they perform. Bing Webmaster Tools is Bing's version.
+> - **AI Overview / AI Mode:** Google's AI summary above the results / Google's chat-style AI search.
+> - **301 redirect:** a permanent forward from an old web address to a new one. **Canonical:** the label that tells search engines which page is the main version.
+> - **Schema:** hidden labels in a page's code that describe it to machines (author, dates, prices).
+> - **Spam update:** a Google change aimed at pages that break its spam rules. The September 2026 one started on 2026-09-24 and was still running on 2026-09-26 (RANK-21).
 > - **Claim IDs** (RANK-, QUALITY-, AI-, INDEX-, FRESH-, OTHER-, GSC-): Google and industry facts from the Google claims register. RANK and GSC claims were found by live web search on 2026-09-26 and were **not** independently re-checked (the search limit ran out). The others were carried over from the 2026-09-25 research and were fact-checked then only where the vault says so.
 
 ---
@@ -48,7 +53,7 @@ Impact: how much it holds back Quotr's AI visibility or trust. Effort: S = small
 | W-04 | AI uses Quotr's figures but drops the Quotr name | High | S | Put "Quotr.ai" in the same sentence as each figure | [[A8 Put the Quotr name inside key facts on the pages AI already reads\|A8]], [[A1 Agree and sign off one fact sheet\|A1]], [[A3 Fact-fix sweep, part 2 - every other conflicting fact\|A3]], [[D3 AI takeoff accuracy benchmark + How we test page (R-41)\|D3]] |
 | W-05 | Little original data; headline numbers have no method | High | L | Publish methods, datasets, tools and numbers-first case studies | [[A8 Put the Quotr name inside key facts on the pages AI already reads\|A8]], [[A3 Fact-fix sweep, part 2 - every other conflicting fact\|A3]], [[B4 Proof pages - case studies with numbers\|B4]], [[B5 Prepare the first original dataset\|B5]], [[B9 Spec and start building the first two free tools\|B9]], [[C1 Publish the first original dataset\|C1]], [[C2 Press pitches built on the dataset\|C2]], [[C3 Ship the first free tools\|C3]], [[C4 LA fire-rebuild cost guide\|C4]], [[D2 Residential and multifamily cost per sq ft by trade (R-40)\|D2]], [[D3 AI takeoff accuracy benchmark + How we test page (R-41)\|D3]], [[D4 Second price-index edition, Q1 2027 (R-51)\|D4]], [[D7 More numbers-first case studies; Service by the numbers; security page\|D7]] |
 | W-06 | The Service pivot was built as a dozen similar pages | High | M | One Service hub plus 3-4 distinct pages | [[A1 Agree and sign off one fact sheet\|A1]], [[A3 Fact-fix sweep, part 2 - every other conflicting fact\|A3]], [[A8 Put the Quotr name inside key facts on the pages AI already reads\|A8]], [[A12 Merge duplicate pages\|A12]], [[D7 More numbers-first case studies; Service by the numbers; security page\|D7]] |
-| W-07 | 17 best-of lists were not used for tested unbranded prompts | High | M | No new self-ranked lists; cut to 6-8 honest ones | [[A2 Fact-fix sweep, part 1 - remove the old pricing everywhere\|A2]], [[A12 Merge duplicate pages\|A12]], [[B2 Outreach to the best of lists AI cites (Tier A)\|B2]], [[C5 Tier B and procurement-category list outreach\|C5]], [[D6 Honest comparisons - four-way table, Buildxact, Quotr.ai alternatives\|D6]] |
+| W-07 | Best-of lists: none of the 7 with a tested unbranded prompt was used | High | M | No new self-ranked lists; cut to 6-8 honest ones | [[A2 Fact-fix sweep, part 1 - remove the old pricing everywhere\|A2]], [[A12 Merge duplicate pages\|A12]], [[B2 Outreach to the best of lists AI cites (Tier A)\|B2]], [[C5 Tier B and procurement-category list outreach\|C5]], [[D6 Honest comparisons - four-way table, Buildxact, Quotr.ai alternatives\|D6]] |
 | W-08 | Little content for the residential and multifamily buyers Quotr names | High | L | Answer Q-26, then build hubs or drop the claim | [[A1 Agree and sign off one fact sheet\|A1]], [[B10 Residential hub; decide on the thin trade pages\|B10]], [[C4 LA fire-rebuild cost guide\|C4]], [[C6 Developer hub, deep electrical page, integrations page, one honest comparison\|C6]], [[D2 Residential and multifamily cost per sq ft by trade (R-40)\|D2]], [[D5 Persona hubs and deep trade pages\|D5]] |
 | W-09 | Procurement is described mainly in Quotr's own terms | High | M | Rewrite around buyer wording; one lead page | [[A1 Agree and sign off one fact sheet\|A1]], [[B8 Procurement and tariff decision guides\|B8]], [[B9 Spec and start building the first two free tools\|B9]], [[C3 Ship the first free tools\|C3]], [[C5 Tier B and procurement-category list outreach\|C5]], [[D1 Tariff data story and import guides (R-29 to R-32)\|D1]] |
 | W-10 | 15 of 36 checked posts did not come back in web search | High | M | Get Search Console; audit indexing and bot access | [[A15 Measurement setup and multi-engine baseline\|A15]], [[A11 Confirm Cloudflare lets AI search bots in\|A11]], [[A12 Merge duplicate pages\|A12]] |
@@ -100,7 +105,7 @@ Impact: how much it holds back Quotr's AI visibility or trust. Effort: S = small
 3. Replace each hit with one dated line: "Quotr.ai Lite $79.90 per seat per month; Plus $299.90; Enterprise custom (as of [date]; see /pricing/)".
 4. Read the 3 weaker matches and the 4 unchecked posts (below) before counting them.
 5. Better still, pull the price from one shared block or CMS field (a setting in the website's content system), so the next change updates every post at once.
-6. Update the "last modified" date on each changed post, because the change is real. Ask Google Search Console and Bing to re-crawl (re-read) them. For Bing, IndexNow or Cloudflare Crawler Hints does this automatically.
+6. Update the "last modified" date on each changed post, because the change is real. Ask Google Search Console and Bing to re-crawl (re-read) them. For Bing, IndexNow (an instant "this page changed" ping) or Cloudflare Crawler Hints can do this automatically.
 7. Fix llms.txt ([[A4 Fix llms.txt|A4]]). Email Nomic and Octopus Builds, then follow up ([[B12 Follow up correction outreach|B12]]).
 8. Write down a price-change routine: same-day update of posts, llms.txt and schema (the hidden labels that describe a page to machines); then a re-crawl request; then emails to outside sites.
 9. Keep a refresh register: each URL, the facts on it that change, an owner and a next check date. Re-check pricing and comparison pages every quarter. No task covers this register yet.
@@ -238,7 +243,7 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 - 26 of the 45 unbranded tracked prompts have a matching Quotr post. A Quotr page was used in 9 of those 26 (35%), but Quotr was named in only 2 (8%). T12 is marked "Cited, not named" ([[Tracking set]]).
 - The facts that should carry the name also differ across pages: accuracy appears as 95-99% and 80-88% on scans, and Perplexity paraphrased it as 94-99% ([[Q-18 Accuracy|Q-18]]). Brand answers call the accuracy claims "self-published".
 - Post age does not explain it. Cited and uncited posts had median ages of 82.5 and 99.5 days (p=0.27, no real difference). The Service posts had a median age of about 34 days, and 3 of 12 were already used.
-- Data note: the blog statistics list 12 "cited" posts. The test notes show that [[BP-57 bluebeam alternative|BP-57]] and [[BP-17 how to do construction takeoff pdf blueprint|BP-17]] were not retrieved, so the true count is 10.
+- Data note: the blog statistics list 12 "cited" posts. The test notes show that [[BP-57 bluebeam alternative|BP-57]] and [[BP-17 how to do construction takeoff pdf blueprint|BP-17]] were not retrieved in their unbranded tests (V4, S8), so the true count is 10.
 - OTHER-17: since May 2026, ChatGPT links named brands straight to their homepages. A named mention adds a direct route to the site.
 
 **Why it matters**
@@ -352,12 +357,12 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 
 **What to do**
 1. First settle the turnaround and the Service pricing wording in the fact sheet (Q-15; [[A1 Agree and sign off one fact sheet|A1]]).
-2. Build one Service hub plus 3-4 clearly different pages:
+2. Build one Service hub (a main page that links to the others) plus 3-4 clearly different pages:
    - outsourced estimating, which absorbs [[BP-79 construction estimating services|BP-79]];
    - GC preconstruction, which absorbs [[BP-89 precon on demand outsource bid cost estimation|BP-89]];
    - quantity-takeoff pricing;
    - MEP, which absorbs HVAC unless Search Console shows separate demand.
-3. Redirect the rest with 301s after the September spam update ends, around 2026-10-08 (RANK-21; [[A12 Merge duplicate pages|A12]]).
+3. Redirect the rest with 301s after the September spam update ends, around 2026-10-08 (RANK-21, not re-checked; [[A12 Merge duplicate pages|A12]]).
 4. Write the key facts with the brand attached, for example "Quotr.ai's Estimation Service charges $0.25/sq ft under 50k sq ft and $0.10 above" ([[A8 Put the Quotr name inside key facts on the pages AI already reads|A8]]).
 5. Hold off on more city pages until the hub exists.
 6. Add a "Service by the numbers" page with its method ([[D7 More numbers-first case studies; Service by the numbers; security page|D7]]).
@@ -395,9 +400,13 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 - In B7 ("Quotr alternatives"), about 10 of the 18 citations were Quotr's own posts.
 - About 13 of the 22 carry the retired price (up to 15 if the unconfirmed ones hold; see W-01).
 - Handoff's own list was the first citation for S1 and was cited in C11.
-- Timing claims. RANK-07 and QUALITY-10: self-ranked "best X" lists lost roughly 30-50% of Google visibility from about 2026-01-20 (Lily Ray, 3 February 2026). QUALITY-11: scaled "alternatives" pages and posts "lightly refreshed with 2026" were among the hardest hit. RANK-13 and RANK-15: the May 21-June 2 core update, during which the losses reportedly continued. RANK-22: no core update since 2026-06-02, so 18 of these lists have never been through one.
+- Timing claims. The RANK claims were found by web search on 2026-09-26 and were not re-checked. These are practitioner observations, not Google statements.
+  - RANK-07 and QUALITY-10: self-ranked "best X" lists lost roughly 30-50% of Google visibility from about 2026-01-20 (Lily Ray, 3 February 2026).
+  - QUALITY-11: scaled "alternatives" pages and posts "lightly refreshed with 2026" were among the hardest hit.
+  - RANK-13 and RANK-15: the losses reportedly continued in the May 21-June 2 core update (a broad Google ranking change).
+  - RANK-22: there has been no core update since 2026-06-02, so 18 of these lists have never been through one.
 - RANK-16, QUALITY-13 and AI-19: when a company's own list was cited in an AI Overview, the company was left out of the recommendation 69% of the time. AI-17: "best of" searches show an AI Overview 81.3% of the time.
-- Counter-evidence. RANK-08: analysts dispute a listicle-specific penalty. QUALITY-12 and FRESH-09: Google has not confirmed a targeted update. FRESH-11 (low confidence): "best X" lists are 43.8% of the page types ChatGPT cites.
+- Counter-evidence. RANK-08 (not re-checked): analysts dispute a listicle-specific penalty. QUALITY-12 and FRESH-09: Google has not confirmed a targeted update. FRESH-11 (low confidence): "best X" lists are 43.8% of the page types ChatGPT cites.
 
 **Why it matters**
 - The 17 best-of lists, 18% of output, earned no unbranded use in the tests.
@@ -408,8 +417,8 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 **What to do**
 1. Now: remove the retired prices (W-01) and ask for a re-crawl.
 2. Stop publishing new self-ranked lists.
-3. Save a per-page baseline from Search Console and its Generative AI report (data from 2026-05-18; GSC-13, GSC-14, AI-10). Add a Search Console note for every change (GSC-06). See [[Search Console audit playbook]].
-4. After the September spam update ends (around 2026-10-08, RANK-21), cut the 17 best-of posts to about 6-8. Keep the ones that rank or map to tracked prompts.
+3. Save a per-page baseline from Search Console and its Generative AI report (data from 2026-05-18; GSC-13, GSC-14 and AI-10; the GSC claims were not re-checked). Add a Search Console note for every change (GSC-06). See [[Search Console audit playbook]].
+4. After the September spam update ends (around 2026-10-08, RANK-21, not re-checked), cut the 17 best-of posts to about 6-8. Keep the ones that rank or map to tracked prompts.
 5. Merge the rest with 301 redirects ([[A12 Merge duplicate pages|A12]]): [[BP-47 ai bidding software construction|BP-47]] into [[BP-80 best ai bid software for construction|BP-80]]; the two electrical guides ([[BP-46 best electrical estimating software 2026|BP-46]], [[BP-37 electrical estimating software buyers guide|BP-37]]); the buyer's guide [[BP-19 ai construction estimating software buyers guide|BP-19]] with [[BP-24 best ai construction estimating software 2026|BP-24]]; and [[BP-49 construction proforma software|BP-49]] into the pro forma comparison [[BP-22 real estate pro forma software comparison|BP-22]].
 6. Rewrite the pages you keep as "best for [situation]" guides. Each needs a line saying Quotr publishes it, the criteria used, no automatic #1, linked and dated competitor facts, a "where rivals are stronger" section and a named reviewer.
 7. Move trade depth to the product trade pages, where Quotr is the subject.
@@ -494,7 +503,7 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 **Why it matters**
 - This is the category where rivals are absent and Quotr's story is unique.
 - Yet the content does not yet connect Quotr to the words buyers use.
-- Being called a sourcing service is not wrong, since Quotr does source from China. But the software half, the main revenue line, drops out of the description.
+- Being called a sourcing service is not wrong, since Quotr does source from China. But the software half drops out of the description.
 
 **What to do**
 1. Rewrite the lead pages around the buyer phrasings in the tracking set: C9/E-006, C10/E-081, C14/E-082, L-108 and L-109.
@@ -518,7 +527,7 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 **Impact:** high · **Effort:** M · **Confidence:** low to medium
 
 **What happened**
-- In targeted searches (site: searches, exact-URL searches and exact-title searches), 15 of 36 posts never came back.
+- In targeted searches (searches limited to quotr.ai, exact-URL searches and exact-title searches), 15 of 36 posts never came back.
 - All 15 misses came from 23 live checks on 2026-09-26, mostly on posts not already seen the day before. The sample was not random: list posts were checked on 2026-09-25 and how-tos on 2026-09-26. So "15 of 36" is not a rate for the whole blog.
 - Most of the missed posts were 2 to 5 months old, so newness does not explain it.
 - The search tool is not Google. This is a warning sign, not proof that the posts are missing from Google's index (the list of pages Google can show). Perplexity did retrieve 2 of the 15.
@@ -529,7 +538,7 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 **Evidence**
 - 36 posts checked: 21 found, 15 not found. The 15: 8 trade how-tos, 4 head-to-head comparisons, 2 AI explainers and 1 alternatives list (blog statistics §11).
 - Ages of the 15 when checked (days): 16, 25, 64, 86, 89, 101, 102, 108, 123, 138, 142, 142, 156, 158, 163. Median 108 for posts not found, 99 for posts found.
-- For 11 of the 15, another Quotr page came back instead (see W-11). Most of these were site: searches, which return other Quotr pages by design, so this is a hint, not proof.
+- For 11 of the 15, another Quotr page came back instead (see W-11). Most of these were searches limited to quotr.ai, which return other Quotr pages by design, so this is a hint, not proof.
 - 14 of the 15 map to at least one prompt in the prompt library, so they target buyer questions Quotr wants to win.
 - List and comparison posts were found 17 of 22 times, other formats 4 of 14 (p=0.0061). Selection bias: the 2026-09-25 fact-check looked mainly at list posts.
 - Perplexity retrieved [[BP-57 bluebeam alternative|BP-57]] and [[BP-39 quotr ai vs beam ai takeoff estimating comparison|BP-39]] for brand prompts on 2026-09-25, so those two are in some index. 60 posts were never checked (search limit).
@@ -544,12 +553,12 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 
 **What to do**
 1. Get Search Console and Bing Webmaster Tools access (Q-40; [[A15 Measurement setup and multi-engine baseline|A15]]).
-2. Export the Page indexing report. Run URL Inspection on the 15 posts first, then all 96, and record each post's status. How-to: [[Search Console audit playbook]].
+2. Export the Page indexing report (Search Console's list of pages Google has and has not stored, with the reason). Run URL Inspection (Search Console's check of one page) on the 15 posts first, then all 96, and record each post's status. How-to: [[Search Console audit playbook]].
 3. Act on the reason Google gives. "Duplicate, Google chose different canonical" (Google picked a different page as the main version): merge the post into that page with a 301 ([[A12 Merge duplicate pages|A12]]). "Crawled / Discovered - currently not indexed": add plain HTML links to it from the hubs and 2-3 related posts (W-15), then request indexing.
 4. In Cloudflare's AI Crawl Control, confirm that Googlebot, Bingbot, OAI-SearchBot, ChatGPT-User, Claude-SearchBot and PerplexityBot get normal (200) responses on /blog/ pages ([[A11 Confirm Cloudflare lets AI search bots in|A11]]).
-5. Confirm the Search Console "Search generative AI" opt-out is off (GSC-15).
+5. Confirm the Search Console "Search generative AI" opt-out is off (GSC-15, not re-checked).
 6. Add "posts indexed out of 96" as a monthly KPI.
-7. Steps 1, 2, 4 and 5 only read data and can start now. Hold merges until the September spam update ends, around 2026-10-08 (RANK-21).
+7. Steps 1, 2, 4 and 5 only read data and can start now. Hold merges until the September spam update ends, around 2026-10-08 (RANK-21, not re-checked).
 
 **Posts affected**
 - Not found in web search (15): [[BP-04 how to price construction job]], [[BP-05 construction takeoff guide]], [[BP-06 quotr vs traditional estimating]], [[BP-10 construction estimating mistakes to avoid]], [[BP-11 how ai construction estimating works]], [[BP-13 blueprint to priced estimate workflow]], [[BP-26 quotr vs excel]], [[BP-39 quotr ai vs beam ai takeoff estimating comparison]], [[BP-44 flooring trades how to quote flooring jobs and win more work]], [[BP-45 what is ai construction estimating software]], [[BP-53 how subcontractors bid gcs without giving away margin]], [[BP-57 bluebeam alternative]], [[BP-74 metric imperial construction takeoff]], [[BP-90 outsourcing vs hiring an estimator]], [[BP-92 scope gap construction]].
@@ -592,7 +601,7 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 **What to do**
 1. Get Search Console access and pull the "Duplicate, Google chose different canonical" rows ([[A15 Measurement setup and multi-engine baseline|A15]]).
 2. Merge the roughly 12 posts listed in [[Optimize vs create]] with 301 redirects. Start with the Togal pair, merged into the URL without a year ([[A12 Merge duplicate pages|A12]]).
-3. Wait for the September spam update to finish (around 2026-10-08, RANK-21) before redirecting.
+3. Wait for the September spam update to finish (around 2026-10-08, RANK-21, not re-checked) before redirecting.
 4. Before briefing any new post, check the prompt library and the post table for an existing URL to extend. The rule is one prompt, one main page.
 
 **Posts affected**
@@ -673,7 +682,7 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 - A keyword scan of the post profiles flags 14 of 96 posts for unsourced or wrong numbers. The profiles were AI-written, so treat this as a pointer, not a count.
 - Engines already use these facts. In V3, Perplexity took PlanSwift's "$1,749/user/year" from Quotr's post.
 - Credit: [[BP-12 is ai takeoff actually accurate yet|BP-12]] won the first citation for P5 because it gives specific numbers.
-- QUALITY-06 and INDEX-01: Google wants "valuable, unique, non-commodity content". OTHER-03: Microsoft asks for facts that agree with authoritative sources. FRESH-14 (low confidence): dated numbers predict ChatGPT citations. RANK-14 (low confidence): pricing checked on a stated date is one trait analysts link to pages that held up in the May 2026 core update.
+- QUALITY-06 and INDEX-01: Google wants "valuable, unique, non-commodity content". OTHER-03: Microsoft asks for facts that agree with authoritative sources. FRESH-14 (low confidence): dated numbers predict ChatGPT citations. RANK-14 (low confidence, not re-checked): pricing checked on a stated date is one trait analysts link to pages that held up in the May 2026 core update.
 
 **Why it matters**
 - Engines use Quotr's comparison posts as a source of facts about competitors. A wrong price or owner spreads into AI answers, with Quotr as the source.
@@ -715,7 +724,7 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 - Tracked comparison prompts with no Quotr comparison page got no mention: E-051 (Handoff alternatives), E-057 (Kreo vs Togal), E-059 (Beam vs Togal vs Kreo). E-054 (cheapest AI takeoff) and E-055 (AI takeoff with free trial) map only to /pricing/.
 - Those with a Quotr page did little better: 1 of 5 named Quotr (T16, about 15th of 17).
 - Competitors keep one comparison hub on one template: Togal /vs/, Beam /compare/ (21 pages), Kreo /compare-against/, STACK /how-we-stack-up/. None mentions Quotr ([[Competitor publishing benchmark]]).
-- RANK-16: companies that list themselves were often left out of AI Overview recommendations. QUALITY-11: scaled "alternatives" pages were among the hardest-hit types. Both are observed patterns, not confirmed Google policy.
+- RANK-16 (not re-checked): companies that list themselves were often left out of AI Overview recommendations. QUALITY-11: scaled "alternatives" pages were among the hardest-hit types. Both are observed patterns, not confirmed Google policy.
 
 **Why it matters**
 - The format that gets Quotr into unbranded answers mostly supplies facts that help rivals get picked.
@@ -749,7 +758,7 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 - robots.txt (the file that tells crawlers what they may read) lists the main and dictionary sitemaps but not /blog/sitemap.xml. A sitemap is the list of pages a site gives to search engines, and the blog one is the only file that lists the 96 posts and 8 hubs.
 - The main sitemap does not link to the blog sitemap, and it leaves out /blog/ and /disambiguation/.
 - The /blog/ page includes only the 12 newest posts in its HTML. The other 84 appear only after JavaScript runs, which some crawlers never do.
-- The blog RSS feed returned a Cloudflare 502 error. That was a single reading and may have been temporary; re-check it.
+- The blog RSS feed (a list of new posts that apps and some crawlers read) returned a Cloudflare 502 error (the server did not answer). That was a single reading and may have been temporary; re-check it.
 - A September post links to a page that does not exist, and the 404 page's "Back home" button sends people to the app login.
 - We saw no sign that a link check caught these. We did not run a full link crawl ourselves.
 
@@ -831,7 +840,7 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 4. Use no year in any new URL. The [[GEO writing style guide]] now says this; it was written in September 2026, after the posts, so treat it as the rule from now on.
 5. Move each evergreen year URL to a URL without a year with a 301, but only when it gets a real refresh. Not in bulk, and not during a Google update. Update internal links, the sitemap and llms.txt at the same time. Start with the Togal pair ([[A12 Merge duplicate pages|A12]]). Leave the 7 event and edition URLs as they are.
 6. Decide now what happens to each year URL in January 2027. No task covers this yet.
-7. Timing: the date-generation fix is safe now. Do not re-date posts during the September spam update (to about 2026-10-08, RANK-21).
+7. Timing: the date-generation fix is safe now. Do not re-date posts during the September spam update (to about 2026-10-08, RANK-21, not re-checked).
 
 **Posts affected**
 - All 96 posts (their sitemap date looks like the publish date) and about 103 main-sitemap URLs.
@@ -849,16 +858,16 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 **What happened**
 - test.quotr.io, a staging (test) copy of the site, was indexed while it was open.
 - Quotr has since put it behind a login. That was the right step.
-- But search indexes still hold it, and Perplexity cited it for Quotr's pricing (B2) on both runs. That answer was otherwise accurate, apart from a mention of the old Solo and Team tiers.
-- Pages on the old quotr.io domain are also still indexed. quotr.io/pricing/ correctly points its canonical tag (the label that names the main version of a page) to quotr.ai/pricing/, but whether it redirects is unknown ([[Q-32 quotr.io|Q-32]]).
-- Search engines also still hold old copies of /contractors/ and /developers/, including retired pricing.
+- But copies stayed in search indexes: Perplexity cited it for Quotr's pricing (B2) on both runs on 2026-09-25. That answer was otherwise accurate, apart from a mention of the old Solo and Team tiers.
+- Pages on the old quotr.io domain also still show up in web search. quotr.io/pricing/ correctly points its canonical tag (the label that names the main version of a page) to quotr.ai/pricing/, but whether it redirects is unknown ([[Q-32 quotr.io|Q-32]]).
+- Web search also still returns old copies of /contractors/ and /developers/, including retired pricing.
 - These copies have not yet been removed from the indexes or redirected to quotr.ai.
 
 **Evidence**
 - Perplexity cited test.quotr.io/disambiguation/ for "Quotr.ai pricing" (B2) on the original run and on the fact-check re-run, 2026-09-25. The host now shows a Cloudflare Access login ("Log in to Quotr.io Restricted Access") ([[Off-site presence]]).
 - quotr.io/pricing/ still shows up next to quotr.ai pages. It serves current pricing with a canonical tag pointing to quotr.ai/pricing/.
-- firetips.quotr.io (the free LA fire-rebuild app, launched February 2025) is indexed on the old domain and not linked from quotr.ai.
-- The search index still holds the old /contractors/ page ("Quotr.ai for Contractors - Estimating software for subs") with retired Solo/Team pricing, plus an old /developers/ title. The live /contractors/ page correctly names /software as its main version. llms.txt still links www.quotr.ai/contractors/.
+- firetips.quotr.io (the free LA fire-rebuild app, launched February 2025) still shows up in web search on the old domain and is not linked from quotr.ai.
+- Web search still returns the old /contractors/ page ("Quotr.ai for Contractors - Estimating software for subs") with retired Solo/Team pricing, plus an old /developers/ title. The live /contractors/ page correctly names /software as its main version. llms.txt still links www.quotr.ai/contractors/.
 - The logo and share image in the schema load from public.quotr.io ([[Q-36 Logo hosting|Q-36]]).
 - OTHER-14 (low confidence): OpenAI says a page blocked from its crawler can still appear as a bare link unless it carries noindex (a tag that asks search engines not to list the page). A login or a robots block alone does not remove copies already indexed.
 
@@ -904,7 +913,7 @@ Rebalance for the next 90 days: move about a fifth of content effort to distribu
 - The audit records "By quotr.ai" on [[BP-15 quotr vs togal ai comparison 2026|BP-15]], [[BP-43 best togal ai alternatives 2026|BP-43]] and [[BP-27 state of ai in preconstruction 2026 adoption roi enr top 400 gcs|BP-27]]. [[BP-53 how subcontractors bid gcs without giving away margin|BP-53]] names Junzhe Shi and Xian Li.
 - QUALITY-08: Google encourages accurate bylines that lead to information about the author. QUALITY-09: say how content was made, including AI use.
 - INDEX-04: Google needs no special schema for AI features, so the schema work worth doing here is fixing what is wrong: the "quotr.ai" author and the date fields.
-- RANK-14 (low confidence): named estimators are among the traits analysts link to pages that held up in the May 2026 core update. Task A7 notes that evidence for bylines directly lifting AI citations is weak.
+- RANK-14 (low confidence, not re-checked): named estimators are among the traits analysts link to pages that held up in the May 2026 core update. Task A7 notes that evidence for bylines directly lifting AI citations is weak.
 
 **Why it matters**
 - Some of the pages most likely to be read as advertising, including the Togal comparison and the Top 10 Togal list, are signed by the company. That makes them look even more like marketing.
@@ -979,7 +988,7 @@ Credit where it is due. Quotr's team did more deliberate GEO work, faster, than 
 - **The right writing format.** Answer-first blocks ("Quick Answer", "Short answer"), question headings, comparison tables, FAQs, "Honest Limitations" sections and visible "Last updated" dates. This is the format AI engines lift from.
 - **A site AI can read.** robots.txt blocks no AI crawler, and pages arrive as finished HTML. Perplexity cited at least 9 quotr.ai URLs in one answer.
 - **Transparent pricing.** The /pricing/ page lists every plan. Asked "Quotr.ai pricing" directly, Perplexity got it right. The price change was announced with a post the day it went live ([[BP-93 new pricing|BP-93]]).
-- **Pages that do get used.** The alternatives posts were Quotr's most-used unbranded format and produced its only unbranded naming (V1). A Service post was the first citation for C12 within weeks. The accuracy explainer ([[BP-12 is ai takeoff actually accurate yet|BP-12]]) was the first citation for P5, ahead of bigger sites.
+- **Pages that do get used.** The alternatives posts were Quotr's most-used unbranded format and produced its only unbranded naming (V1). A Service post was the first citation for C12 within weeks. The accuracy explainer ([[BP-12 is ai takeoff actually accurate yet|BP-12]]) was the first citation for P5, even though it was not in the web-search top 9.
 - **Early entity work.** /disambiguation/ answers "What is Quotr.ai?" correctly, and Perplexity cites it by name. Quotr also moved early on llms.txt.
 - **Real proof to build on.** Dated procurement results on /procurement/ (Saratoga: $97,000 against a $187K-$218K market price), the ROI calculator, 9 Service sample deliverables and named expert bylines (the CTO, a PhD).
 - **Real effort off the blog, and the right aim.** Six trade shows in 2026, a founder podcast and a Product Hunt launch. The team's stated focus on unbranded search terms is exactly where the gap is.

@@ -13,17 +13,17 @@ aliases:
 
 > [!info]- Sources
 > - **Vault notes:** [[Tracking setup]] (sections 3-5: properties, sitemaps, the Generative AI report, the opt-out setting, branded search, re-crawl requests, Bing, Cloudflare), [[KPIs and dashboard]] (KPIs L2 and G3, the monthly dashboard), [[Content refresh playbook]] (the health rubric, flags and the after-refresh routine), [[Website audit]] (robots.txt and sitemaps), and the open questions [[Q-32 quotr.io|Q-32]], [[Q-34 Cloudflare|Q-34]] and [[Q-40 Access and history|Q-40]]. The article note template and the vault rules (CLAUDE.md) for the article properties and the Log.
-> - **Data files (2026-09-26):** the Google briefing (its 13 Search Console audit steps, implications, watch list and caveats); the Google claims register (the claim IDs on this page, such as GSC-12); the per-post dataset and article IDs (which posts web searches did not return, and which were flagged as cited by AI); the overlap map of posts that answer the same buyer question.
+> - **Data files (2026-09-26):** our research briefing on Google changes (its 13 Search Console audit steps, implications, watch list and caveats); the Google claims register (the claim IDs on this page, such as GSC-12); the per-post dataset and article IDs (post dates, which posts web searches did not return, and which were flagged as cited by AI); the overlap map of posts that answer the same buyer question.
 > - **How sure we are:** see the box under "The short version".
 
 ---
 
 ## The short version
 
-- **This audit turns Google's own data into facts about each post.** Nobody on our side has seen Quotr's Search Console yet. Until we do, how each post performs in Google is unknown.
-- **Step one is access.** Ask Quotr for Search Console (Owner or Full user on the Domain property), Bing Webmaster Tools, GA4 read access and read-only Cloudflare.
-- **On day one, check two settings.** The "Search generative AI" setting must be **off**, or Quotr gets no impressions or traffic from AI Overviews and AI Mode (GSC-15, INDEX-14). Manual actions should say "No issues detected".
-- **Check indexing before anything else.** Google says a page only needs to be indexed (stored by Google so it can be shown) and allowed to show a snippet to appear in AI Overviews or AI Mode (INDEX-05). Inspect first the 15 posts that targeted web searches did not return.
+- **This audit turns Google's own data into facts about each post.** Nobody on our side has seen Quotr's Search Console yet. Until we do, how each post does in Google is unknown.
+- **Step one is access.** Ask Quotr for Search Console, Bing Webmaster Tools, GA4 (Google Analytics) and read-only Cloudflare.
+- **On day one, check two things.** The "Search generative AI" setting must be **off**. If it is on, Quotr gets no impressions or traffic from AI Overviews and AI Mode, Google's AI answers (GSC-15, INDEX-14). Manual actions should say "No issues detected".
+- **Indexing is the first check for every post.** Google says a page only needs to be indexed (stored by Google so it can be shown) and allowed to show a snippet to appear in its AI answers (INDEX-05). Start with the 15 posts that targeted web searches did not return. That tool is not Google, so this is a lead, not proof.
 - **A Google spam update is rolling out now.** It began on 2026-09-24 and may run to about 2026-10-08 (RANK-21). Save 2026-09-17 to 09-23 as the baseline week. Hold merges and bulk changes until it ends (our inference, not a Google rule).
 - **Old numbers need care.** Impressions were over-counted until 2026-04-27 (GSC-12). Only compare periods that start on or after 2026-04-28.
 - **Write every result into the article notes:** a few properties, a "Search Console" table and a dated Log line. The Articles tables then update by themselves.
@@ -31,8 +31,8 @@ aliases:
 > [!warning] How sure we are
 > - **GSC and RANK claims** were found by live web search on 2026-09-26. They were **not** independently re-checked, because the search limit ran out.
 > - **INDEX, AI, QUALITY and OTHER claims** were carried over from the 2026-09-25 research. They were fact-checked then only where the vault says so (for example, [[Tracking setup]] cites the fact-check for the Generative AI report and for Bing AI Performance).
-> - Some items rest on industry press only: the num=100 change, both Page indexing report freezes and the August 2026 spam update dates.
-> - Every claim ID (for example RANK-13) can be traced in the Google claims register (google_claims.json).
+> - Some items rest on industry press or vendor blogs only, with no Google source: the num=100 change, AI Mode inside the Web totals, the branded filter's March 2026 date, both Page indexing report freezes, the August 2026 spam update dates and its ranking data, the early-August 2026 volatility, and the AI Overview "position" point.
+> - Every claim ID (for example RANK-13) can be traced in the Google claims register (google_claims.json). Re-check a claim against its source before it goes into a client deck.
 > - The rules of thumb on this page ("lost more than half its clicks", "two months in a row", the comparison windows) are **our suggestions**, not Google thresholds.
 > - Menu names follow the sources. The live Search Console labels may differ slightly.
 
@@ -45,9 +45,9 @@ aliases:
 | Tool | What to ask for | Why we need it |
 |---|---|---|
 | **Google Search Console** | Owner or Full user on the **Domain property** for quotr.ai (a property verified by DNS, a setting in the domain's records, that covers every quotr.ai address). Also the **quotr.io** property, if one exists. | Every step below reads it. The branded-queries filter does not work on sub-properties such as /blog/ (GSC-07). quotr.io is the old domain; [[Tracking setup]] suggests a property there to watch what is still indexed. |
-| **Bing Webmaster Tools** | Access to the quotr.ai site | Its AI Performance report shows how often Copilot and Bing AI answers cite each Quotr page, and the "grounding queries" behind them (OTHER-01, OTHER-02). It is the only free per-page AI citation report outside Google. |
+| **Bing Webmaster Tools** | Access to the quotr.ai site | Its AI Performance report shows how often Copilot and Bing AI answers cite each Quotr page, and the "grounding queries" behind them (OTHER-01, OTHER-02). It gives free AI citation data, which Google does not: Google shows impressions only ([[Tracking setup]]). |
 | **Google Analytics 4 (GA4)** | Read access | AI referral visits (KPI G1) and demo or trial events (KPI G2). Clicks from Google AI Overviews and AI Mode look like normal Google clicks in GA4, so we need Search Console alongside it ([[Tracking setup]], section 1). |
-| **Cloudflare** | Read-only access to the quotr.ai zone: AI Crawl Control, the bot settings, and server logs if any are kept | To check that AI crawlers (the bots AI tools send to read pages) get normal pages, not blocks. Since 2025-07-01, Cloudflare blocks AI crawlers by default for new domains (OTHER-07). AI Labyrinth, a Cloudflare bot trap, is on for quotr.ai (OTHER-09). See task [[A11 Confirm Cloudflare lets AI search bots in\|A11]] and [[Tracking setup#5.2 Step by step in Cloudflare (whoever owns the Cloudflare account)]]. |
+| **Cloudflare** (the service in front of quotr.ai that can block bots) | Read-only access for quotr.ai: AI Crawl Control, the bot settings, and server logs if any are kept | To check that AI crawlers (the bots AI tools send to read pages) get normal pages, not blocks. Since 2025-07-01, Cloudflare blocks AI crawlers by default for new domains (OTHER-07). The vault's crawl audit found the hidden link of AI Labyrinth, a Cloudflare bot trap, on every quotr.ai page it checked (OTHER-09). See task [[A11 Confirm Cloudflare lets AI search bots in\|A11]] and [[Tracking setup#5.2 Step by step in Cloudflare (whoever owns the Cloudflare account)]]. |
 
 **Where these questions live**
 - Access to GA4, Search Console, Bing and forms: [[Q-40 Access and history|Q-40]].
@@ -65,16 +65,16 @@ aliases:
 
 ### Credit where it is due
 
-- robots.txt lets every bot in, including Google-Extended. Leave it as it is ([[Website audit]]).
+- robots.txt (the file that tells bots what they may read) lets every bot in. That includes Google-Extended, the setting that controls use of content for Gemini training. Leave it as it is ([[Website audit]]).
 - The blog has its own sitemap (the list of pages a site gives to search engines). It lists all 96 posts plus 8 hub pages.
-- AI engines already read Quotr's posts. In September, quotr.ai was in the source list for 6 of 32 test questions ([[KPIs and dashboard]]).
+- Perplexity already reads Quotr's pages. In the September 2026 tests, quotr.ai was in its source list for 6 of 32 buyer questions ([[KPIs and dashboard]]).
 - We do not know whether Quotr's team already checks Search Console. Ask first: they may have history and context we can use.
 
 ---
 
 ## The audit, step by step
 
-The step numbers match the Google briefing behind [[Google search updates 2025-2026]], so "audit step 5" means the same thing on every page.
+Steps 1-13 use the same numbers as our research briefing behind [[Google search updates 2025-2026]], so "audit step 5" means the same thing on every page. Step 14 (Bing) is our addition.
 
 | Step | Report | When (first audit) | Writes to article notes? |
 |---|---|---|---|
@@ -116,14 +116,14 @@ Words used below:
 - **Where:** the property-level "Search generative AI" control. Google's help page explains it: [Search Console Help](https://support.google.com/webmasters/answer/16908024?hl=en).
 - **How:** open it and read its state. **Change nothing.** If it is on, find out when it was switched on, and by whom.
 - **Good looks like:** **off.** When it is on, the site gets no impressions or traffic from AI Overviews, AI Mode or Discover's AI features. Google says the setting is not a ranking signal for normal Search, and it is separate from Google-Extended (GSC-15, INDEX-11, INDEX-14, AI-11).
-- **Record:** the state and date in [[KPIs and dashboard]] (KPI L2 d) and [[Tracking setup#3.3 Do NOT opt out]]. If it was ever on, add those dates to every article note's Search Console section. They explain zero AI impressions for that period.
+- **Record:** the state and date in [[KPIs and dashboard]] (KPI L2 d) and [[Tracking setup#3.3 Do NOT opt out]]. Confirming it is off is part of task [[A11 Confirm Cloudflare lets AI search bots in|A11]]. If it was ever on, add those dates to every article note's Search Console section. They explain zero AI impressions for that period.
 
 ### Step 3. Manual actions
 
 - **Where:** **Security & Manual actions → Manual actions**. (A manual action is a penalty that Google staff apply by hand.)
 - **How:** open the report once. If an action is listed, pause the audit. Read which pages and which policy it names.
 - **Good looks like:** "No issues detected".
-- **Record:** the result and date in [[Website audit]]. If an action names blog posts, add the flag `manual action (GSC)` to each one, plus a Log line. After the August 2025 spam update, Google's advice to affected sites was to review its spam policies (RANK-05). The Google briefing of 2026-09-26 adds that sites recover by fixing policy problems, not by waiting.
+- **Record:** the result and date in [[Website audit]]. If an action names blog posts, add the flag `manual action (GSC)` to each one, plus a Log line. After the August 2025 spam update, Google's advice to affected sites was to review its spam policies (RANK-05). Our reading (inference): a site recovers by fixing the policy problem, not by waiting.
 
 ### Step 4. Add chart notes (annotations)
 
@@ -136,7 +136,7 @@ Words used below:
 | 2026-05-21 | May 2026 core update starts | RANK-13 |
 | 2026-06-02 | May 2026 core update ends | RANK-13 |
 | 2026-06-24 | June 2026 spam update (to 06-26) | RANK-17 |
-| 2026-08-13 | Gen AI and Discover logging error; data low to about 08-21 | GSC-19 |
+| 2026-08-13 | Gen AI and Discover logging error starts; data reportedly restored about 08-21 | GSC-19 |
 | 2026-08-18 | August 2026 spam update (to 08-21) | RANK-18 |
 | 2026-09-14 | New pricing post published (BP-93) | Quotr blog ([[BP-93 new pricing\|BP-93]]) |
 | 2026-09-24 | September 2026 spam update starts; multimodal filter added | RANK-21, GSC-20 |
@@ -158,7 +158,7 @@ Words used below:
   4. When it shows the update complete, export the first full Thursday-to-Wednesday week after the end. Compare each post with its baseline.
 - **Good looks like:** no post drops out of the results or loses most of its impressions. Our rule of thumb: look into any post that loses more than half its clicks or impressions.
 - **Watch first (inference):** the 12 estimating-services posts, 11 of them published in August-September 2026: BP-25, BP-79, BP-82, BP-84 to BP-87, BP-89, BP-91, BP-94 to BP-96.
-- **Context:** 95 of the 96 posts were live when this update began; [[BP-96 quotr service estimates|BP-96]] went live that day. The August 2026 spam update was short but sharp: 16.71% of top-10 addresses fell beyond position 100, against 9.2% in a quiet period in July (RANK-19).
+- **Context:** 95 of the 96 posts were live when this update began. [[BP-96 quotr service estimates|BP-96]] is dated the same day. The August 2026 spam update was short but sharp. SE Ranking data, reported by Search Engine Land, showed 16.71% of top-10 addresses fell beyond position 100, against 9.2% in a quiet five-day period in July (RANK-19).
 - **Record:** a dated row in the post's Search Console table. Where the rule of thumb is met, add the flag `dropped after update (GSC)` and a Log line. If a post or cluster drops sharply, check it against Google's spam policies, especially scaled content abuse (making many pages without added value; QUALITY-01, QUALITY-02).
 
 ### Step 6. Sitemaps and Page indexing
@@ -226,6 +226,7 @@ The live list below shows every post whose `web_indexed` is `no`. It changes as 
 - **Too new to judge (inference):** posts under about four weeks old are still ramping up. Mark them "too new to judge".
 - **Don't blame 2026-08-01 to 08-06 on an update.** There was volatility then, but Google confirmed no update (RANK-20).
 - **Context:** only 21 of the 96 posts were live when the May 2026 core update began. Most of the blog has never been through a core update.
+- **Post dates are approximate.** They come from the blog sitemap. Six posts (BP-66, BP-70 to BP-73 and BP-75) have reset dates, so their real publish dates are unknown. The "posts live" lists could shift by a few posts.
 - **Good looks like:** no cluster shows a consistent drop after an update, especially the list, comparison and service clusters.
 - **Record:** one line per update in each article note, for example: "May 2026 core: clicks A to B, impressions A to B; gain / loss / flat / too new". Add the flag `dropped after update (GSC)` where it applies.
 
@@ -262,14 +263,14 @@ The live list below shows every post whose `web_indexed` is `no`. It changes as 
 |---|---|---|
 | Togal.AI alternatives | `togal` | [[BP-15 quotr vs togal ai comparison 2026\|BP-15]], [[BP-32 best togal ai alternatives\|BP-32]], [[BP-43 best togal ai alternatives 2026\|BP-43]] |
 | STACK | `stack` | [[BP-34 quotr ai vs stack browser first takeoff procurement\|BP-34]], [[BP-51 stack alternative\|BP-51]] |
-| AI bid software | `bid software` | [[BP-47 ai bidding software construction\|BP-47]], [[BP-80 best ai bid software for construction\|BP-80]] |
-| Pro forma | `pro forma` | [[BP-29 the proforma that never stops changing\|BP-29]], [[BP-49 construction proforma software\|BP-49]] |
+| AI bid software | `bid software` | [[BP-08 ai construction proposals takeoff to proposal\|BP-08]], [[BP-47 ai bidding software construction\|BP-47]], [[BP-80 best ai bid software for construction\|BP-80]] |
+| Pro forma | `pro forma` | [[BP-22 real estate pro forma software comparison\|BP-22]], [[BP-29 the proforma that never stops changing\|BP-29]], [[BP-49 construction proforma software\|BP-49]] |
 | Estimating services | `estimating services` | [[BP-79 construction estimating services\|BP-79]], [[BP-82 outsource construction estimating\|BP-82]], [[BP-84 construction estimating services california\|BP-84]], [[BP-85 commercial estimating services\|BP-85]], [[BP-86 preconstruction services\|BP-86]], [[BP-87 quantity takeoff services\|BP-87]], [[BP-89 precon on demand outsource bid cost estimation\|BP-89]], [[BP-90 outsourcing vs hiring an estimator\|BP-90]] |
 
 The full map of 20 overlap groups is in [[Blog health audit]].
 
 - **Good looks like:** one Quotr address leads each main query. Where several share it, one is the clear winner on clicks, impressions and AI impressions.
-- **Why it matters:** Google's spam policies count many keyword-variant pages as scaled content abuse (QUALITY-02). Google's May 2026 AI guide extends this to pages made for every query variation (QUALITY-05, INDEX-06, AI-07).
+- **Why it matters:** Google's spam policies count "creating many pages with search keywords that make little sense to readers" as scaled content abuse (QUALITY-02). Google's May 2026 AI guide adds separate pages for every variation of a question, made mainly to steer AI answers (QUALITY-05, INDEX-06, AI-07). Genuine coverage of subtopics is fine.
 - **Record:** in each article note, the shared queries and which address leads. On the losing post, set `merge_into` to the winner and add the flag `shares queries (GSC)`. This feeds task [[A12 Merge duplicate pages|A12]].
   - Where possible, keep the addresses AI already cites (for example BP-32, BP-82, BP-85 and BP-87).
   - Merges wait until the September 2026 spam update is complete.
@@ -288,7 +289,7 @@ The full map of 20 overlap groups is in [[Blog health audit]].
 
 - **Where:** [Bing Webmaster Tools](https://www.bing.com/webmasters), the **AI Performance** report ([[Tracking setup#4.3 The AI Performance report (monthly)]]).
 - **What it shows:** how often Copilot and Bing AI answers cite Quotr's pages, and which pages (OTHER-01). It also lists "grounding queries": the search phrases Copilot generated to find and cite the pages (OTHER-02). It is summary data only. It does not show single answers, exact prompts or why a page was chosen ([[Tracking setup]]).
-- **How sure:** Microsoft announced it as a public preview on 2026-02-10. This was carried over from the 2026-09-25 research, and the vault's fact-check still describes it as a public preview.
+- **How sure:** Microsoft announced it as a public preview on 2026-02-10; some coverage says 02-11 (OTHER-01). This was carried over from the 2026-09-25 research, and the vault's fact-check still describes it as a public preview.
 - **How:** export the cited pages and the grounding queries each month.
 - **Good looks like:** Quotr posts among the cited pages, and grounding queries that match the questions the posts answer.
 - **Record:** the monthly Bing AI citations in each cited post's Search Console table. Site totals go to KPI L2 (e) in [[KPIs and dashboard]]. New real question wording from the grounding queries goes to [[Prompt library]].
@@ -318,11 +319,11 @@ Each post has one article note (for example [[BP-32 best togal ai alternatives|B
 
 | Property | What to set | Example |
 |---|---|---|
-| `web_indexed` | Google's answer from URL Inspection: `yes` or `no`. Until you inspect a post, leave what is there (`yes`, `no` or `not checked` from the 2026-09-26 web search). | `yes` |
+| `web_indexed` | Google's answer from URL Inspection: `yes` or `no`. Until you inspect a post, leave what is there (`yes`, `no` or `not checked` from the web searches of 2026-09-25 and 09-26). | `yes` |
 | `search_check` | One line that names the source and the date. | `URL Inspection (Search Console), 2026-10-02: on Google` |
 | `flags` | Add the Search Console flags from the table below. Remove a flag when it no longer applies, and say so in the Log. | `not indexed (GSC)` |
 | `health` and `health_score` | If Search Console changes the picture, re-score the **Visibility** area with the rubric in [[Content refresh playbook#How we score a post's health]]. Then update the score and the band. | — |
-| `status` | If a post marked `ok` now has a problem flag, set it to `todo`. Say in the Log what needs doing. | `todo` |
+| `status` | If a post marked `ok` or `done` now has a problem flag, set it to `todo`. Say in the Log what needs doing. | `todo` |
 | `merge_into` (and `action`) | Only after step 12, and only if the decision changed. Link to the keeper, in quotes. | `"[[BP-32 best togal ai alternatives]]"` |
 | `ai_cited` and `cited_in` | **Leave as they are.** They record the September 2026 tests. AI impressions go in the flags and the table instead. | — |
 
