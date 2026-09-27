@@ -62,7 +62,7 @@ A step-by-step guide to doing a takeoff from a PDF: set the scale from the title
 | 4 | 4 | 3 | 4 | 3 | 3 |
 
 - **Visibility:** It ranks in web search, according to the audit and the S8 note. One search pass saw the title 'How to Do a Construction Takeoff From a PDF Blueprint: Step-by-Step Manual vs AI Guide'. The vault does not record the title. *(from 2026-09-25 audit; seen in search 2026-09-26)*
-- **Visibility:** It was not cited in Perplexity P1 (L-031, T26, quotr_sources none) or S8 (L-032). The data file marks it ai_cited = true and lists S8 as a citing test. That is wrong: the S8 note says the post 'exists and ranks in web search, but was not cited'. *(from 2026-09-25 AI tests)*
+- **Visibility:** It was not cited in Perplexity P1 (L-031, T26, quotr_sources none) or S8 (L-032). The S8 note says the post 'exists and ranks in web search, but was not cited'. The first version of the post data counted it as cited; that was corrected on 2026-09-26. *(from 2026-09-25 AI tests)*
 - **Structure:** Search summaries describe a step-by-step method (set the scale from the title block, check each sheet, measure, apply waste, make line items, price), a manual vs AI comparison, and a 10-step AI workflow through to procurement. The page layout itself (answer block, tables, FAQ) was not seen. *(seen in search 2026-09-26)*
 - **Structure:** For this prompt, the cited answer used numbered steps with units (each, LF, SF, CY), a manual-vs-AI rule of thumb and a 'still needs human checking' caveat. Perplexity cited Bluebeam, Autodesk, BuildVision and Kreo in P1, and Bluebeam, Buildxact, BuildVision AI, Houzz Pro, Autodesk and ruh.ai in S8. Nobody knows whether Quotr's post has such a block. *(from 2026-09-25 AI tests; inferred)*
 - **Uniqueness:** In one search pass, it came back first or second for searches aimed at construction-takeoff-guide and blueprint-to-priced-estimate-workflow. Neither of those URLs surfaced. The agreed map (G12) makes this post the keeper for both. No Quotr data or worked example was seen. *(seen in search 2026-09-26)*
@@ -81,7 +81,7 @@ A step-by-step guide to doing a takeoff from a PDF: set the scale from the title
 
 **Action: Update** · **Priority:** high · **Effort:** M · **Order in the refresh queue:** 32
 
-1. Correct the record first: the data file's ai_cited flag for this post is wrong (P1 and S8 both Absent). Then snapshot GSC for this URL and the two G12 merge posts: queries, clicks, impressions and backlinks since 2026-05-14. Save the week of 17-23 September as the baseline from before the spam update (RANK-21).
+1. Snapshot GSC for this URL and the two G12 merge posts: queries, clicks, impressions and backlinks since 2026-05-14. Save the week of 17-23 September as the baseline from before the spam update (RANK-21).
 2. Put a Quick answer under the H1: 6-7 numbered steps, each with its unit (set and check the scale; counts in EA; lengths in LF; areas in SF; volumes in CY; add waste; price). This matches the shape of the answer Perplexity built for L-031 and L-032.
 3. Replace the prose comparison with a 'Manual vs AI takeoff' table (time, what AI does well, what a human must check). Add one brand-attributed sentence based on the live /software/ wording ('In Quotr.ai, every extracted quantity stays editable') and a plain human-check caveat. Add no accuracy percentages until Q-18 is answered. Link is-ai-takeoff-actually-accurate-yet instead.
 4. Before the 301s, fold in the unique parts of the two G12 merge posts. Add a 'Takeoff vs estimate' H2 for L-045 from construction-takeoff-guide. Add a 'Turn quantities into a priced estimate' section from blueprint-to-priced-estimate-workflow (line items, your own cost database or the Quotr database, overhead, profit). Do not write 'average costs by US zip code' until Quotr confirms it (the fact sheet marks it TO CONFIRM).
@@ -101,7 +101,7 @@ A step-by-step guide to doing a takeoff from a PDF: set the scale from the title
 
 **Related tasks:** [[A7 Named author bylines and author pages|A7]], [[A9 Sitemaps and lastmod dates|A9]], [[A12 Merge duplicate pages|A12]], [[A15 Measurement setup and multi-engine baseline|A15]], [[A16 Add a human edit and fact-check step for AI-assisted drafts|A16]]
 
-**Why now:** It is the only Quotr page for a tracked High prompt (T26). It already ranks, so its AI-citation gap is the cheapest one to close. The two G12 merges will also send their signals here, so the page should be ready before the redirects.
+**Why now:** It is the only Quotr page for a tracked High prompt (T26). It already ranks, so its AI-citation gap is the cheapest one to close. The two G12 merges (planned for 23 November) will send their signals here, so do step 4 in the same release as those redirects. The rest of this update waits for its turn in the queue.
 
 ## Overlaps with other Quotr posts
 

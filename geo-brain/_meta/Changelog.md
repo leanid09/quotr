@@ -25,6 +25,19 @@ last_verified: 2026-09-25
 
 ## Entries
 
+### 2026-09-27 — Blog audit tidy-up: BP-17 merge order and "cited by AI" wording
+
+**Type:** Other
+**Changed by:** Claude (AI helper)
+**Checked by:** the vault check script (0 problems)
+
+**What changed**
+- [[BP-17 how to do construction takeoff pdf blueprint|BP-17]]: removed a step that asked to correct its "cited by AI" flag (already corrected on 2026-09-26). "Why now" now matches [[Refresh plan Q4 2026]]: fold in the two merge posts in the same release as their redirects on 23 November; the rest of the update waits for its turn.
+- [[Refresh plan Q4 2026]]: the BP-05 merge row says to fold its unique parts into BP-17 in the same release.
+- [[BP-15 quotr vs togal ai comparison 2026|BP-15]] and [[BP-93 new pricing|BP-93]]: plain-English note that "cited by AI" counts only questions that do not name Quotr.
+
+**Vault check:** 0 problems.
+
 ### 2026-09-26 — Blog health audit of all 96 Quotr blog posts (v1.2)
 
 **Type:** New pages / Structure

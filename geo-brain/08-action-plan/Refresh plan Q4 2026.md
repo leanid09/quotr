@@ -140,7 +140,7 @@ Roles are suggestions, and names are TO CONFIRM with Quotr ([[30-60-90 plan]]). 
 | | [[BP-56 how to estimate plumbing from drawings\|BP-56]] (6) | Update | M · 8 h | Cited first for its tracked prompt (N2). Change as little of the step text as possible. |
 | | [[BP-19 ai construction estimating software buyers guide\|BP-19]] into BP-24 | Merge | S · 3 h | Move its "how to choose" checklist into BP-24. BP-24's own rewrite starts in the week of 30 November. |
 | | **Week total** | | **19 h** | Tasks: B8, B13, A18 |
-| **23 Nov** | [[BP-05 construction takeoff guide\|BP-05]] into BP-17 | Merge | S · 3 h | BP-17's own update waits for 2027 (queue no. 32). |
+| **23 Nov** | [[BP-05 construction takeoff guide\|BP-05]] into BP-17 | Merge | S · 3 h | Fold its unique parts into BP-17 in the same release (step 4 of BP-17's note). The rest of BP-17's update waits for 2027 (queue no. 32). |
 | | [[BP-13 blueprint to priced estimate workflow\|BP-13]] into BP-17 | Merge | S · 3 h | Carry over no unconfirmed speed or accuracy claim (Q-18). |
 | | [[BP-51 stack alternative\|BP-51]] (9) | Rewrite | M · 8 h | Retrieved only: Perplexity looked at it (V10) but did not cite it. Wrong competitor facts (A6); its retired price comes off in October (A2). |
 | | **Week total** | | **14 h** | Short week: Thanksgiving is Thursday 26 November, so publish by Wednesday. Tasks: B13, A18 |
