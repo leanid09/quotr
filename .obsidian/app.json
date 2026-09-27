@@ -1,0 +1,15 @@
+{
+  "openBehavior": "file:Home.md",
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "showInlineTitle": false,
+  "propertiesInDocument": "visible",
+  "newFileLocation": "current",
+  "attachmentFolderPath": "geo-brain/_meta/attachments",
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": [
+    "geo-brain/_exports/",
+    "geo-brain/_meta/note-templates/"
+  ]
+}

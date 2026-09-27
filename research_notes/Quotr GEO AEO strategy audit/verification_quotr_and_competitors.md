@@ -1,3 +1,8 @@
+---
+type: research-note
+description: Fact-check of the Quotr and competitor notes. Its corrections override the other notes.
+date: 2026-09-25
+---
 # Verification: Quotr.ai facts, competitor numbers, and AI visibility results (fact-check, 2026-09-25)
 
 **Corrections in this file override the original notes.** It covers:

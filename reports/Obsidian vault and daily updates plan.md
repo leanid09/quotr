@@ -1,7 +1,15 @@
+---
+type: report
+description: The plan for turning the brain into a working Obsidian vault and keeping it fresh every day with Claude.
+date: 2026-09-25
+---
 # How to make the Quotr GEO brain a better Obsidian vault, and keep it fresh every day
 
+> [!success] Update, 2026-09-25: steps 1–6 are done
+> The vault now works as described here. Start at [[Home]] or [[Start here]]; the full list of changes is in the [[Changelog]]. Two things were done differently: facts stay as text in the fact sheet (embeds would break sentences), and Claude never writes in daily notes. Still to do: step 7 (Obsidian Git on your laptop), step 8 (scheduled Claude runs) and the optional step 9 (a shared website).
+
 **Date:** 2026-09-25
-**Based on:** a structural check of all 68 brain pages, plus research into Obsidian best practices ([notes](<../research_notes/obsidian_vault_best_practices.md>)).
+**Based on:** a structural check of all 68 brain pages, plus research into Obsidian best practices ([[obsidian_vault_best_practices|notes]]).
 
 ---
 

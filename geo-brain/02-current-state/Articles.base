@@ -1,0 +1,269 @@
+filters:
+  and:
+  - type == "article"
+  - '!file.inFolder("geo-brain/_meta/note-templates")'
+formulas:
+  ID: file.asLink(id)
+  Days live: (today() - published).days
+properties:
+  file.name:
+    displayName: Article
+  formula.ID:
+    displayName: ID
+  formula.Days live:
+    displayName: Days live
+  note.title:
+    displayName: Title
+  note.published:
+    displayName: Published
+  note.month:
+    displayName: Month
+  note.cluster:
+    displayName: Cluster
+  note.format:
+    displayName: Format
+  note.byline:
+    displayName: Byline
+  note.primary_query:
+    displayName: Main buyer question
+  note.web_indexed:
+    displayName: In web search
+  note.search_check:
+    displayName: Search check
+  note.ai_cited:
+    displayName: Cited by AI (Sept tests)
+  note.old_pricing:
+    displayName: Old price
+  note.flags:
+    displayName: Flags
+  note.health:
+    displayName: Health
+  note.health_score:
+    displayName: Score
+  note.action:
+    displayName: Action
+  note.merge_into:
+    displayName: Merge into
+  note.priority:
+    displayName: Priority
+  note.rank:
+    displayName: Order
+  note.status:
+    displayName: Status
+newItemFolder: geo-brain/02-current-state/articles
+newItemTemplate: geo-brain/_meta/note-templates/Article.md
+views:
+- type: table
+  name: Refresh queue
+  filters:
+    or:
+    - status == "todo"
+    - status == "doing"
+  order:
+  - file.name
+  - note.action
+  - note.priority
+  - note.health
+  - note.flags
+  - note.status
+  sort:
+  - property: note.rank
+    direction: ASC
+  limit: 15
+  columnSize:
+    file.name: 420
+    note.flags: 300
+- type: table
+  name: Full refresh plan
+  filters:
+    or:
+    - status == "todo"
+    - status == "doing"
+  groupBy:
+    property: note.action
+    direction: ASC
+  order:
+  - note.rank
+  - file.name
+  - note.priority
+  - note.health_score
+  - note.merge_into
+  - note.flags
+  - note.status
+  sort:
+  - property: note.rank
+    direction: ASC
+  columnSize:
+    file.name: 420
+- type: table
+  name: All articles
+  order:
+  - formula.ID
+  - note.title
+  - note.published
+  - note.cluster
+  - note.format
+  - note.byline
+  - note.health
+  - note.action
+  - note.status
+  sort:
+  - property: note.published
+    direction: ASC
+  columnSize:
+    note.title: 380
+- type: table
+  name: Worst health first
+  order:
+  - file.name
+  - note.health_score
+  - note.health
+  - note.action
+  - note.flags
+  - note.ai_cited
+  sort:
+  - property: note.health_score
+    direction: ASC
+  columnSize:
+    file.name: 420
+- type: table
+  name: By month
+  groupBy:
+    property: note.month
+    direction: ASC
+  order:
+  - file.name
+  - note.published
+  - note.cluster
+  - note.format
+  - note.byline
+  sort:
+  - property: note.published
+    direction: ASC
+  summaries:
+    note.published: Filled
+  columnSize:
+    file.name: 420
+- type: table
+  name: By cluster
+  groupBy:
+    property: note.cluster
+    direction: ASC
+  order:
+  - file.name
+  - note.published
+  - note.health
+  - note.action
+  - note.ai_cited
+  sort:
+  - property: note.published
+    direction: ASC
+  summaries:
+    note.health_score: Average
+  columnSize:
+    file.name: 420
+- type: table
+  name: By byline
+  groupBy:
+    property: note.byline
+    direction: ASC
+  order:
+  - file.name
+  - note.published
+  - note.cluster
+  - note.health
+  sort:
+  - property: note.published
+    direction: ASC
+  columnSize:
+    file.name: 420
+- type: table
+  name: Cited by AI
+  filters:
+    and:
+    - ai_cited == true
+  order:
+  - file.name
+  - note.cited_in
+  - note.health
+  - note.action
+  sort:
+  - property: note.published
+    direction: ASC
+  columnSize:
+    file.name: 420
+- type: table
+  name: Old price still showing
+  filters:
+    and:
+    - old_pricing == "yes"
+  order:
+  - file.name
+  - note.published
+  - note.action
+  - note.status
+  sort:
+  - property: note.rank
+    direction: ASC
+  columnSize:
+    file.name: 420
+- type: table
+  name: Merge or retire
+  filters:
+    or:
+    - action == "merge"
+    - action == "retire"
+  order:
+  - file.name
+  - note.action
+  - note.merge_into
+  - note.status
+  sort:
+  - property: note.rank
+    direction: ASC
+  columnSize:
+    file.name: 420
+    note.merge_into: 420
+- type: table
+  name: Not found in web search
+  filters:
+    and:
+    - web_indexed == "no"
+  order:
+  - file.name
+  - note.published
+  - note.primary_query
+  - note.action
+  sort:
+  - property: note.published
+    direction: ASC
+  columnSize:
+    file.name: 420
+- type: table
+  name: Newest 10
+  order:
+  - file.name
+  - note.published
+  - note.byline
+  - note.health
+  sort:
+  - property: note.published
+    direction: DESC
+  limit: 10
+  columnSize:
+    file.name: 420
+- type: table
+  name: For this prompt
+  filters:
+    and:
+    - target_prompts.contains(this)
+  order:
+  - file.name
+  - note.health
+  - note.action
+  - note.search_check
+  sort:
+  - property: note.published
+    direction: ASC
+  columnSize:
+    file.name: 420

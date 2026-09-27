@@ -1,3 +1,8 @@
+---
+type: research-note
+description: 'Raw notes: who owns AI answers in Quotr''s category, competitor content tactics and white space.'
+date: 2026-09-25
+---
 # Competitor GEO/Content Benchmark: AI Construction Takeoff, Estimating and Procurement Software (as of 2026-09-25)
 
 Method note (applies to all sections): Live AI-answer tests were run on 2026-09-25 through `mcp__Slashy__web_search`, which is a Perplexity **Sonar** answer engine (the tool returns `"model": "sonar"`). Each prompt was run **once**; answers are non-deterministic, and ChatGPT, Google AI Overviews/AI Mode, Gemini and Claude were NOT tested. `mcp__Slashy__scrape_url` returned "Rate limit exceeded. Retry after ~2820 seconds" on the first two calls, so competitor sitemaps, blog-index post counts, llms.txt files and on-page structure could not be read directly; evidence below comes from search-engine result listings (WebSearch) plus Perplexity answers and their citation lists. "Observed" = seen in a tool result; "Inferred" = my reasoning.

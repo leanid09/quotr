@@ -1,3 +1,8 @@
+---
+type: research-note
+description: 'Raw notes: the signals AI answer engines use to find, mention and cite content (September 2026).'
+date: 2026-09-25
+---
 # What signals AI answer engines use to surface, mention and cite content: evidence as of September 2026
 
 *How these notes were gathered (read this first):* The Slashy `scrape_url` tool hit a rate limit on its first call ("Retry after 2447 seconds"). WebFetch returned EGRESS_BLOCKED for developers.google.com. So **no full page was read directly in this session.** Every finding below comes from search-engine result summaries (WebSearch) or from Perplexity Sonar answers (Slashy `web_search`) that cite the URLs given. The numbers match across several independent summaries, but the report writer should treat exact figures as "reported by X", not as quotes checked against the full text. "Vendor" marks studies from companies that sell AI-visibility, SEO or review products, since they have a commercial interest in the result. Today's date is 2026-09-25.
