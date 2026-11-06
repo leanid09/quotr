@@ -45,7 +45,7 @@ ICP 6 is defined by a **moment** more than by a firm type: a sponsor who needs a
 ## B. Geography
 
 ### Takeaway
-Hard costs differ by multiples across the metros this ICP builds in. California production costs run about **2.3× Texas per rentable sq ft**, the Bay Area carries an **$81/sq ft premium and LA $35/sq ft** over the rest of California, and forum anecdotes range from **~$120/sq ft (Indianapolis) to $400–$800+/sq ft (LA fire rebuild)**. Rules also differ: Texas SB 840 and SB 15 took effect Sept 1, 2025, and OZ 2.0 maps take effect Jan 1, 2027. So **a small set of data-backed metro pages is justified**; templated city pages are not. Priority for Quotr: Bay Area, LA, Texas (Austin/DFW), the Pacific Northwest, then Florida.
+Hard costs differ by multiples across the metros this ICP builds in. California production costs run about **2.3× Texas per rentable sq ft**, the Bay Area carries an **$81/sq ft premium and LA $35/sq ft** over the rest of California, and forum and AI-answer figures range from **$80–90/sq ft (a Central Florida stock-plan block duplex) and $120–140 (Indianapolis) to $400–$800+/sq ft (LA fire rebuild)**. Rules also differ: Texas SB 840 and SB 15 took effect Sept 1, 2025, and OZ 2.0 maps take effect Jan 1, 2027. So **a small set of data-backed metro pages is justified**; templated city pages are not. Priority for Quotr: Bay Area, LA, Texas (Austin/DFW), the Pacific Northwest, then Florida.
 
 ### Cited Findings
 - Controlling for project characteristics, hard costs were **$81/sq ft higher in the Bay Area** and **$35/sq ft higher in the LA region** than in the rest of California. Prevailing-wage projects cost **$30/sq ft more**. Per-sq-ft hard costs rose **25%** over 2009–2018 (240 projects) — [Terner Center 2020](https://ternercenter.berkeley.edu/wp-content/uploads/2020/08/Hard_Construction_Costs_March_2020.pdf) (data now 7+ years old; no newer Terner per-sq-ft update was found)
@@ -151,7 +151,7 @@ The buyer is a deal-maker whose identity rests on "finding the deal". Optimism s
 ## E. Four forces (verbatim quotes)
 
 ### Takeaway
-Push comes from overruns and hidden site costs. Pull is toward a calculator, a breakdown or validation. Anxiety centers on the GC relationship and on whether the number survives scrutiny. Habit is the comps-minus-land rule of thumb and a single $/sq ft. Fourteen verbatim items with URLs follow. All are BiggerPockets search-index snippets or thread titles; Reddit, LinkedIn and podcast quotes could not be collected.
+Push comes from overruns and hidden site costs. Pull is toward a calculator, a breakdown or validation. Anxiety centers on the GC relationship and on whether the number survives scrutiny. Habit is the comps-minus-land rule of thumb and a single $/sq ft. Sixteen verbatim items with URLs follow. All are BiggerPockets search-index snippets or thread titles; Reddit, LinkedIn and podcast quotes could not be collected.
 
 ### Cited Findings
 **Push (situation is unbearable)**
@@ -313,7 +313,7 @@ Alternatives are the GC's free precon budget (paid for by the expected job), the
 ## I. Willingness to pay, price anchors, payer, sales cycle
 
 ### Takeaway
-At **$0.25/sq ft, Quotr Service costs $1,000 for a 4,000 sq ft fourplex and $2,500 for a 10,000 sq ft project**, roughly 0.04–0.13% of hard costs at the $/sq ft ranges AI answers already quote. That is trivial next to the risks it addresses: one 1% loan-extension fee on $3M is $30,000. The price is not the barrier. Credibility (lender acceptance, a named preparer) and the turnaround promise are. Note a **pricing cliff**: as published, a 49,000 sq ft project costs $12,250 and a 50,000 sq ft project $5,000, unless the tiers are marginal.
+At **$0.25/sq ft, Quotr Service costs $1,000 for a 4,000 sq ft fourplex and $2,500 for a 10,000 sq ft project**, about 0.04–0.11% of hard costs at the $220–$700/sq ft range AI answers already quote (about 0.13–0.14% at Austin's $180–200 forum quotes). That is trivial next to the risks it addresses: one 1% loan-extension fee on $3M is $30,000. The price is not the barrier. Credibility (lender acceptance, a named preparer) and the turnaround promise are. Note a **pricing cliff**: as published, a 49,000 sq ft project costs $12,250 and a 50,000 sq ft project $5,000, unless the tiers are marginal.
 
 ### Cited Findings
 - Quotr Service: **$0.25/sq ft under 50,000 sq ft; $0.10/sq ft for 50,000+ sq ft**; "Pricing is sent before we process your documents"; development cost estimates in **3–4 business days**, pro formas in **2–3** (/pricing/); conflicting "as fast as 24 hours", "72 hours" (Developer Desk), "1–3 business days" (llms.txt), "5–7 days" (schema) — repo `product-and-features.md`, `entity-fact-sheet.md` (from [quotr.ai/pricing/](https://quotr.ai/pricing/), [quotr.ai/service/](https://quotr.ai/service/), [Developer Desk post](https://quotr.ai/blog/quotr-developer-desk-underwriting-grade-estimates-72-hours/))
@@ -505,7 +505,7 @@ Twelve persona-loaded prompts, six short category prompts and three brand prompt
 ## O. Simulation
 
 ### Takeaway
-(1) A **simulated** five-turn ChatGPT journey shows Quotr entering only if the buyer names it, because today's retrieval pool for this persona is forums, calculators, lender blogs, research PDFs and incumbents. (2) Nine open-web searches made during this research, used as **retrieval proxies (not AI engine answers)**, returned Quotr in **0 of 9**. Real Perplexity runs from the September audit show Quotr absent in five developer prompts and cited-not-named in one. (3) The most winnable clusters are local cost (metro × product) and outsourced developer estimating, where the content pool is thin or Quotr is already retrieved.
+(1) A **simulated** five-turn ChatGPT journey shows Quotr entering only if the buyer names it, because today's retrieval pool for this persona is forums, calculators, lender blogs, research PDFs and incumbents. (2) Nine open-web searches made during this research, used as **retrieval proxies (not AI engine answers)**, returned Quotr in **0 of 9**. Real Perplexity runs from the September audit show Quotr absent in four developer prompts (C8, P3, S10, S12) and cited-not-named in one (C12). (3) The most winnable clusters are local cost (metro × product) and outsourced developer estimating, where the content pool is thin or Quotr is already retrieved.
 
 ### Cited Findings
 **O.2 Retrieval proxy table — open-web WebSearch results, 2026-11-06 (retrieval proxy, not an AI engine answer).** These were research queries, not the planned fan-out set; bias notes in the last column.
@@ -657,7 +657,7 @@ The cost-spread, regulation-date, Quotr-pricing and retrieval-pool facts are sol
 | Psychology | Anchoring, defaults and temporal landmarks robust; social proof and choice overload weak; time pressure → noncompensatory choice; trust in AI alone 5% over $500 | $/sq ft is the dominant anchor; the GC's number is the status-quo default | Ex-flipper identity effects on WTP |
 | Alternatives | AI answers name ConstructionOnline, RSMeans, Autodesk, estimating firms; calculators dominate pre-plan queries; Meltplan/Exayard cited for MF cost | GC precon is "free" but conflicted | Consultant fee levels; RSMeans use by this ICP |
 | Quotr | $0.25/$0.10 per sq ft; Lite $79.90, Plus $299.90; turnaround conflict; samples mostly commercial; C12 cited-not-named; Bay Area procurement cards; LA rebuild sample | 49k vs 50k sq ft pricing cliff (if flat tier); per-project Service fits 1–3 deals/yr | Lender acceptance of Quotr estimates; index publishable from Service data |
-| GEO | Quotr absent in 0/9 proxy searches and 5 of 6 repo developer runs; BP threads dominate open-web cost retrieval; thin programmatic "2026 price guide" pages rank | Local-cost and developer-estimating clusters are the fastest wins | Specific timelines to first citation |
+| GEO | Quotr absent in 9/9 proxy searches and in 4 of 5 repo developer runs (cited-not-named in C12); BP threads dominate open-web cost retrieval; thin programmatic "2026 price guide" pages rank | Local-cost and developer-estimating clusters are the fastest wins | Specific timelines to first citation |
 
 ### Gaps
 - Run the 8 fan-out prompts (section O Gaps). Pull Census CBP/BPS and the HCD APR dashboard. Collect Reddit, LinkedIn and podcast verbatims and channel member counts. Get cost-consultant and paid-precon fees. Run 6–12 switch interviews with recent Quotr Service developer buyers (BiltWise first) and ask, "what exactly did you type, and where?"
