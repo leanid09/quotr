@@ -541,7 +541,7 @@ Build one MEP-estimating-team hub, six decision pages anchored on incumbents and
 |---|---|---|---|---|---|
 | 1 | Hub | AI Takeoff for MEP Estimating Teams (2–10 Estimators): Electrical, Mechanical, Plumbing, Fire, Glazing | /mep-estimating-teams/ | C | M3, M5 |
 | 2 | Decision (U) | Bluebeam Revu 20 End of Life (Dec 31, 2026): What MEP Estimators Should Do Before the Deadline | /guides/bluebeam-revu-20-end-of-life-estimators/ | U | M1 |
-| 3 | Decision | Trimble Accubid Alternatives for Electrical and MEP Estimating Teams (2026) — including "keep Accubid, add AI counts" | /compare/accubid-alternatives/ | C | M3, M10-type |
+| 3 | Decision | Trimble Accubid Alternatives for Electrical and MEP Estimating Teams (2026) — including "keep Accubid, add AI counts" | /compare/accubid-alternatives/ | C | M3, F10 |
 | 4 | Decision | ConEst IntelliBid vs Accubid vs McCormick vs AI Takeoff: An Honest 2026 Comparison for Electrical Contractors | /compare/conest-vs-accubid-vs-mccormick/ | C | F12 |
 | 5 | Decision | QuoteSoft / Trimble Estimation MEP Alternatives for Mechanical and Plumbing Contractors | /compare/trimble-estimation-mep-alternatives/ | C | F2, F3 |
 | 6 | Decision | On-Screen Takeoff Alternatives (2026) for Commercial Subcontractors | /compare/on-screen-takeoff-alternatives/ | C | F4 |
